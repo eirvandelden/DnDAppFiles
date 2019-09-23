@@ -245,4 +245,815 @@
 			<attack>Ray of Frost|4|1d8</attack>
 		</action>
 	</monster>
+		<monster>
+		<name>Air Elemental Myrmidon</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<save />
+		<skill />
+		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Auran, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three flail attacks.</text>
+		</action>
+		<action>
+			<name>Flail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage.</text>
+			<attack>Flail|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Lightning Strike (Recharge 6)</name>
+			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
+			<text />
+			<text>Stunned:</text>
+			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
+			<text />
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage.</text>
+			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Allip</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>40 (9d8)</hp>
+		<speed>0 ft., fly 40 ft. (hover)</speed>
+		<str>6</str>
+		<dex>17</dex>
+		<con>10</con>
+		<int>17</int>
+		<wis>15</wis>
+		<cha>16</cha>
+		<save>Int +6, Wis +5</save>
+		<skill>Perception +5, Stealth +6</skill>
+		<resist>acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>cold; necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>15</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>An allip doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The allip can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+		</trait>
+		<action>
+			<name>Maddening Touch</name>
+			<text>Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) psychic damage.</text>
+			<attack>Maddening Touch|6|4d6+3</attack>
+		</action>
+		<action>
+			<name>Whispers of Madness</name>
+			<text>The allip chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and undead are immune to this effect.</text>
+		</action>
+		<action>
+			<name>Howling Babble (Recharge 6)</name>
+			<text>Each creature within 30 feet of the allip that can hear it must make a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3) psychic damage, and it is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned. Constructs and undead are immune to this effect.</text>
+			<text />
+			<text>Stunned:</text>
+			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
+			<text />
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage.</text>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+		<monster>
+		<name>Archer</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>any alignment</alignment>
+		<ac>16 (studded leather armor)</ac>
+		<hp>75 (10d8+30)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>18</dex>
+		<con>16</con>
+		<int>11</int>
+		<wis>13</wis>
+		<cha>10</cha>
+		<save />
+		<skill>Acrobatics +6, Perception +5</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>15</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Archer's Eye</name>
+			<text>As a bonus action, the archer can add 1d10 to its next attack or damage roll with a longbow or shortbow.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The archer makes two attacks with its longbow.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Shortsword|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft, one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<attack>Longbow|6|1d8+4</attack>
+		</action>
+		<spells />
+	</monster>
+		<monster>
+		<name>Dark Tide Knight</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<description>Source: Princes of the Apocalypse</description>
+		<alignment>lawful evil</alignment>
+		<ac>13</ac>
+		<hp>58 (9d8+18)</hp>
+		<speed>30 ft.</speed>
+		<str>17</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>11</cha>
+		<skill>Athletics +7, Stealth +7</skill>
+		<passive>10</passive>
+		<languages>Common</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Bonded Mount</name>
+			<text>The knight is magically bound to a beast with an innate swimming speed trained to serve as its mount. While mounted on this beast, the knight gains the beast's senses and ability to breathe underwater. The bonded mount obeys the knight's commands. If its mount dies, the knight can train a new beast to serve as its bonded mount, a process requiring a month.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack</name>
+			<text>The knight deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the knight that isn't incapacitated and the knight doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||2d6</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The knight makes two shortsword attacks.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Lance</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage.</text>
+			<attack>Lance|5|1d12+3</attack>
+		</action>
+		<reaction>
+			<name>Uncanny Dodge</name>
+			<text>When an attacker the knight can see hits it with an attack, the knight can halve the damage against it.</text>
+		</reaction>
+	</monster>
+		<monster>
+		<name>Flail Snail</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Tomb of Annihilation</description>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>52 (5d10 + 25)</hp>
+		<speed>10 ft.</speed>
+		<str>17</str>
+		<dex>5</dex>
+		<con>20</con>
+		<int>3</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<save />
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Antimagic Shell</name>
+			<text>The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a d6:</text>
+			<text>1-2. If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, if has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting abilityofthe caster.</text>
+			<text>3-4. No additional effect.</text>
+			<text>5-6. The snail's shell comverts some of the spell's energy into a burst of destructive force. Each creature within 30 feet ofthe snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one.</text>
+		</trait>
+		<trait>
+			<name>Flail Tentacles</name>
+			<text>The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within 1d4 days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies Sd6 minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.</text>
+			<roll>5d6</roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The flail snail makes as many Flail Tentacle attacks as it has flail tentacles, all against the same target.</text>
+		</action>
+		<action>
+			<name>Flail Tentacle</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Flail Tentacle|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Scintillating Shell (Recharges after a Short or Long Rest)</name>
+			<text>The snail's shell emits dazzling, colored light until the endofthe snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC 15 Wisdom saving throw or be stunned until the light ends.</text>
+		</action>
+		<action>
+			<name>Shell Defense</name>
+			<text>The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.</text>
+		</action>
+	</monster>
+		<monster>
+		<name>Huge Giant Crab</name>
+		<size>H</size>
+		<type>beast</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>161 (14d12 + 70)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>20</str>
+		<dex>15</dex>
+		<con>20</con>
+		<int>1</int>
+		<wis>9</wis>
+		<cha>3</cha>
+		<skill>Stealth +4</skill>
+		<conditionImmune>charmed, frightened, paralyzed</conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>9</passive>
+		<cr>8</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The crab can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 27 (4d10 + 5) bludgeoning damage, and the target is grappled (escape DC 14). The crab has two claws, each of which can grapple only one target.</text>
+			<attack>Claw|9|4d10+5</attack>
+		</action>
+	</monster>
+		<monster>
+		<name>Kobold Dragonshield</name>
+		<size>S</size>
+		<type>humanoid (kobold)</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (leather armor, shield)</ac>
+		<hp>44 (8d6+16)</hp>
+		<speed>20 ft.</speed>
+		<str>12</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>8</int>
+		<wis>9</wis>
+		<cha>10</cha>
+		<save />
+		<skill>Perception +1</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Dragon's Resistance</name>
+			<text>The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, acid (black); 3-4, cold (white); 5-6, fire (red); 7-8, lightning (blue); 9-10, poison (green).</text>
+		</trait>
+		<trait>
+			<name>Heart of the Dragon</name>
+			<text>If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The kobold makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (ld6+l) piercing damage, or 5 (ld8+l) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|3|ld6+l</attack>
+			<attack>Two Handed|2|1d8+1</attack>
+		</action>
+		<spells />
+	</monster>
+		<monster>
+		<name>Kraken Priest</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>any evil alignment</alignment>
+		<ac>10</ac>
+		<hp>75 (10d8+30)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>12</str>
+		<dex>10</dex>
+		<con>16</con>
+		<int>10</int>
+		<wis>15</wis>
+		<cha>14</cha>
+		<save />
+		<skill>Perception +5</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>15</passive>
+		<languages>any two languages</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The priest can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
+			<text>At will: command, create or destroy water</text>
+			<text>3/day each: control water, darkness, water breathing, water walk</text>
+			<text>1/day each: call lightning, Evard's black tentacles</text>
+		</trait>
+		<action>
+			<name>Thunderous Touch</name>
+			<text>Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: 27 (5d10) thunder damage.</text>
+			<attack>Thunderous Touch|5|5d10</attack>
+		</action>
+		<action>
+			<name>Voice of the Kraken (Recharges after a Short or Long Rest)</name>
+			<text>A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</action>
+		<spells>Command, Create or Destroy Water, Control Water, Darkness, Water Breathing, Water Walk, Call Lightning, Evard's Black Tentacles</spells>
+	</monster>
+		<monster>
+		<name>Lizardfolk Subchief</name>
+		<size>M</size>
+		<type>humanoid (lizardfolk)</type>
+		<description>Source: Ghosts of Saltmarsh</description>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>52 (8d8 + 16)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>14</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>16</wis>
+		<cha>12</cha>
+		<save>Wis +5</save>
+		<skill>Athletics +4, Perception +5, Survival +5</skill>
+		<vulnerable />
+		<resist />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>15</passive>
+		<languages>Draconic</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Hold Breath</name>
+			<text>The subchief can hold its breath for 15 minutes.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The subchief is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +S to hit with spell attacks). It has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): light, sacred flame, spare the dying, thaumaturgy</text>
+			<text>1st level (4 slots): command, guiding bolt, purify food and drink</text>
+			<text>2nd level (3 slots): hold person, lesser restoration, silence</text>
+			<text>3rd level (2 slots): bestow curse, dispel magic</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
+		<spells>Light, Sacred Flame, Spare the Dying, Thaumaturgy, Command, Guiding Bolt, Purify Food and Drink, Hold Person, Lesser Restoration, Silence, Bestow Curse, Dispel Magic</spells>
+		<action>
+			<name>Tooth Dagger</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Tooth Dagger|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Jaws of Semuanya (Recharge 5-6)</name>
+			<text>The subchief invokes the primal magic of Semuanya, summoning a spectral maw around a target it can see within 60 feet of it. The target must make a DC 13 Dexterity saving throw, taking 22 (5d8) piercing damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw is also frightened until the end of its next turn.</text>
+			<attack>Jaws of Semuanya||5d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Lizardfolk Render</name>
+		<size>L</size>
+		<type>humanoid (lizardfolk)</type>
+		<description>Source: Ghosts of Saltmarsh</description>
+		<alignment>neutral</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>52 (7d10 + 14)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>16</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>7</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<save />
+		<skill>Athletics +5, Perception +3, Survival +5</skill>
+		<vulnerable />
+		<resist />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>13</passive>
+		<languages>Draconic</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Blood Frenzy</name>
+			<text>The render has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		</trait>
+		<trait>
+			<name>Hold Breath</name>
+			<text>The render can hold its breath for 15 minutes.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The render makes two attacks: one with its claws and one with its bite.</text>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</text>
+			<attack>Claws|5|2d8+3</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</text>
+			<attack>Bite|5|1d10+3</attack>
+		</action>
+		<action>
+			<name>Rend the Field (Recharge 5-6)</name>
+			<text>The render makes a claw attack against each creature of its choice within 10 feet of it. A creature hit by this attack must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+		</action>
+	</monster>
+		<monster>
+		<name>Master Thief</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>any alignment</alignment>
+		<ac>16 (studded leather armor)</ac>
+		<hp>83 (13d8+26)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<save>Dex +7, Int +3</save>
+		<skill>Acrobatics +7, Athletics +3, Perception +3, Sleight of Hand +7, Stealth +7</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>13</passive>
+		<languages>any one language (usually Common) plus thieves' cant</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack| |4d6</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The thief makes three attacks with its shortsword.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Shortsword|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Light Crossbow</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<attack>Light Crossbow|7|1d8+4</attack>
+		</action>
+		<reaction>
+			<name>Uncanny Dodge</name>
+			<text>The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker.</text>
+		</reaction>
+		<spells />
+	</monster>
+		<monster>
+		<name>Rot Troll</name>
+		<size>L</size>
+		<type>giant</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>138 (12d10+72)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>13</dex>
+		<con>22</con>
+		<int>5</int>
+		<wis>8</wis>
+		<cha>4</cha>
+		<save />
+		<skill>Perception +3</skill>
+		<resist />
+		<vulnerable />
+		<immune>necrotic</immune>
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Giant</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Rancid Degeneration</name>
+			<text>At the end of each of the troll's turns, each creature within 5 feet of it takes 11 (2d10) necrotic damage, unless the troll has taken acid or fire damage since the end of its last turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The troll makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 16 (3d10) necrotic damage.</text>
+			<attack>Bite|8|1d6+4+3d10</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 5 (1d10) necrotic damage.</text>
+			<attack>Claws|8|2d6+4+1d10</attack>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Skull Flier</name>
+		<size>M</size>
+		<type>construct</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>24 (3d8)</hp>
+		<speed>10 ft., fly 50 ft.</speed>
+		<str>10</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill>Stealth +4</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>poison, psychic</immune>
+		<conditionImmune>charmed, frightened, paralyzed, petrified, poisoned</conditionImmune>
+		<senses>darkvision 60ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<action>
+			<name>Sting</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<attack>Sting|4|5</attack>
+			<attack>Sting (poison)||3d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Star Spawn Mangler</name>
+		<size>M</size>
+		<type>aberration</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>chaotic evil</alignment>
+		<ac>14</ac>
+		<hp>71 (13d8+13)</hp>
+		<speed>40 ft., climb 40 ft.</speed>
+		<str>8</str>
+		<dex>18</dex>
+		<con>12</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<save>Dex +7, Con +4</save>
+		<skill>Stealth +7</skill>
+		<resist>cold</resist>
+		<vulnerable />
+		<immune>psychic</immune>
+		<conditionImmune>charmed, frightened, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Deep Speech</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Ambush</name>
+			<text>On the first round of each combat, the mangler has advantage on attack rolls against a creature that hasn't taken a turn yet.</text>
+		</trait>
+		<trait>
+			<name>Shadow Stealth</name>
+			<text>While in dim light or darkness, the mangler can take the Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The mangler makes two claw attacks.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage. If the attack roll has advantage, the target also takes 7 (2d6) psychic damage.</text>
+			<attack>Claw|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Flurry of Claws (Recharge 4_6)</name>
+			<text>The mangler makes six claw attacks against one target. Either before or after these attacks, it can move up to its speed as a bonus action without provoking opportunity attacks.</text>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Statue of Talos</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>147 (14d10 + 70)</hp>
+		<speed>30 ft., fly 60 ft.</speed>
+		<str>19</str>
+		<dex>11</dex>
+		<con>20</con>
+		<int>6</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<save>Wis +4</save>
+		<skill>Perception +4</skill>
+		<vulnerable></vulnerable>
+		<resist>bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, petrified, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Terran</languages>
+		<cr>10</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the statue remains motionless, it is indistinguishable from an inanimate statue.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The statue makes five attacks: one with its headbutt and four with its lightning bolt blades.</text>
+		</action>
+		<action>
+			<name>Headbutt</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Headbutt|8|2d6+4</attack>
+		</action>
+		<action>
+			<name>Lightning Bolt Blades</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.</text>
+			<attack>Lightning Bolt Blades|8|2d4+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Swashbuckler</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>any non-lawful alignment</alignment>
+		<ac>17 (leather armor)</ac>
+		<hp>66 (12d8+12)</hp>
+		<speed>30 ft.</speed>
+		<str>12</str>
+		<dex>18</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>11</wis>
+		<cha>15</cha>
+		<save />
+		<skill>Acrobatics +8, Athletics +5, Persuasion +6</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Lightfooted</name>
+			<text>The swashbuckler can take the Dash or Disengage action as a bonus action on each of its turns.</text>
+		</trait>
+		<trait>
+			<name>Suave Defense</name>
+			<text>While the swashbuckler is wearing light or no armor and wielding no shield, its AC includes its Charisma modifier.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The swashbuckler makes three attacks: one with a dagger and two with its rapier.</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4+4) piercing damage.</text>
+			<attack>Dagger|6|1d4+4</attack>
+		</action>
+		<action>
+			<name>Rapier</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<attack>Rapier|6|1d8+4</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Tooth-N-Claw</name>
+		<size>M</size>
+		<type>fiend</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>45 (7d8 + 14)</hp>
+		<speed>50 ft.</speed>
+		<str>17</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>6</int>
+		<wis>13</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill>Perception +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>cold</immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>15</passive>
+		<languages>understands Infernal but can’t speak it</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Keen Hearing and Smell</name>
+			<text>Tooth-N-Claw has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>Tooth-N-Claw has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn’t incapacitated.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) cold damage.</text>
+			<attack>Bite|5|1d8+3+2d6</attack>
+		</action>
+		<action>
+			<name>Freezing Breath (Recharge 5-6)</name>
+			<text>Tooth-N-Claw exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) cold damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Freezing Breath||6d6</attack>
+		</action>
+	</monster>
 </compendium>
