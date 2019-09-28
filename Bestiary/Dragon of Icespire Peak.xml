@@ -2183,5 +2183,98 @@
 			<attack>Slash (under 1/2hp)|4|1d8+2</attack>
 		</action>
 	</monster>
-
+	<monster>
+		<name>Lhammaruntosz</name>
+		<size>H</size>
+		<type>dragon</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful good</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>212 (17d12+102)</hp>
+		<speed>40 ft., fly 80 ft., swim 40 ft.</speed>
+		<str>25</str>
+		<dex>10</dex>
+		<con>23</con>
+		<int>16</int>
+		<wis>15</wis>
+		<cha>19</cha>
+		<save>Dex +5, Con +11, Wis +7, Cha +9</save>
+		<skill>Insight +7, Perception +12, Stealth +5</skill>
+		<immune>lightning</immune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>22</passive>
+		<languages>Common, Draconic</languages>
+		<cr>16</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The dragon can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Lhammaruntosz’s spellcasting ability is Charisma (spell save DC 17). She can innately cast the following spells, requiring no material components:</text>
+			<text>1/day each: create food and water, detect thoughts, fog cloud, speak with animals</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>Lhammaruntosz regains 5 hit points at the start of her turn.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Lhammaruntosz is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 17; +9 to hit with spell attacks). She has the following sorcerer spells prepared:</text>
+			<text>Cantrips (at will): light, mage hand, mending</text>
+			<text>1st level (4 slots): charm person, detect magic, expeditious retreat, sleep</text>
+			<text>2nd level (3 slots): darkness, invisibility,suggestion</text>
+			<text>3rd level (3 slots): dispel magic, protection from energy</text>
+			<text>4th level (2 slots): dimension door, stoneskin</text>
+		</trait>
+		<<spellAbility>Charisma</spellAbility>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
+		<spells>Create Food and Water, Detect Thoughts, Fog Cloud, Speak with Animals, Light, Mage Hand, Mending, Charm Person, Detect Magic, Expeditious Retreat, Sleep, Darkness, Invisibility, Suggestion, Dispel Magic, Protection from Energy, Dimension Door, Stoneskin</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage.</text>
+			<attack>Bite|12|2d10+7</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.</text>
+			<attack>Claw|12|2d6+7</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.</text>
+			<attack>Tail|12|2d8+7</attack>
+		</action>
+		<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+		</action>
+		<action>
+			<name>Breath Weapons (Recharge 5-6)</name>
+			<text>The dragon uses one of the following breath weapons.</text>
+			<text>Lightning Breath. The dragon exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Repulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 19 Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon.</text>
+			<attack>Lightning Breath||12d10</attack>
+		</action>
+		<legendary>
+			<name>Detect</name>
+			<text>The dragon makes a Wisdom (Perception) check.</text>
+		</legendary>
+		<legendary>
+			<name>Tail Attack</name>
+			<text>The dragon makes a tail attack.</text>
+		</legendary>
+		<legendary>
+			<name>Wing Attack (Costs 2 Actions)</name>
+			<text>The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+		</legendary>
+	</monster>
 </compendium>
