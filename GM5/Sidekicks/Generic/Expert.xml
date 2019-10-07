@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<characters version="5">
+	<npc>
+		<label>Expert</label>
+		<name>Expert 1</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>14 (studded leather)</ac>
+		<hp>11/11 (2d8 + 2)</hp>
+		<speed>30 ft.</speed>
+		<init>2</init>
+		<str>10</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +4</save>
+		<skill>Acrobatics +4</text>
+		<skill>Performance +4</text>
+		<skill>Persuasion +4</text>
+		<skill>Sleight of Hand +4</text>
+		<skill>Stealth +4</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>|+4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>|+4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>|+4|1d6+2</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 2</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>14 (studded leather)</ac>
+		<hp>16/16 (3d8 + 3)</hp>
+		<speed>30 ft.</speed>
+		<init>2</init>
+		<str>10</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +4</save>
+		<skill>Acrobatics +4</text>
+		<skill>Performance +4</text>
+		<skill>Persuasion +4</text>
+		<skill>Sleight of Hand +4</text>
+		<skill>Stealth +4</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>|+4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>|+4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>|+4|1d6+2</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 3</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>14 (studded leather)</ac>
+		<hp>22/22 (4d8 + 4)</hp>
+		<speed>30 ft.</speed>
+		<init>2</init>
+		<str>10</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +4</save>
+		<skill>Acrobatics +4</text>
+		<skill>Performance +4</text>
+		<skill>Persuasion +4</text>
+		<skill>Sleight of Hand +4</text>
+		<skill>Stealth +4</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>|+4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>|+4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>|+4|1d6+2</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 4</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>15 (studded leather)</ac>
+		<hp>27/27 (5d8 + 5)</hp>
+		<speed>30 ft.</speed>
+		<init>3</init>
+		<str>10</str>
+		<dex>17</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +5</save>
+		<skill>Acrobatics +5</text>
+		<skill>Performance +4</text>
+		<skill>Persuasion +4</text>
+		<skill>Sleight of Hand +5</text>
+		<skill>Stealth +5</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>|+5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>|+5|1d4+3</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>|+5|1d6+3</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 5</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>15 (studded leather)</ac>
+		<hp>33/33 (6d8 + 6)</hp>
+		<speed>30 ft.</speed>
+		<init>3</init>
+		<str>10</str>
+		<dex>17</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +6</save>
+		<skill>Acrobatics +6</text>
+		<skill>Performance +5</text>
+		<skill>Persuasion +5</text>
+		<skill>Sleight of Hand +6</text>
+		<skill>Stealth +6</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>|+6|1d6+3</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>|+6|1d4+3</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>|+6|1d6+3</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 6</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>15 (studded leather)</ac>
+		<hp>38/38 (7d8 + 7)</hp>
+		<speed>30 ft.</speed>
+		<init>3</init>
+		<str>10</str>
+		<dex>17</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +6</save>
+		<skill>Acrobatics +6</text>
+		<skill>Performance +5</text>
+		<skill>Persuasion +5</text>
+		<skill>Sleight of Hand +6</text>
+		<skill>Stealth +6</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Extra Attack</name>
+			<text>The expert can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+		</trait>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>|+6|1d6+3</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>|+6|1d4+3</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>|+6|1d6+3</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 7</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>15 (studded leather)</ac>
+		<hp>44/44 (8d8 + 8)</hp>
+		<speed>30 ft.</speed>
+		<init>3</init>
+		<str>10</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +6</save>
+		<skill>Acrobatics +9</text>
+		<skill>Performance +5</text>
+		<skill>Persuasion +5</text>
+		<skill>Sleight of Hand +6</text>
+		<skill>Stealth +9</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Evasion</name>
+			<text>When the expert is not incapacitated and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed.</text>
+		</trait>
+		<trait>
+			<name>Extra Attack</name>
+			<text>The expert can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+		</trait>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action, and the creature who receives the help gains a 1d6 bonus to the d20 roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack’s damage roll against one target.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>|+6|1d6+3</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>|+6|1d4+3</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>|+6|1d6+3</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 8</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>16 (studded leather)</ac>
+		<hp>49/49 (9d8 + 9)</hp>
+		<speed>30 ft.</speed>
+		<init>4</init>
+		<str>10</str>
+		<dex>18</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +7</save>
+		<skill>Acrobatics +10</text>
+		<skill>Performance +5</text>
+		<skill>Persuasion +5</text>
+		<skill>Sleight of Hand +7</text>
+		<skill>Stealth +10</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Evasion</name>
+			<text>When the expert is not incapacitated and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed.</text>
+		</trait>
+		<trait>
+			<name>Extra Attack</name>
+			<text>The expert can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+		</trait>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action, and the creature who receives the help gains a 1d6 bonus to the d20 roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack’s damage roll against one target.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>|+7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage.</text>
+			<attack>|+7|1d4+4</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>|+7|1d6+4</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 9</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>16 (studded leather)</ac>
+		<hp>55/55 (10d8 + 10)</hp>
+		<speed>30 ft.</speed>
+		<init>4</init>
+		<str>10</str>
+		<dex>18</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +8</save>
+		<skill>Acrobatics +12</text>
+		<skill>Performance +6</text>
+		<skill>Persuasion +6</text>
+		<skill>Sleight of Hand +8</text>
+		<skill>Stealth +12</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Evasion</name>
+			<text>When the expert is not incapacitated and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed.</text>
+		</trait>
+		<trait>
+			<name>Extra Attack</name>
+			<text>The expert can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+		</trait>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action, and the creature who receives the help gains a 1d6 bonus to the d20 roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack’s damage roll against one target.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>|+8|1d6+4</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage.</text>
+			<attack>|+8|1d4+4</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +8 to hit, range 80/320 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>|+8|1d6+4</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 10</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>17 (studded leather)</ac>
+		<hp>60/60 (11d8 + 11)</hp>
+		<speed>30 ft.</speed>
+		<init>4</init>
+		<str>10</str>
+		<dex>20</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +9</save>
+		<skill>Acrobatics +13</text>
+		<skill>Performance +6</text>
+		<skill>Persuasion +6</text>
+		<skill>Sleight of Hand +9</text>
+		<skill>Stealth +13</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Evasion</name>
+			<text>When the expert is not incapacitated and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed.</text>
+		</trait>
+		<trait>
+			<name>Extra Attack</name>
+			<text>The expert can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+		</trait>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action, and the creature who receives the help gains a 1d6 bonus to the d20 roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack’s damage roll against one target.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage.</text>
+			<attack>|+9|1d6+5</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage.</text>
+			<attack>|+9|1d4+5</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +9 to hit, range 80/320 ft., one target. Hit: 8 (1d6 + 5) piercing damage.</text>
+			<attack>|+9|1d6+5</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 11</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>17 (studded leather)</ac>
+		<hp>66/66 (12d8 + 12)</hp>
+		<speed>30 ft.</speed>
+		<init>4</init>
+		<str>10</str>
+		<dex>20</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>14</cha>
+		<save>Dexterity +9</save>
+		<skill>Acrobatics +13</text>
+		<skill>Performance +6</text>
+		<skill>Persuasion +6</text>
+		<skill>Sleight of Hand +9</text>
+		<skill>Stealth +13</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Reliable Talent</name>
+			<text>Whenever the expert makes an ability check that includes its whole proficiency bonus, it can treat a d20 roll of 9 or lower as a 10.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>When the expert is not incapacitated and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed.</text>
+		</trait>
+		<trait>
+			<name>Extra Attack</name>
+			<text>The expert can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+		</trait>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action, and the creature who receives the help gains a 1d6 bonus to the d20 roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack’s damage roll against one target.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage.</text>
+			<attack>|+9|1d6+5</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage.</text>
+			<attack>|+9|1d4+5</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +9 to hit, range 80/320 ft., one target. Hit: 8 (1d6 + 5) piercing damage.</text>
+			<attack>|+9|1d6+5</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Expert</label>
+		<name>Expert 12</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>17 (studded leather)</ac>
+		<hp>71/71 (13d8 + 13)</hp>
+		<speed>30 ft.</speed>
+		<init>4</init>
+		<str>10</str>
+		<dex>20</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>16</cha>
+		<save>Dexterity +9</save>
+		<skill>Acrobatics +13</text>
+		<skill>Performance +7</text>
+		<skill>Persuasion +7</text>
+		<skill>Sleight of Hand +9</text>
+		<skill>Stealth +13</skill>
+		<passive>10</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Reliable Talent</name>
+			<text>Whenever the expert makes an ability check that includes its whole proficiency bonus, it can treat a d20 roll of 9 or lower as a 10.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>When the expert is not incapacitated and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed.</text>
+		</trait>
+		<trait>
+			<name>Extra Attack</name>
+			<text>The expert can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+		</trait>
+		<trait>
+			<name>Expertise</name>
+			<text>Choose two of the expert’s skill proficiencies. The proficiency bonus is doubled for any ability check the expert makes that uses either of the chosen proficiencies.</text>
+		</trait>
+		<trait>
+			<name>Helpful</name>
+			<text>The expert can take the Help action as a bonus action, and the creature who receives the help gains a 1d6 bonus to the d20 roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack’s damage roll against one target.</text>
+		</trait>
+		<trait>
+			<name>Tools</name>
+			<text>The expert has thieves’ tools and a musical instrument.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On the expert’s turn in combat, it can take the Dash, Disengage, or Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage.</text>
+			<attack>|+9|1d6+5</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage.</text>
+			<attack>|+9|1d4+5</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +9 to hit, range 80/320 ft., one target. Hit: 8 (1d6 + 5) piercing damage.</text>
+			<attack>|+9|1d6+5</attack>
+		</action>
+	</npc>
+</characters>
