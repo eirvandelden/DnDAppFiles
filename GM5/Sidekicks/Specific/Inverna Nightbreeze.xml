@@ -10,20 +10,33 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +4</save>
+		<skill>Acrobatics +4</skill>
 		<skill>Athletics +4</skill>
 		<skill>Perception +3</skill>
 		<skill>Survival +3</skill>
 		<passive>13</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
+		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
 		</trait>
 		<action>
 			<name>Longsword</name>
@@ -33,8 +46,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+5|1d8+1</attack>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+5|1d8+2</attack>
 		</action>
 	</npc>
 	<npc>
@@ -47,17 +60,30 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +4</save>
+		<skill>Acrobatics +4</skill>
 		<skill>Athletics +4</skill>
 		<skill>Perception +3</skill>
 		<skill>Survival +3</skill>
 		<passive>13</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
@@ -66,8 +92,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+3|1d8+1</attack>
+			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+3|1d8+2</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -84,17 +110,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +4</save>
+		<skill>Acrobatics +4</skill>
 		<skill>Athletics +4</skill>
 		<skill>Perception +3</skill>
 		<skill>Survival +3</skill>
 		<passive>13</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Second Wind</name>
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
@@ -104,6 +131,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
@@ -112,8 +151,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+5|1d8+1</attack>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+5|1d8+2</attack>
 		</action>
 	</npc>
 	<npc>
@@ -126,21 +165,34 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +4</save>
+		<skill>Acrobatics +4</skill>
 		<skill>Athletics +4</skill>
 		<skill>Perception +3</skill>
 		<skill>Survival +3</skill>
 		<passive>13</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Second Wind</name>
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+2</roll>
+		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
 		</trait>
 		<action>
 			<name>Longsword</name>
@@ -150,8 +202,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+3|1d8+1</attack>
+			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+3|1d8+2</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -168,17 +220,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +4</save>
+		<skill>Acrobatics +4</skill>
 		<skill>Athletics +4</skill>
 		<skill>Perception +3</skill>
 		<skill>Survival +3</skill>
 		<passive>13</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Critical</name>
 			<text>Inverna’s attack rolls now score a critical hit on a roll of 19 or 20 on the d20.</text>
@@ -192,6 +245,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
@@ -200,8 +265,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+5|1d8+1</attack>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+5|1d8+2</attack>
 		</action>
 	</npc>
 	<npc>
@@ -214,17 +279,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +4</save>
+		<skill>Acrobatics +4</skill>
 		<skill>Athletics +4</skill>
 		<skill>Perception +3</skill>
 		<skill>Survival +3</skill>
 		<passive>13</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Critical</name>
 			<text>Inverna’s attack rolls now score a critical hit on a roll of 19 or 20 on the d20.</text>
@@ -234,6 +300,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+3</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
@@ -242,8 +320,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+3|1d8+1</attack>
+			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+3|1d8+2</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -260,17 +338,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +4</save>
+		<skill>Acrobatics +4</skill>
 		<skill>Athletics +5</skill>
 		<skill>Perception +3</skill>
 		<skill>Survival +3</skill>
 		<passive>13</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Critical</name>
 			<text>Inverna’s attack rolls now score a critical hit on a roll of 19 or 20 on the d20.</text>
@@ -284,6 +363,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
@@ -292,8 +383,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+5|1d8+1</attack>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+5|1d8+2</attack>
 		</action>
 	</npc>
 	<npc>
@@ -306,17 +397,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +4</save>
+		<skill>Acrobatics +4</skill>
 		<skill>Athletics +5</skill>
 		<skill>Perception +3</skill>
 		<skill>Survival +3</skill>
 		<passive>13</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Critical</name>
 			<text>Inverna’s attack rolls now score a critical hit on a roll of 19 or 20 on the d20.</text>
@@ -326,6 +418,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+4</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
@@ -334,8 +438,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+3|1d8+1</attack>
+			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+3|1d8+2</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -352,17 +456,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +5</save>
+		<skill>Acrobatics +5</skill>
 		<skill>Athletics +6</skill>
 		<skill>Perception +4</skill>
 		<skill>Survival +4</skill>
 		<passive>14</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Critical</name>
 			<text>Inverna’s attack rolls now score a critical hit on a roll of 19 or 20 on the d20.</text>
@@ -376,6 +481,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
@@ -384,8 +501,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+6|1d8+1</attack>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+6|1d8+2</attack>
 		</action>
 	</npc>
 	<npc>
@@ -398,17 +515,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +5</save>
+		<skill>Acrobatics +5</skill>
 		<skill>Athletics +6</skill>
 		<skill>Perception +4</skill>
 		<skill>Survival +4</skill>
 		<passive>14</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Critical</name>
 			<text>Inverna’s attack rolls now score a critical hit on a roll of 19 or 20 on the d20.</text>
@@ -418,6 +536,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+5</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
@@ -426,8 +556,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+4|1d8+1</attack>
+			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+4|1d8+2</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -444,17 +574,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +5</save>
+		<skill>Acrobatics +5</skill>
 		<skill>Athletics +6</skill>
 		<skill>Perception +4</skill>
 		<skill>Survival +4</skill>
 		<passive>14</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Extra Attack</name>
 			<text>Inverna can attack twice, instead of once, whenever she takes the Attack action on her turn.</text>
@@ -472,6 +603,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
@@ -480,8 +623,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+6|1d8+1</attack>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+6|1d8+2</attack>
 		</action>
 	</npc>
 	<npc>
@@ -494,17 +637,18 @@
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
-		<dex>13</dex>
+		<dex>15</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +5</save>
+		<skill>Acrobatics +5</skill>
 		<skill>Athletics +6</skill>
 		<skill>Perception +4</skill>
 		<skill>Survival +4</skill>
 		<passive>14</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Extra Attack</name>
 			<text>Inverna can attack twice, instead of once, whenever she takes the Attack action on her turn.</text>
@@ -518,6 +662,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+6</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
@@ -526,8 +682,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
-			<attack>|+4|1d8+1</attack>
+			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>|+4|1d8+2</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -544,17 +700,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>16</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +5</save>
+		<skill>Acrobatics +6</skill>
 		<skill>Athletics +6</skill>
 		<skill>Perception +4</skill>
 		<skill>Survival +4</skill>
 		<passive>14</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Battle Readiness</name>
 			<text>Inverna has advantage on initiative rolls.</text>
@@ -576,6 +733,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
@@ -584,8 +753,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+7|1d8+2</attack>
+			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+7|1d8+3</attack>
 		</action>
 	</npc>
 	<npc>
@@ -598,17 +767,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>16</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +5</save>
+		<skill>Acrobatics +6</skill>
 		<skill>Athletics +6</skill>
 		<skill>Perception +4</skill>
 		<skill>Survival +4</skill>
 		<passive>14</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Battle Readiness</name>
 			<text>Inverna has advantage on initiative rolls.</text>
@@ -626,6 +796,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+7</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
@@ -634,8 +816,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+5|1d8+2</attack>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+5|1d8+3</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -652,17 +834,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +5</save>
+		<skill>Acrobatics +6</skill>
 		<skill>Athletics +7</skill>
 		<skill>Perception +4</skill>
 		<skill>Survival +4</skill>
 		<passive>14</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Battle Readiness</name>
 			<text>Inverna has advantage on initiative rolls.</text>
@@ -684,6 +867,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
@@ -692,8 +887,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+7|1d8+2</attack>
+			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+7|1d8+3</attack>
 		</action>
 	</npc>
 	<npc>
@@ -706,17 +901,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +5</save>
+		<skill>Acrobatics +6</skill>
 		<skill>Athletics +7</skill>
 		<skill>Perception +4</skill>
 		<skill>Survival +4</skill>
 		<passive>14</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Battle Readiness</name>
 			<text>Inverna has advantage on initiative rolls.</text>
@@ -734,6 +930,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+8</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
@@ -742,8 +950,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+5|1d8+2</attack>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+5|1d8+3</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -760,17 +968,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +6</save>
+		<skill>Acrobatics +7</skill>
 		<skill>Athletics +8</skill>
 		<skill>Perception +5</skill>
 		<skill>Survival +5</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Indomitable (1/Day)</name>
 			<text>Inverna can reroll a saving throw that she fails but must use the new result.</text>
@@ -796,6 +1005,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
@@ -804,8 +1025,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+8|1d8+2</attack>
+			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+8|1d8+3</attack>
 		</action>
 	</npc>
 	<npc>
@@ -818,17 +1039,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +6</save>
+		<skill>Acrobatics +7</skill>
 		<skill>Athletics +8</skill>
 		<skill>Perception +5</skill>
 		<skill>Survival +5</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Indomitable (1/Day)</name>
 			<text>Inverna can reroll a saving throw that she fails but must use the new result.</text>
@@ -850,6 +1072,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+9</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
@@ -858,8 +1092,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+6|1d8+2</attack>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+6|1d8+3</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -876,17 +1110,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +6</save>
+		<skill>Acrobatics +7</skill>
 		<skill>Athletics +8</skill>
 		<skill>Perception +5</skill>
 		<skill>Survival +5</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -916,6 +1151,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
@@ -924,8 +1171,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+8|1d8+2</attack>
+			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+8|1d8+3</attack>
 		</action>
 	</npc>
 	<npc>
@@ -938,17 +1185,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +6</save>
+		<skill>Acrobatics +7</skill>
 		<skill>Athletics +8</skill>
 		<skill>Perception +5</skill>
 		<skill>Survival +5</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -974,6 +1222,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+10</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
@@ -982,8 +1242,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+6|1d8+2</attack>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+6|1d8+3</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -1000,17 +1260,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +6</save>
+		<skill>Acrobatics +7</skill>
 		<skill>Athletics +8</skill>
 		<skill>Perception +5</skill>
 		<skill>Survival +5</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1040,6 +1301,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
@@ -1048,8 +1321,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+8|1d8+2</attack>
+			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+8|1d8+3</attack>
 		</action>
 	</npc>
 	<npc>
@@ -1062,17 +1335,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +6</save>
+		<skill>Acrobatics +7</skill>
 		<skill>Athletics +8</skill>
 		<skill>Perception +5</skill>
 		<skill>Survival +5</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1098,6 +1372,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+11</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
@@ -1106,8 +1392,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+6|1d8+2</attack>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+6|1d8+3</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -1124,17 +1410,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +6</save>
+		<skill>Acrobatics +7</skill>
 		<skill>Athletics +9</skill>
 		<skill>Perception +5</skill>
 		<skill>Survival +5</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1164,6 +1451,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1172,8 +1471,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+8|1d8+2</attack>
+			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+8|1d8+3</attack>
 		</action>
 	</npc>
 	<npc>
@@ -1186,17 +1485,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +6</save>
+		<skill>Acrobatics +7</skill>
 		<skill>Athletics +9</skill>
 		<skill>Perception +5</skill>
 		<skill>Survival +5</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1222,6 +1522,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+12</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1230,15 +1542,14 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+6|1d8+2</attack>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+6|1d8+3</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
 			<text>Inverna imposes disadvantage on the attack roll of a creature within 5 feet of her whose target isn’t Inverna. Inverna must be able to see the attacker.</text>
 		</reaction>
 	</npc>
-
 	<!--Extrapolated Leveling-->
 	<npc>
 		<label>Inverna Nightbreeze (Attacker)</label>
@@ -1250,17 +1561,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +7</save>
+		<skill>Acrobatics +8</skill>
 		<skill>Athletics +10</skill>
 		<skill>Perception +6</skill>
 		<skill>Survival +6</skill>
 		<passive>16</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1290,6 +1602,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1298,8 +1622,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+9|1d8+2</attack>
+			<text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+9|1d8+3</attack>
 		</action>
 	</npc>
 	<npc>
@@ -1312,17 +1636,18 @@
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
-		<dex>14</dex>
+		<dex>16</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +7</save>
+		<skill>Acrobatics +8</skill>
 		<skill>Athletics +10</skill>
 		<skill>Perception +6</skill>
 		<skill>Survival +6</skill>
 		<passive>15</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1348,6 +1673,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+13</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1356,8 +1693,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|+7|1d8+2</attack>
+			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|+7|1d8+3</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -1374,17 +1711,18 @@
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
-		<dex>16</dex>
+		<dex>18</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +7</save>
+		<skill>Acrobatics +9</skill>
 		<skill>Athletics +10</skill>
 		<skill>Perception +6</skill>
 		<skill>Survival +6</skill>
 		<passive>16</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1414,6 +1752,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1422,8 +1772,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
-			<attack>|+10|1d8+3</attack>
+			<text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<attack>|+10|1d8+4</attack>
 		</action>
 	</npc>
 	<npc>
@@ -1436,17 +1786,18 @@
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
-		<dex>16</dex>
+		<dex>18</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +7</save>
+		<skill>Acrobatics +9</skill>
 		<skill>Athletics +10</skill>
 		<skill>Perception +6</skill>
 		<skill>Survival +6</skill>
 		<passive>16</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1472,6 +1823,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+14</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1480,8 +1843,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
-			<attack>|+8|1d8+3</attack>
+			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<attack>|+8|1d8+4</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -1498,17 +1861,18 @@
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
-		<dex>16</dex>
+		<dex>18</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +7</save>
+		<skill>Acrobatics +9</skill>
 		<skill>Athletics +10</skill>
 		<skill>Perception +6</skill>
 		<skill>Survival +6</skill>
 		<passive>16</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1538,6 +1902,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1546,8 +1922,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
-			<attack>|+10|1d8+3</attack>
+			<text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<attack>|+10|1d8+4</attack>
 		</action>
 	</npc>
 	<npc>
@@ -1560,17 +1936,18 @@
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
-		<dex>16</dex>
+		<dex>18</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +7</save>
+		<skill>Acrobatics +9</skill>
 		<skill>Athletics +10</skill>
 		<skill>Perception +6</skill>
 		<skill>Survival +6</skill>
 		<passive>16</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1596,6 +1973,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+15</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1604,8 +1993,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
-			<attack>|+8|1d8+3</attack>
+			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<attack>|+8|1d8+4</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -1622,17 +2011,18 @@
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
-		<dex>18</dex>
+		<dex>20</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +7</save>
+		<skill>Acrobatics +10</skill>
 		<skill>Athletics +10</skill>
 		<skill>Perception +6</skill>
 		<skill>Survival +6</skill>
 		<passive>16</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1662,6 +2052,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1670,8 +2072,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
-			<attack>|+11|1d8+4</attack>
+			<text>Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>|+11|1d8+5</attack>
 		</action>
 	</npc>
 	<npc>
@@ -1684,17 +2086,18 @@
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
-		<dex>18</dex>
+		<dex>20</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +7</save>
+		<skill>Acrobatics +10</skill>
 		<skill>Athletics +10</skill>
 		<skill>Perception +6</skill>
 		<skill>Survival +6</skill>
 		<passive>16</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1720,6 +2123,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. If she does so, she can’t use this feature again until she finishes a short or long rest.</text>
 			<roll>1d10+16</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1728,8 +2143,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
-			<attack>|+9|1d8+4</attack>
+			<text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>|+9|1d8+5</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -1746,17 +2161,18 @@
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
-		<dex>18</dex>
+		<dex>20</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +8</save>
+		<skill>Acrobatics +11</skill>
 		<skill>Athletics +11</skill>
 		<skill>Perception +7</skill>
 		<skill>Survival +7</skill>
 		<passive>17</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1786,6 +2202,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1794,8 +2222,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
-			<attack>|+12|1d8+4</attack>
+			<text>Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>|+12|1d8+5</attack>
 		</action>
 	</npc>
 	<npc>
@@ -1808,17 +2236,18 @@
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
-		<dex>18</dex>
+		<dex>20</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +8</save>
+		<skill>Acrobatics +11</skill>
 		<skill>Athletics +11</skill>
 		<skill>Perception +7</skill>
 		<skill>Survival +7</skill>
 		<passive>17</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Improved Defense</name>
 			<text>Inverna’s AC increases by 1.</text>
@@ -1844,6 +2273,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. she can use this feature twice before needing to finish a short or long rest.</text>
 			<roll>1d10+17</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1852,8 +2293,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
-			<attack>|+10|1d8+4</attack>
+			<text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>|+10|1d8+5</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -1870,17 +2311,18 @@
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
-		<dex>18</dex>
+		<dex>20</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +8</save>
+		<skill>Acrobatics +11</skill>
 		<skill>Athletics +11</skill>
 		<skill>Perception +7</skill>
 		<skill>Survival +7</skill>
 		<passive>17</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Unstoppable Force</name>
 			<text>If Inverna's total for a strength check is less than Inverna's strength score, the score can be used in place of the total.</text>
@@ -1914,6 +2356,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1922,8 +2376,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
-			<attack>|+12|1d8+4</attack>
+			<text>Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>|+12|1d8+5</attack>
 		</action>
 	</npc>
 	<npc>
@@ -1936,17 +2390,18 @@
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
-		<dex>18</dex>
+		<dex>20</dex>
 		<con>14</con>
-		<int>10</int>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +8</save>
+		<skill>Acrobatics +11</skill>
 		<skill>Athletics +11</skill>
 		<skill>Perception +7</skill>
 		<skill>Survival +7</skill>
 		<passive>17</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Unstoppable Force</name>
 			<text>If Inverna's total for a strength check is less than Inverna's strength score, the score can be used in place of the total.</text>
@@ -1976,6 +2431,18 @@
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. she can use this feature twice before needing to finish a short or long rest.</text>
 			<roll>1d10+18</roll>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -1984,8 +2451,8 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
-			<attack>|+10|1d8+4</attack>
+			<text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>|+10|1d8+5</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
@@ -1998,21 +2465,22 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>130/130 (20d8+40)</hp>
+		<hp>150/150 (20d8+60)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
 		<dex>20</dex>
-		<con>14</con>
-		<int>10</int>
+		<con>16</con>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +8</save>
+		<skill>Acrobatics +11</skill>
 		<skill>Athletics +11</skill>
 		<skill>Perception +7</skill>
 		<skill>Survival +7</skill>
 		<passive>17</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Unstoppable Force</name>
 			<text>If Inverna's total for a strength check is less than Inverna's strength score, the score can be used in place of the total.</text>
@@ -2045,6 +2513,18 @@
 		<trait>
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
+		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
 		</trait>
 		<action>
 			<name>Longsword</name>
@@ -2064,21 +2544,22 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>130/130 (20d8+40)</hp>
+		<hp>150/150 (20d8+60)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
 		<dex>20</dex>
-		<con>14</con>
-		<int>10</int>
+		<con>16</con>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +8</save>
+		<skill>Acrobatics +11</skill>
 		<skill>Athletics +11</skill>
 		<skill>Perception +7</skill>
 		<skill>Survival +7</skill>
 		<passive>17</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Unstoppable Force</name>
 			<text>If Inverna's total for a strength check is less than Inverna's strength score, the score can be used in place of the total.</text>
@@ -2107,6 +2588,18 @@
 			<name>Second Wind (2 uses)</name>
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. she can use this feature twice before needing to finish a short or long rest.</text>
 			<roll>1d10+19</roll>
+		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
 		</trait>
 		<action>
 			<name>Longsword</name>
@@ -2130,21 +2623,22 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>136/136 (21d8+42)</hp>
+		<hp>156/156 (21d8+62)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
 		<dex>20</dex>
-		<con>14</con>
-		<int>10</int>
+		<con>16</con>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +8</save>
+		<skill>Acrobatics +11</skill>
 		<skill>Athletics +11</skill>
 		<skill>Perception +7</skill>
 		<skill>Survival +7</skill>
 		<passive>17</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Unstoppable Force</name>
 			<text>If Inverna's total for a strength check is less than Inverna's strength score, the score can be used in place of the total.</text>
@@ -2178,6 +2672,18 @@
 			<name>Martial Role: Attacker</name>
 			<text>Inverna gains a +2 bonus to attack rolls.</text>
 		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
@@ -2196,21 +2702,22 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>136/136 (21d8+42)</hp>
+		<hp>156/156 (21d8+62)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
 		<dex>20</dex>
-		<con>14</con>
-		<int>10</int>
+		<con>16</con>
+		<int>11</int>
 		<wis>12</wis>
 		<cha>10</cha>
 		<save>Constitution +8</save>
+		<skill>Acrobatics +11</skill>
 		<skill>Athletics +11</skill>
 		<skill>Perception +7</skill>
 		<skill>Survival +7</skill>
 		<passive>17</passive>
-		<languages>Common, plus one of your choice</languages>
+		<languages>Common, Elvish, plus one of your choice</languages>
 		<trait>
 			<name>Unstoppable Force</name>
 			<text>If Inverna's total for a strength check is less than Inverna's strength score, the score can be used in place of the total.</text>
@@ -2239,6 +2746,18 @@
 			<name>Second Wind (2 uses)</name>
 			<text>Inverna can use a bonus action on her turn to regain hit points equal to 1d10 + her level. she can use this feature twice before needing to finish a short or long rest.</text>
 			<roll>1d10+20</roll>
+		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, Inverna have superior vision in dark and dim conditions. She can see in dim light within 60 feet of her as if it were bright light, and in darkness as if it were dim light. She can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Inverna has advantage on saving throws against being charmed, and magic can't put her to sleep</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead,they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, Inverna can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, she gains the same benefit that a human does from 8 hours of sleep.</text>
 		</trait>
 		<action>
 			<name>Longsword</name>
