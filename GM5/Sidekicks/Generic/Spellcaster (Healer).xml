@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <characters version="5">
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 1</name>
 		<type>Humanoid</type>
@@ -38,7 +38,7 @@
 			<attack>2 hand|+2|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 2</name>
 		<type>Humanoid</type>
@@ -76,7 +76,7 @@
 			<attack>2 hand|+2|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 3</name>
 		<type>Humanoid</type>
@@ -114,7 +114,7 @@
 			<attack>2 hand|+2|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 4</name>
 		<type>Humanoid</type>
@@ -152,7 +152,7 @@
 			<attack>2 hand|+2|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 5</name>
 		<type>Humanoid</type>
@@ -192,7 +192,7 @@
 			<attack>2 hand|+3|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 6</name>
 		<type>Humanoid</type>
@@ -236,7 +236,7 @@
 			<attack>2 hand|+3|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 7</name>
 		<type>Humanoid</type>
@@ -284,7 +284,7 @@
 			<attack>2 hand|+3|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 8</name>
 		<type>Humanoid</type>
@@ -332,7 +332,7 @@
 			<attack>2 hand|+3|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 9</name>
 		<type>Humanoid</type>
@@ -382,7 +382,7 @@
 			<attack>2 hand|+4|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 10</name>
 		<type>Humanoid</type>
@@ -436,7 +436,7 @@
 			<attack>2 hand|+4|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 11</name>
 		<type>Humanoid</type>
@@ -492,7 +492,7 @@
 			<attack>2 hand|+4|1d8</attack>
 		</action>
 	</npc>
-<npc>
+	<npc>
 		<label>Spellcaster (Healer)</label>
 		<name>Spellcaster (Healer) 12</name>
 		<type>Humanoid</type>
@@ -546,6 +546,536 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
 			<attack>|+4|1d6</attack>
 			<attack>2 hand|+4|1d8</attack>
+		</action>
+	</npc>
+
+	<!--Extrapolated Leveling-->
+	<npc>
+		<label>Spellcaster (Healer)</label>
+		<name>Spellcaster (Healer) 13</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>13 (studded leather)</ac>
+		<hp>63/63 (14d8)</hp>
+		<speed>30 ft.</speed>
+		<init>1</init>
+		<str>10</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>20</wis>
+		<cha>13</cha>
+		<save>Wisdom +10</save>
+		<skill>Arcana +7</skill>
+		<skill>Investigation +7</skill>
+		<skill>Religion +7</skill>
+		<passive>15</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Empowered Spells</name>
+			<text>Choose one school of magic. Whenever the spellcaster casts a spell of that school by expending a spell slot, the spellcaster can add its spellcasting ability modifier to the spell’s damage roll or healing roll, if any.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>The spellcaster can add its spellcasting ability modifier to the damage it deals with any cantrip.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The spellcaster’s spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The spellcaster has following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, sacred flame, resistance, light, spare the dying</text>
+			<text></text>
+			<text>1st level (4 slots): cure wounds, bless, shield of faith</text>
+			<text></text>
+			<text>2nd level (3 slots): aid, lesser restoration</text>
+			<text></text>
+			<text>3rd level (3 slots): protection from energy, revivify</text>
+			<text></text>
+			<text>4th level (3 slots): death ward, banishment</text>
+			<text></text>
+			<text>5th level (2 slots): greater restoration, mass cure wounds</text>
+			<text></text>
+			<text>6th level (1 slot): heal</text>
+			<text></text>
+			<text>7th level (1 slot): regenerate</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,0,0,</slots>
+		<spells>Guidance, Sacred Flame, Cure Wounds, Bless, Shield of Faith, Resistance, Aid, Light, Lesser Restoration, Protection from Energy, Revivify, Death Ward, Banishment, Greater Restoration, Spare the Dying, Mass Cure Wounds, Heal, Regenerate</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>|+5|1d6</attack>
+			<attack>2 hand|+5|1d8</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Spellcaster (Healer)</label>
+		<name>Spellcaster (Healer) 14</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>13 (studded leather)</ac>
+		<hp>67/67 (15d8)</hp>
+		<speed>30 ft.</speed>
+		<init>1</init>
+		<str>10</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>20</wis>
+		<cha>13</cha>
+		<save>Wisdom +10</save>
+		<skill>Arcana +7</skill>
+		<skill>Investigation +7</skill>
+		<skill>Religion +7</skill>
+		<passive>15</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Overchannel</name>
+			<text>The spellcaster can increase the power of their simpler spells. When the spellcaster casts a spell of 5th level or lower that deals damage or heals, the spellcaster can deal maximum damage/healing with that spell once per day.</text>
+		</trait>
+		<trait>
+			<name>Empowered Spells</name>
+			<text>Choose one school of magic. Whenever the spellcaster casts a spell of that school by expending a spell slot, the spellcaster can add its spellcasting ability modifier to the spell’s damage roll or healing roll, if any.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>The spellcaster can add its spellcasting ability modifier to the damage it deals with any cantrip.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The spellcaster’s spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The spellcaster has following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, sacred flame, resistance, light, spare the dying</text>
+			<text></text>
+			<text>1st level (4 slots): cure wounds, bless, shield of faith</text>
+			<text></text>
+			<text>2nd level (3 slots): aid, lesser restoration</text>
+			<text></text>
+			<text>3rd level (3 slots): protection from energy, revivify</text>
+			<text></text>
+			<text>4th level (3 slots): death ward, banishment</text>
+			<text></text>
+			<text>5th level (2 slots): greater restoration, mass cure wounds, dispel evil and good</text>
+			<text></text>
+			<text>6th level (1 slot): heal</text>
+			<text></text>
+			<text>7th level (1 slot): regenerate</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,0,0,</slots>
+		<spells>Guidance, Sacred Flame, Cure Wounds, Bless, Shield of Faith, Resistance, Aid, Light, Lesser Restoration, Protection from Energy, Revivify, Death Ward, Banishment, Greater Restoration, Spare the Dying, Mass Cure Wounds, Heal, Regenerate, Dispel Evil and Good</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>|+5|1d6</attack>
+			<attack>2 hand|+5|1d8</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Spellcaster (Healer)</label>
+		<name>Spellcaster (Healer) 15</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>13 (studded leather)</ac>
+		<hp>72/72 (16d8)</hp>
+		<speed>30 ft.</speed>
+		<init>1</init>
+		<str>10</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>20</wis>
+		<cha>13</cha>
+		<save>Wisdom +10</save>
+		<skill>Arcana +7</skill>
+		<skill>Investigation +7</skill>
+		<skill>Religion +7</skill>
+		<passive>15</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Overchannel</name>
+			<text>The spellcaster can increase the power of their simpler spells. When the spellcaster casts a spell of 5th level or lower that deals damage or heals, the spellcaster can deal maximum damage/healing with that spell once per day.</text>
+		</trait>
+		<trait>
+			<name>Empowered Spells</name>
+			<text>Choose one school of magic. Whenever the spellcaster casts a spell of that school by expending a spell slot, the spellcaster can add its spellcasting ability modifier to the spell’s damage roll or healing roll, if any.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>The spellcaster can add its spellcasting ability modifier to the damage it deals with any cantrip.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The spellcaster’s spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The spellcaster has following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, sacred flame, resistance, light, spare the dying</text>
+			<text></text>
+			<text>1st level (4 slots): cure wounds, bless, shield of faith</text>
+			<text></text>
+			<text>2nd level (3 slots): aid, lesser restoration</text>
+			<text></text>
+			<text>3rd level (3 slots): protection from energy, revivify</text>
+			<text></text>
+			<text>4th level (3 slots): death ward, banishment</text>
+			<text></text>
+			<text>5th level (2 slots): greater restoration, mass cure wounds, dispel evil and good</text>
+			<text></text>
+			<text>6th level (1 slot): heal</text>
+			<text></text>
+			<text>7th level (1 slot): regenerate</text>
+			<text></text>
+			<text>8th level (1 slot): holy aura</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,1,0,</slots>
+		<spells>Guidance, Sacred Flame, Cure Wounds, Bless, Shield of Faith, Resistance, Aid, Light, Lesser Restoration, Protection from Energy, Revivify, Death Ward, Banishment, Greater Restoration, Spare the Dying, Mass Cure Wounds, Heal, Regenerate, Dispel Evil and Good, Holy Aura</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>|+5|1d6</attack>
+			<attack>2 hand|+5|1d8</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Spellcaster (Healer)</label>
+		<name>Spellcaster (Healer) 16</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>13 (studded leather)</ac>
+		<hp>76/76 (17d8)</hp>
+		<speed>30 ft.</speed>
+		<init>2</init>
+		<str>10</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>20</wis>
+		<cha>13</cha>
+		<save>Wisdom +10</save>
+		<skill>Arcana +7</skill>
+		<skill>Investigation +7</skill>
+		<skill>Religion +7</skill>
+		<passive>15</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Overchannel</name>
+			<text>The spellcaster can increase the power of their simpler spells. When the spellcaster casts a spell of 5th level or lower that deals damage or heals, the spellcaster can deal maximum damage/healing with that spell once per day.</text>
+		</trait>
+		<trait>
+			<name>Empowered Spells</name>
+			<text>Choose one school of magic. Whenever the spellcaster casts a spell of that school by expending a spell slot, the spellcaster can add its spellcasting ability modifier to the spell’s damage roll or healing roll, if any.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>The spellcaster can add its spellcasting ability modifier to the damage it deals with any cantrip.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The spellcaster’s spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The spellcaster has following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, sacred flame, resistance, light, spare the dying</text>
+			<text></text>
+			<text>1st level (4 slots): cure wounds, bless, shield of faith</text>
+			<text></text>
+			<text>2nd level (3 slots): aid, lesser restoration</text>
+			<text></text>
+			<text>3rd level (3 slots): protection from energy, revivify</text>
+			<text></text>
+			<text>4th level (3 slots): death ward, banishment</text>
+			<text></text>
+			<text>5th level (2 slots): greater restoration, mass cure wounds, dispel evil and good</text>
+			<text></text>
+			<text>6th level (1 slot): heal, heroes' feast</text>
+			<text></text>
+			<text>7th level (1 slot): regenerate</text>
+			<text></text>
+			<text>8th level (1 slot): holy aura</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,1,0,</slots>
+		<spells>Guidance, Sacred Flame, Cure Wounds, Bless, Shield of Faith, Resistance, Aid, Light, Lesser Restoration, Protection from Energy, Revivify, Death Ward, Banishment, Greater Restoration, Spare the Dying, Mass Cure Wounds, Heal, Regenerate, Dispel Evil and Good, Holy Aura, Heroes' Feast</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>|+5|1d6</attack>
+			<attack>2 hand|+5|1d8</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Spellcaster (Healer)</label>
+		<name>Spellcaster (Healer) 17</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>13 (studded leather)</ac>
+		<hp>81/81 (18d8)</hp>
+		<speed>30 ft.</speed>
+		<init>2</init>
+		<str>10</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>20</wis>
+		<cha>13</cha>
+		<save>Wisdom +11</save>
+		<skill>Arcana +8</skill>
+		<skill>Investigation +8</skill>
+		<skill>Religion +8</skill>
+		<passive>15</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Overchannel</name>
+			<text>The spellcaster can increase the power of their simpler spells. When the spellcaster casts a spell of 5th level or lower that deals damage or heals, the spellcaster can deal maximum damage/healing with that spell once per day.</text>
+		</trait>
+		<trait>
+			<name>Empowered Spells</name>
+			<text>Choose one school of magic. Whenever the spellcaster casts a spell of that school by expending a spell slot, the spellcaster can add its spellcasting ability modifier to the spell’s damage roll or healing roll, if any.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>The spellcaster can add its spellcasting ability modifier to the damage it deals with any cantrip.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The spellcaster’s spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The spellcaster has following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, sacred flame, resistance, light, spare the dying</text>
+			<text></text>
+			<text>1st level (4 slots): cure wounds, bless, shield of faith</text>
+			<text></text>
+			<text>2nd level (3 slots): aid, lesser restoration</text>
+			<text></text>
+			<text>3rd level (3 slots): protection from energy, revivify</text>
+			<text></text>
+			<text>4th level (3 slots): death ward, banishment</text>
+			<text></text>
+			<text>5th level (2 slots): greater restoration, mass cure wounds, dispel evil and good</text>
+			<text></text>
+			<text>6th level (1 slot): heal, heroes' feast</text>
+			<text></text>
+			<text>7th level (1 slot): regenerate</text>
+			<text></text>
+			<text>8th level (1 slot): holy aura</text>
+			<text></text>
+			<text>9th level (1 slot): mass heal</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,1,1,</slots>
+		<spells>Guidance, Sacred Flame, Cure Wounds, Bless, Shield of Faith, Resistance, Aid, Light, Lesser Restoration, Protection from Energy, Revivify, Death Ward, Banishment, Greater Restoration, Spare the Dying, Mass Cure Wounds, Heal, Regenerate, Dispel Evil and Good, Holy Aura, Heroes' Feast, Mass Heal</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>|+6|1d6</attack>
+			<attack>2 hand|+6|1d8</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Spellcaster (Healer)</label>
+		<name>Spellcaster (Healer) 18</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>13 (studded leather)</ac>
+		<hp>85/85 (19d8)</hp>
+		<speed>30 ft.</speed>
+		<init>2</init>
+		<str>10</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>20</wis>
+		<cha>13</cha>
+		<save>Wisdom +11</save>
+		<skill>Arcana +8</skill>
+		<skill>Investigation +8</skill>
+		<skill>Religion +8</skill>
+		<passive>15</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Spell Mastery</name>
+			<text>The spellcaster has such mastery over certain spells that they can cast them at will. Choose a 1st-level spell and a 2nd-level spell that are the spellcaster knows. The spellcaster can cast those spells twice at their lowest level without expending a spell slot.</text>
+		</trait>
+		<trait>
+			<name>Overchannel</name>
+			<text>The spellcaster can increase the power of their simpler spells. When the spellcaster casts a spell of 5th level or lower that deals damage or heals, the spellcaster can deal maximum damage/healing with that spell once per day.</text>
+		</trait>
+		<trait>
+			<name>Empowered Spells</name>
+			<text>Choose one school of magic. Whenever the spellcaster casts a spell of that school by expending a spell slot, the spellcaster can add its spellcasting ability modifier to the spell’s damage roll or healing roll, if any.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>The spellcaster can add its spellcasting ability modifier to the damage it deals with any cantrip.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The spellcaster’s spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The spellcaster has following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, sacred flame, resistance, light, spare the dying</text>
+			<text></text>
+			<text>1st level (4 slots): cure wounds, bless, shield of faith</text>
+			<text></text>
+			<text>2nd level (3 slots): aid, lesser restoration</text>
+			<text></text>
+			<text>3rd level (3 slots): protection from energy, revivify</text>
+			<text></text>
+			<text>4th level (3 slots): death ward, banishment</text>
+			<text></text>
+			<text>5th level (3 slots): greater restoration, mass cure wounds, dispel evil and good</text>
+			<text></text>
+			<text>6th level (1 slot): heal, heroes' feast</text>
+			<text></text>
+			<text>7th level (1 slot): regenerate, resurrection</text>
+			<text></text>
+			<text>8th level (1 slot): holy aura</text>
+			<text></text>
+			<text>9th level (1 slot): mass heal</text>
+		</trait>
+		<slots>4,3,3,3,3,1,1,1,1,</slots>
+		<spells>Guidance, Sacred Flame, Cure Wounds, Bless, Shield of Faith, Resistance, Aid, Light, Lesser Restoration, Protection from Energy, Revivify, Death Ward, Banishment, Greater Restoration, Spare the Dying, Mass Cure Wounds, Heal, Regenerate, Dispel Evil and Good, Holy Aura, Heroes' Feast, Mass Heal, Resurrection</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>|+6|1d6</attack>
+			<attack>2 hand|+6|1d8</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Spellcaster (Healer)</label>
+		<name>Spellcaster (Healer) 19</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>13 (studded leather)</ac>
+		<hp>90/90 (20d8)</hp>
+		<speed>30 ft.</speed>
+		<init>3</init>
+		<str>10</str>
+		<dex>16</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>20</wis>
+		<cha>13</cha>
+		<save>Wisdom +11</save>
+		<skill>Arcana +8</skill>
+		<skill>Investigation +8</skill>
+		<skill>Religion +8</skill>
+		<passive>15</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Spell Mastery</name>
+			<text>The spellcaster has such mastery over certain spells that they can cast them at will. Choose a 1st-level spell and a 2nd-level spell that are the spellcaster knows. The spellcaster can cast those spells twice at their lowest level without expending a spell slot.</text>
+		</trait>
+		<trait>
+			<name>Overchannel</name>
+			<text>The spellcaster can increase the power of their simpler spells. When the spellcaster casts a spell of 5th level or lower that deals damage or heals, the spellcaster can deal maximum damage/healing with that spell once per day.</text>
+		</trait>
+		<trait>
+			<name>Empowered Spells</name>
+			<text>Choose one school of magic. Whenever the spellcaster casts a spell of that school by expending a spell slot, the spellcaster can add its spellcasting ability modifier to the spell’s damage roll or healing roll, if any.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>The spellcaster can add its spellcasting ability modifier to the damage it deals with any cantrip.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The spellcaster’s spellcasting ability is Wisdom (spell save DC 19, +11 to hit with spell attacks). The spellcaster has following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, sacred flame, resistance, light, spare the dying</text>
+			<text></text>
+			<text>1st level (4 slots): cure wounds, bless, shield of faith</text>
+			<text></text>
+			<text>2nd level (3 slots): aid, lesser restoration</text>
+			<text></text>
+			<text>3rd level (3 slots): protection from energy, revivify</text>
+			<text></text>
+			<text>4th level (3 slots): death ward, banishment</text>
+			<text></text>
+			<text>5th level (3 slots): greater restoration, mass cure wounds, dispel evil and good</text>
+			<text></text>
+			<text>6th level (2 slots): heal, heroes' feast</text>
+			<text></text>
+			<text>7th level (2 slots): regenerate, resurrection</text>
+			<text></text>
+			<text>8th level (1 slot): holy aura, antimagic field</text>
+			<text></text>
+			<text>9th level (1 slot): mass heal</text>
+		</trait>
+		<slots>4,3,3,3,3,2,2,1,1,</slots>
+		<spells>Guidance, Sacred Flame, Cure Wounds, Bless, Shield of Faith, Resistance, Aid, Light, Lesser Restoration, Protection from Energy, Revivify, Death Ward, Banishment, Greater Restoration, Spare the Dying, Mass Cure Wounds, Heal, Regenerate, Dispel Evil and Good, Holy Aura, Heroes' Feast, Mass Heal, Resurrection, Antimagic Field</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>|+6|1d6</attack>
+			<attack>2 hand|+6|1d8</attack>
+		</action>
+	</npc>
+	<npc>
+		<label>Spellcaster (Healer)</label>
+		<name>Spellcaster (Healer) 20</name>
+		<type>Humanoid</type>
+		<size>M</size>
+		<ac>13 (studded leather)</ac>
+		<hp>94/94 (21d8)</hp>
+		<speed>30 ft.</speed>
+		<init>3</init>
+		<str>10</str>
+		<dex>16</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>20</wis>
+		<cha>13</cha>
+		<save>Wisdom +11</save>
+		<skill>Arcana +8</skill>
+		<skill>Investigation +8</skill>
+		<skill>Religion +8</skill>
+		<passive>15</passive>
+		<languages>Common, plus one of your choice</languages>
+		<trait>
+			<name>Signature Spell</name>
+			<text>The spellcaster can choose one 3rd level spell. The spellcaster can cast this spell once without expending a spell slot.</text>
+		</trait>
+		<trait>
+			<name>Spell Mastery</name>
+			<text>The spellcaster has such mastery over certain spells that they can cast them at will. Choose a 1st-level spell and a 2nd-level spell that are the spellcaster knows. The spellcaster can cast those spells twice at their lowest level without expending a spell slot.</text>
+		</trait>
+		<trait>
+			<name>Overchannel</name>
+			<text>The spellcaster can increase the power of their simpler spells. When the spellcaster casts a spell of 5th level or lower that deals damage or heals, the spellcaster can deal maximum damage/healing with that spell once per day.</text>
+		</trait>
+		<trait>
+			<name>Empowered Spells</name>
+			<text>Choose one school of magic. Whenever the spellcaster casts a spell of that school by expending a spell slot, the spellcaster can add its spellcasting ability modifier to the spell’s damage roll or healing roll, if any.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>The spellcaster can add its spellcasting ability modifier to the damage it deals with any cantrip.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The spellcaster’s spellcasting ability is Wisdom (spell save DC 19, +11 to hit with spell attacks). The spellcaster has following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, sacred flame, resistance, light, spare the dying</text>
+			<text></text>
+			<text>1st level (4 slots): cure wounds, bless, shield of faith</text>
+			<text></text>
+			<text>2nd level (3 slots): aid, lesser restoration</text>
+			<text></text>
+			<text>3rd level (3 slots): protection from energy, revivify</text>
+			<text></text>
+			<text>4th level (3 slots): death ward, banishment</text>
+			<text></text>
+			<text>5th level (3 slots): greater restoration, mass cure wounds, dispel evil and good</text>
+			<text></text>
+			<text>6th level (2 slots): heal, heroes' feast</text>
+			<text></text>
+			<text>7th level (2 slots): regenerate, resurrection</text>
+			<text></text>
+			<text>8th level (1 slot): holy aura, antimagic field</text>
+			<text></text>
+			<text>9th level (1 slot): mass heal, true resurrection</text>
+		</trait>
+		<slots>4,3,3,3,3,2,2,1,1,</slots>
+		<spells>Guidance, Sacred Flame, Cure Wounds, Bless, Shield of Faith, Resistance, Aid, Light, Lesser Restoration, Protection from Energy, Revivify, Death Ward, Banishment, Greater Restoration, Spare the Dying, Mass Cure Wounds, Heal, Regenerate, Dispel Evil and Good, Holy Aura, Heroes' Feast, Mass Heal, Resurrection, Antimagic Field, True Resurrection</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>|+6|1d6</attack>
+			<attack>2 hand|+6|1d8</attack>
 		</action>
 	</npc>
 </characters>
