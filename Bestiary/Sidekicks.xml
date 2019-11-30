@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
 	<!--Sidekicks-->
+	
 	<!--Generic-->
 	<monster>
 		<name>Sidekick: Warrior (Attacker) 01</name>
@@ -2756,13 +2757,14 @@
 			<attack>2 hand|+4|1d8</attack>
 		</action>
 	</monster>
+
 	<!--Specific-->
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>15/15 (2d8 + 6)</hp>
+		<hp>15 (2d8 + 6)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -2773,6 +2775,7 @@
 		<cha>10</cha>
 		<save>Constitution +5</save>
 		<skill>Athletics +5, Perception +3, Survival +3</skill>
+		<resist>poison</resist>
 		<passive>13</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -2801,10 +2804,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>15/15 (2d8 + 6)</hp>
+		<hp>15 (2d8 + 6)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -2815,6 +2818,7 @@
 		<cha>10</cha>
 		<save>Constitution +5</save>
 		<skill>Athletics +5, Perception +3, Survival +3</skill>
+		<resist>poison</resist>
 		<passive>13</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -2843,10 +2847,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>22/22 (3d8 + 9)</hp>
+		<hp>22 (3d8 + 9)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -2857,6 +2861,7 @@
 		<cha>10</cha>
 		<save>Constitution +5</save>
 		<skill>Athletics +5, Perception +3, Survival +3</skill>
+		<resist>poison</resist>
 		<passive>13</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -2890,10 +2895,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>22/22 (3d8 + 9)</hp>
+		<hp>22 (3d8 + 9)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -2904,6 +2909,7 @@
 		<cha>10</cha>
 		<save>Constitution +5</save>
 		<skill>Athletics +5, Perception +3, Survival +3</skill>
+		<resist>poison</resist>
 		<passive>13</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -2937,10 +2943,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>30/30 (4d8 + 12)</hp>
+		<hp>30 (4d8 + 12)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -2951,6 +2957,7 @@
 		<cha>10</cha>
 		<save>Constitution +5</save>
 		<skill>Athletics +5, Perception +3, Survival +3</skill>
+		<resist>poison</resist>
 		<passive>13</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -2988,10 +2995,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>30/30 (4d8 + 12)</hp>
+		<hp>30 (4d8 + 12)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -3002,6 +3009,7 @@
 		<cha>10</cha>
 		<save>Constitution +5</save>
 		<skill>Athletics +5, Perception +3, Survival +3</skill>
+		<resist>poison</resist>
 		<passive>13</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3039,10 +3047,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>37/37 (5d8 + 15)</hp>
+		<hp>37 (5d8 + 15)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>19</str>
@@ -3053,6 +3061,7 @@
 		<cha>10</cha>
 		<save>Constitution +5</save>
 		<skill>Athletics +6, Perception +3, Survival +3</skill>
+		<resist>poison</resist>
 		<passive>13</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3090,10 +3099,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>37/37 (5d8 + 15)</hp>
+		<hp>37 (5d8 + 15)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>19</str>
@@ -3104,6 +3113,7 @@
 		<cha>10</cha>
 		<save>Constitution +5</save>
 		<skill>Athletics +6, Perception +3, Survival +3</skill>
+		<resist>poison</resist>
 		<passive>13</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3141,10 +3151,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>45/45 (6d8 + 18)</hp>
+		<hp>45 (6d8 + 18)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>19</str>
@@ -3155,6 +3165,7 @@
 		<cha>10</cha>
 		<save>Constitution +6</save>
 		<skill>Athletics +7, Perception +4, Survival +4</skill>
+		<resist>poison</resist>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3192,10 +3203,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>45/45 (6d8 + 18)</hp>
+		<hp>45 (6d8 + 18)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>19</str>
@@ -3206,6 +3217,7 @@
 		<cha>10</cha>
 		<save>Constitution +6</save>
 		<skill>Athletics +7, Perception +4, Survival +4</skill>
+		<resist>poison</resist>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3243,10 +3255,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>52/52 (7d8 + 21)</hp>
+		<hp>52 (7d8 + 21)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>19</str>
@@ -3257,6 +3269,7 @@
 		<cha>10</cha>
 		<save>Constitution +6</save>
 		<skill>Athletics +7, Perception +4, Survival +4</skill>
+		<resist>poison</resist>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3298,10 +3311,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>52/52 (7d8 + 21)</hp>
+		<hp>52 (7d8 + 21)</hp>
 		<speed>25 ft.</speed>
 		<init>1</init>
 		<str>19</str>
@@ -3312,6 +3325,7 @@
 		<cha>10</cha>
 		<save>Constitution +6</save>
 		<skill>Athletics +7, Perception +4, Survival +4</skill>
+		<resist>poison</resist>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3353,10 +3367,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>60/60 (8d8 + 24)</hp>
+		<hp>60 (8d8 + 24)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -3367,6 +3381,7 @@
 		<cha>10</cha>
 		<save>Constitution +6</save>
 		<skill>Athletics +7, Perception +4, Survival +4</skill>
+		<resist>poison</resist>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3412,10 +3427,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>60/60 (8d8 + 24)</hp>
+		<hp>60 (8d8 + 24)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -3426,6 +3441,7 @@
 		<cha>10</cha>
 		<save>Constitution +6</save>
 		<skill>Athletics +7, Perception +4, Survival +4</skill>
+		<resist>poison</resist>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3471,10 +3487,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>67/67 (9d8 + 27)</hp>
+		<hp>67 (9d8 + 27)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3485,6 +3501,7 @@
 		<cha>10</cha>
 		<save>Constitution +6</save>
 		<skill>Athletics +8, Perception +4, Survival +4</skill>
+		<resist>poison</resist>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3530,10 +3547,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>67/67 (9d8 + 27)</hp>
+		<hp>67 (9d8 + 27)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3544,6 +3561,7 @@
 		<cha>10</cha>
 		<save>Constitution +6</save>
 		<skill>Athletics +8, Perception +4, Survival +4</skill>
+		<resist>poison</resist>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3589,10 +3607,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>75/75 (10d8 + 30)</hp>
+		<hp>75 (10d8 + 30)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3603,6 +3621,7 @@
 		<cha>10</cha>
 		<save>Constitution +7</save>
 		<skill>Athletics +9, Perception +5, Survival +5</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3652,10 +3671,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>75/75 (10d8 + 30)</hp>
+		<hp>75 (10d8 + 30)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3666,6 +3685,7 @@
 		<cha>10</cha>
 		<save>Constitution +7</save>
 		<skill>Athletics +9, Perception +5, Survival +5</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3715,10 +3735,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>82/82 (11d8 + 33)</hp>
+		<hp>82 (11d8 + 33)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3729,6 +3749,7 @@
 		<cha>10</cha>
 		<save>Constitution +7</save>
 		<skill>Athletics +9, Perception +5, Survival +5</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3782,10 +3803,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>82/82 (11d8 + 33)</hp>
+		<hp>82 (11d8 + 33)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3796,6 +3817,7 @@
 		<cha>10</cha>
 		<save>Constitution +7</save>
 		<skill>Athletics +9, Perception +5, Survival +5</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3849,10 +3871,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>90/90 (12d8 + 36)</hp>
+		<hp>90 (12d8 + 36)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3863,6 +3885,7 @@
 		<cha>10</cha>
 		<save>Constitution +7</save>
 		<skill>Athletics +9, Perception +5, Survival +5</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3916,10 +3939,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>90/90 (12d8 + 36)</hp>
+		<hp>90 (12d8 + 36)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3930,6 +3953,7 @@
 		<cha>10</cha>
 		<save>Constitution +7</save>
 		<skill>Athletics +9, Perception +5, Survival +5</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -3983,10 +4007,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>97/97 (13d8 + 39)</hp>
+		<hp>97 (13d8 + 39)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -3997,6 +4021,7 @@
 		<cha>10</cha>
 		<save>Constitution +7</save>
 		<skill>Athletics +9, Perception +5, Survival +5</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -4050,10 +4075,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>97/97 (13d8 + 39)</hp>
+		<hp>97 (13d8 + 39)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -4064,6 +4089,7 @@
 		<cha>10</cha>
 		<save>Constitution +7</save>
 		<skill>Athletics +9, Perception +5, Survival +5</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -4117,10 +4143,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>9/9 (2d8)</hp>
+		<hp>9 (2d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4152,10 +4178,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>13/13 (3d8)</hp>
+		<hp>13 (3d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4187,10 +4213,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>18/18 (4d8)</hp>
+		<hp>18 (4d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4222,10 +4248,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>22/22 (5d8)</hp>
+		<hp>22 (5d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4257,10 +4283,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>27/27 (6d8)</hp>
+		<hp>27 (6d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4294,10 +4320,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>31/31 (7d8)</hp>
+		<hp>31 (7d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4335,10 +4361,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>36/36 (8d8)</hp>
+		<hp>36 (8d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4380,10 +4406,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>40/40 (9d8)</hp>
+		<hp>40 (9d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4425,10 +4451,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>45/45 (10d8)</hp>
+		<hp>45 (10d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4472,10 +4498,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>49/49 (11d8)</hp>
+		<hp>49 (11d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4523,10 +4549,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>54/54 (12d8)</hp>
+		<hp>54 (12d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4576,10 +4602,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>58/58 (13d8)</hp>
+		<hp>58 (13d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -4629,10 +4655,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>9/9 (2d8)</hp>
+		<hp>9 (2d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4664,10 +4690,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>13/13 (3d8)</hp>
+		<hp>13 (3d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4699,10 +4725,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>18/18 (4d8)</hp>
+		<hp>18 (4d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4734,10 +4760,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>22/22 (5d8)</hp>
+		<hp>22 (5d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4769,10 +4795,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>27/27 (6d8)</hp>
+		<hp>27 (6d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4806,10 +4832,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>31/31 (7d8)</hp>
+		<hp>31 (7d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4847,10 +4873,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>36/36 (8d8)</hp>
+		<hp>36 (8d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4892,10 +4918,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>40/40 (9d8)</hp>
+		<hp>40 (9d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4937,10 +4963,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>45/45 (10d8)</hp>
+		<hp>45 (10d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -4984,10 +5010,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>49/49 (11d8)</hp>
+		<hp>49 (11d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -5035,10 +5061,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>54/54 (12d8)</hp>
+		<hp>54 (12d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -5088,10 +5114,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>58/58 (13d8)</hp>
+		<hp>58 (13d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -5141,10 +5167,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>13/13 (2d8+4)</hp>
+		<hp>13 (2d8+4)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -5187,10 +5213,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>13/13 (2d8+4)</hp>
+		<hp>13 (2d8+4)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -5233,10 +5259,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>19/19 (3d8 + 6)</hp>
+		<hp>19 (3d8 + 6)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -5284,10 +5310,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>19/19 (3d8 + 6)</hp>
+		<hp>19 (3d8 + 6)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -5335,10 +5361,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>26/26 (4d8 + 8)</hp>
+		<hp>26 (4d8 + 8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -5390,10 +5416,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>26/26 (4d8 + 8)</hp>
+		<hp>26 (4d8 + 8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -5445,10 +5471,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>32/32 (5d8 + 10)</hp>
+		<hp>32 (5d8 + 10)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -5500,10 +5526,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>32/32 (5d8 + 10)</hp>
+		<hp>32 (5d8 + 10)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -5555,10 +5581,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>39/39 (6d8 + 12)</hp>
+		<hp>39 (6d8 + 12)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -5610,10 +5636,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>39/39 (6d8 + 12)</hp>
+		<hp>39 (6d8 + 12)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -5665,10 +5691,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>45/45 (7d8 + 14)</hp>
+		<hp>45 (7d8 + 14)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -5724,10 +5750,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>45/45 (7d8 + 14)</hp>
+		<hp>45 (7d8 + 14)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -5783,10 +5809,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>52/52 (8d8 + 16)</hp>
+		<hp>52 (8d8 + 16)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>16</str>
@@ -5846,10 +5872,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>52/52 (8d8 + 16)</hp>
+		<hp>52 (8d8 + 16)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>16</str>
@@ -5909,10 +5935,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>58/58 (9d8 + 18)</hp>
+		<hp>58 (9d8 + 18)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -5972,10 +5998,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>58/58 (9d8 + 18)</hp>
+		<hp>58 (9d8 + 18)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -6035,10 +6061,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>65/65 (10d8 + 20)</hp>
+		<hp>65 (10d8 + 20)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -6102,10 +6128,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>65/65 (10d8 + 20)</hp>
+		<hp>65 (10d8 + 20)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -6169,10 +6195,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>71/71 (11d8 + 22)</hp>
+		<hp>71 (11d8 + 22)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -6240,10 +6266,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>71/71 (11d8 + 22)</hp>
+		<hp>71 (11d8 + 22)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -6311,10 +6337,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>78/78 (12d8 + 24)</hp>
+		<hp>78 (12d8 + 24)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -6382,10 +6408,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>78/78 (12d8 + 24)</hp>
+		<hp>78 (12d8 + 24)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -6453,10 +6479,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>84/84 (13d8 + 26)</hp>
+		<hp>84 (13d8 + 26)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -6524,10 +6550,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>84/84 (13d8 + 26)</hp>
+		<hp>84 (13d8 + 26)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -6595,10 +6621,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>13/13 (2d8+4)</hp>
+		<hp>13 (2d8+4)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -6645,10 +6671,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>13/13 (2d8+4)</hp>
+		<hp>13 (2d8+4)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -6695,10 +6721,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>19/19 (3d8 + 6)</hp>
+		<hp>19 (3d8 + 6)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -6750,10 +6776,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>19/19 (3d8 + 6)</hp>
+		<hp>19 (3d8 + 6)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -6805,10 +6831,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>26/26 (4d8 + 8)</hp>
+		<hp>26 (4d8 + 8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -6864,10 +6890,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>26/26 (4d8 + 8)</hp>
+		<hp>26 (4d8 + 8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>15</str>
@@ -6923,10 +6949,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>32/32 (5d8 + 10)</hp>
+		<hp>32 (5d8 + 10)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -6982,10 +7008,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>32/32 (5d8 + 10)</hp>
+		<hp>32 (5d8 + 10)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -7041,10 +7067,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>39/39 (6d8 + 12)</hp>
+		<hp>39 (6d8 + 12)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -7100,10 +7126,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>39/39 (6d8 + 12)</hp>
+		<hp>39 (6d8 + 12)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -7159,10 +7185,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>45/45 (7d8 + 14)</hp>
+		<hp>45 (7d8 + 14)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -7222,10 +7248,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (chain shirt, shield)</ac>
-		<hp>45/45 (7d8 + 14)</hp>
+		<hp>45 (7d8 + 14)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>17</str>
@@ -7285,10 +7311,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>52/52 (8d8 + 16)</hp>
+		<hp>52 (8d8 + 16)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>16</str>
@@ -7352,10 +7378,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>52/52 (8d8 + 16)</hp>
+		<hp>52 (8d8 + 16)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>16</str>
@@ -7419,10 +7445,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>58/58 (9d8 + 18)</hp>
+		<hp>58 (9d8 + 18)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -7486,10 +7512,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>58/58 (9d8 + 18)</hp>
+		<hp>58 (9d8 + 18)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -7553,10 +7579,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>65/65 (10d8 + 20)</hp>
+		<hp>65 (10d8 + 20)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -7624,10 +7650,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>20 (plate, shield)</ac>
-		<hp>65/65 (10d8 + 20)</hp>
+		<hp>65 (10d8 + 20)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -7695,10 +7721,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>71/71 (11d8 + 22)</hp>
+		<hp>71 (11d8 + 22)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -7770,10 +7796,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>71/71 (11d8 + 22)</hp>
+		<hp>71 (11d8 + 22)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -7845,10 +7871,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>78/78 (12d8 + 24)</hp>
+		<hp>78 (12d8 + 24)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -7920,10 +7946,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>78/78 (12d8 + 24)</hp>
+		<hp>78 (12d8 + 24)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>18</str>
@@ -7995,10 +8021,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>84/84 (13d8 + 26)</hp>
+		<hp>84 (13d8 + 26)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -8070,10 +8096,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>84/84 (13d8 + 26)</hp>
+		<hp>84 (13d8 + 26)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -8145,10 +8171,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>11/11 (2d8 + 2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -8187,10 +8213,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>16/16 (3d8 + 3)</hp>
+		<hp>16 (3d8 + 3)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -8233,10 +8259,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>22/22 (4d8 + 4)</hp>
+		<hp>22 (4d8 + 4)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -8283,10 +8309,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>27/27 (5d8 + 5)</hp>
+		<hp>27 (5d8 + 5)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -8333,10 +8359,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>33/33 (6d8 + 6)</hp>
+		<hp>33 (6d8 + 6)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -8383,10 +8409,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>38/38 (7d8 + 7)</hp>
+		<hp>38 (7d8 + 7)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -8437,10 +8463,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>44/44 (8d8 + 8)</hp>
+		<hp>44 (8d8 + 8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -8491,10 +8517,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>49/49 (9d8 + 9)</hp>
+		<hp>49 (9d8 + 9)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -8545,10 +8571,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>55/55 (10d8 + 10)</hp>
+		<hp>55 (10d8 + 10)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -8599,10 +8625,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>60/60 (11d8 + 11)</hp>
+		<hp>60 (11d8 + 11)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -8653,10 +8679,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>66/66 (12d8 + 12)</hp>
+		<hp>66 (12d8 + 12)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -8711,10 +8737,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>71/71 (13d8 + 13)</hp>
+		<hp>71 (13d8 + 13)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -8769,10 +8795,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>11/11 (2d8 + 2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -8811,10 +8837,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>16/16 (3d8 + 3)</hp>
+		<hp>16 (3d8 + 3)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -8857,10 +8883,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>22/22 (4d8 + 4)</hp>
+		<hp>22 (4d8 + 4)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -8907,10 +8933,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>27/27 (5d8 + 5)</hp>
+		<hp>27 (5d8 + 5)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -8957,10 +8983,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>33/33 (6d8 + 6)</hp>
+		<hp>33 (6d8 + 6)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9007,10 +9033,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>38/38 (7d8 + 7)</hp>
+		<hp>38 (7d8 + 7)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9061,10 +9087,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>44/44 (8d8 + 8)</hp>
+		<hp>44 (8d8 + 8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -9115,10 +9141,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>49/49 (9d8 + 9)</hp>
+		<hp>49 (9d8 + 9)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9169,10 +9195,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>55/55 (10d8 + 10)</hp>
+		<hp>55 (10d8 + 10)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9223,10 +9249,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>60/60 (11d8 + 11)</hp>
+		<hp>60 (11d8 + 11)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -9277,10 +9303,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>66/66 (12d8 + 12)</hp>
+		<hp>66 (12d8 + 12)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -9335,10 +9361,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>71/71 (13d8 + 13)</hp>
+		<hp>71 (13d8 + 13)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -9393,10 +9419,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>11/11 (2d8 + 2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -9435,10 +9461,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>16/16 (3d8 + 3)</hp>
+		<hp>16 (3d8 + 3)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -9481,10 +9507,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>22/22 (4d8 + 4)</hp>
+		<hp>22 (4d8 + 4)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -9531,10 +9557,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>27/27 (5d8 + 5)</hp>
+		<hp>27 (5d8 + 5)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9581,10 +9607,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>33/33 (6d8 + 6)</hp>
+		<hp>33 (6d8 + 6)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9631,10 +9657,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>38/38 (7d8 + 7)</hp>
+		<hp>38 (7d8 + 7)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9685,10 +9711,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>44/44 (8d8 + 8)</hp>
+		<hp>44 (8d8 + 8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -9739,10 +9765,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>49/49 (9d8 + 9)</hp>
+		<hp>49 (9d8 + 9)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9793,10 +9819,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>55/55 (10d8 + 10)</hp>
+		<hp>55 (10d8 + 10)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -9847,10 +9873,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>60/60 (11d8 + 11)</hp>
+		<hp>60 (11d8 + 11)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -9901,10 +9927,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>66/66 (12d8 + 12)</hp>
+		<hp>66 (12d8 + 12)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -9959,10 +9985,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>71/71 (13d8 + 13)</hp>
+		<hp>71 (13d8 + 13)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -10017,10 +10043,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>13 (leather)</ac>
-		<hp>9/9 (2d8)</hp>
+		<hp>9 (2d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10068,10 +10094,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>13 (leather)</ac>
-		<hp>13/13 (3d8)</hp>
+		<hp>13 (3d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10119,10 +10145,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>13 (leather)</ac>
-		<hp>18/18 (4d8)</hp>
+		<hp>18 (4d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10170,10 +10196,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>13 (leather)</ac>
-		<hp>22/22 (5d8)</hp>
+		<hp>22 (5d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10221,10 +10247,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>13 (leather)</ac>
-		<hp>27/27 (6d8)</hp>
+		<hp>27 (6d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10274,10 +10300,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>13 (leather)</ac>
-		<hp>31/31 (7d8)</hp>
+		<hp>31 (7d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10331,10 +10357,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>36/36 (8d8)</hp>
+		<hp>36 (8d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10392,10 +10418,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>40/40 (9d8)</hp>
+		<hp>40 (9d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10453,10 +10479,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>45/45 (10d8)</hp>
+		<hp>45 (10d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10516,10 +10542,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>49/49 (11d8)</hp>
+		<hp>49 (11d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10583,10 +10609,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>54/54 (12d8)</hp>
+		<hp>54 (12d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10652,10 +10678,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>58/58 (13d8)</hp>
+		<hp>58 (13d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10721,10 +10747,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>13 (leather)</ac>
-		<hp>9/9 (2d8)</hp>
+		<hp>9 (2d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10772,10 +10798,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>13 (leather)</ac>
-		<hp>13/13 (3d8)</hp>
+		<hp>13 (3d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10823,10 +10849,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>13 (leather)</ac>
-		<hp>18/18 (4d8)</hp>
+		<hp>18 (4d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10874,10 +10900,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>13 (leather)</ac>
-		<hp>22/22 (5d8)</hp>
+		<hp>22 (5d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10925,10 +10951,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>13 (leather)</ac>
-		<hp>27/27 (6d8)</hp>
+		<hp>27 (6d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -10978,10 +11004,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>13 (leather)</ac>
-		<hp>31/31 (7d8)</hp>
+		<hp>31 (7d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -11035,10 +11061,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>36/36 (8d8)</hp>
+		<hp>36 (8d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -11096,10 +11122,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>40/40 (9d8)</hp>
+		<hp>40 (9d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -11157,10 +11183,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>45/45 (10d8)</hp>
+		<hp>45 (10d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -11220,10 +11246,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>49/49 (11d8)</hp>
+		<hp>49 (11d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -11287,10 +11313,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>54/54 (12d8)</hp>
+		<hp>54 (12d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -11356,10 +11382,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>58/58 (13d8)</hp>
+		<hp>58 (13d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -11425,10 +11451,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>9/9 (2d8)</hp>
+		<hp>9 (2d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11460,10 +11486,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>13/13 (3d8)</hp>
+		<hp>13 (3d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11495,10 +11521,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>18/18 (4d8)</hp>
+		<hp>18 (4d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11530,10 +11556,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>22/22 (5d8)</hp>
+		<hp>22 (5d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11565,10 +11591,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>27/27 (6d8)</hp>
+		<hp>27 (6d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11602,10 +11628,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>31/31 (7d8)</hp>
+		<hp>31 (7d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11643,10 +11669,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>36/36 (8d8)</hp>
+		<hp>36 (8d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11688,10 +11714,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>40/40 (9d8)</hp>
+		<hp>40 (9d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11733,10 +11759,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>45/45 (10d8)</hp>
+		<hp>45 (10d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11780,10 +11806,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>49/49 (11d8)</hp>
+		<hp>49 (11d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11831,10 +11857,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>54/54 (12d8)</hp>
+		<hp>54 (12d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11884,10 +11910,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>58/58 (13d8)</hp>
+		<hp>58 (13d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11937,10 +11963,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 01</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>9/9 (2d8)</hp>
+		<hp>9 (2d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -11972,10 +11998,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 02</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>13/13 (3d8)</hp>
+		<hp>13 (3d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12007,10 +12033,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 03</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>18/18 (4d8)</hp>
+		<hp>18 (4d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12042,10 +12068,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 04</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>22/22 (5d8)</hp>
+		<hp>22 (5d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12077,10 +12103,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 05</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>27/27 (6d8)</hp>
+		<hp>27 (6d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12114,10 +12140,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 06</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>12 (leather)</ac>
-		<hp>31/31 (7d8)</hp>
+		<hp>31 (7d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12155,10 +12181,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 07</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>36/36 (8d8)</hp>
+		<hp>36 (8d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12200,10 +12226,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 08</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>40/40 (9d8)</hp>
+		<hp>40 (9d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12245,10 +12271,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 09</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>45/45 (10d8)</hp>
+		<hp>45 (10d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12292,10 +12318,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 10</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>49/49 (11d8)</hp>
+		<hp>49 (11d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12343,10 +12369,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 11</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>54/54 (12d8)</hp>
+		<hp>54 (12d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -12396,10 +12422,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 12</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>58/58 (13d8)</hp>
+		<hp>58 (13d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -12447,7 +12473,9 @@
 			<attack>2 hand|+4|1d8</attack>
 		</action>
 	</monster>
+	
 	<!--Extrapolated Leveling-->
+	
 	<!--Generic-->
 	<monster>
 		<name>Sidekick: Warrior (Attacker) 13</name>
@@ -13406,7 +13434,7 @@
 		<type>humanoid, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>77/77 (14d8 + 14)</hp>
+		<hp>77 (14d8 + 14)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>20</dex>
@@ -13463,7 +13491,7 @@
 		<type>humanoid, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>82/82 (15d8 + 15)</hp>
+		<hp>82 (15d8 + 15)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>20</dex>
@@ -13524,7 +13552,7 @@
 		<type>humanoid, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>88/88 (16d8 + 16)</hp>
+		<hp>88 (16d8 + 16)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>20</dex>
@@ -13586,7 +13614,7 @@
 		<type>humanoid, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>93/93 (17d8 + 17)</hp>
+		<hp>93 (17d8 + 17)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>20</dex>
@@ -13648,7 +13676,7 @@
 		<type>humanoid, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>99/99 (18d8 + 18)</hp>
+		<hp>99 (18d8 + 18)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>20</dex>
@@ -13709,7 +13737,7 @@
 		<type>humanoid, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>104/104 (19d8 + 19)</hp>
+		<hp>104 (19d8 + 19)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>20</dex>
@@ -13774,7 +13802,7 @@
 		<type>humanoid, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>110/110 (20d8 + 20)</hp>
+		<hp>110 (20d8 + 20)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>20</dex>
@@ -13839,7 +13867,7 @@
 		<type>humanoid, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>115/115 (21d8 + 21)</hp>
+		<hp>115 (21d8 + 21)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>20</dex>
@@ -13909,7 +13937,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>63/63 (14d8)</hp>
+		<hp>63 (14d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>12</dex>
@@ -13963,7 +13991,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>67/67 (15d8)</hp>
+		<hp>67 (15d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>12</dex>
@@ -14021,7 +14049,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>72/72 (16d8)</hp>
+		<hp>72 (16d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>12</dex>
@@ -14081,7 +14109,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>76/76 (17d8)</hp>
+		<hp>76 (17d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>14</dex>
@@ -14141,7 +14169,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>81/81 (18d8)</hp>
+		<hp>81 (18d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>14</dex>
@@ -14203,7 +14231,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>85/85 (19d8)</hp>
+		<hp>85 (19d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>14</dex>
@@ -14269,7 +14297,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>90/90 (20d8)</hp>
+		<hp>90 (20d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>16</dex>
@@ -14335,7 +14363,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>94/94 (21d8)</hp>
+		<hp>94 (21d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>16</dex>
@@ -14405,7 +14433,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>63/63 (14d8)</hp>
+		<hp>63 (14d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>12</dex>
@@ -14459,7 +14487,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>67/67 (15d8)</hp>
+		<hp>67 (15d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>12</dex>
@@ -14517,7 +14545,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>72/72 (16d8)</hp>
+		<hp>72 (16d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>12</dex>
@@ -14577,7 +14605,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>76/76 (17d8)</hp>
+		<hp>76 (17d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>14</dex>
@@ -14637,7 +14665,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>81/81 (18d8)</hp>
+		<hp>81 (18d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>14</dex>
@@ -14699,7 +14727,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>85/85 (19d8)</hp>
+		<hp>85 (19d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>14</dex>
@@ -14765,7 +14793,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>90/90 (20d8)</hp>
+		<hp>90 (20d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>16</dex>
@@ -14831,7 +14859,7 @@
 		<type>Humanoid</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>94/94 (21d8)</hp>
+		<hp>94 (21d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>16</dex>
@@ -14896,13 +14924,14 @@
 			<attack>2 hand|+6|1d8</attack>
 		</action>
 	</monster>
+
 	<!--Specific-->
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>105/105 (14d8 + 42)</hp>
+		<hp>105 (14d8 + 42)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -14913,6 +14942,7 @@
 		<cha>10</cha>
 		<save>Constitution +8</save>
 		<skill>Athletics +10, Perception +6, Survival +6</skill>
+		<resist>poison</resist>
 		<passive>16</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -14966,10 +14996,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>105/105 (14d8 + 42)</hp>
+		<hp>105 (14d8 + 42)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -14980,6 +15010,7 @@
 		<cha>10</cha>
 		<save>Constitution +8</save>
 		<skill>Athletics +10, Perception +6, Survival +6</skill>
+		<resist>poison</resist>
 		<passive>15</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15033,10 +15064,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>112/112 (15d8 + 45)</hp>
+		<hp>112 (15d8 + 45)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -15047,6 +15078,7 @@
 		<cha>10</cha>
 		<save>Constitution +8</save>
 		<skill>Athletics +10, Perception +6, Survival +6</skill>
+		<resist>poison</resist>
 		<passive>16</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15100,10 +15132,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>112/112 (15d8 + 45)</hp>
+		<hp>112 (15d8 + 45)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -15114,6 +15146,7 @@
 		<cha>10</cha>
 		<save>Constitution +8</save>
 		<skill>Athletics +10, Perception +6, Survival +6</skill>
+		<resist>poison</resist>
 		<passive>16</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15167,10 +15200,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>120/120 (16d8 + 48)</hp>
+		<hp>120 (16d8 + 48)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -15181,6 +15214,7 @@
 		<cha>10</cha>
 		<save>Constitution +8</save>
 		<skill>Athletics +10, Perception +6, Survival +6</skill>
+		<resist>poison</resist>
 		<passive>16</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15234,10 +15268,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>120/120 (16d8 + 48)</hp>
+		<hp>120 (16d8 + 48)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -15248,6 +15282,7 @@
 		<cha>10</cha>
 		<save>Constitution +8</save>
 		<skill>Athletics +10, Perception +6, Survival +6</skill>
+		<resist>poison</resist>
 		<passive>16</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15301,10 +15336,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>127/127 (17d8 + 51)</hp>
+		<hp>127 (17d8 + 51)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -15315,6 +15350,7 @@
 		<cha>10</cha>
 		<save>Constitution +8</save>
 		<skill>Athletics +10, Perception +6, Survival +6</skill>
+		<resist>poison</resist>
 		<passive>16</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15368,10 +15404,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>127/127 (17d8 + 51)</hp>
+		<hp>127 (17d8 + 51)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -15382,6 +15418,7 @@
 		<cha>10</cha>
 		<save>Constitution +8</save>
 		<skill>Athletics +10, Perception +6, Survival +6</skill>
+		<resist>poison</resist>
 		<passive>16</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15435,10 +15472,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>135/135 (18d8 + 54)</hp>
+		<hp>135 (18d8 + 54)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -15449,6 +15486,7 @@
 		<cha>10</cha>
 		<save>Constitution +9</save>
 		<skill>Athletics +11, Perception +7, Survival +7</skill>
+		<resist>poison</resist>
 		<passive>17</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15502,10 +15540,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>135/135 (18d8 + 54)</hp>
+		<hp>135 (18d8 + 54)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -15516,6 +15554,7 @@
 		<cha>10</cha>
 		<save>Constitution +9</save>
 		<skill>Athletics +11, Perception +7, Survival +7</skill>
+		<resist>poison</resist>
 		<passive>17</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15569,10 +15608,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>142/142 (19d8 + 57)</hp>
+		<hp>142 (19d8 + 57)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -15583,6 +15622,7 @@
 		<cha>10</cha>
 		<save>Constitution +9</save>
 		<skill>Athletics +11, Perception +7, Survival +7</skill>
+		<resist>poison</resist>
 		<passive>17</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15640,10 +15680,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>142/142 (19d8 + 57)</hp>
+		<hp>142 (19d8 + 57)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -15654,6 +15694,7 @@
 		<cha>10</cha>
 		<save>Constitution +9</save>
 		<skill>Athletics +11, Perception +7, Survival +7</skill>
+		<resist>poison</resist>
 		<passive>17</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15711,10 +15752,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>170/170 (20d8 + 80)</hp>
+		<hp>170 (20d8 + 80)</hp>
 		<speed>25 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -15725,6 +15766,7 @@
 		<cha>10</cha>
 		<save>Constitution +10</save>
 		<skill>Athletics +11, Perception +7, Survival +7</skill>
+		<resist>poison</resist>
 		<passive>17</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15782,10 +15824,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>170/170 (20d8 + 80)</hp>
+		<hp>170 (20d8 + 80)</hp>
 		<speed>25 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -15796,6 +15838,7 @@
 		<cha>10</cha>
 		<save>Constitution +10</save>
 		<skill>Athletics +11, Perception +7, Survival +7</skill>
+		<resist>poison</resist>
 		<passive>17</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15853,10 +15896,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Attacker) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>178/178 (21d8 + 84)</hp>
+		<hp>178 (21d8 + 84)</hp>
 		<speed>25 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -15867,6 +15910,7 @@
 		<cha>10</cha>
 		<save>Constitution +10</save>
 		<skill>Athletics +11, Perception +7, Survival +7</skill>
+		<resist>poison</resist>
 		<passive>17</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15924,10 +15968,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Ruby Hammerwhacker (Defender) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, dwarf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>178/178 (21d8 + 84)</hp>
+		<hp>178 (21d8 + 84)</hp>
 		<speed>25 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -15938,6 +15982,7 @@
 		<cha>10</cha>
 		<save>Constitution +10</save>
 		<skill>Athletics +11, Perception +7, Survival +7</skill>
+		<resist>poison</resist>
 		<passive>17</passive>
 		<languages>Common, Dwarvish</languages>
 		<trait>
@@ -15995,10 +16040,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>63/63 (14d8)</hp>
+		<hp>63 (14d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -16050,10 +16095,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>67/67 (15d8)</hp>
+		<hp>67 (15d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -16109,10 +16154,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>72/72 (16d8)</hp>
+		<hp>72 (16d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -16170,10 +16215,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>76/76 (17d8)</hp>
+		<hp>76 (17d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -16231,10 +16276,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>81/81 (18d8)</hp>
+		<hp>81 (18d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -16294,10 +16339,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>85/85 (19d8)</hp>
+		<hp>85 (19d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -16361,10 +16406,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>90/90 (20d8)</hp>
+		<hp>90 (20d8)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -16428,10 +16473,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella Fiasco (Healer) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>94/94 (21d8)</hp>
+		<hp>94 (21d8)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -16499,10 +16544,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>63/63 (14d8)</hp>
+		<hp>63 (14d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -16554,10 +16599,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>67/67 (15d8)</hp>
+		<hp>67 (15d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -16613,10 +16658,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>72/72 (16d8)</hp>
+		<hp>72 (16d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -16674,10 +16719,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>76/76 (17d8)</hp>
+		<hp>76 (17d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -16735,10 +16780,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>81/81 (18d8)</hp>
+		<hp>81 (18d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -16798,10 +16843,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>85/85 (19d8)</hp>
+		<hp>85 (19d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -16865,10 +16910,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>90/90 (20d8)</hp>
+		<hp>90 (20d8)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -16932,10 +16977,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Donnabella (Mage) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>94/94 (21d8)</hp>
+		<hp>94 (21d8)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -17003,10 +17048,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>91/91 (14d8+28)</hp>
+		<hp>91 (14d8+28)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -17074,10 +17119,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>91/91 (14d8+28)</hp>
+		<hp>91 (14d8+28)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -17145,10 +17190,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>97/97 (15d8+30)</hp>
+		<hp>97 (15d8+30)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -17216,10 +17261,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>97/97 (15d8+30)</hp>
+		<hp>97 (15d8+30)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -17287,10 +17332,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>104/104 (16d8+32)</hp>
+		<hp>104 (16d8+32)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -17358,10 +17403,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>104/104 (16d8+32)</hp>
+		<hp>104 (16d8+32)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -17429,10 +17474,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>110/110 (17d8+34)</hp>
+		<hp>110 (17d8+34)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -17500,10 +17545,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>110/110 (17d8+34)</hp>
+		<hp>110 (17d8+34)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -17571,10 +17616,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>117/117 (18d8+36)</hp>
+		<hp>117 (18d8+36)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -17642,10 +17687,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>117/117 (18d8+36)</hp>
+		<hp>117 (18d8+36)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -17713,10 +17758,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>123/123 (19d8+38)</hp>
+		<hp>123 (19d8+38)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -17788,10 +17833,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>123/123 (19d8+38)</hp>
+		<hp>123 (19d8+38)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -17863,10 +17908,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>150/150 (20d8+60)</hp>
+		<hp>150 (20d8+60)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -17938,10 +17983,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>150/150 (20d8+60)</hp>
+		<hp>150 (20d8+60)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -18013,10 +18058,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Attacker) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>156/156 (21d8+62)</hp>
+		<hp>156 (21d8+62)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -18088,10 +18133,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Inverna Nightbreeze (Defender) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, elf, sidekick</type>
 		<size>M</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>156/156 (21d8+62)</hp>
+		<hp>156 (21d8+62)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -18163,10 +18208,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>91/91 (14d8+28)</hp>
+		<hp>91 (14d8+28)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -18238,10 +18283,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>91/91 (14d8+28)</hp>
+		<hp>91 (14d8+28)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>20</str>
@@ -18313,10 +18358,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>97/97 (15d8+30)</hp>
+		<hp>97 (15d8+30)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -18388,10 +18433,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>97/97 (15d8+30)</hp>
+		<hp>97 (15d8+30)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -18463,10 +18508,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>104/104 (16d8+32)</hp>
+		<hp>104 (16d8+32)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -18538,10 +18583,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>104/104 (16d8+32)</hp>
+		<hp>104 (16d8+32)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>20</str>
@@ -18613,10 +18658,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>110/110 (17d8+34)</hp>
+		<hp>110 (17d8+34)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -18688,10 +18733,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>110/110 (17d8+34)</hp>
+		<hp>110 (17d8+34)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -18763,10 +18808,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>117/117 (18d8+36)</hp>
+		<hp>117 (18d8+36)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -18838,10 +18883,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>117/117 (18d8+36)</hp>
+		<hp>117 (18d8+36)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -18913,10 +18958,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>123/123 (19d8+38)</hp>
+		<hp>123 (19d8+38)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -18992,10 +19037,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>123/123 (19d8+38)</hp>
+		<hp>123 (19d8+38)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>20</str>
@@ -19071,10 +19116,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>150/150 (20d8+60)</hp>
+		<hp>150 (20d8+60)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -19150,10 +19195,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>150/150 (20d8+60)</hp>
+		<hp>150 (20d8+60)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -19229,10 +19274,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Attacker) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>156/156 (21d8+62)</hp>
+		<hp>156 (21d8+62)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -19308,10 +19353,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Quinn Hightopple (Defender) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>21 (plate, shield)</ac>
-		<hp>156/156 (21d8+62)</hp>
+		<hp>156 (21d8+62)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>20</str>
@@ -19387,10 +19432,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>77/77 (14d8 + 14)</hp>
+		<hp>77 (14d8 + 14)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19445,10 +19490,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>82/82 (15d8 + 15)</hp>
+		<hp>82 (15d8 + 15)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19507,10 +19552,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>88/88 (16d8 + 16)</hp>
+		<hp>88 (16d8 + 16)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19570,10 +19615,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>93/93 (17d8 + 17)</hp>
+		<hp>93 (17d8 + 17)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19633,10 +19678,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>99/99 (18d8 + 18)</hp>
+		<hp>99 (18d8 + 18)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19696,10 +19741,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>104/104 (19d8 + 19)</hp>
+		<hp>104 (19d8 + 19)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19763,10 +19808,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>110/110 (20d8 + 20)</hp>
+		<hp>110 (20d8 + 20)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19830,10 +19875,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Galandro Luna 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>115/115 (21d8 + 21)</hp>
+		<hp>115 (21d8 + 21)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19902,10 +19947,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>77/77 (14d8 + 14)</hp>
+		<hp>77 (14d8 + 14)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -19960,10 +20005,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>82/82 (15d8 + 15)</hp>
+		<hp>82 (15d8 + 15)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20022,10 +20067,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>88/88 (16d8 + 16)</hp>
+		<hp>88 (16d8 + 16)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20085,10 +20130,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>93/93 (17d8 + 17)</hp>
+		<hp>93 (17d8 + 17)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20148,10 +20193,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>99/99 (18d8 + 18)</hp>
+		<hp>99 (18d8 + 18)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20211,10 +20256,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>104/104 (19d8 + 19)</hp>
+		<hp>104 (19d8 + 19)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20278,10 +20323,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>110/110 (20d8 + 20)</hp>
+		<hp>110 (20d8 + 20)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20345,10 +20390,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Pickled Pete 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>115/115 (21d8 + 21)</hp>
+		<hp>115 (21d8 + 21)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20417,10 +20462,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>77/77 (14d8 + 14)</hp>
+		<hp>77 (14d8 + 14)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20475,10 +20520,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>82/82 (15d8 + 15)</hp>
+		<hp>82 (15d8 + 15)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20537,10 +20582,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>88/88 (16d8 + 16)</hp>
+		<hp>88 (16d8 + 16)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20600,10 +20645,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>93/93 (17d8 + 17)</hp>
+		<hp>93 (17d8 + 17)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20663,10 +20708,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>99/99 (18d8 + 18)</hp>
+		<hp>99 (18d8 + 18)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20726,10 +20771,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>104/104 (19d8 + 19)</hp>
+		<hp>104 (19d8 + 19)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20793,10 +20838,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>110/110 (20d8 + 20)</hp>
+		<hp>110 (20d8 + 20)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20860,10 +20905,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Talon Thornwild 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>17 (studded leather)</ac>
-		<hp>115/115 (21d8 + 21)</hp>
+		<hp>115 (21d8 + 21)</hp>
 		<speed>30 ft.</speed>
 		<init>5</init>
 		<str>11</str>
@@ -20932,10 +20977,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>63/63 (14d8)</hp>
+		<hp>63 (14d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -21003,10 +21048,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>67/67 (15d8)</hp>
+		<hp>67 (15d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -21078,10 +21123,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>14 (studded leather)</ac>
-		<hp>72/72 (16d8)</hp>
+		<hp>72 (16d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -21155,10 +21200,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>15 (studded leather)</ac>
-		<hp>76/76 (17d8)</hp>
+		<hp>76 (17d8)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>10</str>
@@ -21232,10 +21277,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>15 (studded leather)</ac>
-		<hp>81/81 (18d8)</hp>
+		<hp>81 (18d8)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>10</str>
@@ -21311,10 +21356,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>15 (studded leather)</ac>
-		<hp>85/85 (19d8)</hp>
+		<hp>85 (19d8)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>10</str>
@@ -21394,10 +21439,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (studded leather)</ac>
-		<hp>90/90 (20d8)</hp>
+		<hp>90 (20d8)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>10</str>
@@ -21477,10 +21522,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Mage) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>S</size>
 		<ac>16 (studded leather)</ac>
-		<hp>94/94 (21d8)</hp>
+		<hp>94 (21d8)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>10</str>
@@ -21564,10 +21609,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>63/63 (14d8)</hp>
+		<hp>63 (14d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -21635,10 +21680,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>67/67 (15d8)</hp>
+		<hp>67 (15d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -21710,10 +21755,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>72/72 (16d8)</hp>
+		<hp>72 (16d8)</hp>
 		<speed>25 ft.</speed>
 		<init>2</init>
 		<str>10</str>
@@ -21787,10 +21832,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>76/76 (17d8)</hp>
+		<hp>76 (17d8)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>10</str>
@@ -21864,10 +21909,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>81/81 (18d8)</hp>
+		<hp>81 (18d8)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>10</str>
@@ -21943,10 +21988,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>85/85 (19d8)</hp>
+		<hp>85 (19d8)</hp>
 		<speed>25 ft.</speed>
 		<init>3</init>
 		<str>10</str>
@@ -22026,10 +22071,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>90/90 (20d8)</hp>
+		<hp>90 (20d8)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>10</str>
@@ -22109,10 +22154,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Nib Addlespur (Healer) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, halfling, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>94/94 (21d8)</hp>
+		<hp>94 (21d8)</hp>
 		<speed>25 ft.</speed>
 		<init>4</init>
 		<str>10</str>
@@ -22196,10 +22241,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>63/63 (14d8)</hp>
+		<hp>63 (14d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -22251,10 +22296,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>67/67 (15d8)</hp>
+		<hp>67 (15d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -22310,10 +22355,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>13 (studded leather)</ac>
-		<hp>72/72 (16d8)</hp>
+		<hp>72 (16d8)</hp>
 		<speed>30 ft.</speed>
 		<init>1</init>
 		<str>11</str>
@@ -22371,10 +22416,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>76/76 (17d8)</hp>
+		<hp>76 (17d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -22432,10 +22477,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>81/81 (18d8)</hp>
+		<hp>81 (18d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -22495,10 +22540,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>85/85 (19d8)</hp>
+		<hp>85 (19d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -22562,10 +22607,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>90/90 (20d8)</hp>
+		<hp>90 (20d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -22629,10 +22674,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Mage) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>94/94 (21d8)</hp>
+		<hp>94 (21d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -22700,10 +22745,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 13</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>63/63 (14d8)</hp>
+		<hp>63 (14d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -22755,10 +22800,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 14</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>67/67 (15d8)</hp>
+		<hp>67 (15d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -22814,10 +22859,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 15</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>14 (studded leather)</ac>
-		<hp>72/72 (16d8)</hp>
+		<hp>72 (16d8)</hp>
 		<speed>30 ft.</speed>
 		<init>2</init>
 		<str>11</str>
@@ -22875,10 +22920,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 16</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>76/76 (17d8)</hp>
+		<hp>76 (17d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -22936,10 +22981,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 17</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>81/81 (18d8)</hp>
+		<hp>81 (18d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -22999,10 +23044,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 18</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>15 (studded leather)</ac>
-		<hp>85/85 (19d8)</hp>
+		<hp>85 (19d8)</hp>
 		<speed>30 ft.</speed>
 		<init>3</init>
 		<str>11</str>
@@ -23066,10 +23111,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 19</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>90/90 (20d8)</hp>
+		<hp>90 (20d8)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
@@ -23133,10 +23178,10 @@
 	</monster>
 	<monster>
 		<name>Sidekick: Shajan Kwan (Healer) 20</name>
-		<type>humanoid, sidekick</type>
+		<type>humanoid, human, sidekick</type>
 		<size>M</size>
 		<ac>16 (studded leather)</ac>
-		<hp>94/94 (21d8)</hp>
+		<hp>94 (21d8)</hp>
 		<speed>30 ft.</speed>
 		<init>4</init>
 		<str>11</str>
