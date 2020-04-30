@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<!-- The Lost Dungeon of Rickedness: Big Rick Energy -->
+	<monster>
+		<name>Billy Beaver</name>
+		<size>L</size>
+		<type>monstrosity</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>34 (7d10+21)</hp>
+		<speed>40 ft.</speed>
+		<str>20</str>
+		<dex>12</dex>
+		<con>17</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<skill>Perception +3</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<cr>3</cr>
+		<trait>
+			<name>Keen Sight and Smell</name>
+			<text>The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.</text>
+		</trait>
+		<action>
+			<name>Beak</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage.</text>
+			<attack>Beak|7|1d10+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Buster the Bear</name>
+		<size>M</size>
+		<type>humanoid (goblinoid)</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (hide armor, shield)</ac>
+		<hp>27 (5d8+5)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>8</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<skill>Stealth +6, Survival +2</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Goblin</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Brute</name>
+			<text>A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).</text>
+		</trait>
+		<trait>
+			<name>Surprise Attack</name>
+			<text>If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</text>
+			<attack>Surprise Attack||2d6</attack>
+		</trait>
+		<action>
+			<name>Bashing' Banjo</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.</text>
+			<attack>Bashing' Banjo|4|1d8+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Layla the Lizard</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>chaotic evil</alignment>
+		<ac>12</ac>
+		<hp>22 (5d8)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>15</dex>
+		<con>10</con>
+		<int>7</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common</languages>
+		<cr>1</cr>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage.</text>
+			<attack>Bite|2|2d6+2</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
+			<attack>Claws|4|2d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Piggy Wiggle Butt</name>
+		<size>M</size>
+		<type>humanoid (orc)</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>15 (2d8+6)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>7</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Intimidation +2</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Orc</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<action>
+			<name>Clay Jug</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage.</text>
+			<attack>Clay Jug|5|1d8+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Thomas T. Toad</name>
+		<size>L</size>
+		<type>giant</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>chaotic evil</alignment>
+		<ac>11 (hide armor)</ac>
+		<hp>59 (7d10+21)</hp>
+		<speed>40 ft.</speed>
+		<str>19</str>
+		<dex>8</dex>
+		<con>16</con>
+		<int>5</int>
+		<wis>7</wis>
+		<cha>7</cha>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>Common, Giant</languages>
+		<cr>2</cr>
+		<action>
+			<name>Webby Hands</name>
+			<text> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage</text>
+			<attack>Webby Hands|6|1d8+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Large Mimic</name>
+		<size>L</size>
+		<type>monstrosity (shapechanger)</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>neutral</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>75 (9d8+18)</hp>
+		<speed>0 ft.</speed>
+		<str>17</str>
+		<dex>12</dex>
+		<con>15</con>
+		<int>5</int>
+		<wis>13</wis>
+		<cha>8</cha>
+		<skill>Stealth +5</skill>
+		<immune>acid</immune>
+		<conditionImmune>prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<cr>3</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn 't transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<trait>
+			<name>Adhesive (Object Form Only)</name>
+			<text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.</text>
+		</trait>
+		<trait>
+			<name>False Appearance (Object Form Only)</name>
+			<text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
+		</trait>
+		<trait>
+			<name>Grappler</name>
+			<text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The mimic makes three attacks: two with its pseudopods and one with its bite.</text>
+		</action>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
+			<attack>Pseudopod|5|1d8+3</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.</text>
+			<attack>Bite|5|1d8+3+1d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Tommy Two-Butts</name>
+		<size>M</size>
+		<type>humanoid (goblinoid)</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (hide armor, shield)</ac>
+		<hp>27 (5d8+5)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>21</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<skill>Stealth +6, Survival +2</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Goblin</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Brute</name>
+			<text>A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).</text>
+		</trait>
+		<trait>
+			<name>Surprise Attack</name>
+			<text>If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</text>
+			<attack>Surprise Attack||2d6</attack>
+		</trait>
+		<action>
+			<name>Morningstar</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.</text>
+			<attack>Morningstar|4|2d8+2</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.</text>
+			<attack>Melee|4|2d6+2</attack>
+			<attack>Ranged|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Lycantropickle</name>
+		<size>S</size>
+		<type>plant</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>neutral evil</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>4 (1d6+1)</hp>
+		<speed>20 ft.</speed>
+		<str>6</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>4</int>
+		<wis>8</wis>
+		<cha>3</cha>
+		<skill>Stealth +3</skill>
+		<vulnerable>fire</vulnerable>
+		<conditionImmune>blinded, deafened</conditionImmune>
+		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+		<passive>9</passive>
+		<languages>understands Common but can't speak</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the lycanthropickle remains motionless, it is indistinguishable from a pickle.</text>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</text>
+			<attack>Claws|3|1d4+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Meeseeks</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>any alignment</alignment>
+		<ac>10</ac>
+		<hp>— (Immune to damage)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>10</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>0</cr>
+		<trait>
+			<name>Immunity</name>
+			<text>Meeseeks are immune to damage.</text>
+		</trait>
+		<action>
+			<name>Club</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
+			<attack>Club|2|1d4</attack>
+		</action>
+	</monster>
+</compendium>
