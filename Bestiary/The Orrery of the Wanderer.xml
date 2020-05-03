@@ -203,6 +203,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.</text>
 			<attack>Longsword|3|1d8+1</attack>
+			<attack>Longsword (2H)|3|1d10+1</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -685,6 +686,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
 			<attack>Longsword|5|1d8+3</attack>
+			<attack>Longsword (2H)|5|1d10+3</attack>
 		</action>
 		<action>
 			<name>Shortsword</name>
@@ -1271,7 +1273,8 @@
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
-			<attack>Longsword|5|1d8+3+1d10+3</attack>
+			<attack>Longsword|5|1d8+3</attack>
+			<attack>Longsword (2H)|5|1d10+3</attack>
 		</action>
 		<action>
 			<name>Light Crossbow</name>
