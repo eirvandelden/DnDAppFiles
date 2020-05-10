@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<compendium version="5" HB="HB">
+	<!--Explorer's Guide to Wildemount-->
+	<item>
+		<name>Amulet of the Drunkard</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>uncommon</rarity>
+		<text>Rarity: uncommon</text>
+		<text>This amulet smells of old, ale-stained wood. While wearing it, you can regain 4d4 + 4 hit points when you drink a pint of beer, ale, mead, or wine. Once the amulet has restored hit points, it can't do so again until the next dawn.</text>
+		<roll>4d4+4</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Arcane Cannon</name>
+		<type>W</type>
+		<magic>1</magic>
+		<magic>1</magic>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>This Large cannon is imbued with magic. It requires no ammunition and doesn't need to be loaded. It takes one action to aim the cannon and one action to fire it. After the cannon has fired, it must recharge for 5 minutes before it can be fired again.</text>
+		<text>	The creature firing the cannon chooses the effect from the following options:</text>
+		<text>	Acid Jet. The cannon discharges acid in a line 300 feet long and 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one. In addition, a creature that fails its saving throw takes 11 (2d10) acid damage at the start of each of its turns; a creature can end this damage by using its action to wash off the acid with a pint or more of water.</text>
+		<roll>4d10</roll>
+		<roll>2d10</roll>
+		<roll>6d10</roll>
+		<text>	Fire Jet. The cannon discharges fire in a line 300 feet long and 5 feet wide. Each creature in the area must make a DC 15 Dexterity saving throw, taking 33 (6d10) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.</text>
+		<text>	Frost Shot. The cannon shoots a ball of frost to a point you can see within 1,200 feet of the cannon. The ball then expands to form a 30-foot-radius sphere centered on that point. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 22 (4d10) cold damage, and its speed is reduced by 10 feet for 1 minute. On a successful save, the creature takes half as much damage, and its speed isn't reduced. A creature whose speed is reduced by this effect can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+		<text>	Lightning Shot. The cannon shoots a ball of lightning to a point you can see within 1,200 feet of the cannon. The lightning then expands to form a 20-foot-radius sphere centered on that point. Each creature in that area must make a DC 15 Dexterity saving throw, taking 33 (6d10) lightning damage on a failed save, or half as much damage on a successful one. Creatures wearing metal armor have disadvantage on the save.</text>
+		<text>	Poison Spray. The cannon expels poison gas in a 60-foot cone. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, the creature takes 22 (4d10) poison damage and is poisoned for 1 minute. On a successful save, the creature takes half as much damage and isn't poisoned. A creature poisoned in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Battering Shield</name>
+		<type>S</type>
+		<magic>1</magic>
+		<weight>6</weight>
+		<ac>2</ac>
+		<rarity>rare</rarity>
+		<text>Rarity: rare</text>
+		<text>Requires Attunement</text>
+		<text>While holding this iron tower shield, you gain a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.</text>
+		<text>	Additionally, the shield has 3 charges, and it regains 1d3 expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it prone, or both.</text>
+		<text />
+		<modifier category="bonus">ac +1</modifier>
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Black Sap</name>
+		<type>P</type>
+		<text>This tarry substance harvested from the dark boughs of the death's head willow is a powerful intoxicant. It can be smoked as a concentrate or injected directly into the bloodstream. A creature subjected to a dose of black sap cannot be charmed or frightened for 1d6 hours.</text>
+		<text>	For each dose of black sap consumed, a creature must succeed on a DC 15 Constitution saving throw or become poisoned for 2d4 hours—an effect that is cumulative with multiple doses.</text>
+		<roll>1d6</roll>
+		<roll>2d4</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Blade of Broken Mirrors (Dormant)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement by a humanoid</text>
+		<text>A weapon of Tharizdun, this dagger is a piece of jagged stone whose blade is scribed with a maze-like pattern with no beginning or end.</text>
+		<text>Sentience. The Blade of Broken Mirrors is a sentient chaotic evil weapon with an Intelligence of 21, a Wisdom of 24, and a Charisma of 24. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal and Common.</text>
+		<text>Personality. An insane glabrezu named Ragazuu lives within the Blade of Broken Mirrors. The weapon yearns to cause chaos. It learns its wielder's principles, then uses those ideals to encourage reckless action. The dagger whispers ideas of revolution.</text>
+		<text>Dormant. The dagger grants the following benefits in its dormant state:</text>
+		<text>	• You can speak, read, and write Abyssal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. Immediately after you make a ranged attack with this weapon, it returns to your hand.</text>
+		<text>	• Whenever you kill a humanoid with an attack using the Blade of Broken Mirrors, the blade remembers the creature's appearance. While holding the dagger, you can use an action to change your form to match any humanoid the blade remembers. Your statistics, other than your size, don't change. Any equipment you are wearing or carrying isn't transformed. You can revert to your true appearance as an action. You revert to your true appearance automatically when you die. When the Blade of Broken Mirrors attunes to a new wielder, the appearances of humanoids it has killed are wiped from its memory.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Blade of Broken Mirrors (Awakened)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement by a humanoid</text>
+		<text>A weapon of Tharizdun, this dagger is a piece of jagged stone whose blade is scribed with a maze-like pattern with no beginning or end.</text>
+		<text>Sentience. The Blade of Broken Mirrors is a sentient chaotic evil weapon with an Intelligence of 21, a Wisdom of 24, and a Charisma of 24. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal and Common.</text>
+		<text>Personality. An insane glabrezu named Ragazuu lives within the Blade of Broken Mirrors. The weapon yearns to cause chaos. It learns its wielder's principles, then uses those ideals to encourage reckless action. The dagger whispers ideas of revolution.</text>
+		<text>Awakened. When the dagger reaches an awakened state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Abyssal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. Immediately after you make a ranged attack with this weapon, it returns to your hand.</text>
+		<text>	• Whenever you kill a humanoid with an attack using the Blade of Broken Mirrors, the blade remembers the creature's appearance. While holding the dagger, you can use an action to change your form to match any humanoid the blade remembers. Your statistics, other than your size, don't change. Any equipment you are wearing or carrying isn't transformed. You can revert to your true appearance as an action. You revert to your true appearance automatically when you die. When the Blade of Broken Mirrors attunes to a new wielder, the appearances of humanoids it has killed are wiped from its memory.</text>
+		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
+		<text>	• While holding the weapon, you can use an action to cast one of the following spells from it (save DC 15): fabricate, hallucinatory terrain, major image, or phantasmal killer. Once a spell has been cast using the dagger, that spell can't be cast from the dagger again until the next dawn.</text>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Blade of Broken Mirrors (Exhalted)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement by a humanoid</text>
+		<text>A weapon of Tharizdun, this dagger is a piece of jagged stone whose blade is scribed with a maze-like pattern with no beginning or end.</text>
+		<text>Sentience. The Blade of Broken Mirrors is a sentient chaotic evil weapon with an Intelligence of 21, a Wisdom of 24, and a Charisma of 24. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal and Common.</text>
+		<text>Personality. An insane glabrezu named Ragazuu lives within the Blade of Broken Mirrors. The weapon yearns to cause chaos. It learns its wielder's principles, then uses those ideals to encourage reckless action. The dagger whispers ideas of revolution.</text>
+		<text>Exalted. When the dagger reaches an exalted state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Abyssal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. Immediately after you make a ranged attack with this weapon, it returns to your hand.</text>
+		<text>	• Whenever you kill a humanoid with an attack using the Blade of Broken Mirrors, the blade remembers the creature's appearance. While holding the dagger, you can use an action to change your form to match any humanoid the blade remembers. Your statistics, other than your size, don't change. Any equipment you are wearing or carrying isn't transformed. You can revert to your true appearance as an action. You revert to your true appearance automatically when you die. When the Blade of Broken Mirrors attunes to a new wielder, the appearances of humanoids it has killed are wiped from its memory.</text>
+		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
+		<text>	• While holding the weapon, you can use an action to cast one of the following spells from it (save DC 15): fabricate, hallucinatory terrain, major image, or phantasmal killer. Once a spell has been cast using the dagger, that spell can't be cast from the dagger again until the next dawn.</text>
+		<text>	• The weapon's bonus to attack and damage rolls increases to +3.</text>
+		<text>	• The saving throw DC for spells cast from the dagger increases to 17.</text>
+		<text>	• While holding the dagger, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until you stop holding the dagger, until you attack or cast a spell that forces a creature to make a saving throw, or until you use a bonus action to become visible again.</text>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Blasting Powder</name>
+		<type>G</type>
+		<magic>1</magic>
+		<text>This volatile alchemical powder comes in a small pouch. When ignited by an open flame or a fuse, the powder explodes. Each creature within 5 feet of the exploding pouch must make a DC 13 Dexterity saving throw, taking 3d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
+		<text>	A character can bind multiple pouches of blasting powder together so they explode at the same time. Each additional pouch increases the damage by 1d6 (maximum of 10d6) and the blast radius by 5 feet (maximum of 20 feet).</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Blight Ichor</name>
+		<type>P</type>
+		<text>This bitter chartreuse concoction is distilled from a fungus native to the Blightshore badlands. The sickly green liqueur harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature subjected to a dose of blight ichor gains advantage on Intelligence and Wisdom checks, as well as vulnerability to psychic damage, for 1 hour. For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitution saving throw or become poisoned for 1d6 hours and suffer the effects of a confusion spell for 1 minute. An undead creature subjected to a dose of blight ichor gains advantage on all Dexterity checks and is immune to the frightened condition for 1 hour.</text>
+		<roll>1d6</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Bloodaxe</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>7</weight>
+		<dmg1>1d12</dmg1>
+		<dmgType>S</dmgType>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>Requires Attunement</text>
+		<text>You gain a +2 bonus to attack and damage rolls made with this magic axe. The axe deals an extra 1d6 necrotic damage to creatures that aren't constructs or undead. If you reduce such a creature to 0 hit points with an attack using this axe, you gain 10 temporary hit points.</text>
+		<text>	This axe is forged from a dark, rust-colored metal and once belonged to the goliath barbarian Grog Strongjaw of Vox Machina.</text>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Breathing Bubble</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>common</rarity>
+		<text>Rarity: common</text>
+		<text>This translucent, bubble-like sphere has a slightly tacky outer surface, and you gain the item's benefits only while wearing it over your head like a helmet.</text>
+		<text>	The bubble contains 1 hour of breathable air. The bubble regains all its expended air daily at dawn.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Brooch of Living Essence</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>uncommon</rarity>
+		<text>Rarity: uncommon</text>
+		<text>Requires Attunement</text>
+		<text>While wearing this nondescript brooch, spells and anything else that would detect or reveal your creature type treat you as humanoid, and those that would reveal your alignment treat it as neutral.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Butcher's Bib</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>rare</rarity>
+		<text>Rarity: rare</text>
+		<text>Requires Attunement</text>
+		<text>This black leather apron is perpetually covered by blood, even after being washed off. You gain the following benefits while wearing the apron:</text>
+		<text></text>
+		<text>	• Once per turn when you roll damage for a melee attack with a weapon, you can reroll the weapon's damage dice. If you do so, you must use the second total.</text>
+		<text>	• Your weapon attacks that deal slashing damage score a critical hit on a roll of 19 or 20 on the d20.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Coin of Delving</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>common</rarity>
+		<text>Rarity: common</text>
+		<text>This scintillating copper coin sheds dim light in a 5-foot radius. If dropped a distance greater than 5 feet, the coin issues a melodious ringing sound when it hits a surface. Any creature that can hear the chime can determine the distance the coin dropped based on the tone.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Danoth's Visor (Dormant)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>These mithral-frame goggles with clear diamond lenses were used by the evoker Danoth Oro to spot invisible enemies and scout areas from afar.</text>
+		<text>Dormant. While wearing the goggles in their dormant state, you can see normally in darkness, both magical and nonmagical, to a distance of 60 feet. Additionally, you have advantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on sight.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Danoth's Visor (Awakened)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>These mithral-frame goggles with clear diamond lenses were used by the evoker Danoth Oro to spot invisible enemies and scout areas from afar.</text>
+		<text>Awakened. When Danoth's Visor reaches an awakened state, it grants the following properties:</text>
+		<text>	• While wearing the goggles in their dormant state, you can see normally in darkness, both magical and nonmagical, to a distance of 60 feet. Additionally, you have advantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on sight.</text>
+		<text>	• You see invisible creatures and objects within 60 feet of you as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</text>
+		<text>	• As a bonus action, you can speak a command word and use the goggles to see into and through solid matter. This vision has a radius of 60 feet and lasts for 1 minute. To you, solid objects within that radius appear transparent. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead. This property can't be used again until the next dawn.</text>
+		<text>	• As a bonus action, you can speak a command word to switch the goggles into spyglass mode. While in this mode, creatures and objects viewed through the goggles are magnified to twice their size. Speaking the command word again reverts the goggles to their normal operation.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Danoth's Visor (Exhalted)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>These mithral-frame goggles with clear diamond lenses were used by the evoker Danoth Oro to spot invisible enemies and scout areas from afar.</text>
+		<text>Exalted. When Danoth's Visor reaches an exalted state, it grants the following properties:</text>
+		<text>	• While wearing the goggles in their dormant state, you can see normally in darkness, both magical and nonmagical, to a distance of 60 feet. Additionally, you have advantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on sight.</text>
+		<text>	• You see invisible creatures and objects within 60 feet of you as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</text>
+		<text>	• As a bonus action, you can speak a command word and use the goggles to see into and through solid matter. This vision has a radius of 60 feet and lasts for 1 minute. To you, solid objects within that radius appear transparent. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead. This property can't be used again until the next dawn.</text>
+		<text>	• As a bonus action, you can speak a command word to switch the goggles into spyglass mode. While in this mode, creatures and objects viewed through the goggles are magnified to twice their size. Speaking the command word again reverts the goggles to their normal operation.</text>
+		<text>	• You automatically detect illusions you can see and automatically succeed on saving throws against them. In addition, you see a bright aura around any creature that isn't in its true form.</text>
+		<text>	• As an action, you can cast the antimagic field spell from the visor. This property can't be used again until the next dawn.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Dispelling Stone</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>This smooth, rainbow-colored, egg-shaped stone can be thrown up to 30 feet and explodes in a 10-foot-radius sphere of magical energy on impact, destroying the stone. Any active spell of 5th level or lower in the sphere ends.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Duskcrusher</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<dmg2>1d10</dmg2>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>Requires Attunement</text>
+		<text>This item takes the form of a leather-wrapped metal rod emblazoned with the symbol of Pelor, the Dawn Father. While grasping the rod, you can use a bonus action to cause a warhammer head of crackling radiance to spring into existence. The warhammer's radiant head emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. You can use an action to make the radiant head disappear.</text>
+		<text>	While the radiant head is active, you gain a +2 bonus to attack and damage rolls made with this magic weapon, and attacks with the weapon deal radiant damage instead of bludgeoning damage. An undead creature hit by the weapon takes an extra 1d8 radiant damage.</text>
+		<text>	While you are holding Duskcrusher and its radiant head is active, you can use an action to cast the sunbeam spell (save DC 15) from the weapon, and this action can't be used again until the next dawn.</text>
+		<roll>1d8</roll>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Dust of Deliciousness</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>uncommon</rarity>
+		<text>Rarity: uncommon</text>
+		<text>This reddish brown dust can be sprinkled over any edible substance to greatly improve the flavor. The dust also dulls the eater's senses: anyone eating food treated with this dust has disadvantage on Wisdom ability checks and Wisdom saving throws for 1 hour. There is enough dust to flavor six servings.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Explosive Seed</name>
+		<type>G</type>
+		<text>This acorn-sized sphere of brass contains a small amount of blasting powder and a clockwork trigger. An explosive seed can be thrown up to 30 feet as an action, detonating on impact. Each creature within 5 feet of the exploding seed must make a DC 10 Dexterity saving throw, taking 1d8 bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
+		<roll>1d8</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Goggles of Object Reading</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>uncommon</rarity>
+		<text>Rarity: uncommon</text>
+		<text>Requires Attunement</text>
+		<text>These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence (Arcana) checks made to reveal information about a creature or object you can see.</text>
+		<text>	In addition, you can cast the identify spell using the googles. Once you do so, you can't do so again until the next dawn.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Grimoire Infinitus (Dormant)</name>
+		<magic>1</magic>
+		<type>W</type>
+		<weight>3</weight>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement by a wizard</text>
+		<text>Several of these spellbooks with gilded pages and silver-plated covers were created during the Age of Arcanum, but only one has been found since the Calamity ended. The book has an infinite number of pages, is three inches thick, eight inches wide, twelve inches long, and weighs three pounds.</text>
+		<text>Dormant. Most of the book is blank, but the following spells are recorded in the first pages of the tome: alarm, antimagic field, Bigby's hand, blight, charm person, confusion, control weather, create undead, detect thoughts, enlarge/reduce, fear, foresight, gaseous form, glyph of warding, legend lore, Leomund's tiny hut, mass suggestion, mislead, misty step, Mordenkainen's faithful hound, prismatic spray, ray of enfeeblement, silent image, teleport, and thunderwave.</text>
+		<text>	You can use the grimoire as your spellbook, and you can scribe new spells into it as normal. When you prepare wizard spells using the grimoire, the number of wizard spells you can prepare increases by 1.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Grimoire Infinitus (Awakened)</name>
+		<magic>1</magic>
+		<type>W</type>
+		<weight>3</weight>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement by a wizard</text>
+		<text>Several of these spellbooks with gilded pages and silver-plated covers were created during the Age of Arcanum, but only one has been found since the Calamity ended. The book has an infinite number of pages, is three inches thick, eight inches wide, twelve inches long, and weighs three pounds.</text>
+		<text>Awakened. When the Grimoire Infinitus reaches an awakened state, it grants the following properties:</text>
+		<text>	• Most of the book is blank, but the following spells are recorded in the first pages of the tome: alarm, antimagic field, Bigby's hand, blight, charm person, confusion, control weather, create undead, detect thoughts, enlarge/reduce, fear, foresight, gaseous form, glyph of warding, legend lore, Leomund's tiny hut, mass suggestion, mislead, misty step, Mordenkainen's faithful hound, prismatic spray, ray of enfeeblement, silent image, teleport, and thunderwave.</text>
+		<text>	• You can use the grimoire as your spellbook, and you can scribe new spells into it as normal. When you prepare wizard spells using the grimoire, the number of wizard spells you can prepare increases by 2.</text>
+		<text>	• While you carry the spellbook, you have advantage on saving throws against spells and magical effects.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Grimoire Infinitus (Exhalted)</name>
+		<magic>1</magic>
+		<type>W</type>
+		<weight>3</weight>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement by a wizard</text>
+		<text>Several of these spellbooks with gilded pages and silver-plated covers were created during the Age of Arcanum, but only one has been found since the Calamity ended. The book has an infinite number of pages, is three inches thick, eight inches wide, twelve inches long, and weighs three pounds.</text>
+		<text>Exalted. When the Grimoire Infinitus reaches an exalted state, it gains the following properties:</text>
+		<text>	• Most of the book is blank, but the following spells are recorded in the first pages of the tome: alarm, antimagic field, Bigby's hand, blight, charm person, confusion, control weather, create undead, detect thoughts, enlarge/reduce, fear, foresight, gaseous form, glyph of warding, legend lore, Leomund's tiny hut, mass suggestion, mislead, misty step, Mordenkainen's faithful hound, prismatic spray, ray of enfeeblement, silent image, teleport, and thunderwave.</text>
+		<text>	• You can use the grimoire as your spellbook, and you can scribe new spells into it as normal. When you prepare wizard spells using the grimoire, the number of wizard spells you can prepare increases by 3.</text>
+		<text>	• While you carry the spellbook, you have advantage on saving throws against spells and magical effects.</text>
+		<text>	• You can now use your Arcane Recovery feature twice between long rests, rather than once.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Grovelthrash (Dormant)</name>
+		<magic>1</magic>
+		<type>M</type>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<dmg2>1d10</dmg2>
+		<rarity>artifact</rarity>
+		<magic>1</magic>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Crafted from a single piece of obsidian, this warhammer of Torog hums with magical energy and is carved with the images of faces screaming in pain.</text>
+		<text>Sentience. Grovelthrash is a sentient neutral evil weapon with an Intelligence of 18, a Wisdom of 15, and a Charisma of 19. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Infernal.</text>
+		<text>Personality. A covetous ultroloth named Ciria lives within Grovelthrash. The weapon values material possessions and doling out pain. It compliments its wielder whenever they claim treasure and takes pleasure in harming others.</text>
+		<text>Dormant. The warhammer grants the following benefits in its dormant state</text>
+		<text>	• You can speak, read, and write Abyssal and Infernal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra 2d6 bludgeoning damage to the target. If you do, you take 1d6 psychic damage. The warhammer deals double damage to objects and structures.</text>
+		<text>	• While holding this weapon, you have advantage on Wisdom (Insight) checks made to discern a lie spoken in a language you understand.</text>
+		<roll>2d6</roll>
+		<roll>1d6</roll>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Grovelthrash (Awakened)</name>
+		<magic>1</magic>
+		<type>M</type>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<dmg2>1d10</dmg2>
+		<magic>1</magic>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Crafted from a single piece of obsidian, this warhammer of Torog hums with magical energy and is carved with the images of faces screaming in pain.</text>
+		<text>Sentience. Grovelthrash is a sentient neutral evil weapon with an Intelligence of 18, a Wisdom of 15, and a Charisma of 19. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Infernal.</text>
+		<text>Personality. A covetous ultroloth named Ciria lives within Grovelthrash. The weapon values material possessions and doling out pain. It compliments its wielder whenever they claim treasure and takes pleasure in harming others.</text>
+		<text>Awakened. When the warhammer reaches an awakened state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Abyssal and Infernal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra 2d6 bludgeoning damage to the target. If you do, you take 1d6 psychic damage. The warhammer deals double damage to objects and structures.</text>
+		<text>	• While holding this weapon, you have advantage on Wisdom (Insight) checks made to discern a lie spoken in a language you understand.</text>
+		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
+		<text>	• You gain a burrowing speed equal to your walking speed. You can use your burrowing speed to move through sand, loose earth, mud, or ice, not solid rock.</text>
+		<text>	• When a creature you can see within 30 feet of you hits you with an attack while you are wielding the warhammer, you can use your reaction to deal an amount of psychic damage to that creature equal to the damage you took from the attack. This property can't be used again until the next dawn.</text>
+		<roll>2d6</roll>
+		<roll>1d6</roll>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Grovelthrash (Exhalted)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<dmg2>1d10</dmg2>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Crafted from a single piece of obsidian, this warhammer of Torog hums with magical energy and is carved with the images of faces screaming in pain.</text>
+		<text>Sentience. Grovelthrash is a sentient neutral evil weapon with an Intelligence of 18, a Wisdom of 15, and a Charisma of 19. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Infernal.</text>
+		<text>Personality. A covetous ultroloth named Ciria lives within Grovelthrash. The weapon values material possessions and doling out pain. It compliments its wielder whenever they claim treasure and takes pleasure in harming others.</text>
+		<text>Exalted. When the warhammer reaches an exalted state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Abyssal and Infernal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra 2d6 bludgeoning damage to the target. If you do, you take 1d6 psychic damage. The warhammer deals double damage to objects and structures.</text>
+		<text>	• While holding this weapon, you have advantage on Wisdom (Insight) checks made to discern a lie spoken in a language you understand.</text>
+		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
+		<text>	• You gain a burrowing speed equal to your walking speed. You can use your burrowing speed to move through sand, loose earth, mud, or ice, not solid rock.</text>
+		<text>	• When a creature you can see within 30 feet of you hits you with an attack while you are wielding the warhammer, you can use your reaction to deal an amount of psychic damage to that creature equal to the damage you took from the attack. This property can't be used again until the next dawn.</text>
+		<text>	• The weapon's bonus to attack and damage rolls increases to +3.</text>
+		<text>	• When you have fewer hit points than half your hit point maximum, the warhammer deals an extra 2d6 bludgeoning damage on a hit. You can burrow through solid rock at half your burrowing speed and leave a 5-foot-diameter tunnel in your wake.</text>
+		<text>	• As an action, you can use the warhammer to cast one of the following spells from it (save DC 17): earthquake, meld into stone, or stone shape. Once a spell has been cast using the warhammer, that spell can't be cast from the warhammer again until the next dawn.</text>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+		<roll>2d6</roll>
+		<roll>1d6</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Hide of the Feral Guardian (Dormant)</name>
+		<magic>1</magic>
+		<type>LA</type>
+		<weight>13</weight>
+		<ac>12</ac>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.</text>
+		<text>Dormant. While wearing the armor in its dormant state, you gain the following benefits:</text>
+		<text>	• The armor grants you a +1 bonus to AC.</text>
+		<text>	• While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.</text>
+		<text>	• As an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can't be used again until the next dawn.</text>
+		<modifier category="bonus">ac +1</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Hide of the Feral Guardian (Awakened)</name>
+		<magic>1</magic>
+		<type>LA</type>
+		<weight>13</weight>
+		<ac>12</ac>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.</text>
+		<text>Awakened. When the armor reaches an awakened state, it grants the following properties:</text>
+		<text>	• The armor grants you a +2 bonus to AC.</text>
+		<text>	• While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +2 bonus to melee attack and damage rolls, and you retain the benefits of this armor.</text>
+		<text>	• As an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can't be used again until the next dawn.</text>
+		<text>	• When you cast the polymorph spell using this armor, you can transform into a cave bear.</text>
+		<modifier category="bonus">ac +2</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Hide of the Feral Guardian (Exhalted)</name>
+		<magic>1</magic>
+		<type>LA</type>
+		<weight>13</weight>
+		<ac>12</ac>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.</text>
+		<text>Exalted. When the armor reaches an exalted state, it gains the following properties:</text>
+		<text>	• The armor grants you a +3 bonus to AC.</text>
+		<text>	• While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +3 bonus to melee attack and damage rolls, and you retain the benefits of this armor.</text>
+		<text>	• As an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can't be used again until the next dawn.</text>
+		<text>	• When you cast the polymorph spell using this armor, you can transform into a cave bear.</text>
+		<text>	• When you cast the polymorph spell using this armor, you can transform into a guardian wolf.</text>
+		<modifier category="bonus">ac +3</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Hunter's Coat</name>
+		<magic>1</magic>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>10</weight>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>Requires Attunement</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text>The coat has 3 charges. When you hit a creature with an attack and that creature doesn't have all its hit points, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target. The coat regains 1d3 expended charges daily at dawn.</text>
+		<text>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</text>
+		<modifier category="bonus">ac +1</modifier>
+		<roll>1d10</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Infiltrator's Key (Dormant)</name>
+		<magic>1</magic>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This mithral skeleton key was forged using the blood of twelve master thieves executed for trying to steal magic items during the Age of Arcanum.</text>
+		<text>Dormant. The Infiltrator's Key grants the following benefits in its dormant state:</text>
+		<text>	• The key can be used as thieves' tools for the purpose of opening locks. When using the key, you are considered proficient in thieves' tools and you have advantage on ability checks made to open locks.</text>
+		<text>	• While holding the key, your steps are muffled, giving you advantage on Dexterity (Stealth) checks made to move silently.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Infiltrator's Key (Awakened)</name>
+		<magic>1</magic>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This mithral skeleton key was forged using the blood of twelve master thieves executed for trying to steal magic items during the Age of Arcanum.</text>
+		<text>Awakened. When the Infiltrator's Key reaches an awakened state, it grants the following properties:</text>
+		<text>	• The key can be used as thieves' tools for the purpose of opening locks. When using the key, you are considered proficient in thieves' tools and you have advantage on ability checks made to open locks.</text>
+		<text>	• While holding the key, your steps are muffled, giving you advantage on Dexterity (Stealth) checks made to move silently.</text>
+		<text>	• While holding the key, you can use a bonus action to transform the key into a magic dagger or back into a key. While the key is in the form of a dagger, you gain a +1 bonus to attack and damage rolls made with it, and it returns to your hand immediately after it is used to make a ranged attack.</text>
+		<text>	• While holding the key, you can use an action to cast one of the following spells from it: alter self, invisibility, knock, or pass without trace. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Infiltrator's Key (Exhalted)</name>
+		<magic>1</magic>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This mithral skeleton key was forged using the blood of twelve master thieves executed for trying to steal magic items during the Age of Arcanum.</text>
+		<text>Exalted. When the Infiltrator's Key reaches an exalted state, it gains the following properties:</text>
+		<text>	• The key can be used as thieves' tools for the purpose of opening locks. When using the key, you are considered proficient in thieves' tools and you have advantage on ability checks made to open locks.</text>
+		<text>	• While holding the key, your steps are muffled, giving you advantage on Dexterity (Stealth) checks made to move silently.</text>
+		<text>	• While holding the key, you can use a bonus action to transform the key into a magic dagger or back into a key. While the key is in the form of a dagger, you gain a +1 bonus to attack and damage rolls made with it, and it returns to your hand immediately after it is used to make a ranged attack.</text>
+		<text>	• While holding the key, you can use an action to cast one of the following spells from it: alter self, invisibility, knock, or pass without trace. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn.</text>
+		<text>	• As a bonus action, you can touch the key to a floor, wall, or ceiling that is no more than 5 feet thick and cause a magical opening to appear in the surface. When you create the opening, you choose its length and width, up to 10 feet for each dimension. The opening lasts until the key passes through it to the other side, at which point it disappears (if a creature is in the opening when the doorway closes, the creature is safely shunted to the nearest unoccupied space). The key can't be used to create another opening until the next dawn.</text>
+		<text>	• While holding the key, you can use an action to cast one of the following spells from it: dimension door, gaseous form, or mislead. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Lash of Shadows (Dormant)</name>
+		<magic>1</magic>
+		<type>M</type>
+		<weight>3</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>S</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This snakeskin whip is touched by the power of Zehir and ends in five animated serpent heads.</text>
+		<text>Sentience. The Lash of Shadows is a sentient chaotic evil weapon with an Intelligence of 18, a Wisdom of 16, and a Charisma of 20. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Draconic.</text>
+		<text>Personality. A mad marilith named Sizlifeth lives within the Lash of Shadows. The weapon has a short temper and experiences only extreme emotions. It is most happy when dealing harm.</text>
+		<text>Dormant. The whip grants the following benefits in its dormant state:</text>
+		<text>	• You can speak, read, and write Abyssal and Draconic.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• You can attempt to poison any creature that is hit by the whip. The creature must succeed on a DC 13 Constitution saving throw or suffer the effect of one of the following poisons of your choice; once a poison other than Serpent Venom has been used, that poison can't be used again until the next dawn:</text>
+		<text>		Dead Eyes. A creature that fails the saving throw against this poison is poisoned for 1 hour. While poisoned in this way, the creature is blinded.</text>
+		<text>		Serpent Venom. A creature that fails the saving throw against this poison takes 3d6 poison damage, or half as much damage on a successful save.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<roll>3d6</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Lash of Shadows (Awakened)</name>
+		<magic>1</magic>
+		<type>M</type>
+		<weight>3</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>S</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This snakeskin whip is touched by the power of Zehir and ends in five animated serpent heads.</text>
+		<text>Sentience. The Lash of Shadows is a sentient chaotic evil weapon with an Intelligence of 18, a Wisdom of 16, and a Charisma of 20. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Draconic.</text>
+		<text>Personality. A mad marilith named Sizlifeth lives within the Lash of Shadows. The weapon has a short temper and experiences only extreme emotions. It is most happy when dealing harm.</text>
+		<text>Awakened. When the whip reaches an awakened state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Abyssal and Draconic.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• You can attempt to poison any creature that is hit by the whip. The creature must succeed on a DC 15 Constitution saving throw or suffer the effect of one of the following poisons of your choice; once a poison other than Serpent Venom has been used, that poison can't be used again until the next dawn:</text>
+		<text>		Dead Eyes. A creature that fails the saving throw against this poison is poisoned for 1 hour. While poisoned in this way, the creature is blinded.</text>
+		<text>		Serpent Venom. A creature that fails the saving throw against this poison takes 3d6 poison damage, or half as much damage on a successful save.</text>
+		<text>		Ghoul's Blood. A creature that fails the saving throw against this poison is poisoned for 1 minute. While poisoned in this way, the creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		<roll>3d6</roll>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Lash of Shadows (Exhalted)</name>
+		<magic>1</magic>
+		<type>M</type>
+		<weight>3</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>S</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This snakeskin whip is touched by the power of Zehir and ends in five animated serpent heads.</text>
+		<text>Sentience. The Lash of Shadows is a sentient chaotic evil weapon with an Intelligence of 18, a Wisdom of 16, and a Charisma of 20. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Draconic.</text>
+		<text>Personality. A mad marilith named Sizlifeth lives within the Lash of Shadows. The weapon has a short temper and experiences only extreme emotions. It is most happy when dealing harm.</text>
+		<text>Awakened. When the whip reaches an awakened state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Abyssal and Draconic.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• You can attempt to poison any creature that is hit by the whip. The creature must succeed on a DC 15 Constitution saving throw or suffer the effect of one of the following poisons of your choice; once a poison other than Serpent Venom has been used, that poison can't be used again until the next dawn:</text>
+		<text>		Dead Eyes. A creature that fails the saving throw against this poison is poisoned for 1 hour. While poisoned in this way, the creature is blinded.</text>
+		<text>		Serpent Venom. A creature that fails the saving throw against this poison takes 3d6 poison damage, or half as much damage on a successful save.</text>
+		<text>		Ghoul's Blood. A creature that fails the saving throw against this poison is poisoned for 1 minute. While poisoned in this way, the creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		<text>		Cockatrice Tears. A creature that fails the saving throw against this poison begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.</text>
+		<roll>3d6</roll>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Luxon Beacon</name>
+		<magic>1</magic>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>This dodecahedron of faintly glowing crystal is heavier than it appears. A set of handles are affixed to its sides, and it pulsates and thrums when touched.</text>
+		<text>Fragment of Possibility. A creature that touches the beacon and concentrates for 1 minute receives a Fragment of Possibility, which looks like a Tiny, grayish bead of energy that follows the creature around, staying within 1 foot of it at all times. The fragment lasts for 8 hours or until used. Once the beacon grants a Fragment of Possibility, it can't grant another until the next dawn. A creature with a Fragment of Possibility from a Luxon Beacon can't gain another Fragment of Possibility from any source.</text>
+		<text>	When a creature with a Fragment of Possibility makes an attack roll, an ability check, or a saving throw, it can expend its fragment to roll an additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against the creature, it can expend its fragment to roll a d20 and choose which of the d20s to use, the one it rolled or the one the attacker rolled.</text>
+		<text>	If the original d20 roll has advantage or disadvantage, the creature rolls its d20 after advantage or disadvantage has been applied to the original roll.</text>
+		<text>Soul Snare. If a follower of the Luxon who has undergone a ritual of consecution dies within 100 miles of a Luxon Beacon, their soul is ensnared by it. This soul will be reincarnated within the body of a random humanoid baby developing within 100 miles of the beacon.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Mace of the Black Crown (Dormant)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>4</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>B</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This mace has a haft of black iron and a ruby head with a fiendish countenance. Carrying the boon of Asmodeus, it is fit for the most powerful servants of the Nine Hells.</text>
+		<text>Sentience. The Mace of the Black Crown is a sentient lawful evil weapon with an Intelligence of 20, a Wisdom of 12, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common and Infernal.</text>
+		<text>Personality. A greedy erinyes named Xartaza lives within the Mace of the Black Crown. Xartaza wants to recruit more souls for Asmodeus, so the weapon pushes its wielder toward lawful evil actions by manipulating the wielder's dreams. A former Blood War general, Xartaza hates demons and relishes crafting sound battle plans in any conflict.</text>
+		<text>Dormant. The mace grants the following benefits in its dormant state:</text>
+		<text>	• You can speak, read, and write Infernal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• While holding the mace, you can use a bonus action to speak its Infernal command word, causing flames to erupt from the head. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the mace is ablaze, it deals an extra 1d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you are no longer holding the mace.</text>
+		<text>	• While holding the mace, you can use an action to summon an imp. Any devil you summon with this mace is friendly to you and your companions for the duration. The imp obeys any verbal commands that you issue to it and returns to the Nine Hells 10 minutes after you summoned it. This property can't be used again until the next dawn.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<roll>1d6</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Mace of the Black Crown (Awakened)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>4</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>B</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This mace has a haft of black iron and a ruby head with a fiendish countenance. Carrying the boon of Asmodeus, it is fit for the most powerful servants of the Nine Hells.</text>
+		<text>Sentience. The Mace of the Black Crown is a sentient lawful evil weapon with an Intelligence of 20, a Wisdom of 12, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common and Infernal.</text>
+		<text>Personality. A greedy erinyes named Xartaza lives within the Mace of the Black Crown. Xartaza wants to recruit more souls for Asmodeus, so the weapon pushes its wielder toward lawful evil actions by manipulating the wielder's dreams. A former Blood War general, Xartaza hates demons and relishes crafting sound battle plans in any conflict.</text>
+		<text>Awakened. When the mace reaches an awakened state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Infernal.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• While holding the mace, you can use a bonus action to speak its Infernal command word, causing flames to erupt from the head. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the mace is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you are no longer holding the mace.</text>
+		<text>	• While holding the mace, you can use an action to summon an imp. Any devil you summon with this mace is friendly to you and your companions for the duration. The imp obeys any verbal commands that you issue to it and returns to the Nine Hells 10 minutes after you summoned it. This property can't be used again until the next dawn.</text>
+		<text>	• The weapon's Summon Devil feature can also be used to summon a bearded devil.</text>
+		<text>	• You have resistance to poison damage while holding this weapon.</text>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<roll>2d6</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Mace of the Black Crown (Exhalted)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>4</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>B</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This mace has a haft of black iron and a ruby head with a fiendish countenance. Carrying the boon of Asmodeus, it is fit for the most powerful servants of the Nine Hells.</text>
+		<text>Sentience. The Mace of the Black Crown is a sentient lawful evil weapon with an Intelligence of 20, a Wisdom of 12, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common and Infernal.</text>
+		<text>Personality. A greedy erinyes named Xartaza lives within the Mace of the Black Crown. Xartaza wants to recruit more souls for Asmodeus, so the weapon pushes its wielder toward lawful evil actions by manipulating the wielder's dreams. A former Blood War general, Xartaza hates demons and relishes crafting sound battle plans in any conflict.</text>
+		<text>Exalted. When the mace reaches an exalted state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Infernal.</text>
+		<text>	• You gain a +3 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• While holding the mace, you can use a bonus action to speak its Infernal command word, causing flames to erupt from the head. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the mace is ablaze, it deals an extra 3d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you are no longer holding the mace.</text>
+		<text>	• While holding the mace, you can use an action to summon an imp. Any devil you summon with this mace is friendly to you and your companions for the duration. The imp obeys any verbal commands that you issue to it and returns to the Nine Hells 10 minutes after you summoned it. This property can't be used again until the next dawn.</text>
+		<text>	• The weapon's Summon Devil feature can also be used to summon a bearded devil.</text>
+		<text>	• You have resistance to poison damage while holding this weapon.</text>
+		<text>	• The weapon's Summon Devil feature can also be used to summon a barbed devil.</text>
+		<text>	• You have resistance to fire damage while you hold this weapon.</text>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+		<roll>3d6</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Muroosa Balm</name>
+		<text>This paste made from the muroosa bush is known to help prevent sunburn, but it is also a fire retardant. After spending 1 minute applying a quarter pint of muroosa balm to your skin, you gain resistance against fire damage for 1 hour.</text>
+		<text>	A dose of muroosa balm sufficient for treating sunburn costs 1 gp.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Needle of Mending</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>rare</rarity>
+		<text>Rarity: rare</text>
+		<text>Requires Attunement</text>
+		<text>This weapon is a magic dagger disguised as a sewing needle. When you hold it and use a bonus action to speak its command word, it transforms into a dagger or back into a needle.</text>
+		<text>	You gain a +1 bonus to attack and damage rolls made with the dagger. While holding it, you can use an action to cast the mending cantrip from it.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Nightfall Pearl</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>Used to summon night, this 6-inch-diameter, jet-black orb is cold to the touch. You can spend 10 minutes to activate it, causing the area within 10 miles of it at the moment of activation to become night even if it is daytime. This night lasts for 24 hours, until you cancel it as an action, or until your attunement to the pearl ends. Once used, the pearl can't be used again for 24 hours.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Olisuba Leaf</name>
+		<type>P</type>
+		<text>These dried leaves of the Olisuba tree, when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Olisuba tea during a long rest, your exhaustion level is reduced by 2 instead of 1 at the end of that long rest.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Orb of the Veil</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>Requires Attunement</text>
+		<text>This onyx sphere bears deep, spiraling grooves and dangles from an iron chain. While the orb is on your person, you gain the following benefits:</text>
+		<text>	• Your Wisdom score increases by 2, as does your maximum for that score.</text>
+		<text>	• You gain darkvision out to a range of 60 feet. If you already have darkvision, the orb increases its range by 60 feet.</text>
+		<text>	• You have advantage on Wisdom checks to find hidden doors and paths.</text>
+		<text>Curse. The orb is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the orb, keeping it on your person at all times. All nonmagical flames within 30 feet of you automatically extinguish, and fire damage dealt by you is halved.</text>
+		<modifier category="ability score">wisdom +2</modifier>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Potion of Maximum Power</name>
+		<type>P</type>
+		<magic>1</magic>
+		<rarity>rare</rarity>
+		<text>Rarity: rare</text>
+		<text>The first time you cast a damage-dealing spell of 4th level or lower within 1 minute after drinking the potion, instead of rolling dice to determine the damage dealt, you can instead use the highest number possible for each die.</text>
+		<text>	This glowing purple liquid smells of sugar and plum, but it has a muddy taste.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Potion of Possibility</name>
+		<type>P</type>
+		<magic>1</magic>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>When you drink this clear potion, you gain two Fragments of Possibility, each of which looks like a Tiny, grayish bead of energy that follows you around, staying within 1 foot of you at all times. Each fragment lasts for 8 hours or until used.</text>
+		<text>	When you make an attack roll, an ability check, or a saving throw, you can expend your fragment to roll an additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against you, you can expend your fragment to roll a d20 and choose which of the d20s to use, the one you rolled or the one the attacker rolled.</text>
+		<text>	If the original d20 roll has advantage or disadvantage, you roll your d20 after advantage or disadvantage has been applied to the original roll.</text>
+		<text>	While you have one or more Fragments of Possibility from this potion, you can't gain another Fragment of Possibility from any source.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Pride Silk</name>
+		<type>G</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<text>The hearty silk unique to the region has long been a point of pride with the locals. When processed and woven properly, the resulting cloth is pride silk: an extremely flexible material with the durability of tanned leather. Pride silk has become a favorite cloth for use on military ship sails, war banners, and other utilitarian applications, but has also gained popularity in affluent circles. High-end clothing made from pride silk is both fashionable and protective, leading many nobles and wealthy merchants to seek full outfits and formal gowns made with it. The tailors skilled enough to create such outfits are few and far between, so while pride silk might be expensive as a raw material, outfits made of the cloth are prohibitively expensive for most common folk.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Pride Silk Outfit</name>
+		<type>LA</type> <!-- not technically classified as armor, but essentially acts like it -->
+		<ac>11</ac>
+		<magic>1</magic>
+		<weight>4</weight>
+		<text>An outfit made of pride silk weighs 4 pounds and costs 500 gp. If you aren't wearing armor, your base Armor Class is 11 + your Dexterity modifier while wearing it.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Reincarnation Dust</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>When this small pouch of purple dust is sprinkled on a dead humanoid or a piece of a dead humanoid, the dust is absorbed by the remains. If willing, the dead creature returns to life with a new body as if the reincarnate spell had been cast on the remains.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Ring of Obscuring</name>
+		<magic>1</magic>
+		<type>RG</type>
+		<rarity>uncommon</rarity>
+		<text>Rarity: uncommon</text>
+		<text>Requires Attunement</text>
+		<text>This band of iron resembles a skull and is cold to the touch. It has 3 charges and regains 1d3 expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the fog cloud spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required).</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Ring of Temporal Salvation</name>
+		<magic>1</magic>
+		<type>RG</type>
+		<rarity>rare</rarity>
+		<text>Rarity: rare</text>
+		<text>Requires Attunement</text>
+		<text>If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to 3d6 + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of exhaustion, reduce your level of exhaustion by 1. Once the ring is used, it turns to dust and is destroyed.</text>
+		<roll>3d6+CON</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Rod of Retribution</name>
+		<type>RD</type>
+		<magic>1</magic>
+		<rarity>uncommon</rarity>
+		<text>Rarity: uncommon</text>
+		<text>Requires Attunement</text>
+		<text>This adamantine rod is tipped with a glowing crystalline eye. The rod has 3 charges and regains all its expended charges daily at dawn.</text>
+		<text>	When a creature you can see within 60 feet of you damages you while you are holding this rod, you can use your reaction to expend 1 of the rod's charges to force the creature to make a DC 13 Dexterity saving throw. The creature takes 2d10 lightning damage on a failed save, or half as much damage on a successful one.</text>
+		<roll>2d10</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Ruin's Wake (Dormant)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>3</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>P</dmgType>
+		<dmg2>1d8</dmg2>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This spear is made from the ivory bone of an ancient gold dragon and carved with an Orc hymn to Gruumsh.</text>
+		<text>Sentience. Ruin's Wake is a sentient chaotic evil weapon with an Intelligence of 20, a Wisdom of 16, and a Charisma of 22. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Orc.</text>
+		<text>Personality. A slaughter-loving balor named Yarrowish lives within Ruin's Wake. The weapon desires only to draw blood and pushes its wielder to solve problems with violence.</text>
+		<text>Dormant. The spear grants the following benefits in its dormant state:</text>
+		<text>	• You can speak, read, and write Abyssal and Orc.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d8 piercing damage to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand.</text>
+		<text>	• As a reaction when you are hit by a melee attack, you can make a melee attack with Ruin's Wake with advantage against the attacker. You can't use this property again until you finish a short or long rest.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<roll>1d8</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Ruin's Wake (Awakened)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>3</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>P</dmgType>
+		<dmg2>1d8</dmg2>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This spear is made from the ivory bone of an ancient gold dragon and carved with an Orc hymn to Gruumsh.</text>
+		<text>Sentience. Ruin's Wake is a sentient chaotic evil weapon with an Intelligence of 20, a Wisdom of 16, and a Charisma of 22. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Orc.</text>
+		<text>Personality. A slaughter-loving balor named Yarrowish lives within Ruin's Wake. The weapon desires only to draw blood and pushes its wielder to solve problems with violence.</text>
+		<text>Awakened. When the spear reaches an awakened state, it grans the following properties:</text>
+		<text>	• You can speak, read, and write Abyssal and Orc.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 2d8 piercing damage to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand.</text>
+		<text>	• As a reaction when you are hit by a melee attack, you can make a melee attack with Ruin's Wake with advantage against the attacker. You can't use this property again until you finish a short or long rest.</text>
+		<text>	• When you hurl the spear and speak a command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a creature you can see within 120 feet of you. Each creature in the line, excluding you, must make a DC 15 Dexterity saving throw, taking 8d6 lightning damage on a failed save, or half as much damage on a successful one. Ruin's Wake then returns to your hand. This property can't be used again until the next dawn.</text>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<roll>2d8</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Ruin's Wake (Exhalted)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>3</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>P</dmgType>
+		<dmg2>1d8</dmg2>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>This spear is made from the ivory bone of an ancient gold dragon and carved with an Orc hymn to Gruumsh.</text>
+		<text>Sentience. Ruin's Wake is a sentient chaotic evil weapon with an Intelligence of 20, a Wisdom of 16, and a Charisma of 22. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, and Orc.</text>
+		<text>Personality. A slaughter-loving balor named Yarrowish lives within Ruin's Wake. The weapon desires only to draw blood and pushes its wielder to solve problems with violence.</text>
+		<text>Exalted. When the spear reaches an exalted state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Abyssal and Orc.</text>
+		<text>	• You gain a +3 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 2d8 piercing damage to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand.</text>
+		<text>	• As a reaction when you are hit by a melee attack, you can make a melee attack with Ruin's Wake with advantage against the attacker. You can't use this property again until you finish a short or long rest.</text>
+		<text>	• When you hurl the spear and speak a command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a creature you can see within 120 feet of you. Each creature in the line, excluding you, must make a DC 15 Dexterity saving throw, taking 8d6 lightning damage on a failed save, or half as much damage on a successful one. Ruin's Wake then returns to your hand. This property can't be used again until the next dawn.</text>
+		<text>	• While holding the spear, you can let out a battle cry as a bonus action. Each creature you choose within 30 feet of you gains advantage on attack rolls until the start of your next turn. This property can't be used again until the next dawn.</text>
+		<text>	• When you reduce a creature to 0 hit points with an attack from the spear, you can regain hit points equal to the damage you dealt with the attack. This property can't be used again until the next dawn.</text>
+		<roll>8d6</roll>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+		<roll>2d8</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Silken Spite (Dormant)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>The blade of this rapier is made of spider silk. Its onyx pommel is tipped with a ruby cut in the shape of a spider, and the blade carries the blessing of Lolth.</text>
+		<text>Sentience. Silken Spite is a sentient chaotic evil weapon with an Intelligence of 13, a Wisdom of 15, and a Charisma of 15. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, Elvish, and Undercommon.</text>
+		<text>Personality. A murderous yochlol named Sinnafex lives within Silken Spite. The weapon speaks in whispers, pushing its wielder to trust no one and to kill those who cause the slightest personal offense.</text>
+		<text>Dormant. The rapier grants the following benefits in its dormant state</text>
+		<text>	• You can speak, read, and write Abyssal, Elvish, and Undercommon.</text>
+		<text>	• You have darkvision out to a range of 60 feet. If you already have darkvision, being attuned to the rapier increases the range of your darkvision by 60 feet.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• You can use an action to cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.</text>
+		<text>	• While carrying the rapier, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. Additionally, you can't be caught in webs of any sort and can move through webs as if they were difficult terrain.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Silken Spite (Awakened)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>The blade of this rapier is made of spider silk. Its onyx pommel is tipped with a ruby cut in the shape of a spider, and the blade carries the blessing of Lolth.</text>
+		<text>Sentience. Silken Spite is a sentient chaotic evil weapon with an Intelligence of 13, a Wisdom of 15, and a Charisma of 15. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, Elvish, and Undercommon.</text>
+		<text>Personality. A murderous yochlol named Sinnafex lives within Silken Spite. The weapon speaks in whispers, pushing its wielder to trust no one and to kill those who cause the slightest personal offense.</text>
+		<text>Awakened. The rapier grants the following benefits in its awakened state:</text>
+		<text>	• You can speak, read, and write Abyssal, Elvish, and Undercommon.</text>
+		<text>	• You have darkvision out to a range of 60 feet. If you already have darkvision, being attuned to the rapier increases the range of your darkvision by 60 feet.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• You can use an action to cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.</text>
+		<text>	• While carrying the rapier, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. Additionally, you can't be caught in webs of any sort and can move through webs as if they were difficult terrain.</text>
+		<text>	• While holding the rapier, you can use an action to cast one of the following spells from it (save DC 15): cloudkill, darkness, levitate, or web. Once a spell has been cast using the rapier, that spell can't be cast from the rapier again until the next dawn.</text>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Silken Spite (Exhalted)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>The blade of this rapier is made of spider silk. Its onyx pommel is tipped with a ruby cut in the shape of a spider, and the blade carries the blessing of Lolth.</text>
+		<text>Sentience. Silken Spite is a sentient chaotic evil weapon with an Intelligence of 13, a Wisdom of 15, and a Charisma of 15. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Abyssal, Common, Elvish, and Undercommon.</text>
+		<text>Personality. A murderous yochlol named Sinnafex lives within Silken Spite. The weapon speaks in whispers, pushing its wielder to trust no one and to kill those who cause the slightest personal offense.</text>
+		<text>Exalted. The rapier grants the following benefits in its exalted state:</text>
+		<text>	• You can speak, read, and write Abyssal, Elvish, and Undercommon.</text>
+		<text>	• You have darkvision out to a range of 60 feet. If you already have darkvision, being attuned to the rapier increases the range of your darkvision by 60 feet.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• You can use an action to cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 17 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.</text>
+		<text>	• While carrying the rapier, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. Additionally, you can't be caught in webs of any sort and can move through webs as if they were difficult terrain.</text>
+		<text>Awakened. The rapier grants the following benefits in its awakened state:</text>
+		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
+		<text>	• The saving throw DC for the weapon's poison increases to 15.</text>
+		<text>	• While holding the rapier, you can use an action to cast one of the following spells from it (save DC 17): cloudkill, darkness, levitate, or web. Once a spell has been cast using the rapier, that spell can't be cast from the rapier again until the next dawn.</text>
+		<text>	• The saving throw DC for the weapon's poison and spells cast from the weapon increases to 17.</text>
+		<text>	• Magical darkness doesn't impede your darkvision.</text>
+		<text>	• While holding the weapon in dim light or darkness, you can use a bonus action to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. This property can't be used again until the next dawn.</text>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Soothsalts</name>
+		<type>P</type>
+		<text>Soothsalts are derived from a naturally occurring crystalline substance discovered throughout the wilds of the Miskath Strand. The crimson crystals have been mined from cavernous veins like those in the mouth of the Miskath Pit and found within smaller geode formations near sites ravaged by the Calamity. Soothsalts are consumed orally in lozenge-sized doses, and frequent users can be identified by the telltale crimson stain around their mouths. A creature subjected to a dose of soothsalts gains advantage on all Intelligence checks for 1d4 hours.</text>
+		<text>	For each dose of soothsalts consumed, the creature must succeed on a DC 15 Constitution saving throw or gain one level of exhaustion—an effect which is cumulative with multiple doses.</text>
+		<roll>1d4</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Spell Bottle</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This glass bottle can store one spell of up to 5th level at a time. When found, roll a d6 and subtract 1; the total determines the level of spell in the bottle (the DM chooses the spell, and 0 means the bottle is empty). A swirling blue vapor fills the bottle while it contains a spell.</text>
+		<text>	When the bottle is empty, any creature can cast a spell of 1st through 5th level into it by touching it while casting. The spell has no effect other than to be stored in the bottle.</text>
+		<text>	While holding the bottle, you can cast the spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The bottle becomes empty once the spell is cast.</text>
+		<text>	If you're holding the empty bottle when you see a creature casting a spell within 60 feet of you, you can open the bottle as a reaction in an attempt to interrupt the spell. If the creature is casting a spell of 3rd level or lower, the spell has no effect, and it is stored in the bottle. If it is casting a spell of 4th level or higher, make an Intelligence check. The DC equals 10 + the spell's level. On a success, the spell has no effect, and it is stored in the bottle.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Staff of Dunamancy</name>
+		<type>ST</type>
+		<magic>1</magic>
+		<weight>4</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>B</dmgType>
+		<dmg2>1d8</dmg2>
+		<rarity>very rare</rarity>
+		<text>Rarity: very rare</text>
+		<text>Requires Attunement by a wizard</text>
+		<text>This staff of polished gray wood bears numerous runes carved along its length. The staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns into dust and is destroyed.</text>
+		<text>	While holding the staff, you can use an action to expend 2 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: fortune's favor (2 charges), pulse wave (3 charges), or gravity sinkhole (4 charges).</text>
+		<text>	New Possibility. If you are holding the staff and fail a saving throw against a spell that targets only you, you can turn your failed save into a successful one. This property can't be used again until the next dawn.</text>
+		<roll>1d4+4</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Staff of the Ivory Claw</name>
+		<type>ST</type>
+		<magic>11</magic>
+		<weight>4</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>B</dmgType>
+		<dmg2>1d8</dmg2>
+		<rarity>rare</rarity>
+		<text>Rarity: rare</text>
+		<text>Requires Attunement by a spellcaster</text>
+		<text>This gray-and-cerulean staff is topped with a small dragon claw carved from ivory. While holding the staff, you gain a +1 bonus to spell attack rolls. Whenever you score a critical hit with a spell attack, the target takes an extra 3d6 radiant damage.</text>
+		<modifier category="spell attack">+1</modifier>
+		<roll>3d6</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Stormgirdle (Dormant)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>A Stormgirdle is a wide belt made of thick leather branded with the symbol of Kord. The girdle's clasps are made from dragon ivory.</text>
+		<text>Dormant. While wearing the Stormgirdle in its dormant state, you have resistance to lightning damage and thunder damage, and your Strength score becomes 21 if it isn't already 21 or higher. In addition, you can use an action to become a Storm Avatar for 1 minute, gaining the following benefits for the duration:</text>
+		<text>	• You have immunity to lightning damage and thunder damage.</text>
+		<text>	• When you hit with a weapon attack that normally deals bludgeoning damage, it deals thunder damage instead. When you hit with a weapon attack that normally deals piercing or slashing damage, it deals lightning damage instead.</text>
+		<text>	• As a bonus action, you can choose one creature you can see within 30 feet of you to be struck by lightning. The target must make a DC 15 Dexterity saving throw, taking 3d6 lightning damage on a failed save, or half as much damage on a successful one.</text>
+		<text>Once you use the girdle's Storm Avatar property, that property can't be used again until the next dawn.</text>
+		<roll>3d6</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Stormgirdle (Awakened)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>A Stormgirdle is a wide belt made of thick leather branded with the symbol of Kord. The girdle's clasps are made from dragon ivory.</text>
+		<text>Awakened. While wearing the Stormgirdle in its awakened state, you gain the following benefits:</text>
+		<text>	• You have resistance to lightning damage and thunder damage, and your Strength score becomes 23 if it isn't already 23 or higher. In addition, you can use an action to become a Storm Avatar for 1 minute, gaining the following benefits for the duration:</text>
+		<text>	• You have immunity to lightning damage and thunder damage.</text>
+		<text>	• When you hit with a weapon attack that normally deals bludgeoning damage, it deals thunder damage instead. When you hit with a weapon attack that normally deals piercing or slashing damage, it deals lightning damage instead.</text>
+		<text>	• As a bonus action, you can choose one creature you can see within 30 feet of you to be struck by lightning. The target must make a DC 15 Dexterity saving throw, taking 4d6 lightning damage on a failed save, or half as much damage on a successful one.</text>
+		<text>	• While transformed into a Storm Avatar, you gain a flying speed of 30 feet and can hover.</text>
+		<text>Once you use the girdle's Storm Avatar property, that property can't be used again until the next dawn.</text>
+		<roll>4d6</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Stormgirdle (Exhalted)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>A Stormgirdle is a wide belt made of thick leather branded with the symbol of Kord. The girdle's clasps are made from dragon ivory.</text>
+		<text>Exalted. While wearing the Stormgirdle in its exalted state, you gain the following benefits:</text>
+		<text>	• You have resistance to lightning damage and thunder damage, and your Strength score becomes 25 if it isn't already 25 or higher. In addition, you can use an action to become a Storm Avatar for 1 minute, gaining the following benefits for the duration:</text>
+		<text>	• You have immunity to lightning damage and thunder damage.</text>
+		<text>	• When you hit with a weapon attack that normally deals bludgeoning damage, it deals thunder damage instead. When you hit with a weapon attack that normally deals piercing or slashing damage, it deals lightning damage instead.</text>
+		<text>	• As a bonus action, you can choose one creature you can see within 30 feet of you to be struck by lightning. The target must make a DC 15 Dexterity saving throw, taking 5d6 lightning damage on a failed save, or half as much damage on a successful one.</text>
+		<text>	• While transformed into a Storm Avatar, you gain a flying speed of 30 feet and can hover.</text>
+		<text>	• You can cast the control weather spell from the girdle. This property can't be used again until the next dawn.</text>
+		<text>Once you use the girdle's Storm Avatar property, that property can't be used again until the next dawn.</text>
+		<roll>5d6</roll>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>The Bloody End (Dormant)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>4</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Carrying the power of Bane, this adamantine morningstar sports foot-long spikes and has a jagged blade on its pommel.</text>
+		<text>Sentience. The Bloody End is a sentient lawful evil weapon with an Intelligence of 22, a Wisdom of 18, and a Charisma of 24. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common and Infernal.</text>
+		<text>Personality. A tyrannical pit fiend named Izeelzee lives within The Bloody End. The weapon boisterously pushes its wielder to subjugate others and to never back down from a challenge. If the wielder doesn't demand fealty from others, the weapon is happy to demand it on their behalf.</text>
+		<text>Dormant. The morningstar grants the following benefits in its dormant state:</text>
+		<text>	• You can speak, read, and write Infernal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• While holding the morningstar, you can use an action to cast one of the following spells from it (save DC 13): charm person, dominate person, or fear. Once a spell has been cast using the morningstar, that spell can't be cast from it again until the next dawn.</text>
+		<text>	• While holding the morningstar, you have advantage on Charisma (Intimidation) checks.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>The Bloody End (Awakened)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>4</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Carrying the power of Bane, this adamantine morningstar sports foot-long spikes and has a jagged blade on its pommel.</text>
+		<text>Sentience. The Bloody End is a sentient lawful evil weapon with an Intelligence of 22, a Wisdom of 18, and a Charisma of 24. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common and Infernal.</text>
+		<text>Personality. A tyrannical pit fiend named Izeelzee lives within The Bloody End. The weapon boisterously pushes its wielder to subjugate others and to never back down from a challenge. If the wielder doesn't demand fealty from others, the weapon is happy to demand it on their behalf.</text>
+		<text>Awakened. When the morningstar reaches an awakened state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Infernal.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• While holding the morningstar, you can use an action to cast one of the following spells from it (save DC 15): charm person, dominate person, or fear. Once a spell has been cast using the morningstar, that spell can't be cast from it again until the next dawn.</text>
+		<text>	• While holding the morningstar, you have advantage on Charisma (Intimidation) checks.</text>
+		<text>	• The saving throw DC for spells cast from the morningstar increases to 15.</text>
+		<text>	• When you reduce a creature to 0 hit points with an attack using The Bloody End, you can cause the following effect: each creature of your choice within 15 feet of you must succeed on a DC 15 Wisdom saving throw or be frightened of you until the end of your next turn. This property can't be used again until the next dawn.</text>
+		<text>	• When a creature hits you with a melee attack, you can use your reaction to deal 1d6 psychic damage to the attacker.</text>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<roll>1d6</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>The Bloody End (Exhalted)</name>
+		<type>M</type>
+		<weight>4</weight>
+		<magic>1</magic>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Carrying the power of Bane, this adamantine morningstar sports foot-long spikes and has a jagged blade on its pommel.</text>
+		<text>Sentience. The Bloody End is a sentient lawful evil weapon with an Intelligence of 22, a Wisdom of 18, and a Charisma of 24. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common and Infernal.</text>
+		<text>Personality. A tyrannical pit fiend named Izeelzee lives within The Bloody End. The weapon boisterously pushes its wielder to subjugate others and to never back down from a challenge. If the wielder doesn't demand fealty from others, the weapon is happy to demand it on their behalf.</text>
+		<text>Exalted. When the morningstar reaches an exalted state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Infernal.</text>
+		<text>	• You gain a +3 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• While holding the morningstar, you can use an action to cast one of the following spells from it (save DC 17): charm person, dominate person, fear, or dominate monster. Once a spell has been cast using the morningstar, that spell can't be cast from it again until the next dawn.</text>
+		<text>	• While holding the morningstar, you have advantage on Charisma (Intimidation) checks.</text>
+		<text>	• When you reduce a creature to 0 hit points with an attack using The Bloody End, you can cause the following effect: each creature of your choice within 15 feet of you must succeed on a DC 17 Wisdom saving throw or be frightened of you until the end of your next turn. This property can't be used again until the next dawn.</text>
+		<text>	• When a creature hits you with a melee attack, you can use your reaction to deal 2d6 psychic damage to the attacker.</text>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+		<roll>2d6</roll>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Theki Root</name>
+		<type>P</type>
+		<text>This thick marsh root tastes bitter but is thought to aid digestive health. When you use an action to consume a dose, you gain advantage on saving throws against the effects of poisonous or toxic substances for 8 hours.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Verminshroud (Dormant)</name>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This patchy cloak was pieced together from the pelts of rats found feasting on the dead in Blightshore and is dotted with the bloated corpses of magically preserved insects along its seams.</text>
+		<text>Dormant. While wearing the Verminshroud in its dormant state, you gain the following benefits:</text>
+		<text>	• You have advantage on Wisdom (Perception) checks that rely on smell, you are immune to disease, and you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the cloak increases the range of your darkvision by 60 feet.</text>
+		<text>	• As an action, you can use the Verminshroud to cast polymorph on yourself, transforming into a giant rat or rat while retaining your Intelligence, Wisdom, and Charisma scores, as well as the properties of the cloak. This property can't be used again until the next dawn.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Verminshroud (Awakened)</name>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This patchy cloak was pieced together from the pelts of rats found feasting on the dead in Blightshore and is dotted with the bloated corpses of magically preserved insects along its seams.</text>
+		<text>Awakened. While wearing the Verminshroud in its awakened state, you gain the following benefits:</text>
+		<text>	• You have advantage on Wisdom (Perception) checks that rely on smell, you are immune to disease, and you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the cloak increases the range of your darkvision by 60 feet.</text>
+		<text>	• As an action, you can use the Verminshroud to cast polymorph on yourself, transforming into a giant rat or rat while retaining your Intelligence, Wisdom, and Charisma scores, as well as the properties of the cloak. This property can't be used again until the next dawn.</text>
+		<text>	• You have resistance to poison damage.</text>
+		<text>	• You can use an action to cast the insect plague spell (save DC 15) from the Verminshroud, requiring no material components. This property can't be used again until the next dawn.</text>
+		<text>	• When you cast the polymorph spell using the Verminshroud, you can transform into a giant wasp.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Verminshroud (Exhalted)</name>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This patchy cloak was pieced together from the pelts of rats found feasting on the dead in Blightshore and is dotted with the bloated corpses of magically preserved insects along its seams.</text>
+		<text>Exalted. While wearing the Verminshroud in its exalted state, you gain the following benefits:</text>
+		<text>	• You have advantage on Wisdom (Perception) checks that rely on smell, you are immune to disease, and you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the cloak increases the range of your darkvision by 60 feet.</text>
+		<text>	• As an action, you can use the Verminshroud to cast polymorph on yourself, transforming into a giant rat or rat while retaining your Intelligence, Wisdom, and Charisma scores, as well as the properties of the cloak. This property can't be used again until the next dawn.</text>
+		<text>	• You have resistance to poison damage.</text>
+		<text>	• You can use an action to cast the insect plague spell (save DC 15) from the Verminshroud, requiring no material components. This property can't be used again until the next dawn.</text>
+		<text>	• When you cast the polymorph spell using the Verminshroud, you can transform into a giant wasp.</text>
+		<text>	• You gain a climbing speed equal to your walking speed.</text>
+		<text>	• Your teeth become razor-sharp natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You can make this attack as a bonus action. When you bite a creature and deal damage to it, the creature must succeed on a DC 17 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.</text>
+		<text>	• When you cast the polymorph spell using the Verminshroud, you can transform into a giant scorpion.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Vox Seeker</name>
+		<type>W</type>
+		<rarity>common</rarity>
+		<text>Rarity: common</text>
+		<text>This clockwork device resembles a metal crab the size of a dinner plate. Every action used to wind up the device allows it to operate for 1 minute, to a maximum of 10 minutes. While operational, the item uses the accompanying Vox Seeker stat block. This automaton is under the DM's control. A vox seeker reduced to 0 hit points is destroyed.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Will of the Talon (Dormant)</name>
+		<type>M</type>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Black, blue, green, red, and white gems carved in the form of dragon heads cover this ostentatious gold war pick, marking it as a weapon channeling the power of Tiamat.</text>
+		<text>Sentience. Will of the Talon is a sentient lawful evil weapon with an Intelligence of 14, a Wisdom of 15, and a Charisma of 19. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Infernal.</text>
+		<text>Personality. A short-tempered bone devil named Ashtyrlon lives within Will of the Talon. The weapon is greedy and values strong leadership. It demands that its wielder take decisive action to keep order in high-pressure situations—and to always take a fair share of treasure in return.</text>
+		<text>Dormant. The war pick grants the following benefits in its dormant state:</text>
+		<text>	• You can speak, read, and write Draconic and Infernal.</text>
+		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon.</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+		<text>	• As a bonus action while holding the war pick, you can cause the following effect: each creature of your choice that is within 30 feet of you and is aware of you must succeed on a DC 13 Wisdom saving throw or become frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours. This property can't be used again until the next dawn.</text>
+		<roll>3d6</roll>
+		<text>	• While holding the war pick, you can use your action to exhale destructive energy. Pick a damage type from the Will of the Talon Breath Weapons table. Each creature in the area of the exhalation must make a DC 13 saving throw, the type of which is specified in the table. A creature takes 3d6 damage on a failed save, or half as much damage on a successful one.</text>
+		<text>When you use the war pick to unleash a breath weapon of a specific damage type, you can't choose that same damage type again until the next dawn.</text>
+		<text></text>
+		<text>Will of the Talon Breath Weapons</text>
+		<text>Damage Type    Area                            Saving Throw</text>
+		<text>Acid           5 ft. wide, 30 ft. long line    Dexterity</text>
+		<text>Cold           15 ft. cone                     Constitution</text>
+		<text>Fire           15 ft. cone                     Dexterity</text>
+		<text>Lightning      5 ft. wide, 30 ft. long line    Dexterity</text>
+		<text>Poison         15 ft. cone                     Constitution</text>
+		<text />
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Will of the Talon (Awakened)</name>
+		<type>M</type>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Black, blue, green, red, and white gems carved in the form of dragon heads cover this ostentatious gold war pick, marking it as a weapon channeling the power of Tiamat.</text>
+		<text>Sentience. Will of the Talon is a sentient lawful evil weapon with an Intelligence of 14, a Wisdom of 15, and a Charisma of 19. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Infernal.</text>
+		<text>Personality. A short-tempered bone devil named Ashtyrlon lives within Will of the Talon. The weapon is greedy and values strong leadership. It demands that its wielder take decisive action to keep order in high-pressure situations—and to always take a fair share of treasure in return.</text>
+		<text>Awakened. When the war pick reaches an awakened state, it grants the following properties:</text>
+		<text>	• You can speak, read, and write Draconic and Infernal.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon.</text>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<text>	• As a bonus action while holding the war pick, you can cause the following effect: each creature of your choice that is within 30 feet of you and is aware of you must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours. This property can't be used again until the next dawn.</text>
+		<text>	• While holding the war pick, you can use your action to exhale destructive energy. Pick a damage type from the Will of the Talon Breath Weapons table. Each creature in the area of the exhalation must make a DC 15 saving throw, the type of which is specified in the table. A creature takes 4d6 damage on a failed save, or half as much damage on a successful one.</text>
+		<roll>4d6</roll>
+		<text>When you use the war pick to unleash a breath weapon of a specific damage type, you can't choose that same damage type again until the next dawn.</text>
+		<text></text>
+		<text>Will of the Talon Breath Weapons</text>
+		<text>Damage Type    Area                            Saving Throw</text>
+		<text>Acid           5 ft. wide, 30 ft. long line    Dexterity</text>
+		<text>Cold           15 ft. cone                     Constitution</text>
+		<text>Fire           15 ft. cone                     Dexterity</text>
+		<text>Lightning      5 ft. wide, 30 ft. long line    Dexterity</text>
+		<text>Poison         15 ft. cone                     Constitution</text>
+		<text />
+		<text>	• While carrying the weapon, you have resistance to acid, cold, fire, lightning, and poison damage.</text>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Will of the Talon (Exhalted)</name>
+		<type>M</type>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<rarity>artifact</rarity>
+		<text>Rarity: artifact</text>
+		<text>Requires Attunement</text>
+		<text>Black, blue, green, red, and white gems carved in the form of dragon heads cover this ostentatious gold war pick, marking it as a weapon channeling the power of Tiamat.</text>
+		<text>Sentience. Will of the Talon is a sentient lawful evil weapon with an Intelligence of 14, a Wisdom of 15, and a Charisma of 19. It has hearing and darkvision out to a range of 120 feet.</text>
+		<text>	The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Infernal.</text>
+		<text>Personality. A short-tempered bone devil named Ashtyrlon lives within Will of the Talon. The weapon is greedy and values strong leadership. It demands that its wielder take decisive action to keep order in high-pressure situations—and to always take a fair share of treasure in return.</text>
+		<text>Exalted. When the war pick reaches an exalted state, it gains the following properties:</text>
+		<text>	• You can speak, read, and write Draconic and Infernal.</text>
+		<text>	• You gain a +3 bonus to attack and damage rolls made with this magic weapon.</text>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+		<text>	• As a bonus action while holding the war pick, you can cause the following effect: each creature of your choice that is within 30 feet of you and is aware of you must succeed on a DC 17 Wisdom saving throw or become frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours. This property can't be used again until the next dawn.</text>
+		<text>	• While holding the war pick, you can use your action to exhale destructive energy. Pick a damage type from the Will of the Talon Breath Weapons table. Each creature in the area of the exhalation must make a DC 17 saving throw, the type of which is specified in the table. A creature takes 5d6 damage on a failed save, or half as much damage on a successful one.</text>
+		<roll>5d6</roll>
+		<text>When you use the war pick to unleash a breath weapon of a specific damage type, you can't choose that same damage type again until the next dawn.</text>
+		<text></text>
+		<text>Will of the Talon Breath Weapons</text>
+		<text>Damage Type    Area                            Saving Throw</text>
+		<text>Acid           5 ft. wide, 30 ft. long line    Dexterity</text>
+		<text>Cold           15 ft. cone                     Constitution</text>
+		<text>Fire           15 ft. cone                     Dexterity</text>
+		<text>Lightning      5 ft. wide, 30 ft. long line    Dexterity</text>
+		<text>Poison         15 ft. cone                     Constitution</text>
+		<text />
+		<text>	• While carrying the weapon, you have resistance to acid, cold, fire, lightning, and poison damage.</text>
+		<text>Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one Artifact Properties; Minor Beneficial Properties property and one Artifact Properties; Minor Detrimental Properties property. When the artifact attains an awakened state, it gains an additional Artifact Properties; Minor Beneficial Properties property and an additional Artifact Properties; Minor Detrimental Properties property. When the item reaches its exalted state, it gains a Artifact Properties; Major Beneficial Properties property. See "Artifact Properties" in chapter 7 of the Dungeon Master's Guide for more information.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Willowshade Oil</name>
+		<type>P</type>
+		<magic>1</magic>
+		<text>A dark blue oil can be extracted from the rare fruit of the willowshade plant. A creature can use its action to apply the oil to another creature that has been petrified for less than 1 minute, causing the petrified condition on that creature to end at the start of what would be that creature's next turn.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Wreath of the Prism (Dormant)</name>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.</text>
+		<text>Dormant. While wearing the wreath in its dormant state, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the wreath increases the range of your darkvision by 60 feet.</text>
+		<text>	When you hit a beast, dragon, or monstrosity of challenge rating 5 or lower with an attack, or when you grapple it, you can use the wreath to cast dominate monster on the creature (save DC 13). On a successful save, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer charmed by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was charmed by you.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Wreath of the Prism (Awakened)</name>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.</text>
+		<text>Awakened. Once the Wreath of the Prism reaches an awakened state, it gains the following benefits:</text>
+		<text>	• You have darkvision out to a range of 60 feet. If you already have darkvision, wearing the wreath increases the range of your darkvision by 60 feet.</text>
+		<text>	• When you hit a beast, dragon, or monstrosity of challenge rating 10 or lower with an attack, or when you grapple it, you can use the wreath to cast dominate monster on the creature (save DC 15). On a successful save, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer charmed by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was charmed by you.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+	<item>
+		<name>Wreath of the Prism (Exhalted)</name>
+		<type>W</type>
+		<rarity>legendary</rarity>
+		<text>Rarity: legendary</text>
+		<text>Requires Attunement</text>
+		<text>This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.</text>
+		<text>Dormant. While wearing the wreath in its dormant state, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the wreath increases the range of your darkvision by 60 feet.</text>
+		<text>	When you hit a beast, dragon, or monstrosity of challenge rating 15 or lower with an attack, or when you grapple it, you can use the wreath to cast dominate monster on the creature (save DC 17). On a successful save, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer charmed by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was charmed by you.</text>
+		<text />
+		<text>Source: Expxlorer's Guide to Wildemount</text>
+	</item>
+</compendium>
