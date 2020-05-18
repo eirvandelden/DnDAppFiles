@@ -435,10 +435,15 @@ This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as su
 		<slots>0,0,0,0,0,0,0,0,0,0,</slots>
 		<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
 		<tracker>
-			<label>Second Wind</label>
+			<label>Second Wind Use</label>
 			<resetType>1</resetType>
 			<value>1</value>
 			<formula>1</formula>
+		</tracker>
+		<tracker>
+			<label>Second Wind</label>
+			<type>2</type>
+			<formula>1d10+%7</formula>
 		</tracker>
 		<tracker>
 			<label>Action Surge</label>
