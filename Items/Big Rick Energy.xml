@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
 	<!--The Lost Dungeon of Rickedness: Big Rick Energy-->
+	<!-- Still need to grab basic items defined in rulebook -->
 	<item>
 		<name>Concertina</name>
 		<type>W</type>
@@ -12,5 +13,66 @@
 		<text>	In addition to knocking out a killer polka, a creature playing the concertina can use an action to cause an area of mist or water up to 30 feet in diameter and 6 inches deep to freeze solid.</text>
 		<text>	Once used, this feature of the concertina can't be used again until the next dawn.</text>
 		<text>	Any creatures touching the floor must succeed on a DC 20 Dexterity saving throw or be restrained by the ice. As an action, a restrained creature can attempt to free itself or another creature within its reach from the ice, doing so with a successful DC 20 Strength (Athletics) check. A character freed from the ice is no longer restrained by it. The ice melts in an hour.</text>
+	</item>
+	<item>
+		<name>Potion of Flying</name>
+		<type>P</type>
+		<magic>1</magic>
+		<weight>0.5</weight>
+		<rarity>Very Rare</rarity>
+		<text>Rarity: Very Rare</text>
+		<text>When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it.</text>
+	</item>
+	<item>
+		<name>Potion of Healing</name>
+		<type>P</type>
+		<magic>1</magic>
+		<weight>0.5</weight>
+		<rarity>Common</rarity>
+		<text>Rarity: Common</text>
+		<text>You regain 2d4 + 2 hit points when you drink this potion.	The potion's red liquid glimmers when agitated.</text>
+		<roll>2d4+2</roll>
+	</item>
+	<item>
+		<name>Ring of Protection</name>
+		<type>RG</type>
+		<magic>1</magic>
+		<rarity>Rare</rarity>
+		<text>Rarity: Rare</text>
+		<text>Requires Attunement</text>
+		<text />
+		<text>You gain a +1 bonus to AC and saving throws while wearing this ring.</text>
+		<modifier category="bonus">ac +1</modifier>
+		<modifier category="bonus">saving throws +1</modifier>
+	</item>
+		<item>
+		<name>Wand of Magic Missiles</name>
+		<type>WD</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<rarity>Uncommon</rarity>
+		<text>Rarity: Uncommon</text>
+		<text>This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</text>
+		<text>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</text>
+		<text />
+		<roll>1d6+1</roll>
+		<roll>(1d4+1)*3</roll>
+		<roll>(1d4+1)*4</roll>
+		<roll>(1d4+1)*5</roll>
+		<roll>(1d4+1)*6</roll>
+		<roll>(1d4+1)*7</roll>
+		<roll>(1d4+1)*8</roll>
+		<roll>(1d4+1)*9</roll>
+	</item>
+		<item>
+		<name>Winged Boots</name>
+		<type>W</type>
+		<magic>1</magic>
+		<rarity>Uncommon</rarity>
+		<text>Rarity: Uncommon</text>
+		<text>Requires Attunement</text>
+		<text />
+		<text>While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.</text>
+		<text>	The boots regain 2 hours of flying capability for every 12 hours they aren't in use.</text>
 	</item>
 </compendium>
