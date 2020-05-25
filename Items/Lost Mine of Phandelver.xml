@@ -190,6 +190,38 @@
 		<roll>1d20+7</roll>
 	</item>
 
+	<!-- specific +1 items -->
+		<item>
+		<name>Lightbringer</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>4</weight>
+		<dmg1>1d6</dmg1>
+		<dmgType>B</dmgType>
+		<text>This +1 mace was made for a cleric of Lathander, the god of dawn. The head of the mace is shaped like a sunburst and made of solid brass. Named Lightbringer, this weapon glows as bright as a torch when its wielder commands. While glowing, the mace deals an extra 1d6 radiant damage to undead creatures.</text>
+		<roll>1d6</roll>
+		<text></text>
+		<text>	You have a +1 bonus to attack and damage rolls made with this weapon.</text>
+		<text />
+		<text>Source: Lost Mine of Phandelver</text>
+		<roll>
+		<modifier category="bonus">melee attacks +1</modifier>
+		<modifier category="bonus">melee damage +1</modifier>
+	</item>
+	<item>
+		<name>Dragonguard</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>20</weight>
+		<ac>14</ac>
+		<text>This +1 breastplate has a gold dragon motif worked into its design. Created for a human hero of Neverwinter named Tergon, it grants its wearer advantage on saving throws against the breath weapons of creatures that have the dragon type.</text>
+		<text></text>
+		<text>	You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Lost Mine of Phandelver</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+
 	<!-- +1 Armor and Weapons -->
 	<!-- This is more than is actually available, but the rulebook simply defines +1 variants -->
 	<item>
