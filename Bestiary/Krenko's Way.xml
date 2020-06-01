@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<monster>
+	<name>Goblin Gang Member</name>
+	<size>S</size>
+	<type>humanoid (goblinoid)</type>
+	<description>Source: Krenko's Way</description>
+	<alignment>neutral evil</alignment>
+	<ac>14 (leather armor)</ac>
+	<hp>10 (3d6)</hp>
+	<speed>30 ft.</speed>
+	<str>8</str>
+	<dex>16</dex>
+	<con>10</con>
+	<int>10</int>
+	<wis>10</wis>
+	<cha>8</cha>
+	<save></save>
+	<skill>stealth +5</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>10</passive>
+	<languages>Common,Goblin</languages>
+	<cr>1/4</cr>
+	<trait>
+		<name>Nimble Escape</name>
+		<text>The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</text>
+	</trait>
+	<action>
+		<name>Dagger</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+		<attack>Dagger|5|1d4+3</attack>
+	</action>
+	<action>
+		<name>Light Crossbow</name>
+		<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+		<attack>Light Crossbow|5|1d8+3</attack>
+	</action>
+</monster>
+<monster>
+	<name>Krenko</name>
+	<size>S</size>
+	<type>humanoid (goblinoid)</type>
+	<description>Source: Krenko's Way</description>
+	<alignment>neutral evil</alignment>
+	<ac>17 (chain shirt,shield)</ac>
+	<hp>21 (6d6)</hp>
+	<speed>30 ft.</speed>
+	<str>10</str>
+	<dex>14</dex>
+	<con>10</con>
+	<int>10</int>
+	<wis>8</wis>
+	<cha>14</cha>
+	<save></save>
+	<skill>stealth +6,deception +4,persuasion +4</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>9</passive>
+	<languages>Common,Goblin</languages>
+	<cr>1</cr>
+	<trait>
+		<name>Nimble Escape</name>
+		<text>Krenko can take the Disengage or Hide action as a bonus action on each of his turns.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Krenko makes two attacks with his scimitar.</text>
+	</action>
+	<action>
+		<name>Scimitar</name>
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 2 (1d4) poison damage..</text>
+		<attack>Scimitar|4|1d6+2+1d4</attack>
+	</action>
+	<action>
+		<name>Light Crossbow</name>
+		<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+		<attack>Light Crossbow|4|1d8+2</attack>
+	</action>
+	<reaction>
+		<name>Redirect Attack</name>
+		<text>When a creature Krenko can see targets him with an attack, Krenko chooses another goblin within 5 feet of him. The two goblins swap places, and the chosen goblin becomes the target instead.</text>
+	</reaction>
+</monster>
+<monster>
+	<name>Loading Rig</name>
+	<size>L</size>
+	<type>construct</type>
+	<description>Source: Krenko's Way</description>
+	<alignment>unaligned</alignment>
+	<ac>18 (natural armor)</ac>
+	<hp>39 (6d10 + 6)</hp>
+	<speed>25 ft.</speed>
+	<str>18</str>
+	<dex>11</dex>
+	<con>13</con>
+	<int>1</int>
+	<wis>3</wis>
+	<cha>1</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune>poison,psychic</immune>
+	<conditionImmune>blinded,charmed,deafened,exhaustion,frightened,paralyzed,petrified,poisoned</conditionImmune>
+	<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+	<passive>6</passive>
+	<languages>—</languages>
+	<cr>1</cr>
+	<trait>
+		<name>Antimagic Susceptibility</name>
+		<text>The rig is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the rig must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.</text>
+	</trait>
+	<trait>
+		<name>Unstable</name>
+		<text>If the rig takes damage, it must succeed on a 10 Constitution saving throw or be incapacitated with a speed of 0 until a creature activates it with a successful 10 Intelligence (Arcana) check made as an action.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The armor makes two melee attacks.</text>
+	</action>
+	<action>
+		<name>Slam</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage.</text>
+		<attack>Slam|6|1d6+4</attack>
+	</action>
+</monster>
+<monster>
+	<name>Kraul Warrior</name>
+	<size>M</size>
+	<type>humanoid (kraul)</type>
+	<description>Source: Krenko's Way</description>
+	<alignment>lawful evil</alignment>
+	<ac>18 (natural armor)</ac>
+	<hp>27 (5d8 + 5)</hp>
+	<speed>30 ft., climb 30 ft.</speed>
+	<str>15</str>
+	<dex>12</dex>
+	<con>13</con>
+	<int>10</int>
+	<wis>11</wis>
+	<cha>8</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>10</passive>
+	<languages>Kraul,understands Common but can't speak it</languages>
+	<cr>1/2</cr>
+	<trait>
+		<name>Hive Mind</name>
+		<text>The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul.</text>
+	</trait>
+	<trait>
+		<name>Pack Tactics</name>
+		<text>The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+	</trait>
+	<trait>
+		<name>Spider Climb</name>
+		<text>The kraul can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+	</trait>
+	<action>
+		<name>Spear</name>
+		<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+		<attack>Spear|4|1d6+2+1d8+2</attack>
+	</action>
+</monster>
+<monster>
+	<name>Scorchbringer Guard</name>
+	<size>M</size>
+	<type>humanoid (any race)</type>
+	<description>Source: Krenko's Way</description>
+	<alignment>chaotic neutral</alignment>
+	<ac>16 (breastplate)</ac>
+	<hp>11 (2d8 + 2)</hp>
+	<speed>30 ft.</speed>
+	<str>13</str>
+	<dex>14</dex>
+	<con>12</con>
+	<int>10</int>
+	<wis>9</wis>
+	<cha>10</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses></senses>
+	<passive>9</passive>
+	<languages>any one language (usually Common)</languages>
+	<cr>1/2</cr>
+	<trait>
+		<name>Explosive Tank</name>
+		<text>When the guard dies, or if it rolls a 1 when checking whether its Scorchbringer action recharges, the tank on its back explodes in a 10-foot radius sphere. Each creature in that area must make a 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects that aren't being worn or carried, and it destroys the scorchbringer.</text>
+	</trait>
+	<action>
+		<name>Light Hammer</name>
+		<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+		<attack>Light Hammer|4|1d4+2</attack>
+	</action>
+	<action>
+		<name>Scorchbringer (Recharge 4-6)</name>
+		<text>The guard's scorchbringer spouts a stream of flame in a line that is 30 feet long and 5 feet wide. Each creature in the line must make a 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+		<attack>Scorchbringer||2d6</attack>
+	</action>
+</monster>
+<monster>
+	<name>Soldier</name>
+	<size>M</size>
+	<type>humanoid (any race)</type>
+	<description>Source: Krenko's Way</description>
+	<alignment></alignment>
+	<ac>18 (chain mail,shield)</ac>
+	<hp>16 (3d8 + 3)</hp>
+	<speed>30 ft.</speed>
+	<str>13</str>
+	<dex>12</dex>
+	<con>12</con>
+	<int>10</int>
+	<wis>11</wis>
+	<cha>11</cha>
+	<save></save>
+	<skill>perception +2,athletics +3</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses></senses>
+	<passive>12</passive>
+	<languages>any one language (usually Common)</languages>
+	<cr>1/2</cr>
+	<trait>
+		<name>Formation Tactics</name>
+		<text>The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The soldier makes two melee attacks.</text>
+	</action>
+	<action>
+		<name>Longsword</name>
+		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands.</text>
+		<attack>Longsword|3|1d8+2+1d10+2</attack>
+	</action>
+</monster>
+</compendium>
