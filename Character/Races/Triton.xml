@@ -62,8 +62,6 @@
 			<name>Control Air and Water</name>
 			<text>A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells.</text>
 		</trait>
-		<spellAbility>Charisma</spellAbility>
-		<spells>Fog Cloud, Gust of Wind, Wall of Water</spells>
 		<trait>
 			<name>Emissary of the Sea</name>
 			<text>Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.</text>
@@ -79,6 +77,15 @@
 		<trait>
 			<name>Darkvision</name>
 			<text>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Fog Cloud, Gust of Wind, Wall of Water</spells>
+		<trait>
+			<name>Height and Weight</name>
+			<text>Base Height: 4'6"</text>
+			<text>Base Weight: 90 lbs</text>
+			<text>Height Modifier: 2d10</text>
+			<text>Weight Modifier: x2d4</text>
 		</trait>
 	</race>
 </compendium>
