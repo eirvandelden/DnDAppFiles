@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" HB="HB">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Beauty)</name>
 		<autolevel level="1">
@@ -23,7 +23,7 @@
 				<name>Beauty Domain: Bonus Proficiency</name>
 				<text>When you choose this domain at 1st level, you gain the friends cantrip if you don't already have it.</text>
 			</feature>
-			<feature>
+			<feature optional="YES">
 				<name>Beauty Domain: Alluring Presence</name>
 				<text>You become proficient in Deception or Persuasion. Your proficiency bonus is doubled for any ability check you make using the skill you chose.</text>
 			</feature>
