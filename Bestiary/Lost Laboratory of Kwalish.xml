@@ -1,1806 +1,1806 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
-    <monster>
-        <name>Brain in a Jar</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Lost Laboratory of Kwalish</description>
-        <alignment></alignment>
-        <ac>11 (natural armor)</ac>
-        <hp>58 (9d8 + 18)</hp>
-        <speed>0 ft.</speed>
-        <str>1</str>
-        <dex>1</dex>
-        <con>15</con>
-        <int>19</int>
-        <wis>10</wis>
-        <cha>15</cha>
-        <save>int +7,cha +5</save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>necrotic,poison,psychic</immune>
-        <conditionImmune>charmed,exhaustion,frightened</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>—</languages>
-        <cr>6</cr>
-        <trait>
-            <name>Innate Spellcasting (Psionics)</name>
-            <text>The brain in a jar's innate spellcasting ability is Intelligence (spell save 15). It can innately cast the following spells, requiring no components:</text>
-            <text>At will: detect thoughts, mage hand, zone of truth</text>
-            <text>3/Day: charm person, command, hold person</text>
-            <text>1/Day: compulsion, hold monster, sleep (cast at 3rd level), Tasha's hideous laughter</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Detect Thoughts,Mage Hand,Zone of Truth,Charm Person,Command,Hold Person,Compulsion,Hold Monster,Sleep,Tasha's Hideous Laughter</spells>
-        <trait>
-            <name>Detect Sentience</name>
-            <text>The brain in a jar can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a mind blank spell.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The brain in a jar has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Mind Blast (Recharge 5-6)</name>
-            <text>The brain in a jar magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a 15 Intelligence saving throw or take 13 (2d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Mind Blast||2d8+4</attack>
-            <recharge>d5</recharge>
-        </action>
-    </monster>
-    <monster>
-        <name>Clockwork Kraken</name>
-        <size>L</size>
-        <type>construct</type>
-        <description>Source: Lost Laboratory of Kwalish</description>
-        <alignment>unaligned</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>142 (15d10 + 60)</hp>
-        <speed>30 ft.</speed>
-        <str>20</str>
-        <dex>12</dex>
-        <con>18</con>
-        <int>3</int>
-        <wis>11</wis>
-        <cha>1</cha>
-        <save></save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist>fire,bludgeoning, piercing, slashing from nonmagical attacks</resist>
-        <immune>poison,psychic</immune>
-        <conditionImmune>charmed,exhaustion,frightened,paralyzed,petrified,poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>10</passive>
-        <languages>understands the languages of its creator but can't speak</languages>
-        <cr>10</cr>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The clockwork kraken has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <trait>
-            <name>Independent Tentacles</name>
-            <text>The clockwork kraken has eight tentacles, each of which is treated as a Medium creature, moves independently on the construct's turn, and has a flying speed of 40 feet. The clockwork kraken's senses operate through its tentacles as well as its main body. Each tentacle can be attacked independently, with damage dealt to tentacles applied to the clockwork kraken's hit point total. A tentacle is destroyed if it takes more than 20 damage.</text>
-            <text>	Reducing the construct to three or fewer tentacles reduces its attacks accordingly. A clockwork kraken can regrow any destroyed tentacles at the end of a long rest.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The clockwork kraken makes four tentacle slam attacks.</text>
-        </action>
-        <action>
-            <name>Tentacle Slam</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage.</text>
-            <attack>Tentacle Slam|9|2d6+5</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Garret Levistusson</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Lost Laboratory of Kwalish</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>14 (natural armor)</ac>
-        <hp>44 (8d8 + 8)</hp>
-        <speed>30 ft.</speed>
-        <str>11</str>
-        <dex>14</dex>
-        <con>12</con>
-        <int>11</int>
-        <wis>12</wis>
-        <cha>17</cha>
-        <save></save>
-        <skill>deception +7,investigation +4,performance +5,persuasion +5</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>Abyssal,Common,Infernal,Thieves' cant</languages>
-        <cr>2</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>Garret is a 2nd-level spellcaster. His spellcasting ability is Charisma (spell save 13, +5 to hit with spell attacks). He has the following bard spells prepared:</text>
-            <text>Cantrips (at will): blade ward, vicious mockery</text>
-            <text>1st Level (3 slots): charm person, detect magic, disguise self, identify, Tasha's hideous laughter</text>
-        </trait>
-        <slots>3</slots>
-        <spellAbility>Charisma</spellAbility>
-        <spells>Blade Ward,Vicious Mockery,Charm Person,Detect Magic,Disguise Self,Identify,Tasha's Hideous Laughter</spells>
-        <trait>
-            <name>Special Equipment</name>
-            <text>Garret wears a Ring of Warmth (included in his statistics) and wields a Gambler's Blade longsword.</text>
-        </trait>
-        <trait>
-            <name>Bardic Inspiration (3/Day)</name>
-            <text>As a bonus action, Garret can give one chosen creature (other than him) a d6 inspiration die. The chosen creature must be within 60 feet of Garret and able to hear him. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can use the inspiration die after the roll is made but before the DM says whether it succeeds or fails. Once the inspiration die is rolled, it is lost. A creature can have only one inspiration die at a time.</text>
-        </trait>
-        <trait>
-            <name>Cunning Action</name>
-            <text>On each of his turns, Garret can use a bonus action to take the Dash, Disengage, or Hide action.</text>
-        </trait>
-        <trait>
-            <name>Sneak Attack (1/Turn)</name>
-            <text>Garret deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't incapacitated and Garret doesn't have disadvantage on the attack roll.</text>
-            <roll>2d6</roll>
-        </trait>
-        <action>
-            <name>Shortsword</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-            <attack>Shortsword|4|1d6+2</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Mary Greymalkin</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Lost Laboratory of Kwalish</description>
-        <alignment>neutral</alignment>
-        <ac>12 (Bracers of Defense,Ring of Protection)</ac>
-        <hp>45 (7d8 + 14)</hp>
-        <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>12</dex>
-        <con>10</con>
-        <int>14</int>
-        <wis>14</wis>
-        <cha>15</cha>
-        <save>wis +4,cha +4</save>
-        <skill>arcana +4,medicine +4,nature +4,religion +4</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>12</passive>
-        <languages>Abyssal,Celestial,Common,Elvish,Infernal,Sylvan</languages>
-        <cr>2</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>Mary is a 5th-level spellcaster. Her spellcasting ability is Charisma (spell save 12, +4 to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:</text>
-            <text>Cantrips (at will): chill touch, eldritch blast, mage hand</text>
-            <text>3rd Level (3 slots): darkness, hex, hypnotic pattern, misty step, phantasmal force, unseen servant</text>
-        </trait>
-        <slots>0,0,3</slots>
-        <spellAbility>Charisma</spellAbility>
-        <spells>Chill Touch,Eldritch Blast,Mage Hand,Darkness,Hex,Hypnotic Pattern,Misty Step,Phantasmal Force,Unseen Servant</spells>
-        <trait>
-            <name>Special Equipment</name>
-            <text>Mary wears Bracers of Defense and a Ring of Protection, and carries a Deck of Several Things</text>
-        </trait>
-        <trait>
-            <name>Fey Presence (Recharges after a Short Rest)</name>
-            <text>Mary can cause each creature within 10 feet of her to succeed on a 12 Wisdom saving throw or become charmed or frightened by her (Mary's choice) until the end of her next turn.</text>
-        </trait>
-        <trait>
-            <name>Fey Ancestry</name>
-            <text>Mary has advantage on saving throws against being charmed, and magic can't put her to sleep.</text>
-        </trait>
-        <action>
-            <name>Quarterstaff</name>
-            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.</text>
-            <attack>Quarterstaff|2|1d6</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Ooze-Folk</name>
-        <size>M</size>
-        <type>ooze</type>
-        <description>Source: Lost Laboratory of Kwalish</description>
-        <alignment>unaligned</alignment>
-        <ac>10 (natural armor)</ac>
-        <hp>19 (2d8 + 10)</hp>
-        <speed>30 ft.</speed>
-        <str>14</str>
-        <dex>3</dex>
-        <con>20</con>
-        <int>1</int>
-        <wis>6</wis>
-        <cha>1</cha>
-        <save></save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune>blinded,charmed,deafened,exhaustion,frightened,prone</conditionImmune>
-        <senses>blindsight 60 ft.</senses>
-        <passive>8</passive>
-        <languages>—</languages>
-        <cr>1/2</cr>
-        <trait>
-            <name>Transparent</name>
-            <text>Even when an ooze-folk is in plain sight, it takes a 12 Wisdom (Perception) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is surprised by the ooze-folk.</text>
-        </trait>
-        <trait>
-            <name>Fragile Bones</name>
-            <text>For each 5 damage it takes, the ooze-folk's walking speed is reduced by 5 feet.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The ooze folk makes one glass longsword attack and one pseudopod attack.</text>
-        </action>
-        <action>
-            <name>Glass Longsword</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) slashing damage. If a 1 is rolled on an attack roll with a glass longsword, it shatters and can no longer be used.</text>
-            <attack>Glass Longsword|4|1d8+2</attack>
-        </action>
-        <action>
-            <name>Pseudopod</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) acid damage. </text>
-            <attack>Pseudopod|4|1d6+2</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Gloine Nathair-Nathair</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Lost Laboratory of Kwalish</description>
-        <alignment>lawful evil</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>127 (17d8 + 51)</hp>
-        <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>15</dex>
-        <con>16</con>
-        <int>12</int>
-        <wis>13</wis>
-        <cha>15</cha>
-        <save></save>
-        <skill>deception +5,insight +4,perception +4,stealth +5</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>poison,necrotic</immune>
-        <conditionImmune>exhaustion,poisoned</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>14</passive>
-        <languages>Common</languages>
-        <cr>6</cr>
-        <trait>
-            <name>Petrifying Gaze</name>
-            <text>When a creature that can see Gloine's eyes starts its turn within 30 feet of Gloine, Gloine can force it to make a DC 14 Constitution saving throw if Gloine isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to glass and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.</text>
-            <text>	Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Gloine until the start of its next turn, when it can avert its eyes again. If the creature looks at Gloine in the meantime, it must immediately make the save.</text>
-            <text>	If Gloine sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Gloine is, due to its curse, affected by its own gaze.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>Gloine makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow.</text>
-        </action>
-        <action>
-            <name>Snake Hair</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</text>
-            <attack>Snake Hair|5|1d4+2+4d6</attack>
-        </action>
-        <action>
-            <name>Shortsword</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-            <attack>Shortsword|5|1d6+2</attack>
-        </action>
-        <action>
-            <name>Longbow</name>
-            <text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
-            <attack>Longbow|5|1d8+2+2d6</attack>
-        </action>
-    </monster>
+	<monster>
+		<name>Brain in a Jar</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment></alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>58 (9d8 + 18)</hp>
+		<speed>0 ft.</speed>
+		<str>1</str>
+		<dex>1</dex>
+		<con>15</con>
+		<int>19</int>
+		<wis>10</wis>
+		<cha>15</cha>
+		<save>int +7,cha +5</save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>necrotic,poison,psychic</immune>
+		<conditionImmune>charmed,exhaustion,frightened</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The brain in a jar's innate spellcasting ability is Intelligence (spell save 15). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: detect thoughts, mage hand, zone of truth</text>
+			<text>3/Day: charm person, command, hold person</text>
+			<text>1/Day: compulsion, hold monster, sleep (cast at 3rd level), Tasha's hideous laughter</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Detect Thoughts,Mage Hand,Zone of Truth,Charm Person,Command,Hold Person,Compulsion,Hold Monster,Sleep,Tasha's Hideous Laughter</spells>
+		<trait>
+			<name>Detect Sentience</name>
+			<text>The brain in a jar can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a mind blank spell.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The brain in a jar has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Mind Blast (Recharge 5-6)</name>
+			<text>The brain in a jar magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a 15 Intelligence saving throw or take 13 (2d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Mind Blast||2d8+4</attack>
+			<recharge>d5</recharge>
+		</action>
+	</monster>
+	<monster>
+		<name>Clockwork Kraken</name>
+		<size>L</size>
+		<type>construct</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>unaligned</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>142 (15d10 + 60)</hp>
+		<speed>30 ft.</speed>
+		<str>20</str>
+		<dex>12</dex>
+		<con>18</con>
+		<int>3</int>
+		<wis>11</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist>fire,bludgeoning, piercing, slashing from nonmagical attacks</resist>
+		<immune>poison,psychic</immune>
+		<conditionImmune>charmed,exhaustion,frightened,paralyzed,petrified,poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>understands the languages of its creator but can't speak</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The clockwork kraken has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Independent Tentacles</name>
+			<text>The clockwork kraken has eight tentacles, each of which is treated as a Medium creature, moves independently on the construct's turn, and has a flying speed of 40 feet. The clockwork kraken's senses operate through its tentacles as well as its main body. Each tentacle can be attacked independently, with damage dealt to tentacles applied to the clockwork kraken's hit point total. A tentacle is destroyed if it takes more than 20 damage.</text>
+			<text>	Reducing the construct to three or fewer tentacles reduces its attacks accordingly. A clockwork kraken can regrow any destroyed tentacles at the end of a long rest.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The clockwork kraken makes four tentacle slam attacks.</text>
+		</action>
+		<action>
+			<name>Tentacle Slam</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage.</text>
+			<attack>Tentacle Slam|9|2d6+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Garret Levistusson</name>
+		<size>M</size>
+		<type>humanoid</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>44 (8d8 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>17</cha>
+		<save></save>
+		<skill>deception +7,investigation +4,performance +5,persuasion +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Abyssal,Common,Infernal,Thieves' cant</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Garret is a 2nd-level spellcaster. His spellcasting ability is Charisma (spell save 13, +5 to hit with spell attacks). He has the following bard spells prepared:</text>
+			<text>Cantrips (at will): blade ward, vicious mockery</text>
+			<text>1st Level (3 slots): charm person, detect magic, disguise self, identify, Tasha's hideous laughter</text>
+		</trait>
+		<slots>3</slots>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Blade Ward,Vicious Mockery,Charm Person,Detect Magic,Disguise Self,Identify,Tasha's Hideous Laughter</spells>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Garret wears a Ring of Warmth (included in his statistics) and wields a Gambler's Blade longsword.</text>
+		</trait>
+		<trait>
+			<name>Bardic Inspiration (3/Day)</name>
+			<text>As a bonus action, Garret can give one chosen creature (other than him) a d6 inspiration die. The chosen creature must be within 60 feet of Garret and able to hear him. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can use the inspiration die after the roll is made but before the DM says whether it succeeds or fails. Once the inspiration die is rolled, it is lost. A creature can have only one inspiration die at a time.</text>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of his turns, Garret can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>Garret deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't incapacitated and Garret doesn't have disadvantage on the attack roll.</text>
+			<roll>2d6</roll>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Mary Greymalkin</name>
+		<size>M</size>
+		<type>humanoid</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>neutral</alignment>
+		<ac>12 (Bracers of Defense,Ring of Protection)</ac>
+		<hp>45 (7d8 + 14)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>14</int>
+		<wis>14</wis>
+		<cha>15</cha>
+		<save>wis +4,cha +4</save>
+		<skill>arcana +4,medicine +4,nature +4,religion +4</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Abyssal,Celestial,Common,Elvish,Infernal,Sylvan</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Mary is a 5th-level spellcaster. Her spellcasting ability is Charisma (spell save 12, +4 to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:</text>
+			<text>Cantrips (at will): chill touch, eldritch blast, mage hand</text>
+			<text>3rd Level (3 slots): darkness, hex, hypnotic pattern, misty step, phantasmal force, unseen servant</text>
+		</trait>
+		<slots>0,0,3</slots>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Chill Touch,Eldritch Blast,Mage Hand,Darkness,Hex,Hypnotic Pattern,Misty Step,Phantasmal Force,Unseen Servant</spells>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Mary wears Bracers of Defense and a Ring of Protection, and carries a Deck of Several Things</text>
+		</trait>
+		<trait>
+			<name>Fey Presence (Recharges after a Short Rest)</name>
+			<text>Mary can cause each creature within 10 feet of her to succeed on a 12 Wisdom saving throw or become charmed or frightened by her (Mary's choice) until the end of her next turn.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Mary has advantage on saving throws against being charmed, and magic can't put her to sleep.</text>
+		</trait>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.</text>
+			<attack>Quarterstaff|2|1d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Ooze-Folk</name>
+		<size>M</size>
+		<type>ooze</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>unaligned</alignment>
+		<ac>10 (natural armor)</ac>
+		<hp>19 (2d8 + 10)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>3</dex>
+		<con>20</con>
+		<int>1</int>
+		<wis>6</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune>blinded,charmed,deafened,exhaustion,frightened,prone</conditionImmune>
+		<senses>blindsight 60 ft.</senses>
+		<passive>8</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Transparent</name>
+			<text>Even when an ooze-folk is in plain sight, it takes a 12 Wisdom (Perception) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is surprised by the ooze-folk.</text>
+		</trait>
+		<trait>
+			<name>Fragile Bones</name>
+			<text>For each 5 damage it takes, the ooze-folk's walking speed is reduced by 5 feet.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The ooze folk makes one glass longsword attack and one pseudopod attack.</text>
+		</action>
+		<action>
+			<name>Glass Longsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) slashing damage. If a 1 is rolled on an attack roll with a glass longsword, it shatters and can no longer be used.</text>
+			<attack>Glass Longsword|4|1d8+2</attack>
+		</action>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) acid damage. </text>
+			<attack>Pseudopod|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Gloine Nathair-Nathair</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>127 (17d8 + 51)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>13</wis>
+		<cha>15</cha>
+		<save></save>
+		<skill>deception +5,insight +4,perception +4,stealth +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>poison,necrotic</immune>
+		<conditionImmune>exhaustion,poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Petrifying Gaze</name>
+			<text>When a creature that can see Gloine's eyes starts its turn within 30 feet of Gloine, Gloine can force it to make a DC 14 Constitution saving throw if Gloine isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to glass and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.</text>
+			<text>	Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Gloine until the start of its next turn, when it can avert its eyes again. If the creature looks at Gloine in the meantime, it must immediately make the save.</text>
+			<text>	If Gloine sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Gloine is, due to its curse, affected by its own gaze.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Gloine makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow.</text>
+		</action>
+		<action>
+			<name>Snake Hair</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</text>
+			<attack>Snake Hair|5|1d4+2+4d6</attack>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|5|1d6+2</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
+			<attack>Longbow|5|1d8+2+2d6</attack>
+		</action>
+	</monster>
 
-    <!-- repeated monsters -->
-    <monster>
-        <name>Bandit Captain</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>any non-lawful alignment</alignment>
-        <ac>15 (studded leather)</ac>
-        <hp>65 (10d8+20)</hp>
-        <speed>30 ft.</speed>
-        <str>15</str>
-        <dex>16</dex>
-        <con>14</con>
-        <int>14</int>
-        <wis>11</wis>
-        <cha>14</cha>
-        <save>Str +4, Dex +5, Wis +2</save>
-        <skill>Athletics +4, Deception +4</skill>
-        <passive>10</passive>
-        <languages>any two languages</languages>
-        <cr>2</cr>
-        <action>
-            <name>Multiattack</name>
-            <text>The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.</text>
-        </action>
-        <action>
-            <name>Scimitar</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-            <attack>Scimitar|5|1d6+3</attack>
-        </action>
-        <action>
-            <name>Dagger</name>
-            <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-            <attack>Dagger|5|1d4+3</attack>
-        </action>
-        <reaction>
-            <name>Parry</name>
-            <text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
-        </reaction>
-    </monster>
-    <monster>
-        <name>Berserker</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>any chaotic alignment</alignment>
-        <ac>13 (hide armor)</ac>
-        <hp>67 (9d8+27)</hp>
-        <speed>30 ft.</speed>
-        <str>16</str>
-        <dex>12</dex>
-        <con>17</con>
-        <int>9</int>
-        <wis>11</wis>
-        <cha>9</cha>
-        <passive>10</passive>
-        <languages>any one language (usually Common)</languages>
-        <cr>2</cr>
-        <trait>
-            <name>Reckless</name>
-            <text>At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
-        </trait>
-        <action>
-            <name>Greataxe</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.</text>
-            <attack>Greataxe|5|1d12+3</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Bone Devil</name>
-        <size>L</size>
-        <type>fiend (devil)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>lawful evil</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>142 (15d10+60)</hp>
-        <speed>40 ft., fly 40 ft.</speed>
-        <str>18</str>
-        <dex>16</dex>
-        <con>18</con>
-        <int>13</int>
-        <wis>14</wis>
-        <cha>16</cha>
-        <save>Int +5, Wis +6, Cha +7</save>
-        <skill>Deception +7, Insight +6</skill>
-        <resist>cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
-        <immune>fire, poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>9</passive>
-        <languages>Infernal, telepathy 120 ft.</languages>
-        <cr>12</cr>
-        <trait>
-            <name>Devil's Sight</name>
-            <text>Magical darkness doesn't impede the devil's darkvision.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The devil has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The devil makes three attacks: two with its claws and one with its sting.</text>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
-            <attack>Claw|8|1d8+4</attack>
-        </action>
-        <action>
-            <name>Sting</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Sting|8|2d8+4+5d6</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Commoner</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>any alignment</alignment>
-        <ac>10</ac>
-        <hp>4 (1d8)</hp>
-        <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>10</dex>
-        <con>10</con>
-        <int>10</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <passive>10</passive>
-        <languages>any one language (usually Common)</languages>
-        <cr>0</cr>
-        <action>
-            <name>Club</name>
-            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-            <attack>Club|2|1d4</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Cult Fanatic</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>any non-good alignment</alignment>
-        <ac>13 (leather armor)</ac>
-        <hp>22 (6d8+6)</hp>
-        <speed>30 ft.</speed>
-        <str>11</str>
-        <dex>14</dex>
-        <con>12</con>
-        <int>10</int>
-        <wis>13</wis>
-        <cha>14</cha>
-        <skill>Deception +4, Persuasion +4, Religion +2</skill>
-        <passive>11</passive>
-        <languages>any one language (usually Common)</languages>
-        <cr>2</cr>
-        <trait>
-            <name>Dark Devotion</name>
-            <text>The fanatic has advantage on saving throws against being charmed or frightened.</text>
-        </trait>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:</text>
-            <text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
-            <text>1st level (4 slots): command, inflict wounds, shield of faith</text>
-            <text>2nd level (3 slots): hold person, spiritual weapon</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The fanatic makes two melee attacks.</text>
-        </action>
-        <action>
-            <name>Dagger</name>
-            <text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.</text>
-            <attack>Dagger|4|1d4+2</attack>
-        </action>
-        <spells>Light, Sacred Flame, Thaumaturgy, Command, Inflict Wounds, Shield of Faith, Hold Person, Spiritual Weapon</spells>
-        <slots>4,3,0,0,0,0,0,0,0</slots>
-    </monster>
-    <monster>
-        <name>Cultist</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>any non-good alignment</alignment>
-        <ac>12 (leather armor)</ac>
-        <hp>9 (2d8)</hp>
-        <speed>30 ft.</speed>
-        <str>11</str>
-        <dex>12</dex>
-        <con>10</con>
-        <int>10</int>
-        <wis>11</wis>
-        <cha>10</cha>
-        <skill>Deception +2, Religion +2</skill>
-        <passive>10</passive>
-        <languages>any one language (usually Common)</languages>
-        <cr>1/8</cr>
-        <trait>
-            <name>Dark Devotion</name>
-            <text>The cultist has advantage on saving throws against being charmed or frightened.</text>
-        </trait>
-        <action>
-            <name>Scimitar</name>
-            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.</text>
-            <attack>Scimitar|3|1d6+1</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Evoker</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Volo's Guide to Monsters</description>
-        <alignment>any alignment</alignment>
-        <ac>12 (15 with mage armor)</ac>
-        <hp>66 (12d8+12)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
-        <dex>14</dex>
-        <con>12</con>
-        <int>17</int>
-        <wis>12</wis>
-        <cha>11</cha>
-        <save>Int +7, Wis +5</save>
-        <skill>Arcana +7, History +7</skill>
-        <resist />
-        <vulnerable />
-        <immune />
-        <conditionImmune />
-        <senses />
-        <passive>11</passive>
-        <languages>any four languages</languages>
-        <cr>9</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:</text>
-            <text>Cantrips (at will): fire bolt*, light*, prestidigitation, ray of frost*</text>
-            <text>1st level (4 slots): burning hands*, mage armor, magic missile*</text>
-            <text>2nd level (3 slots): mirror image, misty step, shatter*</text>
-            <text>3rd level (3 slots): counterspell, fireball*, lightning bolt*</text>
-            <text>4th level (3 slots): ice storm*, stoneskin</text>
-            <text>5th level (2 slots): Bigby's hand*, cone of cold*</text>
-            <text>6th level (1 slot): chain lightning*, wall of ice*</text>
-            <text>*Evocation spell</text>
-        </trait>
-        <trait>
-            <name>Sculpt Spells</name>
-            <text>When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it.</text>
-        </trait>
-        <action>
-            <name>Quarterstaff</name>
-            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
-            <attack>Quarterstaff|3|1d6-1</attack>
-            <attack>Two Handed|3|1d8-1</attack>
-        </action>
-        <spells>Fire Bolt, Light, Prestidigitation, Ray of Frost, Burning Hands, Mage Armor, Magic Missile, Mirror Image, Misty Step, Shatter, Counterspell, Fireball, Lightning Bolt, Ice Storm, Stoneskin, Bigby's Hand, Cone of Cold, Chain Lightning, Wall of Ice</spells>
-        <slots>4,3,3,3,2,1,0,0,0</slots>
-    </monster>
-    <monster>
-        <name>Froghemoth</name>
-        <size>H</size>
-        <type>monstrosity</type>
-        <description>Source: Tomb of Annihilation</description>
-        <alignment>unaligned</alignment>
-        <ac>14 (natural armor)</ac>
-        <hp>184 (16d12 + 80)</hp>
-        <speed>30 ft., swim 30 ft.</speed>
-        <str>23</str>
-        <dex>13</dex>
-        <con>20</con>
-        <int>2</int>
-        <wis>12</wis>
-        <cha>5</cha>
-        <save>Con +9, Wis +5</save>
-        <skill>Perception +9, Stealth +5</skill>
-        <resist>fire, lightning</resist>
-        <vulnerable />
-        <immune />
-        <conditionImmune />
-        <senses>darkvision 60 ft.</senses>
-        <passive>19</passive>
-        <languages>—</languages>
-        <cr>10</cr>
-        <trait>
-            <name>Amphibious</name>
-            <text>The froghemoth can breathe air and water.</text>
-        </trait>
-        <trait>
-            <name>Shock Susceptibility</name>
-            <text>If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can't use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The froghemoth makes two attacks with its tentacles. It can also use its tongue or bite.</text>
-        </action>
-        <action>
-            <name>Tentacle</name>
-            <text>Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage, and the target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles.</text>
-            <attack>Tentacle|10|3d8+6</attack>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage, and the target is swallowed ifit is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns.</text>
-            <text>	The froghemoth's gullet can hold up to two creatures at a time. If the froghemoth takes 20 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
-            <attack>Bite|10|3d10+6</attack>
-        </action>
-        <action>
-            <name>Tongue</name>
-            <text>The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 18 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth, and the froghemoth can make a bite attack against it as a bonus action.</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Galeb Duhr</name>
-        <size>M</size>
-        <type>elemental</type>
-        <description>Source: Monster Manual</description>
-        <alignment>neutral</alignment>
-        <ac>16 (natural armor)</ac>
-        <hp>85 (9d8+45)</hp>
-        <speed>15 ft. (30 ft. when rolling, 60 ft. rolling downhill)</speed>
-        <str>20</str>
-        <dex>14</dex>
-        <con>20</con>
-        <int>11</int>
-        <wis>12</wis>
-        <cha>11</cha>
-        <resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-        <immune>poison</immune>
-        <conditionImmune>exhaustion, paralyzed, poisoned, petrified</conditionImmune>
-        <senses>darkvision 60 ft., tremorsense 60 ft.</senses>
-        <passive>11</passive>
-        <languages>Terran</languages>
-        <cr>6</cr>
-        <trait>
-            <name>False Appearance</name>
-            <text>While the galeb duhr remains motionless, it is indistinguishable from a normal boulder.</text>
-        </trait>
-        <trait>
-            <name>Rolling Charge</name>
-            <text>If the galeb duhr rolls at least 20 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.</text>
-            <attack>Rolling Charge||2d6</attack>
-        </trait>
-        <action>
-            <name>Slam</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage.</text>
-            <attack>Slam|8|2d6+5</attack>
-        </action>
-        <action>
-            <name>Animate Boulders (1/Day)</name>
-            <text>The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell).</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Gelatinous Cube</name>
-        <size>L</size>
-        <type>ooze</type>
-        <description>Source: Monster Manual</description>
-        <alignment>unaligned</alignment>
-        <ac>6</ac>
-        <hp>84 (8d10+40)</hp>
-        <speed>15 ft.</speed>
-        <str>14</str>
-        <dex>3</dex>
-        <con>20</con>
-        <int>1</int>
-        <wis>6</wis>
-        <cha>1</cha>
-        <conditionImmune>blinded, charmed, deafened, exhaustion, frightened, prone</conditionImmune>
-        <senses>blindsight 60 ft. (blind beyond this radius)</senses>
-        <passive>8</passive>
-        <cr>2</cr>
-        <trait>
-            <name>Ooze Cube</name>
-            <text>The cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the cube's Engulf and has disadvantage on the saving throw.</text>
-            <text>Creatures inside the cube can be seen but have total cover.</text>
-            <text>A creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful DC 12 Strength check, and the creature making the attempt takes 10 (3d6) acid damage.</text>
-            <text>The cube can hold only one Large creature or up to four Medium or smaller creatures inside it at a time.</text>
-        </trait>
-        <trait>
-            <name>Transparent</name>
-            <text>Even when the cube is in plain sight, it takes a successful DC 15 Wisdom (Perception) check to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube's space while unaware of the cube is surprised by the cube.</text>
-        </trait>
-        <action>
-            <name>Pseudopod</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) acid damage.</text>
-            <attack>Pseudopod|4|3d6</attack>
-        </action>
-        <action>
-            <name>Engulf</name>
-            <text>The cube moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the cube enters a creature's space, the creature must make a DC 12 Dexterity saving throw.</text>
-            <text>On a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.</text>
-            <text>On a failed save, the cube enters the creature's space, and the creature takes 10 (3d6) acid damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 21 (6d6) acid damage at the start of each of the cube's turns. When the cube moves, the engulfed creature moves with it.</text>
-            <text>An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Gibbering Mouther</name>
-        <size>M</size>
-        <type>aberration</type>
-        <description>Source: Monster Manual</description>
-        <alignment>neutral</alignment>
-        <ac>9</ac>
-        <hp>67 (9d8+27)</hp>
-        <speed>10 ft., swim 10 ft.</speed>
-        <str>10</str>
-        <dex>8</dex>
-        <con>16</con>
-        <int>3</int>
-        <wis>10</wis>
-        <cha>6</cha>
-        <conditionImmune>prone</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <cr>2</cr>
-        <trait>
-            <name>Aberrant Ground</name>
-            <text>The ground in a 10-foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a DC 10 Strength saving throw or have its speed reduced to 0 until the start of its next turn.</text>
-        </trait>
-        <trait>
-            <name>Gibbering</name>
-            <text>The mouther babbles incoherently while it can see any creature and isn't incapacitated. Each creature that starts its turn within 20 feet of the mouther and can hear the gibbering must succeed on a DC 10 Wisdom saving throw. On a failure, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The gibbering mouther makes one bite attack and, if it can, uses its Blinding Spittle.</text>
-        </action>
-        <action>
-            <name>Bites</name>
-            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 17 (5d6) piercing damage. If the target is Medium or smaller, it must succeed on a DC 10 Strength saving throw or be knocked prone. If the target is killed by this damage, it is absorbed into the mouther.</text>
-            <attack>Bites|2|5d6</attack>
-        </action>
-        <action>
-            <name>Blinding Spittle (Recharge 5-6)</name>
-            <text>The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a DC 13 Dexterity saving throw or be blinded until the end of the mouther's next turn.</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Gynosphinx</name>
-        <size>L</size>
-        <type>monstrosity</type>
-        <description>Source: Monster Manual</description>
-        <alignment>lawful neutral</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>136 (16d10+48)</hp>
-        <speed>40 ft., fly 60 ft.</speed>
-        <str>18</str>
-        <dex>15</dex>
-        <con>16</con>
-        <int>18</int>
-        <wis>18</wis>
-        <cha>18</cha>
-        <skill>Arcana +12, History +12, Perception +8, Religion +8</skill>
-        <resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-        <immune>psychic</immune>
-        <conditionImmune>charmed, frightened</conditionImmune>
-        <senses>truesight 120 ft.</senses>
-        <passive>18</passive>
-        <languages>Common, Sphinx</languages>
-        <cr>11</cr>
-        <trait>
-            <name>Inscrutable</name>
-            <text>The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage.</text>
-        </trait>
-        <trait>
-            <name>Magic Weapons</name>
-            <text>The sphinx's weapon attacks are magical.</text>
-        </trait>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:</text>
-            <text>Cantrips (at will): mage hand, minor illusion, prestidigitation</text>
-            <text>1st level (4 slots): detect magic, identify, shield</text>
-            <text>2nd level (3 slots): darkness, locate object, suggestion</text>
-            <text>3rd level (3 slots): dispel magic, remove curse, tongues</text>
-            <text>4th level (3 slots): banishment, greater invisibility</text>
-            <text>5th level (1 slot): legend lore</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The sphinx makes two claw attacks.</text>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
-            <attack>Claw|9|2d8+4</attack>
-        </action>
-        <legendary>
-            <name>Claw Attack</name>
-            <text>The sphinx makes one claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Teleport (Costs 2 Actions)</name>
-            <text>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</text>
-        </legendary>
-        <legendary>
-            <name>Cast a Spell (Costs 3 Actions)</name>
-            <text>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</text>
-        </legendary>
-        <spells>Mage Hand, Minor Illusion, Prestidigitation, Detect Magic, Identify, Shield, Darkness, Locate Object, Suggestion, Dispel Magic, Remove Curse, Tongues, Banishment, Greater Invisibility, Legend Lore</spells>
-        <slots>4,3,3,3,1,0,0,0,0</slots>
-    </monster>
-    <monster>
-        <name>Kenku</name>
-        <size>M</size>
-        <type>humanoid (kenku)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>13</ac>
-        <hp>13 (3d8)</hp>
-        <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>16</dex>
-        <con>10</con>
-        <int>11</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <skill>Deception +4, Perception +2, Stealth +5</skill>
-        <passive>12</passive>
-        <languages>understands Auran and Common but speaks only through the use of its Mimicry trait</languages>
-        <cr>1/4</cr>
-        <trait>
-            <name>Ambusher</name>
-            <text>In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised</text>
-        </trait>
-        <trait>
-            <name>Mimicry</name>
-            <text>The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.</text>
-        </trait>
-        <action>
-            <name>Shortsword</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
-            <attack>Shortsword|5|1d6+3</attack>
-        </action>
-        <action>
-            <name>Shortbow</name>
-            <text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
-            <attack>Shortbow|5|1d6+3</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Martial Arts Adept</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Volo's Guide to Monsters</description>
-        <alignment>any alignment</alignment>
-        <ac>16</ac>
-        <hp>60 (11d8+11)</hp>
-        <speed>40 ft.</speed>
-        <str>11</str>
-        <dex>17</dex>
-        <con>13</con>
-        <int>11</int>
-        <wis>16</wis>
-        <cha>10</cha>
-        <save />
-        <skill>Acrobatics +5, Insight +5, Stealth +5</skill>
-        <resist />
-        <vulnerable />
-        <immune />
-        <conditionImmune />
-        <senses />
-        <passive>13</passive>
-        <languages>any one language (usually Common)</languages>
-        <cr>3</cr>
-        <trait>
-            <name>Unarmored Defense</name>
-            <text>While the adept is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The adept makes three unarmed strikes or three dart attacks.</text>
-        </action>
-        <action>
-            <name>Unarmed Strike</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:</text>
-            <text />
-            <text>• The target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept's choice).</text>
-            <text />
-            <text>• The target must succeed on a DC 13 Dexterity saving throw or be knocked prone.</text>
-            <text />
-            <text>• The target must succeed on a DC 13 Constitution saving throw or be stunned until the end ot'the adept's next turn.</text>
-            <attack>Unarmed Strike|5|1d8+3</attack>
-        </action>
-        <action>
-            <name>Dart</name>
-            <text>Ranged Weapon Attack: +5 to hit, range 20/60 ft, one target. Hit: 5 (1d4+3) piercing damage.</text>
-            <attack>Dart|5|1d4+3</attack>
-        </action>
-        <reaction>
-            <name>Deflect Missile</name>
-            <text>In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it's small enough to hold in one hand and the adept has a hand free.</text>
-        </reaction>
-        <spells />
-    </monster>
-    <monster>
-        <name>Medusa</name>
-        <size>M</size>
-        <type>monstrosity</type>
-        <description>Source: Monster Manual</description>
-        <alignment>lawful evil</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>127 (17d8+51)</hp>
-        <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>15</dex>
-        <con>16</con>
-        <int>12</int>
-        <wis>13</wis>
-        <cha>15</cha>
-        <skill>Deception +5, Insight +4, Perception +4, Stealth +5</skill>
-        <senses>darkvision 60 ft.</senses>
-        <passive>14</passive>
-        <languages>Common</languages>
-        <cr>6</cr>
-        <trait>
-            <name>Petrifying Gaze</name>
-            <text>When a creature that can see the medusa's eyes starts its turn within 30 ft. of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.</text>
-            <text>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.</text>
-            <text>If the medusa sees itself reflected on a polished surface within 30 ft. of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The medusa makes either three melee attacks — one with its snake hair and two with its shortsword — or two ranged attacks with its longbow.</text>
-        </action>
-        <action>
-            <name>Snake Hair</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</text>
-            <attack>Snake Hair|5|1d4+2+4d6</attack>
-        </action>
-        <action>
-            <name>Shortsword</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-            <attack>Shortsword|5|1d6+2</attack>
-        </action>
-        <action>
-            <name>Longbow</name>
-            <text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
-            <attack>Longbow|5|1d8+2+2d6</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Merrenoloth</name>
-        <size>M</size>
-        <type>fiend (yugoloth)</type>
-        <description>Source: Mordenkainen's Tome of Foes</description>
-        <alignment>neutral evil</alignment>
-        <ac>13</ac>
-        <hp>40 (9d8)</hp>
-        <speed>30 ft., swim 40 ft.</speed>
-        <str>8</str>
-        <dex>17</dex>
-        <con>10</con>
-        <int>17</int>
-        <wis>14</wis>
-        <cha>11</cha>
-        <save>Dex +5, Int +5</save>
-        <skill>History +5, Nature +5, Perception +4, Survival +4</skill>
-        <resist>cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-        <vulnerable />
-        <immune>acid, poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>blindsight 60 ft., darkvision 60 ft.</senses>
-        <passive>14</passive>
-        <languages>Abyssal, Infernal, telepathy 60 ft.</languages>
-        <cr>3</cr>
-        <trait>
-            <name>Innate Spellcasting</name>
-            <text>The merrenoloth's innate spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
-            <text>At will: charm person, darkness, detect magic, dispel magic, gust of wind</text>
-            <text>3/day each: control water</text>
-            <text>1/day each: control weather</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The merrenoloth has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <trait>
-            <name>Magic Weapons</name>
-            <text>The merrenoloth's weapon attacks are magical.</text>
-        </trait>
-        <trait>
-            <name>Teleport</name>
-            <text>As a bonus action, the merrenoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The merrenoloth uses Fear Gaze once and makes one oar attack.</text>
-        </action>
-        <action>
-            <name>Oar</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.</text>
-            <attack>Oar|5|2d4+3</attack>
-        </action>
-        <action>
-            <name>Fear Gaze</name>
-            <text>The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Wisdom saving throw or become frightened of the merrenoloth for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <text />
-            <text>Frightened:</text>
-            <text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
-            <text />
-            <text>• The creature can't willingly move closer to the source of its fear.</text>
-        </action>
-        <action>
-            <name>Lair Actions</name>
-            <text>Any ship a merrenoloth is contracted to captain becomes the creature's lair. When fighting on the ship, the merrenoloth can invoke its ability to take lair actions. On initiative count 20 (losing initiative ties), the merrenoloth can take one lair action to cause one of the following effects; it can't use the same effect two rounds in a row:</text>
-            <text />
-            <text>• The ship regains 22 (4d10) hit points.</text>
-            <text />
-            <text>• A strong wind propels the ship, increasing its speed by 30 feet until initiative count 20 on the next round.</text>
-            <text />
-            <text>• The air within 60 feet of the ship is filled with howling wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
-            <text />
-            <text>Prone:</text>
-            <text>• A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</text>
-            <text />
-            <text>• The creature has disadvantage on attack rolls.</text>
-            <text />
-            <text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
-        </action>
-        <spells>Charm Person, Darkness, Detect Magic, Dispel Magic, Gust of Wind, Control Water, Control Weather</spells>
-        <slots />
-    </monster>
-    <monster>
-        <name>Mind Flayer Arcanist</name>
-        <size>M</size>
-        <type>aberration</type>
-        <description>Source: Monster Manual</description>
-        <alignment>lawful evil</alignment>
-        <ac>15 (breastplate)</ac>
-        <hp>71 (13d8+13)</hp>
-        <speed>30 ft.</speed>
-        <str>11</str>
-        <dex>12</dex>
-        <con>12</con>
-        <int>19</int>
-        <wis>17</wis>
-        <cha>17</cha>
-        <save>Int +7, Wis +6, Cha +6</save>
-        <skill>Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4</skill>
-        <senses>darkvision 120 ft.</senses>
-        <passive>16</passive>
-        <languages>Deep Speech, Undercommon, telepathy 120 ft.</languages>
-        <cr>8</cr>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The mind flayer has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <trait>
-            <name>Innate Spellcasting (Psionics)</name>
-            <text>The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:</text>
-            <text />
-            <text>At will: detect thoughts, levitate</text>
-            <text>1/day each: dominate monster, plane shift (self only)</text>
-        </trait>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The mind flayer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save DC 15, +7 to hit with spell attacks). The mind flayer has the following wizard spells prepared:</text>
-            <text>Cantrips (at will): blade ward, dancing lights, mage hand, shocking grasp</text>
-            <text>1st level (4 slots): detect magic, disguise self, shield, sleep</text>
-            <text>2nd level (3 slots): blur, invisibility, ray of enfeeblement</text>
-            <text>3rd level (3 slots): clairvoyance, lightning bolt, sending</text>
-            <text>4th level (3 slots): confusion, hallucinatory terrain</text>
-            <text>5th level (2 slots): telekinesis, wall of force</text>
-        </trait>
-        <action>
-            <name>Tentacles</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</text>
-            <attack>Tentacles|7|2d10+4</attack>
-        </action>
-        <action>
-            <name>Extract Brain</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the mind flayer. Hit: The target takes 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain.</text>
-            <attack>Extract Brain|7|10d10</attack>
-        </action>
-        <action>
-            <name>Mind Blast (Recharge 5-6)</name>
-            <text>The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Mind Blast||4d8+4</attack>
-        </action>
-        <spells>Detect Thoughts, Levitate, Dominate Monster, Plane Shift, Blade Ward, Dancing Lights, Mage Hand, Shocking Grasp, Detect Magic, Disguise Self, Shield, Sleep, Blur, Invisibility, Ray of Enfeeblement, Clairvoyance, Lightning Bolt, Sending, Confusion, Hallucinatory Terrain, Telekinesis, Wall of Force</spells>
-        <slots>4,3,3,3,2,0,0,0,0</slots>
-    </monster>
-    <monster>
-        <name>Monodrone</name>
-        <size>M</size>
-        <type>construct</type>
-        <description>Source: Monster Manual</description>
-        <alignment>construct</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>5 (1d8+1)</hp>
-        <speed>30 ft., fly 30 ft.</speed>
-        <str>10</str>
-        <dex>13</dex>
-        <con>12</con>
-        <int>4</int>
-        <wis>10</wis>
-        <cha>5</cha>
-        <senses>truesight 120 ft.</senses>
-        <passive>10</passive>
-        <languages>Modron</languages>
-        <cr>1/8</cr>
-        <trait>
-            <name>Axiomatic Mind</name>
-            <text>The monodrone can't be compelled to act in a manner contrary to its nature or its instructions.</text>
-        </trait>
-        <trait>
-            <name>Disintegration</name>
-            <text>If the monodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.</text>
-        </trait>
-        <action>
-            <name>Dagger</name>
-            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</text>
-            <attack>Dagger|3|1d4+1</attack>
-        </action>
-        <action>
-            <name>Javelin</name>
-            <text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6) piercing damage.</text>
-            <attack>Javelin|2|1d6</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Quasit</name>
-        <size>T</size>
-        <type>fiend (demon)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>chaotic evil</alignment>
-        <ac>13</ac>
-        <hp>7 (3d4)</hp>
-        <speed>40 ft.</speed>
-        <str>5</str>
-        <dex>17</dex>
-        <con>10</con>
-        <int>7</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <skill>Stealth +5</skill>
-        <resist>cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-        <immune>poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>10</passive>
-        <languages>Abyssal, Common</languages>
-        <cr>1</cr>
-        <trait>
-            <name>Shapechanger</name>
-            <text>The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The quasit has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <trait>
-            <name>Variant: Familiar</name>
-            <text>The quasit can serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what the quasit senses as long as they are within 1 mile of each other. While the quasit is within 10 feet of its master, the master shares the quasit's Magic Resistance trait. At any time and for any reason, the quasit can end its service as a familiar, ending the telepathic bond.</text>
-        </trait>
-        <action>
-            <name>Claw (Bite in Beast Form)</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Claw/Bite|4|1d4+3</attack>
-        </action>
-        <action>
-            <name>Scare (1/day)</name>
-            <text>One creature of the quasit's choice within 20 ft. of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.</text>
-        </action>
-        <action>
-            <name>Invisibility</name>
-            <text>The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Quickling</name>
-        <size>T</size>
-        <type>fey</type>
-        <description>Source: Volo's Guide to Monsters</description>
-        <alignment>chaotic evil</alignment>
-        <ac>16</ac>
-        <hp>10 (3d4+3)</hp>
-        <speed>120 ft.</speed>
-        <str>4</str>
-        <dex>23</dex>
-        <con>13</con>
-        <int>10</int>
-        <wis>12</wis>
-        <cha>7</cha>
-        <save />
-        <skill>Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8</skill>
-        <resist />
-        <vulnerable />
-        <immune />
-        <conditionImmune />
-        <senses>darkvision 60 ft.</senses>
-        <passive>15</passive>
-        <languages>Common, Sylvan</languages>
-        <cr>1</cr>
-        <trait>
-            <name>Blurred Movement</name>
-            <text>Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or restrained.</text>
-        </trait>
-        <trait>
-            <name>Evasion</name>
-            <text>If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The quickling makes three dagger attacks.</text>
-        </action>
-        <action>
-            <name>Dagger</name>
-            <text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.</text>
-            <attack>Dagger|8|1d4+6</attack>
-        </action>
-        <spells />
-    </monster>
-    <monster>
-        <name>Skeleton</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Monster Manual</description>
-        <alignment>lawful evil</alignment>
-        <ac>13 (armor scraps)</ac>
-        <hp>13 (2d8+4)</hp>
-        <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>14</dex>
-        <con>15</con>
-        <int>6</int>
-        <wis>8</wis>
-        <cha>5</cha>
-        <vulnerable>bludgeoning</vulnerable>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>9</passive>
-        <languages>understands all languages it spoke in life but can't speak</languages>
-        <cr>1/4</cr>
-        <action>
-            <name>Shortsword</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-            <attack>Shortsword|4|1d6+2</attack>
-        </action>
-        <action>
-            <name>Shortbow</name>
-            <text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-            <attack>Shortbow|4|1d6+2</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Sprite</name>
-        <size>T</size>
-        <type>fey</type>
-        <description>Source: Monster Manual</description>
-        <alignment>neutral good</alignment>
-        <ac>15 (leather armor)</ac>
-        <hp>2 (1d4)</hp>
-        <speed>10 ft., fly 40 ft.</speed>
-        <str>3</str>
-        <dex>18</dex>
-        <con>10</con>
-        <int>14</int>
-        <wis>13</wis>
-        <cha>11</cha>
-        <skill>Perception +3, Stealth +8</skill>
-        <passive>13</passive>
-        <languages>Common, Elvish, Sylvan</languages>
-        <cr>1/4</cr>
-        <action>
-            <name>Longsword</name>
-            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
-            <attack>Longsword|2|1</attack>
-        </action>
-        <action>
-            <name>Shortbow</name>
-            <text>Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.</text>
-            <attack>Shortbow|6|1</attack>
-        </action>
-        <action>
-            <name>Heart Sight</name>
-            <text>The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.</text>
-        </action>
-        <action>
-            <name>Invisibility</name>
-            <text>The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Steam Mephit</name>
-        <size>S</size>
-        <type>elemental</type>
-        <description>Source: Monster Manual</description>
-        <alignment>neutral evil</alignment>
-        <ac>10</ac>
-        <hp>21 (6d6)</hp>
-        <speed>30 ft., fly 30 ft.</speed>
-        <str>5</str>
-        <dex>11</dex>
-        <con>10</con>
-        <int>11</int>
-        <wis>10</wis>
-        <cha>12</cha>
-        <immune>fire, poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Aquan, Ignan</languages>
-        <cr>1/4</cr>
-        <trait>
-            <name>Death Burst</name>
-            <text>When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.</text>
-            <attack>Death Burst||1d8</attack>
-        </trait>
-        <trait>
-            <name>Innate Spellcasting</name>
-            <text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-            <text>1/day: blur</text>
-        </trait>
-        <action>
-            <name>Claws</name>
-            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
-            <attack>Claws|2|1d4+1d4</attack>
-        </action>
-        <action>
-            <name>Steam Breath (Recharge 6)</name>
-            <text>The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.</text>
-        </action>
-        <action>
-            <name>Variant: Summon Mephits (1/Day)</name>
-            <text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-        </action>
-        <spells>Blur</spells>
-    </monster>
-    <monster>
-        <name>Stirge</name>
-        <size>T</size>
-        <type>beast</type>
-        <description>Source: Monster Manual</description>
-        <alignment>unaligned</alignment>
-        <ac>14 (natural armor)</ac>
-        <hp>2 (1d4)</hp>
-        <speed>10 ft., fly 40 ft.</speed>
-        <str>4</str>
-        <dex>16</dex>
-        <con>11</con>
-        <int>2</int>
-        <wis>8</wis>
-        <cha>6</cha>
-        <senses>darkvision 60 ft.</senses>
-        <passive>9</passive>
-        <cr>1/8</cr>
-        <action>
-            <name>Blood Drain</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.</text>
-            <text>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</text>
-            <attack>Blood Drain|5|1d4+3</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Stone Golem</name>
-        <size>L</size>
-        <type>construct</type>
-        <description>Source: Monster Manual</description>
-        <alignment>unaligned</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>178 (17d10+85)</hp>
-        <speed>30 ft.</speed>
-        <str>22</str>
-        <dex>9</dex>
-        <con>20</con>
-        <int>3</int>
-        <wis>11</wis>
-        <cha>1</cha>
-        <immune>poison, psychic, bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine</immune>
-        <conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>10</passive>
-        <languages>understands the languages of its creator but can't speak</languages>
-        <cr>10</cr>
-        <trait>
-            <name>Immutable Form</name>
-            <text>The golem is immune to any spell or effect that would alter its form.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The golem has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <trait>
-            <name>Magic Weapons</name>
-            <text>The golem's weapon attacks are magical.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The golem makes two slam attacks.</text>
-        </action>
-        <action>
-            <name>Slam</name>
-            <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.</text>
-            <attack>Slam|10|3d8+6</attack>
-        </action>
-        <action>
-            <name>Slow (Recharge 5-6)</name>
-            <text>The golem targets one or more creatures it can see within 10 ft. of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Swarm of Bats</name>
-        <size>M</size>
-        <type>swarm of tiny beasts</type>
-        <description>Source: Monster Manual</description>
-        <alignment>unaligned</alignment>
-        <ac>12</ac>
-        <hp>22 (5d8)</hp>
-        <speed>0 ft., fly 30 ft.</speed>
-        <str>5</str>
-        <dex>15</dex>
-        <con>10</con>
-        <int>2</int>
-        <wis>12</wis>
-        <cha>4</cha>
-        <resist>bludgeoning, piercing, slashing</resist>
-        <conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
-        <senses>blindsight 60 ft.</senses>
-        <passive>11</passive>
-        <cr>1/4</cr>
-        <trait>
-            <name>Echolocation</name>
-            <text>The swarm can't use its blindsight while deafened.</text>
-        </trait>
-        <trait>
-            <name>Keen Hearing</name>
-            <text>The swarm has advantage on Wisdom (Perception) checks that rely on hearing.</text>
-        </trait>
-        <trait>
-            <name>Swarm</name>
-            <text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points.</text>
-        </trait>
-        <action>
-            <name>Bites</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. Hit: 5 (2d4) piercing damage, or 2 (1d4) piercing damage if the swarm has half of its hit points or fewer.</text>
-            <attack>Full|4|2d4</attack>
-            <attack>Half|4|1d4</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Thug</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>any non-good alignment</alignment>
-        <ac>11 (leather armor)</ac>
-        <hp>32 (5d8+10)</hp>
-        <speed>30 ft.</speed>
-        <str>15</str>
-        <dex>11</dex>
-        <con>14</con>
-        <int>10</int>
-        <wis>10</wis>
-        <cha>11</cha>
-        <skill>Intimidation +2</skill>
-        <passive>10</passive>
-        <languages>any one language (usually Common)</languages>
-        <cr>1/2</cr>
-        <trait>
-            <name>Pack Tactics</name>
-            <text>The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The thug makes two melee attacks.</text>
-        </action>
-        <action>
-            <name>Mace</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) bludgeoning damage.</text>
-            <attack>Mace|4|1d6+2</attack>
-        </action>
-        <action>
-            <name>Heavy Crossbow</name>
-            <text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.</text>
-            <attack>Heavy Crossbow|2|1d10</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Treant</name>
-        <size>H</size>
-        <type>plant</type>
-        <description>Source: Monster Manual</description>
-        <alignment>chaotic good</alignment>
-        <ac>16 (natural armor)</ac>
-        <hp>138 (12d12+60)</hp>
-        <speed>30 ft.</speed>
-        <str>23</str>
-        <dex>8</dex>
-        <con>21</con>
-        <int>12</int>
-        <wis>16</wis>
-        <cha>12</cha>
-        <resist>bludgeoning, piercing</resist>
-        <vulnerable>fire</vulnerable>
-        <passive>13</passive>
-        <languages>Common, Druidic, Elvish, Sylvan</languages>
-        <cr>9</cr>
-        <trait>
-            <name>False Appearance</name>
-            <text>While the treant remains motionless, it is indistinguishable from a normal tree.</text>
-        </trait>
-        <trait>
-            <name>Siege Monster</name>
-            <text>The treant deals double damage to objects and structures.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The treant makes two slam attacks.</text>
-        </action>
-        <action>
-            <name>Slam</name>
-            <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage.</text>
-            <attack>Slam|10|3d6+6</attack>
-        </action>
-        <action>
-            <name>Rock</name>
-            <text>Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.</text>
-            <attack>Rock|10|4d10+6</attack>
-        </action>
-        <action>
-            <name>Animate Trees (1/Day)</name>
-            <text>The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Umber Hulk</name>
-        <size>L</size>
-        <type>monstrosity</type>
-        <description>Source: Monster Manual</description>
-        <alignment>chaotic evil</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>93 (11d10+33)</hp>
-        <speed>30 ft., burrow 20 ft.</speed>
-        <str>20</str>
-        <dex>13</dex>
-        <con>16</con>
-        <int>9</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <senses>darkvision 120 ft., tremorsense 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Umber Hulk</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Confusing Gaze</name>
-            <text>When a creature starts its turn within 30 feet of the umber hulk and is able to see the umber hulk's eyes, the umber hulk can magically force it to make a DC 15 Charisma saving throw, unless the umber hulk is incapacitated.</text>
-            <text>On a failed saving throw, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach.</text>
-            <text>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the umber hulk until the start of its next turn, when it can avert its eyes again. If the creature looks at the umber hulk in the meantime, it must immediately make the save.</text>
-        </trait>
-        <trait>
-            <name>Tunneler</name>
-            <text>The umber hulk can burrow through solid rock at half its burrowing speed and leaves a 5 foot-wide, 8-foot-high tunnel in its wake.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The umber hulk makes three attacks: two with its claws and one with its mandibles.</text>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</text>
-            <attack>Claw|8|1d8+5</attack>
-        </action>
-        <action>
-            <name>Mandibles</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</text>
-            <attack>Mandibles|8|2d8+5</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Vampire</name>
-        <size>M</size>
-        <type>undead (shapechanger)</type>
-        <description>Source: Monster Manual</description>
-        <alignment>lawful evil</alignment>
-        <ac>16 (natural armor)</ac>
-        <hp>144 (17d8+68)</hp>
-        <speed>30 ft.</speed>
-        <str>18</str>
-        <dex>18</dex>
-        <con>18</con>
-        <int>17</int>
-        <wis>15</wis>
-        <cha>18</cha>
-        <save>Dex +9, Wis +7, Cha +9</save>
-        <skill>Perception +7, Stealth +9</skill>
-        <resist>necrotic, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-        <senses>darkvision 120 ft.</senses>
-        <passive>17</passive>
-        <languages>the languages it knew in life</languages>
-        <cr>13</cr>
-        <trait>
-            <name>Shapechanger</name>
-            <text>If the vampire isn't in sun light or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.</text>
-            <text>While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.</text>
-            <text>While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight.</text>
-        </trait>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the vampire fails a saving throw, it can choose to succeed instead.</text>
-        </trait>
-        <trait>
-            <name>Misty Escape</name>
-            <text>When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.</text>
-            <text>While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then paralyzed until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.</text>
-        </trait>
-        <trait>
-            <name>Regeneration</name>
-            <text>The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.</text>
-        </trait>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
-        <trait>
-            <name>Vampire Weaknesses</name>
-            <text>The vampire has the following flaws:</text>
-            <text>Forbiddance. The vampire can't enter a residence without an invitation from one of the occupants.</text>
-            <text>Harmed by Running Water. The vampire takes 20 acid damage if it ends its turn in running water.</text>
-            <text>Stake to the Heart. If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed.</text>
-            <text>Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</text>
-        </trait>
-        <action>
-            <name>Multiattack (Vampire Form Only)</name>
-            <text>The vampire makes two attacks, only one of which can be a bite attack.</text>
-        </action>
-        <action>
-            <name>Unarmed Strike (Vampire Form Only)</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape DC 18).</text>
-            <attack>Unarmed Strike|9|1d8+4</attack>
-        </action>
-        <action>
-            <name>Bite (Bat or Vampire Form Only)</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control.</text>
-            <attack>Bite|9|1d6+4+3d6</attack>
-        </action>
-        <action>
-            <name>Charm</name>
-            <text>The vampire targets one humanoid it can see within 30 ft. of it. If the target can see the vampire, the target must succeed on a DC 17 Wisdom saving throw against this magic or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bit attack.</text>
-            <text>Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.</text>
-        </action>
-        <action>
-            <name>Children of the Night (1/Day)</name>
-            <text>The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.</text>
-        </action>
-        <legendary>
-            <name>Move</name>
-            <text>The vampire moves up to its speed without provoking opportunity attacks.</text>
-        </legendary>
-        <legendary>
-            <name>Unarmed Strike</name>
-            <text>The vampire makes one unarmed strike.</text>
-        </legendary>
-        <legendary>
-            <name>Bite (Costs 2 Actions)</name>
-            <text>The vampire makes one bite attack.</text>
-        </legendary>
-    </monster>
-    <monster>
-        <name>Vampire Spawn</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Monster Manual</description>
-        <alignment>neutral evil</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>82 (11d8+33)</hp>
-        <speed>30 ft.</speed>
-        <str>16</str>
-        <dex>16</dex>
-        <con>16</con>
-        <int>11</int>
-        <wis>10</wis>
-        <cha>12</cha>
-        <save>Dex +6, Wis +3</save>
-        <skill>Perception +3, Stealth +6</skill>
-        <resist>necrotic, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-        <senses>darkvision 60 ft.</senses>
-        <passive>13</passive>
-        <languages>the languages it knew in life</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Regeneration</name>
-            <text>The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.</text>
-        </trait>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
-        <trait>
-            <name>Vampire Weaknesses</name>
-            <text>The vampire has the following flaws:</text>
-            <text>Forbiddance. The vampire can't enter a residence without an invitation from one of the occupants.</text>
-            <text>Harmed by Running Water. The vampire takes 20 acid damage when it ends its turn in running water.</text>
-            <text>Stake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place.</text>
-            <text>Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The vampire makes two attacks, only one of which can be a bite attack.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
-            <attack>Bite|6|1d6+3+2d6</attack>
-        </action>
-        <action>
-            <name>Claws</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d4 + 3) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13).</text>
-            <attack>Claws|6|2d4+3</attack>
-        </action>
-    </monster>
-    <monster>
-        <name>Wraith</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Monster Manual</description>
-        <alignment>neutral evil</alignment>
-        <ac>13</ac>
-        <hp>67 (9d8+27)</hp>
-        <speed>0 ft., fly 60 ft. (hover)</speed>
-        <str>6</str>
-        <dex>16</dex>
-        <con>16</con>
-        <int>12</int>
-        <wis>14</wis>
-        <cha>15</cha>
-        <resist>acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
-        <immune>necrotic, poison</immune>
-        <conditionImmune>charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>12</passive>
-        <languages>the languages it knew in life</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Incorporeal Movement</name>
-            <text>The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
-        </trait>
-        <trait>
-            <name>Sunlight Sensitivity</name>
-            <text>While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
-        </trait>
-        <action>
-            <name>Life Drain</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
-            <attack>Life Drain|6|4d8+3</attack>
-        </action>
-        <action>
-            <name>Create Specter</name>
-            <text>The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target's spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at one time.</text>
-        </action>
-    </monster>
-    <monster>
-        <name>Xorn</name>
-        <size>M</size>
-        <type>elemental</type>
-        <description>Source: Monster Manual</description>
-        <alignment>neutral</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>73 (7d8+42)</hp>
-        <speed>20 ft., burrow 20 ft.</speed>
-        <str>17</str>
-        <dex>10</dex>
-        <con>22</con>
-        <int>11</int>
-        <wis>10</wis>
-        <cha>11</cha>
-        <skill>Perception +6, Stealth +3</skill>
-        <resist>piercing and slashing from nonmagical weapons that aren't adamantine</resist>
-        <senses>darkvision 60 ft., tremorsense 60 ft.</senses>
-        <passive>16</passive>
-        <languages>Terran</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Earth Glide</name>
-            <text>The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn't disturb the material it moves through.</text>
-        </trait>
-        <trait>
-            <name>Stone Camouflage</name>
-            <text>The xorn has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</text>
-        </trait>
-        <trait>
-            <name>Treasure Sense</name>
-            <text>The xorn can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 ft. of it.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The xorn makes three claw attacks and one bite attack.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) piercing damage.</text>
-            <attack>Bite|6|3d6+3</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-            <attack>Claw|6|1d6+3</attack>
-        </action>
-    </monster>
+	<!-- repeated monsters -->
+	<monster>
+		<name>Bandit Captain</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any non-lawful alignment</alignment>
+		<ac>15 (studded leather)</ac>
+		<hp>65 (10d8+20)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>14</int>
+		<wis>11</wis>
+		<cha>14</cha>
+		<save>Str +4, Dex +5, Wis +2</save>
+		<skill>Athletics +4, Deception +4</skill>
+		<passive>10</passive>
+		<languages>any two languages</languages>
+		<cr>2</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Scimitar|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Berserker</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any chaotic alignment</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>67 (9d8+27)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>17</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Reckless</name>
+			<text>At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
+		</trait>
+		<action>
+			<name>Greataxe</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.</text>
+			<attack>Greataxe|5|1d12+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Bone Devil</name>
+		<size>L</size>
+		<type>fiend (devil)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>142 (15d10+60)</hp>
+		<speed>40 ft., fly 40 ft.</speed>
+		<str>18</str>
+		<dex>16</dex>
+		<con>18</con>
+		<int>13</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<save>Int +5, Wis +6, Cha +7</save>
+		<skill>Deception +7, Insight +6</skill>
+		<resist>cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>9</passive>
+		<languages>Infernal, telepathy 120 ft.</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the devil's darkvision.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The devil has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The devil makes three attacks: two with its claws and one with its sting.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
+			<attack>Claw|8|1d8+4</attack>
+		</action>
+		<action>
+			<name>Sting</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Sting|8|2d8+4+5d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Commoner</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any alignment</alignment>
+		<ac>10</ac>
+		<hp>4 (1d8)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>10</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>0</cr>
+		<action>
+			<name>Club</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
+			<attack>Club|2|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Cult Fanatic</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any non-good alignment</alignment>
+		<ac>13 (leather armor)</ac>
+		<hp>22 (6d8+6)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<skill>Deception +4, Persuasion +4, Religion +2</skill>
+		<passive>11</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Dark Devotion</name>
+			<text>The fanatic has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
+			<text>1st level (4 slots): command, inflict wounds, shield of faith</text>
+			<text>2nd level (3 slots): hold person, spiritual weapon</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The fanatic makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+		<spells>Light, Sacred Flame, Thaumaturgy, Command, Inflict Wounds, Shield of Faith, Hold Person, Spiritual Weapon</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Cultist</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any non-good alignment</alignment>
+		<ac>12 (leather armor)</ac>
+		<hp>9 (2d8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Deception +2, Religion +2</skill>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>Dark Devotion</name>
+			<text>The cultist has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Evoker</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>any alignment</alignment>
+		<ac>12 (15 with mage armor)</ac>
+		<hp>66 (12d8+12)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>17</int>
+		<wis>12</wis>
+		<cha>11</cha>
+		<save>Int +7, Wis +5</save>
+		<skill>Arcana +7, History +7</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>11</passive>
+		<languages>any four languages</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): fire bolt*, light*, prestidigitation, ray of frost*</text>
+			<text>1st level (4 slots): burning hands*, mage armor, magic missile*</text>
+			<text>2nd level (3 slots): mirror image, misty step, shatter*</text>
+			<text>3rd level (3 slots): counterspell, fireball*, lightning bolt*</text>
+			<text>4th level (3 slots): ice storm*, stoneskin</text>
+			<text>5th level (2 slots): Bigby's hand*, cone of cold*</text>
+			<text>6th level (1 slot): chain lightning*, wall of ice*</text>
+			<text>*Evocation spell</text>
+		</trait>
+		<trait>
+			<name>Sculpt Spells</name>
+			<text>When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it.</text>
+		</trait>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
+			<attack>Quarterstaff|3|1d6-1</attack>
+			<attack>Two Handed|3|1d8-1</attack>
+		</action>
+		<spells>Fire Bolt, Light, Prestidigitation, Ray of Frost, Burning Hands, Mage Armor, Magic Missile, Mirror Image, Misty Step, Shatter, Counterspell, Fireball, Lightning Bolt, Ice Storm, Stoneskin, Bigby's Hand, Cone of Cold, Chain Lightning, Wall of Ice</spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Froghemoth</name>
+		<size>H</size>
+		<type>monstrosity</type>
+		<description>Source: Tomb of Annihilation</description>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>184 (16d12 + 80)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>23</str>
+		<dex>13</dex>
+		<con>20</con>
+		<int>2</int>
+		<wis>12</wis>
+		<cha>5</cha>
+		<save>Con +9, Wis +5</save>
+		<skill>Perception +9, Stealth +5</skill>
+		<resist>fire, lightning</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>19</passive>
+		<languages>—</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The froghemoth can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Shock Susceptibility</name>
+			<text>If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can't use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The froghemoth makes two attacks with its tentacles. It can also use its tongue or bite.</text>
+		</action>
+		<action>
+			<name>Tentacle</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage, and the target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles.</text>
+			<attack>Tentacle|10|3d8+6</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage, and the target is swallowed ifit is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns.</text>
+			<text>	The froghemoth's gullet can hold up to two creatures at a time. If the froghemoth takes 20 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
+			<attack>Bite|10|3d10+6</attack>
+		</action>
+		<action>
+			<name>Tongue</name>
+			<text>The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 18 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth, and the froghemoth can make a bite attack against it as a bonus action.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Galeb Duhr</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>85 (9d8+45)</hp>
+		<speed>15 ft. (30 ft. when rolling, 60 ft. rolling downhill)</speed>
+		<str>20</str>
+		<dex>14</dex>
+		<con>20</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>11</cha>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, paralyzed, poisoned, petrified</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Terran</languages>
+		<cr>6</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the galeb duhr remains motionless, it is indistinguishable from a normal boulder.</text>
+		</trait>
+		<trait>
+			<name>Rolling Charge</name>
+			<text>If the galeb duhr rolls at least 20 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.</text>
+			<attack>Rolling Charge||2d6</attack>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage.</text>
+			<attack>Slam|8|2d6+5</attack>
+		</action>
+		<action>
+			<name>Animate Boulders (1/Day)</name>
+			<text>The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell).</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gelatinous Cube</name>
+		<size>L</size>
+		<type>ooze</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>6</ac>
+		<hp>84 (8d10+40)</hp>
+		<speed>15 ft.</speed>
+		<str>14</str>
+		<dex>3</dex>
+		<con>20</con>
+		<int>1</int>
+		<wis>6</wis>
+		<cha>1</cha>
+		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, prone</conditionImmune>
+		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+		<passive>8</passive>
+		<cr>2</cr>
+		<trait>
+			<name>Ooze Cube</name>
+			<text>The cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the cube's Engulf and has disadvantage on the saving throw.</text>
+			<text>Creatures inside the cube can be seen but have total cover.</text>
+			<text>A creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful DC 12 Strength check, and the creature making the attempt takes 10 (3d6) acid damage.</text>
+			<text>The cube can hold only one Large creature or up to four Medium or smaller creatures inside it at a time.</text>
+		</trait>
+		<trait>
+			<name>Transparent</name>
+			<text>Even when the cube is in plain sight, it takes a successful DC 15 Wisdom (Perception) check to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube's space while unaware of the cube is surprised by the cube.</text>
+		</trait>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) acid damage.</text>
+			<attack>Pseudopod|4|3d6</attack>
+		</action>
+		<action>
+			<name>Engulf</name>
+			<text>The cube moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the cube enters a creature's space, the creature must make a DC 12 Dexterity saving throw.</text>
+			<text>On a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.</text>
+			<text>On a failed save, the cube enters the creature's space, and the creature takes 10 (3d6) acid damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 21 (6d6) acid damage at the start of each of the cube's turns. When the cube moves, the engulfed creature moves with it.</text>
+			<text>An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gibbering Mouther</name>
+		<size>M</size>
+		<type>aberration</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>9</ac>
+		<hp>67 (9d8+27)</hp>
+		<speed>10 ft., swim 10 ft.</speed>
+		<str>10</str>
+		<dex>8</dex>
+		<con>16</con>
+		<int>3</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<conditionImmune>prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<cr>2</cr>
+		<trait>
+			<name>Aberrant Ground</name>
+			<text>The ground in a 10-foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a DC 10 Strength saving throw or have its speed reduced to 0 until the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Gibbering</name>
+			<text>The mouther babbles incoherently while it can see any creature and isn't incapacitated. Each creature that starts its turn within 20 feet of the mouther and can hear the gibbering must succeed on a DC 10 Wisdom saving throw. On a failure, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gibbering mouther makes one bite attack and, if it can, uses its Blinding Spittle.</text>
+		</action>
+		<action>
+			<name>Bites</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 17 (5d6) piercing damage. If the target is Medium or smaller, it must succeed on a DC 10 Strength saving throw or be knocked prone. If the target is killed by this damage, it is absorbed into the mouther.</text>
+			<attack>Bites|2|5d6</attack>
+		</action>
+		<action>
+			<name>Blinding Spittle (Recharge 5-6)</name>
+			<text>The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a DC 13 Dexterity saving throw or be blinded until the end of the mouther's next turn.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gynosphinx</name>
+		<size>L</size>
+		<type>monstrosity</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful neutral</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>136 (16d10+48)</hp>
+		<speed>40 ft., fly 60 ft.</speed>
+		<str>18</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>18</int>
+		<wis>18</wis>
+		<cha>18</cha>
+		<skill>Arcana +12, History +12, Perception +8, Religion +8</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>psychic</immune>
+		<conditionImmune>charmed, frightened</conditionImmune>
+		<senses>truesight 120 ft.</senses>
+		<passive>18</passive>
+		<languages>Common, Sphinx</languages>
+		<cr>11</cr>
+		<trait>
+			<name>Inscrutable</name>
+			<text>The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The sphinx's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): mage hand, minor illusion, prestidigitation</text>
+			<text>1st level (4 slots): detect magic, identify, shield</text>
+			<text>2nd level (3 slots): darkness, locate object, suggestion</text>
+			<text>3rd level (3 slots): dispel magic, remove curse, tongues</text>
+			<text>4th level (3 slots): banishment, greater invisibility</text>
+			<text>5th level (1 slot): legend lore</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The sphinx makes two claw attacks.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
+			<attack>Claw|9|2d8+4</attack>
+		</action>
+		<legendary>
+			<name>Claw Attack</name>
+			<text>The sphinx makes one claw attack.</text>
+		</legendary>
+		<legendary>
+			<name>Teleport (Costs 2 Actions)</name>
+			<text>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</text>
+		</legendary>
+		<legendary>
+			<name>Cast a Spell (Costs 3 Actions)</name>
+			<text>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</text>
+		</legendary>
+		<spells>Mage Hand, Minor Illusion, Prestidigitation, Detect Magic, Identify, Shield, Darkness, Locate Object, Suggestion, Dispel Magic, Remove Curse, Tongues, Banishment, Greater Invisibility, Legend Lore</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Kenku</name>
+		<size>M</size>
+		<type>humanoid (kenku)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>13</ac>
+		<hp>13 (3d8)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>16</dex>
+		<con>10</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<skill>Deception +4, Perception +2, Stealth +5</skill>
+		<passive>12</passive>
+		<languages>understands Auran and Common but speaks only through the use of its Mimicry trait</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Ambusher</name>
+			<text>In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised</text>
+		</trait>
+		<trait>
+			<name>Mimicry</name>
+			<text>The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortbow|5|1d6+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Martial Arts Adept</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>any alignment</alignment>
+		<ac>16</ac>
+		<hp>60 (11d8+11)</hp>
+		<speed>40 ft.</speed>
+		<str>11</str>
+		<dex>17</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>16</wis>
+		<cha>10</cha>
+		<save />
+		<skill>Acrobatics +5, Insight +5, Stealth +5</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>13</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Unarmored Defense</name>
+			<text>While the adept is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The adept makes three unarmed strikes or three dart attacks.</text>
+		</action>
+		<action>
+			<name>Unarmed Strike</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:</text>
+			<text />
+			<text>• The target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept's choice).</text>
+			<text />
+			<text>• The target must succeed on a DC 13 Dexterity saving throw or be knocked prone.</text>
+			<text />
+			<text>• The target must succeed on a DC 13 Constitution saving throw or be stunned until the end ot'the adept's next turn.</text>
+			<attack>Unarmed Strike|5|1d8+3</attack>
+		</action>
+		<action>
+			<name>Dart</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft, one target. Hit: 5 (1d4+3) piercing damage.</text>
+			<attack>Dart|5|1d4+3</attack>
+		</action>
+		<reaction>
+			<name>Deflect Missile</name>
+			<text>In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it's small enough to hold in one hand and the adept has a hand free.</text>
+		</reaction>
+		<spells />
+	</monster>
+	<monster>
+		<name>Medusa</name>
+		<size>M</size>
+		<type>monstrosity</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>13</wis>
+		<cha>15</cha>
+		<skill>Deception +5, Insight +4, Perception +4, Stealth +5</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Petrifying Gaze</name>
+			<text>When a creature that can see the medusa's eyes starts its turn within 30 ft. of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.</text>
+			<text>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.</text>
+			<text>If the medusa sees itself reflected on a polished surface within 30 ft. of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The medusa makes either three melee attacks — one with its snake hair and two with its shortsword — or two ranged attacks with its longbow.</text>
+		</action>
+		<action>
+			<name>Snake Hair</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</text>
+			<attack>Snake Hair|5|1d4+2+4d6</attack>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|5|1d6+2</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
+			<attack>Longbow|5|1d8+2+2d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Merrenoloth</name>
+		<size>M</size>
+		<type>fiend (yugoloth)</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>40 (9d8)</hp>
+		<speed>30 ft., swim 40 ft.</speed>
+		<str>8</str>
+		<dex>17</dex>
+		<con>10</con>
+		<int>17</int>
+		<wis>14</wis>
+		<cha>11</cha>
+		<save>Dex +5, Int +5</save>
+		<skill>History +5, Nature +5, Perception +4, Survival +4</skill>
+		<resist>cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>acid, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>blindsight 60 ft., darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Abyssal, Infernal, telepathy 60 ft.</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The merrenoloth's innate spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
+			<text>At will: charm person, darkness, detect magic, dispel magic, gust of wind</text>
+			<text>3/day each: control water</text>
+			<text>1/day each: control weather</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The merrenoloth has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The merrenoloth's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<text>As a bonus action, the merrenoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The merrenoloth uses Fear Gaze once and makes one oar attack.</text>
+		</action>
+		<action>
+			<name>Oar</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.</text>
+			<attack>Oar|5|2d4+3</attack>
+		</action>
+		<action>
+			<name>Fear Gaze</name>
+			<text>The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Wisdom saving throw or become frightened of the merrenoloth for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text />
+			<text>Frightened:</text>
+			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
+			<text />
+			<text>• The creature can't willingly move closer to the source of its fear.</text>
+		</action>
+		<action>
+			<name>Lair Actions</name>
+			<text>Any ship a merrenoloth is contracted to captain becomes the creature's lair. When fighting on the ship, the merrenoloth can invoke its ability to take lair actions. On initiative count 20 (losing initiative ties), the merrenoloth can take one lair action to cause one of the following effects; it can't use the same effect two rounds in a row:</text>
+			<text />
+			<text>• The ship regains 22 (4d10) hit points.</text>
+			<text />
+			<text>• A strong wind propels the ship, increasing its speed by 30 feet until initiative count 20 on the next round.</text>
+			<text />
+			<text>• The air within 60 feet of the ship is filled with howling wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<text />
+			<text>Prone:</text>
+			<text>• A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</text>
+			<text />
+			<text>• The creature has disadvantage on attack rolls.</text>
+			<text />
+			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+		</action>
+		<spells>Charm Person, Darkness, Detect Magic, Dispel Magic, Gust of Wind, Control Water, Control Weather</spells>
+		<slots />
+	</monster>
+	<monster>
+		<name>Mind Flayer Arcanist</name>
+		<size>M</size>
+		<type>aberration</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (breastplate)</ac>
+		<hp>71 (13d8+13)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>19</int>
+		<wis>17</wis>
+		<cha>17</cha>
+		<save>Int +7, Wis +6, Cha +6</save>
+		<skill>Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4</skill>
+		<senses>darkvision 120 ft.</senses>
+		<passive>16</passive>
+		<languages>Deep Speech, Undercommon, telepathy 120 ft.</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The mind flayer has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:</text>
+			<text />
+			<text>At will: detect thoughts, levitate</text>
+			<text>1/day each: dominate monster, plane shift (self only)</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The mind flayer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save DC 15, +7 to hit with spell attacks). The mind flayer has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): blade ward, dancing lights, mage hand, shocking grasp</text>
+			<text>1st level (4 slots): detect magic, disguise self, shield, sleep</text>
+			<text>2nd level (3 slots): blur, invisibility, ray of enfeeblement</text>
+			<text>3rd level (3 slots): clairvoyance, lightning bolt, sending</text>
+			<text>4th level (3 slots): confusion, hallucinatory terrain</text>
+			<text>5th level (2 slots): telekinesis, wall of force</text>
+		</trait>
+		<action>
+			<name>Tentacles</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</text>
+			<attack>Tentacles|7|2d10+4</attack>
+		</action>
+		<action>
+			<name>Extract Brain</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the mind flayer. Hit: The target takes 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain.</text>
+			<attack>Extract Brain|7|10d10</attack>
+		</action>
+		<action>
+			<name>Mind Blast (Recharge 5-6)</name>
+			<text>The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Mind Blast||4d8+4</attack>
+		</action>
+		<spells>Detect Thoughts, Levitate, Dominate Monster, Plane Shift, Blade Ward, Dancing Lights, Mage Hand, Shocking Grasp, Detect Magic, Disguise Self, Shield, Sleep, Blur, Invisibility, Ray of Enfeeblement, Clairvoyance, Lightning Bolt, Sending, Confusion, Hallucinatory Terrain, Telekinesis, Wall of Force</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Monodrone</name>
+		<size>M</size>
+		<type>construct</type>
+		<description>Source: Monster Manual</description>
+		<alignment>construct</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>5 (1d8+1)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>10</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>4</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<senses>truesight 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Modron</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>Axiomatic Mind</name>
+			<text>The monodrone can't be compelled to act in a manner contrary to its nature or its instructions.</text>
+		</trait>
+		<trait>
+			<name>Disintegration</name>
+			<text>If the monodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</text>
+			<attack>Dagger|3|1d4+1</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6) piercing damage.</text>
+			<attack>Javelin|2|1d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Quasit</name>
+		<size>T</size>
+		<type>fiend (demon)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic evil</alignment>
+		<ac>13</ac>
+		<hp>7 (3d4)</hp>
+		<speed>40 ft.</speed>
+		<str>5</str>
+		<dex>17</dex>
+		<con>10</con>
+		<int>7</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<skill>Stealth +5</skill>
+		<resist>cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Abyssal, Common</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The quasit has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Variant: Familiar</name>
+			<text>The quasit can serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what the quasit senses as long as they are within 1 mile of each other. While the quasit is within 10 feet of its master, the master shares the quasit's Magic Resistance trait. At any time and for any reason, the quasit can end its service as a familiar, ending the telepathic bond.</text>
+		</trait>
+		<action>
+			<name>Claw (Bite in Beast Form)</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Claw/Bite|4|1d4+3</attack>
+		</action>
+		<action>
+			<name>Scare (1/day)</name>
+			<text>One creature of the quasit's choice within 20 ft. of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.</text>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Quickling</name>
+		<size>T</size>
+		<type>fey</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>chaotic evil</alignment>
+		<ac>16</ac>
+		<hp>10 (3d4+3)</hp>
+		<speed>120 ft.</speed>
+		<str>4</str>
+		<dex>23</dex>
+		<con>13</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<save />
+		<skill>Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>15</passive>
+		<languages>Common, Sylvan</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Blurred Movement</name>
+			<text>Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or restrained.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The quickling makes three dagger attacks.</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.</text>
+			<attack>Dagger|8|1d4+6</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Skeleton</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>13 (armor scraps)</ac>
+		<hp>13 (2d8+4)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>6</int>
+		<wis>8</wis>
+		<cha>5</cha>
+		<vulnerable>bludgeoning</vulnerable>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>understands all languages it spoke in life but can't speak</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortbow|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Sprite</name>
+		<size>T</size>
+		<type>fey</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral good</alignment>
+		<ac>15 (leather armor)</ac>
+		<hp>2 (1d4)</hp>
+		<speed>10 ft., fly 40 ft.</speed>
+		<str>3</str>
+		<dex>18</dex>
+		<con>10</con>
+		<int>14</int>
+		<wis>13</wis>
+		<cha>11</cha>
+		<skill>Perception +3, Stealth +8</skill>
+		<passive>13</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+			<attack>Longsword|2|1</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.</text>
+			<attack>Shortbow|6|1</attack>
+		</action>
+		<action>
+			<name>Heart Sight</name>
+			<text>The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.</text>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Steam Mephit</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>10</ac>
+		<hp>21 (6d6)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>5</str>
+		<dex>11</dex>
+		<con>10</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>12</cha>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan, Ignan</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.</text>
+			<attack>Death Burst||1d8</attack>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: blur</text>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
+			<attack>Claws|2|1d4+1d4</attack>
+		</action>
+		<action>
+			<name>Steam Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+		</action>
+		<spells>Blur</spells>
+	</monster>
+	<monster>
+		<name>Stirge</name>
+		<size>T</size>
+		<type>beast</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>2 (1d4)</hp>
+		<speed>10 ft., fly 40 ft.</speed>
+		<str>4</str>
+		<dex>16</dex>
+		<con>11</con>
+		<int>2</int>
+		<wis>8</wis>
+		<cha>6</cha>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<cr>1/8</cr>
+		<action>
+			<name>Blood Drain</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.</text>
+			<text>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</text>
+			<attack>Blood Drain|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Stone Golem</name>
+		<size>L</size>
+		<type>construct</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>178 (17d10+85)</hp>
+		<speed>30 ft.</speed>
+		<str>22</str>
+		<dex>9</dex>
+		<con>20</con>
+		<int>3</int>
+		<wis>11</wis>
+		<cha>1</cha>
+		<immune>poison, psychic, bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>understands the languages of its creator but can't speak</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Immutable Form</name>
+			<text>The golem is immune to any spell or effect that would alter its form.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The golem has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The golem's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The golem makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.</text>
+			<attack>Slam|10|3d8+6</attack>
+		</action>
+		<action>
+			<name>Slow (Recharge 5-6)</name>
+			<text>The golem targets one or more creatures it can see within 10 ft. of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Swarm of Bats</name>
+		<size>M</size>
+		<type>swarm of tiny beasts</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>22 (5d8)</hp>
+		<speed>0 ft., fly 30 ft.</speed>
+		<str>5</str>
+		<dex>15</dex>
+		<con>10</con>
+		<int>2</int>
+		<wis>12</wis>
+		<cha>4</cha>
+		<resist>bludgeoning, piercing, slashing</resist>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<senses>blindsight 60 ft.</senses>
+		<passive>11</passive>
+		<cr>1/4</cr>
+		<trait>
+			<name>Echolocation</name>
+			<text>The swarm can't use its blindsight while deafened.</text>
+		</trait>
+		<trait>
+			<name>Keen Hearing</name>
+			<text>The swarm has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+		</trait>
+		<trait>
+			<name>Swarm</name>
+			<text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points.</text>
+		</trait>
+		<action>
+			<name>Bites</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. Hit: 5 (2d4) piercing damage, or 2 (1d4) piercing damage if the swarm has half of its hit points or fewer.</text>
+			<attack>Full|4|2d4</attack>
+			<attack>Half|4|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Thug</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any non-good alignment</alignment>
+		<ac>11 (leather armor)</ac>
+		<hp>32 (5d8+10)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<skill>Intimidation +2</skill>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The thug makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Mace</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) bludgeoning damage.</text>
+			<attack>Mace|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Heavy Crossbow</name>
+			<text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.</text>
+			<attack>Heavy Crossbow|2|1d10</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Treant</name>
+		<size>H</size>
+		<type>plant</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic good</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>138 (12d12+60)</hp>
+		<speed>30 ft.</speed>
+		<str>23</str>
+		<dex>8</dex>
+		<con>21</con>
+		<int>12</int>
+		<wis>16</wis>
+		<cha>12</cha>
+		<resist>bludgeoning, piercing</resist>
+		<vulnerable>fire</vulnerable>
+		<passive>13</passive>
+		<languages>Common, Druidic, Elvish, Sylvan</languages>
+		<cr>9</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the treant remains motionless, it is indistinguishable from a normal tree.</text>
+		</trait>
+		<trait>
+			<name>Siege Monster</name>
+			<text>The treant deals double damage to objects and structures.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The treant makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage.</text>
+			<attack>Slam|10|3d6+6</attack>
+		</action>
+		<action>
+			<name>Rock</name>
+			<text>Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.</text>
+			<attack>Rock|10|4d10+6</attack>
+		</action>
+		<action>
+			<name>Animate Trees (1/Day)</name>
+			<text>The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Umber Hulk</name>
+		<size>L</size>
+		<type>monstrosity</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>93 (11d10+33)</hp>
+		<speed>30 ft., burrow 20 ft.</speed>
+		<str>20</str>
+		<dex>13</dex>
+		<con>16</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<senses>darkvision 120 ft., tremorsense 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Umber Hulk</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Confusing Gaze</name>
+			<text>When a creature starts its turn within 30 feet of the umber hulk and is able to see the umber hulk's eyes, the umber hulk can magically force it to make a DC 15 Charisma saving throw, unless the umber hulk is incapacitated.</text>
+			<text>On a failed saving throw, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach.</text>
+			<text>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the umber hulk until the start of its next turn, when it can avert its eyes again. If the creature looks at the umber hulk in the meantime, it must immediately make the save.</text>
+		</trait>
+		<trait>
+			<name>Tunneler</name>
+			<text>The umber hulk can burrow through solid rock at half its burrowing speed and leaves a 5 foot-wide, 8-foot-high tunnel in its wake.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The umber hulk makes three attacks: two with its claws and one with its mandibles.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</text>
+			<attack>Claw|8|1d8+5</attack>
+		</action>
+		<action>
+			<name>Mandibles</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</text>
+			<attack>Mandibles|8|2d8+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Vampire</name>
+		<size>M</size>
+		<type>undead (shapechanger)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>144 (17d8+68)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>18</dex>
+		<con>18</con>
+		<int>17</int>
+		<wis>15</wis>
+		<cha>18</cha>
+		<save>Dex +9, Wis +7, Cha +9</save>
+		<skill>Perception +7, Stealth +9</skill>
+		<resist>necrotic, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<senses>darkvision 120 ft.</senses>
+		<passive>17</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>13</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>If the vampire isn't in sun light or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.</text>
+			<text>While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.</text>
+			<text>While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If the vampire fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Misty Escape</name>
+			<text>When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.</text>
+			<text>While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then paralyzed until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<name>Vampire Weaknesses</name>
+			<text>The vampire has the following flaws:</text>
+			<text>Forbiddance. The vampire can't enter a residence without an invitation from one of the occupants.</text>
+			<text>Harmed by Running Water. The vampire takes 20 acid damage if it ends its turn in running water.</text>
+			<text>Stake to the Heart. If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed.</text>
+			<text>Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</text>
+		</trait>
+		<action>
+			<name>Multiattack (Vampire Form Only)</name>
+			<text>The vampire makes two attacks, only one of which can be a bite attack.</text>
+		</action>
+		<action>
+			<name>Unarmed Strike (Vampire Form Only)</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape DC 18).</text>
+			<attack>Unarmed Strike|9|1d8+4</attack>
+		</action>
+		<action>
+			<name>Bite (Bat or Vampire Form Only)</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control.</text>
+			<attack>Bite|9|1d6+4+3d6</attack>
+		</action>
+		<action>
+			<name>Charm</name>
+			<text>The vampire targets one humanoid it can see within 30 ft. of it. If the target can see the vampire, the target must succeed on a DC 17 Wisdom saving throw against this magic or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bit attack.</text>
+			<text>Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.</text>
+		</action>
+		<action>
+			<name>Children of the Night (1/Day)</name>
+			<text>The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.</text>
+		</action>
+		<legendary>
+			<name>Move</name>
+			<text>The vampire moves up to its speed without provoking opportunity attacks.</text>
+		</legendary>
+		<legendary>
+			<name>Unarmed Strike</name>
+			<text>The vampire makes one unarmed strike.</text>
+		</legendary>
+		<legendary>
+			<name>Bite (Costs 2 Actions)</name>
+			<text>The vampire makes one bite attack.</text>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Vampire Spawn</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>82 (11d8+33)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>12</cha>
+		<save>Dex +6, Wis +3</save>
+		<skill>Perception +3, Stealth +6</skill>
+		<resist>necrotic, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Regeneration</name>
+			<text>The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<name>Vampire Weaknesses</name>
+			<text>The vampire has the following flaws:</text>
+			<text>Forbiddance. The vampire can't enter a residence without an invitation from one of the occupants.</text>
+			<text>Harmed by Running Water. The vampire takes 20 acid damage when it ends its turn in running water.</text>
+			<text>Stake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place.</text>
+			<text>Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The vampire makes two attacks, only one of which can be a bite attack.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
+			<attack>Bite|6|1d6+3+2d6</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d4 + 3) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13).</text>
+			<attack>Claws|6|2d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Wraith</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>67 (9d8+27)</hp>
+		<speed>0 ft., fly 60 ft. (hover)</speed>
+		<str>6</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>15</cha>
+		<resist>acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
+		<immune>necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Life Drain</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
+			<attack>Life Drain|6|4d8+3</attack>
+		</action>
+		<action>
+			<name>Create Specter</name>
+			<text>The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target's spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at one time.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Xorn</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>73 (7d8+42)</hp>
+		<speed>20 ft., burrow 20 ft.</speed>
+		<str>17</str>
+		<dex>10</dex>
+		<con>22</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<skill>Perception +6, Stealth +3</skill>
+		<resist>piercing and slashing from nonmagical weapons that aren't adamantine</resist>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>16</passive>
+		<languages>Terran</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Earth Glide</name>
+			<text>The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn't disturb the material it moves through.</text>
+		</trait>
+		<trait>
+			<name>Stone Camouflage</name>
+			<text>The xorn has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</text>
+		</trait>
+		<trait>
+			<name>Treasure Sense</name>
+			<text>The xorn can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 ft. of it.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The xorn makes three claw attacks and one bite attack.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) piercing damage.</text>
+			<attack>Bite|6|3d6+3</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Claw|6|1d6+3</attack>
+		</action>
+	</monster>
 </compendium>
