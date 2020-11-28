@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>37</version>
+		<uid>1861</uid>
+		<name>Ari Strongbow</name>
+		<race>
+			<name>Half-Elf</name>
+			<feat>
+				<name>Ability Score Increase</name>
+				<text>Two different ability scores of your choice increase by 1.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Darkvision</name>
+				<text>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can&#39;t discern color in darkness, only shades of gray.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Fey Ancestry</name>
+				<text>You have advantage on saving throws against being charmed, and magic can&#39;t put you to sleep.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Skill Versatility</name>
+				<text>You gain proficiency in two skills of your choice.</text>
+				<expanded>0</expanded>
+				<proficiency>110</proficiency>
+				<proficiency>111</proficiency>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common, Elvish, and one extra language of your choice.</text>
+				<expanded>0</expanded>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>2</value>
+			</mod>
+		</race>
+		<class>
+			<id>1301</id>
+			<name>Fighter (Champion)</name>
+			<level>2</level>
+			<hd>3</hd>
+			<hdCurrent>2</hdCurrent>
+			<wealth>5d4x10</wealth>
+			<proficiency>103</proficiency>
+			<proficiency>2</proficiency>
+			<proficiency>105</proficiency>
+			<proficiency>0</proficiency>
+			<numClassSkills>2</numClassSkills>
+			<armor>light armor, medium armor, heavy armor, shields</armor>
+			<weapons>simple weapons, martial weapons</weapons>
+			<tools>none</tools>
+			<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+				
+Armor: light armor, medium armor, heavy armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.
+
+• (a) chain mail or (b) leather, longbow, and 20 arrows
+• (a) a martial weapon and a shield or (b) two martial weapons
+• (a) a light crossbow and 20 bolts or (b) two handaxes
+• (a) a dungeoneer&#39;s pack or (b) an explorer&#39;s pack
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Fighting Style</name>
+				<text>You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can&#39;t take the same Fighting Style option more than once, even if you get to choose again.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Fighting Style: Archery</name>
+				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+				<special>0</special>
+			</feat>
+			<feat>
+				<name>Second Wind</name>
+				<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Action Surge</name>
+				<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+	Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
+				<expanded>0</expanded>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Starting Proficiencies</name>
+					<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+				
+Armor: light armor, medium armor, heavy armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</text>
+				</feat>
+				<feat>
+					<name>Starting Equipment</name>
+					<text>You start with the following items, plus anything provided by your background.
+
+• (a) chain mail or (b) leather, longbow, and 20 arrows
+• (a) a martial weapon and a shield or (b) two martial weapons
+• (a) a light crossbow and 20 bolts or (b) two handaxes
+• (a) a dungeoneer&#39;s pack or (b) an explorer&#39;s pack
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+				</feat>
+				<feat>
+					<name>Fighting Style</name>
+					<text>You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can&#39;t take the same Fighting Style option more than once, even if you get to choose again.</text>
+				</feat>
+				<feat>
+					<name>Fighting Style: Archery</name>
+					<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+					<optional>1</optional>
+					<special>0</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Defense</name>
+					<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+					<optional>1</optional>
+					<special>1</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Dueling</name>
+					<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+					<optional>1</optional>
+					<special>2</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Great Weapon Fighting</name>
+					<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+					</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Protection</name>
+					<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Two-Weapon Fighting</name>
+					<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+					<optional>1</optional>
+					<special>11</special>
+				</feat>
+				<feat>
+					<name>Second Wind</name>
+					<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				</feat>
+				<feat>
+					<name>Fighting Style: Close Quarters Shooter (UA)</name>
+					<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.
+
+This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.
+					</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Mariner (UA)</name>
+					<text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.
+
+This fighting style is from Unearthed Arcana: Waterborne Adventures, and as such may not be allowed in your game. Consult your DM before selecting this option.
+					</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Tunnel Fighter (UA)</name>
+					<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.
+
+This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Action Surge</name>
+					<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+	Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Martial Archetype</name>
+					<text>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</text>
+				</feat>
+				<feat>
+					<name>Martial Archetype: Champion</name>
+					<text>The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Champion: Improved Critical</name>
+					<text>Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack</name>
+					<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+	The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Champion: Remarkable Athlete</name>
+					<text>Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn&#39;t already use your proficiency bonus.
+	In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Indomitable</name>
+					<text>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can&#39;t use this feature again until you finish a long rest.
+	You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Champion: Additional Fighting Style</name>
+					<text>At 10th level, you can choose a second option from the Fighting Style class feature.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Archery</name>
+					<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+					<optional>1</optional>
+					<special>0</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Defense</name>
+					<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+					<optional>1</optional>
+					<special>1</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Dueling</name>
+					<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+					<optional>1</optional>
+					<special>2</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Great Weapon Fighting</name>
+					<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+					</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Protection</name>
+					<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Two-Weapon Fighting</name>
+					<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+					<optional>1</optional>
+					<special>11</special>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack (2)</name>
+					<text>At 11th level, you can attack three times whenever you take the Attack action on your turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Indomitable (two uses)</name>
+					<text>At 13th level, you can use Indomitable twice between long rests.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Champion: Superior Critical</name>
+					<text>Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Action Surge (two uses)</name>
+					<text>At 17th level, you can use Action Surge twice before a rest, but only once on the same turn.</text>
+				</feat>
+				<feat>
+					<name>Indomitable (three uses)</name>
+					<text>At 17th level, you can use Indomitable three times between long rests.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Champion: Survivor</name>
+					<text>At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don&#39;t gain this benefit if you have 0 hit points.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack (3)</name>
+					<text>At 20th level, you can attack four times whenever you take the Attack action on your turn.</text>
+				</feat>
+			</autolevel>
+		</class>
+		<background>
+			<id>1419</id>
+			<name>Folk Hero</name>
+			<align>Neutral good</align>
+			<personality>Don’t forgive. Don’t forget.</personality>
+			<ideals>I will have vengeance for my brother’s murder and the betrayal that caused it.</ideals>
+			<bonds>You aren’t worth the cost of the arrows it would take to kill you.</bonds>
+			<flaws>I’m kind of a drama bomb</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Animal Handling, Survival</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Tool Proficiencies</name>
+				<text>Carpenter’s tools, vehicles (land)</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A set of artisan&#39;s tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a belt pouch containing 10 gp</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Feature: Rustic Hospitality</name>
+				<text>Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.</text>
+				<expanded>0</expanded>
+			</feat>
+			<proficiency>101</proficiency>
+			<proficiency>117</proficiency>
+		</background>
+		<xp>300</xp>
+		<unarmed>1</unarmed>
+		<money>70.0</money>
+		<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+		<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+		<tracker>
+			<label>Second Wind Use</label>
+			<resetType>1</resetType>
+			<value>1</value>
+			<formula>1</formula>
+		</tracker>
+		<tracker>
+			<label>Second Wind</label>
+			<type>2</type>
+			<formula>1d10+%7</formula>
+		</tracker>
+		<tracker>
+			<label>Action Surge</label>
+			<resetType>1</resetType>
+			<value>1</value>
+			<formula>1</formula>
+		</tracker>
+		<item>
+			<name>Leather Armor</name>
+			<text>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.
+
+Source: Player&#39;s Handbook, page 144</text>
+			<type>1</type>
+			<slot>5</slot>
+			<value>10.0</value>
+			<weight>10.0</weight>
+			<ac>11</ac>
+		</item>
+		<item>
+			<name>Longbow</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see &#34;Improvised Weapons&#34; later in the section). A sling must be loaded to deal any damage when used in this way.
+
+Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon&#39;s size and bulk make it too large for a Small creature to use effectively.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon&#39;s normal range in feet, and the second indicates the weapon&#39;s maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can&#39;t attack a target beyond the weapon&#39;s long range.
+
+Two-Handed: This weapon requires two hands to use.
+
+Source: Player&#39;s Handbook, page 149</text>
+			<type>6</type>
+			<slot>3</slot>
+			<value>50.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d8</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>261</weaponProperty>
+			<weaponRange>150</weaponRange>
+			<weaponLongRange>600</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Arrows</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+Source: Player&#39;s Handbook, page 150</text>
+			<type>7</type>
+			<quantity>20</quantity>
+			<value>0.05</value>
+			<weight>0.05</weight>
+		</item>
+		<item>
+			<name>Longsword</name>
+			<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property — the damage when the weapon is used with two hands to make a melee attack.
+
+Source: Player&#39;s Handbook, page 149</text>
+			<type>5</type>
+			<value>15.0</value>
+			<weight>3.0</weight>
+			<damage1H>1d8</damage1H>
+			<damage2H>1d10</damage2H>
+			<damageType>3</damageType>
+			<weaponProperty>512</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Carpenter&#39;s Tools</name>
+			<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan&#39;s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan&#39;s tools requires a separate proficiency.
+
+Source: Player&#39;s Handbook, page 154</text>
+			<value>8.0</value>
+			<weight>6.0</weight>
+		</item>
+		<item>
+			<name>Shovel</name>
+			<text>Source: Player&#39;s Handbook, page 150</text>
+			<value>2.0</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<name>Common Clothes</name>
+			<text>Source: Player&#39;s Handbook, page 150</text>
+			<value>0.5</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.
+
+Source: Player&#39;s Handbook, page 153</text>
+			<value>0.5</value>
+			<weight>1.0</weight>
+		</item>
+		<container>
+			<label>Explorer&#39;s Pack</label>
+			<name>Backpack</name>
+			<value>10.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<item>
+				<name>Bedroll</name>
+				<weight>7.0</weight>
+			</item>
+			<item>
+				<name>Mess kit</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Tinderbox</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Torch</name>
+				<quantity>10</quantity>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Rations (1 day)</name>
+				<quantity>10</quantity>
+				<weight>2.0</weight>
+			</item>
+			<item>
+				<name>Waterskin</name>
+				<weight>5.0</weight>
+			</item>
+			<item>
+				<name>Rope, hempen (50 feet)</name>
+				<weight>10.0</weight>
+			</item>
+		</container>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.2</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>10</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Languages</name>
+			<text>Common, Elvish, Goblin</text>
+		</note>
+		<note>
+			<name>Half-Elf</name>
+			<text>Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physjcal differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing restless as they reach adulthood in the timeless elven realms, while their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life.</text>
+		</note>
+		<note>
+			<name>Fighter</name>
+			<text>Fighters are the most diverse class of characters in the worlds of DUNGEONS &amp; DRAGONS. Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings-as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face. </text>
+		</note>
+		<abilities>14,16,14,10,12,8,</abilities>
+		<hpMax>20</hpMax>
+		<hpCurrent>20</hpCurrent>
+	</character>
+</pc>
