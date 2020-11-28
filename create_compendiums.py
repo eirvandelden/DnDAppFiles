@@ -83,7 +83,8 @@ class XMLCombiner(object):
         # flatten out items for adding back into root
         elements = [element for categories in items.values() for element in categories.values()]
         # debug
-        print((element.tag, element.findtext('name') or element.get('class')))
+        for element in elements:
+            print((element.tag, element.findtext('name') or element.get('class')))
         # for element in elements:
         #     print(u"|{0}/{1}|".format(element.tag, element.findtext('name') or element.get('class')))
         elements.sort(key=lambda element: (element.tag, element.findtext('name') or element.get('class')))
