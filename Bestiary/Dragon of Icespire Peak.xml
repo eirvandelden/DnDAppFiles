@@ -245,4 +245,2036 @@
 			<attack>Ray of Frost|4|1d8</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Air Elemental Myrmidon</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<save />
+		<skill />
+		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Auran, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three flail attacks.</text>
+		</action>
+		<action>
+			<name>Flail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage.</text>
+			<attack>Flail|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Lightning Strike (Recharge 6)</name>
+			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
+			<text />
+			<text>Stunned:</text>
+			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
+			<text />
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage.</text>
+			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Allip</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>40 (9d8)</hp>
+		<speed>0 ft., fly 40 ft. (hover)</speed>
+		<str>6</str>
+		<dex>17</dex>
+		<con>10</con>
+		<int>17</int>
+		<wis>15</wis>
+		<cha>16</cha>
+		<save>Int +6, Wis +5</save>
+		<skill>Perception +5, Stealth +6</skill>
+		<resist>acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>cold; necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>15</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>An allip doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The allip can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+		</trait>
+		<action>
+			<name>Maddening Touch</name>
+			<text>Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) psychic damage.</text>
+			<attack>Maddening Touch|6|4d6+3</attack>
+		</action>
+		<action>
+			<name>Whispers of Madness</name>
+			<text>The allip chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and undead are immune to this effect.</text>
+		</action>
+		<action>
+			<name>Howling Babble (Recharge 6)</name>
+			<text>Each creature within 30 feet of the allip that can hear it must make a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3) psychic damage, and it is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned. Constructs and undead are immune to this effect.</text>
+			<text />
+			<text>Stunned:</text>
+			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
+			<text />
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage.</text>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Archer</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any alignment</alignment>
+		<ac>16 (studded leather armor)</ac>
+		<hp>75 (10d8+30)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>18</dex>
+		<con>16</con>
+		<int>11</int>
+		<wis>13</wis>
+		<cha>10</cha>
+		<save />
+		<skill>Acrobatics +6, Perception +5</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>15</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Archer's Eye</name>
+			<text>As a bonus action, the archer can add 1d10 to its next attack or damage roll with a longbow or shortbow.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The archer makes two attacks with its longbow.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Shortsword|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft, one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<attack>Longbow|6|1d8+4</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Dark Tide Knight</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>13</ac>
+		<hp>58 (9d8+18)</hp>
+		<speed>30 ft.</speed>
+		<str>17</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>11</cha>
+		<skill>Athletics +7, Stealth +7</skill>
+		<passive>10</passive>
+		<languages>Common</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Bonded Mount</name>
+			<text>The knight is magically bound to a beast with an innate swimming speed trained to serve as its mount. While mounted on this beast, the knight gains the beast's senses and ability to breathe underwater. The bonded mount obeys the knight's commands. If its mount dies, the knight can train a new beast to serve as its bonded mount, a process requiring a month.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack</name>
+			<text>The knight deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the knight that isn't incapacitated and the knight doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||2d6</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The knight makes two shortsword attacks.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Lance</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage.</text>
+			<attack>Lance|5|1d12+3</attack>
+		</action>
+		<reaction>
+			<name>Uncanny Dodge</name>
+			<text>When an attacker the knight can see hits it with an attack, the knight can halve the damage against it.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Flail Snail</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>52 (5d10 + 25)</hp>
+		<speed>10 ft.</speed>
+		<str>17</str>
+		<dex>5</dex>
+		<con>20</con>
+		<int>3</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<save />
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Antimagic Shell</name>
+			<text>The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a d6:</text>
+			<text>1-2. If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, if has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting abilityofthe caster.</text>
+			<text>3-4. No additional effect.</text>
+			<text>5-6. The snail's shell comverts some of the spell's energy into a burst of destructive force. Each creature within 30 feet ofthe snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one.</text>
+		</trait>
+		<trait>
+			<name>Flail Tentacles</name>
+			<text>The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within 1d4 days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies Sd6 minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.</text>
+			<roll>5d6</roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The flail snail makes as many Flail Tentacle attacks as it has flail tentacles, all against the same target.</text>
+		</action>
+		<action>
+			<name>Flail Tentacle</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Flail Tentacle|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Scintillating Shell (Recharges after a Short or Long Rest)</name>
+			<text>The snail's shell emits dazzling, colored light until the endofthe snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC 15 Wisdom saving throw or be stunned until the light ends.</text>
+		</action>
+		<action>
+			<name>Shell Defense</name>
+			<text>The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Huge Giant Crab</name>
+		<size>H</size>
+		<type>beast</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>161 (14d12 + 70)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>20</str>
+		<dex>15</dex>
+		<con>20</con>
+		<int>1</int>
+		<wis>9</wis>
+		<cha>3</cha>
+		<skill>Stealth +4</skill>
+		<conditionImmune>charmed, frightened, paralyzed</conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>9</passive>
+		<cr>8</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The crab can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 27 (4d10 + 5) bludgeoning damage, and the target is grappled (escape DC 14). The crab has two claws, each of which can grapple only one target.</text>
+			<attack>Claw|9|4d10+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Kobold Dragonshield</name>
+		<size>S</size>
+		<type>humanoid (kobold)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (leather armor, shield)</ac>
+		<hp>44 (8d6+16)</hp>
+		<speed>20 ft.</speed>
+		<str>12</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>8</int>
+		<wis>9</wis>
+		<cha>10</cha>
+		<save />
+		<skill>Perception +1</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Dragon's Resistance</name>
+			<text>The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, acid (black); 3-4, cold (white); 5-6, fire (red); 7-8, lightning (blue); 9-10, poison (green).</text>
+		</trait>
+		<trait>
+			<name>Heart of the Dragon</name>
+			<text>If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The kobold makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (ld6+l) piercing damage, or 5 (ld8+l) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|3|ld6+l</attack>
+			<attack>Two Handed|2|1d8+1</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Kraken Priest</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any evil alignment</alignment>
+		<ac>10</ac>
+		<hp>75 (10d8+30)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>12</str>
+		<dex>10</dex>
+		<con>16</con>
+		<int>10</int>
+		<wis>15</wis>
+		<cha>14</cha>
+		<save />
+		<skill>Perception +5</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>15</passive>
+		<languages>any two languages</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The priest can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
+			<text>At will: command, create or destroy water</text>
+			<text>3/day each: control water, darkness, water breathing, water walk</text>
+			<text>1/day each: call lightning, Evard's black tentacles</text>
+		</trait>
+		<action>
+			<name>Thunderous Touch</name>
+			<text>Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: 27 (5d10) thunder damage.</text>
+			<attack>Thunderous Touch|5|5d10</attack>
+		</action>
+		<action>
+			<name>Voice of the Kraken (Recharges after a Short or Long Rest)</name>
+			<text>A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</action>
+		<spells>Command, Create or Destroy Water, Control Water, Darkness, Water Breathing, Water Walk, Call Lightning, Evard's Black Tentacles</spells>
+	</monster>
+	<monster>
+		<name>Lizardfolk Subchief</name>
+		<size>M</size>
+		<type>humanoid (lizardfolk)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>52 (8d8 + 16)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>14</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>16</wis>
+		<cha>12</cha>
+		<save>Wis +5</save>
+		<skill>Athletics +4, Perception +5, Survival +5</skill>
+		<vulnerable />
+		<resist />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>15</passive>
+		<languages>Draconic</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Hold Breath</name>
+			<text>The subchief can hold its breath for 15 minutes.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The subchief is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +S to hit with spell attacks). It has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): light, sacred flame, spare the dying, thaumaturgy</text>
+			<text>1st level (4 slots): command, guiding bolt, purify food and drink</text>
+			<text>2nd level (3 slots): hold person, lesser restoration, silence</text>
+			<text>3rd level (2 slots): bestow curse, dispel magic</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
+		<spells>Light, Sacred Flame, Spare the Dying, Thaumaturgy, Command, Guiding Bolt, Purify Food and Drink, Hold Person, Lesser Restoration, Silence, Bestow Curse, Dispel Magic</spells>
+		<action>
+			<name>Tooth Dagger</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Tooth Dagger|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Jaws of Semuanya (Recharge 5-6)</name>
+			<text>The subchief invokes the primal magic of Semuanya, summoning a spectral maw around a target it can see within 60 feet of it. The target must make a DC 13 Dexterity saving throw, taking 22 (5d8) piercing damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw is also frightened until the end of its next turn.</text>
+			<attack>Jaws of Semuanya||5d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Lizardfolk Render</name>
+		<size>L</size>
+		<type>humanoid (lizardfolk)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>52 (7d10 + 14)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>16</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>7</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<save />
+		<skill>Athletics +5, Perception +3, Survival +5</skill>
+		<vulnerable />
+		<resist />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>13</passive>
+		<languages>Draconic</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Blood Frenzy</name>
+			<text>The render has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		</trait>
+		<trait>
+			<name>Hold Breath</name>
+			<text>The render can hold its breath for 15 minutes.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The render makes two attacks: one with its claws and one with its bite.</text>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</text>
+			<attack>Claws|5|2d8+3</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</text>
+			<attack>Bite|5|1d10+3</attack>
+		</action>
+		<action>
+			<name>Rend the Field (Recharge 5-6)</name>
+			<text>The render makes a claw attack against each creature of its choice within 10 feet of it. A creature hit by this attack must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Master Thief</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any alignment</alignment>
+		<ac>16 (studded leather armor)</ac>
+		<hp>83 (13d8+26)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<save>Dex +7, Int +3</save>
+		<skill>Acrobatics +7, Athletics +3, Perception +3, Sleight of Hand +7, Stealth +7</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>13</passive>
+		<languages>any one language (usually Common) plus thieves' cant</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack| |4d6</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The thief makes three attacks with its shortsword.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Shortsword|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Light Crossbow</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<attack>Light Crossbow|7|1d8+4</attack>
+		</action>
+		<reaction>
+			<name>Uncanny Dodge</name>
+			<text>The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker.</text>
+		</reaction>
+		<spells />
+	</monster>
+	<monster>
+		<name>Rot Troll</name>
+		<size>L</size>
+		<type>giant</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>138 (12d10+72)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>13</dex>
+		<con>22</con>
+		<int>5</int>
+		<wis>8</wis>
+		<cha>4</cha>
+		<save />
+		<skill>Perception +3</skill>
+		<resist />
+		<vulnerable />
+		<immune>necrotic</immune>
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Giant</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Rancid Degeneration</name>
+			<text>At the end of each of the troll's turns, each creature within 5 feet of it takes 11 (2d10) necrotic damage, unless the troll has taken acid or fire damage since the end of its last turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The troll makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 16 (3d10) necrotic damage.</text>
+			<attack>Bite|8|1d6+4+3d10</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 5 (1d10) necrotic damage.</text>
+			<attack>Claws|8|2d6+4+1d10</attack>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Skull Flier</name>
+		<size>M</size>
+		<type>construct</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>24 (3d8)</hp>
+		<speed>10 ft., fly 50 ft.</speed>
+		<str>10</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill>Stealth +4</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>poison, psychic</immune>
+		<conditionImmune>charmed, frightened, paralyzed, petrified, poisoned</conditionImmune>
+		<senses>darkvision 60ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<action>
+			<name>Sting</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<attack>Sting|4|5</attack>
+			<attack>Sting (poison)||3d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Star Spawn Mangler</name>
+		<size>M</size>
+		<type>aberration</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>chaotic evil</alignment>
+		<ac>14</ac>
+		<hp>71 (13d8+13)</hp>
+		<speed>40 ft., climb 40 ft.</speed>
+		<str>8</str>
+		<dex>18</dex>
+		<con>12</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<save>Dex +7, Con +4</save>
+		<skill>Stealth +7</skill>
+		<resist>cold</resist>
+		<vulnerable />
+		<immune>psychic</immune>
+		<conditionImmune>charmed, frightened, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Deep Speech</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Ambush</name>
+			<text>On the first round of each combat, the mangler has advantage on attack rolls against a creature that hasn't taken a turn yet.</text>
+		</trait>
+		<trait>
+			<name>Shadow Stealth</name>
+			<text>While in dim light or darkness, the mangler can take the Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The mangler makes two claw attacks.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage. If the attack roll has advantage, the target also takes 7 (2d6) psychic damage.</text>
+			<attack>Claw|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Flurry of Claws (Recharge 4_6)</name>
+			<text>The mangler makes six claw attacks against one target. Either before or after these attacks, it can move up to its speed as a bonus action without provoking opportunity attacks.</text>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Statue of Talos</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>147 (14d10 + 70)</hp>
+		<speed>30 ft., fly 60 ft.</speed>
+		<str>19</str>
+		<dex>11</dex>
+		<con>20</con>
+		<int>6</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<save>Wis +4</save>
+		<skill>Perception +4</skill>
+		<vulnerable></vulnerable>
+		<resist>bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, petrified, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Terran</languages>
+		<cr>10</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the statue remains motionless, it is indistinguishable from an inanimate statue.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The statue makes five attacks: one with its headbutt and four with its lightning bolt blades.</text>
+		</action>
+		<action>
+			<name>Headbutt</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Headbutt|8|2d6+4</attack>
+		</action>
+		<action>
+			<name>Lightning Bolt Blades</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.</text>
+			<attack>Lightning Bolt Blades|8|2d4+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Swashbuckler</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any non-lawful alignment</alignment>
+		<ac>17 (leather armor)</ac>
+		<hp>66 (12d8+12)</hp>
+		<speed>30 ft.</speed>
+		<str>12</str>
+		<dex>18</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>11</wis>
+		<cha>15</cha>
+		<save />
+		<skill>Acrobatics +8, Athletics +5, Persuasion +6</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Lightfooted</name>
+			<text>The swashbuckler can take the Dash or Disengage action as a bonus action on each of its turns.</text>
+		</trait>
+		<trait>
+			<name>Suave Defense</name>
+			<text>While the swashbuckler is wearing light or no armor and wielding no shield, its AC includes its Charisma modifier.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The swashbuckler makes three attacks: one with a dagger and two with its rapier.</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4+4) piercing damage.</text>
+			<attack>Dagger|6|1d4+4</attack>
+		</action>
+		<action>
+			<name>Rapier</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<attack>Rapier|6|1d8+4</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Tooth-N-Claw</name>
+		<size>M</size>
+		<type>fiend</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>45 (7d8 + 14)</hp>
+		<speed>50 ft.</speed>
+		<str>17</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>6</int>
+		<wis>13</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill>Perception +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>cold</immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>15</passive>
+		<languages>understands Infernal but can’t speak it</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Keen Hearing and Smell</name>
+			<text>Tooth-N-Claw has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>Tooth-N-Claw has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn’t incapacitated.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) cold damage.</text>
+			<attack>Bite|5|1d8+3+2d6</attack>
+		</action>
+		<action>
+			<name>Freezing Breath (Recharge 5-6)</name>
+			<text>Tooth-N-Claw exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) cold damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Freezing Breath||6d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Alkilith</name>
+		<size>M</size>
+		<type>fiend (demon)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>157 (15d8+90)</hp>
+		<speed>40 ft.</speed>
+		<str>12</str>
+		<dex>19</dex>
+		<con>22</con>
+		<int>6</int>
+		<wis>11</wis>
+		<cha>7</cha>
+		<save>Dex +8, Con +10</save>
+		<skill>Stealth +8</skill>
+		<resist>acid, cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>charmed, frightened, poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>understands Abyssal but can't speak</languages>
+		<cr>11</cr>
+		<trait>
+			<name>Amorphous</name>
+			<text>The alkilith can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the alkilith is motionless, it is indistinguishable from an ordinary slime or fungus.</text>
+		</trait>
+		<trait>
+			<name>Foment Madness</name>
+			<text>Any creature that isn't a demon that starts its turn within 30 feet of the alkilith must succeed on a DC 18 Wisdom saving throw, or it hears a faint buzzing in its head for a moment and has disadvantage on its next attack roll, saving throw, or ability check.</text>
+			<text>If the saving throw against Foment Madness fails by 5 or more, the creature is instead subjected to the confusion spell for 1 minute (no concentration required by the alkilith). While under the effect of that confusion, the creature is immune to Foment Madness.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The alkilith has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The alkilith makes three tentacle attacks.</text>
+		</action>
+		<action>
+			<name>Tentacle</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 18 (4d6 + 4) acid damage.</text>
+			<attack>Tentacle|8|4d6+4</attack>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Assassin Vine</name>
+		<size>L</size>
+		<type>plant</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>85 (10d10 + 30)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>10</dex>
+		<con>16</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>1</cha>
+		<save />
+		<skill />
+		<resist>cold, fire</resist>
+		<immune />
+		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
+		<vulnerable />
+		<senses>blindsight 30 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the assassin vine remains motionless, it is indistinguishable from a normal plant.</text>
+		</trait>
+		<action>
+			<name>Constrict</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 20 ft., one creature. Hit: The target takes 11 (2d6 + 4) bludgeoning damage, and It is grappled (escape DC 14). Until this grapple ends, the target is restrained, and it takes 21 (6d6) poison damage at the start of each of its turns. The vine can constrict only one target at a time.</text>
+			<attack>Constrict|6|2d6+4</attack>
+			<attack>Poison Damage||6d6</attack>
+		</action>
+		<action>
+			<name>Entangling Vines</name>
+			<text>The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Bard</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any alignment</alignment>
+		<ac>15 (chain shirt)</ac>
+		<hp>44 (8d8+8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<save>Dex +4, Wis +3</save>
+		<skill>Acrobatics +4, Perception +5, Performance +6</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>15</passive>
+		<languages>any two languages</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:</text>
+			<text>Cantrips (at will): friends, mage hand, vicious mockery</text>
+			<text>1st level (4 slots): charm person, healing word, heroism, sleep, thunderwave</text>
+			<text>2nd level (3 slots): invisibility, shatter</text>
+		</trait>
+		<trait>
+			<name>Song of Rest</name>
+			<text>The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra ld6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well.</text>
+		</trait>
+		<trait>
+			<name>Taunt (2/day)</name>
+			<text>The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one: target. Hit: 5 (1d6+2) piercing damage.</text>
+			<attack>Shortbow|4|1d6+2</attack>
+		</action>
+		<spells>Friends, Mage Hand, Vicious Mockery, Charm Person, Healing Word, Heroism, Sleep, Thunderwave, Invisibility, Shatter</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Claugiyliamatar</name>
+		<size>G</size>
+		<type>dragon</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>21 (natural armor)</ac>
+		<hp>385 (22d20+154)</hp>
+		<speed>40 ft., fly 80 ft., swim 40 ft.</speed>
+		<str>27</str>
+		<dex>12</dex>
+		<con>25</con>
+		<int>20</int>
+		<wis>17</wis>
+		<cha>19</cha>
+		<save>Dex +8, Con +14, Wis +10, Cha +11</save>
+		<skill>Deception +11, Insight +10, Perception +17, Persuasion +11, Stealth +8</skill>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>27</passive>
+		<languages>Common, Draconic</languages>
+		<cr>23</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The dragon can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Claugiyliamatar’s spellcasting ability is Charisma (spell save DC 19). She can innately cast the following spells, requiring no material components:</text>
+			<text>1/day each: invisibility, legend lore, protection from energy, true seeing</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Claugiyliamatar is an 8th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 18; +10 to hit with spell attacks). She has the following druid spells prepared:</text>
+			<text>Cantrips (at will): druidcraft, mending, produce flame</text>
+			<text>1st level (4 slots): cure wounds, detect magic, entangle, speak with animals</text>
+			<text>2nd level (3 slots): animal messenger, pass without trace</text>
+			<text>3rd level (3 slots): dispel magic, plant growth</text>
+			<text>4th level (2 slots): blight, locate creature, stoneskin</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
+		<spells>Druidcraft, Mending, Produce Flame, Cure Wounds, Detect Magic, Entangle, Speak with Animals, Animal Messenger, Pass without Trace, Dispel Magic, Plant Growth, Blight, Locate Creature, Stoneskin</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 10 (3d6) poison damage.</text>
+			<attack>Bite|15|2d10+8+3d6</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 22 (4d6 + 8) slashing damage.</text>
+			<attack>Claw|15|4d6+8</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.</text>
+			<attack>Tail|15|2d8+8</attack>
+		</action>
+		<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+		</action>
+		<action>
+			<name>Poison Breath (Recharge 5-6)</name>
+			<text>The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Poison Breath||22d6</attack>
+		</action>
+		<legendary>
+			<name>Detect</name>
+			<text>The dragon makes a Wisdom (Perception) check.</text>
+		</legendary>
+		<legendary>
+			<name>Tail Attack</name>
+			<text>The dragon makes a tail attack.</text>
+		</legendary>
+		<legendary>
+			<name>Wing Attack (Costs 2 Actions)</name>
+			<text>The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Deathlock Mastermind</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>110 (20d8+20)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>15</int>
+		<wis>12</wis>
+		<cha>17</cha>
+		<save>Int +5, Cha +6</save>
+		<skill>Arcana +5, History +5, Perception +4</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 120 ft. (including magical darkness)</senses>
+		<passive>14</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A deathlock doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The deathlock's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:</text>
+			<text>At will: detect magic, disguise self, mage armor.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
+			<text />
+			<text>Cantrips (at will): chill touch, mage hand, minor illusion, poison spray</text>
+			<text>1st–5th level (2 5th-level slots): arms of Hadar, blight, counterspell, crown of madness, darkness, dimension door, dispel magic, fly, hold monster, invisibility</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>The deathlock has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<trait>
+			<name>Variant: Patron-Specific Spells</name>
+			<text>You can customize a deathlock mastermind by replacing some or all of the spells in its Spellcasting trait with spells specific to its patron. Here are examples.</text>
+			<text />
+			<text>Archfey patron: blink, dominate beast, dominate person, faerie fire, greater invisibility, hunger of Hadar, hypnotic pattern, phantasmal force, seeming, sleep</text>
+			<text />
+			<text>Fiend patron: blindness/deafness, burning hands, command, fire shield, fireball, flame strike, hellish rebuke, scorching ray, stinking cloud, wall of fire</text>
+			<text />
+			<text>Great Old One patron: clairvoyance, detect thoughts, dissonant whispers, dominate person, Evard's black tentacles, hunger of Hadar, phantasmal force, sending, Tasha's tasha's hideous laughter, telekinesis</text>
+		</trait>
+		<action>
+			<name>Deathly Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3 necrotic damage).</text>
+			<attack>Deathly Claw|6|3d6+3</attack>
+		</action>
+		<action>
+			<name>Grave Bolts</name>
+			<text>Ranged Spell Attack: +6 to hit, range 120 ft., one or two targets. Hit: 18 (4d8) necrotic damage. If the target is Large or smaller, it must succeed on a DC 16 Strength saving throw or become restrained as shadowy tendrils wrap around it for 1 minute. A restrained target can use its action to repeat the saving throw, ending the effect on itself on a success.</text>
+			<text />
+			<text>Restrained:</text>
+			<text>• A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
+			<text />
+			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<attack>Grave Bolts|6|4d8</attack>
+		</action>
+		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility</spells>
+		<slots>0,0,0,0,2</slots>
+	</monster>
+	<monster>
+		<name>Giant Skeleton</name>
+		<size>H</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>115 (10d12 + 50)</hp>
+		<speed>30 ft.</speed>
+		<str>21</str>
+		<dex>10</dex>
+		<con>20</con>
+		<int>4</int>
+		<wis>6</wis>
+		<cha>6</cha>
+		<vulnerable>bludgeoning</vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>understands Giant but can’t speak</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Evasion</name>
+			<text>If the skeleton is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The skeleton has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Turn Immunity</name>
+			<text>The skeleton is immune to effects that turn undead.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The skeleton makes three scimitar attacks.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) slashing damage.</text>
+			<attack>Scimitar|8|3d6+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Greater Zombie</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>97 (13d8+39)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>4</int>
+		<wis>6</wis>
+		<cha>6</cha>
+		<save>Wis + 1</save>
+		<skill />
+		<resist>cold, necrotic</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>understands the languages it knew in life but can't speak</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Source</name>
+			<text>Tales from the Yawning Portal,  page 237</text>
+		</trait>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A zombie doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>The zombie has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The zombie makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Empowered Slam</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage.</text>
+			<attack>Empowered Slam|7|1d6+4</attack>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Master Thief</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any alignment</alignment>
+		<ac>16 (studded leather armor)</ac>
+		<hp>83 (13d8+26)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<save>Dex +7, Int +3</save>
+		<skill>Acrobatics +7, Athletics +3, Perception +3, Sleight of Hand +7, Stealth +7</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>13</passive>
+		<languages>any one language (usually Common) plus thieves' cant</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack| |4d6</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The thief makes three attacks with its shortsword.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Shortsword|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Light Crossbow</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<attack>Light Crossbow|7|1d8+4</attack>
+		</action>
+		<reaction>
+			<name>Uncanny Dodge</name>
+			<text>The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker.</text>
+		</reaction>
+		<spells />
+	</monster>
+	<monster>
+		<name>Sahuagin Blademaster</name>
+		<size>M</size>
+		<type>humanoid (sahuagun)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>20 (plate armor and shield)</ac>
+		<hp>97 (15d8 + 30)</hp>
+		<speed>30 ft., swim 40 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>12</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<save>Str +6, Con +5</save>
+		<skill>Athletics +6, Intimidation +4</skill>
+		<vulnerable />
+		<resist />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Sahuagin</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Blood Frenzy</name>
+			<text>The blademaster has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		</trait>
+		<trait>
+			<name>Limited Amphibiousness</name>
+			<text>The blademaster can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</text>
+		</trait>
+		<trait>
+			<name>Shark Telepathy</name>
+			<text>The blademaster can magically command any shark within 120 feet of it, using a limited tele pathy.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The blademaster makes three attacks with its wavecutter blade, or one attack with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Wavecutter Blade</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</text>
+			<attack>Wavecutter Blade|5|2d8+3</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</text>
+			<attack>Bite|6|1d10+3</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
+			<attack>Claws|6|1d8+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Sahuagin High Priestess</name>
+		<size>M</size>
+		<type>humanoid (sahuagin)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>71 (11d8 + 22)</hp>
+		<speed>30 ft., swim 40 ft.</speed>
+		<str>14</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>12</int>
+		<wis>15</wis>
+		<cha>10</cha>
+		<save>Wis +6</save>
+		<skill>Insight +6, Perception +6</skill>
+		<vulnerable />
+		<resist />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 120 ft.</senses>
+		<passive>16</passive>
+		<languages>Sahuagin</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Blood Frenzy</name>
+			<text>The high priestess has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		</trait>
+		<trait>
+			<name>Limited Amphibiousness</name>
+			<text>The high priestess can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</text>
+		</trait>
+		<trait>
+			<name>Shark Telepathy</name>
+			<text>The high priestess can magically command any shark within 120 feet of it, using a limited tele pathy.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The high priestess is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). She has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): guidance, mending, resistance, thaumaturgy</text>
+			<text>1st level (4 slots): bless, detect magic, guiding bolt</text>
+			<text>2nd level (3 slots): hold person, spiritual weapon (trident)</text>
+			<text>3rd level (3 slots): bestow curse, fear, mass healing word, tongues</text>
+			<text>4th level (1 slot): banishment</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,3,3,1,0,0,0,0,0</slots>
+		<spells>Guidance, Mending, Resistance, Thaumaturgy, Bless, Detect Magic, Guiding Bolt, Hold Person, Spiritual Weapon, Bestow Curse, Fear, Mass Healing Word, Tongues, Banishment</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The high priestess makes two attacks with her toothsome staff, or one attack with her bite and one with her claws.</text>
+		</action>
+		<action>
+			<name>Toothsome Staff</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.</text>
+			<attack>Toothsome Staff|5|2d8+2</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Bite|5|1d4+2</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +5 to hit. reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claws|5|1d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Sword Wraith Commander</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>18 (breastplate, shield)</ac>
+		<hp>127 (15d8+60)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>18</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>14</cha>
+		<save />
+		<skill>Perception +4</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, frightened, poisoned, unconscious</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A sword wraith doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Martial Fury</name>
+			<text>As a bonus action, the sword wraith can make one weapon attack, which deals an extra 9 (2d8) necrotic damage on a hit. If it does so, attack rolls against it have advantage until the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Turning Defiance</name>
+			<text>The sword wraith and any other sword wraiths within 30 feet of it have advantage on saving throws against effects that turn undead.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The sword wraith makes two weapon attacks.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
+			<attack>Longsword|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>Longbow|5|1d8+2</attack>
+		</action>
+		<action>
+			<name>Call to Honor (1/Day)</name>
+			<text>To use this action, the sword wraith must have taken damage during the current combat. If the sword wraith can use this action, it gives itself advantage on attack rolls until the end of its next turn, and 1d4 + 1 sword wraith warriors appear in unoccupied spaces within 30 feet of it. The warriors last until they drop to 0 hit points, and they take their turns immediately after the commander's turn on the same initiative count.</text>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Sword Wraith Warrior</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>16 (chain shirt, shield)</ac>
+		<hp>45 (6d8+18)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>12</dex>
+		<con>17</con>
+		<int>6</int>
+		<wis>9</wis>
+		<cha>10</cha>
+		<save />
+		<skill />
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, frightened, poisoned, unconscious</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A sword wraith doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Martial Fury</name>
+			<text>As a bonus action, the sword wraith can make one weapon attack. If it does so, attack rolls against it have advantage until the start of its next turn.</text>
+		</trait>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
+			<attack>Longsword|6|1d8+4</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+			<attack>Longbow|3|1d8+1</attack>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>War Priest</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any alignment</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>17</wis>
+		<cha>13</cha>
+		<save>Con +6, Wis +7</save>
+		<skill>Intimidation +5, Religion +4</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>13</passive>
+		<languages>any two languages</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): light, mending, sacred flame, spare the dying</text>
+			<text>1st level (4 slots): divine favor, guiding bolt, healing word, shield of faith</text>
+			<text>2nd level (3 slots): lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon</text>
+			<text>3rd level (3 slots): beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water walk</text>
+			<text>4th level (3 slots): banishment, freedom of movement, guardian of faith, stoneskin</text>
+			<text>5th level (1 slot): flame strike, mass cure wounds, hold monster</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The priest makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Maul</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 +3) bludgeoning damage.</text>
+			<attack>Maul|7|2d6 +3</attack>
+		</action>
+		<reaction>
+			<name>Guided Strike (Recharges after a Short or Long Rest)</name>
+			<text>The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses.</text>
+		</reaction>
+		<spells>Light, Mending, Sacred Flame, Spare the Dying, Divine Favor, Guiding Bolt, Healing Word, Shield of Faith, Lesser Restoration, Magic Weapon, Prayer of Healing, Silence, Spiritual Weapon, Beacon of Hope, Crusader's Mantle, Dispel Magic, Revivify, Spirit Guardians, Water Walk, Banishment, Freedom of Movement, Guardian of Faith, Stoneskin, Flame Strike, Mass Cure Wounds, Hold Monster</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Wood Woad</name>
+		<size>M</size>
+		<type>plant</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful neutral</alignment>
+		<ac>18 (natural armor, shield)</ac>
+		<hp>75 (10d8+30)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>18</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>10</int>
+		<wis>13</wis>
+		<cha>8</cha>
+		<save />
+		<skill>Athletics +7, Perception +4, Stealth +4</skill>
+		<resist>bludgeoning, piercing</resist>
+		<vulnerable>fire</vulnerable>
+		<immune />
+		<conditionImmune>charmed, frightened</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Sylvan</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Magic Club</name>
+			<text>In the wood woad's hand, its club is magical and deals 7 (3d4) extra damage (included in its attacks).</text>
+		</trait>
+		<trait>
+			<name>Plant Camouflage</name>
+			<text>The wood woad has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>The wood woad regains 10 hit points at the start of its turn if it is in contact with the ground. If the wood woad takes fire damage, this trait doesn't function at the start of the wood woad's next turn. The wood woad dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<trait>
+			<name>Tree Stride</name>
+			<text>Once on each of its turns, the wood woad can use 10 feet of its movement to step magically into one living tree within 5 feet of it and emerge from a second living tree within 60 feet of it that it can see, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The wood woad makes two attacks with its club.</text>
+		</action>
+		<action>
+			<name>Club</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (4d4+4) bludgeoning damage.</text>
+			<attack>Club|7|4d4+4</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Blackguard</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any non-good alignment</alignment>
+		<ac>18 (plate)</ac>
+		<hp>153 (18d8+72)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>11</dex>
+		<con>18</con>
+		<int>11</int>
+		<wis>14</wis>
+		<cha>15</cha>
+		<save>Wis +5, Cha +5</save>
+		<skill>Athletics +7, Deception +5, Intimidation +5</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>12</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 33, +5 to hit with spell attacks). It has the following paladin spells prepared:</text>
+			<text>1st level (4 slots): command, protection from evil and good, thunderous smite</text>
+			<text>2nd level (3 slots): branding smite, find steed</text>
+			<text>3rd level (2 slots): blinding smite, dispel magic</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The blackguard makes three attacks with its glaive or its shortbow.</text>
+		</action>
+		<action>
+			<name>Glaive</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10+4) slashing damage.</text>
+			<attack>Glaive|7|1d10+4</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<attack>Shortbow|3|1d6+2</attack>
+		</action>
+		<action>
+			<name>Dreadful Aspect (Recharges after a Short or Long Rest)</name>
+			<text>The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the tar get can repeat the saving throw, ending the effect on itself on a success.</text>
+		</action>
+		<spells>Command, Protection from Evil and Good, Thunderous Smite, Branding Smite, Find Steed, Blinding Smite, Dispel Magic</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Boneclaw</name>
+		<size>L</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>127 (17d10+34)</hp>
+		<speed>40 ft.</speed>
+		<str>19</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>13</int>
+		<wis>15</wis>
+		<cha>9</cha>
+		<save>Dex +7, Con +6, Wis +6</save>
+		<skill>Perception +6, Stealth +7</skill>
+		<resist>cold, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>16</passive>
+		<languages>Common plus the main language of its master</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A boneclaw doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Rejuvenation</name>
+			<text>While its master lives, a destroyed boneclaw gains a new body in 1d10 hours, with all its hit points. The new body appears within 1 mile of the boneclaw's master.</text>
+		</trait>
+		<trait>
+			<name>Shadow Stealth</name>
+			<text>While in dim light or darkness, the boneclaw can take the Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The boneclaw makes two claw attacks.</text>
+		</action>
+		<action>
+			<name>Piercing Claw</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 20 (3d10 + 4) piercing damage. If the target is a creature, the boneclaw can pull the target up to 10 feet toward itself, and the target is grappled (escape DC 14). The boneclaw has two claws. While a claw grapples a target, the claw can attack only that target.</text>
+			<text />
+			<text>Grappled:</text>
+			<text>• A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.</text>
+			<text />
+			<text>• The condition ends if the grappler is incapacitated.</text>
+			<text />
+			<text>• The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave spell.</text>
+			<attack>Piercing Claw|8|3d10+4</attack>
+		</action>
+		<action>
+			<name>Shadow Jump</name>
+			<text>If the boneclaw is in dim light or darkness, each creature of the boneclaw's choice within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 34 (5d12 + 2) necrotic damage.</text>
+			<text>The boneclaw then magically teleports up to 60 feet to an unoccupied space it can see. It can bring one creature it's grappling, teleporting that creature to an unoccupied space it can see within 5 feet of its destination. The destination spaces of this teleportation must be in dim light or darkness.</text>
+		</action>
+		<reaction>
+			<name>Deadly Reach</name>
+			<text>In response to a visible enemy moving into its reach, the boneclaw makes one claw attack against that enemy. If the attack hits, the boneclaw can make a second claw attack against the target.</text>
+			<attack />
+		</reaction>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Eidolon</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any alignment</alignment>
+		<ac>9</ac>
+		<hp>63 (18d8_18)</hp>
+		<speed>0 ft., fly 40 ft. (hover)</speed>
+		<str>7</str>
+		<dex>8</dex>
+		<con>9</con>
+		<int>14</int>
+		<wis>19</wis>
+		<cha>16</cha>
+		<save>Wis +8</save>
+		<skill>Perception +8</skill>
+		<resist>acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>cold, necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>18</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>An eidolon doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The eidolon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object other than a sacred statue.</text>
+		</trait>
+		<trait>
+			<name>Sacred Animation (Recharge 5-6)</name>
+			<text>When the eidolon moves into a space occupied by a sacred statue, the eidolon can disappear, causing the statue to become a creature under the eidolon's control. The eidolon uses the sacred statue's statistics in place of its own.</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>The eidolon has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<action>
+			<name>Divine Dread</name>
+			<text>Each creature within 60 feet of the eidolon that can see it must succeed on a DC 15 Wisdom saving throw or be frightened of it for 1 minute. While frightened in this way, the creature must take the Dash action and move away from the eidolon by the safest available route at the start of each of its turns, unless there is nowhere for it to move, in which case the creature also becomes stunned until it can move again. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to any eidolon's Divine Dread for the next 24 hours.</text>
+			<text />
+			<text>Frightened:</text>
+			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
+			<text />
+			<text>• The creature can't willingly move closer to the source of its fear.</text>
+			<text />
+			<text>Stunned:</text>
+			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
+			<text />
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage.</text>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Half-Blue Dragon Gladiator</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>any alignment</alignment>
+		<ac>16 (studded leather, shield)</ac>
+		<hp>112 (15d8 + 45)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>15</cha>
+		<save>Str +7, Dex +5, Con +6</save>
+		<skill>Athletics +10, Intimidation +5</skill>
+		<resist>lightning</resist>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Draconic, Any one language (usually Common)</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Brave</name>
+			<text>The gladiator has advantage on saving throws against being frightened.</text>
+		</trait>
+		<trait>
+			<name>Brute</name>
+			<text>A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack).</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gladiator makes three melee attacks or two ranged attacks.</text>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear (1H)|7|2d6+4</attack>
+			<attack>Spear (2H)|7|2d8+4</attack>
+		</action>
+		<action>
+			<name>Shield Bash</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
+			<attack>Shield Bash|7|2d4+4</attack>
+		</action>
+		<action>
+			<name>Lightning Breath (Recharge 5-6)</name>
+			<text>The half-blue dragon exhales lightning in a 30-­foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Lightning Breath||4d10</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Sacred Statue</name>
+		<size>L</size>
+		<type>construct</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>as the eidolon's alignment</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>95 (10d10+40)</hp>
+		<speed>25 ft.</speed>
+		<str>19</str>
+		<dex>8</dex>
+		<con>19</con>
+		<int>14</int>
+		<wis>19</wis>
+		<cha>16</cha>
+		<save>Wis +8</save>
+		<skill />
+		<resist>acid, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>cold, necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>the languages the eidolon knew in life</languages>
+		<cr>12</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the statue remains motionless, it is indistinguishable from a normal statue.</text>
+		</trait>
+		<trait>
+			<name>Ghostly Inhabitant</name>
+			<text>The eidolon that enters the sacred statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the dispel evil and good spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue.</text>
+		</trait>
+		<trait>
+			<name>Inert</name>
+			<text>When not inhabited by an eidolon, the statue is an object.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The statue makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 43 (6d12 + 4) bludgeoning damage.</text>
+			<attack>Slam|8|6d12+4</attack>
+		</action>
+		<action>
+			<name>Rock</name>
+			<text>Ranged Weapon Attack: +8 to hit, range 60 ft./240 ft., one target. Hit: 37 (6d10 + 4) bludgeoning damage.</text>
+			<attack>Rock|8|6d10+4</attack>
+		</action>
+		<spells />
+		<slots />
+	</monster>
+	<monster>
+		<name>Skeletal Swarm</name>
+		<size>L</size>
+		<type>swarm of medium undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful evil</alignment>
+		<ac>13 (armor scraps)</ac>
+		<hp>60 (8d10 + 16)</hp>
+		<speed>30 ft.</speed>
+		<str>12</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>6</int>
+		<wis>8</wis>
+		<cha>5</cha>
+		<save />
+		<skill />
+		<vulnerable>bludgeoning</vulnerable>
+		<resist>slashing, piercing</resist>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, restrained, stunned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>—</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Deafening Clatter</name>
+			<text>Creatures are deafened while in the swarm's space.</text>
+		</trait>
+		<trait>
+			<name>Swarm</name>
+			<text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Small humanoid. The swarm can't regain hit points or gain temporary hit points.</text>
+		</trait>
+		<action>
+			<name>Slash</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. Hit: 11 (2d8 + 2) slashing damage, or 6 (1d8 + 2) slashing damage if the swarm has half of its hit points or fewer.</text>
+			<attack>Slash|4|2d8+2</attack>
+			<attack>Slash (under 1/2hp)|4|1d8+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Lhammaruntosz</name>
+		<size>H</size>
+		<type>dragon</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>lawful good</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>212 (17d12+102)</hp>
+		<speed>40 ft., fly 80 ft., swim 40 ft.</speed>
+		<str>25</str>
+		<dex>10</dex>
+		<con>23</con>
+		<int>16</int>
+		<wis>15</wis>
+		<cha>19</cha>
+		<save>Dex +5, Con +11, Wis +7, Cha +9</save>
+		<skill>Insight +7, Perception +12, Stealth +5</skill>
+		<immune>lightning</immune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>22</passive>
+		<languages>Common, Draconic</languages>
+		<cr>16</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The dragon can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Lhammaruntosz’s spellcasting ability is Charisma (spell save DC 17). She can innately cast the following spells, requiring no material components:</text>
+			<text>1/day each: create food and water, detect thoughts, fog cloud, speak with animals</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>Lhammaruntosz regains 5 hit points at the start of her turn.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Lhammaruntosz is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 17; +9 to hit with spell attacks). She has the following sorcerer spells prepared:</text>
+			<text>Cantrips (at will): light, mage hand, mending</text>
+			<text>1st level (4 slots): charm person, detect magic, expeditious retreat, sleep</text>
+			<text>2nd level (3 slots): darkness, invisibility,suggestion</text>
+			<text>3rd level (3 slots): dispel magic, protection from energy</text>
+			<text>4th level (2 slots): dimension door, stoneskin</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
+		<spells>Create Food and Water, Detect Thoughts, Fog Cloud, Speak with Animals, Light, Mage Hand, Mending, Charm Person, Detect Magic, Expeditious Retreat, Sleep, Darkness, Invisibility, Suggestion, Dispel Magic, Protection from Energy, Dimension Door, Stoneskin</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage.</text>
+			<attack>Bite|12|2d10+7</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.</text>
+			<attack>Claw|12|2d6+7</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.</text>
+			<attack>Tail|12|2d8+7</attack>
+		</action>
+		<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+		</action>
+		<action>
+			<name>Breath Weapons (Recharge 5-6)</name>
+			<text>The dragon uses one of the following breath weapons.</text>
+			<text>Lightning Breath. The dragon exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Repulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 19 Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon.</text>
+			<attack>Lightning Breath||12d10</attack>
+		</action>
+		<legendary>
+			<name>Detect</name>
+			<text>The dragon makes a Wisdom (Perception) check.</text>
+		</legendary>
+		<legendary>
+			<name>Tail Attack</name>
+			<text>The dragon makes a tail attack.</text>
+		</legendary>
+		<legendary>
+			<name>Wing Attack (Costs 2 Actions)</name>
+			<text>The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+		</legendary>
+	</monster>
 </compendium>
