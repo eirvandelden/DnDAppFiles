@@ -63,10 +63,10 @@ class XMLCombiner(object):
     def remove_excludes_recursive(self, root):
         """Removes xml with excluded attributes (default [M, HB])
            this handles attributes on descendent nodes"""
-        if root.getchildren() is None:
+        if list(root) is None:
             return
 
-        for child in root.getchildren():
+        for child in list(root):
             if any(child.get(tag) for tag in args.excludes):
                 root.remove(child)
             else:
