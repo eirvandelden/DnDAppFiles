@@ -42,7 +42,9 @@
 		<class>
 			<id>1301</id>
 			<name>Fighter (Champion)</name>
+			<level>2</level>
 			<hd>3</hd>
+			<hdCurrent>2</hdCurrent>
 			<wealth>5d4x10</wealth>
 			<proficiency>103</proficiency>
 			<proficiency>2</proficiency>
@@ -92,6 +94,12 @@ Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
 				<name>Second Wind</name>
 				<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
 	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Action Surge</name>
+				<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+	Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
 				<expanded>0</expanded>
 			</feat>
 			<autolevel>
@@ -404,6 +412,7 @@ This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as su
 			<proficiency>101</proficiency>
 			<proficiency>117</proficiency>
 		</background>
+		<xp>300</xp>
 		<unarmed>1</unarmed>
 		<money>70.0</money>
 		<slots>0,0,0,0,0,0,0,0,0,0,</slots>
@@ -418,6 +427,12 @@ This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as su
 			<label>Second Wind</label>
 			<type>2</type>
 			<formula>1d10+%7</formula>
+		</tracker>
+		<tracker>
+			<label>Action Surge</label>
+			<resetType>1</resetType>
+			<value>1</value>
+			<formula>1</formula>
 		</tracker>
 		<item>
 			<name>Leather Armor</name>
@@ -664,7 +679,7 @@ Source: Player&#39;s Handbook, page 143</text>
 			<text>Fighters are the most diverse class of characters in the worlds of DUNGEONS &amp; DRAGONS. Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings-as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face. </text>
 		</note>
 		<abilities>14,16,14,10,12,8,</abilities>
-		<hpMax>12</hpMax>
-		<hpCurrent>12</hpCurrent>
+		<hpMax>20</hpMax>
+		<hpCurrent>20</hpCurrent>
 	</character>
 </pc>
