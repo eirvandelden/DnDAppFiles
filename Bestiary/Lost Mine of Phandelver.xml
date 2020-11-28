@@ -198,4 +198,812 @@
 			<text>When an attacker hits Sildar with a melee attack and Sildar can see the attacker, he can roll 1d6 and add the number rolled to his AC against the triggering attack, provided that he's wielding a melee weapon.</text>
 		</reaction>
 	</monster>
+
+<!-- Repeated monsters -->
+	<monster>
+		<name>Bugbear</name>
+		<size>M</size>
+		<type>humanoid (goblinoid)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (hide armor, shield)</ac>
+		<hp>27 (5d8+5)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>8</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<skill>Stealth +6, Survival +2</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Goblin</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Brute</name>
+			<text>A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).</text>
+		</trait>
+		<trait>
+			<name>Surprise Attack</name>
+			<text>If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</text>
+			<attack>Surprise Attack||2d6</attack>
+		</trait>
+		<action>
+			<name>Morningstar</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.</text>
+			<attack>Morningstar|4|2d8+2</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.</text>
+			<attack>Melee|4|2d6+2</attack>
+			<attack>Ranged|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Commoner</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any alignment</alignment>
+		<ac>10</ac>
+		<hp>4 (1d8)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>10</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>0</cr>
+		<action>
+			<name>Club</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
+			<attack>Club|2|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Cultist</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any non-good alignment</alignment>
+		<ac>12 (leather armor)</ac>
+		<hp>9 (2d8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Deception +2, Religion +2</skill>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>Dark Devotion</name>
+			<text>The cultist has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Doppelganger</name>
+		<size>M</size>
+		<type>monstrosity (shapechanger)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>14</ac>
+		<hp>52 (8d8+16)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>14</cha>
+		<skill>Deception +6, Insight +3</skill>
+		<immune>charmed</immune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Common</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<trait>
+			<name>Ambusher</name>
+			<text>In the first round of a combat, the doppelganger has advantage on attack rolls against any creature it surprised</text>
+		</trait>
+		<trait>
+			<name>Surprise Attack</name>
+			<text>If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.</text>
+			<attack>Surprise Attack||3d6</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The doppelganger makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage.</text>
+			<attack>Slam|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Read Thoughts</name>
+			<text>The doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Flameskull</name>
+		<size>T</size>
+		<type>undead</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>40 (9d4+18)</hp>
+		<speed>0 ft., fly 40 ft. It can hover.</speed>
+		<str>1</str>
+		<dex>17</dex>
+		<con>14</con>
+		<int>16</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<skill>Arcana +5, Perception +2</skill>
+		<resist>lightning, necrotic, piercing</resist>
+		<immune>cold, fire, poison</immune>
+		<conditionImmune>charmed, frightened, paralyzed, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Illumination</name>
+			<text>The flameskull sheds either dim light in a 15- foot radius, or bright light in a 15-foot radius and dim light for an additional 15 ft.. It can switch between the options as an action.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The flameskull has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Rejuvenation</name>
+			<text>If the flameskull is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): mage hand</text>
+			<text>1st level (3 slots): magic missile, shield</text>
+			<text>2nd level (2 slots): blur, flaming sphere</text>
+			<text>3rd level (1 slot): fireball</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The flameskull uses Fire Ray twice.</text>
+		</action>
+		<action>
+			<name>Fire Ray</name>
+			<text>Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 10 (3d6) fire damage.</text>
+			<attack>Fire Ray|5|3d6</attack>
+		</action>
+		<spells>Mage Hand, Magic Missile, Shield, Blur, Flaming Sphere, Fireball</spells>
+		<slots>3,2,1,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Ghoul</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic evil</alignment>
+		<ac>12</ac>
+		<hp>22 (5d8)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>15</dex>
+		<con>10</con>
+		<int>7</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common</languages>
+		<cr>1</cr>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage.</text>
+			<attack>Bite|2|2d6+2</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Claws|4|2d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Giant Spider</name>
+		<size>L</size>
+		<type>beast</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>26 (4d10+4)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>14</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>2</int>
+		<wis>11</wis>
+		<cha>4</cha>
+		<skill>Stealth +7</skill>
+		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<cr>1</cr>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<name>Web Sense</name>
+			<text>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</text>
+		</trait>
+		<trait>
+			<name>Web Walker</name>
+			<text>The spider ignores movement restrictions caused by webbing.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<attack>Bite|5|1d8+3</attack>
+		</action>
+		<action>
+			<name>Web (Recharge 5-6)</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</text>
+			<attack>Web|5|0</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Goblin</name>
+		<size>S</size>
+		<type>humanoid (goblinoid)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>15 (leather armor, shield)</ac>
+		<hp>7 (2d6)</hp>
+		<speed>30 ft.</speed>
+		<str>8</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>8</wis>
+		<cha>8</cha>
+		<skill>Stealth +6</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>Common, Goblin</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Nimble Escape</name>
+			<text>The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</text>
+		</trait>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
+			<attack>Scimitar|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortbow|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Grick</name>
+		<size>M</size>
+		<type>monstrosity</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>27 (6d8)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>14</str>
+		<dex>14</dex>
+		<con>11</con>
+		<int>3</int>
+		<wis>14</wis>
+		<cha>5</cha>
+		<resist>bludgeoning, piercing, and slashing damage from nonmagical weapons</resist>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<cr>2</cr>
+		<trait>
+			<name>Stone Camouflage</name>
+			<text>The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target.</text>
+		</action>
+		<action>
+			<name>Tentacles</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</text>
+			<attack>Tentacles|4|2d6+2</attack>
+		</action>
+		<action>
+			<name>Beak</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Beak|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Hobgoblin</name>
+		<size>M</size>
+		<type>humanoid (goblinoid)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>18 (chain mail, shield)</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>9</cha>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Goblin</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Martial Advantage</name>
+			<text>Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the hobgoblin that isn't incapacitated.</text>
+			<attack>Martial Advantage||2d6</attack>
+		</trait>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.</text>
+			<attack>Longsword|3|1d8+1</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+			<attack>Longbow|3|1d8+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Nothic</name>
+		<size>M</size>
+		<type>aberration</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>45 (6d8+18)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>13</int>
+		<wis>10</wis>
+		<cha>8</cha>
+		<skill>Arcana +3, Insight +4, Perception +2, Stealth +5</skill>
+		<senses>truesight 120 ft.</senses>
+		<passive>12</passive>
+		<languages>Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Keen Sight</name>
+			<text>The nothic has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The nothic makes two claw attacks.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Claw|4|1d6+3</attack>
+		</action>
+		<action>
+			<name>Rotting Gaze</name>
+			<text>The nothic targets one creature it can see within 30 ft. of it. The target must succeed on a DC 12 Constitution saving throw against this magic or take 10 (3d6) necrotic damage.</text>
+			<attack>Rotting Gaze||3d6</attack>
+		</action>
+		<action>
+			<name>Weird Insight</name>
+			<text>The nothic targets one creature it can see within 30 ft. of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being charmed.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Ochre Jelly</name>
+		<size>L</size>
+		<type>ooze</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>8</ac>
+		<hp>45 (6d10+12)</hp>
+		<speed>10 ft., climb 10 ft.</speed>
+		<str>15</str>
+		<dex>6</dex>
+		<con>14</con>
+		<int>2</int>
+		<wis>6</wis>
+		<cha>1</cha>
+		<resist>acid</resist>
+		<immune>lightning, slashing</immune>
+		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, prone</conditionImmune>
+		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+		<passive>8</passive>
+		<cr>2</cr>
+		<trait>
+			<name>Amorphous</name>
+			<text>The jelly can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The jelly can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 3 (1d6) acid damage.</text>
+			<attack>Pseudopod|4|2d6+2+1d6</attack>
+		</action>
+		<reaction>
+			<name>Split</name>
+			<text>When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jellies if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly's, rounded down. New jellies are one size smaller than the original jelly.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Ogre</name>
+		<size>L</size>
+		<type>giant</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic evil</alignment>
+		<ac>11 (hide armor)</ac>
+		<hp>59 (7d10+21)</hp>
+		<speed>40 ft.</speed>
+		<str>19</str>
+		<dex>8</dex>
+		<con>16</con>
+		<int>5</int>
+		<wis>7</wis>
+		<cha>7</cha>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>Common, Giant</languages>
+		<cr>2</cr>
+		<action>
+			<name>Greatclub</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</text>
+			<attack>Greatclub|6|2d8+4</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Javelin|6|2d6+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Orc</name>
+		<size>M</size>
+		<type>humanoid (orc)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>15 (2d8+6)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>7</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Intimidation +2</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Orc</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<action>
+			<name>Greataxe</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.</text>
+			<attack>Greataxe|5|1d12+3</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Javelin|5|1d6+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Owlbear</name>
+		<size>L</size>
+		<type>monstrosity</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>59 (7d10+21)</hp>
+		<speed>40 ft.</speed>
+		<str>20</str>
+		<dex>12</dex>
+		<con>17</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<skill>Perception +3</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<cr>3</cr>
+		<trait>
+			<name>Keen Sight and Smell</name>
+			<text>The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The owlbear makes two attacks: one with its beak and one with its claws.</text>
+		</action>
+		<action>
+			<name>Beak</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage.</text>
+			<attack>Beak|7|1d10+5</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</text>
+			<attack>Claws|7|2d8+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Skeleton</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>13 (armor scraps)</ac>
+		<hp>13 (2d8+4)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>6</int>
+		<wis>8</wis>
+		<cha>5</cha>
+		<vulnerable>bludgeoning</vulnerable>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>understands all languages it spoke in life but can't speak</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortbow|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Spectator</name>
+		<size>M</size>
+		<type>aberration</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>39 (6d8+12)</hp>
+		<speed>0 ft., fly 30 ft. (hover)</speed>
+		<str>8</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>13</int>
+		<wis>14</wis>
+		<cha>11</cha>
+		<skill>Perception +6</skill>
+		<conditionImmune>prone</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>16</passive>
+		<languages>Deep Speech, Undercommon, telepathy 120 ft.</languages>
+		<cr>3</cr>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) piercing damage.</text>
+			<attack>Bite|1|1d6-1</attack>
+		</action>
+		<action>
+			<name>Eye Rays</name>
+			<text>The spectator shoots up to two of the following magical eye rays at one or two creatures it can see within 90 ft. of it. It can use each ray only once on a turn.</text>
+			<text>1. Confusion Ray. The target must succeed on a DC 13 Wisdom saving throw, or it can't take reactions until the end of its next turn. On its turn, the target can't move, and it uses its action to make a melee or ranged attack against a randomly determined creature within range. If the target can't attack, it does nothing on its turn.</text>
+			<text>2. Paralyzing Ray. The target must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>3. Fear Ray. The target must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the spectator is visible to the target, ending the effect on itself on a success.</text>
+			<text>4. Wounding Ray. The target must make a DC 13 Constitution saving throw, taking 16 (3d10) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+		</action>
+		<action>
+			<name>Create Food and Water</name>
+			<text>The spectator magically creates enough food and water to sustain itself for 24 hours.</text>
+		</action>
+		<reaction>
+			<name>Spell Reflection</name>
+			<text>If the spectator makes a successful saving throw against a spell, or a spell attack misses it, the spectator can choose another creature (including the spellcaster) it can see within 30 ft. of it. The spell targets the chosen creature instead of the spectator. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Stirge</name>
+		<size>T</size>
+		<type>beast</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>2 (1d4)</hp>
+		<speed>10 ft., fly 40 ft.</speed>
+		<str>4</str>
+		<dex>16</dex>
+		<con>11</con>
+		<int>2</int>
+		<wis>8</wis>
+		<cha>6</cha>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<cr>1/8</cr>
+		<action>
+			<name>Blood Drain</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.</text>
+			<text>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</text>
+			<attack>Blood Drain|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Twig Blight</name>
+		<size>S</size>
+		<type>plant</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>4 (1d6+1)</hp>
+		<speed>20 ft.</speed>
+		<str>6</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>4</int>
+		<wis>8</wis>
+		<cha>3</cha>
+		<skill>Stealth +3</skill>
+		<vulnerable>fire</vulnerable>
+		<conditionImmune>blinded, deafened</conditionImmune>
+		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+		<passive>9</passive>
+		<languages>understands Common but can't speak</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the blight remains motionless, it is indistinguishable from a dead shrub.</text>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</text>
+			<attack>Claws|3|1d4+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Wolf</name>
+		<size>M</size>
+		<type>beast</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>40 ft.</speed>
+		<str>12</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<skill>Perception +3, Stealth +4</skill>
+		<passive>13</passive>
+		<cr>1/4</cr>
+		<trait>
+			<name>Keen Hearing and Smell</name>
+			<text>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<attack>Bite|4|2d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Young Green Dragon</name>
+		<size>L</size>
+		<type>dragon</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>136 (16d10+48)</hp>
+		<speed>40 ft., fly 80 ft., swim 40 ft.</speed>
+		<str>19</str>
+		<dex>12</dex>
+		<con>17</con>
+		<int>16</int>
+		<wis>13</wis>
+		<cha>15</cha>
+		<save>Dex +4, Con +6, Wis +4, Cha +5</save>
+		<skill>Deception +5, Perception +7, Stealth +4</skill>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>blindsight 30 ft., darkvision 120 ft.</senses>
+		<passive>17</passive>
+		<languages>Common, Draconic</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The dragon can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The dragon makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage.</text>
+			<attack>Bite|7|2d10+4+2d6</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
+			<attack>Claw|7|2d6+4</attack>
+		</action>
+		<action>
+			<name>Poison Breath (Recharge 5-6)</name>
+			<text>The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Poison Breath||12d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Zombie</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>8</ac>
+		<hp>22 (3d8+9)</hp>
+		<speed>20 ft.</speed>
+		<str>13</str>
+		<dex>6</dex>
+		<con>16</con>
+		<int>3</int>
+		<wis>6</wis>
+		<cha>5</cha>
+		<save>Wis +0</save>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>understands all languages it spoke in life but can't speak</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
+			<attack>Slam|3|1d6+1</attack>
+		</action>
+	</monster>
+
 </compendium>

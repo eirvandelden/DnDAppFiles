@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>37</version>
+		<uid>2171</uid>
+		<name>Barnacle</name>
+		<race>
+			<name>Locathah</name>
+			<age>43</age>
+			<height>6 ft.</height>
+			<weight>180 lbs.</weight>
+			<eyes>Yellow</eyes>
+			<skin>Olive Green</skin>
+			<hair>N/a</hair>
+			<feat>
+				<name>Natural Armor</name>
+				<text>You have tough, scaly skin. When you aren’t wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Observant &#38; Athletic</name>
+				<text>You have proficiency in the Athletics and Perception skills.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Leviathan Will</name>
+				<text>You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Limited Amphibiousness</name>
+				<text>You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Speed</name>
+				<text>Your base walking speed is 30 feet, and you have a swim speed of 30 feet.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Aquan and Common.</text>
+				<expanded>0</expanded>
+			</feat>
+			<mod>
+				<category>1</category>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>1</value>
+			</mod>
+			<proficiency>103</proficiency>
+			<proficiency>111</proficiency>
+		</race>
+		<class>
+			<id>1135</id>
+			<name>Fighter (Battle Master)</name>
+			<level>9</level>
+			<hd>3</hd>
+			<hdCurrent>9</hdCurrent>
+			<wealth>5d4x10</wealth>
+			<proficiency>106</proficiency>
+			<proficiency>0</proficiency>
+			<proficiency>100</proficiency>
+			<proficiency>117</proficiency>
+			<proficiency>2</proficiency>
+			<proficiency>107</proficiency>
+			<numClassSkills>2</numClassSkills>
+			<armor>light armor, medium armor, heavy armor, shields</armor>
+			<weapons>simple weapons, martial weapons</weapons>
+			<tools>none</tools>
+			<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+				
+Armor: light armor, medium armor, heavy armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.
+
+• (a) chain mail or (b) leather, longbow, and 20 arrows
+• (a) a martial weapon and a shield or (b) two martial weapons
+• (a) a light crossbow and 20 bolts or (b) two handaxes
+• (a) a dungeoneer&#39;s pack or (b) an explorer&#39;s pack
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Fighting Style</name>
+				<text>You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can&#39;t take the same Fighting Style option more than once, even if you get to choose again.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Fighting Style: Protection</name>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Second Wind</name>
+				<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Action Surge</name>
+				<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+	Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Martial Archetype</name>
+				<text>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Martial Archetype: Battle Master</name>
+				<text>Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Battle Master: Combat Superiority</name>
+				<text>When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.
+
+Maneuvers
+You learn three maneuvers of your choice, which are listed in the Fighter (Battle Master) spell list, as well as optional features. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
+	You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
+
+Superiority Dice
+You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+	You gain another superiority die at 7th level and one more at 15th level.
+
+Saving Throws
+Some of your maneuvers require your target to make a saving throw to resist the maneuver&#39;s effects. The saving throw DC is calculated as follows: Maneuver save DC = 8 + proficiency bonus + your Strength or Dexterity modifier (your choice)</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Battle Master: Student of War</name>
+				<text>At 3rd level, you gain proficiency with one type of artisan&#39;s tools of your choice.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Maneuver: Commander&#39;s Strike</name>
+				<text>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack&#39;s damage roll.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Maneuver: Evasive Footwork</name>
+				<text>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Maneuver: Lunging Attack</name>
+				<text>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack&#39;s damage roll.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Maneuver: Riposte</name>
+				<text>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack&#39;s damage roll.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Maneuver: Trip Attack</name>
+				<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack&#39;s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+	The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Battle Master: Additional Maneuvers</name>
+				<text>At 7th level, you learn two additional maneuvers of your choice, which are listed in the Fighter (Battle Master) spell list, as well as optional features at level 3.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Battle Master: Additional Superiority Die</name>
+				<text>You gain another superiority die at 7th level.</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Battle Master: Know Your Enemy</name>
+				<text>If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:
+• Strength score
+• Dexterity score
+• Constitution score
+• Armor Class
+• Current hit points
+• Total class levels (if any)
+• Fighter class levels (if any)</text>
+				<expanded>0</expanded>
+				<optional>1</optional>
+			</feat>
+			<feat>
+				<name>Indomitable</name>
+				<text>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can&#39;t use this feature again until you finish a long rest.
+	You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</text>
+				<expanded>0</expanded>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Starting Proficiencies</name>
+					<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+				
+Armor: light armor, medium armor, heavy armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</text>
+				</feat>
+				<feat>
+					<name>Starting Equipment</name>
+					<text>You start with the following items, plus anything provided by your background.
+
+• (a) chain mail or (b) leather, longbow, and 20 arrows
+• (a) a martial weapon and a shield or (b) two martial weapons
+• (a) a light crossbow and 20 bolts or (b) two handaxes
+• (a) a dungeoneer&#39;s pack or (b) an explorer&#39;s pack
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+				</feat>
+				<feat>
+					<name>Fighting Style</name>
+					<text>You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can&#39;t take the same Fighting Style option more than once, even if you get to choose again.</text>
+				</feat>
+				<feat>
+					<name>Fighting Style: Archery</name>
+					<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+					<optional>1</optional>
+					<special>0</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Defense</name>
+					<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+					<optional>1</optional>
+					<special>1</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Dueling</name>
+					<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+					<optional>1</optional>
+					<special>2</special>
+				</feat>
+				<feat>
+					<name>Fighting Style: Great Weapon Fighting</name>
+					<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+					</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Protection</name>
+					<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Two-Weapon Fighting</name>
+					<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+					<optional>1</optional>
+					<special>11</special>
+				</feat>
+				<feat>
+					<name>Second Wind</name>
+					<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				</feat>
+				<feat>
+					<name>Fighting Style: Close Quarters Shooter (UA)</name>
+					<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.
+
+This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.
+					</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Mariner (UA)</name>
+					<text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.
+
+This fighting style is from Unearthed Arcana: Waterborne Adventures, and as such may not be allowed in your game. Consult your DM before selecting this option.
+					</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Fighting Style: Tunnel Fighter (UA)</name>
+					<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.
+
+This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Action Surge</name>
+					<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+	Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Martial Archetype</name>
+					<text>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</text>
+				</feat>
+				<feat>
+					<name>Martial Archetype: Battle Master</name>
+					<text>Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Battle Master: Combat Superiority</name>
+					<text>When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.
+
+Maneuvers
+You learn three maneuvers of your choice, which are listed in the Fighter (Battle Master) spell list, as well as optional features. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
+	You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
+
+Superiority Dice
+You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+	You gain another superiority die at 7th level and one more at 15th level.
+
+Saving Throws
+Some of your maneuvers require your target to make a saving throw to resist the maneuver&#39;s effects. The saving throw DC is calculated as follows: Maneuver save DC = 8 + proficiency bonus + your Strength or Dexterity modifier (your choice)</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Battle Master: Student of War</name>
+					<text>At 3rd level, you gain proficiency with one type of artisan&#39;s tools of your choice.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Commander&#39;s Strike</name>
+					<text>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack&#39;s damage roll.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Disarming Attack</name>
+					<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it&#39;s holding. You add the superiority die to the attack&#39;s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Distracting Strike</name>
+					<text>When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack&#39;s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Evasive Footwork</name>
+					<text>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Feinting Attack</name>
+					<text>You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll this turn against that creature. If that attack hits, add the superiority die to the attack&#39;s damage roll.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Goading Attack</name>
+					<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack&#39;s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Lunging Attack</name>
+					<text>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack&#39;s damage roll.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Maneuvering Attack</name>
+					<text>When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack&#39;s damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Menacing Attack</name>
+					<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack&#39;s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Parry</name>
+					<text>When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Precision Attack</name>
+					<text>When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Pushing Attack</name>
+					<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack&#39;s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Rally</name>
+					<text>On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Riposte</name>
+					<text>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack&#39;s damage roll.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Sweeping Attack</name>
+					<text>When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Maneuver: Trip Attack</name>
+					<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack&#39;s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack</name>
+					<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+	The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Battle Master: Additional Maneuvers</name>
+					<text>At 7th level, you learn two additional maneuvers of your choice, which are listed in the Fighter (Battle Master) spell list, as well as optional features at level 3.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Battle Master: Additional Superiority Die</name>
+					<text>You gain another superiority die at 7th level.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Battle Master: Know Your Enemy</name>
+					<text>If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:
+• Strength score
+• Dexterity score
+• Constitution score
+• Armor Class
+• Current hit points
+• Total class levels (if any)
+• Fighter class levels (if any)</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Indomitable</name>
+					<text>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can&#39;t use this feature again until you finish a long rest.
+	You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Battle Master: Additional Maneuvers</name>
+					<text>At 10th level, you learn two additional maneuvers of your choice, which are listed in the Fighter (Battle Master) spell list, as well as optional features at level 3.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Battle Master: Improved Combat Superiority (d10)</name>
+					<text>At 10th level, your superiority dice turn into d10s.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack (2)</name>
+					<text>At 11th level, you can attack three times whenever you take the Attack action on your turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Indomitable (two uses)</name>
+					<text>At 13th level, you can use Indomitable twice between long rests.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Battle Master: Additional Maneuvers</name>
+					<text>At 15th level, you learn two additional maneuvers of your choice, which are listed in the Fighter (Battle Master) spell list, as well as optional features at level 3.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Battle Master: Additional Superiority Die</name>
+					<text>You gain another superiority die at 15th level.</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Battle Master: Relentless</name>
+					<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Action Surge (two uses)</name>
+					<text>At 17th level, you can use Action Surge twice before a rest, but only once on the same turn.</text>
+				</feat>
+				<feat>
+					<name>Indomitable (three uses)</name>
+					<text>At 17th level, you can use Indomitable three times between long rests.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Battle Master: Improved Combat Superiority (d12)</name>
+					<text>At 18th level, your superiority dice turn into d12s.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack (3)</name>
+					<text>At 20th level, you can attack four times whenever you take the Attack action on your turn.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>1</spellAbility>
+		</class>
+		<background>
+			<id>1419</id>
+			<name>Defender</name>
+			<align>Lawful Good</align>
+			<feat>
+				<name>Feature: Rustic Hospitality</name>
+				<text>Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.</text>
+				<expanded>0</expanded>
+			</feat>
+		</background>
+		<xp>48000</xp>
+		<unarmed>1</unarmed>
+		<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+		<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+		<item>
+			<name>Shield</name>
+			<text>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
+
+Source: Player&#39;s Handbook, page 144</text>
+			<type>4</type>
+			<slot>4</slot>
+			<value>10.0</value>
+			<weight>6.0</weight>
+			<ac>2</ac>
+		</item>
+		<item>
+			<name>Breastplate +1</name>
+			<text>Rarity: Rare
+	You have a +1 bonus to AC while wearing this armor.
+
+Source: Dungeon Master&#39;s Guide, page 152</text>
+			<type>2</type>
+			<slot>5</slot>
+			<weight>20.0</weight>
+			<magic>1</magic>
+			<ac>14</ac>
+		</item>
+		<item>
+			<name>Light Crossbow</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see &#34;Improvised Weapons&#34; later in the section). A sling must be loaded to deal any damage when used in this way.
+
+Loading: Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon&#39;s normal range in feet, and the second indicates the weapon&#39;s maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can&#39;t attack a target beyond the weapon&#39;s long range.
+
+Two-Handed: This weapon requires two hands to use.
+
+Source: Player&#39;s Handbook, page 149</text>
+			<type>6</type>
+			<value>25.0</value>
+			<weight>5.0</weight>
+			<damage1H>1d8</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>273</weaponProperty>
+			<weaponRange>80</weaponRange>
+			<weaponLongRange>320</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Trident +2</name>
+			<text>Rarity: Rare
+	You have a +2 bonus to attack and damage rolls made with this weapon.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon&#39;s normal range in feet, and the second indicates the weapon&#39;s maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can&#39;t attack a target beyond the weapon&#39;s long range
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property — the damage when the weapon is used with two hands to make a melee attack.
+
+Source: Dungeon Master&#39;s Guide, page 213</text>
+			<type>5</type>
+			<weight>4.0</weight>
+			<magic>1</magic>
+			<damage1H>1d6</damage1H>
+			<damage2H>1d8</damage2H>
+			<damageType>2</damageType>
+			<weaponProperty>640</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Crossbow Bolts</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+Source: Player&#39;s Handbook, page 150</text>
+			<type>7</type>
+			<quantity>20</quantity>
+			<value>0.05</value>
+			<weight>0.075</weight>
+		</item>
+		<item>
+			<name>Crossbow Bolt Case</name>
+			<text>This wooden case can hold up to twenty crossbow bolts.
+
+Source: Player&#39;s Handbook, page 151</text>
+			<value>1.0</value>
+			<weight>1.0</weight>
+		</item>
+		<container>
+			<label>Explorer&#39;s Pack</label>
+			<name>Backpack</name>
+			<value>10.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<item>
+				<name>Bedroll</name>
+				<weight>7.0</weight>
+			</item>
+			<item>
+				<name>Mess kit</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Rations (1 day)</name>
+				<quantity>10</quantity>
+				<weight>2.0</weight>
+			</item>
+			<item>
+				<name>Rope, hempen (50 feet)</name>
+				<weight>10.0</weight>
+			</item>
+			<item>
+				<name>Keoghtom&#39;s Ointment</name>
+				<text>Rarity: Uncommon
+This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound.
+As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.
+
+Source: Dungeon Master&#39;s Guide, page 179</text>
+				<type>14</type>
+				<magic>1</magic>
+				<roll>2d8+2</roll>
+			</item>
+		</container>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.2</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>10</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Proficiencies and Languages</name>
+			<text>Common, Aquan
+
+Smith’s tools, Weaver’s tools, Woodcarver’s tools</text>
+		</note>
+		<abilities>16,11,18,10,12,12,</abilities>
+		<hpMax>94</hpMax>
+		<hpCurrent>94</hpCurrent>
+	</character>
+</pc>
