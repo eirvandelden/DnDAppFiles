@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>37</version>
+		<uid>2167</uid>
+		<name>Human Cleric</name>
+		<race>
+			<name>Human</name>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
+				<expanded>0</expanded>
+			</feat>
+			<mod>
+				<category>1</category>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>2</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>3</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>4</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>1</value>
+			</mod>
+		</race>
+		<class>
+			<id>1260</id>
+			<name>Cleric (Order)</name>
+			<hd>2</hd>
+			<wealth>5d4x10</wealth>
+			<proficiency>5</proficiency>
+			<proficiency>105</proficiency>
+			<proficiency>113</proficiency>
+			<proficiency>106</proficiency>
+			<proficiency>4</proficiency>
+			<numClassSkills>2</numClassSkills>
+			<armor>light armor, medium armor, shields</armor>
+			<weapons>simple weapons</weapons>
+			<tools>none</tools>
+			<slots>3,2,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>3,2,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: light armor, medium armor, shields
+Weapons: simple weapons
+Tools: none
+Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.
+
+• (a) a mace or (b) a warhammer (if proficient)
+• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient)
+• (a) a light crossbow and 20 bolts or (b) any simple weapon
+• (a) a priest&#39;s pack or (b) an explorer&#39;s pack
+• A shield and a holy symbol
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Spellcasting</name>
+				<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for a selection of cleric spells.
+
+Cantrips
+At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.
+
+Preparing and Casting Spells
+The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell&#39;s level or higher. You regain all expended spell slots when you finish a long rest.
+	You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.
+	For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn&#39;t remove it from your list of prepared spells.
+	You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+
+Spellcasting Ability
+Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
+	Spell attack modifier = your proficiency bonus + your Wisdom modifier
+
+Ritual Casting
+You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.
+
+Spellcasting Focus
+You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Divine Domain</name>
+				<text>Choose one domain related to your deity: Arcana, Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed in their own feature, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
+
+Domain Spells
+Each domain has a list of spells-its domain spells-that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn&#39;t count against the number of spells you can prepare each day.
+	If you have a domain spell that doesn&#39;t appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
+				<expanded>0</expanded>
+			</feat>
+			<autolevel>
+				<slots>3,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Starting Proficiencies</name>
+					<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: light armor, medium armor, shields
+Weapons: simple weapons
+Tools: none
+Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+				</feat>
+				<feat>
+					<name>Starting Equipment</name>
+					<text>You start with the following items, plus anything provided by your background.
+
+• (a) a mace or (b) a warhammer (if proficient)
+• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient)
+• (a) a light crossbow and 20 bolts or (b) any simple weapon
+• (a) a priest&#39;s pack or (b) an explorer&#39;s pack
+• A shield and a holy symbol
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+				</feat>
+				<feat>
+					<name>Spellcasting</name>
+					<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for a selection of cleric spells.
+
+Cantrips
+At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.
+
+Preparing and Casting Spells
+The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell&#39;s level or higher. You regain all expended spell slots when you finish a long rest.
+	You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.
+	For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn&#39;t remove it from your list of prepared spells.
+	You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+
+Spellcasting Ability
+Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
+	Spell attack modifier = your proficiency bonus + your Wisdom modifier
+
+Ritual Casting
+You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.
+
+Spellcasting Focus
+You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
+				</feat>
+				<feat>
+					<name>Divine Domain</name>
+					<text>Choose one domain related to your deity: Arcana, Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed in their own feature, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
+
+Domain Spells
+Each domain has a list of spells-its domain spells-that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn&#39;t count against the number of spells you can prepare each day.
+	If you have a domain spell that doesn&#39;t appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
+				</feat>
+				<feat>
+					<name>Divine Domain Order</name>
+					<text>The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. On Ravnica, the domain is favored by clerics of the Azorius Senate, who use it to maintain and enforce the law, and of the Orzhov Syndicate, who exploit law and order for their personal gain. On other worlds, gods who grant access to this domain include Bane, Tyr, Majere, Erathis, Pholtus, Weejas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.
+The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action&#39;s results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their guilds or deities.
+Law establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.
+
+Order Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.
+
+1st - command, heroism
+
+3rd - hold person, zone of truth
+
+5th - mass healing word, slow
+
+7th - compulsion, locate creature
+
+9th - commune, dominate person</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Order Domain: Bonus Proficiencies</name>
+					<text>When you choose this domain at 1st level, you gain proficiency with heavy armor. You also gain proficiency in the Intimidation or Persuasion skill (your choice).</text>
+					<optional>1</optional>
+				</feat>
+				<feat>
+					<name>Voice of Authority</name>
+					<text>Starting at 1st level, you can invoke the power of law to drive an ally to attack. If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.
+	If the spell targets more than one ally, you choose the ally who can make the attack.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>3,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Channel Divinity</name>
+					<text>At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.
+	When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.
+	Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.
+	Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.</text>
+				</feat>
+				<feat>
+					<name>Channel Divinity: Turn Undead</name>
+					<text>As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+	A turned creature must spend its turns trying to move as far away from you as it can, and it can&#39;t willingly move to a space within 30 feet of you. It also can&#39;t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there&#39;s nowhere to move, the creature can use the Dodge action.</text>
+				</feat>
+				<feat>
+					<name>Order Domain Channel Divinity: Order&#39;s Demand</name>
+					<text>Starting at 2nd level, you can use your Channel Divinity to exert an intimidating presence over others.
+	As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving th row.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>3,4,2,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>4,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>4,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Destroy Undead (CR 1/2)</name>
+					<text>Starting at 5th level, when an undead of CR 1/2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>4,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Channel Divinity (2/rest)</name>
+					<text>Beginning at 6th level, you can use your Channel Divinity twice between rests.</text>
+				</feat>
+				<feat>
+					<name>Order Domain: Embodiment of the Law</name>
+					<text>At 6th level, you become remarkably adept at channeling magical energy to compel others.
+	If you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell&#39;s casting time to 1 bonus action for this casting, provided the spell&#39;s casting time is normally 1 action.
+	You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>4,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>4,4,3,3,2,0,0,0,0,0,</slots>
+				<feat>
+					<name>Destroy Undead (CR 1)</name>
+					<text>Starting at 8th level, when an undead of CR 1 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+				</feat>
+				<feat>
+					<name>Order Domain: Divine Strike</name>
+					<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra ld8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>4,4,3,3,3,1,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>5,4,3,3,3,2,0,0,0,0,</slots>
+				<feat>
+					<name>Divine Intervention</name>
+					<text>Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.
+	Imploring your deity&#39;s aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate. If your deity intervenes, you can&#39;t use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.
+	At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>5,4,3,3,3,2,1,0,0,0,</slots>
+				<feat>
+					<name>Destroy Undead (CR 2)</name>
+					<text>Starting at 11th level, when an undead of CR 2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>5,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>5,4,3,3,3,2,1,1,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>5,4,3,3,3,2,1,1,0,0,</slots>
+				<feat>
+					<name>Destroy Undead (CR 3)</name>
+					<text>Starting at 14th level, when an undead of CR 3 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>5,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>5,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>5,4,3,3,3,2,1,1,1,1,</slots>
+				<feat>
+					<name>Destroy Undead (CR 4)</name>
+					<text>Starting at 17th level, when an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+				</feat>
+				<feat>
+					<name>Order Domain: Order&#39;s Wrath</name>
+					<text>Starting at J7th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn.</text>
+					<optional>1</optional>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>5,4,3,3,3,3,1,1,1,1,</slots>
+				<feat>
+					<name>Channel Divinity (3/rest)</name>
+					<text>Beginning at 18th level, you can use your Channel Divinity three times between rests.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>5,4,3,3,3,3,2,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>5,4,3,3,3,3,2,2,1,1,</slots>
+				<feat>
+					<name>Divine Intervention Improvement</name>
+					<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>4</spellAbility>
+			<spell>
+				<name>Detect Evil and Good</name>
+				<school>3</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Healing Word</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<duration>Instantaneous</duration>
+				<text>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</text>
+				<roll>1d4+SPELL</roll>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+			</spell>
+			<spell>
+				<name>Protection from Evil and Good</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>holy water or powdered silver and iron, which the spell consumes</materials>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>Until the spell ends, one willing creature you touch is protected against certain types of creatures - aberrations, celestials, elementals, fey, fiends, and undead.
+
+The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can&#39;t be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Inflict Wounds</name>
+				<school>7</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</text>
+				<roll>1d20+SPELL+PROF</roll>
+				<roll>3d10</roll>
+				<sclass>Cleric</sclass>
+			</spell>
+			<spell>
+				<name>Thaumaturgy</name>
+				<school>8</school>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<duration>Up to 1 minute</duration>
+				<text>You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range.
+
+• Your voice booms up to three times as loud as normal for 1 minute.
+
+• You cause flames to flicker, brighten, dim, or change color for 1 minute.
+
+• You cause harmless tremors in the ground for 1 minute.
+
+• You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.
+
+• You instantaneously cause an unlocked door or window to fly open or slam shut.
+
+• You alter the appearance of your eyes for 1 minute.
+
+If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</text>
+				<sclass>Cleric</sclass>
+			</spell>
+			<spell>
+				<name>Sanctuary</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a small silver mirror</materials>
+				<duration>1 minute</duration>
+				<text>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn&#39;t protect the warded creature from area effects, such as the explosion of a fireball.
+
+If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Cleric</sclass>
+			</spell>
+			<spell>
+				<name>Purify Food and Drink</name>
+				<school>8</school>
+				<ritual>1</ritual>
+				<level>1</level>
+				<time>1 action</time>
+				<range>10 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>All nonmagical food and drink within a 5-foot-radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Sacred Flame</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.
+
+The spell&#39;s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+				<roll>1d8</roll>
+				<roll>2d8</roll>
+				<roll>3d8</roll>
+				<roll>4d8</roll>
+				<sclass>Cleric</sclass>
+			</spell>
+			<spell>
+				<name>Detect Poison and Disease</name>
+				<school>3</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a yew leaf</materials>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.
+
+The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Ranger</sclass>
+			</spell>
+			<spell>
+				<name>Create or Destroy Water</name>
+				<school>8</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a drop of water if creating water or a few grains of sand if destroying it</materials>
+				<duration>Instantaneous</duration>
+				<text>You either create or destroy water.
+
+Create Water: You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.
+
+Destroy Water: You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+			</spell>
+			<spell>
+				<name>Cure Wounds</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</text>
+				<roll>1d8+SPELL</roll>
+				<sclass>Artificer</sclass>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Ranger</sclass>
+			</spell>
+			<spell>
+				<name>Light</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<m>1</m>
+				<materials>a firefly or phosphorescent moss</materials>
+				<duration>1 hour</duration>
+				<text>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.
+
+If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</text>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Shield of Faith</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a small parchment with a bit of holy text written on it</materials>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Command</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<duration>1 round</duration>
+				<text>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn&#39;t understand your language, or if your command is directly harmful to it.
+
+Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can&#39;t follow your command, the spell ends.
+
+Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.
+
+Drop: The target drops whatever it is holding and then ends its turn.
+
+Flee: The target spends its turn moving away from you by the fastest available means.
+
+Grovel: The target falls prone and then ends its turn.
+
+Halt: The target doesn&#39;t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</text>
+				<prepared>1</prepared>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Bless</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a sprinkling of holy water</materials>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Guiding Bolt</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>120 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 round</duration>
+				<text>A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
+				<roll>1d20+SPELL+PROF</roll>
+				<roll>4d6</roll>
+				<sclass>Cleric</sclass>
+			</spell>
+			<spell>
+				<name>Heroism</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+				<prepared>1</prepared>
+				<sclass>Bard</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Bane</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a drop of blood</materials>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+			</spell>
+			<spell>
+				<name>Detect Magic</name>
+				<school>3</school>
+				<ritual>1</ritual>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.
+
+The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</text>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Ranger</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+		</class>
+		<background>
+			<id>1415</id>
+			<name>Orzhov Representative</name>
+			<feat>
+				<name>Languages</name>
+				<text>Two of your choice</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>An Orzhov insignia, a foot-long chain made of ten gold coins, vestments, a set of fine clothes, and a belt pouch containing 1 pp (an Orzhov-minted 10-zino coin)
+				</text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<name>Feature: Leverage</name>
+				<text>You can exert leverage over one or more individuals below you in the guild&#39;s hierarchy and demand their help as needs warrant. For example, you can have a message carried across a neighborhood, procure a short carriage ride without paying, or have others clean up a bloody mess you left in an alley. The DM decides if your demands are reasonable and if there are subordinates available to fulfill them. As your status in the guild improves, you gain influence over more people, including ones in greater positions of power.</text>
+				<expanded>0</expanded>
+			</feat>
+			<proficiency>114</proficiency>
+			<proficiency>107</proficiency>
+		</background>
+		<unarmed>1</unarmed>
+		<slots>3,2,0,0,0,0,0,0,0,0,</slots>
+		<slotsCurrent>3,2,0,0,0,0,0,0,0,0,</slotsCurrent>
+		<item>
+			<name>Mace</name>
+			<text>Source: Player&#39;s Handbook, page 149</text>
+			<type>5</type>
+			<slot>2</slot>
+			<value>5.0</value>
+			<weight>4.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>1</damageType>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Handaxe</name>
+			<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon&#39;s normal range in feet, and the second indicates the weapon&#39;s maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can&#39;t attack a target beyond the weapon&#39;s long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player&#39;s Handbook, page 149</text>
+			<type>5</type>
+			<value>5.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>3</damageType>
+			<weaponProperty>136</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Chain Mail</name>
+			<text>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.
+
+Source: Player&#39;s Handbook, page 145</text>
+			<type>3</type>
+			<slot>5</slot>
+			<value>75.0</value>
+			<weight>55.0</weight>
+			<ac>16</ac>
+			<strength>13</strength>
+			<stealth>1</stealth>
+		</item>
+		<item>
+			<name>Shield</name>
+			<text>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
+
+Source: Player&#39;s Handbook, page 144</text>
+			<type>4</type>
+			<slot>4</slot>
+			<value>10.0</value>
+			<weight>6.0</weight>
+			<ac>2</ac>
+		</item>
+		<item>
+			<name>Holy Symbol (Amulet)</name>
+			<text>A holy symbol is a representation of a god or pantheon
+
+A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
+
+Source: Player&#39;s Handbook, page 151</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>An Orzhov Insignia</name>
+		</item>
+		<item>
+			<name>A Foot-long Chain Made Of Ten Gold Coins</name>
+		</item>
+		<item>
+			<name>Vestments</name>
+		</item>
+		<item>
+			<name>Fine Clothes</name>
+			<text>Source: Player&#39;s Handbook, page 150</text>
+			<value>15.0</value>
+			<weight>6.0</weight>
+		</item>
+		<item>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.
+
+Source: Player&#39;s Handbook, page 153</text>
+			<value>0.5</value>
+			<weight>1.0</weight>
+		</item>
+		<container>
+			<label>Priest&#39;s Pack</label>
+			<name>Backpack</name>
+			<value>19.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<item>
+				<name>Blanket</name>
+				<weight>3.0</weight>
+			</item>
+			<item>
+				<name>Candle</name>
+				<quantity>10</quantity>
+			</item>
+			<item>
+				<name>Tinderbox</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Alms Box</name>
+			</item>
+			<item>
+				<name>Insense</name>
+			</item>
+			<item>
+				<name>Censer</name>
+			</item>
+			<item>
+				<name>Vestments</name>
+			</item>
+			<item>
+				<name>Rations (1 day)</name>
+				<quantity>2</quantity>
+				<weight>2.0</weight>
+			</item>
+			<item>
+				<name>Waterskin</name>
+				<weight>5.0</weight>
+			</item>
+		</container>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text>
+				<type>15</type>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Proficiencies and Languages</name>
+			<text>Common, Celestial, Giant, Infernal
+
+Tinker’s tools</text>
+		</note>
+		<abilities>10,8,12,13,15,14,</abilities>
+		<hpMax>9</hpMax>
+		<hpCurrent>9</hpCurrent>
+	</character>
+</pc>
