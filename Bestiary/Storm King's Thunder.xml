@@ -1070,4 +1070,93 @@
 			<text>Flaw: "I'll risk life and limb to become a legend.-"</text>
 		</trait>
 	</monster>
+	<monster>
+		<name>Claugiyliamatar</name>
+		<size>G</size>
+		<type>dragon</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>21 (natural armor)</ac>
+		<hp>385 (22d20+154)</hp>
+		<speed>40 ft., fly 80 ft., swim 40 ft.</speed>
+		<str>27</str>
+		<dex>12</dex>
+		<con>25</con>
+		<int>20</int>
+		<wis>17</wis>
+		<cha>19</cha>
+		<save>Dex +8, Con +14, Wis +10, Cha +11</save>
+		<skill>Deception +11, Insight +10, Perception +17, Persuasion +11, Stealth +8</skill>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>27</passive>
+		<languages>Common, Draconic</languages>
+		<cr>23</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The dragon can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Claugiyliamatar's spellcasting ability is Charisma (spell save DC 19). She can innately cast the following spells, requiring no material components:</text>
+			<text>1/day each: invisibility, legend lore, protection from energy, true seeing</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Claugiyliamatar is an 8th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 18; +10 to hit with spell attacks). She has the following druid spells prepared:</text>
+			<text>Cantrips (at will): druidcraft, mending, produce flame</text>
+			<text>1st level (4 slots): cure wounds, detect magic, entangle, speak with animals</text>
+			<text>2nd level (3 slots): animal messenger, pass without trace</text>
+			<text>3rd level (3 slots): dispel magic, plant growth</text>
+			<text>4th level (2 slots): blight, locate creature, stoneskin</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
+		<spells>Druidcraft, Mending, Produce Flame, Cure Wounds, Detect Magic, Entangle, Speak with Animals, Animal Messenger, Pass without Trace, Dispel Magic, Plant Growth, Blight, Locate Creature, Stoneskin</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 10 (3d6) poison damage.</text>
+			<attack>Bite|15|2d10+8+3d6</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 22 (4d6 + 8) slashing damage.</text>
+			<attack>Claw|15|4d6+8</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.</text>
+			<attack>Tail|15|2d8+8</attack>
+		</action>
+		<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+		</action>
+		<action>
+			<name>Poison Breath (Recharge 5-6)</name>
+			<text>The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Poison Breath||22d6</attack>
+		</action>
+		<legendary>
+			<name>Detect</name>
+			<text>The dragon makes a Wisdom (Perception) check.</text>
+		</legendary>
+		<legendary>
+			<name>Tail Attack</name>
+			<text>The dragon makes a tail attack.</text>
+		</legendary>
+		<legendary>
+			<name>Wing Attack (Costs 2 Actions)</name>
+			<text>The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+		</legendary>
+	</monster>
 </compendium>
