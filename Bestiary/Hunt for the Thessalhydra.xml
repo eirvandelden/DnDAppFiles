@@ -1,310 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <compendium version="5">
-	<!-- The Lost Dungeon of Rickedness: Big Rick Energy -->
 	<monster>
-		<name>Billy Beaver</name>
-		<size>L</size>
+		<name>Demogorgon</name>
+		<size>M</size>
 		<type>monstrosity</type>
-		<description>Source: Big Rick Energy</description>
+		<description>Source: Hunt for the Thessalhydra</description>
 		<alignment>unaligned</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>34 (7d10+21)</hp>
-		<speed>40 ft.</speed>
-		<str>20</str>
-		<dex>12</dex>
-		<con>17</con>
-		<int>3</int>
-		<wis>12</wis>
-		<cha>7</cha>
-		<skill>Perception +3</skill>
-		<senses>darkvision 60 ft.</senses>
-		<passive>13</passive>
-		<cr>3</cr>
-		<trait>
-			<name>Keen Sight and Smell</name>
-			<text>The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.</text>
-		</trait>
-		<action>
-			<name>Beak</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage.</text>
-			<attack>Beak|7|1d10+5</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Buster the Bear</name>
-		<size>M</size>
-		<type>humanoid (goblinoid)</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>chaotic evil</alignment>
-		<ac>16 (hide armor, shield)</ac>
-		<hp>27 (5d8+5)</hp>
-		<speed>30 ft.</speed>
-		<str>15</str>
-		<dex>14</dex>
-		<con>13</con>
-		<int>8</int>
-		<wis>11</wis>
-		<cha>9</cha>
-		<skill>Stealth +6, Survival +2</skill>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Common, Goblin</languages>
-		<cr>1</cr>
-		<trait>
-			<name>Brute</name>
-			<text>A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).</text>
-		</trait>
-		<trait>
-			<name>Surprise Attack</name>
-			<text>If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</text>
-			<attack>Surprise Attack||2d6</attack>
-		</trait>
-		<action>
-			<name>Bashing' Banjo</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.</text>
-			<attack>Bashing' Banjo|4|1d8+2</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Layla the Lizard</name>
-		<size>M</size>
-		<type>undead</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>chaotic evil</alignment>
-		<ac>12</ac>
-		<hp>22 (5d8)</hp>
-		<speed>30 ft.</speed>
-		<str>13</str>
-		<dex>15</dex>
-		<con>10</con>
-		<int>7</int>
-		<wis>10</wis>
-		<cha>6</cha>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Common</languages>
-		<cr>1</cr>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage.</text>
-			<attack>Bite|2|2d6+2</attack>
-		</action>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
-			<attack>Claws|4|2d4+2</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Piggy Wiggle Butt</name>
-		<size>M</size>
-		<type>humanoid (orc)</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>chaotic evil</alignment>
-		<ac>13 (hide armor)</ac>
-		<hp>15 (2d8+6)</hp>
+		<ac>15 (natural armor)</ac>
+		<hp>60 (8d8 + 24)</hp>
 		<speed>30 ft.</speed>
 		<str>16</str>
 		<dex>12</dex>
 		<con>16</con>
-		<int>7</int>
-		<wis>11</wis>
-		<cha>10</cha>
-		<skill>Intimidation +2</skill>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Common, Orc</languages>
-		<cr>1/2</cr>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft.</senses>
+		<passive>13</passive>
+		<languages>—</languages>
+		<cr>4</cr>
 		<trait>
-			<name>Aggressive</name>
-			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
-		</trait>
-		<action>
-			<name>Clay Jug</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage.</text>
-			<attack>Clay Jug|5|1d8+3</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Thomas T. Toad</name>
-		<size>L</size>
-		<type>giant</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>chaotic evil</alignment>
-		<ac>11 (hide armor)</ac>
-		<hp>59 (7d10+21)</hp>
-		<speed>40 ft.</speed>
-		<str>19</str>
-		<dex>8</dex>
-		<con>16</con>
-		<int>5</int>
-		<wis>7</wis>
-		<cha>7</cha>
-		<senses>darkvision 60 ft.</senses>
-		<passive>8</passive>
-		<languages>Common, Giant</languages>
-		<cr>2</cr>
-		<action>
-			<name>Webby Hands</name>
-			<text> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage</text>
-			<attack>Webby Hands|6|1d8+4</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Large Mimic</name>
-		<size>L</size>
-		<type>monstrosity (shapechanger)</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>neutral</alignment>
-		<ac>12 (natural armor)</ac>
-		<hp>75 (9d8+18)</hp>
-		<speed>0 ft.</speed>
-		<str>17</str>
-		<dex>12</dex>
-		<con>15</con>
-		<int>5</int>
-		<wis>13</wis>
-		<cha>8</cha>
-		<skill>Stealth +5</skill>
-		<immune>acid</immune>
-		<conditionImmune>prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>11</passive>
-		<cr>3</cr>
-		<trait>
-			<name>Shapechanger</name>
-			<text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn 't transformed. It reverts to its true form if it dies.</text>
+			<name>Blood Frenzy</name>
+			<text>The demogorgon has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
 		</trait>
 		<trait>
-			<name>Adhesive (Object Form Only)</name>
-			<text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.</text>
+			<name>Keen Smell</name>
+			<text>The demogorgon has advantage on Wisdom (Perception) checks that rely on smell.</text>
 		</trait>
 		<trait>
-			<name>False Appearance (Object Form Only)</name>
-			<text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
-		</trait>
-		<trait>
-			<name>Grappler</name>
-			<text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
+			<name>Regeneration</name>
+			<text>The demogorgon regains 10 hit points at the start of its turn. If the demogorgon takes acid or fire damage, this trait doesn't function at the start of the demogorgon's next turn. The demogorgon dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The mimic makes three attacks: two with its pseudopods and one with its bite.</text>
-		</action>
-		<action>
-			<name>Pseudopod</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
-			<attack>Pseudopod|5|1d8+3</attack>
+			<text>The demogorgon makes three attacks: one with its bite and two with its claws.</text>
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.</text>
-			<attack>Bite|5|1d8+3+1d8</attack>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>Bite|5|1d8+3</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</text>
+			<attack>Claw|5|2d8+3</attack>
 		</action>
 	</monster>
 	<monster>
-		<name>Tommy Two-Butts</name>
-		<size>M</size>
-		<type>humanoid (goblinoid)</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>chaotic evil</alignment>
-		<ac>16 (hide armor, shield)</ac>
-		<hp>27 (5d8+5)</hp>
-		<speed>30 ft.</speed>
-		<str>15</str>
-		<dex>14</dex>
-		<con>13</con>
-		<int>21</int>
-		<wis>11</wis>
-		<cha>9</cha>
-		<skill>Stealth +6, Survival +2</skill>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Common, Goblin</languages>
-		<cr>1</cr>
-		<trait>
-			<name>Brute</name>
-			<text>A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).</text>
-		</trait>
-		<trait>
-			<name>Surprise Attack</name>
-			<text>If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</text>
-			<attack>Surprise Attack||2d6</attack>
-		</trait>
-		<action>
-			<name>Morningstar</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.</text>
-			<attack>Morningstar|4|2d8+2</attack>
-		</action>
-		<action>
-			<name>Javelin</name>
-			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.</text>
-			<attack>Melee|4|2d6+2</attack>
-			<attack>Ranged|4|1d6+2</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Lycantropickle</name>
-		<size>S</size>
-		<type>plant</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>neutral evil</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>4 (1d6+1)</hp>
-		<speed>20 ft.</speed>
-		<str>6</str>
-		<dex>13</dex>
-		<con>12</con>
-		<int>4</int>
-		<wis>8</wis>
-		<cha>3</cha>
-		<skill>Stealth +3</skill>
-		<vulnerable>fire</vulnerable>
-		<conditionImmune>blinded, deafened</conditionImmune>
-		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
-		<passive>9</passive>
-		<languages>understands Common but can't speak</languages>
-		<cr>1/8</cr>
-		<trait>
-			<name>False Appearance</name>
-			<text>While the lycanthropickle remains motionless, it is indistinguishable from a pickle.</text>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</text>
-			<attack>Claws|3|1d4+1</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Meeseeks</name>
-		<size>M</size>
-		<type>humanoid (any race)</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>any alignment</alignment>
-		<ac>10</ac>
-		<hp>— (Immune to damage)</hp>
-		<speed>30 ft.</speed>
-		<str>10</str>
-		<dex>10</dex>
-		<con>10</con>
-		<int>10</int>
+		<name>Thessalhydra</name>
+		<size>H</size>
+		<type>monstrosity</type>
+		<description>Source: Hunt for the Thessalhydra</description>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>69 (6d12 + 30)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>19</str>
+		<dex>12</dex>
+		<con>20</con>
+		<int>5</int>
 		<wis>10</wis>
-		<cha>10</cha>
-		<passive>10</passive>
-		<languages>any one language (usually Common)</languages>
-		<cr>0</cr>
-		<trait>
-			<name>Immunity</name>
-			<text>Meeseeks are immune to damage.</text>
-		</trait>
+		<cha>7</cha>
+		<save></save>
+		<skill>Perception +4</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>acid</immune>
+		<conditionImmune>blinded, charmed, deafened, frightened, stunned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>—</languages>
+		<cr>4</cr>
 		<action>
-			<name>Club</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-			<attack>Club|2|1d4</attack>
+			<name>Multiattack</name>
+			<text>The thessalhydra makes one maw attack and one Flurry of Bites.</text>
 		</action>
+		<action>
+			<name>Flurry of Bites</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (4d4) poison damage.</text>
+			<attack>Flurry of Bites|7|1d6+4+1d10</attack>
+		</action>
+		<action>
+			<name>Maw</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage plus 5 (1d10) acid damage.</text>
+			<attack>Maw|7|1d10+4+1d10</attack>
+		</action>
+		<action>
+			<name>Tail Pincer</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 10 (1d12 + 4) slashing damage, and the target is grappled. As an action, the target can escape the grapple by succeeding on a DC 14 Strength (Athletics) or Dexterity (Acrobatics) check (its choice). Until this grapple ends, the thessalhydra can't use its tail pincer.</text>
+			<attack>Tail Pincer|7|1d12+4</attack>
+		</action>
+		<action>
+			<name>Acid Saliva (Recharge 5–6)</name>
+			<text>The thessalhydra spits a glob of acid at a point it can see within 30 feet of it. Each creature within 10 feet of that point must make a DC 15 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Acid Saliva (Recharge 5–6)||4d8</attack>
+		</action>
+		<legendary>
+			<name>Detect</name>
+			<text>The thessalhydra makes a Wisdom (Perception) check with advantage.</text>
+		</legendary>
+		<legendary>
+			<name>Tail Swipe</name>
+			<text>The thessalhydra makes a tail pincer attack.</text>
+			<attack>Tail Pincer|7|1d12+4</attack>
+		</legendary>
 	</monster>
-	<!-- Repeated monsters -->
+
+	<!-- repeated monsters -->
 	<monster>
 		<name>Bugbear</name>
 		<size>M</size>
@@ -347,30 +155,6 @@
 		</action>
 	</monster>
 	<monster>
-		<name>Commoner</name>
-		<size>M</size>
-		<type>humanoid (any race)</type>
-		<description>Source: Monster Manual</description>
-		<alignment>any alignment</alignment>
-		<ac>10</ac>
-		<hp>4 (1d8)</hp>
-		<speed>30 ft.</speed>
-		<str>10</str>
-		<dex>10</dex>
-		<con>10</con>
-		<int>10</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<passive>10</passive>
-		<languages>any one language (usually Common)</languages>
-		<cr>0</cr>
-		<action>
-			<name>Club</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-			<attack>Club|2|1d4</attack>
-		</action>
-	</monster>
-	<monster>
 		<name>Cultist</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -397,6 +181,54 @@
 			<name>Scimitar</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.</text>
 			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Doppelganger</name>
+		<size>M</size>
+		<type>monstrosity (shapechanger)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>14</ac>
+		<hp>52 (8d8+16)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>14</cha>
+		<skill>Deception +6, Insight +3</skill>
+		<immune>charmed</immune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Common</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<trait>
+			<name>Ambusher</name>
+			<text>In the first round of a combat, the doppelganger has advantage on attack rolls against any creature it surprised</text>
+		</trait>
+		<trait>
+			<name>Surprise Attack</name>
+			<text>If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.</text>
+			<attack>Surprise Attack||3d6</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The doppelganger makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage.</text>
+			<attack>Slam|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Read Thoughts</name>
+			<text>The doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target.</text>
 		</action>
 	</monster>
 	<monster>
@@ -634,97 +466,6 @@
 		</action>
 	</monster>
 	<monster>
-		<name>Mimic</name>
-		<size>M</size>
-		<type>monstrosity (shapechanger)</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral</alignment>
-		<ac>12 (natural armor)</ac>
-		<hp>58 (9d8+18)</hp>
-		<speed>15 ft.</speed>
-		<str>17</str>
-		<dex>12</dex>
-		<con>15</con>
-		<int>5</int>
-		<wis>13</wis>
-		<cha>8</cha>
-		<skill>Stealth +5</skill>
-		<immune>acid</immune>
-		<conditionImmune>prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>11</passive>
-		<cr>2</cr>
-		<trait>
-			<name>Shapechanger</name>
-			<text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn 't transformed. It reverts to its true form if it dies.</text>
-		</trait>
-		<trait>
-			<name>Adhesive (Object Form Only)</name>
-			<text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.</text>
-		</trait>
-		<trait>
-			<name>False Appearance (Object Form Only)</name>
-			<text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
-		</trait>
-		<trait>
-			<name>Grappler</name>
-			<text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
-		</trait>
-		<action>
-			<name>Pseudopod</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
-			<attack>Pseudopod|5|1d8+3</attack>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.</text>
-			<attack>Bite|5|1d8+3+1d8</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Nothic</name>
-		<size>M</size>
-		<type>aberration</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>45 (6d8+18)</hp>
-		<speed>30 ft.</speed>
-		<str>14</str>
-		<dex>16</dex>
-		<con>16</con>
-		<int>13</int>
-		<wis>10</wis>
-		<cha>8</cha>
-		<skill>Arcana +3, Insight +4, Perception +2, Stealth +5</skill>
-		<senses>truesight 120 ft.</senses>
-		<passive>12</passive>
-		<languages>Undercommon</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Keen Sight</name>
-			<text>The nothic has advantage on Wisdom (Perception) checks that rely on sight.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The nothic makes two claw attacks.</text>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-			<attack>Claw|4|1d6+3</attack>
-		</action>
-		<action>
-			<name>Rotting Gaze</name>
-			<text>The nothic targets one creature it can see within 30 ft. of it. The target must succeed on a DC 12 Constitution saving throw against this magic or take 10 (3d6) necrotic damage.</text>
-			<attack>Rotting Gaze||3d6</attack>
-		</action>
-		<action>
-			<name>Weird Insight</name>
-			<text>The nothic targets one creature it can see within 30 ft. of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being charmed.</text>
-		</action>
-	</monster>
-	<monster>
 		<name>Ochre Jelly</name>
 		<size>L</size>
 		<type>ooze</type>
@@ -899,49 +640,6 @@
 		</action>
 	</monster>
 	<monster>
-		<name>Spectator</name>
-		<size>M</size>
-		<type>aberration</type>
-		<description>Source: Monster Manual</description>
-		<alignment>lawful neutral</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>39 (6d8+12)</hp>
-		<speed>0 ft., fly 30 ft. (hover)</speed>
-		<str>8</str>
-		<dex>14</dex>
-		<con>14</con>
-		<int>13</int>
-		<wis>14</wis>
-		<cha>11</cha>
-		<skill>Perception +6</skill>
-		<conditionImmune>prone</conditionImmune>
-		<senses>darkvision 120 ft.</senses>
-		<passive>16</passive>
-		<languages>Deep Speech, Undercommon, telepathy 120 ft.</languages>
-		<cr>3</cr>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) piercing damage.</text>
-			<attack>Bite|1|1d6-1</attack>
-		</action>
-		<action>
-			<name>Eye Rays</name>
-			<text>The spectator shoots up to two of the following magical eye rays at one or two creatures it can see within 90 ft. of it. It can use each ray only once on a turn.</text>
-			<text>1. Confusion Ray. The target must succeed on a DC 13 Wisdom saving throw, or it can't take reactions until the end of its next turn. On its turn, the target can't move, and it uses its action to make a melee or ranged attack against a randomly determined creature within range. If the target can't attack, it does nothing on its turn.</text>
-			<text>2. Paralyzing Ray. The target must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<text>3. Fear Ray. The target must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the spectator is visible to the target, ending the effect on itself on a success.</text>
-			<text>4. Wounding Ray. The target must make a DC 13 Constitution saving throw, taking 16 (3d10) necrotic damage on a failed save, or half as much damage on a successful one.</text>
-		</action>
-		<action>
-			<name>Create Food and Water</name>
-			<text>The spectator magically creates enough food and water to sustain itself for 24 hours.</text>
-		</action>
-		<reaction>
-			<name>Spell Reflection</name>
-			<text>If the spectator makes a successful saving throw against a spell, or a spell attack misses it, the spectator can choose another creature (including the spellcaster) it can see within 30 ft. of it. The spell targets the chosen creature instead of the spectator. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.</text>
-		</reaction>
-	</monster>
-	<monster>
 		<name>Stirge</name>
 		<size>T</size>
 		<type>beast</type>
@@ -964,6 +662,53 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.</text>
 			<text>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</text>
 			<attack>Blood Drain|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Troglodyte</name>
+		<size>M</size>
+		<type>humanoid (troglodyte)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic evil</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>13 (2d8+4)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>6</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<skill>Stealth +2</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Troglodyte</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Chameleon Skin</name>
+			<text>The troglodyte has advantage on Dexterity (Stealth) checks made to hide.</text>
+		</trait>
+		<trait>
+			<name>Stench</name>
+			<text>Any creature other than a troglodyte that starts its turn within 5 ft. of the troglodyte must succeed on a DC 12 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the troglodyte has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The troglodyte makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Bite|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claw|4|1d4+2</attack>
 		</action>
 	</monster>
 	<monster>
@@ -996,6 +741,38 @@
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</text>
 			<attack>Claws|3|1d4+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Wolf</name>
+		<size>M</size>
+		<type>beast</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>11 (2d8+2)</hp>
+		<speed>40 ft.</speed>
+		<str>12</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<skill>Perception +3, Stealth +4</skill>
+		<passive>13</passive>
+		<cr>1/4</cr>
+		<trait>
+			<name>Keen Hearing and Smell</name>
+			<text>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<attack>Bite|4|2d4+2</attack>
 		</action>
 	</monster>
 	<monster>
