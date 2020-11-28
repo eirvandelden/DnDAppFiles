@@ -289,12 +289,12 @@
 		</action>
 		<action>
 			<name>Unarmed Strike</name>
-			<text>Me/ee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) bludgeoning damage.</text>
 			<attack>Unarmed Strike|6|1d4+4</attack>
 		</action>
 		<action>
 			<name>Vitality Drain</name>
-			<text>One creature grappled by a tentacle of the dolgaunt must make a DC 11 Constitution saving th row. On a failed save, the target takes 9 (2d8) necrotic damage, and the dolgaunt regains a number of hit points equal to half the necrotic damage taken.</text>
+			<text>One creature grappled by a tentacle of the dolgaunt must make a DC 11 Constitution saving throw. On a failed save, the target takes 9 (2d8) necrotic damage, and the dolgaunt regains a number of hit points equal to half the necrotic damage taken.</text>
 			<attack>Vitality Drain||2d8</attack>
 		</action>
 	</monster>
@@ -517,7 +517,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
-			<text>The lnspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
+			<text>The Inspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
 			<text>	At will: mage hand, vicious mockery (see "Actions" below)</text>
 			<text>	1/day each: charm person, dissonant whispers, hex, hold person,mage armor</text>
 		</trait>
@@ -569,7 +569,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
-			<text>The lnspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
+			<text>The Inspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
 			<text>	At will: mage hand, vicious mockery (see "Actions" below)</text>
 			<text>	1/day each: charm person, dissonant whispers, hex, hold person,mage armor</text>
 		</trait>
@@ -626,7 +626,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
-			<text>The lnspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
+			<text>The Inspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
 			<text>	At will: mage hand, vicious mockery (see "Actions" below)</text>
 			<text>	1/day each: charm person, dissonant whispers, hex, hold person,mage armor</text>
 		</trait>
@@ -686,7 +686,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
-			<text>The lnspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
+			<text>The Inspired's spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
 			<text>	At will: mage hand, vicious mockery (see "Actions" below)</text>
 			<text>	1/day each: charm person, dissonant whispers, hex, hold person,mage armor</text>
 		</trait>
@@ -803,7 +803,7 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Illmarrow is a 20th-level spel lcaster. Her spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Illmarrow has the following wizard spells prepared:</text>
+			<text>Illmarrow is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Illmarrow has the following wizard spells prepared:</text>
 			<text>	Cantrips (at will): chill touch (see "Actions" below), fire bolt, mage hand, prestidigitation, ray of frost</text>
 			<text>	1st level (4 slots): magic missile, shield, sleep</text>
 			<text>	2nd level (3 slots): blur, detect thoughts, mirror image</text>
@@ -1786,7 +1786,7 @@
 		<action>
 			<name>Talons</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.</text>
-			<attack>Talons|6|1d4_4</attack>
+			<attack>Talons|6|1d4+4</attack>
 		</action>
 	</monster>
 	<monster>
