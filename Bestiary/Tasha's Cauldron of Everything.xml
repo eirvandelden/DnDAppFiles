@@ -55,6 +55,84 @@
         </action>
     </monster>
     <monster>
+        <name>Adult Red Dracolich</name>
+        <size>H</size>
+        <type>undead</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>chaotic evil</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>256 (19d12 + 133)</hp>
+        <speed>40 ft., climb 40 ft., fly 80 ft.</speed>
+        <str>27</str>
+        <dex>10</dex>
+        <con>25</con>
+        <int>16</int>
+        <wis>13</wis>
+        <cha>21</cha>
+        <save>Dex +6, Con +13, Wis +7, Cha +11</save>
+        <skill>Perception +13, Stealth +6</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune>fire, poison</immune>
+        <conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>23</passive>
+        <languages>Common, Draconic</languages>
+        <cr>17</cr>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dracolich fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/DAY</recharge>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The dracolich has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+<action>
+			<name>Multiattack</name>
+			<text>The dracolich can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage.</text>
+			<attack>Bite|14|2d10+8+2d6</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</text>
+			<attack>Claw|14|2d6+8</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.</text>
+			<attack>Tail|14|2d8+8</attack>
+		</action>
+		<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of the dracolich's choice that is within 120 feet of the dracolich and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dracolich's Frightful Presence for the next 24 hours.</text>
+		</action>
+		<action>
+			<name>Fire Breath (Recharge 5-6)</name>
+			<text>The dracolich exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on a failed save, or half as much damage</text>
+			<attack>Fire Breath||18d6</attack>
+            <recharge>5-6</recharge>
+		</action>
+		<legendary>
+			<name>Detect</name>
+			<text>The dracolich makes a Wisdom (Perception) check.</text>
+		</legendary>
+		<legendary>
+			<name>Tail Attack</name>
+			<text>The dracolich makes a tail attack.</text>
+			<attack>Tail|14|2d8+8</attack>
+		</legendary>
+		<legendary>
+			<name>Wing Attack (Costs 2 Actions)</name>
+			<text>The dracolich beats its tattered wings. Each creature within 10 ft. of the dracolich must succeed on a DC 21 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. After beating its wings this way, the dracolich can fly up to half its flying speed.</text>
+            <attack>Wing||2d6+7</attack>
+		</legendary>
+    </monster>
+    <monster>
         <name>Beast of the Land</name>
         <size>M</size>
         <type>beast</type>
@@ -621,6 +699,48 @@
             <attack>Crushing Leap||4d12</attack>
         </action>
     </monster>
+    	<monster>
+		<name>Shadow</name>
+		<size>M</size>
+		<type>fey</type>
+		<description>Source: Tasha's Cauldron of Everything'</description>
+		<alignment>chaotic evil</alignment>
+		<ac>12</ac>
+		<hp>16 (3d8+3)</hp>
+		<speed>40 ft.</speed>
+		<str>6</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>6</int>
+		<wis>10</wis>
+		<cha>8</cha>
+		<skill>Stealth +4</skill>
+		<resist>acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable>bludgeoning</vulnerable>
+		<immune>necrotic, poison</immune>
+		<conditionImmune>exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<cr>1/2</cr>
+		<trait>
+			<name>Amorphous</name>
+			<text>The reflection can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Shadow Stealth</name>
+			<text>While in dim light or darkness, the reflection can take the Hide action as a bonus action. Its stealth bonus is also improved to +6.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Weakness</name>
+			<text>While in sunlight, the reflection has disadvantage on attack rolls, ability checks, and saving throws.</text>
+		</trait>
+		<action>
+			<name>Strength Drain</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.</text>
+			<text>If a non-evil humanoid dies from this attack, a new reflection rises from the corpse 1d4 hours later.</text>
+			<attack>Strength Drain|4|2d6+2</attack>
+		</action>
+	</monster>
     <monster>
         <name>Shadow Spirit</name>
         <size>M</size>
