@@ -1,0 +1,2213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<!--Sidekicks-->
+
+    <!--Warrior-->
+	
+	<!--Generic-->
+
+<!--Attacker-->
+<monster>
+    <name>Sidekick: Warrior (Attacker) 01</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>13 (2d8+4)</hp>
+    <speed>30 ft.</speed>
+    <str>15</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +4</save>
+    <skill>Athletics +4, Perception +3, Survival +3</skill>
+    <passive>13</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
+        <attack>|+4|1d8+2</attack>
+        <attack>2 hand|+4|1d10+2</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+3|1d8+1</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 02</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>19 (3d8 + 6)</hp>
+    <speed>30 ft.</speed>
+    <str>15</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +4</save>
+    <skill>Athletics +4, Perception +3, Survival +3</skill>
+    <passive>13</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+2</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
+        <attack>|+4|1d8+2</attack>
+        <attack>2 hand|+4|1d10+2</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+3|1d8+1</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 03</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>26 (4d8 + 8)</hp>
+    <speed>30 ft.</speed>
+    <str>15</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +4</save>
+    <skill>Athletics +4, Perception +3, Survival +3</skill>
+    <passive>13</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+3</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
+        <attack>|+4|1d8+2</attack>
+        <attack>2 hand|+4|1d10+2</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+3|1d8+1</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 04</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>32 (5d8 + 10)</hp>
+    <speed>30 ft.</speed>
+    <str>17</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +4</save>
+    <skill>Athletics +5, Perception +3, Survival +3</skill>
+    <passive>13</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+4</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
+        <attack>|+5|1d8+3</attack>
+        <attack>2 hand|+5|1d10+3</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+3|1d8+1</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 05</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>39 (6d8 + 12)</hp>
+    <speed>30 ft.</speed>
+    <str>17</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +5</save>
+    <skill>Athletics +6, Perception +4, Survival +4</skill>
+    <passive>14</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+5</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
+        <attack>|+6|1d8+3</attack>
+        <attack>2 hand|+6|1d10+3</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+4|1d8+1</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 06</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>45 (7d8 + 14)</hp>
+    <speed>30 ft.</speed>
+    <str>17</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +5</save>
+    <skill>Athletics +6, Perception +4, Survival +4</skill>
+    <passive>14</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+6</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
+        <attack>|+6|1d8+3</attack>
+        <attack>2 hand|+6|1d10+3</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+4|1d8+1</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 07</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>20 (plate, shield)</ac>
+    <hp>52 (8d8 + 16)</hp>
+    <speed>30 ft.</speed>
+    <str>16</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +5</save>
+    <skill>Athletics +6, Perception +4, Survival +4</skill>
+    <passive>14</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+7</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
+        <attack>|+6|1d8+3</attack>
+        <attack>2 hand|+6|1d10+3</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+5|1d8+2</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 08</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>20 (plate, shield)</ac>
+    <hp>58 (9d8 + 18)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +5</save>
+    <skill>Athletics +7, Perception +4, Survival +4</skill>
+    <passive>14</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+8</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
+        <attack>|+7|1d8+4</attack>
+        <attack>2 hand|+7|1d10+4</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+5|1d8+2</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 09</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>20 (plate, shield)</ac>
+    <hp>65 (10d8 + 20)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +6</save>
+    <skill>Athletics +8, Perception +5, Survival +5</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+9</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
+        <attack>|+8|1d8+4</attack>
+        <attack>2 hand|+8|1d10+4</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+6|1d8+2</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 10</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>71 (11d8 + 22)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +6</save>
+    <skill>Athletics +8, Perception +5, Survival +5</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+10</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
+        <attack>|+8|1d8+4</attack>
+        <attack>2 hand|+8|1d10+4</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+6|1d8+2</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 11</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>78 (12d8 + 24)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +6</save>
+    <skill>Athletics +8, Perception +5, Survival +5</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.</text>
+        <text>The sidekick can use this feature twice between long rests starting at 18th level.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+11</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
+        <attack>|+8|1d8+4</attack>
+        <attack>2 hand|+8|1d10+4</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+6|1d8+2</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 12</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>84 (13d8 + 26)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +6</save>
+    <skill>Athletics +9, Perception +5, Survival +5</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.</text>
+        <text>The sidekick can use this feature twice between long rests starting at 18th level.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+12</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+9|1d8+5</attack>
+        <attack>2 hand|+9|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+6|1d8+2</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 13</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>91 (14d8+28)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +7</save>
+    <skill>Athletics +10, Perception +6, Survival +6</skill>
+    <passive>16</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+13</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+10|1d8+5</attack>
+        <attack>2 hand|+10|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+7|1d8+2</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 14</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>97 (15d8+30)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>16</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +7</save>
+    <skill>Athletics +10, Perception +6, Survival +6</skill>
+    <passive>16</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+14</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+10|1d8+5</attack>
+        <attack>2 hand|+10|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+        <attack>|+8|1d8+3</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 15</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>104 (16d8+32)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>16</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +7</save>
+    <skill>Athletics +10, Perception +6, Survival +6</skill>
+    <passive>16</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+15</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+10|1d8+5</attack>
+        <attack>2 hand|+10|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+        <attack>|+8|1d8+3</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 16</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>110 (17d8+34)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>18</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +7</save>
+    <skill>Athletics +10, Perception +6, Survival +6</skill>
+    <passive>16</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+16</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+10|1d8+5</attack>
+        <attack>2 hand|+10|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+        <attack>|+9|1d8+4</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 17</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>117 (18d8+36)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>18</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +8</save>
+    <skill>Athletics +11, Perception +7, Survival +7</skill>
+    <passive>17</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <roll>1d10+17</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+11|1d8+5</attack>
+        <attack>2 hand|+11|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+        <attack>|+10|1d8+4</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 18</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>123 (19d8+38)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>18</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +8</save>
+    <skill>Athletics +11, Perception +7, Survival +7</skill>
+    <passive>17</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (2/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <roll>1d10+18</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+11|1d8+5</attack>
+        <attack>2 hand|+11|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+        <attack>|+10|1d8+4</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 19</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>130 (20d8+40)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>20</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +8</save>
+    <skill>Athletics +11, Perception +7, Survival +7</skill>
+    <passive>17</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (2/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <roll>1d10+19</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+11|1d8+5</attack>
+        <attack>2 hand|+11|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+        <attack>|+11|1d8+5</attack>
+    </action>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Attacker) 20</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>136 (21d8+42)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>20</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +8</save>
+    <skill>Athletics +11, Perception +7, Survival +7</skill>
+    <passive>17</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (2/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind (2 uses)</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <roll>1d10+20</roll>
+    </trait>
+    <trait>
+        <name>Martial Role: Attacker</name>
+        <text>The sidekick gains a +2 bonus to all attack rolls.</text>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+11|1d8+5</attack>
+        <attack>2 hand|+11|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+        <attack>|+11|1d8+5</attack>
+    </action>
+</monster>
+
+<!--Defender-->
+<monster>
+    <name>Sidekick: Warrior (Defender) 01</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>13 (2d8+4)</hp>
+    <speed>30 ft.</speed>
+    <str>15</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +4</save>
+    <skill>Athletics +4, Perception +3, Survival +3</skill>
+    <passive>13</passive>
+    <languages>Common, plus one of your choice</languages>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
+        <attack>|+4|1d8+2</attack>
+        <attack>2 hand|+4|1d10+2</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+3|1d8+1</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 02</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>19 (3d8 + 6)</hp>
+    <speed>30 ft.</speed>
+    <str>15</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +4</save>
+    <skill>Athletics +4, Perception +3, Survival +3</skill>
+    <passive>13</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+2</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
+        <attack>|+4|1d8+2</attack>
+        <attack>2 hand|+4|1d10+2</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+3|1d8+1</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 03</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>26 (4d8 + 8)</hp>
+    <speed>30 ft.</speed>
+    <str>15</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +4</save>
+    <skill>Athletics +4, Perception +3, Survival +3</skill>
+    <passive>13</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+3</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8 + 2 slashing damage.</text>
+        <attack>|+4|1d8+2</attack>
+        <attack>2 hand|+4|1d10+2</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+3|1d8+1</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 04</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>32 (5d8 + 10)</hp>
+    <speed>30 ft.</speed>
+    <str>17</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +4</save>
+    <skill>Athletics +5, Perception +3, Survival +3</skill>
+    <passive>13</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+4</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
+        <attack>|+5|1d8+3</attack>
+        <attack>2 hand|+5|1d10+3</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+3|1d8+1</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 05</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>39 (6d8 + 12)</hp>
+    <speed>30 ft.</speed>
+    <str>17</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +5</save>
+    <skill>Athletics +6, Perception +4, Survival +4</skill>
+    <passive>14</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+5</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
+        <attack>|+6|1d8+3</attack>
+        <attack>2 hand|+6|1d10+3</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+4|1d8+1</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 06</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>45 (7d8 + 14)</hp>
+    <speed>30 ft.</speed>
+    <str>17</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +5</save>
+    <skill>Athletics +6, Perception +4, Survival +4</skill>
+    <passive>14</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+6</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
+        <attack>|+6|1d8+3</attack>
+        <attack>2 hand|+6|1d10+3</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+        <attack>|+4|1d8+1</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 07</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>20 (plate, shield)</ac>
+    <hp>52 (8d8 + 16)</hp>
+    <speed>30 ft.</speed>
+    <str>16</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +5</save>
+    <skill>Athletics +6, Perception +4, Survival +4</skill>
+    <passive>14</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+7</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.</text>
+        <attack>|+6|1d8+3</attack>
+        <attack>2 hand|+6|1d10+3</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+5|1d8+2</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 08</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>20 (plate, shield)</ac>
+    <hp>58 (9d8 + 18)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +5</save>
+    <skill>Athletics +7, Perception +4, Survival +4</skill>
+    <passive>14</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+8</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
+        <attack>|+7|1d8+4</attack>
+        <attack>2 hand|+7|1d10+4</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+5|1d8+2</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 09</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>20 (plate, shield)</ac>
+    <hp>65 (10d8 + 20)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +6</save>
+    <skill>Athletics +8, Perception +5, Survival +5</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+9</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
+        <attack>|+8|1d8+4</attack>
+        <attack>2 hand|+8|1d10+4</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+6|1d8+2</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 10</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>71 (11d8 + 22)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +6</save>
+    <skill>Athletics +8, Perception +5, Survival +5</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+10</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
+        <attack>|+8|1d8+4</attack>
+        <attack>2 hand|+8|1d10+4</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+6|1d8+2</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 11</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>78 (12d8 + 24)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +6</save>
+    <skill>Athletics +8, Perception +5, Survival +5</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.</text>
+        <text>The sidekick can use this feature twice between long rests starting at 18th level.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+11</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage.</text>
+        <attack>|+8|1d8+4</attack>
+        <attack>2 hand|+8|1d10+4</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+6|1d8+2</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 12</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>84 (13d8 + 26)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +6</save>
+    <skill>Athletics +9, Perception +5, Survival +5</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.</text>
+        <text>The sidekick can use this feature twice between long rests starting at 18th level.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+12</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+9|1d8+5</attack>
+        <attack>2 hand|+9|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+6|1d8+2</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 13</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>91 (14d8+28)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +7</save>
+    <skill>Athletics +10, Perception +6, Survival +6</skill>
+    <passive>15</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+13</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+10|1d8+5</attack>
+        <attack>2 hand|+10|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+        <attack>|+7|1d8+2</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 14</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>97 (15d8+30)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>16</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +7</save>
+    <skill>Athletics +10, Perception +6, Survival +6</skill>
+    <passive>16</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+14</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+10|1d8+5</attack>
+        <attack>2 hand|+10|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+        <attack>|+8|1d8+3</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 15</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>104 (16d8+32)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>16</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +7</save>
+    <skill>Athletics +10, Perception +6, Survival +6</skill>
+    <passive>16</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+15</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+10|1d8+5</attack>
+        <attack>2 hand|+10|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+        <attack>|+8|1d8+3</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 16</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>110 (17d8+34)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>18</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +7</save>
+    <skill>Athletics +10, Perception +6, Survival +6</skill>
+    <passive>16</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <text>The sidekick can use this feature twice between rests starting at 20th level.</text>
+        <roll>1d10+16</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+10|1d8+5</attack>
+        <attack>2 hand|+10|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+        <attack>|+9|1d8+4</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 17</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>117 (18d8+36)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>18</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +8</save>
+    <skill>Athletics +11, Perception +7, Survival +7</skill>
+    <passive>17</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (1/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <roll>1d10+17</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+11|1d8+5</attack>
+        <attack>2 hand|+11|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+        <attack>|+10|1d8+4</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 18</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>123 (19d8+38)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>18</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +8</save>
+    <skill>Athletics +11, Perception +7, Survival +7</skill>
+    <passive>17</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (2/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <roll>1d10+18</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+11|1d8+5</attack>
+        <attack>2 hand|+11|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+        <attack>|+10|1d8+4</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 19</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>130 (20d8+40)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>20</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +8</save>
+    <skill>Athletics +11, Perception +7, Survival +7</skill>
+    <passive>17</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (2/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <roll>1d10+19</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+11|1d8+5</attack>
+        <attack>2 hand|+11|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+        <attack>|+11|1d8+5</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+<monster>
+    <name>Sidekick: Warrior (Defender) 20</name>
+    <type>humanoid, sidekick</type>
+    <size>M</size>
+    <ac>21 (plate, shield)</ac>
+    <hp>136 (21d8+42)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str>
+    <dex>20</dex>
+    <con>14</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>10</cha>
+    <save>Con +8</save>
+    <skill>Athletics +11, Perception +7, Survival +7</skill>
+    <passive>17</passive>
+    <languages>Common, plus one of your choice</languages>
+    <trait>
+        <name>Extra Attack Improvement</name>
+        <text>The sidekick can attack three times, instead of twice, whenever it takes the Attack action on its turn.</text>
+    </trait>
+
+    <trait>
+        <name>Improved Defense</name>
+        <text>The sidekick's Armor Class increases by 1.</text>
+    </trait>
+    <trait>
+        <name>Indomitable (2/Day)</name>
+        <text>The warrior can reroll a saving throw that it fails but must use the new result.</text>
+    </trait>
+    <trait>
+        <name>Battle Readiness</name>
+        <text>The sidekick has advantage on initiative rolls.</text>
+    </trait>
+    <trait>
+        <name>Extra Attack</name>
+        <text>The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn.</text>
+        <text>The number of attacks increases to three when the sidekick reaches 15th level.</text>
+        <text>If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.</text>
+    </trait>
+    <trait>
+        <name>Improved Critical</name>
+        <text>The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.</text>
+    </trait>
+    <trait>
+        <name>Second Wind (2 uses)</name>
+        <text>The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.</text>
+        <roll>1d10+20</roll>
+    </trait>
+    <action>
+        <name>Longsword</name>
+        <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 1d8 + 5 slashing damage.</text>
+        <attack>|+11|1d8+5</attack>
+        <attack>2 hand|+11|1d10+5</attack>
+    </action>
+    <action>
+        <name>Longbow</name>
+        <text>Ranged Weapon Attack: +11 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+        <attack>|+11|1d8+5</attack>
+    </action>
+    <reaction>
+        <name>Protection</name>
+        <text>The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.</text>
+    </reaction>
+</monster>
+</compendium>
