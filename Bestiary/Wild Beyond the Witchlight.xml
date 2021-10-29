@@ -8,7 +8,7 @@
 	<alignment>chaotic evil</alignment>
 	<ac>19 (studded leather armor,shield)</ac>
 	<hp>36 (8d8)</hp>
-	<speed>35 ft., alternate undefined ft. undefined</speed>
+	<speed>35 ft., 70 ft. while wearing his scarf</speed>
 	<str>11</str>
 	<dex>20</dex>
 	<con>11</con>
@@ -92,6 +92,7 @@
 	<action>
 		<name>Unarmed Strike</name>
 		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 bludgeoning damage.</text>
+		<attack>Unarmed Strike|5|4</attack>
 	</action>
 	<action>
 		<name>Leadership (Recharges after a Short or Long Rest)</name>
