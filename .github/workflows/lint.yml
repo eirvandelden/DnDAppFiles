@@ -1,0 +1,20 @@
+name: Validate XML files and references
+
+on:
+  push:
+
+jobs:
+  xmllint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sudo apt-get install -y libxml2-utils
+      - run: find . -name "*.xml" | grep -v "Templates.xml" | tr '\n' '\0' | xargs -0 xmllint --noout
+
+  fix_spells:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.6'
+      - run: python fix_spells.py --dry-run --verbose
