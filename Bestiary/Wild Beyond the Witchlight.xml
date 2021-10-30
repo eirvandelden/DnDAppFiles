@@ -47,6 +47,10 @@
 		<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage.</text>
 		<attack>Dagger|7|1d4+5</attack>
 	</action>
+	<action>
+		<name>Bonus Action: Quick Fingers</name>
+		<text>Agdon targets one creature within 5 feet of him that he can see and makes a Dexterity (Sleight of Hand) check, with a DC equal to 1 + the target's passive Wisdom (Perception) score. On a successful check, Agdon pilfers one object weighing 1 pound or less that the target has in its possession but not in its grasp, without the target noticing the theft.</text>
+	</action>
 	<reaction>
 		<name>Uncanny Dodge</name>
 		<text>Agdon halves the damage that he takes from an attack that hits him. He must be able to see the attacker.</text>
@@ -210,6 +214,12 @@
 		<name>Create Lornlings (Recharge 5-6)</name>
 		<text>Bavlorna creates one or two 1-foot-tall duplicates of herself, called lornlings (use the Quickling stat block in appendix C). Each lornling appears in an unoccupied space within 5 feet of Bavlorna, obeys her commands, and takes its turn immediately after hers. A lornling lasts for 1 hour, until it or Bavlorna dies, or until Bavlorna dismisses it as an action. Bavlorna can have no more than eight lornlings in existence at a time.</text>
 	</action>
+	<action>
+		<name>Bonus Action: Swallow</name>
+		<text>Bavlorna swallows a Small or smaller creature she is grappling, ending the grapple on it. The swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside Bavlorna, and it takes 10 (3d6) acid damage at the start of each of its turns. If the swallowed creature is one of Bavlorna's lornlings, Bavlorna gains all the lornling's memories when the acid damage reduces it to 0 hit points.</text>
+		<text>	Bavlorna can have only one creature swallowed at a time. If Bavlorna dies, a swallowed creature is no longer restrained and can escape from the corpse using 5 feet of movement, exiting prone.</text>
+		<attack>Swallow||3d6</attack>
+	</action>
 </monster>
 <monster>
 	<name>Brigganock</name>
@@ -266,6 +276,10 @@
 		<name>Time Lapse (Recharges after a Short or Long Rest)</name>
 		<text>The brigganock accelerates the passage of time around itself, enabling it to accomplish up to 1 hour of work in a matter of seconds. This work can't affect any creature other than the brigganock, or any object being worn or carried by another creature, and the activity must take place within a 10-foot cube. For example, the brigganock could use this action to rapidly carve a pumpkin, cook and eat dinner, move a pile of stones, or tie a dozen knots in a length of rope.</text>
 	</action>
+	<action>
+		<name>Bonus Action: Move Soul Light</name>
+		<text>The brigganock moves its soul light up to 30 feet in any direction to an unoccupied space it can see. At the end of the current turn, the light returns to the brigganock.</text>
+	</action>
 </monster>
 <monster>
 	<name>Bullywug Knight</name>
@@ -312,6 +326,10 @@
 		<name>Glaive</name>
 		<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) slashing damage.</text>
 		<attack>Glaive|5|1d10+3</attack>
+	</action>
+	<action>
+		<name>Bonus Action: Croak of Charming (Recharges after a Short or Long Rest)</name>
+		<text>The knight makes a loud croak while targeting one creature it can see within 30 feet of it. The target must succeed on a DC 12 Wisdom saving throw or be charmed until the end of its next turn.</text>
 	</action>
 </monster>
 <monster>
@@ -390,6 +408,10 @@
 		<name>Stuffing</name>
 		<text>Clapperclaw stuffs straw or other dead plant matter into itself and regains 2d4 + 2 hit points. Roll a d6; on a 1 or 2, Clapperclaw runs out of stuffing and must spend 8 hours foraging for more before it can use this action again.</text>
 		<attack>Stuffing||2d4+2</attack>
+	</action>
+	<action>
+		<name>Bonus Action: Unsettling Presence (Recharge 6)</name>
+		<text>Clapperclaw targets one creature it can see within 15 feet of it. The target must succeed on a DC 11 Wisdom saving throw or be magically frightened until the end of Clapperclaw's next turn.</text>
 	</action>
 </monster>
 <monster>
@@ -515,6 +537,15 @@
 		<attack>+1 Longsword|2|1d8</attack>
 		<attack>+1 Longsword (2 hand)|2|1d10</attack>
 		<attack>Extra||1d10</attack>
+	</action>
+	<action>
+		<name>Bonus Action: Feint (Recharge 5-6)</name>
+		<text>Elkhorn targets one creature that he can see within 5 feet of him. Elkhorn has advantage on the next attack roll he makes against that target before the end of his turn. If that attack hits, the target takes an extra 7 (2d6) damage of the weapon's type.</text>
+		<attack>Feint||2d6</attack>
+	</action>
+	<action>
+		<name>Bonus Action: Second Wind (Recharges after a Short or Long Rest)</name>
+		<text>Elkhorn regains 12 hit points.</text>
 	</action>
 </monster>
 <monster>
@@ -860,6 +891,10 @@
 		<name>Glass Sword</name>
 		<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage.</text>
 		<attack>Glass Sword|3|1d8+1</attack>
+	</action>
+	<action>
+		<name>Bonus Action: Dazzling Light (Recharge 5-6)</name>
+		<text>Magical, colored light springs from the golem in a 15-foot cone. Each creature in the cone must succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 	</action>
 </monster>
 <monster>
@@ -1342,6 +1377,11 @@
 		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: The target is grappled (escape 6) and takes 11 (2d10) psychic damage at the start of each of its turns until this grapple ends. The doll can grapple only one creature at a time.</text>
 		<attack>Grabby Hands|2|2d10</attack>
 	</action>
+	<action>
+		<name>Bonus Action: Cackle (Recharge 4-6)</name>
+		<text>The doll cackles as it targets one or two creatures it can see within 30 feet of it. Each target that can hear the doll's cackling must make a DC 11 Wisdom saving throw, succeeding automatically if it has an Intelligence of 4 or lower. On a failed saving throw, the creature takes 5 (2d4) psychic damage and is incapacitated for 1 minute as it is overcome by a fit of laughter. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on itself on a success. A creature that succeeds on this saving throw is immune to this doll's Cackle for 24 hours.</text>
+		<attack>Cackle||2d4</attack>
+	</action>
 </monster>
 <monster>
 	<name>Mercion</name>
@@ -1453,6 +1493,10 @@
 		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 4 (1d8) radiant damage.</text>
 		<attack>Witchlight Vane|5|1d6+3+1d8</attack>
 	</action>
+	<action>
+		<name>Bonus Action: Blessing of the Raven Queen (1/Day)</name>
+		<text>Light magically teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. Until the start of his next turn, he appears ghostly and gains resistance to all damage.</text>
+	</action>
 </monster>
 <monster>
 	<name>Mister Witch</name>
@@ -1502,6 +1546,10 @@
 		<name>Cane</name>
 		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage plus 6 (1d12) necrotic damage.</text>
 		<attack>Cane|4|1d4+2+1d12</attack>
+	</action>
+	<action>
+		<name>Bonus Action: Blessing of the Raven Queen (1/Day)</name>
+		<text>Witch magically teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. Until the start of his next turn, he appears ghostly and gains resistance to all damage.</text>
 	</action>
 </monster>
 <monster>
@@ -1923,6 +1971,11 @@
 		<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 25 (6d6 + 4) poison damage.</text>
 		<attack>Claw|7|6d6+4</attack>
 	</action>
+	<action>
+		<name>Bonus Action: Alter Size</name>
+		<text>Skabatha magically shrinks herself to Tiny size (between 4 and 8 inches tall) or returns to her normal size. If Skabatha lacks the room to return to her normal size, she attains the maximum size possible in the space available. Anything she is wearing or carrying changes size along with her.</text>
+		<text>	As a Tiny creature, Skabatha deals 2 (1d4) poison damage when she hits with a Claw attack. She has advantage on Dexterity (Stealth) checks, and disadvantage on Strength checks and Strength saving throws. Her statistics otherwise remain unchanged.</text>
+	</action>
 </monster>
 <monster>
 	<name>Skylla</name>
@@ -2310,6 +2363,14 @@
 		<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
 		<attack>Dagger|6|1d4+3</attack>
 	</action>
+	<action>
+		<name>Bonus Action: Flaming Blade</name>
+		<text>Warduke ignites or extinguishes his flame tongue longsword. While aflame, it sheds bright light in a 40-foot radius and dim light for an additional 40 feet.</text>
+	</action>
+	<action>
+		<name>Bonus Action: Second Wind (Recharges after a Short or Long Rest)</name>
+		<text>Warduke regains 13 hit points.</text>
+	</action>
 </monster>
 <monster>
 	<name>Will-o'-Wells</name>
@@ -2496,6 +2557,10 @@
 		<attack>Garrote|5|2d4+3</attack>
 		<attack>Extra||2d4+3</attack>
 	</action>
+	<action>
+		<name>Bonus Action: Assassin's Whim</name>
+		<text>Zarak takes the Dash, Disengage, or Hide action.</text>
+	</action>
 	<reaction>
 		<name>Uncanny Dodge</name>
 		<text>Zarak halves the damage he takes from an attack made against him, provided he can see the attacker.</text>
@@ -2553,6 +2618,10 @@
 		<name>Deathly Ray</name>
 		<text>Ranged Spell Attack: +5 to hit, range 60 ft., one creature. Hit: 25 (4d10 + 3) necrotic damage.</text>
 		<attack>Deathly Ray|5|4d10+3</attack>
+	</action>
+	<action>
+		<name>Bonus Action: Animate Corpse (1/Day)</name>
+		<text>Zargash targets the lifeless corpse of one Humanoid he can see within 30 feet of him and commands it to rise, transforming it into a zombie under his control. The zombie takes its turn immediately after Zargash. Animating the zombie requires Zargash's concentration (as if concentrating on a spell). The zombie reverts to an inanimate corpse after 10 minutes, when it drops to 0 hit points, or when Zargash's concentration ends.</text>
 	</action>
 </monster>
 </compendium>
