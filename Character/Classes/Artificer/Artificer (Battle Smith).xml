@@ -75,4 +75,47 @@
 		<index name="Mass Cure Wounds" />
 		<index name="Mending" />
 	</spellList>
+	    <monster>
+        <name>Steel Defender</name>
+        <size>M</size>
+        <type>construct</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment></alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level)</hp>
+        <speed>40 ft.</speed>
+        <str>14</str>
+        <dex>12</dex>
+        <con>14</con>
+        <int>4</int>
+        <wis>10</wis>
+        <cha>6</cha>
+        <save>dex +1 plus your proficiency bonus,con +2 plus your proficiency bonus</save>
+        <skill>athletics +2 plus your proficiency bonus,perception +0 plus your proficiency bonus × 2</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>charmed,exhaustion,poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10 + (your proficiency bonus × 2)</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Vigilant</name>
+            <text>The defender can't be surprised.</text>
+        </trait>
+        <action>
+            <name>Force-Empowered Rend</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + your proficiency bonus force damage.</text>
+            <attack>Force-Empowered Rend|0|1d8+</attack>
+        </action>
+        <action>
+            <name>Repair (3/Day)</name>
+            <text>The magical mechanisms inside the defender restore 2d8 + your proficiency bonus hit points to itself or to one construct or object within 5 feet of it.</text>
+            <attack>Repair||2d8</attack>
+        </action>
+        <reaction>
+            <name>Deflect Attack</name>
+            <text>The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.</text>
+        </reaction>
+    </monster>
 </compendium>
