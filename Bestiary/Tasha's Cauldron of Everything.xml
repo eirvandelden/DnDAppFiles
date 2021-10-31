@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+    <monster>
+        <name>Aberrant Spirit</name>
+        <size>M</size>
+        <type>aberration</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>11 + the level of the spell (natural armor)</ac>
+        <hp>40 + 10 for each spell level above 4th</hp>
+        <speed>30 ft., fly 30 ft. (beholderkin only; hover)</speed>
+        <str>16</str>
+        <dex>10</dex>
+        <con>15</con>
+        <int>16</int>
+        <wis>10</wis>
+        <cha>6</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>psychic</immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Deep Speech,understands the languages you speak</languages>
+        <trait>
+            <name>Regeneration (Slaad Only)</name>
+            <text>The aberration regains 5 hit points at the start of its turn if it has at least 1 hit point.</text>
+        </trait>
+        <trait>
+            <name>Whispering Aura (Star Spawn Only)</name>
+            <text>At the start of each of the aberration's turns, each creature within 5 feet of the aberration must succeed on a Wisdom saving throw against your spell save DC or take 2d6 psychic damage, provided that the aberration isn't incapacitated.</text>
+            <attack>||2d6</attack>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The aberration makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Eye Ray (Beholderkin Only)</name>
+            <text>Ranged Spell Attack: your spell attack modifier to hit, range 150 ft., one creature. Hit: 1d8 + 3 + the spell's level psychic damage.</text>
+            <attack>Eye Ray|0|1d8+3</attack>
+        </action>
+        <action>
+            <name>Claws (Slaad Only)</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + 3 + the spell's level slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn.</text>
+            <attack>Claws|0|1d10+3</attack>
+        </action>
+        <action>
+            <name>Psychic Slam (Star Spawn Only)</name>
+            <text>Melee Spell Attack: your spell attack modifier to hit, reach 5 ft., one creature. Hit: 1d8 + 3 + the spell's level psychic damage.</text>
+            <attack>Psychic Slam|0|1d8+3</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Adult Red Dracolich</name>
+        <size>H</size>
+        <type>undead</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>chaotic evil</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>256 (19d12 + 133)</hp>
+        <speed>40 ft., climb 40 ft., fly 80 ft.</speed>
+        <str>27</str>
+        <dex>10</dex>
+        <con>25</con>
+        <int>16</int>
+        <wis>13</wis>
+        <cha>21</cha>
+        <save>Dex +6, Con +13, Wis +7, Cha +11</save>
+        <skill>Perception +13, Stealth +6</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune>fire, poison</immune>
+        <conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>23</passive>
+        <languages>Common, Draconic</languages>
+        <cr>17</cr>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dracolich fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/DAY</recharge>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The dracolich has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <action>
+			<name>Multiattack</name>
+			<text>The dracolich can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage.</text>
+			<attack>Bite|14|2d10+8+2d6</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</text>
+			<attack>Claw|14|2d6+8</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.</text>
+			<attack>Tail|14|2d8+8</attack>
+		</action>
+		<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of the dracolich's choice that is within 120 feet of the dracolich and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dracolich's Frightful Presence for the next 24 hours.</text>
+		</action>
+		<action>
+			<name>Fire Breath (Recharge 5-6)</name>
+			<text>The dracolich exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on a failed save, or half as much damage</text>
+			<attack>Fire Breath||18d6</attack>
+            <recharge>5-6</recharge>
+		</action>
+		<legendary>
+			<name>Detect</name>
+			<text>The dracolich makes a Wisdom (Perception) check.</text>
+		</legendary>
+		<legendary>
+			<name>Tail Attack</name>
+			<text>The dracolich makes a tail attack.</text>
+			<attack>Tail|14|2d8+8</attack>
+		</legendary>
+		<legendary>
+			<name>Wing Attack (Costs 2 Actions)</name>
+			<text>The dracolich beats its tattered wings. Each creature within 10 ft. of the dracolich must succeed on a DC 21 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. After beating its wings this way, the dracolich can fly up to half its flying speed.</text>
+            <attack>Wing||2d6+7</attack>
+		</legendary>
+    </monster>
+    <monster>
+        <name>Beast of the Land</name>
+        <size>M</size>
+        <type>beast</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>13 + your proficiency bonus (natural armor)</ac>
+        <hp>5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)</hp>
+        <speed>40 ft., climb 40 ft.</speed>
+        <str>14</str>
+        <dex>14</dex>
+        <con>15</con>
+        <int>8</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Charge</name>
+            <text>If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.</text>
+            <attack>||1d6</attack>
+        </trait>
+        <trait>
+            <name>Primal Bond</name>
+            <text>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</text>
+        </trait>
+        <action>
+            <name>Maul</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 2 + your proficiency bonus slashing damage.</text>
+            <attack>Maul|0|1d8+2</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Beast of the Sea</name>
+        <size>M</size>
+        <type>beast</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>13 + your proficiency bonus (natural armor)</ac>
+        <hp>5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)</hp>
+        <speed>5 ft., swim 60 ft.</speed>
+        <str>14</str>
+        <dex>14</dex>
+        <con>15</con>
+        <int>8</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Amphibious</name>
+            <text>The beast can breathe both air and water.</text>
+        </trait>
+        <trait>
+            <name>Primal Bond</name>
+            <text>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</text>
+        </trait>
+        <action>
+            <name>Binding Strike</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 2 + your proficiency bonus piercing damage or 1d6 + 2 + your proficiency bonus bludgeoning damage (your choice), and the target is grappled (escape DC equal to your spellcasting save DC). Until this grapple ends, the beast can't use this attack on another target.</text>
+            <attack>Binding Strike|0|1d6+2</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Beast of the Sky</name>
+        <size>S</size>
+        <type>beast</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>neutral</alignment>
+        <ac>13 + your proficiency bonus (natural armor)</ac>
+        <hp>4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)</hp>
+        <speed>10 ft., fly 60 ft.</speed>
+        <str>6</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>8</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Flyby</name>
+            <text>The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+        </trait>
+        <trait>
+            <name>Primal Bond</name>
+            <text>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</text>
+        </trait>
+        <action>
+            <name>Shred</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d4 + 3 + your proficiency bonus slashing damage</text>
+            <attack>Shred|0|1d4+3</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Bestial Spirit</name>
+        <size>S</size>
+        <type>beast</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>11 + the level of the spell (natural armor)</ac>
+        <hp>20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2nd</hp>
+        <speed>30 ft., climb 30 ft. (land only),fly 60 ft. (air only),swim 30 ft. (water only)</speed>
+        <str>18</str>
+        <dex>11</dex>
+        <con>16</con>
+        <int>4</int>
+        <wis>14</wis>
+        <cha>5</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Water Breathing (Water Only)</name>
+            <text>The beast can breathe only underwater.</text>
+        </trait>
+        <trait>
+            <name>Flyby (Air Only)</name>
+            <text>The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+        </trait>
+        <trait>
+            <name>Pack Tactics (Land and Water Only)</name>
+            <text>The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The beast makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Maul</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the spell's level piercing damage.</text>
+            <attack>Maul|0|1d8+4</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Celestial Spirit</name>
+        <size>L</size>
+        <type>celestial</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>11 + the level of the spell (natural armor) + 2 (Defender only)</ac>
+        <hp>40 + 10 for each spell level above 5th</hp>
+        <speed>30 ft., fly 40 ft.</speed>
+        <str>16</str>
+        <dex>14</dex>
+        <con>16</con>
+        <int>10</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>radiant</resist>
+        <immune></immune>
+        <conditionImmune>charmed,frightened</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>Celestial,understands the languages you speak</languages>
+        <action>
+            <name>Multiattack</name>
+            <text>The celestial makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Radiant Bow (Avenger Only)</name>
+            <text>Ranged Weapon Attack: your spell attack modifier to hit, range 150/600 ft., one target. Hit: 2d6 + 2 + the spell's level radiant damage.</text>
+            <attack>Radiant Bow|0|2d6+2</attack>
+        </action>
+        <action>
+            <name>Radiant Mace (Defender Only)</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + 3 + the spell's level radiant damage, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 temporary hit points.</text>
+            <attack>Radiant Mace|0|1d10+3</attack>
+            <attack>Heal||1d10</attack>
+        </action>
+        <action>
+            <name>Healing Touch (1/Day)</name>
+            <text>The celestial touches another creature. The target magically regains hit points equal to 2d8 + the spell's level.</text>
+            <attack>Healing Touch||2d8</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Construct Spirit</name>
+        <size>M</size>
+        <type>construct</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>13 + the level of the spell (natural armor)</ac>
+        <hp>40 + 15 for each spell level above 3rd</hp>
+        <speed>30 ft.</speed>
+        <str>18</str>
+        <dex>10</dex>
+        <con>18</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>5</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>poison</resist>
+        <immune></immune>
+        <conditionImmune>charmed,exhaustion,frightened,incapacitated,paralyzed,petrified,poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Heated Body (Metal Only)</name>
+            <text>A creature that touches the construct or hits it with a melee attack while within 5 feet of it takes 1d10 fire damage.</text>
+            <attack>||1d10</attack>
+        </trait>
+        <trait>
+            <name>Stony Lethargy (Stone Only)</name>
+            <text>When a creature the construct can see starts its turn within 10 feet of the construct, the construct can force it to make a Wisdom saving throw against your spell save DC. On a failed save, the target can't use reactions and its speed is halved until the start of its next turn.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The construct makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Slam</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the spell's level bludgeoning damage.</text>
+            <attack>Slam|0|1d8+4</attack>
+        </action>
+        <reaction>
+            <name>Berserk Lashing (Clay Only)</name>
+            <text>When the construct takes damage, it makes a slam attack against a random creature within 5 feet of it. If no creature is within reach, the construct moves up to half its speed toward an enemy it can see, without provoking opportunity attacks.</text>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Dancing Item</name>
+        <size>L</size>
+        <type>construct</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>16 (natural armor)</ac>
+        <hp>10 + five times your bard level</hp>
+        <speed>30 ft., fly 30 ft. (hover)</speed>
+        <str>18</str>
+        <dex>14</dex>
+        <con>16</con>
+        <int>4</int>
+        <wis>10</wis>
+        <cha>6</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison,psychic</immune>
+        <conditionImmune>charmed,exhaustion,poisoned,frightened</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Immutable Form</name>
+            <text>The item is immune to any spell or effect that would alter its form.</text>
+        </trait>
+        <trait>
+            <name>Irrepressible Dance</name>
+            <text>When any creature starts its turn within 10 feet of the item, the item can increase or decrease (your choice) the walking speed of that creature by 10 feet until the end of the turn, provided the item isn't incapacitated.</text>
+        </trait>
+        <action>
+            <name>Force-Empowered Slam</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d10 + your proficiency bonus force damage.</text>
+            <attack>Force-Empowered Slam|0|1d10</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Elemental Spirit</name>
+        <size>M</size>
+        <type>elemental</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>11 + the level of the spell (natural armor)</ac>
+        <hp>50 + 10 for each spell level above 4th</hp>
+        <speed>40 ft., fly 40 ft. (air only hover),burrow 40 ft. (earth only),swim 40 ft. (water only)</speed>
+        <str>18</str>
+        <dex>15</dex>
+        <con>17</con>
+        <int>4</int>
+        <wis>10</wis>
+        <cha>16</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>lightning, thunder (Air only),piercing, slashing (Earth only),acid (Water only)</resist>
+        <immune>poison,fire (Fire only)</immune>
+        <conditionImmune>exhaustion,paralyzed,petrified,poisoned,unconscious</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Primordial,understands the languages you speak</languages>
+        <trait>
+            <name>Amorphous Form (Air, Fire, and Water Only)</name>
+            <text>The elemental can move through a space as narrow as 1 inch wide without squeezing.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The elemental makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Slam</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + 4 + the spell's level bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only).</text>
+            <attack>Slam|0|1d10+4</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Fey Spirit</name>
+        <size>S</size>
+        <type>fey</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>12 + the level of the spell (natural armor)</ac>
+        <hp>30 + 10 for each spell level above 3rd</hp>
+        <speed>40 ft.</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>16</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>charmed</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Sylvan,understands the languages you speak</languages>
+        <action>
+            <name>Multiattack</name>
+            <text>The fey makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Shortsword</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 3 + the spell's level piercing damage + 1d6 force damage.</text>
+            <attack>Shortsword|0|1d6+3+1d6</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Fiendish Spirit</name>
+        <size>L</size>
+        <type>fiend</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>12 + the level of the spell (natural armor)</ac>
+        <hp>50 (Demon only) or 40 (Devil only) or 60 (Yugoloth only) + 15 for each spell level above 6th</hp>
+        <speed>40 ft., climb 40 ft. (demon only),fly 60 ft. (devil only)</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>15</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>16</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>fire</resist>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Abyssal,Infernal,telepathy 60 ft.</languages>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The fiend has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <trait>
+            <name>Death Throes (Demon Only)</name>
+            <text>When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes 2d10 + the spell's level fire damage on a failed save, or half as much damage on a successful one.</text>
+        </trait>
+        <trait>
+            <name>Devil's Sight (Devil Only)</name>
+            <text>Magical darkness doesn't impede the fiend's darkvision.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The fiend makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Bite (Demon Only)</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell's level necrotic damage.</text>
+            <attack>Bite|0|1d12+3</attack>
+        </action>
+        <action>
+            <name>Claws (Yugoloth Only)</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 3 + the spell's level slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see.</text>
+            <attack>Claws|0|1d8+3</attack>
+        </action>
+        <action>
+            <name>Hurl Flame (Devil Only)</name>
+            <text>Ranged Spell Attack: your spell attack modifier to hit, range 150 ft., one target. Hit: 2d6 + 3 + the spell's level fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.</text>
+            <attack>Hurl Flame|0|2d6+3</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Homunculus Servant</name>
+        <size>T</size>
+        <type>construct</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment></alignment>
+        <ac>13 (natural armor)</ac>
+        <hp>1 + your Intelligence modifier + your artificer level (the homunculus has a number of Hit Dice [d4s] equal to your artificer level)</hp>
+        <speed>20 ft., fly 30 ft.</speed>
+        <str>4</str>
+        <dex>15</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>7</cha>
+        <save>dex +2 plus your proficiency bonus</save>
+        <skill>perception +0 plus your proficiency bonus × 2,stealth +2 plus your proficiency bonus</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>exhaustion,poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10 + (your proficiency bonus × 2)</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Evasion</name>
+            <text>If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.</text>
+        </trait>
+        <action>
+            <name>Force Strike</name>
+            <text>Ranged Weapon Attack: your spell attack modifier to hit, range 30 ft., one target you can see. Hit: 1d4 + your proficiency bonus force damage.</text>
+            <attack>Force Strike|0|1d4+</attack>
+        </action>
+        <reaction>
+            <name>Channel Magic</name>
+            <text>The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</text>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Juvenile Mimic</name>
+        <size>T</size>
+        <type>monstrosity (shapechanger)</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>11</ac>
+        <hp>7 (2d4 + 2)</hp>
+        <speed>10 ft., climb 10 ft.</speed>
+        <str>1</str>
+        <dex>12</dex>
+        <con>13</con>
+        <int>10</int>
+        <wis>13</wis>
+        <cha>10</cha>
+        <save></save>
+        <skill>stealth +3</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>acid</immune>
+        <conditionImmune>prone</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>11</passive>
+        <languages>Common,Undercommon,telepathy 120 ft.</languages>
+        <cr>0</cr>
+        <trait>
+            <name>False Appearance (Object Form Only)</name>
+            <text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
+        </trait>
+        <trait>
+            <name>Spider Climb</name>
+            <text>The mimic can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 2 (1d4) acid damage.</text>
+            <attack>Bite|3|1d4</attack>
+        </action>
+        <action>
+            <name>Shape-Shift</name>
+            <text>The mimic polymorphs into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+        </action>
+    </monster>
+    <monster>
+        <name>Mighty Servant of Leuk-o</name>
+        <size>H</size>
+        <type>construct</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>22 (natural armor)</ac>
+        <hp>310 (27d12 + 135)</hp>
+        <speed>60 ft.</speed>
+        <str>30</str>
+        <dex>14</dex>
+        <con>20</con>
+        <int>1</int>
+        <wis>14</wis>
+        <cha>10</cha>
+        <save>wis +9,cha +7</save>
+        <skill>perception +9</skill>
+        <vulnerable></vulnerable>
+        <resist>piercing,slashing</resist>
+        <immune>acid,bludgeoning,cold,fire,lightning,necrotic,poison,psychic,radiant</immune>
+        <conditionImmune>blinded,charmed,deafened,frightened,grappled,incapacitated,paralyzed,petrified,poisoned,restrained,stunned</conditionImmune>
+        <senses>blindsight 120 ft.</senses>
+        <passive>19</passive>
+        <languages>understands the languages of creatures attuned to it but can't speak</languages>
+        <trait>
+            <name>Immutable Existence</name>
+            <text>The servant is immune to any spell or effect that would alter its form or send it to another plane of existence.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The servant has advantage on saving throws against spells and other magical effects, and spell attacks made against it have disadvantage.</text>
+        </trait>
+        <trait>
+            <name>Regeneration</name>
+            <text>The servant regains 10 hit points at the start of its turn. If it is reduced to 0 hit points, this trait doesn't function until an attuned creature spends 24 hours repairing the artifact or until the artifact is subjected to lightning damage.</text>
+        </trait>
+        <trait>
+            <name>Standing Leap</name>
+            <text>The servant's long jump is up to 50 feet and its high jump is up to 25 feet, with or without a running start.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The servant doesn't require air, food, drink, or sleep.</text>
+        </trait>
+        <action>
+            <name>Destructive Fist</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 36 (4d12 + 10) force damage. Or Ranged Weapon Attack: +17 to hit, range 120 ft., one target. 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage.</text>
+            <attack>Destructive Fist|17|4d12+10</attack>
+        </action>
+        <action>
+            <name>Crushing Leap</name>
+            <text>If the servant jumps at least 25 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures is pushed to an unoccupied space within 5 feet of the servant and must make a 25 Dexterity saving throw. On a failed save, a creature takes 26 (4d12) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</text>
+            <attack>Crushing Leap||4d12</attack>
+        </action>
+    </monster>
+    	<monster>
+		<name>Shadow</name>
+		<size>M</size>
+		<type>fey</type>
+		<description>Source: Tasha's Cauldron of Everything'</description>
+		<alignment>chaotic evil</alignment>
+		<ac>12</ac>
+		<hp>16 (3d8+3)</hp>
+		<speed>40 ft.</speed>
+		<str>6</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>6</int>
+		<wis>10</wis>
+		<cha>8</cha>
+		<skill>Stealth +4</skill>
+		<resist>acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable>bludgeoning</vulnerable>
+		<immune>necrotic, poison</immune>
+		<conditionImmune>exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<cr>1/2</cr>
+		<trait>
+			<name>Amorphous</name>
+			<text>The reflection can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Shadow Stealth</name>
+			<text>While in dim light or darkness, the reflection can take the Hide action as a bonus action. Its stealth bonus is also improved to +6.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Weakness</name>
+			<text>While in sunlight, the reflection has disadvantage on attack rolls, ability checks, and saving throws.</text>
+		</trait>
+		<action>
+			<name>Strength Drain</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.</text>
+			<text>If a non-evil humanoid dies from this attack, a new reflection rises from the corpse 1d4 hours later.</text>
+			<attack>Strength Drain|4|2d6+2</attack>
+		</action>
+	</monster>
+    <monster>
+        <name>Shadow Spirit</name>
+        <size>M</size>
+        <type>monstrosity</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>11 + the level of the spell (natural armor)</ac>
+        <hp>35 + 15 for each spell level above 3rd</hp>
+        <speed>40 ft.</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>15</con>
+        <int>4</int>
+        <wis>10</wis>
+        <cha>16</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune></immune>
+        <conditionImmune>frightened</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>10</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Terror Frenzy (Fury Only)</name>
+            <text>The spirit has advantage on attack rolls against frightened creatures.</text>
+        </trait>
+        <trait>
+            <name>Weight of Sorrow (Despair Only)</name>
+            <text>Any creature, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that creature's next turn.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The spirit makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Chilling Rend</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell's level cold damage.</text>
+            <attack>Chilling Rend|0|1d12+3</attack>
+        </action>
+        <action>
+            <name>Dreadful Scream (1/Day)</name>
+            <text>The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be frightened for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+        </action>
+    </monster>
+    <monster>
+        <name>Steel Defender</name>
+        <size>M</size>
+        <type>construct</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment></alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level)</hp>
+        <speed>40 ft.</speed>
+        <str>14</str>
+        <dex>12</dex>
+        <con>14</con>
+        <int>4</int>
+        <wis>10</wis>
+        <cha>6</cha>
+        <save>dex +1 plus your proficiency bonus,con +2 plus your proficiency bonus</save>
+        <skill>athletics +2 plus your proficiency bonus,perception +0 plus your proficiency bonus × 2</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>charmed,exhaustion,poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10 + (your proficiency bonus × 2)</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Vigilant</name>
+            <text>The defender can't be surprised.</text>
+        </trait>
+        <action>
+            <name>Force-Empowered Rend</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + your proficiency bonus force damage.</text>
+            <attack>Force-Empowered Rend|0|1d8+</attack>
+        </action>
+        <action>
+            <name>Repair (3/Day)</name>
+            <text>The magical mechanisms inside the defender restore 2d8 + your proficiency bonus hit points to itself or to one construct or object within 5 feet of it.</text>
+            <attack>Repair||2d8</attack>
+        </action>
+        <reaction>
+            <name>Deflect Attack</name>
+            <text>The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.</text>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Undead Spirit</name>
+        <size>M</size>
+        <type>undead</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>11 + the level of the spell (natural armor)</ac>
+        <hp>30 (Ghostly and Putrid only) or 20 (Skeletal only) + 10 for each spell level above 3rd</hp>
+        <speed>30 ft., fly 40 ft. (ghostly only; hover)</speed>
+        <str>12</str>
+        <dex>16</dex>
+        <con>15</con>
+        <int>4</int>
+        <wis>10</wis>
+        <cha>9</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>necrotic,poison</immune>
+        <conditionImmune>exhaustion,frightened,paralyzed,poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>understands the languages you speak</languages>
+        <trait>
+            <name>Incorporeal Passage (Ghostly Only)</name>
+            <text>The spirit can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 force damage for every 5 feet traveled.</text>
+        </trait>
+        <trait>
+            <name>Festering Aura (Putrid Only)</name>
+            <text>Any creature, other than you, that starts its turn within 5 feet of the spirit must succeed on a Constitution saving throw against your spell save DC or be poisoned until the start of its next turn.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The spirit makes a number of attacks equal to half this spell's level (rounded down).</text>
+        </action>
+        <action>
+            <name>Deathly Touch (Ghostly Only)</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one creature. Hit: 1d8 + 3 + the spell's level necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of the undead until the end of the target's next turn.</text>
+            <attack>Deathly Touch|0|1d8+3</attack>
+        </action>
+        <action>
+            <name>Grave Bolt (Skeletal Only)</name>
+            <text>Ranged Spell Attack: your spell attack modifier to hit, range 150 ft., one target. Hit: 2d4 + 3 + the spell's level necrotic damage.</text>
+            <attack>Grave Bolt|0|2d4+3</attack>
+        </action>
+        <action>
+            <name>Rotting Claw (Putrid Only)</name>
+            <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 3 + the spell's level slashing damage. If the target is poisoned, it must succeed on a Constitution saving throw against your spell save DC or be paralyzed until the end of its next turn.</text>
+            <attack>Rotting Claw|0|1d6+3</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Wildfire Spirit</name>
+        <size>S</size>
+        <type>elemental</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>13 (natural armor)</ac>
+        <hp>5 + five times your druid level</hp>
+        <speed>30 ft., fly 30 ft. (hover)</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>13</int>
+        <wis>15</wis>
+        <cha>11</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>fire</immune>
+        <conditionImmune>charmed,frightened,grappled,prone,restrained</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>understands the languages you speak</languages>
+        <action>
+            <name>Flame Seed</name>
+            <text>Ranged Weapon Attack: your spell attack modifier to hit, range 60 ft., one target you can see. Hit: 1d6 + your proficiency bonus fire damage.</text>
+            <attack>Flame Seed|0|1d6</attack>
+        </action>
+        <action>
+            <name>Fiery Teleportation</name>
+            <text>The spirit and each willing creature of your choice within 5 feet of it teleport up to 15 feet to unoccupied spaces you can see. Then each creature within 5 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + your proficiency bonus fire damage.</text>
+            <attack>Fiery Teleportation||1d6</attack>
+        </action>
+    </monster>
+</compendium>

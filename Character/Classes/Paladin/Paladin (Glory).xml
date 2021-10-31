@@ -4,7 +4,7 @@
 		<name>Paladin (Glory)</name>
 		<autolevel level="3">
 			<feature optional="YES">
-				<name>Paladin Oath: Oath of Glory</name>
+				<name>Sacred Oath: Oath of Glory</name>
 				<text>Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions so they're all ready when destiny calls.</text>
 			</feature>
 			<feature optional="YES">
@@ -16,12 +16,12 @@
 				<text>You gain oath spells at the paladin levels listed in the Oath of Glory Spells table. See the Sacred Oath class feature for how oath spells work.</text>
 				<text></text>
 				<text>Oath of Glory Spells</text>
-				<text>Paladin Level    Spells</text>
-				<text>3rd              guiding bolt, heroism</text>
-				<text>5th              enhance ability, magic weapon</text>
-				<text>9th              haste, protection from energy</text>
-				<text>13th             compulsion, freedom of movement</text>
-				<text>17th             commune, flame strike</text>
+				<text>	Paladin Level    Spells</text>
+				<text>	3rd              guiding bolt, heroism</text>
+				<text>	5th              enhance ability, magic weapon</text>
+				<text>	9th              haste, protection from energy</text>
+				<text>	13th             compulsion, freedom of movement</text>
+				<text>	17th             commune, flame strike</text>
 			</feature>
 			<feature optional="YES">
 				<name>Oath of Glory: Tenets of Glory</name>
@@ -66,25 +66,15 @@
 		</autolevel>
 	</subclass>
 	<spellList class="Paladin (Glory)">
-		<index name="Guiding Bolt"/>
-		<index name="Heroism"/>
-		<index name="Enhance Ability"/>
-		<index name="Magic Weapon"/>
-		<index name="Haste"/>
-		<index name="Protection from Energy"/>
-		<index name="Compulsion"/>
-		<index name="Freedom of Movement"/>
-		<index name="Commune"/>
-		<index name="Flame Strike"/>
-		<index name="Guiding Bolt"/>
-		<index name="Heroism"/>
-		<index name="Enhance Ability"/>
-		<index name="Magic Weapon"/>
-		<index name="Haste"/>
-		<index name="Protection from Energy"/>
-		<index name="Compulsion"/>
-		<index name="Freedom of Movement"/>
-		<index name="Commune"/>
-		<index name="Flame Strike"/>
+		<index name="Guiding Bolt" />
+		<index name="Heroism" />
+		<index name="Enhance Ability" />
+		<index name="Magic Weapon" />
+		<index name="Haste" />
+		<index name="Protection from Energy" />
+		<index name="Compulsion" />
+		<index name="Freedom of Movement" />
+		<index name="Commune" />
+		<index name="Flame Strike" />
 	</spellList>
 </compendium>
