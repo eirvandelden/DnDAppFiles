@@ -58,7 +58,7 @@
 		<text>Hidden Nature</text>
 		<text>The acid damage dealt by this greatsword appears to be radiant damage; Any creature who is successfully charmed by it is under the illusion that the damage to it was merely an admonishing jostle. A true seeing spell or similar reveals that this sword is actually a rusted, pitted blade dripping with acid.</text>
 		<text>Sentience</text>
-		<text>Graz'tchar is a sentient evil weapon with an Intelligence of 14, a Wisdom of 12, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet.  e weapon can speak, read, and understand Common, and can communicate with its wielder telepathically.  ose who hold it hear the wise voice of a sorrowful king, beckoning the user to seize their destiny.</text>
+		<text>Graz'tchar is a sentient evil weapon with an Intelligence of 14, a Wisdom of 12, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet. The weapon can speak, read, and understand Common, and can communicate with its wielder telepathically.  ose who hold it hear the wise voice of a sorrowful king, beckoning the user to seize their destiny.</text>
 		<text>Personality</text>
 		<text>Graz'tchar slowly attempts to sway the character into sowing chaos in Tal'Dorei, telling lies about great leaders, claiming that the heads of the Tal'Dorei Council are corrupt and must be overthrown. The voice of this blade is actually the Demon Prince of Indulgence, speaking from his Abyssal prison. Should the wielder continue to disobey the urges of the weapon for an extended period of time, it can attempt to charm the wielder. They must make a Charisma saving throw (DC 14). On a success, they are immune to the sword's charm for 24 hours. Upon a failure, they become charmed by the sword for 24 hours. During this time, the sword can force the character to take an action of its choice once an hour, the wielder accepting this action as their own will. Should the chosen action lead to the harm of a non-hostile creature or ally, the charm immediately breaks.</text>
 		<roll>3d6</roll>
@@ -66,6 +66,8 @@
 		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
 		<text/>
 		<text>Two-Handed: This weapon requires two hands to use.</text>
+        <modifier category="bonus">melee attacks +3</modifier>
+        <modifier category="bonus">melee damage +3</modifier>
 	</item>
 	<item>
 		<name>Dynamite</name>
@@ -191,7 +193,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Requires attunement</text>
-		<text>This antique armor forged from jade and black dragon scales was once owned and worn by J'mon Sa Ord of Ank'Harel. You have a +1 bonus to AC while wearing this armor.</text>
+		<text>This antique armor forged from jade and black dragon scales was once owned and worn by J'mon Sa Ord of Ank'Harel. You have a +2 bonus to AC while wearing this armor.</text>
 		<text>	You can cast the command spell (save DC 15) while attuned to this armor. You cannot use this ability again until you have completed a long rest.</text>
 		<text>	You gain resistance to acid damage while wearing this armor.</text>
 		<text>	You gain immunity to the frightened condition while wearing this armor.</text>
@@ -209,7 +211,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Requires attunement</text>
-		<text>This antique armor forged from jade and black dragon scales was once owned and worn by J'mon Sa Ord of Ank'Harel. You have a +1 bonus to AC while wearing this armor.</text>
+		<text>This antique armor forged from jade and black dragon scales was once owned and worn by J'mon Sa Ord of Ank'Harel. You have a +3 bonus to AC while wearing this armor.</text>
 		<text>	You can cast the command spell (save DC 17) while attuned to this armor. You cannot use this ability again until you have completed a long rest.</text>
 		<text>	You gain immunity to acid damage while you are wear- ing this armor.</text>
 		<text>	You gain immunity to the frightened condition while wearing this armor. Your immunity to the frightened condition extends to include all friendly creatures within 15 feet, as long as you are conscious.</text>
@@ -757,7 +759,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Requires attunement</text>
-		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +1 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 1d6 fire damage.</text>
+		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +2 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 1d6 fire damage.</text>
 		<text>	You can choose to have this weapon shed bright light in a 30 foot radius and dim light for an additional 30 feet. If you kill a creature with an attack using this weapon, the corpse is immolated, turning to ash.</text>
 		<text>	As an action, you can slam the Pyremaul into the ground to cast the burning hands spell at 2nd level (spell save DC 15). You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you score a critical hit with this weapon, the target must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
@@ -779,7 +781,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Requires attunement</text>
-		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +1 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 1d6 fire damage.</text>
+		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +3 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 1d6 fire damage.</text>
 		<text>	You can choose to have this weapon shed bright light in a 30 foot radius and dim light for an additional 30 feet. If you kill a creature with an attack using this weapon, the corpse is immolated, turning to ash.</text>
 		<text>	As an action, you can slam the Pyremaul into the ground to cast the burning hands spell at 3rd level (spell save DC 17). You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you score a critical hit with this weapon, the target must succeed on a DC 17 Strength saving throw or be knocked prone. You can also roll an additional 3d6 fire damage when determining the extra damage for the critical hit.</text>
@@ -944,7 +946,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Requires attunement</text>
-		<text>Forged with a mercurial metal pulled from the Far Realm, light dances and shifts across this curved blade. You have a +2 bonus to attack and damage rolls made with this weapon.</text>
+		<text>Forged with a mercurial metal pulled from the Far Realm, light dances and shifts across this curved blade. You have a +3 bonus to attack and damage rolls made with this weapon.</text>
 		<text>	Additionally, when you hit a target with this weapon, the target takes an additional 1d8 psychic damage.</text>
 		<text>	Whenever you strike a creature with a critical hit using Whisper, the target must make a DC 17 Wisdom saving throw or become frightened of you for 1 minute. On a success, they are immune to being frightened by this effect for the next 24 hours.</text>
 		<text>	Whenever Whisper is thrown but before it hits, you can choose to transform into shadow and merge with the blade, teleporting instantly to wherever the blade impacts. If the target is a creature, you emerge adjacent to the target in a space of your choice. If you miss with the attack, the DM determines where you teleport accordingly.</text>
@@ -994,7 +996,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Requires attunement by a monk</text>
-		<text>Created and wielded by the ancient warrior called Dyamak, these thick cloth strips of enchanted material appear to be stained with blood of unknown origin. You have a +2 bonus to attack and damage rolls made with your unarmed strikes.</text>
+		<text>Created and wielded by the ancient warrior called Dyamak, these thick cloth strips of enchanted material appear to be stained with blood of unknown origin. You have a +3 bonus to attack and damage rolls made with your unarmed strikes.</text>
 		<text>	Whenever you finish a short or long rest, you gain a number of temporary hit points equal to your full ki points.</text>
 		<text>	As a bonus action, you can cast the spell misty step. You cannot use this ability again until you score a critical hit with an unarmed strike, or you complete a short or long rest.</text>
 		<text>	When you hit with an unarmed strike, you can choose to make the attack a Ravenous Strike. The target takes an additional 6d6 necrotic damage, and you regain hit points equal to the additional necrotic damage dealt. You cannot use this ability again until you complete a short or long rest.</text>
