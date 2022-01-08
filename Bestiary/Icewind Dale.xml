@@ -391,6 +391,7 @@
     <trait>
       <name>Charge</name>
       <text>If the moose moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a 14 Strength saving throw or be knocked prone.</text>
+      <attack>||2d8</attack>
     </trait>
     <trait>
       <name>Sure-Footed</name>
@@ -748,6 +749,7 @@
     <action>
       <name>Claws</name>
       <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+      <attack>Claws|0|1</attack>
     </action>
   </monster>
   <monster>
@@ -786,6 +788,7 @@
     <action>
       <name>Bite</name>
       <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
+      <attack>Bite|5|1</attack>
     </action>
   </monster>
   <monster>
@@ -854,6 +857,7 @@
     <action>
       <name>Bite</name>
       <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+      <attack>Bite|0|1</attack>
     </action>
   </monster>
   <monster>
@@ -892,13 +896,14 @@
     <action>
       <name>Bite</name>
       <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+      <attack>Bite|5|1</attack>
     </action>
   </monster>
-<monster>
+  <monster>
 		<name>Chwinga</name>
 		<size>T</size>
 		<type>elemental</type>
-		<description>Source: Tomb of Annihilation</description>
+		<description>Source: Icewind Dale: Rime of the Frostmaiden</description>
 		<alignment>neutral</alignment>
 		<ac>15</ac>
 		<hp>5 (2d4)</hp>
@@ -1215,6 +1220,7 @@
     <action>
       <name>Bite</name>
       <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
+      <attack>Bite|5|1</attack>
     </action>
   </monster>
   <monster>
@@ -1245,6 +1251,12 @@
     <trait>
       <name>Spellcasting (Humanoid Form Only)</name>
       <text>The druid is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save 14; +6 to hit with spell attacks). It has the following druid spells prepared:</text>
+      <trait>Cantrips (at will): Druidcraft, Guidance, Resistance</trait>
+      <trait>1st level (4 slots): Animal Friendship, Fog Cloud, Speak with Animals</trait>
+      <trait>2nd level (3 slots): Animal Messenger, Moonbeam, Pass without Trace</trait>
+      <trait>3rd level (3 slots): Conjure Animals, Sleet Storm, Wind Wall</trait>
+      <trait>4th level (3 slots): Hallucinatory Terrain, Ice Storm</trait>
+      <trait>5th level (1 slot): Awaken</trait>
     </trait>
     <slots>4,3,3,3,1</slots>
     <spellAbility>Wisdom</spellAbility>
@@ -1459,7 +1471,7 @@
       <name>Vampire Weaknesses</name>
       <text>The vampire has the following flaws:</text>
       <text>  Enraged by Celestial. If it hears words of Celestial spoken, the vampire must try to attack the source of those spoken words on its next turn. If these words come from multiple sources and from opposite directions, the vampire is restrained. Otherwise, it moves to attack what it perceives to be the closest source.</text>
-      <text>  Repulsed by Perfume. The vampire has disadvantage on melee attack rolls made against any creature wearing perfume or carrying an open container of it.</text>,
+      <text>  Repulsed by Perfume. The vampire has disadvantage on melee attack rolls made against any creature wearing perfume or carrying an open container of it.</text>
       <text>  Stake to the Heart. If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed.</text>
       <text>  Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</text>
     </trait>
@@ -2373,7 +2385,7 @@
     <size>M</size>
     <type>humanoid (any race)</type>
     <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>lawful  chaotic  evil</alignment>
+    <alignment>any non-good alignment</alignment>
     <ac>13 (leather armor)</ac>
     <hp>33 (6d8 + 6)</hp>
     <speed>30 ft.</speed>
@@ -2479,7 +2491,7 @@
     <save>dex +6,wis +1</save>
     <skill>perception +1,stealth +6</skill>
     <vulnerable></vulnerable>
-    <resist>necrotic,bludgeoning, piercing, slashing from nonmagical attacks</resist>
+    <resist>necrotic;bludgeoning, piercing, slashing from nonmagical attacks</resist>
     <immune></immune>
     <conditionImmune></conditionImmune>
     <senses>darkvision 60 ft.</senses>
@@ -2503,7 +2515,7 @@
       <text>The vampire has the following flaws:</text>
       <text>  Forbiddance. The vampire can't enter a residence without an invitation from one of the occupants.</text>,
       <text>  Harmed by Running Water. The vampire takes 20 acid damage when it starts its turn in running water.</text>,
-      <text>  Stake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place.</text>,
+      <text>  Stake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place.</text>
       <text>  Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</text>
     </trait>
     <action>
@@ -2668,7 +2680,7 @@
     <save>wis +2,cha +5</save>
     <skill></skill>
     <vulnerable></vulnerable>
-    <resist>acid,fire,lightning,thunder,bludgeoning, piercing, slashing from nonmagical attacks</resist>
+    <resist>acid,fire,lightning,thunder;bludgeoning, piercing, slashing from nonmagical attacks</resist>
     <immune>cold,necrotic,poison</immune>
     <conditionImmune>charmed,exhaustion,frightened,grappled,paralyzed,petrified,poisoned,prone,restrained</conditionImmune>
     <senses>darkvision 60 ft.</senses>
@@ -2798,7 +2810,7 @@
     <save></save>
     <skill></skill>
     <vulnerable></vulnerable>
-    <resist>acid,fire,lightning,thunder,bludgeoning, piercing, slashing from nonmagical attacks</resist>
+    <resist>acid,fire,lightning,thunder;bludgeoning, piercing, slashing from nonmagical attacks</resist>
     <immune>cold,necrotic,poison</immune>
     <conditionImmune>charmed,exhaustion,frightened,grappled,paralyzed,petrified,poisoned,prone,restrained</conditionImmune>
     <senses>darkvision 60 ft.</senses>
@@ -3177,7 +3189,6 @@
     <trait>
       <name>Innate Spellcasting</name>
       <text>Sephek can innately cast misty step up to three times per day, requiring no components. His innate spellcasting ability is Charisma.</text>
-      <text>At will: misty step</text>
     </trait>
     <spellAbility>Charisma</spellAbility>
     <spells>Misty Step</spells>
@@ -3330,8 +3341,8 @@
       <name>Innate Spellcasting</name>
       <text>Spellix's spellcasting ability is Charisma (spell save 13, +5 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
       <text>At will: fire bolt, mage hand, shocking grasp</text>
-      <text>3: silent image</text>
-      <text>1/Day: chromatic orb, crown of madness, shield</text>
+      <text>3/Day: silent image</text>
+      <text>1/Day each: chromatic orb, crown of madness, shield</text>
     </trait>
     <spellAbility>Charisma</spellAbility>
     <spells>Fire Bolt,Mage Hand,Shocking Grasp,Silent Image,Chromatic Orb,Crown of Madness,Shield</spells>
@@ -3501,7 +3512,7 @@
     <trait>
       <name>Multiple Heads</name>
       <text>The Telepathic Pentacle has five heads. While it has more than one head, the Telepathic Pentacle has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.</text>
-      <text>  Whenever the Telepathic Pentacle takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the Telepathic Pentacle dies.</text>,
+      <text>  Whenever the Telepathic Pentacle takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the Telepathic Pentacle dies.</text>
       <text>  At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The Telepathic Pentacle regains 10 hit points for each head regrown in this way.</text>
     </trait>
     <trait>
@@ -3670,7 +3681,8 @@
     <action>
       <name>Wand of Magic Missiles</name>
       <text>While holding this wand, Vellynne can expend 1 or more of its 7 charges to cast the magic missile spell from it. She can expend 1 charge to cast the 1st-level version of the spell. She can increase the spell slot level by one for each additional charge she expends. The wand regains 1d6 + 1 expended charges daily at dawn. If the wand's last charge is expended, roll a d20; on a 1, the wand crumbles into ashes and is destroyed.</text>
-      <attack>Wand of Magic Missiles||1d6+1</attack>
+      <attack>Wand of Magic Missiles||1d4+1</attack>
+      <attack>Recharge||1d6+1</attack>
     </action>
   </monster>
   <monster>
@@ -4033,10 +4045,12 @@
     <action>
       <name>Beak</name>
       <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+      <attack>Beak|0|1</attack>
     </action>
     <action>
       <name>Claws</name>
       <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+      <attack>Beak|0|1</attack>
     </action>
   </monster>
 </compendium>
