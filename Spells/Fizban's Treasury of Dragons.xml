@@ -13,7 +13,6 @@
 		<text>    When you move within 5 feet of a creature or an object that isn't being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn.</text>
 		<text>    At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. The spell deals an additional 1d6 fire damage for each slot level above 3rd.</text>
 		<roll>1d6</roll>
-		<roll>1d6</roll>
 	</spell>
 	<spell>
 		<name>Draconic Transformation</name>
@@ -25,9 +24,9 @@
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Druid, Sorcerer, Wizard</classes>
 		<text>With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:</text>
-		<text>    • {'type': 'item', 'name': 'Blindsight.', 'entries': [&quot;You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.&quot;]}</text>
-		<text>    • {'type': 'item', 'name': 'Breath Weapon.', 'entries': ['When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in that area must make a Dexterity saving throw, taking 6d8 force damage on a failed save, or half as much damage on a successful one.']}</text>
-		<text>    • {'type': 'item', 'name': 'Wings.', 'entries': ['Incorporeal wings sprout from your back, giving you a flying speed of 60 feet.']}</text>
+		<text>    • Blindsight. You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.</text>
+		<text>    • Breath Weapon. When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in that area must make a Dexterity saving throw, taking 6d8 force damage on a failed save, or half as much damage on a successful one.</text>
+		<text>    • Wings. Incorporeal wings sprout from your back, giving you a flying speed of 60 feet.</text>
 		<roll>6d8</roll>
 	</spell>
 	<spell>
@@ -40,9 +39,9 @@
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Sorcerer, Wizard</classes>
 		<text>You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet. While surrounded by the field, a creature gains the following benefits:</text>
-		<text>    • {'type': 'item', 'name': 'Cover.', 'entries': ['The creature has half cover.']}</text>
-		<text>    • {'type': 'item', 'name': 'Damage Resistance.', 'entries': ['The creature has resistance to acid, cold, fire, lightning, and poison damage.']}</text>
-		<text>    • {'type': 'item', 'name': 'Evasion.', 'entries': ['If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.', 'As a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field.']}</text>
+		<text>    • Cover. The creature has half cover.</text>
+		<text>    • Damage Resistance. The creature has resistance to acid, cold, fire, lightning, and poison damage.</text>
+		<text>    • Evasion. If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. As a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field.</text>
 	</spell>
 	<spell>
 		<name>Nathair's Mischief</name>
