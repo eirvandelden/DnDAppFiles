@@ -1,0 +1,2429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+    <monster>
+        <name>Archaic</name>
+        <size>G</size>
+        <type>celestial</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral</alignment>
+        <ac>20 (natural armor)</ac>
+        <hp>245 (14d20 + 98)</hp>
+        <speed>40 ft.</speed>
+        <str>25</str>
+        <dex>10</dex>
+        <con>24</con>
+        <int>27</int>
+        <wis>24</wis>
+        <cha>20</cha>
+        <save>dex +6,int +14,wis +13,cha +11</save>
+        <skill>arcana +20,deception +11,history +20,perception +13</skill>
+        <vulnerable></vulnerable>
+        <resist>force</resist>
+        <immune>poison,psychic</immune>
+        <conditionImmune>charmed,exhaustion,frightened,paralyzed,petrified,poisoned,stunned</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>23</passive>
+        <languages>all</languages>
+        <cr>18</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The archaic casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 22):</text>
+            <text>At will: detect magic, divination, sending</text>
+            <text>1/day each: banishment, forcecage</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Detect Magic,Divination,Sending,Banishment,Forcecage</spells>
+        <trait>
+            <name>Enigmatic Mind</name>
+            <text>The archaic's mind can't be read, creatures can communicate telepathically with the archaic only if it allows, and magic can't determine whether the archaic is lying.</text>
+        </trait>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the archaic fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The archaic doesn't require air, food, drink, or sleep.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The archaic makes two Force Strike attacks. It can also use Gravity Shift, if available.</text>
+        </action>
+        <action>
+            <name>Force Strike</name>
+            <text>Melee or Ranged Spell +14 to hit, reach 15 ft. or range 120 ft., one target. Hit: 19 (2d10 + 8) force damage, and the target is pulled up to 10 feet toward the archaic or pushed 10 feet away from it, as the archaic chooses.</text>
+            <attack>Force Strike|14|2d10+8</attack>
+        </action>
+        <action>
+            <name>Gravity Shift (Recharge 5-6)</name>
+            <text>The archaic reverses gravity for one creature it can see within 100 feet of itself. The creature must succeed on a 22 Wisdom saving throw or fall 100 feet upward. If the falling creature encounters a solid object (such as a ceiling) in this fall, it strikes the object just as it would during a downward fall. If the creature reaches the top of the area without striking anything, it hovers there until the start of the archaic's next turn, at which time gravity returns to normal and the creature falls.</text>
+            <recharge>D5</recharge>
+        </action>
+        <action>
+            <name>Teleport</name>
+            <text>The archaic teleports to an unoccupied space that it can see within 120 feet of itself.</text>
+        </action>
+        <reaction>
+            <name>Spell Mimicry (1/Day)</name>
+            <text>Immediately after a creature the archaic can see casts a spell of 5th level or lower, that creature must succeed on a 22 Charisma saving throw, or the archaic immediately casts the same spell at the same level (+14 to hit with spell attacks, spell save 22), requiring no material components and choosing the spell's targets.</text>
+            <recharge>1/Day</recharge>
+        </reaction>
+        <legendary>
+            <name>Strike</name>
+            <text>The archaic makes one Force Strike attack.</text>
+        </legendary>
+        <legendary>
+            <name>Teleport</name>
+            <text>The archaic uses Teleport.</text>
+        </legendary>
+        <legendary>
+            <name>Unravel Magic (Costs 2 Actions)</name>
+            <text>The archaic targets one creature it can see within 120 feet of itself. The target must succeed on a 22 Constitution saving throw or take 35 (10d6) force damage, and each spell of 5th level or lower on the target ends.</text>
+            <attack>Unravel Magic||10d6</attack>
+        </legendary>
+    </monster>
+    <monster>
+        <name>Art Elemental Mascot</name>
+        <size>S</size>
+        <type>elemental</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral</alignment>
+        <ac>11</ac>
+        <hp>18 (4d6 + 4)</hp>
+        <speed>30 ft.</speed>
+        <str>6</str>
+        <dex>13</dex>
+        <con>12</con>
+        <int>8</int>
+        <wis>11</wis>
+        <cha>15</cha>
+        <save></save>
+        <skill>performance +4</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,fire</resist>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses></senses>
+        <passive>10</passive>
+        <languages>understands the languages of its creator but can't speak</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Death Burst</name>
+            <text>When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a 11 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+        </trait>
+        <action>
+            <name>Joyful Flare</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) fire damage.</text>
+            <attack>Joyful Flare|3|2d4+1</attack>
+        </action>
+        <action>
+            <name>Melancholic Bolt</name>
+            <text>Ranged Weapon Attack: +3 to hit, range 30 ft., one target. Hit: 6 (2d4 + 1) cold damage.</text>
+            <attack>Melancholic Bolt|3|2d4+1</attack>
+        </action>
+        <action>
+            <name>Captivating Artistry (1/Day)</name>
+            <text>The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a 12 Charisma saving throw or be charmed for 1 minute. The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>1/Day</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Beledros Witherbloom</name>
+        <size>G</size>
+        <type>dragon (druid)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral good</alignment>
+        <ac>22 (natural armor)</ac>
+        <hp>444 (24d20 + 192)</hp>
+        <speed>40 ft., fly 80 ft.,swim 40 ft.</speed>
+        <str>28</str>
+        <dex>14</dex>
+        <con>27</con>
+        <int>18</int>
+        <wis>28</wis>
+        <cha>17</cha>
+        <save>dex +9,con +15,wis +16,cha +10</save>
+        <skill>arcana +18,medicine +16,nature +18,perception +16</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>necrotic,poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>blindsight 120 ft.</senses>
+        <passive>26</passive>
+        <languages>Common,Draconic,Druidic,Sylvan</languages>
+        <cr>24</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Beledros casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
+            <text>1/day each: greater restoration, mass cure wounds, plant growth, revivify, speak with dead</text>
+        </trait>
+        <spellAbility>Wisdom</spellAbility>
+        <spells>Greater Restoration,Mass Cure Wounds,Plant Growth,Revivify,Speak with Dead</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If Beledros fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>Beledros doesn't require air, food, or drink.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Beledros makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 14 (1d10 + 9) piercing damage plus 6 (1d12) necrotic damage.</text>
+            <attack>Bite|16|1d10+9+1d12</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 12 (1d6 + 9) slashing damage. If the target is a Huge or smaller creature, it is knocked prone.</text>
+            <attack>Claw|16|1d6+9</attack>
+        </action>
+        <action>
+            <name>Decaying Breath (Recharge 5-6)</name>
+            <text>Beledros exhales decaying energy in a 90-foot cone. Each creature in that area must make a 23 Constitution saving throw, taking 39 (6d12) necrotic damage and 39 (6d12) poison damage on a failed save, or half as much damage on a successful one. A creature that takes damage from the breath can't regain hit points until the start of Beledros's next turn.</text>
+            <attack>Decaying Breath||6d12+6d12</attack>
+            <recharge>D5</recharge>
+        </action>
+        <action>
+            <name>Miasmal Flow</name>
+            <text>Beledros becomes a swirling cloud of green mist and can move up to half her flying speed without provoking opportunity attacks, then resumes her true form. During this movement, she can move through creatures and objects as if they were difficult terrain. If she moves through a creature, it must succeed on a 23 Constitution saving throw or become poisoned until the end of its next turn. If Beledros ends this move inside an object, she takes 5 (1d10) force damage and is shunted to the nearest unoccupied space.</text>
+            <attack>Miasmal Flow||1d10</attack>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>Beledros makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Miasmal Flow (Costs 2 Actions)</name>
+            <text>Beledros uses Miasmal Flow.</text>
+        </legendary>
+        <legendary>
+            <name>Teeming with Life (Costs 3 Actions)</name>
+            <text>Beledros magically summons 1d4 pest mascots in unoccupied spaces she can see within 60 feet of herself. The pests obey her commands and take their turns immediately after hers. Any creature, other than a pest, takes 9 (2d8) poison damage if it starts its turn within 5 feet of one or more of these pests. When one of these pests drops to 0 hit points, Beledros regains 9 hit points. These pests disappear after 10 minutes, when Beledros dies, or when she uses this action again.</text>
+            <attack>Teeming with Life||1d4+2d8</attack>
+        </legendary>
+    </monster>
+    <monster>
+        <name>Brackish Trudge</name>
+        <size>L</size>
+        <type>plant</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>unaligned</alignment>
+        <ac>12 (natural armor)</ac>
+        <hp>68 (8d10 + 24)</hp>
+        <speed>30 ft., swim 30 ft.</speed>
+        <str>20</str>
+        <dex>10</dex>
+        <con>17</con>
+        <int>4</int>
+        <wis>14</wis>
+        <cha>4</cha>
+        <save></save>
+        <skill>perception +4</skill>
+        <vulnerable></vulnerable>
+        <resist>fire</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 10 ft.</senses>
+        <passive>14</passive>
+        <languages>—</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Fungal Fortitude</name>
+            <text>If damage reduces the trudge to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the trudge drops to 1 hit point instead.</text>
+        </trait>
+        <action>
+            <name>Tusk</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 3 (1d6) poison damage. If the target is a creature, it must succeed on a 15 Strength saving throw or be knocked prone.</text>
+            <attack>Tusk|7|2d10+5+1d6</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Cogwork Archivist</name>
+        <size>L</size>
+        <type>construct</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>lawful neutral</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>90 (12d10 + 24)</hp>
+        <speed>40 ft.</speed>
+        <str>18</str>
+        <dex>10</dex>
+        <con>15</con>
+        <int>17</int>
+        <wis>11</wis>
+        <cha>6</cha>
+        <save></save>
+        <skill>arcana +5,history +5,nature +5,perception +2,religion +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>charmed,exhaustion,frightened,petrified,poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>all</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The archivist casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:</text>
+            <text>At will: dancing lights, prestidigitation</text>
+            <text>2/day: silence</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Prestidigitation,Silence</spells>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The archivist has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The archivist makes two Grasping Limb attacks.</text>
+        </action>
+        <action>
+            <name>Grasping Limb</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape 14). The archivist can have no more than two targets grappled at a time.</text>
+            <attack>Grasping Limb|6|2d8+4</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Daemogoth</name>
+        <size>H</size>
+        <type>fiend</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>lawful evil</alignment>
+        <ac>16 (natural armor)</ac>
+        <hp>157 (15d12 + 60)</hp>
+        <speed>40 ft., climb 40 ft.</speed>
+        <str>19</str>
+        <dex>15</dex>
+        <con>19</con>
+        <int>21</int>
+        <wis>14</wis>
+        <cha>18</cha>
+        <save>int +9,wis +6,cha +8</save>
+        <skill>arcana +13,deception +12,history +9,perception +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>psychic</immune>
+        <conditionImmune>frightened</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>16</passive>
+        <languages>Abyssal,Infernal,telepathy 120 ft.</languages>
+        <cr>10</cr>
+        <trait>
+            <name>Pact of Pain</name>
+            <text>Using a 10-minute ritual, the daemogoth can forge a magical bond with a willing creature it touches throughout the ritual. The creature becomes bound by the pact until it dies, the daemogoth dies, or the pact is broken by any effect that can remove a curse.</text>
+            <text>  The daemogoth chooses one spell from the necromancy or enchantment school that is 3rd level or lower. The bound creature can cast that spell using this pact, requiring no material components and using Intelligence as the spellcasting ability. When it casts the spell, the creature takes 7 (2d6) psychic damage, which can't break the creature's concentration on a spell. Once the bound creature casts the spell in this way, it can't do so again until it finishes a long rest.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The daemogoth makes three Agonizing Burst attacks. It can use Terrify, if available, in place of one of the attacks.</text>
+        </action>
+        <action>
+            <name>Agonizing Burst</name>
+            <text>Melee or Ranged Spell +9 to hit, reach 10 ft. or range 120 ft., one target. Hit: 11 (2d10) force damage. If the target is a creature, the daemogoth regains 5 hit points.</text>
+            <attack>Agonizing Burst|9|2d10</attack>
+        </action>
+        <action>
+            <name>Terrify (Recharge 4-6)</name>
+            <text>The daemogoth targets one creature it can see within 120 feet of itself. The target must make a 17 Wisdom saving throw. On a failed save, the target takes 33 (6d10) psychic damage and is frightened of the daemogoth until the end of the daemogoth's next turn, and the daemogoth regains 5 hit points. On a successful save, the target takes half as much damage and isn't frightened, and the daemogoth doesn't heal.</text>
+            <attack>Terrify||6d10</attack>
+            <recharge>D4</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Daemogoth Titan</name>
+        <size>G</size>
+        <type>fiend</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>chaotic evil</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>203 (11d20 + 88)</hp>
+        <speed>40 ft.</speed>
+        <str>26</str>
+        <dex>10</dex>
+        <con>26</con>
+        <int>24</int>
+        <wis>18</wis>
+        <cha>20</cha>
+        <save>int +12,wis +9,cha +10</save>
+        <skill>arcana +17,deception +15,history +12,perception +9</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>psychic</immune>
+        <conditionImmune>charmed,frightened</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>19</passive>
+        <languages>Abyssal,Infernal,telepathy 120 ft.</languages>
+        <cr>16</cr>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the titan fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Pact of Suffering</name>
+            <text>Using a 10-minute long ritual, the titan can forge a magical bond with a willing creature it touches throughout the ritual. The creature becomes bound by the pact until it dies, the titan dies, or the pact is broken by a wish spell.</text>
+            <text>  The titan chooses one spell from the necromancy or enchantment school that is 8th level or lower. The bound creature can cast that spell using this pact, requiring no material components and using Intelligence as the spellcasting ability. When it casts the spell, the creature takes 21 (6d6) psychic damage, which can't break the creature's concentration on a spell. Once the bound creature casts the spell in this way, it can't do so again until it finishes a long rest.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The titan makes two Agonizing Burst attacks.</text>
+        </action>
+        <action>
+            <name>Agonizing Burst</name>
+            <text>Melee or Ranged Spell +12 to hit, reach 15 ft. or range 120 ft., one target. Hit: 17 (3d6 + 7) force damage. If the target is a creature, the titan regains 5 hit points.</text>
+            <attack>Agonizing Burst|12|3d6+7</attack>
+        </action>
+        <action>
+            <name>Teleport</name>
+            <text>The titan teleports to an unoccupied space it can see within 120 feet of itself.</text>
+        </action>
+        <legendary>
+            <name>Attack</name>
+            <text>The titan makes one Agonizing Burst attack.</text>
+        </legendary>
+        <legendary>
+            <name>Stalking Nightmare (Costs 2 Actions)</name>
+            <text>The titan uses Teleport, after which it can target one creature within 20 feet of itself that it can see. The target must make a 20 Constitution saving throw. On a failed save, the target takes 22 (4d10) necrotic damage, and the titan regains 10 hit points. On a successful save, the target takes half as much damage, and the titan doesn't heal.</text>
+            <attack>Stalking Nightmare||4d10</attack>
+        </legendary>
+        <legendary>
+            <name>Terrorize (Costs 3 Actions)</name>
+            <text>The titan targets one creature it can see within 120 feet of itself. The target must make a 20 Wisdom saving throw. On a failed save, the target takes 38 (7d10) psychic damage and is frightened of the titan until the end of the target's next turn, and the titan regains 15 hit points. On a successful save, the target takes half as much damage and isn't frightened, and the titan doesn't heal.</text>
+            <attack>Terrorize||7d10</attack>
+        </legendary>
+    </monster>
+    <monster>
+        <name>First-Year Student</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>11</ac>
+        <hp>33 (6d8 + 6)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>12</dex>
+        <con>13</con>
+        <int>12</int>
+        <wis>10</wis>
+        <cha>11</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>10</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>1/2</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The student casts one of the following spells, using Intelligence as the spellcasting ability (spell save 11):</text>
+            <text>At will: mage hand, prestidigitation</text>
+            <text>1/day: detect magic</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Mage Hand,Prestidigitation,Detect Magic</spells>
+        <trait>
+            <name>Excited to Be Here</name>
+            <text>The student has advantage on initiative rolls.</text>
+        </trait>
+        <action>
+            <name>Magic Flare</name>
+            <text>Melee or Ranged Spell +3 to hit, reach 5 ft. or range 60 ft., one target. Hit: 7 (1d12 + 1) force damage.</text>
+            <attack>Magic Flare|3|1d12+1</attack>
+        </action>
+        <reaction>
+            <name>Beginner's Luck (2/Day)</name>
+            <text>When the student fails a saving throw, it can reroll the d20. It must use the new roll.</text>
+            <recharge>2/Day</recharge>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Fractal Mascot</name>
+        <size>S</size>
+        <type>construct</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral</alignment>
+        <ac>12</ac>
+        <hp>27 (6d6 + 6)</hp>
+        <speed>30 ft.</speed>
+        <str>12</str>
+        <dex>14</dex>
+        <con>13</con>
+        <int>7</int>
+        <wis>10</wis>
+        <cha>5</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses></senses>
+        <passive>10</passive>
+        <languages>understands the languages of its creator but can't speak</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Relative Density</name>
+            <text>The fractal can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+        </trait>
+        <action>
+            <name>Quantum Strike</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger.</text>
+            <attack>Quantum Strike|3|1d4+1+2d4+1</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Galazeth Prismari</name>
+        <size>G</size>
+        <type>dragon (sorcerer)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>21 (natural armor)</ac>
+        <hp>402 (23d20 + 161)</hp>
+        <speed>40 ft., fly 80 ft.</speed>
+        <str>26</str>
+        <dex>14</dex>
+        <con>25</con>
+        <int>18</int>
+        <wis>20</wis>
+        <cha>26</cha>
+        <save>dex +9,con +14,wis +12,cha +15</save>
+        <skill>acrobatics +16,arcana +18,perception +12,performance +22</skill>
+        <vulnerable></vulnerable>
+        <resist>lightning</resist>
+        <immune>cold,fire</immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 120 ft.</senses>
+        <passive>22</passive>
+        <languages>Common,Draconic</languages>
+        <cr>23</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Galazeth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 23):</text>
+            <text>1/day each: control water, gust of wind, wall of stone</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Control Water,Gust of Wind,Wall of Stone</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If Galazeth fails a saving throw, he can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Galazeth makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 13 (1d10 + 8) piercing damage plus 5 (1d10) lightning damage.</text>
+            <attack>Bite|15|1d10+8+1d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 11 (1d6 + 8) slashing damage. If the target is a Large or smaller creature, it is knocked prone.</text>
+            <attack>Claw|15|1d6+8</attack>
+        </action>
+        <action>
+            <name>Dancing Elements Breath (Recharge 5-6)</name>
+            <text>Galazeth exhales a blast of flames and ice in a 90-foot cone. Each creature in that area must make a 22 Dexterity saving throw, gaining no benefit from cover (other than total cover) and taking 38 (7d10) fire damage and 38 (7d10) cold damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Dancing Elements Breath||7d10+7d10</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>Galazeth makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Lightning Flash (Costs 2 Actions)</name>
+            <text>Galazeth moves up to half his flying speed without provoking opportunity attacks. When he passes within 15 feet of a creature during this move, that creature must succeed on a 22 Dexterity saving throw or take 11 (2d10) lightning damage. A creature can take this damage no more than once during the move.</text>
+            <attack>Lightning Flash||2d10</attack>
+        </legendary>
+        <legendary>
+            <name>Flowing Creation (Costs 3 Actions)</name>
+            <text>Galazeth magically summons 1d4 art elemental mascots in unoccupied spaces he can see within 60 feet of himself. The art elementals obey his commands and take their turns immediately after his. Any creature, other than an art elemental, takes 5 (1d10) cold, fire, or lightning damage (Galazeth's choice) if it ends its turn within 5 feet of one or more of these elementals. When one of these elementals drops to 0 hit points, Galazeth can fly up to 20 feet without provoking opportunity attacks. These elementals disappear after 10 minutes, when Galazeth dies, or when he uses this action again.</text>
+            <attack>Flowing Creation||1d4+1d10</attack>
+        </legendary>
+    </monster>
+    <monster>
+        <name>Groff</name>
+        <size>L</size>
+        <type>plant</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>unaligned</alignment>
+        <ac>13 (natural armor)</ac>
+        <hp>68 (8d10 + 24)</hp>
+        <speed>30 ft., swim 30 ft.</speed>
+        <str>20</str>
+        <dex>10</dex>
+        <con>17</con>
+        <int>4</int>
+        <wis>13</wis>
+        <cha>7</cha>
+        <save></save>
+        <skill>perception +3,stealth +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>13</passive>
+        <languages>—</languages>
+        <cr>4</cr>
+        <trait>
+            <name>False Appearance</name>
+            <text>If the groff is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the groff move or act, that creature must succeed on a 18 Intelligence (Investigation) check to discern that the groff isn't an ordinary moss-covered bog patch.</text>
+        </trait>
+        <trait>
+            <name>Hold Breath</name>
+            <text>The groff can hold its breath for up to 1 hour.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The groff makes one Bite attack and one Swamp Claw attack.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+            <attack>Bite|7|1d8+5</attack>
+        </action>
+        <action>
+            <name>Swamp Claw</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage. If the target is a Medium or smaller creature, it must succeed on a 15 Strength saving throw or become engulfed by the groff. While engulfed, the target can't breathe, is restrained, and takes 10 (3d6) poison damage at the start of each of its turns. When the groff moves, the engulfed target moves with it. The groff can have only one target engulfed at a time.</text>
+            <text>  An engulfed target can repeat the saving throw at the end of its turns. On a success, the target escapes and enters the nearest unoccupied space.</text>
+            <attack>Swamp Claw|7|1d6+5+3d6</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Inkling Mascot</name>
+        <size>T</size>
+        <type>ooze</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral</alignment>
+        <ac>13</ac>
+        <hp>18 (4d4 + 8)</hp>
+        <speed>10 ft., fly 30 ft. (hover)</speed>
+        <str>10</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>6</int>
+        <wis>7</wis>
+        <cha>11</cha>
+        <save></save>
+        <skill>stealth +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>psychic</immune>
+        <conditionImmune>blinded,charmed,deafened,exhaustion,prone</conditionImmune>
+        <senses>blindsight 60 ft.</senses>
+        <passive>8</passive>
+        <languages>understands the languages of its creator but can't speak</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Amorphous</name>
+            <text>The inkling can move through a space as narrow as 1 inch wide without squeezing.</text>
+        </trait>
+        <action>
+            <name>Blot</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) psychic damage.</text>
+            <attack>Blot|5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Ink Spray (1/Day)</name>
+            <text>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a 12 Constitution saving throw or be blinded until the end of the inkling's next turn.</text>
+            <recharge>1/Day</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Lorehold Apprentice</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>33 (6d8 + 6)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>13</con>
+        <int>15</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>con +3,int +4</save>
+        <skill>history +6,insight +3,investigation +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The apprentice casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 12):</text>
+            <text>At will: guidance, light</text>
+            <text>1/day each: comprehend languages, locate object, mage armor</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Guidance,Light,Comprehend Languages,Locate Object,Mage Armor</spells>
+        <action>
+            <name>Scroll Bash</name>
+            <text>Melee Spell Attack: +4 to hit, reach 30 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage plus 9 (2d8) thunder damage.</text>
+            <attack>Scroll Bash|4|1d10+2+2d8</attack>
+        </action>
+        <action>
+            <name>Reduce to Memory (Recharge 6)</name>
+            <text>Thundering golden energy erupts around a creature the apprentice can see within 90 feet of it. The creature must make a 12 Constitution saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one. A Construct has disadvantage on the saving throw.</text>
+            <attack>Reduce to Memory||6d10</attack>
+            <recharge>D6</recharge>
+        </action>
+        <reaction>
+            <name>Learn from the Past (2/Day)</name>
+            <text>When another creature within 60 feet of the apprentice misses a target with an attack roll, the apprentice magically enables the attacker to reroll the attack roll. It must use the new roll.</text>
+            <recharge>2/Day</recharge>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Lorehold Pledgemage</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>13</ac>
+        <hp>60 (11d8 + 11)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>con +3,int +5</save>
+        <skill>history +7,insight +3,investigation +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The pledgemage casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 13):</text>
+            <text>At will: guidance, light</text>
+            <text>2/day each: comprehend languages, locate object</text>
+            <text>1/day each: mage armor, speak with dead, stone shape</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Guidance,Light,Comprehend Languages,Locate Object,Mage Armor,Speak with Dead,Stone Shape</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The pledgemage makes two Scroll Bash attacks.</text>
+        </action>
+        <action>
+            <name>Scroll Bash</name>
+            <text>Melee Spell Attack: +5 to hit, reach 30 ft., one target. Hit: 8 (1d10 + 3) bludgeoning damage plus 9 (2d8) thunder damage.</text>
+            <attack>Scroll Bash|5|1d10+3+2d8</attack>
+        </action>
+        <action>
+            <name>Reduce to Memory (Recharge 5-6)</name>
+            <text>Thundering golden energy erupts around a creature the pledgemage can see within 90 feet of it. The creature must make a 13 Constitution saving throw, taking 44 (8d10) thunder damage on a failed save, or half as much damage on a successful one. A Construct has disadvantage on the saving throw.</text>
+            <attack>Reduce to Memory||8d10</attack>
+            <recharge>D5</recharge>
+        </action>
+        <reaction>
+            <name>Learn from the Past (2/Day)</name>
+            <text>When another creature within 60 feet of the pledgemage misses a target with an attack roll, the pledgemage magically enables the attacker to reroll the attack roll. It must use the new roll.</text>
+            <recharge>2/Day</recharge>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Lorehold Professor of Chaos</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>110 (17d8 + 34)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>19</int>
+        <wis>15</wis>
+        <cha>13</cha>
+        <save>con +5,int +7,wis +5,cha +4</save>
+        <skill>arcana +7,history +7,perception +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>15</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:</text>
+            <text>At will: comprehend languages, dancing lights, guidance</text>
+            <text>2/day each: locate object, mage armor, passwall</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Comprehend Languages,Dancing Lights,Guidance,Locate Object,Mage Armor,Passwall</spells>
+        <trait>
+            <name>Voice from the Past (1/Day)</name>
+            <text>The professor can cast the contact other plane spell to contact a long-dead spirit, using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes two Spectral Scroll attacks. It can also use Weight of History, if available.</text>
+        </action>
+        <action>
+            <name>Spectral Scroll</name>
+            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 15 (2d10 + 4) force damage. If the target is a creature, it must succeed on a 15 Strength saving throw or be knocked prone.</text>
+            <attack>Spectral Scroll|7|2d10+4</attack>
+        </action>
+        <action>
+            <name>Weight of History (Recharge 5-6)</name>
+            <text>The professor magically compresses time around up to six creatures of its choice that it can see within 30 feet of itself. Each target must succeed on a 15 Wisdom saving throw or be restrained for 1 minute, but the restrained target's speed is halved instead of being reduced to 0. At the start of each of its turns, the restrained target takes 4 (1d8) force damage. A restrained target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Weight of History||1d8</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Lorehold Professor of Order</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>104 (16d8 + 32)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>19</int>
+        <wis>15</wis>
+        <cha>13</cha>
+        <save>con +5,int +7,wis +5,cha +4</save>
+        <skill>arcana +7,history +7,perception +5</skill>
+        <vulnerable></vulnerable>
+        <resist>force</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>15</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 15):</text>
+            <text>At will: comprehend languages, guidance, light</text>
+            <text>2/day each: dimension door, locate object, mage armor, stone shape</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Comprehend Languages,Guidance,Light,Dimension Door,Locate Object,Mage Armor,Stone Shape</spells>
+        <trait>
+            <name>Voice from the Past (1/Day)</name>
+            <text>The professor can cast the contact other plane spell to contact a long-dead spirit, using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes two Repelling Burst attacks. It can also use Force Barrier, if available.</text>
+        </action>
+        <action>
+            <name>Repelling Burst</name>
+            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 13 (2d8 + 4) force damage. If the target is a Large or smaller creature, it must succeed on a 15 Strength saving throw or be pushed up to 10 feet directly away from the professor and become restrained until the start of professor's next turn.</text>
+            <attack>Repelling Burst|7|2d8+4</attack>
+        </action>
+        <action>
+            <name>Force Barrier (Recharge 5-6)</name>
+            <text>The professor magically creates a wall of translucent, golden force within 90 feet of itself. The wall lasts for 1 minute or until the professor uses this action again. The barrier can be a vertical or horizontal plane up to 30 feet on a side or a 10-foot-radius hemispherical dome with a floor. The wall provides total cover. It has AC 17, 30 hit points, and immunity to poison and psychic damage.</text>
+            <recharge>D5</recharge>
+        </action>
+        <reaction>
+            <name>Arcane Stasis (2/Day)</name>
+            <text>When a creature the professor can see within 60 feet of it casts a spell, the professor can magically lock the casting in the moment before completion. The spellcaster must succeed on a 15 saving throw using the spell's spellcasting ability, or the spell fails and is wasted.</text>
+            <recharge>2/Day</recharge>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Mage Hunter</name>
+        <size>L</size>
+        <type>monstrosity</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>lawful evil</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>85 (10d10 + 30)</hp>
+        <speed>40 ft., climb 40 ft. (hunter form only),fly 10 ft. (hover sentry form only)</speed>
+        <str>19</str>
+        <dex>15</dex>
+        <con>16</con>
+        <int>11</int>
+        <wis>17</wis>
+        <cha>10</cha>
+        <save>int +3,wis +6,cha +3</save>
+        <skill>perception +9,stealth +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>blinded,charmed,deafened,frightened,prone</conditionImmune>
+        <senses>blindsight 120 ft. (blind beyond this radius)</senses>
+        <passive>19</passive>
+        <languages>understands Common but can't speak</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Magic Sense</name>
+            <text>The hunter knows the location of every spellcaster, active spell, and magic item within 120 feet of itself.</text>
+        </trait>
+        <trait>
+            <name>Spider Climb (Hunter Form Only)</name>
+            <text>The hunter can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <action>
+            <name>Multiattack (Hunter Form Only)</name>
+            <text>The hunter makes two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Claw (Hunter Form Only)</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) slashing damage.</text>
+            <attack>Claw|7|2d10+4</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 22 (4d8 + 4) piercing damage, and the target is grappled (escape 15). Until this grapple ends, the target is restrained, and the hunter can't make a Tail attack against another target.</text>
+            <attack>Tail|7|4d8+4</attack>
+        </action>
+        <action>
+            <name>Mage Tracker (Sentry Form Only)</name>
+            <text>The hunter emits a pulse of energy that helps it better locate its magical quarry. Each creature within 120 feet of the hunter that has the ability to cast spells must succeed on a 14 Wisdom saving throw or be mystically marked by the hunter for 1 hour.</text>
+            <text>  While marked, a creature can't become hidden from the hunter and gains no benefit from the invisible condition against the hunter. Additionally, while a marked creature is on the same plane of existence as the hunter, the hunter always knows the distance and direction to the creature.</text>
+        </action>
+        <reaction>
+            <name>Consume and Destroy</name>
+            <text>When the hunter takes damage from a spell, it takes only half the triggering damage (rounded down). If the creature that cast the spell is within 60 feet of the hunter, that creature must succeed on a 14 Dexterity saving throw or take the other half of the damage.</text>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Murgaxor</name>
+        <size>M</size>
+        <type>humanoid (bullywug,warlock)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral evil</alignment>
+        <ac>16 (blood aegis)</ac>
+        <hp>127 (15d8 + 60)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>18</con>
+        <int>20</int>
+        <wis>12</wis>
+        <cha>12</cha>
+        <save>con +8,int +9,wis +5,cha +5</save>
+        <skill>deception +9,medicine +5,survival +5</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune></immune>
+        <conditionImmune>exhaustion</conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Blood Aegis</name>
+            <text>The AC of Murgaxor includes his Constitution modifier while he isn't wearing armor or wielding a shield.</text>
+        </trait>
+        <trait>
+            <name>Oriq Mask</name>
+            <text>Murgaxor wears an Oriq mask. While wearing the mask, Murgaxor can't be targeted by any divination magic or perceived through magical scrying sensors, and he adds double his proficiency bonus to Charisma (Deception) checks (included above).</text>
+        </trait>
+        <trait>
+            <name>Sanguine Sense</name>
+            <text>While Murgaxor isn't blinded, he can see any creature that isn't an Undead or a Construct within 60 feet of himself, even through total cover, heavily obscured areas, invisibility, or any other phenomena that would prevent sight.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Murgaxor makes two Blood Lash attacks.</text>
+        </action>
+        <action>
+            <name>Blood Lash</name>
+            <text>Melee Spell Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) necrotic damage. If the target is a creature, it can't regain hit points until the start of Murgaxor's next turn.</text>
+            <attack>Blood Lash|9|3d10+5</attack>
+        </action>
+        <action>
+            <name>Blood Boil (Recharge 4-6)</name>
+            <text>Murgaxor chooses a point within 150 feet of himself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Murgaxor's choice that he can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
+            <attack>Blood Boil||7d10</attack>
+            <recharge>D4</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Oracle of Strixhaven</name>
+        <size>M</size>
+        <type>humanoid (human,wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral good</alignment>
+        <ac>12</ac>
+        <hp>150 (20d8 + 60)</hp>
+        <speed>30 ft., fly 15 ft. (hover)</speed>
+        <str>12</str>
+        <dex>15</dex>
+        <con>16</con>
+        <int>21</int>
+        <wis>20</wis>
+        <cha>18</cha>
+        <save>con +8,int +10,wis +10,cha +9</save>
+        <skill>arcana +15,insight +15,investigation +15,nature +10,perception +10</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>charmed,frightened</conditionImmune>
+        <senses></senses>
+        <passive>20</passive>
+        <languages>all</languages>
+        <cr>15</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The Oracle casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 18):</text>
+            <text>At will: detect magic</text>
+            <text>2/day each: dispel magic, mage armor, remove curse, sending</text>
+            <text>1/day each: power word stun, scrying (as an action), wall of force</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Detect Magic,Dispel Magic,Mage Armor,Remove Curse,Sending,Power Word Stun,Scrying,Wall of Force</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the Oracle fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The Oracle makes two Magic Flare attacks. She can also use Paradoxy, if available.</text>
+        </action>
+        <action>
+            <name>Magic Flare</name>
+            <text>Melee or Ranged Spell +10 to hit, reach 5 ft. or range 60 ft., one target. Hit: 24 (3d12 + 5) force damage.</text>
+            <attack>Magic Flare|10|3d12+5</attack>
+        </action>
+        <action>
+            <name>Paradoxy (Recharge 4-6)</name>
+            <text>Momentary warps in reality appear at three different points the Oracle can see within 120 feet of her. Each creature in a 20-foot-radius sphere centered on each point must make a 18 Strength saving throw. On a failed save, a creature takes 33 (6d10) force damage and is pulled up to 15 feet in a straight line toward the center of the sphere. On a successful save, the creature takes half as much damage and isn't pulled. A creature caught in the area of multiple warps is affected by only one, which the Oracle chooses.</text>
+            <attack>Paradoxy||6d10</attack>
+            <recharge>D4</recharge>
+        </action>
+        <action>
+            <name>Teleport</name>
+            <text>The Oracle teleports, along with any equipment she is wearing or carrying, to an unoccupied space she can see within 60 feet of herself.</text>
+        </action>
+        <legendary>
+            <name>Vector Shift</name>
+            <text>The Oracle teleports one creature she can see within 60 feet of herself, along with any equipment it is wearing or carrying, to an unoccupied space within 30 feet of herself. An unwilling target must succeed on a 18 Charisma saving throw to avoid the effect.</text>
+        </legendary>
+        <legendary>
+            <name>Spellcasting (Costs 2 Actions)</name>
+            <text>The Oracle uses Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Vortex Jaunt (Costs 2 Actions)</name>
+            <text>The Oracle uses Teleport, and immediately after she disappears, each creature within 30 feet of the space she left must succeed on a 18 Constitution saving throw or take 16 (3d10) force damage.</text>
+            <attack>Vortex Jaunt||3d10</attack>
+        </legendary>
+    </monster>
+    <monster>
+        <name>Oriq Blood Mage</name>
+        <size>M</size>
+        <type>humanoid (warlock)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral evil</alignment>
+        <ac>16 (blood aegis)</ac>
+        <hp>127 (15d8 + 60)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>18</con>
+        <int>20</int>
+        <wis>12</wis>
+        <cha>12</cha>
+        <save>con +8,int +9,wis +5,cha +5</save>
+        <skill>deception +9,medicine +5,survival +5</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune></immune>
+        <conditionImmune>exhaustion</conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Blood Aegis</name>
+            <text>The AC of the blood mage includes its Constitution modifier while it isn't wearing armor or wielding a shield.</text>
+        </trait>
+        <trait>
+            <name>Oriq Mask</name>
+            <text>The blood mage wears an Oriq mask. While wearing the mask, the blood mage can't be targeted by any divination magic or perceived through magical scrying sensors, and it adds double its proficiency bonus to Charisma (Deception) checks (included above).</text>
+        </trait>
+        <trait>
+            <name>Sanguine Sense</name>
+            <text>While the blood mage isn't blinded, it can see any creature that isn't an Undead or a Construct within 60 feet of itself, even through total cover, heavily obscured areas, invisibility, or any other phenomena that would prevent sight.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The blood mage makes two Blood Lash attacks.</text>
+        </action>
+        <action>
+            <name>Blood Lash</name>
+            <text>Melee Spell Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) necrotic damage. If the target is a creature, it can't regain hit points until the start of the blood mage's next turn.</text>
+            <attack>Blood Lash|9|3d10+5</attack>
+        </action>
+        <action>
+            <name>Blood Boil (Recharge 4-6)</name>
+            <text>The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
+            <attack>Blood Boil||7d10</attack>
+            <recharge>D4</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Oriq Recruiter</name>
+        <size>M</size>
+        <type>humanoid (warlock)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>lawful evil</alignment>
+        <ac>16 (misdirecting defense)</ac>
+        <hp>55 (10d8 + 10)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>17</int>
+        <wis>15</wis>
+        <cha>18</cha>
+        <save>int +5,wis +4,cha +6</save>
+        <skill>arcana +5,deception +8,insight +4,persuasion +6</skill>
+        <vulnerable></vulnerable>
+        <resist>psychic</resist>
+        <immune></immune>
+        <conditionImmune>charmed,frightened</conditionImmune>
+        <senses></senses>
+        <passive>12</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The recruiter casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 14):</text>
+            <text>At will: disguise self, silent image</text>
+            <text>2/day: charm person</text>
+            <text>1/day: suggestion</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Disguise Self,Silent Image,Suggestion,Charm Person</spells>
+        <trait>
+            <name>Misdirecting Defense</name>
+            <text>The AC of the recruiter includes its Charisma modifier while it isn't wearing armor or wielding a shield.</text>
+        </trait>
+        <trait>
+            <name>Oriq Mask</name>
+            <text>The recruiter wears an Oriq mask. While wearing the mask, the recruiter can't be targeted by any divination magic or perceived through magical scrying sensors, and it adds double its proficiency bonus to Charisma (Deception) checks (included above).</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The recruiter makes two Psychic Knife attacks. It can use Spellcasting in place of one of the attacks.</text>
+        </action>
+        <action>
+            <name>Psychic Knife</name>
+            <text>Melee or Ranged Spell +6 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 21 (5d6 + 4) psychic damage.</text>
+            <attack>Psychic Knife|6|5d6+4</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Pest Mascot</name>
+        <size>T</size>
+        <type>monstrosity</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>unaligned</alignment>
+        <ac>13 (natural armor)</ac>
+        <hp>22 (4d4 + 12)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>17</con>
+        <int>5</int>
+        <wis>13</wis>
+        <cha>4</cha>
+        <save></save>
+        <skill>perception +3</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>13</passive>
+        <languages>—</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Regeneration</name>
+            <text>The pest regains 5 hit points at the start of its turn if it has at least 1 hit point. If it takes fire damage, this trait doesn't function at the start of the pest's next turn.</text>
+        </trait>
+        <trait>
+            <name>Spiny Hide</name>
+            <text>At the start of each of its turns, the pest deals 2 (1d4) piercing damage to any creature grappling it or that it is grappling.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+            <attack>Bite|4|1d4+2</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Prismari Apprentice</name>
+        <size>M</size>
+        <type>humanoid (sorcerer)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>44 (8d8 + 8)</hp>
+        <speed>35 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>13</con>
+        <int>12</int>
+        <wis>13</wis>
+        <cha>15</cha>
+        <save>dex +4,cha +4</save>
+        <skill>acrobatics +4,athletics +4,performance +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The apprentice casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 12):</text>
+            <text>At will: minor illusion</text>
+            <text>1/day each: gust of wind, mage armor, silent image</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Minor Illusion,Gust of Wind,Mage Armor,Silent Image</spells>
+        <action>
+            <name>Elemental Strike</name>
+            <text>Melee or Ranged Spell +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 10 (3d6) fire or cold damage (the apprentice's choice).</text>
+            <attack>Elemental Strike|4|3d6</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Prismari Pledgemage</name>
+        <size>M</size>
+        <type>humanoid (sorcerer)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>66 (12d8 + 12)</hp>
+        <speed>35 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>13</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>17</cha>
+        <save>dex +4,cha +5</save>
+        <skill>acrobatics +4,athletics +4,performance +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>12</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 13):</text>
+            <text>At will: minor illusion</text>
+            <text>2/day each: gust of wind, silent image</text>
+            <text>1/day each: mage armor, water walk</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Minor Illusion,Gust of Wind,Silent Image,Mage Armor,Water Walk</spells>
+        <trait>
+            <name>Evasion</name>
+            <text>If the pledgemage is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the pledgemage instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't incapacitated.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The pledgemage makes two Elemental Strike attacks.</text>
+        </action>
+        <action>
+            <name>Elemental Strike</name>
+            <text>Melee or Ranged Spell +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 12 (3d6 + 2) fire or cold damage (the pledgemage's choice).</text>
+            <attack>Elemental Strike|5|3d6+2</attack>
+        </action>
+        <action>
+            <name>Showstopper (1/Day)</name>
+            <text>The pledgemage shines with elemental magic, targeting one creature it can see within 60 feet of itself. The target must make a 13 Wisdom saving throw. On a failed save, the target takes 28 (8d6) fire or cold damage (the pledgemage's choice) and is stunned until the start of the pledgemage's next turn. On a successful save, the target takes half as much damage and isn't stunned.</text>
+            <attack>Showstopper||8d6</attack>
+            <recharge>1/Day</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Prismari Professor of Expression</name>
+        <size>M</size>
+        <type>humanoid (sorcerer)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>13</ac>
+        <hp>97 (15d8 + 30)</hp>
+        <speed>40 ft.</speed>
+        <str>14</str>
+        <dex>16</dex>
+        <con>15</con>
+        <int>15</int>
+        <wis>13</wis>
+        <cha>19</cha>
+        <save>dex +6,int +5,wis +4,cha +7</save>
+        <skill>acrobatics +6,arcana +5,athletics +5,perception +4,performance +10</skill>
+        <vulnerable></vulnerable>
+        <resist>fire,lightning</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>14</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
+            <text>At will: minor illusion</text>
+            <text>2/day each: fog cloud, gust of wind, mage armor</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Minor Illusion,Fog Cloud,Gust of Wind,Mage Armor</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes three Cinder Strike attacks.</text>
+        </action>
+        <action>
+            <name>Cinder Strike</name>
+            <text>Melee Spell Attack: +7 to hit, reach 15 ft., one target. Hit: 13 (2d8 + 4) fire damage.</text>
+            <attack>Cinder Strike|7|2d8+4</attack>
+        </action>
+        <action>
+            <name>Lightning Flourish (Recharge 6)</name>
+            <text>The professor unleashes arcs of magical lightning at up to two creatures it can see within 60 feet of itself. Each target must make a 15 Dexterity saving throw, taking 35 (10d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Lightning Flourish||10d6</attack>
+            <recharge>D6</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Prismari Professor of Perfection</name>
+        <size>M</size>
+        <type>humanoid (sorcerer)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>13</ac>
+        <hp>97 (15d8 + 30)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>16</dex>
+        <con>15</con>
+        <int>15</int>
+        <wis>13</wis>
+        <cha>19</cha>
+        <save>dex +6,int +5,wis +4,cha +7</save>
+        <skill>acrobatics +6,arcana +5,athletics +5,perception +4,performance +10</skill>
+        <vulnerable></vulnerable>
+        <resist>cold</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>14</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
+            <text>At will: minor illusion</text>
+            <text>2/day each: control water, create or destroy water, mage armor, stone shape</text>
+            <text>1/day: wall of ice</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Minor Illusion,Wall of Ice,Control Water,Create or Destroy Water,Mage Armor,Stone Shape</spells>
+        <trait>
+            <name>Water Walking</name>
+            <text>The professor can walk across water and other liquids as if they were solid ground.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes three Tidal Strike attacks.</text>
+        </action>
+        <action>
+            <name>Tidal Strike</name>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 60 ft., one target. Hit: 13 (2d8 + 4) cold damage.</text>
+            <attack>Tidal Strike|7|2d8+4</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Quandrix Apprentice</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>11</ac>
+        <hp>44 (8d8 + 8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>12</dex>
+        <con>13</con>
+        <int>15</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <save>int +4,wis +4</save>
+        <skill>arcana +6,investigation +6,nature +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>12</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The apprentice casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 12):</text>
+            <text>At will: guidance, mage hand</text>
+            <text>1/day each: enlarge/reduce, mage armor</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Guidance,Mage Hand,Enlarge/Reduce,Mage Armor</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The apprentice makes two Exponential Lash attacks.</text>
+        </action>
+        <action>
+            <name>Exponential Lash</name>
+            <text>Melee or Ranged Spell +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d6 + 2) force damage, and the apprentice can cause one creature it can see within 30 feet of the target to take 9 (2d6 + 2) force damage.</text>
+            <attack>Exponential Lash|4|1d6+2+2d6+2</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Quandrix Pledgemage</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>66 (12d8 + 12)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>13</con>
+        <int>17</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <save>int +5,wis +4</save>
+        <skill>arcana +7,investigation +7,nature +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>12</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The pledgemage casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 13):</text>
+            <text>At will: guidance, mage hand</text>
+            <text>1/day each: dimension door, enlarge/reduce, mage armor, plant growth</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Guidance,Mage Hand,Dimension Door,Enlarge/Reduce,Mage Armor,Plant Growth</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The pledgemage makes two Exponential Lash attacks.</text>
+        </action>
+        <action>
+            <name>Exponential Lash</name>
+            <text>Melee or Ranged Spell +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 6 (1d6 + 3) force damage, and the pledgemage can cause one creature it can see within 30 feet of the target to take 10 (2d6 + 3) force damage.</text>
+            <attack>Exponential Lash|5|1d6+3+2d6+3</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Quandrix Professor of Substance</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>104 (16d8 + 32)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>19</int>
+        <wis>14</wis>
+        <cha>13</cha>
+        <save>con +5,int +7,wis +5,cha +4</save>
+        <skill>arcana +10,investigation +10,nature +7,perception +5</skill>
+        <vulnerable></vulnerable>
+        <resist>force</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>15</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 15):</text>
+            <text>At will: guidance, mage hand, mending (as an action)</text>
+            <text>1/day each: creation (as an action), dimension door, mage armor, plant growth, polymorph</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Guidance,Mage Hand,Mending,Creation,Dimension Door,Mage Armor,Plant Growth,Polymorph</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes two Spatial Blade attacks.</text>
+        </action>
+        <action>
+            <name>Spatial Blade</name>
+            <text>Melee or Ranged Spell +7 to hit (the target can't benefit from cover less than total cover), reach 5 ft. or range 120 ft., one target. Hit: 13 (2d8 + 4) force damage, or 22 (4d8 + 4) force damage if the professor is Large or larger, and the professor can push the target horizontally up to 10 feet away.</text>
+            <attack>Spatial Blade|7|2d8+4+4d8+4</attack>
+        </action>
+        <reaction>
+            <name>Avoidant Translation (2/Day)</name>
+            <text>When the professor is hit by an attack roll, it can increase its AC by 3 against that attack, potentially causing it to miss. The professor can then teleport, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
+            <recharge>2/Day</recharge>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Quandrix Professor of Theory</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>97 (15d8 + 30)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>19</int>
+        <wis>15</wis>
+        <cha>13</cha>
+        <save>con +5,int +7,wis +5,cha +4</save>
+        <skill>arcana +10,insight +5,investigation +10,perception +5</skill>
+        <vulnerable></vulnerable>
+        <resist>psychic</resist>
+        <immune></immune>
+        <conditionImmune>charmed,frightened</conditionImmune>
+        <senses></senses>
+        <passive>15</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 15):</text>
+            <text>At will: guidance, mage hand, minor illusion</text>
+            <text>1/day each: mage armor, major image, mirage arcane (as an action), Rary's telepathic bond</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Guidance,Mage Hand,Minor Illusion,Mage Armor,Major Image,Mirage Arcane,Rary's Telepathic Bond</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes two Heuristic Lance attacks. It can also use Overriding Theorem, if available.</text>
+        </action>
+        <action>
+            <name>Heuristic Lance</name>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 60 ft., one creature. Hit: 13 (2d8 + 4) psychic damage, and the target is poisoned until the end of its next turn.</text>
+            <attack>Heuristic Lance|7|2d8+4</attack>
+        </action>
+        <action>
+            <name>Overriding Theorem (Recharge 4-6)</name>
+            <text>The professor magically influences the mind of up to two creatures it can see within 60 feet of itself. Each target must succeed on a 15 Intelligence saving throw or become charmed by the professor until the start of the professor's next turn. The charmed creature must immediately use its reaction, if available, to move up its speed toward another creature of the professor's choice and make one melee attack against that other creature.</text>
+            <recharge>D4</recharge>
+        </action>
+        <reaction>
+            <name>Divide by Zero (2/Day)</name>
+            <text>When the professor sees another creature within 60 feet of itself casting a spell, the professor can try to nullify the spell's formation. The creature must succeed on a 15 saving throw using the spell's spellcasting ability, or the spell fails and is wasted.</text>
+            <recharge>2/Day</recharge>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Relic Sloth</name>
+        <size>H</size>
+        <type>beast</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>unaligned</alignment>
+        <ac>13 (natural armor)</ac>
+        <hp>76 (8d12 + 24)</hp>
+        <speed>20 ft., climb 20 ft.</speed>
+        <str>20</str>
+        <dex>9</dex>
+        <con>17</con>
+        <int>2</int>
+        <wis>12</wis>
+        <cha>8</cha>
+        <save></save>
+        <skill>perception +3</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>13</passive>
+        <languages>—</languages>
+        <cr>2</cr>
+        <action>
+            <name>Claws</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) slashing damage, and the target is grappled (escape 15). The relic sloth can grapple no more than two targets at a time.</text>
+            <attack>Claws|7|2d8+5</attack>
+        </action>
+        <reaction>
+            <name>Slow but Sturdy</name>
+            <text>When the relic sloth is subjected to an effect that would move it out of its current space or knock it prone, it is neither moved nor knocked prone.</text>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Ruin Grinder</name>
+        <size>L</size>
+        <type>construct</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>unaligned</alignment>
+        <ac>16 (natural armor)</ac>
+        <hp>82 (11d10 + 22)</hp>
+        <speed>30 ft., burrow 30 ft.</speed>
+        <str>22</str>
+        <dex>13</dex>
+        <con>15</con>
+        <int>3</int>
+        <wis>10</wis>
+        <cha>1</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>fire,poison</immune>
+        <conditionImmune>charmed,exhaustion,frightened,petrified,poisoned</conditionImmune>
+        <senses>blindsight 60 ft. (blind beyond this radius)</senses>
+        <passive>10</passive>
+        <languages>understands the languages of its creator but can't speak</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Fire Absorption</name>
+            <text>Whenever the ruin grinder is subjected to fire damage, it regains a number of hit points equal to half the fire damage dealt.</text>
+        </trait>
+        <trait>
+            <name>Siege Monster</name>
+            <text>The ruin grinder deals double damage to objects and structures.</text>
+        </trait>
+        <trait>
+            <name>Tunneler</name>
+            <text>The ruin grinder can burrow through solid rock at half its burrowing speed and leaves a 10-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The ruin grinder makes two Excavator attacks.</text>
+        </action>
+        <action>
+            <name>Excavator</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) force damage. If the target is a Huge or smaller creature, it must succeed on a 17 Strength saving throw or be pushed up to 10 feet away and knocked prone.</text>
+            <attack>Excavator|9|2d6+6</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Scufflecup Teacup</name>
+        <size>T</size>
+        <type>construct</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>unaligned</alignment>
+        <ac>12</ac>
+        <hp>5 (2d4)</hp>
+        <speed>20 ft.</speed>
+        <str>4</str>
+        <dex>14</dex>
+        <con>10</con>
+        <int>3</int>
+        <wis>3</wis>
+        <cha>1</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>blinded,exhaustion,poisoned</conditionImmune>
+        <senses>blindsight 30 ft. (blind beyond this radius)</senses>
+        <passive>6</passive>
+        <languages>—</languages>
+        <cr>0</cr>
+        <action>
+            <name>Slam</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d3 + 2) bludgeoning damage.</text>
+            <attack>Slam|4|1d3+2</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Shadrix Silverquill</name>
+        <size>G</size>
+        <type>dragon (bard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral</alignment>
+        <ac>21 (natural armor)</ac>
+        <hp>363 (22d20 + 132)</hp>
+        <speed>40 ft., fly 80 ft.</speed>
+        <str>25</str>
+        <dex>14</dex>
+        <con>23</con>
+        <int>18</int>
+        <wis>18</wis>
+        <cha>26</cha>
+        <save>dex +9,con +13,wis +11,cha +15</save>
+        <skill>arcana +18,deception +15,perception +11,persuasion +15</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>psychic,radiant</immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 120 ft.</senses>
+        <passive>21</passive>
+        <languages>all</languages>
+        <cr>22</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Shadrix casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 23):</text>
+            <text>1/day each: darkness, daylight, hypnotic pattern, sending, suggestion</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Darkness,Daylight,Hypnotic Pattern,Sending,Suggestion</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If Shadrix fails a saving throw, he can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Shadrix makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 12 (1d10 + 7) piercing damage plus 4 (1d8) radiant damage.</text>
+            <attack>Bite|14|1d10+7+1d8</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 10 (1d6 + 7) slashing damage. If the target is a creature, it is wracked with despair and has disadvantage on attack rolls until the end of its next turn.</text>
+            <attack>Claw|14|1d6+7</attack>
+        </action>
+        <action>
+            <name>Illuminating Shadow Breath (Recharge 5-6)</name>
+            <text>Shadrix exhales an entwined burst of blinding radiance and unnerving shadow in a 90-foot cone. Each creature in that area must make a 21 Constitution saving throw. On a failed save, a creature takes 31 (7d8) radiant damage and 31 (7d8) psychic damage and is blinded until the start of Shadrix's next turn. On a successful save, a creature takes half as much damage and isn't blinded.</text>
+            <attack>Illuminating Shadow Breath||7d8+7d8</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>Shadrix makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Shadow Slip (Costs 2 Actions)</name>
+            <text>Shadrix becomes an inky cloud of shadow and can move up to half his flying speed without provoking opportunity attacks, then resumes his true form. During this movement, he can move through creatures and objects as if they were difficult terrain. If he moves through a creature, it must succeed on a 21 Constitution saving throw or become blinded until the end of its next turn. If Shadrix ends this move inside an object, he takes 5 (1d10) force damage and is shunted to the nearest unoccupied space.</text>
+            <attack>Shadow Slip||1d10</attack>
+        </legendary>
+        <legendary>
+            <name>Flash of Inspiration (Costs 3 Actions)</name>
+            <text>Shadrix magically summons 1d4 inkling mascots in unoccupied spaces he can see within 60 feet of himself. The inklings obey his commands and take their turns immediately after his. While any of these inklings live, Shadrix has advantage on attack rolls and saving throws. These inklings disappear after 10 minutes, when Shadrix dies, or when he uses this action again.</text>
+            <attack>Flash of Inspiration||1d4</attack>
+        </legendary>
+    </monster>
+    <monster>
+        <name>Silverquill Apprentice</name>
+        <size>M</size>
+        <type>humanoid (bard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>44 (8d8 + 8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>13</con>
+        <int>12</int>
+        <wis>11</wis>
+        <cha>15</cha>
+        <save>dex +4,cha +4</save>
+        <skill>deception +4,performance +6,persuasion +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>10</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The apprentice casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 12):</text>
+            <text>At will: dancing lights, friends</text>
+            <text>1/day each: command, mage armor</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Dancing Lights,Friends,Command,Mage Armor</spells>
+        <action>
+            <name>Ink Blade</name>
+            <text>Melee or Ranged Spell +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 9 (2d8) psychic damage.</text>
+            <attack>Ink Blade|4|1d6+2+2d8</attack>
+        </action>
+        <reaction>
+            <name>Rousing Verse</name>
+            <text>When a creature the apprentice can see within 30 feet of it fails a saving throw, the apprentice magically weaves together stirring prose, allowing the creature to reroll the saving throw and use the higher result.</text>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Silverquill Pledgemage</name>
+        <size>M</size>
+        <type>humanoid (bard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>13</ac>
+        <hp>66 (12d8 + 12)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>12</int>
+        <wis>11</wis>
+        <cha>17</cha>
+        <save>dex +5,wis +2,cha +5</save>
+        <skill>deception +5,performance +7,persuasion +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>10</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 13):</text>
+            <text>At will: dancing lights, friends</text>
+            <text>1/day each: command, confusion, mage armor, tongues</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Dancing Lights,Friends,Command,Confusion,Mage Armor,Tongues</spells>
+        <action>
+            <name>Ink Blade</name>
+            <text>Melee or Ranged Spell +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d8 + 3) piercing damage plus 10 (3d6) psychic damage.</text>
+            <attack>Ink Blade|5|1d8+3+3d6</attack>
+        </action>
+        <reaction>
+            <name>Rousing Verse</name>
+            <text>When a creature the pledgemage can see within 30 feet of it fails a saving throw, the pledgemage magically weaves together stirring prose, allowing the creature to reroll the saving throw and use the higher result.</text>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Silverquill Professor of Radiance</name>
+        <size>M</size>
+        <type>humanoid (bard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>97 (15d8 + 30)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>16</int>
+        <wis>13</wis>
+        <cha>19</cha>
+        <save>dex +5,int +6,wis +4,cha +7</save>
+        <skill>arcana +6,deception +7,performance +10,persuasion +10</skill>
+        <vulnerable></vulnerable>
+        <resist>radiant</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
+            <text>At will: dancing lights, friends</text>
+            <text>2/day each: bless, command, cure wounds, daylight, mage armor</text>
+            <text>1/day each: hypnotic pattern, tongues</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Dancing Lights,Friends,Bless,Command,Cure Wounds,Daylight,Mage Armor,Hypnotic Pattern,Tongues</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes two Radiant Strike attacks. The professor can replace one of the attacks with a use of Spellcasting.</text>
+        </action>
+        <action>
+            <name>Radiant Strike</name>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) radiant damage. If the target is a creature, it must succeed on a 15 Constitution saving throw be blinded until the end of its next turn.</text>
+            <attack>Radiant Strike|7|3d8+4</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Silverquill Professor of Shadow</name>
+        <size>M</size>
+        <type>humanoid (bard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>97 (15d8 + 30)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>14</con>
+        <int>16</int>
+        <wis>13</wis>
+        <cha>19</cha>
+        <save>dex +5,int +6,wis +4,cha +7</save>
+        <skill>arcana +6,deception +10,persuasion +7,stealth +5</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 300 ft.</senses>
+        <passive>11</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
+            <text>At will: dancing lights, friends</text>
+            <text>2/day each: bane, command, darkness, mage armor</text>
+            <text>1/day: tongues</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Dancing Lights,Friends,Bane,Command,Darkness,Mage Armor,Tongues</spells>
+        <trait>
+            <name>Devil's Sight</name>
+            <text>Magical darkness doesn't impede the professor's darkvision.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes two Ink Lance attacks. The professor can replace one of the attacks with a use of Spellcasting.</text>
+        </action>
+        <action>
+            <name>Ink Lance</name>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage. If the target is a creature, it must succeed on a 15 Constitution saving throw be blinded until the end of its next turn.</text>
+            <attack>Ink Lance|7|3d8+4</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Spirit Statue Mascot</name>
+        <size>M</size>
+        <type>construct</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>14 (natural armor)</ac>
+        <hp>26 (4d8 + 8)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>9</dex>
+        <con>15</con>
+        <int>12</int>
+        <wis>13</wis>
+        <cha>8</cha>
+        <save></save>
+        <skill>arcana +5,history +5,perception +3</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>13</passive>
+        <languages>any languages it knew in life</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Death Burst</name>
+            <text>When the spirit statue is reduced to 0 hit points, the statue crumbles, and the spirit returns to the afterlife in a burst of ghostly white flame. Each creature within 5 feet of it must succeed on a 12 Constitution saving throw or take 3 (1d6) radiant damage.</text>
+        </trait>
+        <action>
+            <name>Slam</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</text>
+            <attack>Slam|4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Counsel of the Past (2/Day)</name>
+            <text>The spirit statue touches one creature. Once within the next 10 minutes, that creature can roll a d4 and add the number rolled to one ability check of its choice, immediately after rolling the d20.</text>
+            <recharge>2/Day</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Strixhaven Campus Guide</name>
+        <size>S</size>
+        <type>construct</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>lawful good</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>31 (7d6 + 7)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>14</dex>
+        <con>13</con>
+        <int>10</int>
+        <wis>12</wis>
+        <cha>12</cha>
+        <save>dex +4</save>
+        <skill>insight +3,persuasion +3</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>blinded,deafened,exhaustion,paralyzed,petrified,poisoned</conditionImmune>
+        <senses>blindsight 60 ft.</senses>
+        <passive>11</passive>
+        <languages>Common plus any three languages</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Campus Knowledge</name>
+            <text>While at Strixhaven, the guide can't become lost by magical or nonmagical means. The guide also has advantage on ability checks made to locate creatures or objects at Strixhaven.</text>
+        </trait>
+        <trait>
+            <name>Univocal Speech</name>
+            <text>When the guide speaks, any creature that knows at least one language and can hear the guide understands what it says.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The guide doesn't require air, food, drink, or sleep.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The guide makes two Slam attacks.</text>
+        </action>
+        <action>
+            <name>Slam</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.</text>
+            <attack>Slam|4|1d8+2</attack>
+        </action>
+        <action>
+            <name>Smile and Wave</name>
+            <text>Each creature of the guide's choice that is within 30 feet of the guide must succeed on a 11 Wisdom saving throw or be magically charmed by the guide for 1 hour.</text>
+            <text>  A charmed target must move on its turn toward the guide, trying to get within 5 feet of the guide. The target doesn't move into obviously dangerous ground, such as a fire or a pit. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</text>,
+            <text>  A target that successfully saves is immune to any guide's Smile and Wave ability for the next 24 hours.</text>
+        </action>
+    </monster>
+    <monster>
+        <name>Tanazir Quandrix</name>
+        <size>G</size>
+        <type>dragon (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>lawful neutral</alignment>
+        <ac>21 (natural armor)</ac>
+        <hp>444 (24d20 + 192)</hp>
+        <speed>40 ft., fly 80 ft. (hover)</speed>
+        <str>28</str>
+        <dex>14</dex>
+        <con>27</con>
+        <int>28</int>
+        <wis>18</wis>
+        <cha>17</cha>
+        <save>dex +9,con +15,wis +11,cha +10</save>
+        <skill>arcana +23,investigation +23,nature +16,perception +18</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>force,psychic</immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 120 ft.</senses>
+        <passive>28</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>24</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Tanazir casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 24):</text>
+            <text>1/day each: divination, enlarge/reduce, mirage arcane (as an action), polymorph, scrying (as an action), seeming</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Divination,Enlarge/Reduce,Mirage Arcane,Polymorph,Scrying,Seeming</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If Tanazir fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Tanazir makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 14 (1d10 + 9) piercing damage plus 7 (2d6) force damage.</text>
+            <attack>Bite|16|1d10+9+2d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage. If the target is a creature, it is addled by recursive thoughts, reducing its speed to 0 until the start of Tanazir's next turn.</text>
+            <attack>Claw|16|2d6+9</attack>
+        </action>
+        <action>
+            <name>Diminution Breath (Recharge 5-6)</name>
+            <text>Tanazir exhales a weakening equation in a 90-foot cone. Each creature in that area must make a 23 Constitution saving throw. On a failed save, a creature takes 45 (13d6) force damage and 45 (13d6) psychic damage and is weakened until the start of Tanazir's next turn. While weakened, it has disadvantage on the following rolls that rely on Strength: attack rolls, ability checks, and saving throws. On a successful save, a creature takes half as much damage and isn't weakened.</text>
+            <attack>Diminution Breath||13d6+13d6</attack>
+            <recharge>D5</recharge>
+        </action>
+        <action>
+            <name>Teleport</name>
+            <text>Tanazir teleports to an unoccupied space she can see within 100 feet of herself.</text>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>Tanazir makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Fold Space (Costs 2 Actions)</name>
+            <text>Tanazir uses Teleport, and each other creature within 20 feet of the space she left must succeed on a 24 Strength saving throw or be pulled up to 30 feet closer to the center of that space and take 16 (3d10) force damage.</text>
+            <attack>Fold Space||3d10</attack>
+        </legendary>
+        <legendary>
+            <name>Fractal Refraction (Costs 3 Actions)</name>
+            <text>Tanazir magically summons 1d4 fractal mascots in unoccupied spaces she can see within 120 feet of herself. The fractals obey her commands and take their turns immediately after hers. While any of these fractals remain, attack rolls made against Tanazir have disadvantage. A summoned fractal disappears after 1 minute, when it or Tanazir dies, or when she uses this action again.</text>
+            <attack>Fractal Refraction||1d4</attack>
+        </legendary>
+    </monster>
+    <monster>
+        <name>Velomachus Lorehold</name>
+        <size>G</size>
+        <type>dragon (wizard)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>lawful neutral</alignment>
+        <ac>21 (natural armor)</ac>
+        <hp>487 (25d20 + 225)</hp>
+        <speed>40 ft., climb 40 ft.,fly 80 ft.</speed>
+        <str>30</str>
+        <dex>14</dex>
+        <con>29</con>
+        <int>30</int>
+        <wis>20</wis>
+        <cha>18</cha>
+        <save>dex +10,con +17,wis +13,cha +12</save>
+        <skill>arcana +18,history +18,investigation +18,perception +13</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>thunder</immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 120 ft.</senses>
+        <passive>23</passive>
+        <languages>all</languages>
+        <cr>25</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Velomachus casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:</text>
+            <text>1/day each: contact other plane (as an action, contacting a long-dead spirit), divination, move earth, wall of force</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Contact Other Plane,Divination,Move Earth,Wall of Force</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If Velomachus fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Velomachus makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit: 15 (1d10 + 10) piercing damage plus 6 (1d12) thunder damage.</text>
+            <attack>Bite|18|1d10+10+1d12</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit: 13 (1d6 + 10) slashing damage. If the target is a Huge or smaller creature, it is knocked prone.</text>
+            <attack>Claw|18|1d6+10</attack>
+        </action>
+        <action>
+            <name>Battle Tide Breath (Recharge 5-6)</name>
+            <text>Velomachus exhales thunderous sound in a 90-foot cone. Each creature in that area must make a 25 Constitution saving throw. On a failure, a creature takes 45 (7d12) force damage and 45 (7d12) thunder damage and is pushed up to 20 feet in a horizontal direction of Velomachus' choice. On a success, the creature takes half as much damage and isn't pushed. Objects that aren't being worn or carried take the damage and are pushed as if they were creatures that failed the saving throw.</text>
+            <attack>Battle Tide Breath||7d12+7d12</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>Velomachus makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Chaotic Flow (Costs 2 Actions)</name>
+            <text>Velomachus moves up to half her flying speed. If a creature hits or misses her with an opportunity attack during this move, the attacker takes 19 (3d12) thunder damage.</text>
+            <attack>Chaotic Flow||3d12</attack>
+        </legendary>
+        <legendary>
+            <name>Repeating History (Costs 3 Actions)</name>
+            <text>Velomachus magically summons 1d4 spirit statue mascots in unoccupied spaces she can see within 60 feet of herself. The spirit statues obey her commands and take their turns immediately after hers. Any creature, other than a spirit statue or Velomachus, is restrained if it starts its turn within 5 feet of one or more of these spirit statues. This restrained condition lasts until the end of the creature's turn. These spirit statues disappear after 10 minutes, when Velomachus dies, or when she uses this action again.</text>
+            <attack>Repeating History||1d4</attack>
+        </legendary>
+    </monster>
+    <monster>
+        <name>Witherbloom Apprentice</name>
+        <size>M</size>
+        <type>humanoid (druid)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>13 (leather armor)</ac>
+        <hp>44 (8d8 + 8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>13</con>
+        <int>12</int>
+        <wis>15</wis>
+        <cha>11</cha>
+        <save>con +3,wis +4</save>
+        <skill>medicine +4,nature +5,perception +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>16</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The apprentice casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
+            <text>At will: druidcraft, spare the dying</text>
+            <text>1/day: pass without trace</text>
+        </trait>
+        <spellAbility>Wisdom</spellAbility>
+        <spells>Druidcraft,Spare the Dying,Pass without Trace</spells>
+        <trait>
+            <name>Regeneration</name>
+            <text>The apprentice regains 5 hit points at the start of its turn if it has at least 1 hit point.</text>
+        </trait>
+        <trait>
+            <name>Verdant Talisman</name>
+            <text>At the end of a 10-minute ritual, the apprentice can touch one willing creature (including itself) and bestow upon it a small talisman imbued with magic. Upon receiving the talisman, the creature gains 10 temporary hit points, and it can add 1d6 to its initiative rolls while it wears the talisman. These benefits last for 1 hour or until the apprentice conducts another ritual to bestow another talisman. When the benefits expire, the talisman crumbles to dust.</text>
+        </trait>
+        <action>
+            <name>Briar Vine</name>
+            <text>Melee Spell Attack: +4 to hit, reach 15 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 9 (2d8) poison damage. If the target is a Large or smaller creature, the apprentice can pull it up to 10 feet closer to itself.</text>
+            <attack>Briar Vine|4|1d10+2+2d8</attack>
+        </action>
+        <reaction>
+            <name>Wither Burst</name>
+            <text>When the apprentice sees a creature within 30 feet of itself drop to 0 hit points, the apprentice channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a 12 Constitution saving throw or become poisoned for 1 minute. While poisoned in this way, the target takes 3 (1d6) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Wither Burst||1d6</attack>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Witherbloom Pledgemage</name>
+        <size>M</size>
+        <type>humanoid (druid)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>12 (15 with vociferous form)</ac>
+        <hp>66 (12d8 + 12)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>13</con>
+        <int>14</int>
+        <wis>17</wis>
+        <cha>11</cha>
+        <save>con +3,wis +5</save>
+        <skill>medicine +5,nature +6,perception +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses></senses>
+        <passive>17</passive>
+        <languages>Common plus any two languages</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The apprentice casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
+            <text>At will: druidcraft, spare the dying</text>
+            <text>1/day each: death ward, pass without trace, speak with plants</text>
+        </trait>
+        <spellAbility>Wisdom</spellAbility>
+        <spells>Druidcraft,Spare the Dying,Death Ward,Pass without Trace,Speak with Plants</spells>
+        <trait>
+            <name>Regeneration</name>
+            <text>As long as the pledgemage has at least 1 hit point remaining, the pledgemage regains 5 hit points at the start of its turn.</text>
+        </trait>
+        <trait>
+            <name>Verdant Talisman</name>
+            <text>At the end of a 10-minute ritual, the pledgemage can touch one willing creature (including itself) and bestow upon it a small talisman imbued with magic. Upon receiving the talisman, the creature gains 10 temporary hit points, and it can add 1d6 to its initiative rolls while it wears the talisman. These benefits last for 1 hour or until the pledgemage conducts another ritual to bestow another talisman. When the benefits expire, the talisman crumbles to dust.</text>
+        </trait>
+        <action>
+            <name>Briar Vine</name>
+            <text>Melee Spell Attack: +5 to hit, reach 15 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 18 (4d8) poison damage. If the target is a Large or smaller creature, the apprentice can pull it up to 10 feet closer to itself.</text>
+            <attack>Briar Vine|5|1d10+3+4d8</attack>
+        </action>
+        <reaction>
+            <name>Wither Burst</name>
+            <text>When the pledgemage sees a creature within 30 feet of itself drop to 0 hit points, the pledgemage channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a 13 Constitution saving throw or become poisoned for 1 minute. While poisoned in this way, the target takes 3 (1d6) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Wither Burst||1d6</attack>
+        </reaction>
+    </monster>
+    <monster>
+        <name>Witherbloom Professor of Decay</name>
+        <size>M</size>
+        <type>humanoid (druid)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>14 (hide armor)</ac>
+        <hp>105 (14d8 + 42)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>16</con>
+        <int>16</int>
+        <wis>19</wis>
+        <cha>13</cha>
+        <save>con +6,int +6,wis +7,cha +4</save>
+        <skill>arcana +6,medicine +7,nature +6,survival +7</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>14</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save 15):</text>
+            <text>At will: druidcraft, spare the dying</text>
+            <text>1/day each: antilife shell, bane, feign death, speak with dead</text>
+        </trait>
+        <spellAbility>Wisdom</spellAbility>
+        <spells>Druidcraft,Spare the Dying,Antilife Shell,Bane,Feign Death,Speak with Dead</spells>
+        <trait>
+            <name>Essence Transfer (1/Day)</name>
+            <text>The professor can cast the animate dead spell, using Wisdom as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes two Mortality Spear attacks. It can replace one of the attacks with a use of Spellcasting.</text>
+        </action>
+        <action>
+            <name>Mortality Spear</name>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage, and the target can't regain hit points until the start of the professor's next turn.</text>
+            <attack>Mortality Spear|7|3d8+4</attack>
+        </action>
+        <action>
+            <name>Essence Pulse (Recharge 5-6)</name>
+            <text>The professor creates a life-draining vortex in a 30-foot-radius sphere centered on itself. Each creature of the professor's choice that it can see within that area must make a 15 Constitution saving throw, taking 23 (5d8) necrotic damage on a failed save, or half as much damage on a successful one. The professor then regains 10 hit points. An affected creature's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest. The creature dies if its hit point maximum is reduced to 0.</text>
+            <attack>Essence Pulse||5d8</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Witherbloom Professor of Growth</name>
+        <size>M</size>
+        <type>humanoid (druid)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>any alignment</alignment>
+        <ac>13 (hide armor)</ac>
+        <hp>112 (15d8 + 45)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>13</dex>
+        <con>16</con>
+        <int>16</int>
+        <wis>19</wis>
+        <cha>13</cha>
+        <save>con +6,int +6,wis +7,cha +4</save>
+        <skill>arcana +6,medicine +7,nature +6,survival +7</skill>
+        <vulnerable></vulnerable>
+        <resist>poison</resist>
+        <immune></immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses></senses>
+        <passive>14</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
+            <text>At will: druidcraft, spare the dying</text>
+            <text>1/day each: greater restoration, lesser restoration, mass cure wounds, pass without trace, plant growth, revivify</text>
+        </trait>
+        <spellAbility>Wisdom</spellAbility>
+        <spells>Druidcraft,Spare the Dying,Greater Restoration,Lesser Restoration,Mass Cure Wounds,Pass without Trace,Plant Growth,Revivify</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The professor makes two Verdant Lash attacks.</text>
+        </action>
+        <action>
+            <name>Verdant Lash</name>
+            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a 15 Strength saving throw or be pulled up to 10 feet closer to the professor.</text>
+            <attack>Verdant Lash|7|2d6+4+2d6</attack>
+        </action>
+        <action>
+            <name>Summon Nature's Avatar (Recharges after a Short or Long Rest)</name>
+            <text>The professor magically summons a Groff. The groff appears in an unoccupied space within 60 feet of the professor, acts as the professor's ally, and takes its turns immediately after the professor's. The professor can communicate telepathically with this groff while it remains. The groff remains for 10 minutes, until it or the professor dies, or until the professor dismisses it as an action.</text>
+            <recharge>D </recharge>
+        </action>
+    </monster>
+    <monster>
+        <name>Y'demi</name>
+        <size>M</size>
+        <type>humanoid (human,warlock)</type>
+        <description>Source: Strixhaven: Curriculum of Chaos</description>
+        <alignment>neutral evil</alignment>
+        <ac>16 (blood aegis)</ac>
+        <hp>127 (15d8 + 60)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>18</con>
+        <int>20</int>
+        <wis>12</wis>
+        <cha>12</cha>
+        <save>con +8,int +9,wis +5,cha +5</save>
+        <skill>deception +9,medicine +5,survival +5</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune></immune>
+        <conditionImmune>exhaustion</conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common plus any four languages</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Blood Aegis</name>
+            <text>The AC of Y'demi includes her Constitution modifier while she isn't wearing armor or wielding a shield.</text>
+        </trait>
+        <trait>
+            <name>Oriq Mask</name>
+            <text>Y'demi wears an Oriq mask. While wearing the mask, Y'demi can't be targeted by any divination magic or perceived through magical scrying sensors, and she adds double her proficiency bonus to Charisma (Deception) checks (included above).</text>
+        </trait>
+        <trait>
+            <name>Sanguine Sense</name>
+            <text>While Y'demi isn't blinded, she can see any creature that isn't an Undead or a Construct within 60 feet of itself, even through total cover, heavily obscured areas, invisibility, or any other phenomena that would prevent sight.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Y'demi makes two Blood Lash attacks.</text>
+        </action>
+        <action>
+            <name>Blood Lash</name>
+            <text>Melee Spell Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) necrotic damage. If the target is a creature, it can't regain hit points until the start of the Y'demi's next turn.</text>
+            <attack>Blood Lash|9|3d10+5</attack>
+        </action>
+        <action>
+            <name>Blood Boil (Recharge 4-6)</name>
+            <text>Y'demi chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Y'demi's choice that she can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
+            <attack>Blood Boil||7d10</attack>
+            <recharge>D4</recharge>
+        </action>
+    </monster>
+</compendium>
