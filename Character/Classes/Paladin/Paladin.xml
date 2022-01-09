@@ -140,6 +140,24 @@
 				<name>Fighting Style: Tunnel Fighter</name>
 				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
 			</feature>
+            <feature optional="YES">
+                <name>Variant Feature: Blessed Warrior</name>
+                <text>You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Blind Fighting</name>
+                <text>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Interception</name>
+                <text>When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
 			<feature>
 				<name>Spellcasting</name>
 				<text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.</text>
@@ -169,9 +187,21 @@
 				<text>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, the Oath of the Crown, or the Oath of Vengeance, all detailed at the end of the class description.</text>
 				<text>	Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</text>
 			</feature>
+            <feature optional="YES">
+                <name>Variant Feature: Channel Divinity: Harness Divine Power</name>
+                <text>You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="4" scoreImprovement="YES">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -190,6 +220,12 @@
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="8" scoreImprovement="YES">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
 		</autolevel>
 		<autolevel level="10">
 			<feature>
@@ -205,6 +241,12 @@
 			</feature>
 		</autolevel>
 		<autolevel level="12" scoreImprovement="YES">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
 		</autolevel>
 		<autolevel level="14">
 			<feature>
@@ -217,6 +259,12 @@
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="16" scoreImprovement="YES">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
 		</autolevel>
 		<autolevel level="18">
 			<feature>
@@ -225,6 +273,12 @@
 			</feature>
 		</autolevel>
 		<autolevel level="19" scoreImprovement="YES">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
 		</autolevel>
 		<autolevel level="20">
 			<!-- Archetype features -->
