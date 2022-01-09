@@ -321,7 +321,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 19):</text>
-
+            <text>At will: faerie fire</text>
+            <text>1/day each: calm emotions, invisibility, revivify</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Faerie Fire,Calm Emotions,Invisibility,Revivify</spells>
@@ -351,8 +352,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The dragon uses one of the following breath weapons:</text>
-            <text>• Dream Breath. undefined</text>
-            <text>• Moonlight Breath. undefined</text>
+            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
+            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC 18 Dexterity saving throw, taking 49 (9d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
         </action>
         <legendary>
             <name>Tail</name>
@@ -1047,7 +1048,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 23):</text>
-
+            <text>At will: faerie fire</text>
+            <text>2/day each: calm emotions, dispel magic, invisibility, revivify</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Faerie Fire,Calm Emotions,Dispel Magic,Invisibility,Revivify</spells>
@@ -1077,8 +1079,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The dragon uses one of the following breath weapons:</text>
-            <text>• Dream Breath. undefined</text>
-            <text>• Moonlight Breath. undefined</text>
+            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
+            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 120-foot line that is 10 feet wide. Each creature in that area must make a DC 21 Dexterity saving throw, taking 60 (11d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
         </action>
         <legendary>
             <name>Tail</name>
@@ -1327,7 +1329,7 @@
         <save></save>
         <skill></skill>
         <vulnerable></vulnerable>
-        <resist>[object Object]</resist>
+        <resist>damage of the type matching the animated breath's form (acid, cold, fire, lightning, or poison)</resist>
         <immune></immune>
         <conditionImmune>exhaustion,paralyzed,petrified,poisoned,restrained,unconscious</conditionImmune>
         <senses>darkvision 60 ft.</senses>
@@ -1700,8 +1702,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm uses one of the following breath weapons:</text>
-            <text>• Elemental Breath. undefined</text>
-            <text>• Sapping Breath. undefined</text>
+            <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) fire damage on a failed save, or half as much damage on a successful one.</text>
+            <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
         </action>
         <action>
             <name>Change Shape</name>
@@ -1776,8 +1778,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm uses one of the following breath weapons:</text>
-            <text>• Elemental Breath. undefined</text>
-            <text>• Sapping Breath. undefined</text>
+            <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) lightning damage on a failed save, or half as much damage on a successful one.</text>
+            <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
         </action>
         <action>
             <name>Change Shape</name>
@@ -1852,8 +1854,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm uses one of the following breath weapons:</text>
-            <text>• Elemental Breath. undefined</text>
-            <text>• Sapping Breath. undefined</text>
+            <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) acid damage on a failed save, or half as much damage on a successful one.</text>
+            <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
         </action>
         <action>
             <name>Change Shape</name>
@@ -2247,7 +2249,7 @@
         <trait>
             <name>Spellcasting</name>
             <text>The draconian casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 12):</text>
-
+            <text>1/day each: enlarge/reduce, invisibility, stinking cloud</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Enlarge/Reduce,Invisibility,Stinking Cloud</spells>
@@ -2302,7 +2304,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The draconian casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 14):</text>
-
+            <text>At will: invisibility, mage hand</text>
+            <text>2/day each: dimension door, disguise self, sending</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Invisibility,Mage Hand,Dimension Door,Disguise Self,Sending</spells>
@@ -2342,7 +2345,7 @@
         <alignment>neutral</alignment>
         <ac>17 (deflection)</ac>
         <hp>168 (16d12 + 64)</hp>
-        <speed>[object Object] ft., fly 80 ft. (hover)</speed>
+        <speed>0 ft., fly 80 ft. (hover)</speed>
         <str>1</str>
         <dex>12</dex>
         <con>18</con>
@@ -2392,15 +2395,15 @@
         </action>
         <action>
             <name>Telekinetic Rend</name>
-            <text>ms,rs +12 to hit, reach 10 ft. or range 120 ft., one target. Hit: 15 (2d8 + 6) force damage.</text>
+            <text>Melee or Ranged Spell Attack: +12 to hit, reach 10 ft. or range 120 ft., one target. Hit: 15 (2d8 + 6) force damage.</text>
             <attack>Telekinetic Rend|12|2d8+6</attack>
         </action>
         <action>
             <name>Inhabit Object</name>
             <text>The shard disappears as it pours its psychic essence into a Medium or smaller nonsentient object it can see within 30 feet of it, magically possessing it. The object uses the shard's AC, and any damage dealt to the object applies to the shard's hit points. The shard inhabits the object until it uses an action to leave; until it is turned; until it is reduced to 0 hit points; or until an effect that ends possession, such as a dispel evil and good spell, is used on it. When it leaves the object, it reappears in the nearest unoccupied space.</text>
-            <text>  While inhabited, the object becomes a magic item if it wasn't already, and a Tiny cracked gemstone matching the kind of gem dragon the shard was in life appears somewhere on the object. The shard can cause the object to fly using the shard's own flying speed, use its senses, speak verbally or telepathically, cast spells, and use its legendary actions.</text>,
+            <text>  While inhabited, the object becomes a magic item if it wasn't already, and a Tiny cracked gemstone matching the kind of gem dragon the shard was in life appears somewhere on the object. The shard can cause the object to fly using the shard's own flying speed, use its senses, speak verbally or telepathically, cast spells, and use its legendary actions.</text>
             <text>  If a creature wears or carries the inhabited object, the shard can grant the creature the following benefits:</text>,
-            <text>  Each of the creature's attacks deals an extra 1d8 force damage on a hit.</text>,
+            <text>  Each of the creature's attacks deals an extra 1d8 force damage on a hit.</text>
             <text>  The creature gains resistance to psychic damage.</text>
             <attack>Inhabit Object||1d8</attack>
         </action>
@@ -2446,7 +2449,6 @@
         <senses>blindsight 30 ft., darkvision 60 ft.</senses>
         <passive>12</passive>
         <languages>Draconic,understands the languages you speak</languages>
-        <cr>undefined</cr>
         <trait>
             <name>Shared Resistances</name>
             <text>When you summon the dragon, choose one of its damage resistances. You have resistance to the chosen damage type until the spell ends.</text>
@@ -2494,7 +2496,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The blessed casts one of the following spells, using Wisdom as the spellcasting ability (spell save 14):</text>
-
+            <text>At will: light, thaumaturgy</text>
+            <text>1/day each: enhance ability, flame strike, mass cure wounds, revivify, tongues</text>
         </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Light,Thaumaturgy,Enhance Ability,Flame Strike,Mass Cure Wounds,Revivify,Tongues</spells>
@@ -2585,7 +2588,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The speaker casts one of the following spells, using Charisma as the spellcasting ability (spell save 13):</text>
-
+            <text>At will: dancing lights</text>
+            <text>1/day each: calm emotions, charm person, command, comprehend languages</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Calm Emotions,Charm Person,Command,Comprehend Languages</spells>
@@ -2595,7 +2599,7 @@
         </action>
         <action>
             <name>Thunder Bolt</name>
-            <text>ms,rs +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 13 (3d8) thunder damage, and the target is pushed horizontally up to 10 feet away from the speaker.</text>
+            <text>Melee or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 13 (3d8) thunder damage, and the target is pushed horizontally up to 10 feet away from the speaker.</text>
             <attack>Thunder Bolt|5|3d8</attack>
         </action>
         <reaction>
@@ -3619,8 +3623,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm uses one of the following breath weapons:</text>
-            <text>• Elemental Breath. undefined</text>
-            <text>• Sapping Breath. undefined</text>
+            <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) fire damage on a failed save, or half as much damage on a successful one.</text>
+            <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
         </action>
         <action>
             <name>Change Shape</name>
@@ -4037,8 +4041,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The dragon uses one of the following breath weapons:</text>
-            <text>• Dream Breath. undefined</text>
-            <text>• Moonlight Breath. undefined</text>
+            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
+            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 30-foot line that is 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
         </action>
     </monster>
     <monster>
@@ -4310,8 +4314,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm uses one of the following breath weapons:</text>
-            <text>• Elemental Breath. undefined</text>
-            <text>• Sapping Breath. undefined</text>
+            <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) cold damage on a failed save, or half as much damage on a successful one.</text>
+            <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
         </action>
         <action>
             <name>Change Shape</name>
@@ -4860,7 +4864,7 @@
         <trait>
             <name>Spellcasting</name>
             <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
-
+            <text>1/day each: calm emotions, faerie fire</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Calm Emotions,Faerie Fire</spells>
@@ -4881,8 +4885,8 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The dragon uses one of the following breath weapons:</text>
-            <text>• Dream Breath. undefined</text>
-            <text>• Moonlight Breath. undefined</text>
+            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
+            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 60-foot line that is 5 feet wide. Each creature in that area must make a DC 14 Dexterity saving throw, taking 38 (7d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
         </action>
     </monster>
     <monster>
