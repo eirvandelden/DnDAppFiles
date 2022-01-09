@@ -40,6 +40,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the archaic fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -57,6 +58,7 @@
         <action>
             <name>Gravity Shift (Recharge 5-6)</name>
             <text>The archaic reverses gravity for one creature it can see within 100 feet of itself. The creature must succeed on a 22 Wisdom saving throw or fall 100 feet upward. If the falling creature encounters a solid object (such as a ceiling) in this fall, it strikes the object just as it would during a downward fall. If the creature reaches the top of the area without striking anything, it hovers there until the start of the archaic's next turn, at which time gravity returns to normal and the creature falls.</text>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Teleport</name>
@@ -65,6 +67,7 @@
         <reaction>
             <name>Spell Mimicry (1/Day)</name>
             <text>Immediately after a creature the archaic can see casts a spell of 5th level or lower, that creature must succeed on a 22 Charisma saving throw, or the archaic immediately casts the same spell at the same level (+14 to hit with spell attacks, spell save 22), requiring no material components and choosing the spell's targets.</text>
+            <recharge>1/Day</recharge>
         </reaction>
         <legendary>
             <name>Strike</name>
@@ -122,6 +125,7 @@
         <action>
             <name>Captivating Artistry (1/Day)</name>
             <text>The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a 12 Charisma saving throw or be charmed for 1 minute. The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>1/Day</recharge>
         </action>
     </monster>
     <monster>
@@ -159,6 +163,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Beledros fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -182,6 +187,7 @@
             <name>Decaying Breath (Recharge 5-6)</name>
             <text>Beledros exhales decaying energy in a 90-foot cone. Each creature in that area must make a 23 Constitution saving throw, taking 39 (6d12) necrotic damage and 39 (6d12) poison damage on a failed save, or half as much damage on a successful one. A creature that takes damage from the breath can't regain hit points until the start of Beledros's next turn.</text>
             <attack>Decaying Breath||6d12+6d12</attack>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Miasmal Flow</name>
@@ -327,6 +333,7 @@
             <name>Terrify (Recharge 4-6)</name>
             <text>The daemogoth targets one creature it can see within 120 feet of itself. The target must make a 17 Wisdom saving throw. On a failed save, the target takes 33 (6d10) psychic damage and is frightened of the daemogoth until the end of the daemogoth's next turn, and the daemogoth regains 5 hit points. On a successful save, the target takes half as much damage and isn't frightened, and the daemogoth doesn't heal.</text>
             <attack>Terrify||6d10</attack>
+            <recharge>D4</recharge>
         </action>
     </monster>
     <monster>
@@ -357,6 +364,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the titan fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Pact of Suffering</name>
@@ -436,6 +444,7 @@
         <reaction>
             <name>Beginner's Luck (2/Day)</name>
             <text>When the student fails a saving throw, it can reroll the d20. It must use the new roll.</text>
+            <recharge>2/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -508,6 +517,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Galazeth fails a saving throw, he can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -527,6 +537,7 @@
             <name>Dancing Elements Breath (Recharge 5-6)</name>
             <text>Galazeth exhales a blast of flames and ice in a 90-foot cone. Each creature in that area must make a 22 Dexterity saving throw, gaining no benefit from cover (other than total cover) and taking 38 (7d10) fire damage and 38 (7d10) cold damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Dancing Elements Breath||7d10+7d10</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -629,6 +640,7 @@
         <action>
             <name>Ink Spray (1/Day)</name>
             <text>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a 12 Constitution saving throw or be blinded until the end of the inkling's next turn.</text>
+            <recharge>1/Day</recharge>
         </action>
     </monster>
     <monster>
@@ -673,10 +685,12 @@
             <name>Reduce to Memory (Recharge 6)</name>
             <text>Thundering golden energy erupts around a creature the apprentice can see within 90 feet of it. The creature must make a 12 Constitution saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one. A Construct has disadvantage on the saving throw.</text>
             <attack>Reduce to Memory||6d10</attack>
+            <recharge>D6</recharge>
         </action>
         <reaction>
             <name>Learn from the Past (2/Day)</name>
             <text>When another creature within 60 feet of the apprentice misses a target with an attack roll, the apprentice magically enables the attacker to reroll the attack roll. It must use the new roll.</text>
+            <recharge>2/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -726,10 +740,12 @@
             <name>Reduce to Memory (Recharge 5-6)</name>
             <text>Thundering golden energy erupts around a creature the pledgemage can see within 90 feet of it. The creature must make a 13 Constitution saving throw, taking 44 (8d10) thunder damage on a failed save, or half as much damage on a successful one. A Construct has disadvantage on the saving throw.</text>
             <attack>Reduce to Memory||8d10</attack>
+            <recharge>D5</recharge>
         </action>
         <reaction>
             <name>Learn from the Past (2/Day)</name>
             <text>When another creature within 60 feet of the pledgemage misses a target with an attack roll, the pledgemage magically enables the attacker to reroll the attack roll. It must use the new roll.</text>
+            <recharge>2/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -768,6 +784,7 @@
         <trait>
             <name>Voice from the Past (1/Day)</name>
             <text>The professor can cast the contact other plane spell to contact a long-dead spirit, using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -782,6 +799,7 @@
             <name>Weight of History (Recharge 5-6)</name>
             <text>The professor magically compresses time around up to six creatures of its choice that it can see within 30 feet of itself. Each target must succeed on a 15 Wisdom saving throw or be restrained for 1 minute, but the restrained target's speed is halved instead of being reduced to 0. At the start of each of its turns, the restrained target takes 4 (1d8) force damage. A restrained target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Weight of History||1d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -820,6 +838,7 @@
         <trait>
             <name>Voice from the Past (1/Day)</name>
             <text>The professor can cast the contact other plane spell to contact a long-dead spirit, using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -833,10 +852,12 @@
         <action>
             <name>Force Barrier (Recharge 5-6)</name>
             <text>The professor magically creates a wall of translucent, golden force within 90 feet of itself. The wall lasts for 1 minute or until the professor uses this action again. The barrier can be a vertical or horizontal plane up to 30 feet on a side or a 10-foot-radius hemispherical dome with a floor. The wall provides total cover. It has AC 17, 30 hit points, and immunity to poison and psychic damage.</text>
+            <recharge>D5</recharge>
         </action>
         <reaction>
             <name>Arcane Stasis (2/Day)</name>
             <text>When a creature the professor can see within 60 feet of it casts a spell, the professor can magically lock the casting in the moment before completion. The spellcaster must succeed on a 15 saving throw using the spell's spellcasting ability, or the spell fails and is wasted.</text>
+            <recharge>2/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -946,6 +967,7 @@
             <name>Blood Boil (Recharge 4-6)</name>
             <text>Murgaxor chooses a point within 150 feet of himself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Murgaxor's choice that he can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
             <attack>Blood Boil||7d10</attack>
+            <recharge>D4</recharge>
         </action>
     </monster>
     <monster>
@@ -985,6 +1007,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the Oracle fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -999,6 +1022,7 @@
             <name>Paradoxy (Recharge 4-6)</name>
             <text>Momentary warps in reality appear at three different points the Oracle can see within 120 feet of her. Each creature in a 20-foot-radius sphere centered on each point must make a 18 Strength saving throw. On a failed save, a creature takes 33 (6d10) force damage and is pulled up to 15 feet in a straight line toward the center of the sphere. On a successful save, the creature takes half as much damage and isn't pulled. A creature caught in the area of multiple warps is affected by only one, which the Oracle chooses.</text>
             <attack>Paradoxy||6d10</attack>
+            <recharge>D4</recharge>
         </action>
         <action>
             <name>Teleport</name>
@@ -1068,6 +1092,7 @@
             <name>Blood Boil (Recharge 4-6)</name>
             <text>The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
             <attack>Blood Boil||7d10</attack>
+            <recharge>D4</recharge>
         </action>
     </monster>
     <monster>
@@ -1251,6 +1276,7 @@
             <name>Showstopper (1/Day)</name>
             <text>The pledgemage shines with elemental magic, targeting one creature it can see within 60 feet of itself. The target must make a 13 Wisdom saving throw. On a failed save, the target takes 28 (8d6) fire or cold damage (the pledgemage's choice) and is stunned until the start of the pledgemage's next turn. On a successful save, the target takes half as much damage and isn't stunned.</text>
             <attack>Showstopper||8d6</attack>
+            <recharge>1/Day</recharge>
         </action>
     </monster>
     <monster>
@@ -1299,6 +1325,7 @@
             <name>Lightning Flourish (Recharge 6)</name>
             <text>The professor unleashes arcs of magical lightning at up to two creatures it can see within 60 feet of itself. Each target must make a 15 Dexterity saving throw, taking 35 (10d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Lightning Flourish||10d6</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -1480,6 +1507,7 @@
         <reaction>
             <name>Avoidant Translation (2/Day)</name>
             <text>When the professor is hit by an attack roll, it can increase its AC by 3 against that attack, potentially causing it to miss. The professor can then teleport, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
+            <recharge>2/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -1527,10 +1555,12 @@
         <action>
             <name>Overriding Theorem (Recharge 4-6)</name>
             <text>The professor magically influences the mind of up to two creatures it can see within 60 feet of itself. Each target must succeed on a 15 Intelligence saving throw or become charmed by the professor until the start of the professor's next turn. The charmed creature must immediately use its reaction, if available, to move up its speed toward another creature of the professor's choice and make one melee attack against that other creature.</text>
+            <recharge>D4</recharge>
         </action>
         <reaction>
             <name>Divide by Zero (2/Day)</name>
             <text>When the professor sees another creature within 60 feet of itself casting a spell, the professor can try to nullify the spell's formation. The creature must succeed on a 15 saving throw using the spell's spellcasting ability, or the spell fails and is wasted.</text>
+            <recharge>2/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -1681,6 +1711,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Shadrix fails a saving throw, he can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1700,6 +1731,7 @@
             <name>Illuminating Shadow Breath (Recharge 5-6)</name>
             <text>Shadrix exhales an entwined burst of blinding radiance and unnerving shadow in a 90-foot cone. Each creature in that area must make a 21 Constitution saving throw. On a failed save, a creature takes 31 (7d8) radiant damage and 31 (7d8) psychic damage and is blinded until the start of Shadrix's next turn. On a successful save, a creature takes half as much damage and isn't blinded.</text>
             <attack>Illuminating Shadow Breath||7d8+7d8</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -1931,6 +1963,7 @@
         <action>
             <name>Counsel of the Past (2/Day)</name>
             <text>The spirit statue touches one creature. Once within the next 10 minutes, that creature can roll a d4 and add the number rolled to one ability check of its choice, immediately after rolling the d20.</text>
+            <recharge>2/Day</recharge>
         </action>
     </monster>
     <monster>
@@ -2021,6 +2054,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Tanazir fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -2040,6 +2074,7 @@
             <name>Diminution Breath (Recharge 5-6)</name>
             <text>Tanazir exhales a weakening equation in a 90-foot cone. Each creature in that area must make a 23 Constitution saving throw. On a failed save, a creature takes 45 (13d6) force damage and 45 (13d6) psychic damage and is weakened until the start of Tanazir's next turn. While weakened, it has disadvantage on the following rolls that rely on Strength: attack rolls, ability checks, and saving throws. On a successful save, a creature takes half as much damage and isn't weakened.</text>
             <attack>Diminution Breath||13d6+13d6</attack>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Teleport</name>
@@ -2095,6 +2130,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Velomachus fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -2114,6 +2150,7 @@
             <name>Battle Tide Breath (Recharge 5-6)</name>
             <text>Velomachus exhales thunderous sound in a 90-foot cone. Each creature in that area must make a 25 Constitution saving throw. On a failure, a creature takes 45 (7d12) force damage and 45 (7d12) thunder damage and is pushed up to 20 feet in a horizontal direction of Velomachus' choice. On a success, the creature takes half as much damage and isn't pushed. Objects that aren't being worn or carried take the damage and are pushed as if they were creatures that failed the saving throw.</text>
             <attack>Battle Tide Breath||7d12+7d12</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -2270,6 +2307,7 @@
         <trait>
             <name>Essence Transfer (1/Day)</name>
             <text>The professor can cast the animate dead spell, using Wisdom as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -2284,6 +2322,7 @@
             <name>Essence Pulse (Recharge 5-6)</name>
             <text>The professor creates a life-draining vortex in a 30-foot-radius sphere centered on itself. Each creature of the professor's choice that it can see within that area must make a 15 Constitution saving throw, taking 23 (5d8) necrotic damage on a failed save, or half as much damage on a successful one. The professor then regains 10 hit points. An affected creature's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest. The creature dies if its hit point maximum is reduced to 0.</text>
             <attack>Essence Pulse||5d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -2331,6 +2370,7 @@
         <action>
             <name>Summon Nature's Avatar (Recharges after a Short or Long Rest)</name>
             <text>The professor magically summons a Groff. The groff appears in an unoccupied space within 60 feet of the professor, acts as the professor's ally, and takes its turns immediately after the professor's. The professor can communicate telepathically with this groff while it remains. The groff remains for 10 minutes, until it or the professor dies, or until the professor dismisses it as an action.</text>
+            <recharge>D </recharge>
         </action>
     </monster>
     <monster>
@@ -2383,6 +2423,7 @@
             <name>Blood Boil (Recharge 4-6)</name>
             <text>Y'demi chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Y'demi's choice that she can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
             <attack>Blood Boil||7d10</attack>
+            <recharge>D4</recharge>
         </action>
     </monster>
 </compendium>
