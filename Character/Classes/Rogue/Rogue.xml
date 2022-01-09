@@ -9,6 +9,7 @@
 		<weapons>simple weapons, hand crossbows, longswords, rapiers, shortswords</weapons>
 		<tools>thieves' tools</tools>
 		<wealth>4d4x10</wealth>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -125,7 +126,7 @@
 				<text>	Once you use this feature, you can't use it again until you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="3" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Steady Aim</name>

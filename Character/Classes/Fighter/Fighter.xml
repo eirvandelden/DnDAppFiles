@@ -9,6 +9,7 @@
 		<weapons>simple weapons, martial weapons</weapons>
 		<tools>none</tools>
 		<wealth>5d4x10</wealth>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -153,7 +154,7 @@
 				<text>At 20th level, you can attack four times whenever you take the Attack action on your turn.</text>
 			</feature>
 		</autolevel>
-		<!--Unearthed Arcana-->
+	<!--Unearthed Arcana-->
 		<!-- Fighting Styles are currently 'feature's rather than 'spells' and FightClub5 won't merge 'class' entries -->
 		<autolevel level="1" UA="UA">
 			<feature optional="YES">
@@ -177,7 +178,7 @@
 				<text>This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="1" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Fighting Style: Blind Fighting</name>

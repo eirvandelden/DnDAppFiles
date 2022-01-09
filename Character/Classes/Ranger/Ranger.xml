@@ -9,6 +9,7 @@
 		<weapons>simple weapons, martial weapons</weapons>
 		<tools>none</tools>
 		<wealth>5d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="1">
 			<slots>0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>0,4,3,3,3,2</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -239,7 +241,7 @@
 				<text>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</text>
 			</feature>
 		</autolevel>
-		<!--Unearthed Arcana-->
+	<!--Unearthed Arcana-->
 		<autolevel level="2">
 			<feature optional="YES" UA="UA">
 				<name>Fighting Style: Close Quarters Shooter</name>
@@ -258,7 +260,7 @@
 				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="1" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Favored Foe</name>

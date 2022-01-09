@@ -9,6 +9,7 @@
 		<weapons>simple weapons, martial weapons</weapons>
 		<tools>none</tools>
 		<wealth>5d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Charisma</spellAbility>
 		<autolevel level="1">
 			<slots>0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>0,4,3,3,3,2</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -229,7 +231,7 @@
 		<autolevel level="20">
 			<!-- Archetype features -->
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="2" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Fighting Style: Blessed Warrior</name>

@@ -9,6 +9,7 @@
 		<weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons>
 		<tools>none</tools>
 		<wealth>3d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Charisma</spellAbility>
 		<autolevel level="1">
 			<slots>4,2,0,0,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>6,4,3,3,3,3,2,2,1,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -293,7 +295,7 @@
 				<text>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="3" source="TCE" IL="IL">
             <feature optional="YES">
                 <name>Variant Feature: Metamagic: Seeking Spell</name>
@@ -398,6 +400,7 @@
             </feature>
         </autolevel>
 	</baseclass>
+<!-- Metamagic Pseudo Spells -->
 	<spell PS="PS">
 		<name>Metamagic: Careful Spell</name>
 		<classes>Sorcerer Metamagic</classes>

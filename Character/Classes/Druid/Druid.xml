@@ -9,6 +9,7 @@
 		<weapons>clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</weapons>
 		<tools>herbalism kit</tools>
 		<wealth>2d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="1">
 			<slots>2,2,0,0,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>4,4,3,3,3,3,2,2,1,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -182,7 +184,7 @@
 				<text>	Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.</text>
 			</feature>
 		</autolevel>
-		<!--Unearthed Arcana-->
+	<!--Unearthed Arcana-->
 		<autolevel level="2" UA="Druid">
 			<feature optional="YES">
 				<name>Optional Rule: Wild Shape Forms</name>
@@ -206,7 +208,7 @@
 				<text>This optional rule is from Unearthed Arcana: Druid Circles and Wild Shape, and as such may not be used in your game. Consult your DM about this rule.</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="2" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Wild Companion</name>

@@ -9,6 +9,7 @@
 		<weapons>simple weapons, shortswords</weapons>
 		<tools>any one type of artisan's tools or any one musical instrument of your choice</tools>
 		<wealth>5d4</wealth>
+	<!-- Base Items -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="1">
 			<feature>
@@ -213,7 +214,7 @@
 				<text>At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="2" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Dedicated Weapon</name>

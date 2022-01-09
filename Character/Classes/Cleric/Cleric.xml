@@ -9,6 +9,7 @@
 		<weapons>simple weapons</weapons>
 		<tools>none</tools>
 		<wealth>5d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="1">
 			<slots>3,2,0,0,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>5,4,3,3,3,3,2,2,1,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -209,7 +211,7 @@
 				<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="2" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Channel Divinity: Harness Divine Power</name>

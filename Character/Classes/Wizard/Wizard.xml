@@ -9,6 +9,7 @@
 		<weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons>
 		<tools>none</tools>
 		<wealth>4d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Intelligence</spellAbility>
 		<autolevel level="1">
 			<slots>3,2,0,0,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>5,4,3,3,3,3,2,2,1,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -180,7 +182,7 @@
 				<text>	If you want to cast either spell at a higher level, you must expend a spell slot as normal.</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="3" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Cantrip Formulas</name>

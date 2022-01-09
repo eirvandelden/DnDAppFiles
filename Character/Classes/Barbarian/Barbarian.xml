@@ -9,6 +9,7 @@
 		<weapons>simple weapons, martial weapons</weapons>
 		<tools>none</tools>
 		<wealth>2d4x10</wealth>
+    <!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -177,7 +178,7 @@
 				<text>At 20th level, there is no limit to the number of times you may rage.</text>
 			</feature>
 		</autolevel>
-        <!-- Tasha's Variants -->
+    <!-- Tasha's Variants -->
         <autolevel level="3" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Primal Knowledge</name>

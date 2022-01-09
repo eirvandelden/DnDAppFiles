@@ -9,6 +9,7 @@
 		<weapons>simple weapons</weapons>
 		<tools>none</tools>
 		<wealth>4d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Charisma</spellAbility>
 		<autolevel level="1">
 			<slots>2,1,0,0,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>4,0,0,0,0,4,0,0,0,0</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -234,7 +236,7 @@
 				<text>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</text>
 			</feature>
 		</autolevel>
-		<!-- Repeated Eldritch Invocation -->
+	<!-- Repeated Eldritch Invocation -->
 		<autolevel level="2" IL="IL">
 			<feature optional="YES">
 				<name>Eldritch Invocation: Agonizing Blast</name>
@@ -1741,7 +1743,7 @@
 				<text>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</text>
 			</feature>
 		</autolevel>
-		<!-- Unearthed Arcana Eldritch Invocations-->
+	<!-- Unearthed Arcana Eldritch Invocations-->
 		<autolevel level="2" IL="IL">
 			<feature UA="Revised Class Options" optional="YES">
 				<name>Eldritch Invocation: Frost Lance (UA)</name>
@@ -1762,7 +1764,7 @@
 				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
 			</feature>
 		</autolevel>
-		<!-- Eldritch Invocations from Warlock & Wizard not repeated/replaced in Revised Class Options-->
+	<!-- Eldritch Invocations from Warlock & Wizard not repeated/replaced in Revised Class Options-->
 		<autolevel level="2" IL="IL">
 			<feature UA="Warlock &amp; Wizard" optional="YES">
 				<name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
@@ -1838,7 +1840,7 @@
 				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
 			</feature>
 		</autolevel>
-        <!--Tasha's Variants-->
+    <!--Tasha's Variants-->
         <autolevel level="3" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Pact Boon: Pact of the Talisman</name>
@@ -1914,7 +1916,7 @@
             </feature>
         </autolevel>
 	</baseclass>
-	<!-- PHB/Official Eldritch Invocations as Spells -->
+<!-- PHB/Official Eldritch Invocations as Spells -->
 	<spell PS="PS">
 		<name>Eldritch Invocation: Agonizing Blast</name>
 		<classes>Warlock Eldritch Invocation</classes>
@@ -2269,7 +2271,7 @@
 		<text/>
 		<text>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</text>
 	</spell>
-	<!-- Unearthed Arcana Eldritch Invocations as Spells -->
+<!-- Unearthed Arcana Eldritch Invocations as Spells -->
 	<spell PS="PS" UA="Warlock &amp; Wizard">
 		<name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
 		<classes>Warlock Eldritch Invocation</classes>
