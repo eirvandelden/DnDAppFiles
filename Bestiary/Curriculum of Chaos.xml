@@ -28,7 +28,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The archaic casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 22):</text>
-
+            <text>At will: detect magic, divination, sending</text>
+            <text>1/day each: banishment, forcecage</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Detect Magic,Divination,Sending,Banishment,Forcecage</spells>
@@ -50,7 +51,7 @@
         </action>
         <action>
             <name>Force Strike</name>
-            <text>ms,rs +14 to hit, reach 15 ft. or range 120 ft., one target. Hit: 19 (2d10 + 8) force damage, and the target is pulled up to 10 feet toward the archaic or pushed 10 feet away from it, as the archaic chooses.</text>
+            <text>Melee or Ranged Spell +14 to hit, reach 15 ft. or range 120 ft., one target. Hit: 19 (2d10 + 8) force damage, and the target is pulled up to 10 feet toward the archaic or pushed 10 feet away from it, as the archaic chooses.</text>
             <attack>Force Strike|14|2d10+8</attack>
         </action>
         <action>
@@ -151,7 +152,7 @@
         <trait>
             <name>Spellcasting</name>
             <text>Beledros casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
-
+            <text>1/day each: greater restoration, mass cure wounds, plant growth, revivify, speak with dead</text>
         </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Greater Restoration,Mass Cure Wounds,Plant Growth,Revivify,Speak with Dead</spells>
@@ -264,7 +265,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The archivist casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:</text>
-
+            <text>At will: dancing lights, prestidigitation</text>
+            <text>2/day: silence</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dancing Lights,Prestidigitation,Silence</spells>
@@ -318,7 +320,7 @@
         </action>
         <action>
             <name>Agonizing Burst</name>
-            <text>ms,rs +9 to hit, reach 10 ft. or range 120 ft., one target. Hit: 11 (2d10) force damage. If the target is a creature, the daemogoth regains 5 hit points.</text>
+            <text>Melee or Ranged Spell +9 to hit, reach 10 ft. or range 120 ft., one target. Hit: 11 (2d10) force damage. If the target is a creature, the daemogoth regains 5 hit points.</text>
             <attack>Agonizing Burst|9|2d10</attack>
         </action>
         <action>
@@ -367,7 +369,7 @@
         </action>
         <action>
             <name>Agonizing Burst</name>
-            <text>ms,rs +12 to hit, reach 15 ft. or range 120 ft., one target. Hit: 17 (3d6 + 7) force damage. If the target is a creature, the titan regains 5 hit points.</text>
+            <text>Melee or Ranged Spell +12 to hit, reach 15 ft. or range 120 ft., one target. Hit: 17 (3d6 + 7) force damage. If the target is a creature, the titan regains 5 hit points.</text>
             <attack>Agonizing Burst|12|3d6+7</attack>
         </action>
         <action>
@@ -417,7 +419,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The student casts one of the following spells, using Intelligence as the spellcasting ability (spell save 11):</text>
-
+            <text>At will: mage hand, prestidigitation</text>
+            <text>1/day: detect magic</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Mage Hand,Prestidigitation,Detect Magic</spells>
@@ -427,7 +430,7 @@
         </trait>
         <action>
             <name>Magic Flare</name>
-            <text>ms,rs +3 to hit, reach 5 ft. or range 60 ft., one target. Hit: 7 (1d12 + 1) force damage.</text>
+            <text>Melee or Ranged Spell +3 to hit, reach 5 ft. or range 60 ft., one target. Hit: 7 (1d12 + 1) force damage.</text>
             <attack>Magic Flare|3|1d12+1</attack>
         </action>
         <reaction>
@@ -498,7 +501,7 @@
         <trait>
             <name>Spellcasting</name>
             <text>Galazeth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 23):</text>
-
+            <text>1/day each: control water, gust of wind, wall of stone</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Control Water,Gust of Wind,Wall of Stone</spells>
@@ -656,7 +659,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The apprentice casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 12):</text>
-
+            <text>At will: guidance, light</text>
+            <text>1/day each: comprehend languages, locate object, mage armor</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Light,Comprehend Languages,Locate Object,Mage Armor</spells>
@@ -703,7 +707,9 @@
         <trait>
             <name>Spellcasting</name>
             <text>The pledgemage casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 13):</text>
-
+            <text>At will: guidance, light</text>
+            <text>2/day each: comprehend languages, locate object</text>
+            <text>1/day each: mage armor, speak with dead, stone shape</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Light,Comprehend Languages,Locate Object,Mage Armor,Speak with Dead,Stone Shape</spells>
@@ -754,7 +760,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:</text>
-
+            <text>At will: comprehend languages, dancing lights, guidance</text>
+            <text>2/day each: locate object, mage armor, passwall</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Comprehend Languages,Dancing Lights,Guidance,Locate Object,Mage Armor,Passwall</spells>
@@ -805,7 +812,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 15):</text>
-
+            <text>At will: comprehend languages, guidance, light</text>
+            <text>2/day each: dimension door, locate object, mage armor, stone shape</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Comprehend Languages,Guidance,Light,Dimension Door,Locate Object,Mage Armor,Stone Shape</spells>
@@ -968,7 +976,9 @@
         <trait>
             <name>Spellcasting</name>
             <text>The Oracle casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 18):</text>
-
+            <text>At will: detect magic</text>
+            <text>2/day each: dispel magic, mage armor, remove curse, sending</text>
+            <text>1/day each: power word stun, scrying (as an action), wall of force</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Detect Magic,Dispel Magic,Mage Armor,Remove Curse,Sending,Power Word Stun,Scrying,Wall of Force</spells>
@@ -982,7 +992,7 @@
         </action>
         <action>
             <name>Magic Flare</name>
-            <text>ms,rs +10 to hit, reach 5 ft. or range 60 ft., one target. Hit: 24 (3d12 + 5) force damage.</text>
+            <text>Melee or Ranged Spell +10 to hit, reach 5 ft. or range 60 ft., one target. Hit: 24 (3d12 + 5) force damage.</text>
             <attack>Magic Flare|10|3d12+5</attack>
         </action>
         <action>
@@ -1088,7 +1098,9 @@
         <trait>
             <name>Spellcasting</name>
             <text>The recruiter casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 14):</text>
-
+            <text>At will: disguise self, silent image</text>
+            <text>2/day: charm person</text>
+            <text>1/day: suggestion</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Disguise Self,Silent Image,Suggestion,Charm Person</spells>
@@ -1106,7 +1118,7 @@
         </action>
         <action>
             <name>Psychic Knife</name>
-            <text>ms,rs +6 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 21 (5d6 + 4) psychic damage.</text>
+            <text>Melee or Ranged Spell +6 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 21 (5d6 + 4) psychic damage.</text>
             <attack>Psychic Knife|6|5d6+4</attack>
         </action>
     </monster>
@@ -1177,13 +1189,14 @@
         <trait>
             <name>Spellcasting</name>
             <text>The apprentice casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 12):</text>
-
+            <text>At will: minor illusion</text>
+            <text>1/day each: gust of wind, mage armor, silent image</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Minor Illusion,Gust of Wind,Mage Armor,Silent Image</spells>
         <action>
             <name>Elemental Strike</name>
-            <text>ms,rs +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 10 (3d6) fire or cold damage (the apprentice's choice).</text>
+            <text>Melee or Ranged Spell +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 10 (3d6) fire or cold damage (the apprentice's choice).</text>
             <attack>Elemental Strike|4|3d6</attack>
         </action>
     </monster>
@@ -1215,7 +1228,9 @@
         <trait>
             <name>Spellcasting</name>
             <text>The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 13):</text>
-
+            <text>At will: minor illusion</text>
+            <text>2/day each: gust of wind, silent image</text>
+            <text>1/day each: mage armor, water walk</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Minor Illusion,Gust of Wind,Silent Image,Mage Armor,Water Walk</spells>
@@ -1229,7 +1244,7 @@
         </action>
         <action>
             <name>Elemental Strike</name>
-            <text>ms,rs +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 12 (3d6 + 2) fire or cold damage (the pledgemage's choice).</text>
+            <text>Melee or Ranged Spell +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 12 (3d6 + 2) fire or cold damage (the pledgemage's choice).</text>
             <attack>Elemental Strike|5|3d6+2</attack>
         </action>
         <action>
@@ -1266,7 +1281,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
-
+            <text>At will: minor illusion</text>
+            <text>2/day each: fog cloud, gust of wind, mage armor</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Minor Illusion,Fog Cloud,Gust of Wind,Mage Armor</spells>
@@ -1313,7 +1329,9 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
-
+            <text>At will: minor illusion</text>
+            <text>2/day each: control water, create or destroy water, mage armor, stone shape</text>
+            <text>1/day: wall of ice</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Minor Illusion,Wall of Ice,Control Water,Create or Destroy Water,Mage Armor,Stone Shape</spells>
@@ -1327,7 +1345,7 @@
         </action>
         <action>
             <name>Tidal Strike</name>
-            <text>ms,rs +7 to hit, reach 5 ft. or range 60 ft., one target. Hit: 13 (2d8 + 4) cold damage.</text>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 60 ft., one target. Hit: 13 (2d8 + 4) cold damage.</text>
             <attack>Tidal Strike|7|2d8+4</attack>
         </action>
     </monster>
@@ -1359,7 +1377,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The apprentice casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 12):</text>
-
+            <text>At will: guidance, mage hand</text>
+            <text>1/day each: enlarge/reduce, mage armor</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Mage Hand,Enlarge/Reduce,Mage Armor</spells>
@@ -1369,7 +1388,7 @@
         </action>
         <action>
             <name>Exponential Lash</name>
-            <text>ms,rs +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d6 + 2) force damage, and the apprentice can cause one creature it can see within 30 feet of the target to take 9 (2d6 + 2) force damage.</text>
+            <text>Melee or Ranged Spell +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d6 + 2) force damage, and the apprentice can cause one creature it can see within 30 feet of the target to take 9 (2d6 + 2) force damage.</text>
             <attack>Exponential Lash|4|1d6+2+2d6+2</attack>
         </action>
     </monster>
@@ -1401,7 +1420,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The pledgemage casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 13):</text>
-
+            <text>At will: guidance, mage hand</text>
+            <text>1/day each: dimension door, enlarge/reduce, mage armor, plant growth</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Mage Hand,Dimension Door,Enlarge/Reduce,Mage Armor,Plant Growth</spells>
@@ -1411,7 +1431,7 @@
         </action>
         <action>
             <name>Exponential Lash</name>
-            <text>ms,rs +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 6 (1d6 + 3) force damage, and the pledgemage can cause one creature it can see within 30 feet of the target to take 10 (2d6 + 3) force damage.</text>
+            <text>Melee or Ranged Spell +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 6 (1d6 + 3) force damage, and the pledgemage can cause one creature it can see within 30 feet of the target to take 10 (2d6 + 3) force damage.</text>
             <attack>Exponential Lash|5|1d6+3+2d6+3</attack>
         </action>
     </monster>
@@ -1443,7 +1463,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 15):</text>
-
+            <text>At will: guidance, mage hand, mending (as an action)</text>
+            <text>1/day each: creation (as an action), dimension door, mage armor, plant growth, polymorph</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Mage Hand,Mending,Creation,Dimension Door,Mage Armor,Plant Growth,Polymorph</spells>
@@ -1453,7 +1474,7 @@
         </action>
         <action>
             <name>Spatial Blade</name>
-            <text>ms,rs +7 to hit (the target can't benefit from cover less than total cover), reach 5 ft. or range 120 ft., one target. Hit: 13 (2d8 + 4) force damage, or 22 (4d8 + 4) force damage if the professor is Large or larger, and the professor can push the target horizontally up to 10 feet away.</text>
+            <text>Melee or Ranged Spell +7 to hit (the target can't benefit from cover less than total cover), reach 5 ft. or range 120 ft., one target. Hit: 13 (2d8 + 4) force damage, or 22 (4d8 + 4) force damage if the professor is Large or larger, and the professor can push the target horizontally up to 10 feet away.</text>
             <attack>Spatial Blade|7|2d8+4+4d8+4</attack>
         </action>
         <reaction>
@@ -1489,7 +1510,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 15):</text>
-
+            <text>At will: guidance, mage hand, minor illusion</text>
+            <text>1/day each: mage armor, major image, mirage arcane (as an action), Rary's telepathic bond</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Mage Hand,Minor Illusion,Mage Armor,Major Image,Mirage Arcane,Rary's Telepathic Bond</spells>
@@ -1499,7 +1521,7 @@
         </action>
         <action>
             <name>Heuristic Lance</name>
-            <text>ms,rs +7 to hit, reach 5 ft. or range 60 ft., one creature. Hit: 13 (2d8 + 4) psychic damage, and the target is poisoned until the end of its next turn.</text>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 60 ft., one creature. Hit: 13 (2d8 + 4) psychic damage, and the target is poisoned until the end of its next turn.</text>
             <attack>Heuristic Lance|7|2d8+4</attack>
         </action>
         <action>
@@ -1652,7 +1674,7 @@
         <trait>
             <name>Spellcasting</name>
             <text>Shadrix casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 23):</text>
-
+            <text>1/day each: darkness, daylight, hypnotic pattern, sending, suggestion</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Darkness,Daylight,Hypnotic Pattern,Sending,Suggestion</spells>
@@ -1722,13 +1744,14 @@
         <trait>
             <name>Spellcasting</name>
             <text>The apprentice casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 12):</text>
-
+            <text>At will: dancing lights, friends</text>
+            <text>1/day each: command, mage armor</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Friends,Command,Mage Armor</spells>
         <action>
             <name>Ink Blade</name>
-            <text>ms,rs +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 9 (2d8) psychic damage.</text>
+            <text>Melee or Ranged Spell +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 9 (2d8) psychic damage.</text>
             <attack>Ink Blade|4|1d6+2+2d8</attack>
         </action>
         <reaction>
@@ -1764,13 +1787,14 @@
         <trait>
             <name>Spellcasting</name>
             <text>The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 13):</text>
-
+            <text>At will: dancing lights, friends</text>
+            <text>1/day each: command, confusion, mage armor, tongues</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Friends,Command,Confusion,Mage Armor,Tongues</spells>
         <action>
             <name>Ink Blade</name>
-            <text>ms,rs +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d8 + 3) piercing damage plus 10 (3d6) psychic damage.</text>
+            <text>Melee or Ranged Spell +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d8 + 3) piercing damage plus 10 (3d6) psychic damage.</text>
             <attack>Ink Blade|5|1d8+3+3d6</attack>
         </action>
         <reaction>
@@ -1806,7 +1830,9 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
-
+            <text>At will: dancing lights, friends</text>
+            <text>2/day each: bless, command, cure wounds, daylight, mage armor</text>
+            <text>1/day each: hypnotic pattern, tongues</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Friends,Bless,Command,Cure Wounds,Daylight,Mage Armor,Hypnotic Pattern,Tongues</spells>
@@ -1816,7 +1842,7 @@
         </action>
         <action>
             <name>Radiant Strike</name>
-            <text>ms,rs +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) radiant damage. If the target is a creature, it must succeed on a 15 Constitution saving throw be blinded until the end of its next turn.</text>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) radiant damage. If the target is a creature, it must succeed on a 15 Constitution saving throw be blinded until the end of its next turn.</text>
             <attack>Radiant Strike|7|3d8+4</attack>
         </action>
     </monster>
@@ -1848,7 +1874,9 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save 15):</text>
-
+            <text>At will: dancing lights, friends</text>
+            <text>2/day each: bane, command, darkness, mage armor</text>
+            <text>1/day: tongues</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Friends,Bane,Command,Darkness,Mage Armor,Tongues</spells>
@@ -1862,7 +1890,7 @@
         </action>
         <action>
             <name>Ink Lance</name>
-            <text>ms,rs +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage. If the target is a creature, it must succeed on a 15 Constitution saving throw be blinded until the end of its next turn.</text>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage. If the target is a creature, it must succeed on a 15 Constitution saving throw be blinded until the end of its next turn.</text>
             <attack>Ink Lance|7|3d8+4</attack>
         </action>
     </monster>
@@ -1986,7 +2014,7 @@
         <trait>
             <name>Spellcasting</name>
             <text>Tanazir casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save 24):</text>
-
+            <text>1/day each: divination, enlarge/reduce, mirage arcane (as an action), polymorph, scrying (as an action), seeming</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Divination,Enlarge/Reduce,Mirage Arcane,Polymorph,Scrying,Seeming</spells>
@@ -2060,7 +2088,7 @@
         <trait>
             <name>Spellcasting</name>
             <text>Velomachus casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:</text>
-
+            <text>1/day each: contact other plane (as an action, contacting a long-dead spirit), divination, move earth, wall of force</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Contact Other Plane,Divination,Move Earth,Wall of Force</spells>
@@ -2130,7 +2158,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The apprentice casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
-
+            <text>At will: druidcraft, spare the dying</text>
+            <text>1/day: pass without trace</text>
         </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Druidcraft,Spare the Dying,Pass without Trace</spells>
@@ -2181,7 +2210,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The apprentice casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
-
+            <text>At will: druidcraft, spare the dying</text>
+            <text>1/day each: death ward, pass without trace, speak with plants</text>
         </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Druidcraft,Spare the Dying,Death Ward,Pass without Trace,Speak with Plants</spells>
@@ -2232,7 +2262,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save 15):</text>
-
+            <text>At will: druidcraft, spare the dying</text>
+            <text>1/day each: antilife shell, bane, feign death, speak with dead</text>
         </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Druidcraft,Spare the Dying,Antilife Shell,Bane,Feign Death,Speak with Dead</spells>
@@ -2246,7 +2277,7 @@
         </action>
         <action>
             <name>Mortality Spear</name>
-            <text>ms,rs +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage, and the target can't regain hit points until the start of the professor's next turn.</text>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage, and the target can't regain hit points until the start of the professor's next turn.</text>
             <attack>Mortality Spear|7|3d8+4</attack>
         </action>
         <action>
@@ -2283,7 +2314,8 @@
         <trait>
             <name>Spellcasting</name>
             <text>The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
-
+            <text>At will: druidcraft, spare the dying</text>
+            <text>1/day each: greater restoration, lesser restoration, mass cure wounds, pass without trace, plant growth, revivify</text>
         </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Druidcraft,Spare the Dying,Greater Restoration,Lesser Restoration,Mass Cure Wounds,Pass without Trace,Plant Growth,Revivify</spells>
