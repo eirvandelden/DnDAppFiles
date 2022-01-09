@@ -183,50 +183,15 @@
 				<name>Metamagic: Twinned Spell</name>
 				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Metamagic: Seeking Spell</name>
-                <text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</text>
-                <text>You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
-            <feature optional="YES">
-                <name>Variant Feature: Metamagic: Transmuted Spell</name>
-                <text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="4" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Sorcerous Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
-                <text>	Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
-                <text>	Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="5">
-            <feature optional="YES">
-                <name>Variant Feature: Magical Guidance</name>
-                <text>You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="6">
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="8" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Sorcerous Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
-                <text>	Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
-                <text>	Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="10" IL="IL">
 			<feature>
@@ -269,27 +234,11 @@
 			</feature>
 		</autolevel>
 		<autolevel level="12" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Sorcerous Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
-                <text>	Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
-                <text>	Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="14">
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="16" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Sorcerous Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
-                <text>	Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
-                <text>	Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -337,6 +286,30 @@
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="19" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Sorcerous Restoration</name>
+				<text>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</text>
+			</feature>
+		</autolevel>
+        <!--Tasha's Variants-->
+        <autolevel level="3" source="TCE" IL="IL">
+            <feature optional="YES">
+                <name>Variant Feature: Metamagic: Seeking Spell</name>
+                <text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</text>
+                <text>You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Metamagic: Transmuted Spell</name>
+                <text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="4" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Sorcerous Versatility</name>
                 <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
@@ -345,13 +318,85 @@
                 <text></text>
                 <text>Source: Tasha's Cauldron of Everything</text>
             </feature>
-		</autolevel>
-		<autolevel level="20">
-			<feature>
-				<name>Sorcerous Restoration</name>
-				<text>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</text>
-			</feature>
-		</autolevel>
+        </autolevel>
+        <autolevel level="5" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Magical Guidance</name>
+                <text>You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="8" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Sorcerous Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
+                <text>	Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+                <text>	Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="10" source="TCE" IL="IL">
+            <feature optional="YES">
+                <name>Variant Feature: Metamagic: Seeking Spell</name>
+                <text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</text>
+                <text>You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Metamagic: Transmuted Spell</name>
+                <text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="12" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Sorcerous Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
+                <text>	Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+                <text>	Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="16" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Sorcerous Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
+                <text>	Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+                <text>	Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="17" source="TCE" IL="IL">
+            <feature optional="YES">
+                <name>Variant Feature: Metamagic: Seeking Spell</name>
+                <text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</text>
+                <text>You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Metamagic: Transmuted Spell</name>
+                <text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="19" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Sorcerous Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</text>
+                <text>	Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.</text>
+                <text>	Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 	<spell PS="PS">
 		<name>Metamagic: Careful Spell</name>
@@ -403,4 +448,21 @@
 		<level>1</level>
 		<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 	</spell>
+    <spell PS="PS" source="TCE">
+        <name>Metamagic: Seeking Spell</name>
+        <classes>Sorcerer Metamagic</classes>
+        <level>1</level>
+        <text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.</text>
+        <text>You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+        <text></text>
+        <text>Source: Tasha's Cauldron of Everything</text>
+    </spell>
+    <spell PS="PS" source="TCE">
+        <name>Metamagic: Transmuted Spell</name>
+        <classes>Sorcerer Metamagic</classes>
+        <level>1</level>
+        <text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.</text>
+        <text></text>
+        <text>Source: Tasha's Cauldron of Everything</text>
+    </spell>
 </compendium>

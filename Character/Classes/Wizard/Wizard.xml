@@ -147,14 +147,6 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="3">
-            <feature optional="YES">
-                <name>Variant Feature: Cantrip Formulas</name>
-                <text>You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
-		</autolevel>
 		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="6">
@@ -188,5 +180,14 @@
 				<text>	If you want to cast either spell at a higher level, you must expend a spell slot as normal.</text>
 			</feature>
 		</autolevel>
+        <!--Tasha's Variants-->
+        <autolevel level="3" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Formulas</name>
+                <text>You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>

@@ -145,54 +145,23 @@
 				<text>At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
 			</feature>
 			<!-- Archetype features -->
-            <feature optional="YES">
-                <name>Variant Feature: Wild Companion</name>
-                <text>You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.</text>
-                <text>When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="4" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Cantrip Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="6">
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="8" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Cantrip Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="10">
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="12" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Cantrip Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="14">
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="16" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Cantrip Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="18">
 			<feature>
@@ -205,12 +174,6 @@
 			</feature>
 		</autolevel>
 		<autolevel level="19" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Cantrip Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="20">
 			<feature>
@@ -243,5 +206,55 @@
 				<text>This optional rule is from Unearthed Arcana: Druid Circles and Wild Shape, and as such may not be used in your game. Consult your DM about this rule.</text>
 			</feature>
 		</autolevel>
+        <!--Tasha's Variants-->
+        <autolevel level="2" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Wild Companion</name>
+                <text>You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.</text>
+                <text>When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="4" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="8" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="12" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="16" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="19" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>

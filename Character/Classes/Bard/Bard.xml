@@ -140,12 +140,6 @@
 				<text>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra 1d6 hit points.</text>
 				<text>	The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Magical Inspiration</name>
-                <text>If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="3">
 			<feature>
@@ -160,14 +154,6 @@
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="4" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Bardic Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
-                <text>    Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</text>
-                <text>    Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -187,14 +173,6 @@
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="8" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Bardic Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
-                <text>    Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</text>
-                <text>    Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="9">
 			<feature>
@@ -219,14 +197,6 @@
 			</feature>
 		</autolevel>
 		<autolevel level="12" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Bardic Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
-                <text>    Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</text>
-                <text>    Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="13">
 			<feature>
@@ -249,14 +219,6 @@
 			</feature>
 		</autolevel>
 		<autolevel level="16" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Bardic Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
-                <text>    Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</text>
-                <text>    Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -272,6 +234,23 @@
 			</feature>
 		</autolevel>
 		<autolevel level="19" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Superior Inspiration</name>
+				<text>At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.</text>
+			</feature>
+		</autolevel>
+        <!--Tasha's Variants-->
+        <autolevel level="2" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Magical Inspiration</name>
+                <text>If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="4" source="TCE">
             <feature optional="YES">
                 <name>Variant Feature: Bardic Versatility</name>
                 <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
@@ -280,13 +259,46 @@
                 <text></text>
                 <text>Source: Tasha's Cauldron of Everything</text>
             </feature>
-		</autolevel>
-		<autolevel level="20">
-			<feature>
-				<name>Superior Inspiration</name>
-				<text>At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.</text>
-			</feature>
-		</autolevel>
-		<!--Unearthed Arcana-->
+        </autolevel>
+        <autolevel level="8" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Bardic Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
+                <text>    Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</text>
+                <text>    Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="12" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Bardic Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
+                <text>    Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</text>
+                <text>    Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="16" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Bardic Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
+                <text>    Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</text>
+                <text>    Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="19" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Bardic Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</text>
+                <text>    Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</text>
+                <text>    Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>

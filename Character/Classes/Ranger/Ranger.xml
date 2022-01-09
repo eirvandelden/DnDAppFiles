@@ -114,26 +114,6 @@
 				<text/>
 				<text>	You choose additional favored terrain types at 6th and 10th level.</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Favored Foe</name>
-                <text>Replaces the Favored Enemy feature and works with the Foe Slayer feature</text>
-                <text>When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).</text>
-                <text>The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by 1d4.</text>
-                <text>You can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
-                <text>This feature's extra damage increases when you reach certain levels in this class: to 1d6 at 6th level and to 1d8 at 14th level.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
-            <feature optional="YES">
-                <name>Variant Feature: Deft Explorer: Canny</name>
-                <text>Replaces the Natural Explorer feature</text>
-                <text>You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.</text>
-                <text></text>
-                <text>Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.</text>
-                <text>You can also speak, read, and write two additional languages of your choice.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="2">
 			<feature>
@@ -174,31 +154,6 @@
 				<name>Fighting Style: Two-Weapon Fighting</name>
 				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Blind Fighting</name>
-                <text>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
-            <feature optional="YES">
-                <name>Variant Feature: Druidic Warrior</name>
-                <text>You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
-            <feature optional="YES">
-                <name>Variant Feature: Thrown Weapon Fighting</name>
-                <text>You can draw a weapon that has the thrown property as part of the attack you make with the weapon.</text>
-                <text>In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
-            <feature optional="YES">
-                <name>Variant Feature: Spellcasting Focus</name>
-                <text>You can use a druidic focus as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="3">
 			<feature>
@@ -209,31 +164,9 @@
 				<name>Primeval Awareness</name>
 				<text>Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Primal Awareness</name>
-                <text>Replaces the Primeval Awareness feature</text>
-                <text>You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.</text>
-                <text></text>
-                <text>Primal Awareness Spells</text>
-                <text>Ranger Level    Spell</text>
-                <text>3rd             speak with animals</text>
-                <text>5th             beast sense</text>
-                <text>9th             speak with plants</text>
-                <text>13th            locate creature</text>
-                <text>17th            commune with nature</text>
-                <text>You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="4" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Martial Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -250,24 +183,11 @@
 				<name>Additional Favored Enemy</name>
 				<text>You choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures.</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Deft Explorer: Roving</name>
-                <text>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</text>
-                <text></text>
-                <modifier category="bonus">speed +5</modifier>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="7">
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="8" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Martial Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 			<feature>
 				<name>Land's Stride</name>
 				<text>Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</text>
@@ -284,32 +204,11 @@
 				<name>Additional Favored Terrains</name>
 				<text>You gain an additional favored terrain.</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Nature's Veil</name>
-                <text>Replaces the Hide in Plain Sight feature</text>
-                <text>You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.</text>
-                <text>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
-            <feature optional="YES">
-                <name>Variant Feature: Deft Explorer: Tireless</name>
-                <text>As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
-                <text>In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="11">
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="12" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Martial Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="14">
 			<feature>
@@ -325,12 +224,6 @@
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="16" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Martial Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="18">
 			<feature>
@@ -339,12 +232,6 @@
 			</feature>
 		</autolevel>
 		<autolevel level="19" scoreImprovement="YES">
-            <feature optional="YES">
-                <name>Variant Feature: Martial Versatility</name>
-                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="20">
 			<feature>
@@ -371,5 +258,141 @@
 				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
 			</feature>
 		</autolevel>
+        <!--Tasha's Variants-->
+        <autolevel level="1" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Favored Foe</name>
+                <text>Replaces the Favored Enemy feature and works with the Foe Slayer feature</text>
+                <text>When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).</text>
+                <text>The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by 1d4.</text>
+                <text>You can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
+                <text>This feature's extra damage increases when you reach certain levels in this class: to 1d6 at 6th level and to 1d8 at 14th level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Deft Explorer: Canny</name>
+                <text>Replaces the Natural Explorer feature</text>
+                <text>You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.</text>
+                <text></text>
+                <text>Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.</text>
+                <text>You can also speak, read, and write two additional languages of your choice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="2" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Fighting Style: Blind Fighting</name>
+                <text>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Fighting Style: Druidic Warrior</name>
+                <text>You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Fighting Style: Thrown Weapon Fighting</name>
+                <text>You can draw a weapon that has the thrown property as part of the attack you make with the weapon.</text>
+                <text>In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+            <feature optional="YES">
+                <name>Variant Feature: Spellcasting Focus</name>
+                <text>You can use a druidic focus as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="3" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Primal Awareness</name>
+                <text>Replaces the Primeval Awareness feature</text>
+                <text>You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.</text>
+                <text></text>
+                <text>Primal Awareness Spells</text>
+                <text>Ranger Level    Spell</text>
+                <text>3rd             speak with animals</text>
+                <text>5th             beast sense</text>
+                <text>9th             speak with plants</text>
+                <text>13th            locate creature</text>
+                <text>17th            commune with nature</text>
+                <text>You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="4" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="6" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Deft Explorer: Roving</name>
+                <text>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</text>
+                <text></text>
+                <modifier category="bonus">speed +5</modifier>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="8" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="10" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Nature's Veil</name>
+                <text>Replaces the Hide in Plain Sight feature</text>
+                <text>You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.</text>
+                <text>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="10" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Deft Explorer: Tireless</name>
+                <text>As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
+                <text>In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="12" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="16" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="19" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Martial Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>

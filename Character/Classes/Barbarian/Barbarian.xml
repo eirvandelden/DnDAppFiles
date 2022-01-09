@@ -68,12 +68,6 @@
 				<name>Primal Path</name>
 				<text>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Berserker or the Path of the Totem Warrior, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Primal Knowledge</name>
-                <text>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="4" scoreImprovement="YES">
@@ -102,12 +96,6 @@
 				<text>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</text>
 				<text>	Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
 			</feature>
-            <feature optional="YES">
-                <name>Variant Feature: Instinctive Pounce</name>
-                <text>As part of the bonus action you take to enter your rage, you can move up to half your speed.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 		</autolevel>
 		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
@@ -123,12 +111,6 @@
 			</feature>
 		</autolevel>
 		<autolevel level="10">
-            <feature optional="YES">
-                <name>Variant Feature: Primal Knowledge</name>
-                <text>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</text>
-                <text></text>
-                <text>Source: Tasha's Cauldron of Everything</text>
-            </feature>
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="11">
@@ -195,5 +177,30 @@
 				<text>At 20th level, there is no limit to the number of times you may rage.</text>
 			</feature>
 		</autolevel>
+        <!-- Tasha's Variants -->
+        <autolevel level="3" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Primal Knowledge</name>
+                <text>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="7" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Instinctive Pounce</name>
+                <text>As part of the bonus action you take to enter your rage, you can move up to half your speed.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="10" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Primal Knowledge</name>
+                <text>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>
