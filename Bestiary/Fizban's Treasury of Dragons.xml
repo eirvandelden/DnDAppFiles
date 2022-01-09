@@ -39,6 +39,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -58,6 +59,7 @@
             <name>Singularity Breath (Recharge 5-6)</name>
             <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 90-foot cone. Each creature in that area must make a 20 Strength saving throw. On a failed save, the creature takes 45 (10d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
             <attack>Singularity Breath||10d8</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -109,6 +111,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -128,6 +131,7 @@
             <name>Scintillating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a burst of brilliant radiance in a 60-foot cone. Each creature in that area must make a 17 Constitution saving throw, taking 40 (9d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 15 temporary hit points by absorbing a portion of the radiant energy.</text>
             <attack>Scintillating Breath||9d8</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -171,6 +175,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -199,6 +204,7 @@
             <name>Nightmare Breath (Recharge 5-6)</name>
             <text>The dragon exhales a cloud of spores in a 60-foot cone. Each creature in that area must make a 16 Wisdom saving throw. On a failed save, the creature takes 33 (6d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Nightmare Breath||6d10</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Commanding Spores</name>
@@ -251,10 +257,12 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Shift Perception (1/Day)</name>
             <text>The dragon can cast hallucinatory terrain, requiring no spell components and using Intelligence as the spellcasting ability (spell save 17).</text>
+            <recharge>1/Day</recharge>
         </trait>
         <trait>
             <name>Tunneler</name>
@@ -278,6 +286,7 @@
             <name>Disorienting Breath (Recharge 5-6)</name>
             <text>The dragon exhales a wave of psychic dissonance in a 60-foot cone. Each creature in that area must make a 18 Intelligence saving throw. On a failed save, the creature takes 42 (12d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d6 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
             <attack>Disorienting Breath||12d6</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -329,6 +338,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -354,6 +364,7 @@
             <text>The dragon uses one of the following breath weapons:</text>
             <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC 18 Dexterity saving throw, taking 49 (9d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Tail</name>
@@ -399,6 +410,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Spider Climb</name>
@@ -426,6 +438,7 @@
             <name>Debilitating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 60-foot cone. Each creature in that area must make a 19 Constitution saving throw. On a failed save, the creature takes 44 (8d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
             <attack>Debilitating Breath||8d10</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -480,10 +493,12 @@
         <trait>
             <name>Fabricate (1/Day)</name>
             <text>The dragon can cast fabricate, requiring no spell components and using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -503,6 +518,7 @@
             <name>Desiccating Breath (Recharge 5-6)</name>
             <text>The dragon exhales yellowish necrotic energy in a 60-foot cone. Each creature in that area must make a 17 Constitution saving throw. On a failed save, the creature takes 35 (10d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
             <attack>Desiccating Breath||10d6</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -563,6 +579,7 @@
             <name>Singularity Breath (Recharge 5-6)</name>
             <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 15-foot cone. Each creature in that area must make a 13 Strength saving throw. On a failed save, the creature takes 22 (5d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
             <attack>Singularity Breath||5d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -600,10 +617,12 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -627,6 +646,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
             <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
@@ -687,6 +707,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -706,6 +727,7 @@
             <name>Singularity Breath (Recharge 5-6)</name>
             <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 90-foot cone. Each creature in that area must make a 23 Strength saving throw. On a failed save, the creature takes 63 (14d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
             <attack>Singularity Breath||14d8</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -757,6 +779,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -776,6 +799,7 @@
             <name>Scintillating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a burst of brilliant radiance in a 90-foot cone. Each creature in that area must make a 22 Constitution saving throw, taking 49 (11d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 25 temporary hit points by absorbing a portion of the radiant energy.</text>
             <attack>Scintillating Breath||11d8</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -819,6 +843,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -847,6 +872,7 @@
             <name>Nightmare Breath (Recharge 5-6)</name>
             <text>The dragon exhales a cloud of spores in a 90-foot cone. Each creature in that area must make a 19 Wisdom saving throw. On a failed save, the creature takes 49 (9d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Nightmare Breath||9d10</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Commanding Spores</name>
@@ -895,10 +921,12 @@
         <trait>
             <name>Blessing of the Sea (Recharges after a Short or Long Rest)</name>
             <text>If the dragon turtle would be reduced to 0 hit points, its current hit point total instead resets to 350 hit points, and it recharges its Steam Breath. Additionally, the dragon turtle can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 62,000 XP (124,000 XP total) for defeating the dragon turtle after its Blessing of the Sea activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon turtle fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -927,6 +955,7 @@
             <name>Steam Breath (Recharge 5-6)</name>
             <text>The dragon turtle exhales steam in a 90-foot cone. Each creature in that area must make a 24 Constitution saving throw, taking 67 (15d8) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
             <attack>Steam Breath||15d8</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -978,6 +1007,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Tunneler</name>
@@ -986,6 +1016,7 @@
         <trait>
             <name>Warp Perception (1/Day)</name>
             <text>The dragon can cast mirage arcane, requiring no spell components and using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1005,6 +1036,7 @@
             <name>Disorienting Breath (Recharge 5-6)</name>
             <text>The dragon exhales a wave of psychic dissonance in a 90-foot cone. Each creature in that area must make a 22 Intelligence saving throw. On a failed save, the creature takes 56 (16d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d8 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
             <attack>Disorienting Breath||16d6</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -1056,6 +1088,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1081,6 +1114,7 @@
             <text>The dragon uses one of the following breath weapons:</text>
             <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 120-foot line that is 10 feet wide. Each creature in that area must make a DC 21 Dexterity saving throw, taking 60 (11d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Tail</name>
@@ -1126,6 +1160,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Spider Climb</name>
@@ -1153,6 +1188,7 @@
             <name>Debilitating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 90-foot cone. Each creature in that area must make a 23 Constitution saving throw. On a failed save, the creature takes 55 (10d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
             <attack>Debilitating Breath||10d10</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -1196,6 +1232,7 @@
         <trait>
             <name>Legendary Resistance (2/Day)</name>
             <text>If the sea serpent fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>2/Day</recharge>
         </trait>
         <trait>
             <name>Siege Monster</name>
@@ -1224,6 +1261,7 @@
             <name>Rime Breath (Recharge 5-6)</name>
             <text>The sea serpent exhales a 60-foot cone of cold. Each creature in that area must make a 18 Constitution saving throw, taking 49 (9d10) cold damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Rime Breath||9d10</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Tail</name>
@@ -1273,10 +1311,12 @@
         <trait>
             <name>Fabricate (1/Day)</name>
             <text>The dragon can cast fabricate, requiring no spell components and using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1296,6 +1336,7 @@
             <name>Desiccating Breath (Recharge 5-6)</name>
             <text>The dragon exhales yellowish necrotic energy in a 90-foot cone. Each creature in that area must make a 20 Constitution saving throw. On a failed save, the creature takes 49 (14d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
             <attack>Desiccating Breath||14d6</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -1386,10 +1427,12 @@
         <trait>
             <name>Platinum Brilliance (Recharges after a Short or Long Rest)</name>
             <text>If the aspect would be reduced to 0 hit points, his current hit point total instead resets to 500 hit points, he recharges his Breath Weapon, and he regains any expended uses of Legendary Resistance. Additionally, the aspect can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 155,000 XP (310,000 XP total) for defeating the aspect of Bahamut after his Platinum Brilliance activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (5/Day)</name>
             <text>If the aspect fails a saving throw, he can choose to succeed instead.</text>
+            <recharge>5/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1415,6 +1458,7 @@
             <text>The aspect uses one of the following breath weapons:</text>
             <text>• Exalting Breath. undefined</text>
             <text>• Platinum Breath. undefined</text>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -1453,10 +1497,12 @@
         <trait>
             <name>Chromatic Wrath (Recharges after a Short or Long Rest)</name>
             <text>If the aspect would be reduced to 0 hit points, her current hit point total instead resets to 500 hit points, she recharges her Chromatic Flames, and she regains any expended uses of Legendary Resistance. Additionally, the aspect can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 155,000 XP (310,000 XP total) for defeating the aspect of Tiamat after her Chromatic Wrath activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (5/Day)</name>
             <text>If the aspect fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>5/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1481,6 +1527,7 @@
             <name>Chromatic Flames (Recharge 5-6)</name>
             <text>The aspect exhales multicolored flames in a 300-foot cone. Each creature in that area must make a 27 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) damage of a type of the aspect's choosing: acid, cold, fire, lightning, or poison. On a successful save, the creature takes half as much damage.</text>
             <attack>Chromatic Flames||11d12</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -1519,10 +1566,12 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1551,6 +1600,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales a blast of energy in a 300-foot cone. Each creature in that area must make a 26 Dexterity saving throw. On a failed save, the creature takes 78 (12d12) acid damage. On a successful save, the creature takes half as much damage.</text>
             <attack>Breath Weapon||12d12</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -1595,10 +1645,12 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1627,6 +1679,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales a blast of energy in a 300-foot cone. Each creature in that area must make a 26 Dexterity saving throw. On a failed save, the creature takes 78 (12d12) lightning damage. On a successful save, the creature takes half as much damage.</text>
             <attack>Breath Weapon||12d12</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -1671,10 +1724,12 @@
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1704,6 +1759,7 @@
             <text>The greatwyrm uses one of the following breath weapons:</text>
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) fire damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Change Shape</name>
@@ -1747,10 +1803,12 @@
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1780,6 +1838,7 @@
             <text>The greatwyrm uses one of the following breath weapons:</text>
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) lightning damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Change Shape</name>
@@ -1823,10 +1882,12 @@
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1856,6 +1917,7 @@
             <text>The greatwyrm uses one of the following breath weapons:</text>
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) acid damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Change Shape</name>
@@ -1912,6 +1974,7 @@
             <name>Scintillating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a burst of brilliant radiance in a 15-foot cone. Each creature in that area must make a 12 Constitution saving throw, taking 18 (4d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 5 temporary hit points by absorbing a portion of the radiant energy.</text>
             <attack>Scintillating Breath||4d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -1949,10 +2012,12 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1976,6 +2041,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
             <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
@@ -2031,6 +2097,7 @@
             <name>Nightmare Breath (Recharge 5-6)</name>
             <text>The dragon exhales a cloud of spores in a 15-foot cone. Each creature in that area must make a 11 Wisdom saving throw. On a failed save, the creature takes 5 (1d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Nightmare Breath||1d10</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -2085,6 +2152,7 @@
             <name>Prismatic Breath (Recharge 4-6)</name>
             <text>The dracohydra's heads exhale a single breath of multicolored energy in a 60-foot cone. Each creature in that area must make a 17 Dexterity saving throw. On a failed save, the creature takes 33 (6d10) damage of a type chosen by the dracohydra: acid, cold, fire, lightning, or poison. On a successful save, the creature takes half as much damage.</text>
             <attack>Prismatic Breath||6d10</attack>
+            <recharge>D4</recharge>
         </action>
     </monster>
     <monster>
@@ -2331,10 +2399,12 @@
             <name>Noxious Breath (Recharge 5-6)</name>
             <text>The draconian exhales a 15-foot cone of noxious gas. Each creature in that area must make a 14 Constitution saving throw. On a failed save, the creature takes 21 (6d6) poison damage and gains 1 level of exhaustion. On a successful save, the creature takes half as much damage, doesn't gain exhaustion, and is immune to all draconians' Noxious Breath for 24 hours.</text>
             <attack>Noxious Breath||6d6</attack>
+            <recharge>D5</recharge>
         </action>
         <reaction>
             <name>Magic Shield (3/Day)</name>
             <text>When the draconian is hit by an attack roll, it can create an invisible barrier of magical force around itself, granting it a +5 bonus to its AC against that attack and potentially causing the attack to miss.</text>
+            <recharge>3/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -2380,6 +2450,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the shard fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Rejuvenation</name>
@@ -2411,6 +2482,7 @@
             <name>Psychic Crush (Recharge 5-6)</name>
             <text>The shard unleashes a pulse of psychic power. Each creature of the shard's choice in a 60-foot-radius sphere centered on it must make a 20 Intelligence saving throw. On a failed save, the creature takes 55 (10d10) psychic damage and is stunned until the end of its next turn. On a successful save, the creature takes half as much damage and isn't stunned.</text>
             <attack>Psychic Crush||10d10</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Rend</name>
@@ -2605,6 +2677,7 @@
         <reaction>
             <name>Disarming Words (3/Day)</name>
             <text>When a creature the speaker can see within 60 feet of it makes a damage roll, the speaker can roll a d6 and subtract the number rolled from that damage roll.</text>
+            <recharge>3/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -2645,6 +2718,7 @@
             <name>Steam Breath (Recharge 5-6)</name>
             <text>The dragon turtle exhales steam in a 15-foot cone. Each creature in that area must make a 12 Constitution saving throw, taking 17 (5d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
             <attack>Steam Breath||5d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -2693,6 +2767,7 @@
             <name>Slime Breath (Recharge 6)</name>
             <text>The ooze expels a spray of its gelatinous mass in a 30-foot cone. Each creature in that area must make a 14 Dexterity saving throw. On a failed save, the creature takes 22 (4d10) acid damage and is pulled up to 30 feet straight toward the ooze. On a successful save, the creature takes half as much damage and isn't pulled.</text>
             <attack>Slime Breath||4d10</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -2750,6 +2825,7 @@
             <name>Petrifying Breath (Recharge 5-6)</name>
             <text>The golem emits a 60-foot cone of petrifying gas from its mouth. Each creature in that area must succeed on a 15 Constitution saving throw or take 35 (10d6) poison damage and be restrained as it begins to turn to stone. The restrained target must repeat the saving throw at the end of its next turn. On a successful save, the effect ends on the target. On a failed save, the target is petrified.</text>
             <attack>Petrifying Breath||10d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -2780,6 +2856,7 @@
         <trait>
             <name>Legendary Resistance (1/Day)</name>
             <text>If the dragonborn fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -2793,11 +2870,13 @@
         <action>
             <name>Healing Touch (1/Day)</name>
             <text>The dragonborn touches another creature within 5 feet of it. The target magically regains 40 hit points. In addition, all diseases and poisons affecting the target are removed.</text>
+            <recharge>1/Day</recharge>
         </action>
         <action>
             <name>Radiant Breath (Recharge 6)</name>
             <text>The dragonborn exhales fiery radiance in a 30-foot cone. Each creature in that area must make a 15 Dexterity saving throw, taking 44 (8d10) radiant damage on a failed save, or half as much damage on a successful one. When the dragonborn uses this action, it can choose up to three creatures in the cone. These creatures take no damage from the radiance and instead regain 22 (4d10) hit points each.</text>
             <attack>Radiant Breath||8d10+4d10</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -2835,6 +2914,7 @@
         <trait>
             <name>Legendary Resistance (1/Day)</name>
             <text>If the dragonborn fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <trait>
             <name>Mental Defense</name>
@@ -2853,6 +2933,7 @@
             <name>Heat Breath (Recharge 6)</name>
             <text>The dragonborn exhales a wave of intense heat in a 30-foot cone. Each creature in that area must make a 14 Constitution saving throw, taking 27 (6d8) fire damage on a failed save, or half as much damage on a successful one. Metal objects in that area glow red-hot until the end of the dragonborn's next turn. Any creature in physical contact with a heated object at the start of its turn must make a 14 Constitution saving throw. On a failed save, the creature takes 9 (2d8) fire damage and has disadvantage on attack rolls until the start of its next turn.</text>
             <attack>Heat Breath||6d8+2d8</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -2883,6 +2964,7 @@
         <trait>
             <name>Legendary Resistance (1/Day)</name>
             <text>If the dragonborn fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -2897,6 +2979,7 @@
             <name>Necrotic Breath (Recharge 6)</name>
             <text>The dragonborn exhales shadowy fire in a 30-foot cone. Each creature in that area must make a 15 Wisdom saving throw. On a failed save, the creature takes 36 (8d8) necrotic damage and is frightened of the dragonborn for 1 minute. On a successful save, the creature takes half as much damage and isn't frightened. A frightened creature can repeat the saving throw at end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Necrotic Breath||8d8</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -2955,6 +3038,7 @@
             <name>Acid Belch (Recharge 5-6)</name>
             <text>The abomination belches forth a cloud of acidic gas in a 30-foot cone. Each creature in that area must make a 14 Constitution saving throw, taking 28 (8d6) acid damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Acid Belch||8d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -3000,6 +3084,7 @@
             <name>Acid Retch (Recharge 5-6)</name>
             <text>The grafter retches forth a spray of acidic bile in a 30-foot cone. Each creature in that area must make a 12 Dexterity saving throw, taking 14 (4d6) acid damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Acid Retch||4d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -3126,6 +3211,7 @@
         <action>
             <name>Torpor Spores (Recharge 5-6)</name>
             <text>The egg hunter releases a billow of sparkling blue spores. Each creature in a 30-foot-radius sphere centered on the egg hunter must succeed on a 14 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the creature can take either an action or a bonus action on its turn but not both, and it can't take reactions. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this egg hunter's Torpor Spores for the next 24 hours.</text>
+            <recharge>D5</recharge>
         </action>
         <reaction>
             <name>Rapid Adaptation</name>
@@ -3199,6 +3285,7 @@
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Siege Monster</name>
@@ -3235,6 +3322,7 @@
             <attack>Tadpole Brine Breath||10d10</attack>
             <attack>Tadpole Brine Breath||3d10</attack>
             <attack>Tadpole Brine Breath||6d12</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Tentacle</name>
@@ -3291,6 +3379,7 @@
             <name>Disorienting Breath (Recharge 5-6)</name>
             <text>The dragon exhales a wave of psychic dissonance in a 15-foot cone. Each creature in that area must make a 12 Intelligence saving throw. On a failed save, the creature takes 17 (5d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d4 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
             <attack>Disorienting Breath||5d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -3328,10 +3417,12 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -3355,6 +3446,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
             <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
@@ -3414,6 +3506,7 @@
             <name>Antimagic Breath (Recharge 6)</name>
             <text>The eyedrake emits a magic wave in a 30-foot cone. Each creature in that area must make a 14 Constitution saving throw, taking 39 (6d12) force damage on a failed save, or half as much damage on a successful one. Every spell of 3rd level or lower ends on creatures and objects of the eyedrake's choice in that area.</text>
             <attack>Antimagic Breath||6d12</attack>
+            <recharge>D6</recharge>
         </action>
         <action>
             <name>Eye Rays</name>
@@ -3506,6 +3599,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the ghost dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -3531,6 +3625,7 @@
             <text>  While frightened of the ghost dragon, a creature is paralyzed. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>,
             <text>  If a creature's saving throw is successful or the effect ends for it, the creature is immune to this ghost dragon's Terrifying Breath for the next 24 hours.</text>
             <attack>Terrifying Breath||9d8</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -3592,10 +3687,12 @@
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -3625,6 +3722,7 @@
             <text>The greatwyrm uses one of the following breath weapons:</text>
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) fire damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Change Shape</name>
@@ -3668,10 +3766,12 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -3700,6 +3800,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales a blast of energy in a 300-foot cone. Each creature in that area must make a 26 Dexterity saving throw. On a failed save, the creature takes 78 (12d12) poison damage. On a successful save, the creature takes half as much damage.</text>
             <attack>Breath Weapon||12d12</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -3763,6 +3864,7 @@
             <name>Caustic Mist (Recharge 5-6)</name>
             <text>The mimic sprays a fine mist of acid in a 30-foot cone. Each creature in that area must make a 14 Dexterity saving throw. On a failed save, the creature takes 27 (6d8) acid damage and is blinded until the end of its next turn. On a successful save, the creature takes half as much damage and isn't blinded.</text>
             <attack>Caustic Mist||6d8</attack>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Shapechanger</name>
@@ -3832,6 +3934,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the hollow dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Reconstruction</name>
@@ -3859,6 +3962,7 @@
             <name>Radiant Breath (Recharge 5-6)</name>
             <text>The hollow dragon exhales radiant flames in a 60-foot cone. Each creature in that area must make a 19 Dexterity saving throw, taking 54 (12d8) radiant damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Radiant Breath||12d8</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -3916,6 +4020,7 @@
         <action>
             <name>Blood-Chilling Roar (Recharge 4-6)</name>
             <text>The liondrake lets out a terrifying roar audible out to 300 feet. Any creature within 30 feet of the liondrake that can hear its roar must succeed on a 14 Wisdom saving throw or be frightened of the liondrake for 1 minute. A creature that fails the save by 5 or more is also paralyzed for the same duration. A creature can repeat the saving throw at the end of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this liondrake's Blood-Chilling Roar for the next 24 hours.</text>
+            <recharge>D4</recharge>
         </action>
     </monster>
     <monster>
@@ -3963,6 +4068,7 @@
         <action>
             <name>Calming Mist (Recharge 5-6)</name>
             <text>The peacekeeper releases a calming gas in a 30-foot-radius sphere centered on itself. Each creature in that area must succeed on a 14 Charisma saving throw or become charmed by the peacekeeper for 1 minute. While charmed in this way, the creature is incapacitated and has a speed of 0.</text>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4006,6 +4112,7 @@
         <action>
             <name>Calming Mist (Recharge 5-6)</name>
             <text>The warbler releases a calming gas in a 5-foot-radius sphere centered on itself. Each creature in that area must succeed on a 11 Charisma saving throw or become charmed by the warbler for 1 minute. While charmed in this way, the creature is incapacitated and has a speed of 0.</text>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4043,6 +4150,7 @@
             <text>The dragon uses one of the following breath weapons:</text>
             <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 30-foot line that is 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4073,10 +4181,12 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -4105,6 +4215,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales a blast of energy in a 300-foot cone. Each creature in that area must make a 26 Dexterity saving throw. On a failed save, the creature takes 78 (12d12) fire damage. On a successful save, the creature takes half as much damage.</text>
             <attack>Breath Weapon||12d12</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -4170,6 +4281,7 @@
             <name>Debilitating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 15-foot cone. Each creature in that area must make a 13 Constitution saving throw. On a failed save, the creature takes 22 (4d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
             <attack>Debilitating Breath||4d10</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4207,10 +4319,12 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -4234,6 +4348,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
             <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
@@ -4283,10 +4398,12 @@
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -4316,6 +4433,7 @@
             <text>The greatwyrm uses one of the following breath weapons:</text>
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) cold damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Change Shape</name>
@@ -4415,6 +4533,7 @@
             <name>Desiccating Breath (Recharge 5-6)</name>
             <text>The dragon exhales yellowish necrotic energy in a 15-foot cone. Each creature in that area must make a 11 Constitution saving throw. On a failed save, the creature takes 21 (6d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
             <attack>Desiccating Breath||6d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4452,10 +4571,12 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -4479,6 +4600,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
             <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
@@ -4528,10 +4650,12 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
+            <recharge>D </recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -4560,6 +4684,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The greatwyrm exhales a blast of energy in a 300-foot cone. Each creature in that area must make a 26 Dexterity saving throw. On a failed save, the creature takes 78 (12d12) cold damage. On a successful save, the creature takes half as much damage.</text>
             <attack>Breath Weapon||12d12</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -4630,6 +4755,7 @@
             <name>Singularity Breath (Recharge 5-6)</name>
             <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 30-foot cone. Each creature in that area must make a 17 Strength saving throw. On a failed save, the creature takes 36 (8d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
             <attack>Singularity Breath||8d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4683,6 +4809,7 @@
             <name>Scintillating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a burst of brilliant radiance in a 30-foot cone. Each creature in that area must make a 15 Constitution saving throw, taking 27 (6d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 10 temporary hit points by absorbing a portion of the radiant energy.</text>
             <attack>Scintillating Breath||6d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4728,6 +4855,7 @@
             <name>Nightmare Breath (Recharge 5-6)</name>
             <text>The dragon exhales a cloud of spores in a 30-foot cone. Each creature in that area must make a 14 Wisdom saving throw. On a failed save, the creature takes 22 (4d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Nightmare Breath||4d10</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4777,6 +4905,7 @@
             <name>Steam Breath (Recharge 5-6)</name>
             <text>The dragon turtle exhales steam in a 30-foot cone. Each creature in that area must make a 16 Constitution saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
             <attack>Steam Breath||12d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4834,6 +4963,7 @@
             <name>Disorienting Breath (Recharge 5-6)</name>
             <text>The dragon exhales a wave of psychic dissonance in a 30-foot cone. Each creature in that area must make a 15 Intelligence saving throw. On a failed save, the creature takes 31 (9d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d6 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
             <attack>Disorienting Breath||9d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4887,6 +5017,7 @@
             <text>The dragon uses one of the following breath weapons:</text>
             <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 60-foot line that is 5 feet wide. Each creature in that area must make a DC 14 Dexterity saving throw, taking 38 (7d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -4947,6 +5078,7 @@
             <name>Debilitating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 30-foot cone. Each creature in that area must make a 17 Constitution saving throw. On a failed save, the creature takes 33 (6d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
             <attack>Debilitating Breath||6d10</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -5001,6 +5133,7 @@
             <name>Rime Breath (Recharge 5-6)</name>
             <text>The sea serpent exhales a 30-foot cone of cold. Each creature in that area must make a 14 Constitution saving throw, taking 38 (7d10) cold damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Rime Breath||7d10</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -5057,6 +5190,7 @@
             <name>Desiccating Breath (Recharge 5-6)</name>
             <text>The dragon exhales yellowish necrotic energy in a 30-foot cone. Each creature in that area must make a 13 Constitution saving throw. On a failed save, the creature takes 28 (8d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
             <attack>Desiccating Breath||8d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
 </compendium>
