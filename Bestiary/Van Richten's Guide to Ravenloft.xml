@@ -1477,6 +1477,66 @@
         </action>
     </monster>
     <monster>
+        <name>The Bagman</name>
+        <size>L</size>
+        <type>giant</type>
+        <description>Source: Van Richten's Guide to Ravenloft</description>
+        <alignment>chaotic evil</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>84 (8d10 + 40)</hp>
+        <speed>30 ft.</speed>
+        <str>18</str>
+        <dex>13</dex>
+        <con>20</con>
+        <int>7</int>
+        <wis>9</wis>
+        <cha>7</cha>
+        <save></save>
+        <skill>Perception +2</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>Giant</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Alien Mind</name>
+            <text>If a creature tries to read the Bagman's thoughts, that creature must succeed on a DC 8 Intelligence saving throw or be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+        </trait>
+        <trait>
+            <name>Amorphous</name>
+            <text>The Bagman can move through a space as narrow as 1 inch wide without squeezing.</text>
+        </trait>
+        <trait>
+            <name>Grappler</name>
+            <text>The Bagman has advantage on attack rolls against any creature grappled by it.</text>
+        </trait>
+        <trait>
+            <name>Keen Smell</name>
+            <text>The Bagman has advantage on Wisdom (Perception) checks that rely on smell.</text>
+        </trait>
+        <trait>
+            <name>Regeneration</name>
+            <text>The Bagman regains 10 hit points at the start of its turn. If the Bagman takes acid or fire damage, this trait doesn't function at the start of the Bagman's next turn. The Bagman dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The Bagman makes three attacks: one with its bite and two with its claws.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+            <attack>Bite|7|1d6+4</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
+            <attack>Claw|7|2d6+4</attack>
+        </action>
+    </monster>
+    <monster>
         <name>Unspeakable Horror</name>
         <size>H</size>
         <type>monstrosity</type>
