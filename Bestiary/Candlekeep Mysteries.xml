@@ -129,6 +129,7 @@
       <name>Quill's Fable (Recharge 6)</name>
       <text>Quill utters a short fable while targeting up to five creatures within 30 feet of him that he can see. Each target that can hear Quill's magical fable must make a 17 Wisdom saving throw, taking 36 (8d8) psychic damage on a failed save, or half as much damage on a successful one.</text>
       <attack>Quill's Fable||8d8</attack>
+      <recharge>D6</recharge>
     </action>
     <action>
       <name>Supreme Mockery</name>
@@ -164,6 +165,7 @@
     <trait>
       <name>Legendary Resistance (2/Day)</name>
       <text>If Bak Mei fails a saving throw, he can choose to succeed instead.</text>
+      <recharge>2/Day</recharge>
     </trait>
     <trait>
       <name>Special Equipment</name>
@@ -193,6 +195,7 @@
       <name>Heal Self (Recharges after a Long Rest)</name>
       <text>Bak Mei regains 2d8 + 4 hit points, and all levels of exhaustion end on him.</text>
       <attack>Heal Self||2d8+4</attack>
+      <recharge>Long</recharge>
     </action>
     <reaction>
       <name>Deflect Missile</name>
@@ -345,6 +348,7 @@
     <trait>
       <name>Incorporeal Movement</name>
       <text>The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+      <attack>||1d10</attack>
     </trait>
     <trait>
       <name>Regeneration</name>
@@ -367,6 +371,7 @@
       <name>Wind Howl (Recharge 6)</name>
       <text>The ghost emits a dreadful howl that summons a cold, biting wind. This wind engulfs up to three creatures of the ghost's choice that it can see within 60 feet of it. Each target is pulled up to 20 feet toward the ghost and must make a 15 Constitution saving throw, taking 16 (3d10) cold damage on a failed save, or half as much damage on a successful one.</text>
       <attack>Wind Howl||3d10</attack>
+      <recharge>D6</recharge>
     </action>
   </monster>
   <monster>
@@ -492,6 +497,7 @@
       <name>Steam Breath (Recharge 5-6)</name>
       <text>The dragon tortoise exhales abrasive sand in a 60-foot cone. Each creature in that area must make a 18 Constitution saving throw, taking 52 (15d6) slashing damage on a failed save, or half as much damage on a successful one.</text>
       <attack>Steam Breath||15d6</attack>
+      <recharge>D5</recharge>
     </action>
   </monster>
   <monster>
@@ -694,6 +700,7 @@
     <action>
       <name>Tongue</name>
       <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is grappled (escape 12). Until this grapple ends, the target is restrained, and the grippli can't grab another creature.</text>
+      <attack>Tongue|4|</attack>
     </action>
     <action>
       <name>Trident</name>
@@ -866,6 +873,7 @@
       <name>Heal Self (Recharges after a Long Rest)</name>
       <text>Jade Tigress regains 2d8 + 2 hit points, and all levels of exhaustion end on her.</text>
       <attack>Heal Self||2d8+2</attack>
+      <recharge>Long</recharge>
     </action>
     <reaction>
       <name>Deflect Missile</name>
@@ -1006,6 +1014,7 @@
     <trait>
       <name>Legendary Resistance (3/Day)</name>
       <text>If the lich fails a saving throw, it can choose to succeed instead.</text>
+      <recharge>3/Day</recharge>
     </trait>
     <trait>
       <name>Rejuvenation</name>
@@ -1144,10 +1153,12 @@
       <name>Fireball (3rd-Level Spell; 3/Day)</name>
       <text>The sage creates a fiery explosion centered on a point it can see within 150 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a 14 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners and ignites flammable objects in the area that aren't being worn or carried.</text>
       <attack>Fireball||8d6</attack>
+      <recharge>3/Day</recharge>
     </action>
     <reaction>
       <name>Shield (1st-Level Spell; 3/Day)</name>
       <text>When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an invisible barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile.</text>
+      <recharge>3/Day</recharge>
     </reaction>
   </monster>
   <monster>
@@ -1171,7 +1182,7 @@
     <resist>acid,fire,lightning,thunder</resist>
     <immune>cold,necrotic,poison</immune>
     <conditionImmune>charmed,exhaustion,frightened,grappled,paralyzed,poisoned,prone,restrained</conditionImmune>
-    <senses>blindsight 60 ft., darkvision 120 ft.; see also \"x-ray vision\" below</senses>
+    <senses>blindsight 60 ft., darkvision 120 ft.; see also "x-ray vision" below</senses>
     <passive>26</passive>
     <languages>Common,Draconic</languages>
     <cr>22</cr>
@@ -1199,6 +1210,7 @@
     <trait>
       <name>Legendary Resistance (3/Day)</name>
       <text>If Miirym fails a saving throw, she can choose to succeed instead.</text>
+      <recharge>3/Day</recharge>
     </trait>
     <trait>
       <name>X-Ray Vision</name>
@@ -1212,6 +1224,7 @@
     <action>
       <name>Breath Weapon (Recharge 5-6)</name>
       <text>Miirym uses one of the following breath weapons:</text>
+      <recharge>D5</recharge>
     </action>
     <action>
       <name>Cold Breath</name>
@@ -1322,44 +1335,46 @@
       <text>Nintra casts one of the following spells, using Charisma as the spellcasting ability (save 20) and requiring no material components:</text>
       <text>3/day each: dispel magic, faerie fire, mirror image</text>
     </trait>
-      <spellAbility>Charisma</spellAbility>
-      <spells>Dispel Magic,Faerie Fire,Mirror Image</spells>
-      <trait>
-        <name>Legendary Resistance (3/Day)</name>
-        <text>If Nintra fails a saving throw, she can choose to succeed instead.</text>
-      </trait>
-      <action>
-        <name>Multiattack</name>
-        <text>Nintra makes two attacks.</text>
-      </action>
-      <action>
-        <name>Claw</name>
-        <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 12 (2d4 + 7) piercing damage.</text>
-        <attack>Claw|12|2d4+7</attack>
-      </action>
-      <action>
-        <name>Shard of Shadow</name>
-        <text>Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit: 10 (1d6 + 7) necrotic damage, and if the target is a creature, it must succeed on a 20 Constitution saving throw or be poisoned until the end of its next turn.</text>
-        <attack>Shard of Shadow|12|1d6+7</attack>
-      </action>
-      <action>
-        <name>Storm of Shattered Glass (Recharge 6)</name>
-        <text>Nintra targets a point she can see within 60 feet of her and creates a 20-foot-radius sphere of swirling glass shards centered on that point. Each creature in the sphere must make a 20 Dexterity saving throw, taking 28 (8d6) slashing damage on a failed save, or half as much damage on a successful save. If Nintra is in the sphere, the shards deal no damage to her.</text>
-        <attack>Storm of Shattered Glass||8d6</attack>
-      </action>
-      <legendary>
-        <name>Attack</name>
-        <text>Nintra makes one attack.</text>
-      </legendary>
-      <legendary>
-        <name>Fey Step</name>
-        <text>Nintra teleports to an unoccupied space she can see within 30 feet of her.</text>
-      </legendary>
-      <legendary>
-        <name>Shadow Strikes (Costs 2 Actions)</name>
-        <text>Provided she is in bright or dim light, Nintra causes her shadow to attack a creature within 10 feet of her. Her shadow makes two claw attacks, each attack identical to Nintra's claw attack except that it deals psychic damage instead of piercing damage.</text>
-      </legendary>
-    </monster>
+    <spellAbility>Charisma</spellAbility>
+    <spells>Dispel Magic,Faerie Fire,Mirror Image</spells>
+    <trait>
+      <name>Legendary Resistance (3/Day)</name>
+      <text>If Nintra fails a saving throw, she can choose to succeed instead.</text>
+      <recharge>3/Day</recharge>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>Nintra makes two attacks.</text>
+    </action>
+    <action>
+      <name>Claw</name>
+      <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 12 (2d4 + 7) piercing damage.</text>
+      <attack>Claw|12|2d4+7</attack>
+    </action>
+    <action>
+      <name>Shard of Shadow</name>
+      <text>Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit: 10 (1d6 + 7) necrotic damage, and if the target is a creature, it must succeed on a 20 Constitution saving throw or be poisoned until the end of its next turn.</text>
+      <attack>Shard of Shadow|12|1d6+7</attack>
+    </action>
+    <action>
+      <name>Storm of Shattered Glass (Recharge 6)</name>
+      <text>Nintra targets a point she can see within 60 feet of her and creates a 20-foot-radius sphere of swirling glass shards centered on that point. Each creature in the sphere must make a 20 Dexterity saving throw, taking 28 (8d6) slashing damage on a failed save, or half as much damage on a successful save. If Nintra is in the sphere, the shards deal no damage to her.</text>
+      <attack>Storm of Shattered Glass||8d6</attack>
+      <recharge>D6</recharge>
+    </action>
+    <legendary>
+      <name>Attack</name>
+      <text>Nintra makes one attack.</text>
+    </legendary>
+    <legendary>
+      <name>Fey Step</name>
+      <text>Nintra teleports to an unoccupied space she can see within 30 feet of her.</text>
+    </legendary>
+    <legendary>
+      <name>Shadow Strikes (Costs 2 Actions)</name>
+      <text>Provided she is in bright or dim light, Nintra causes her shadow to attack a creature within 10 feet of her. Her shadow makes two claw attacks, each attack identical to Nintra's claw attack except that it deals psychic damage instead of piercing damage.</text>
+    </legendary>
+  </monster>
     <monster>
       <name>Parasite-infested Behir</name>
       <size>H</size>
@@ -1403,6 +1418,7 @@
         <name>Lightning Breath (Recharge 5-6)</name>
         <text>The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
         <attack>Lightning Breath||12d10</attack>
+        <recharge>D5</recharge>
       </action>
       <action>
         <name>Swallow</name>
@@ -1465,6 +1481,7 @@
         <name>Breath Weapon (Recharges after a Short or Long Rest)</name>
         <text>Ram Sugar exhales fire in a 30-foot-long line that is 5 feet wide. Any creature in the line must make a 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
         <attack>Breath Weapon||2d6</attack>
+        <recharge>Short</recharge>
       </action>
     </monster>
     <monster>
@@ -1497,7 +1514,7 @@
         <text>The sage casts one of the following spells, using Intelligence as the spellcasting ability (save 14, +6 to hit with spell attacks):</text>
         <text>At will: light, mage hand, mending</text>
         <text>3/day each: comprehend languages, detect magic, identify</text>
-        <text>1/day each: dispel magic, levitate, locate object, see invisibility, sending, tongues, unseen </text>servant
+        <text>1/day each: dispel magic, levitate, locate object, see invisibility, sending, tongues, unseen servant</text>
       </trait>
       <spellAbility>Intelligence</spellAbility>
       <spells>Light,Mage Hand,Mending,Shocking Grasp,Comprehend Languages,Detect Magic,Identify,Shield,Dispel Magic,Levitate,Locate Object,See Invisibility,Sending,Tongues,Unseen Servant</spells>
@@ -1509,6 +1526,7 @@
       <reaction>
         <name>Shield (1st-Level Spell; 3/Day)</name>
         <text>When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an invisible barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile.</text>
+        <recharge>3/Day</recharge>
       </reaction>
     </monster>
     <monster>
@@ -1560,6 +1578,7 @@
       <action>
         <name>Slow (Recharge 5-6)</name>
         <text>The golem targets one or more creatures it can see within 10 feet of it. Each target must make a 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+        <recharge>D5</recharge>
       </action>
       <action>
         <name>Sapphire</name>
@@ -1599,6 +1618,7 @@
       <trait>
         <name>Incorporeal Movement</name>
         <text>Shemshime can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+        <attack>||1d10</attack>
       </trait>
       <action>
         <name>Maddening Touch</name>
@@ -1614,6 +1634,7 @@
         <name>Howling Babble (Recharge 6)</name>
         <text>Shemshime targets one creature it can see within 30 feet of it. The creature must make a 13 Wisdom saving throw. On a failed save, it takes 21 (4d8 + 3) psychic damage and is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned.</text>
         <attack>Howling Babble||4d8+3</attack>
+        <recharge>D6</recharge>
       </action>
     </monster>
     <monster>
@@ -1715,6 +1736,7 @@
         <name>Heal Self (Recharges after a Long Rest)</name>
         <text>Steel Crane regains 2d8 + 4 hit points, and all levels of exhaustion end on him.</text>
         <attack>Heal Self||2d8+4</attack>
+        <recharge>Long</recharge>
       </action>
       <reaction>
         <name>Deflect Missile</name>
@@ -1724,6 +1746,7 @@
       <reaction>
         <name>Slow Descent (3/Day)</name>
         <text>When Steel Crane falls, he can slow his descent, taking no damage from the fall.</text>
+        <recharge>3/Day</recharge>
       </reaction>
     </monster>
     <monster>
@@ -1769,7 +1792,7 @@
         <name>Lightning Strike (Recharge 5-6)</name>
         <text>The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a 15 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.</text>
         <attack>Lightning Strike||12d8</attack>
-        <recharge>5-6</recharge>
+        <recharge>D5</recharge>
       </action>
     </monster>
     <monster>
@@ -1994,6 +2017,7 @@
       <action>
         <name>Summon Demon (1/Day)</name>
         <text>The wood elf magically summons a quasit, or attempts to summon a shadow demon with a 50 chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+        <recharge>1/Day</recharge>
       </action>
     </monster>
     <monster>
@@ -2077,6 +2101,7 @@
       <trait>
         <name>Legendary Resistance (3/Day)</name>
         <text>If Zikzokrishka fails a saving throw, it can choose to succeed instead.</text>
+        <recharge>3/Day</recharge>
       </trait>
       <trait>
         <name>Magic Resistance</name>
@@ -2109,7 +2134,7 @@
         <name>Lightning Breath (Recharge 5-6)</name>
         <text>Zikzokrishka exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a 20 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
         <attack>Lightning Breath||12d10</attack>
-        <recharge>5-6</recharge>
+        <recharge>D5</recharge>
       </action>
       <legendary>
         <name>Detect</name>
