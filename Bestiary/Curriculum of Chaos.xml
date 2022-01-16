@@ -205,7 +205,8 @@
         <legendary>
             <name>Teeming with Life (Costs 3 Actions)</name>
             <text>Beledros magically summons 1d4 pest mascots in unoccupied spaces she can see within 60 feet of herself. The pests obey her commands and take their turns immediately after hers. Any creature, other than a pest, takes 9 (2d8) poison damage if it starts its turn within 5 feet of one or more of these pests. When one of these pests drops to 0 hit points, Beledros regains 9 hit points. These pests disappear after 10 minutes, when Beledros dies, or when she uses this action again.</text>
-            <attack>Teeming with Life||1d4+2d8</attack>
+            <attack>Mascots||1d4</attack>
+            <attack>Teeming with Life||2d8</attack>
         </legendary>
     </monster>
     <monster>
@@ -370,6 +371,7 @@
             <name>Pact of Suffering</name>
             <text>Using a 10-minute long ritual, the titan can forge a magical bond with a willing creature it touches throughout the ritual. The creature becomes bound by the pact until it dies, the titan dies, or the pact is broken by a wish spell.</text>
             <text>  The titan chooses one spell from the necromancy or enchantment school that is 8th level or lower. The bound creature can cast that spell using this pact, requiring no material components and using Intelligence as the spellcasting ability. When it casts the spell, the creature takes 21 (6d6) psychic damage, which can't break the creature's concentration on a spell. Once the bound creature casts the spell in this way, it can't do so again until it finishes a long rest.</text>
+            <attack>Damage||6d6</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -475,11 +477,13 @@
         <trait>
             <name>Relative Density</name>
             <text>The fractal can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+            <attack>Damage||1d10</attack>
         </trait>
         <action>
             <name>Quantum Strike</name>
             <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger.</text>
-            <attack>Quantum Strike|3|1d4+1+2d4+1</attack>
+            <attack>Quantum Strike|3|1d4+1</attack>
+            <attack>Quantum Strike (Medium or bigger)|3|2d4+1</attack>
         </action>
     </monster>
     <monster>
@@ -551,7 +555,8 @@
         <legendary>
             <name>Flowing Creation (Costs 3 Actions)</name>
             <text>Galazeth magically summons 1d4 art elemental mascots in unoccupied spaces he can see within 60 feet of himself. The art elementals obey his commands and take their turns immediately after his. Any creature, other than an art elemental, takes 5 (1d10) cold, fire, or lightning damage (Galazeth's choice) if it ends its turn within 5 feet of one or more of these elementals. When one of these elementals drops to 0 hit points, Galazeth can fly up to 20 feet without provoking opportunity attacks. These elementals disappear after 10 minutes, when Galazeth dies, or when he uses this action again.</text>
-            <attack>Flowing Creation||1d4+1d10</attack>
+            <attack>Mascots||1d4</attack>
+            <attack>Flowing Creation||1d10</attack>
         </legendary>
     </monster>
     <monster>
@@ -600,7 +605,8 @@
             <name>Swamp Claw</name>
             <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage. If the target is a Medium or smaller creature, it must succeed on a 15 Strength saving throw or become engulfed by the groff. While engulfed, the target can't breathe, is restrained, and takes 10 (3d6) poison damage at the start of each of its turns. When the groff moves, the engulfed target moves with it. The groff can have only one target engulfed at a time.</text>
             <text>  An engulfed target can repeat the saving throw at the end of its turns. On a success, the target escapes and enters the nearest unoccupied space.</text>
-            <attack>Swamp Claw|7|1d6+5+3d6</attack>
+            <attack>Swamp Claw|7|1d6+5</attack>
+            <attack>Poison||3d6</attack>
         </action>
     </monster>
     <monster>
@@ -1179,6 +1185,7 @@
         <trait>
             <name>Spiny Hide</name>
             <text>At the start of each of its turns, the pest deals 2 (1d4) piercing damage to any creature grappling it or that it is grappling.</text>
+            <attack>Spiny Hide||1d4</attack>
         </trait>
         <action>
             <name>Bite</name>
@@ -1416,7 +1423,8 @@
         <action>
             <name>Exponential Lash</name>
             <text>Melee or Ranged Spell +4 to hit, reach 5 ft. or range 60 ft., one target. Hit: 5 (1d6 + 2) force damage, and the apprentice can cause one creature it can see within 30 feet of the target to take 9 (2d6 + 2) force damage.</text>
-            <attack>Exponential Lash|4|1d6+2+2d6+2</attack>
+            <attack>Exponential Lash|4|1d6+2</attack>
+            <attack>||2d6+2</attack>
         </action>
     </monster>
     <monster>
@@ -1459,7 +1467,8 @@
         <action>
             <name>Exponential Lash</name>
             <text>Melee or Ranged Spell +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 6 (1d6 + 3) force damage, and the pledgemage can cause one creature it can see within 30 feet of the target to take 10 (2d6 + 3) force damage.</text>
-            <attack>Exponential Lash|5|1d6+3+2d6+3</attack>
+            <attack>Exponential Lash|5|1d6+3</attack>
+            <attack>||2d6+3</attack>
         </action>
     </monster>
     <monster>
@@ -1502,7 +1511,8 @@
         <action>
             <name>Spatial Blade</name>
             <text>Melee or Ranged Spell +7 to hit (the target can't benefit from cover less than total cover), reach 5 ft. or range 120 ft., one target. Hit: 13 (2d8 + 4) force damage, or 22 (4d8 + 4) force damage if the professor is Large or larger, and the professor can push the target horizontally up to 10 feet away.</text>
-            <attack>Spatial Blade|7|2d8+4+4d8+4</attack>
+            <attack>Spatial Blade|7|2d8+4</attack>
+            <attack>Large or larger|7|4d8+4</attack>
         </action>
         <reaction>
             <name>Avoidant Translation (2/Day)</name>
@@ -1954,6 +1964,7 @@
         <trait>
             <name>Death Burst</name>
             <text>When the spirit statue is reduced to 0 hit points, the statue crumbles, and the spirit returns to the afterlife in a burst of ghostly white flame. Each creature within 5 feet of it must succeed on a 12 Constitution saving throw or take 3 (1d6) radiant damage.</text>
+            <attack>Damage||1d6</attack>
         </trait>
         <action>
             <name>Slam</name>
@@ -2370,7 +2381,7 @@
         <action>
             <name>Summon Nature's Avatar (Recharges after a Short or Long Rest)</name>
             <text>The professor magically summons a Groff. The groff appears in an unoccupied space within 60 feet of the professor, acts as the professor's ally, and takes its turns immediately after the professor's. The professor can communicate telepathically with this groff while it remains. The groff remains for 10 minutes, until it or the professor dies, or until the professor dismisses it as an action.</text>
-            <recharge>D </recharge>
+            <recharge>Short</recharge>
         </action>
     </monster>
     <monster>

@@ -59,6 +59,8 @@
 		<action>
 			<name>Summon Swarms of Insects (Recharges after a Short or Long Rest)</name>
 			<text>Baba Lysaga summons 1d4 swarms of insects. A summoned swarm appears in an unoccupied space within 60 feet of Baba Lysaga and acts as her ally. It remains until it dies or until Baba Lysaga dismisses it as an action.</text>
+			<attack>Swarms||1d4</attack>
+			<recharge>SHORT</recharge>
 		</action>
 		<spells>Acid Splash, Fire Bolt, Light, Mage Hand, Prestidigitation, Detect Magic, Magic Missile, Sleep, Witch Bolt, Crown of Madness, Enlarge/Reduce, Misty Step, Dispel Magic, Fireball, Lightning Bolt, Blight, Evard's Black Tentacles, Polymorph, Cloudkill, Geas, Scrying, Programmed Illusion, True Seeing, Finger of Death, Mirage Arcane, Power Word Stun</spells>
 		<slots>4,3,3,3,2,1,1,1,0</slots>
@@ -275,10 +277,12 @@
 		<action>
 			<name>Curse (Recharges after a Long Rest)</name>
 			<text>Ezmerelda targets one creature that she can see within 30 feet of her. The target must succeed on a DC 14 Wisdom saving throw or be cursed. While cursed, the target has vulnerability to one type of damage of Ezmerelda's choice. The curse lasts until ended with a greater restoration spell, a remove curse spell, or similar magic. When the curse ends, Ezmerelda takes 3d6 psychic damage.</text>
+			<recharge>LONG</recharge>
 		</action>
 		<action>
 			<name>Evil Eye (Recharges after a Short or Long Rest)</name>
 			<text>Ezmerelda targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 14), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Ezmerelda is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.</text>
+			<recharge>SHORT</recharge>
 		</action>
 		<spells>Fire Bolt, Light, Mage Hand, Prestidigitation, Protection from Evil and Good, Magic Missile, Shield, Darkvision, Knock, Mirror Image, Clairvoyance, Lightning Bolt, Magic Circle, Greater Invisibility</spells>
 		<slots>4,3,3,1,0,0,0,0,0</slots>
@@ -420,10 +424,13 @@
 		<action>
 			<name>Curse (Recharges after a Long Rest)</name>
 			<text>Madam Eva targets one creature that she can see within 30 feet of her. The target must succeed on a DC 17 Wisdom saving throw or be cursed. While cursed, the target is blinded and deafened. The curse lasts until ended with a greater restoration spell, a remove curse spell, or similar magic. When the curse ends, Madam Eva takes 5d6 psychic damage.</text>
+			<attack>Damage||5d6</attack>
+			<recharge>LONG</recharge>
 		</action>
 		<action>
 			<name>Evil Eye (Recharges after a Short or Long Rest)</name>
 			<text>Madam Eva targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 17), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Madam Eva is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.</text>
+			<recharge>SHORT</recharge>
 		</action>
 		<spells>Light, Mending, Sacred Flame, Thaumaturgy, Bane, Command, Detect Evil and Good, Protection from Evil and Good, Lesser Restoration, Protection from Poison, Spiritual Weapon, Create Food and Water, Speak with Dead, Spirit Guardians, Divination, Freedom of Movement, Guardian of Faith, Greater Restoration, Raise Dead, Find the Path, Harm, True Seeing, Fire Storm, Regenerate, Earthquake</spells>
 		<slots>4,3,3,3,2,1,1,1,0</slots>
@@ -528,6 +535,7 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The phantom warrior can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Spectral Armor and Shield</name>
@@ -700,6 +708,7 @@
 			<name>Sword Cane</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage (wooden cane) or piercing damage (silvered sword).</text>
 			<attack>Sword Cane|4|1d6+1</attack>
+			<attack>Undead||3d6</attack>
 		</action>
 		<spells>Guidance, Light, Mending, Thaumaturgy, Cure Wounds, Detect Evil and Good, Protection from Evil and Good, Sanctuary, Augury, Lesser Restoration, Protection from Poison, Magic Circle, Remove Curse, Speak with Dead, Death Ward, Freedom of Movement, Dispel Evil and Good</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
@@ -846,6 +855,8 @@
 		<action>
 			<name>Children of the Night (1/day)</name>
 			<text>Strahd magically calls 2d4 swarms of bats or swarms rats, provided that the sun isn't up. While outdoors, Strahd can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of Strahd and obeying his spoken commands. The beasts remain for 1 hour, until Strahd dies, or until he dismisses them as a bonus action.</text>
+			<attack>Swarms||2d4</attack>
+			<recharge>1/DAY</recharge>
 		</action>
 		<legendary>
 			<name/>
@@ -1026,11 +1037,13 @@
 			<name>Fist</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. If the target is a creature against which Vladimir has sworn vengeance, the target takes an extra 14 (4d6) bludgeoning damage. Instead of dealing damage, Vladimir can grapple the target (escape DC 14) provided the target is Large or smaller.</text>
 			<attack>Fist|7|2d6+4</attack>
+			<attack>Vengeance||4d6</attack>
 		</action>
 		<action>
 			<name>Greatsword +2</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 20 (4d6+4) slashing damage. Against Strahd, Vladimir deals an extra 14 (4d6) slashing damage with this weapon.</text>
 			<attack>Greatsword|9|4d6+4</attack>
+			<attack>Strahd||4d6</attack>
 		</action>
 		<action>
 			<name>Vengeful Glare</name>
