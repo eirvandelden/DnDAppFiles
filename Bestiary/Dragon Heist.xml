@@ -33,10 +33,12 @@
 		<trait>
 			<name>Indomitable (2/Day)</name>
 			<text>Ahmaergo can reroll a saving throw that he fails. He must use the new roll.</text>
+			<recharge>2/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, Ahmaergo can regain 20 hit points.</text>
+			<recharge>SHORT</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -177,10 +179,12 @@
 		<trait>
 			<name>Song of Rest</name>
 			<text>The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra 1d6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well.</text>
+			<attack>Song of Rest||1d6</attack>
 		</trait>
 		<trait>
 			<name>Taunt (2/Day)</name>
 			<text>The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.</text>
+			<recharge>2/DAY</recharge>
 		</trait>
 		<action>
 			<name>Shortsword</name>
@@ -263,7 +267,7 @@
 		<conditionImmune/>
 		<senses/>
 		<passive>13</passive>
-		<languages>Common. thieves' cant</languages>
+		<languages>Common, thieves' cant</languages>
 		<cr>5</cr>
 		<trait>
 			<name>Cunning Action</name>
@@ -359,7 +363,7 @@
 		<wis>12</wis>
 		<cha>17</cha>
 		<save>Dex +5, Cha +6</save>
-		<skill>Arcana +6, History +6, Ins ight +4, Perception +4, Performance +6</skill>
+		<skill>Arcana +6, History +6, Insight +4, Perception +4, Performance +6</skill>
 		<vulnerable/>
 		<resist/>
 		<immune/>
@@ -407,7 +411,7 @@
 		<int>11</int>
 		<wis>17</wis>
 		<cha>13</cha>
-		<save>Con +S, Wis +6</save>
+		<save>Con +5, Wis +6</save>
 		<skill>Intimidation +4, Religion +3</skill>
 		<vulnerable/>
 		<resist>poison</resist>
@@ -446,6 +450,7 @@
 		<action>
 			<name>Treasure Sense (3/Day)</name>
 			<text>Istrid magically pinpoints precious metals and stones, such as coins and gems, within 60 feet of her.</text>
+			<recharge>3/DAY</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -464,7 +469,7 @@
 		<wis>12</wis>
 		<cha>15</cha>
 		<save>Int +6, Wis +4</save>
-		<skill>Arcana +6, History+6, Perception +4, Performance +5</skill>
+		<skill>Arcana +6, History +6, Perception +4, Performance +5</skill>
 		<vulnerable/>
 		<resist/>
 		<immune/>
@@ -524,10 +529,12 @@
 		<trait>
 			<name>Indomitable (2/Day)</name>
 			<text>Tashlyn can reroll a saving throw that she fails. She must use the new roll.</text>
+			<recharge>2/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, Tashlyn can regain 20 hit points.</text>
+			<recharge>SHORT</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -598,6 +605,7 @@
 		<action>
 			<name>Dreadful Aspect (Recharges after a Short or Long Rest)</name>
 			<text>Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a DC 13 Wisdom saving throw or be frightened of Ziraj for 1 minute. If a frightened enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success.</text>
+			<recharge>SHORT</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -688,10 +696,11 @@
 		<trait>
 			<name>Indomitable (Recharges after a Long Rest)</name>
 			<text>Durnan can reroll a saving throw that he fails. He must use the new roll.</text>
+			<recharge>LONG</recharge>
 		</trait>
 		<trait>
 			<name>Spell Turning</name>
-			<text>While wearing his ring of spell turning, Durnan has advantage on saving throws against any spell that targets onlyhim (not in an area of effect). If Durnan rolls a 20 for the save and the spell is 7th level or lower, the spell has no effect on him and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster.</text>
+			<text>While wearing his ring of spell turning, Durnan has advantage on saving throws against any spell that targets only him (not in an area of effect). If Durnan rolls a 20 for the save and the spell is 7th level or lower, the spell has no effect on him and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -758,6 +767,8 @@
 			<text/>
 			<text>4. Telekinetic Ray: If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer.</text>
 			<text>	If the target is an object weighing 10 pounds or less that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.</text>
+			<attack>Beam||1d4</attack>
+			<attack>Frost Ray||3d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -790,7 +801,7 @@
 			<text>Hlam is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). He has the following cleric spells prepared:</text>
 			<text>Cantrips (at will): guidance, light, sacred flame, spare the dying</text>
 			<text>1st level (4 slots): detect evil and good, healing word, sanctuary, shield of faith</text>
-			<text>2nd level (3 slots): calm emotions, prayer ofhealing, silence</text>
+			<text>2nd level (3 slots): calm emotions, prayer of healing, silence</text>
 			<text>3rd level (2 slots): protection from energy, remove curse, sending</text>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
@@ -798,7 +809,7 @@
 		<spells>Guidance, Light, Sacred Flame, Spare the Dying, Detect Evil and Good, Healing Word, Sanctuary, Shield of Faith, Calm Emotions, Prayer of Healing, Silence, Protection from Energy, Remove Curse, Sending</spells>
 		<trait>
 			<name>Evasion</name>
-			<text> If Hlam is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage ifhe fails. He can't use this trait if he's incapacitated.</text>
+			<text> If Hlam is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's incapacitated.</text>
 		</trait>
 		<trait>
 			<name>Magic Unarmed Strikes</name>
@@ -810,7 +821,7 @@
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>Hlam attacks three times using' his unarmed strike, darts, or both.</text>
+			<text>Hlam attacks three times using his unarmed strike, darts, or both.</text>
 		</action>
 		<action>
 			<name>Unarmed Strike</name>
@@ -829,14 +840,16 @@
 			<name>Quivering Palm (Recharge 6)</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit: The target must make a DC 18 Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 (10d10) necrotic damage.</text>
 			<attack>Quivering Palm|12|10d10</attack>
+			<recharge>D6</recharge>
 		</action>
 		<action>
 			<name>Wholeness of Body (Recharges after a Long Rest)</name>
 			<text>Hlam regains 60 hit points.</text>
+			<recharge>LONG</recharge>
 		</action>
 		<reaction>
 			<name>Deflect Missile</name>
-			<text>In response to being hit by a ranged weapon attack, Hlam deflects the missile. The damage he takes from the attack is reduced by 1d10 + 27. Ifthe damage is reduced to 0, Hlam catches the missile if it's small enough to hold in one hand and he has a hand free.</text>
+			<text>In response to being hit by a ranged weapon attack, Hlam deflects the missile. The damage he takes from the attack is reduced by 1d10 + 27. If the damage is reduced to 0, Hlam catches the missile if it's small enough to hold in one hand and he has a hand free.</text>
 			<attack>Deflect Missile||1d10+27</attack>
 		</reaction>
 		<reaction>
@@ -885,10 +898,12 @@
 		<trait>
 			<name>Indomitable (2/Day)</name>
 			<text>Hrabbaz can reroll a saving throw that he fails. He must use the new roll.</text>
+			<recharge>2/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Relentless Endurance (Recharges after a Long Rest)</name>
 			<text>When Hrabbaz is reduced to 0 hit points but not killed outright, he drops to 1 hit point instead.</text>
+			<recharge>LONG</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -907,7 +922,7 @@
 		<type>humanoid (human)</type>
 		<description>Source: Waterdeep: Dragon Heist</description>
 		<alignment>lawful good</alignment>
-		<ac>18 (chain mail, badge ofthe Watch)</ac>
+		<ac>18 (chain mail, badge of the Watch)</ac>
 		<hp>71 (13d8 + 13)</hp>
 		<speed>30 ft.</speed>
 		<str>14</str>
@@ -932,7 +947,7 @@
 		</trait>
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
-			<text>As a bonus action, jalester can regain 16 (1d10 + 11) hit points.</text>
+			<text>As a bonus action, Jalester can regain 16 (1d10 + 11) hit points.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1000,8 +1015,9 @@
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dancing Lights, Darkness, Faerie Fire, Levitate</spells>
 		<trait>
-			<name>Legendary Resistance (1/ Day)</name>
+			<name>Legendary Resistance (1/Day)</name>
 			<text>If Jarlaxle fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>1/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Master Attuner</name>
@@ -1122,6 +1138,9 @@
 			<text>• Cast the cure wounds spell. The target regains 1d8 + 5 hit points. After Laeral takes this action, roll a d6. On a roll of 1, the silver fire disappears.</text>
 			<text>• Cast the revivify spell without material components. After Laeral takes this action, roll a d6. On a roll of 1-2, the silver fire disappears.</text>
 			<text>• Release a 60-foot line of silver fire that is 5 feet wide or a 30-foot cone of silver fire. Objects in the area that aren't being worn or carried take 26 (4d12) fire damage. Each creature in the area must succeed on a DC 21 Dexterity saving throw, taking 26 (4d12) fire damage on a failed save, or halfas much damage on a successful one. After laeral takes this action, roll a d6. On a roll of 1-3, the silver fire disappears.</text>
+			<recharge>LONG</recharge>
+			<attack>||1d6</attack>
+			<attack>Fire Damage||4d12</attack>
 		</action>
 	</monster>
 	<monster>
@@ -1225,7 +1244,7 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:</text>
 			<text>• The target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept's choice).</text>
 			<text>•The target must succeed on a DC 13 Dexterity saving throw or be knocked prone.</text>
-			<text>•The target must succeed on a DC 13 Constitution saving throw or be stunned until the end ot'the adept's next turn.</text>
+			<text>•The target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the adept's next turn.</text>
 			<attack>Unarmed Strike|5|1d8+3</attack>
 		</action>
 		<action>
@@ -1236,6 +1255,7 @@
 		<reaction>
 			<name>Deflect Missile</name>
 			<text>In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it's small enough to hold in one hand and the adept has a hand free.</text>
+			<attack>Deflect Missile||1d10+3</attack>
 		</reaction>
 	</monster>
 	<monster>
@@ -1270,10 +1290,12 @@
 		<trait>
 			<name>Indomitable (2/Day)</name>
 			<text>Meloon can reroll a saving throw that he fails. He must use the new roll.</text>
+			<recharge>2/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, Meloon can regain 20 hit points.</text>
+			<recharge>SHORT</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1345,7 +1367,7 @@
 		</action>
 	</monster>
 	<monster>
-		<name>NImblewright</name>
+		<name>Nimblewright</name>
 		<size>M</size>
 		<type>construct</type>
 		<description>Source: Waterdeep: Dragon Heist</description>
@@ -1375,7 +1397,7 @@
 		</trait>
 		<trait>
 			<name>Magic Weapons</name>
-			<text>The nimblewright's weapon attacksare magical.</text>
+			<text>The nimblewright's weapon attacks are magical.</text>
 		</trait>
 		<trait>
 			<name>Repairable</name>
@@ -1518,7 +1540,7 @@
 		<type>humanoid (human)</type>
 		<description>Source: Waterdeep: Dragon Heist</description>
 		<alignment>lawful neutral</alignment>
-		<ac>14 (Blockstoff; 17 with mage armor)</ac>
+		<ac>14 (Blackstaff; 17 with mage armor)</ac>
 		<hp>126 (23d8 + 23)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
@@ -1539,7 +1561,7 @@
 		<cr>13</cr>
 		<trait>
 			<name>Special Equipment</name>
-			<text>Vajra wields the Blackstaff(see appendix A), accounted for in her statistics. Roll 2dl0 to determine how many charges the staff has remaining.</text>
+			<text>Vajra wields the Blackstaff(see appendix A), accounted for in her statistics. Roll 2d10 to determine how many charges the staff has remaining.</text>
 			<roll>2d10</roll>
 		</trait>
 		<trait>
@@ -1632,6 +1654,7 @@
 		<action>
 			<name>Cloak of Shadows (2/Day)</name>
 			<text>Victoro becomes invisible until the end of his next turn. He becomes visible early immediately after he attacks or casts a spell.</text>
+			<recharge>2/DAY</recharge>
 		</action>
 		<action>
 			<name>Summon Devil (Recharges after 9 Days)</name>
