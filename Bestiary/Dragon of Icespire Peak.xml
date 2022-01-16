@@ -82,6 +82,7 @@
 		<trait>
 			<name>Not Dead Yet (Recharge after a Long Rest)</name>
 			<text>If damage reduces Don-Jon to 0 hit points, he drops to 1 hit point instead and gains advantage on attack rolls until the end of his next turn.</text>
+			<recharge>LONG</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -175,6 +176,7 @@
 		<trait>
 			<name>Resentless (Recharges after a Short or Long Rest)</name>
 			<text>If Gorthok takes 27 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
+			<recharge>SHORT</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -194,6 +196,7 @@
 			<name>Lightning Bolt (recharge 6)</name>
 			<text>Gorthok shoots a bolt of lightning at one creature it can see within 120 feet of it. The target must make a DC 15 Dexterity saving throw, taking 18 (4d8) lightning damage on a failed save, or half as much on a successful one.</text>
 			<attack>Lightning Bolt||4d8</attack>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -237,7 +240,7 @@
 		<action>
 			<name>Magic Missile (Expends a 1st-Level Spell Slot)</name>
 			<text>The gnome creates three magical darts. Each dart hits a creature the gnome chooses within 120 feet of it and deals 3 (1d4 + 1) force damage.</text>
-			<attack>Magic Missile||1d4+1+1d4+1+1d4+1</attack>
+			<attack>Magic Missile||1d4+1</attack>
 		</action>
 		<action>
 			<name>Ray of Frost</name>
@@ -294,6 +297,7 @@
 			<text />
 			<text>• Attack rolls against the creature have advantage.</text>
 			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells />
 		<slots />
@@ -330,6 +334,7 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The allip can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<action>
 			<name>Maddening Touch</name>
@@ -339,6 +344,7 @@
 		<action>
 			<name>Whispers of Madness</name>
 			<text>The allip chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and undead are immune to this effect.</text>
+			<attack>Whispers of Madness||1d8+3</attack>
 		</action>
 		<action>
 			<name>Howling Babble (Recharge 6)</name>
@@ -350,6 +356,8 @@
 			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
 			<text />
 			<text>• Attack rolls against the creature have advantage.</text>
+			<recharge>D6</recharge>
+			<attack>Howling Babble||2d8+3</attack>
 		</action>
 		<spells />
 		<slots />
@@ -382,6 +390,7 @@
 		<trait>
 			<name>Archer's Eye</name>
 			<text>As a bonus action, the archer can add 1d10 to its next attack or damage roll with a longbow or shortbow.</text>
+			<attack>Archer's Eye||1d10</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -477,11 +486,13 @@
 			<text>1-2. If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, if has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting abilityofthe caster.</text>
 			<text>3-4. No additional effect.</text>
 			<text>5-6. The snail's shell comverts some of the spell's energy into a burst of destructive force. Each creature within 30 feet ofthe snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one.</text>
+			<attack>||1d6</attack>
 		</trait>
 		<trait>
 			<name>Flail Tentacles</name>
-			<text>The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within 1d4 days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies Sd6 minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.</text>
-			<roll>5d6</roll>
+			<text>The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within 1d4 days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies 5d6 minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.</text>
+			<attack>Days||1d4</attack>
+			<attack>Minutes||5d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -494,7 +505,7 @@
 		</action>
 		<action>
 			<name>Scintillating Shell (Recharges after a Short or Long Rest)</name>
-			<text>The snail's shell emits dazzling, colored light until the endofthe snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC 15 Wisdom saving throw or be stunned until the light ends.</text>
+			<text>The snail's shell emits dazzling, colored light until the end of the snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC 15 Wisdom saving throw or be stunned until the light ends.</text>
 		</action>
 		<action>
 			<name>Shell Defense</name>
@@ -559,6 +570,7 @@
 		<trait>
 			<name>Dragon's Resistance</name>
 			<text>The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, acid (black); 3-4, cold (white); 5-6, fire (red); 7-8, lightning (blue); 9-10, poison (green).</text>
+			<attack>Resistance||1d10</attack>
 		</trait>
 		<trait>
 			<name>Heart of the Dragon</name>
@@ -578,8 +590,8 @@
 		</action>
 		<action>
 			<name>Spear</name>
-			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (ld6+l) piercing damage, or 5 (ld8+l) piercing damage if used with two hands to make a melee attack.</text>
-			<attack>Spear|3|ld6+l</attack>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (1d6+1) piercing damage, or 5 (1d8+1) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|3|1d6+1</attack>
 			<attack>Two Handed|2|1d8+1</attack>
 		</action>
 		<spells />
@@ -628,6 +640,7 @@
 		<action>
 			<name>Voice of the Kraken (Recharges after a Short or Long Rest)</name>
 			<text>A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>SHORT</recharge>
 		</action>
 		<spells>Command, Create or Destroy Water, Control Water, Darkness, Water Breathing, Water Walk, Call Lightning, Evard's Black Tentacles</spells>
 	</monster>
@@ -680,6 +693,7 @@
 			<name>Jaws of Semuanya (Recharge 5-6)</name>
 			<text>The subchief invokes the primal magic of Semuanya, summoning a spectral maw around a target it can see within 60 feet of it. The target must make a DC 13 Dexterity saving throw, taking 22 (5d8) piercing damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw is also frightened until the end of its next turn.</text>
 			<attack>Jaws of Semuanya||5d8</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -732,6 +746,7 @@
 		<action>
 			<name>Rend the Field (Recharge 5-6)</name>
 			<text>The render makes a claw attack against each creature of its choice within 10 feet of it. A creature hit by this attack must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -770,7 +785,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.</text>
-			<attack>Sneak Attack| |4d6</attack>
+			<attack>Sneak Attack||4d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -820,6 +835,7 @@
 		<trait>
 			<name>Rancid Degeneration</name>
 			<text>At the end of each of the troll's turns, each creature within 5 feet of it takes 11 (2d10) necrotic damage, unless the troll has taken acid or fire damage since the end of its last turn.</text>
+			<attack>Degeneration||2d10</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -913,8 +929,9 @@
 			<attack>Claw|7|1d8+4</attack>
 		</action>
 		<action>
-			<name>Flurry of Claws (Recharge 4_6)</name>
+			<name>Flurry of Claws (Recharge 4-6)</name>
 			<text>The mangler makes six claw attacks against one target. Either before or after these attacks, it can move up to its speed as a bonus action without provoking opportunity attacks.</text>
+			<recharge>D4</recharge>
 		</action>
 		<spells />
 		<slots />
@@ -1054,6 +1071,7 @@
 			<name>Freezing Breath (Recharge 5-6)</name>
 			<text>Tooth-N-Claw exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) cold damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Freezing Breath||6d6</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1184,11 +1202,12 @@
 		</trait>
 		<trait>
 			<name>Song of Rest</name>
-			<text>The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra ld6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well.</text>
+			<text>The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra 1d6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well.</text>
 		</trait>
 		<trait>
 			<name>Taunt (2/day)</name>
 			<text>The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.</text>
+			<recharge>2/DAY</recharge>
 		</trait>
 		<action>
 			<name>Shortsword</name>
@@ -1233,6 +1252,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
@@ -1278,6 +1298,7 @@
 			<name>Poison Breath (Recharge 5-6)</name>
 			<text>The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Poison Breath||22d6</attack>
+			<recharge>D5</recharge>
 		</action>
 		<legendary>
 			<name>Detect</name>
@@ -1290,6 +1311,7 @@
 		<legendary>
 			<name>Wing Attack (Costs 2 Actions)</name>
 			<text>The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+			<attack>Wing Attack||2d6+8</attack>
 		</legendary>
 	</monster>
 	<monster>
@@ -1345,7 +1367,7 @@
 			<text />
 			<text>Fiend patron: blindness/deafness, burning hands, command, fire shield, fireball, flame strike, hellish rebuke, scorching ray, stinking cloud, wall of fire</text>
 			<text />
-			<text>Great Old One patron: clairvoyance, detect thoughts, dissonant whispers, dominate person, Evard's black tentacles, hunger of Hadar, phantasmal force, sending, Tasha's tasha's hideous laughter, telekinesis</text>
+			<text>Great Old One patron: clairvoyance, detect thoughts, dissonant whispers, dominate person, Evard's black tentacles, hunger of Hadar, phantasmal force, sending, Tasha's hideous laughter, telekinesis</text>
 		</trait>
 		<action>
 			<name>Deathly Claw</name>
@@ -1365,6 +1387,219 @@
 			<attack>Grave Bolts|6|4d8</attack>
 		</action>
 		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility</spells>
+		<slots>0,0,0,0,2</slots>
+	</monster>
+	<monster>
+		<name>Deathlock Mastermind (Archfey)</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>110 (20d8+20)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>15</int>
+		<wis>12</wis>
+		<cha>17</cha>
+		<save>Int +5, Cha +6</save>
+		<skill>Arcana +5, History +5, Perception +4</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 120 ft. (including magical darkness)</senses>
+		<passive>14</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A deathlock doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The deathlock's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:</text>
+			<text>At will: detect magic, disguise self, mage armor.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
+			<text />
+			<text>Cantrips (at will): chill touch, mage hand, minor illusion, poison spray</text>
+			<text>1st–5th level (2 5th-level slots): arms of Hadar, blight, counterspell, crown of madness, darkness, dimension door, dispel magic, fly, hold monster, invisibility</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>The deathlock has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<trait>
+			<name>Variant: Patron-Specific Spells</name>
+			<text>You can customize a deathlock mastermind by replacing some or all of the spells in its Spellcasting trait with spells specific to its patron. Here are examples.</text>
+			<text />
+			<text>Archfey patron: blink, dominate beast, dominate person, faerie fire, greater invisibility, hunger of Hadar, hypnotic pattern, phantasmal force, seeming, sleep</text>
+		</trait>
+		<action>
+			<name>Deathly Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3 necrotic damage).</text>
+			<attack>Deathly Claw|6|3d6+3</attack>
+		</action>
+		<action>
+			<name>Grave Bolts</name>
+			<text>Ranged Spell Attack: +6 to hit, range 120 ft., one or two targets. Hit: 18 (4d8) necrotic damage. If the target is Large or smaller, it must succeed on a DC 16 Strength saving throw or become restrained as shadowy tendrils wrap around it for 1 minute. A restrained target can use its action to repeat the saving throw, ending the effect on itself on a success.</text>
+			<text />
+			<text>Restrained:</text>
+			<text>• A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
+			<text />
+			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<attack>Grave Bolts|6|4d8</attack>
+		</action>
+		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility, Blink, Dominate Beast, Dominate Person, Faerie Fire, Greater Invisibility, Hunger of Hadar, Hypnotic Pattern, Phantasmal Force, Seeming, Sleep</spells>
+		<slots>0,0,0,0,2</slots>
+	</monster>
+	<monster>
+		<name>Deathlock Mastermind (Fiend)</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>110 (20d8+20)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>15</int>
+		<wis>12</wis>
+		<cha>17</cha>
+		<save>Int +5, Cha +6</save>
+		<skill>Arcana +5, History +5, Perception +4</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 120 ft. (including magical darkness)</senses>
+		<passive>14</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A deathlock doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The deathlock's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:</text>
+			<text>At will: detect magic, disguise self, mage armor.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
+			<text />
+			<text>Cantrips (at will): chill touch, mage hand, minor illusion, poison spray</text>
+			<text>1st–5th level (2 5th-level slots): arms of Hadar, blight, counterspell, crown of madness, darkness, dimension door, dispel magic, fly, hold monster, invisibility</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>The deathlock has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<trait>
+			<name>Variant: Patron-Specific Spells</name>
+			<text>You can customize a deathlock mastermind by replacing some or all of the spells in its Spellcasting trait with spells specific to its patron. Here are examples.</text>
+			<text />
+			<text>Fiend patron: blindness/deafness, burning hands, command, fire shield, fireball, flame strike, hellish rebuke, scorching ray, stinking cloud, wall of fire</text>
+		</trait>
+		<action>
+			<name>Deathly Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3 necrotic damage).</text>
+			<attack>Deathly Claw|6|3d6+3</attack>
+		</action>
+		<action>
+			<name>Grave Bolts</name>
+			<text>Ranged Spell Attack: +6 to hit, range 120 ft., one or two targets. Hit: 18 (4d8) necrotic damage. If the target is Large or smaller, it must succeed on a DC 16 Strength saving throw or become restrained as shadowy tendrils wrap around it for 1 minute. A restrained target can use its action to repeat the saving throw, ending the effect on itself on a success.</text>
+			<text />
+			<text>Restrained:</text>
+			<text>• A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
+			<text />
+			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<attack>Grave Bolts|6|4d8</attack>
+		</action>
+		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility, Blindness/Deafness, Burning Hands, Command, Fire Shield, Fireball, Flame Strike, Hellish Rebuke, Scorching Ray, Stinking Cloud, Wall of Fire</spells>
+		<slots>0,0,0,0,2</slots>
+	</monster>
+	<monster>
+		<name>Deathlock Mastermind (Great Old One)</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>110 (20d8+20)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>15</int>
+		<wis>12</wis>
+		<cha>17</cha>
+		<save>Int +5, Cha +6</save>
+		<skill>Arcana +5, History +5, Perception +4</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 120 ft. (including magical darkness)</senses>
+		<passive>14</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A deathlock doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The deathlock's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:</text>
+			<text>At will: detect magic, disguise self, mage armor.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
+			<text />
+			<text>Cantrips (at will): chill touch, mage hand, minor illusion, poison spray</text>
+			<text>1st–5th level (2 5th-level slots): arms of Hadar, blight, counterspell, crown of madness, darkness, dimension door, dispel magic, fly, hold monster, invisibility</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>The deathlock has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<trait>
+			<name>Variant: Patron-Specific Spells</name>
+			<text>You can customize a deathlock mastermind by replacing some or all of the spells in its Spellcasting trait with spells specific to its patron. Here are examples.</text>
+			<text />
+			<text>Great Old One patron: clairvoyance, detect thoughts, dissonant whispers, dominate person, Evard's black tentacles, hunger of Hadar, phantasmal force, sending, Tasha's tasha's hideous laughter, telekinesis</text>
+		</trait>
+		<action>
+			<name>Deathly Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3 necrotic damage).</text>
+			<attack>Deathly Claw|6|3d6+3</attack>
+		</action>
+		<action>
+			<name>Grave Bolts</name>
+			<text>Ranged Spell Attack: +6 to hit, range 120 ft., one or two targets. Hit: 18 (4d8) necrotic damage. If the target is Large or smaller, it must succeed on a DC 16 Strength saving throw or become restrained as shadowy tendrils wrap around it for 1 minute. A restrained target can use its action to repeat the saving throw, ending the effect on itself on a success.</text>
+			<text />
+			<text>Restrained:</text>
+			<text>• A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.</text>
+			<text />
+			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
+			<text />
+			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<attack>Grave Bolts|6|4d8</attack>
+		</action>
+		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility, Clairvoyance, Detect Thoughts, Dissonant Whispers, Dominate Person, Evard's Black Tentacles, Hunger of Hadar, Phantasmal Force, Sending, Tasha's Hideous Laughter, Telekinesis</spells>
 		<slots>0,0,0,0,2</slots>
 	</monster>
 	<monster>
@@ -1438,7 +1673,7 @@
 		<cr>5</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 237</text>
+			<text>Tales from the Yawning Portal, page 237</text>
 		</trait>
 		<trait>
 			<name>Undead Nature</name>
@@ -1459,7 +1694,7 @@
 		<action>
 			<name>Empowered Slam</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage.</text>
-			<attack>Empowered Slam|7|1d6+4</attack>
+			<attack>Empowered Slam|7|1d6+4+2d6</attack>
 		</action>
 		<spells />
 		<slots />
@@ -1500,7 +1735,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.</text>
-			<attack>Sneak Attack| |4d6</attack>
+			<attack>Sneak Attack||4d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1680,6 +1915,7 @@
 		<trait>
 			<name>Martial Fury</name>
 			<text>As a bonus action, the sword wraith can make one weapon attack, which deals an extra 9 (2d8) necrotic damage on a hit. If it does so, attack rolls against it have advantage until the start of its next turn.</text>
+			<attack>Martial Fury||2d8</attack>
 		</trait>
 		<trait>
 			<name>Turning Defiance</name>
@@ -1693,6 +1929,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
 			<attack>Longsword|7|1d8+4</attack>
+			<attack>Longsword (2H)|7|1d10+4</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -1702,6 +1939,8 @@
 		<action>
 			<name>Call to Honor (1/Day)</name>
 			<text>To use this action, the sword wraith must have taken damage during the current combat. If the sword wraith can use this action, it gives itself advantage on attack rolls until the end of its next turn, and 1d4 + 1 sword wraith warriors appear in unoccupied spaces within 30 feet of it. The warriors last until they drop to 0 hit points, and they take their turns immediately after the commander's turn on the same initiative count.</text>
+			<attack>Warriors||1d4+1</attack>
+			<recharge>1/DAY</recharge>
 		</action>
 		<spells />
 		<slots />
@@ -1743,6 +1982,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
 			<attack>Longsword|6|1d8+4</attack>
+			<attack>Longsword (2H)|6|1d10+4</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -1794,11 +2034,12 @@
 		<action>
 			<name>Maul</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 +3) bludgeoning damage.</text>
-			<attack>Maul|7|2d6 +3</attack>
+			<attack>Maul|7|2d6+3</attack>
 		</action>
 		<reaction>
 			<name>Guided Strike (Recharges after a Short or Long Rest)</name>
 			<text>The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses.</text>
+			<recharge>SHORT</recharge>
 		</reaction>
 		<spells>Light, Mending, Sacred Flame, Spare the Dying, Divine Favor, Guiding Bolt, Healing Word, Shield of Faith, Lesser Restoration, Magic Weapon, Prayer of Healing, Silence, Spiritual Weapon, Beacon of Hope, Crusader's Mantle, Dispel Magic, Revivify, Spirit Guardians, Water Walk, Banishment, Freedom of Movement, Guardian of Faith, Stoneskin, Flame Strike, Mass Cure Wounds, Hold Monster</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
@@ -1882,7 +2123,7 @@
 		<cr>8</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 33, +5 to hit with spell attacks). It has the following paladin spells prepared:</text>
+			<text>The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following paladin spells prepared:</text>
 			<text>1st level (4 slots): command, protection from evil and good, thunderous smite</text>
 			<text>2nd level (3 slots): branding smite, find steed</text>
 			<text>3rd level (2 slots): blinding smite, dispel magic</text>
@@ -1904,6 +2145,7 @@
 		<action>
 			<name>Dreadful Aspect (Recharges after a Short or Long Rest)</name>
 			<text>The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the tar get can repeat the saving throw, ending the effect on itself on a success.</text>
+			<recharge>SHORT</recharge>
 		</action>
 		<spells>Command, Protection from Evil and Good, Thunderous Smite, Branding Smite, Find Steed, Blinding Smite, Dispel Magic</spells>
 		<slots>4,3,2,0,0,0,0,0,0</slots>
@@ -1940,6 +2182,7 @@
 		<trait>
 			<name>Rejuvenation</name>
 			<text>While its master lives, a destroyed boneclaw gains a new body in 1d10 hours, with all its hit points. The new body appears within 1 mile of the boneclaw's master.</text>
+			<attack>Hours||1d10</attack>
 		</trait>
 		<trait>
 			<name>Shadow Stealth</name>
@@ -1965,6 +2208,7 @@
 			<name>Shadow Jump</name>
 			<text>If the boneclaw is in dim light or darkness, each creature of the boneclaw's choice within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 34 (5d12 + 2) necrotic damage.</text>
 			<text>The boneclaw then magically teleports up to 60 feet to an unoccupied space it can see. It can bring one creature it's grappling, teleporting that creature to an unoccupied space it can see within 5 feet of its destination. The destination spaces of this teleportation must be in dim light or darkness.</text>
+			<attack>Damage||5d12+2</attack>
 		</action>
 		<reaction>
 			<name>Deadly Reach</name>
@@ -1981,7 +2225,7 @@
 		<description>Source: Dragon of Icespire Peak</description>
 		<alignment>any alignment</alignment>
 		<ac>9</ac>
-		<hp>63 (18d8_18)</hp>
+		<hp>63 (18d8-18)</hp>
 		<speed>0 ft., fly 40 ft. (hover)</speed>
 		<str>7</str>
 		<dex>8</dex>
@@ -2006,10 +2250,12 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The eidolon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object other than a sacred statue.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Sacred Animation (Recharge 5-6)</name>
 			<text>When the eidolon moves into a space occupied by a sacred statue, the eidolon can disappear, causing the statue to become a creature under the eidolon's control. The eidolon uses the sacred statue's statistics in place of its own.</text>
+			<recharge>D5</recharge>
 		</trait>
 		<trait>
 			<name>Turn Resistance</name>
@@ -2083,6 +2329,7 @@
 			<name>Lightning Breath (Recharge 5-6)</name>
 			<text>The half-blue dragon exhales lightning in a 30-­foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Lightning Breath||4d10</attack>
+			<recharge>D5</recharge>
 		</action>
 		<reaction>
 			<name>Parry</name>
@@ -2212,6 +2459,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
@@ -2263,6 +2511,7 @@
 			<text>Lightning Breath. The dragon exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
 			<text>Repulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 19 Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon.</text>
 			<attack>Lightning Breath||12d10</attack>
+			<recharge>D5</recharge>
 		</action>
 		<legendary>
 			<name>Detect</name>
@@ -2275,6 +2524,7 @@
 		<legendary>
 			<name>Wing Attack (Costs 2 Actions)</name>
 			<text>The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+			<attack>Wing Attack||2d6+7</attack>
 		</legendary>
 	</monster>
 </compendium>
