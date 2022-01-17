@@ -120,6 +120,7 @@
 		<trait>
 			<name>Taunt (2/day)</name>
 			<text>The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.</text>
+			<recharge>2/day</recharge>
 		</trait>
 		<action>
 			<name>Shortsword</name>
@@ -167,6 +168,7 @@
 			<name>Death Gaze</name>
 			<text>When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.</text>
 			<text>	Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so. it has disadvantage on attack rolls against the bodak until the start of its next turn. If the creature looks at the bodak in the meantime, it must immediately make the saving throw.</text>
+			<attack>Death Gaze||3d10</attack>
 		</trait>
 		<trait>
 			<name>Sunlight Hypersensitivity</name>
@@ -186,7 +188,7 @@
 		<spells/>
 	</monster>
 	<monster>
-		<name>BUllywug Croaker</name>
+		<name>Bullywug Croaker</name>
 		<size>M</size>
 		<type>humanoid (bullywug)</type>
 		<description>Source: Ghosts of Saltmarsh</description>
@@ -241,10 +243,12 @@
 			<name>Glaaar-pat (3/Day)</name>
 			<text>The croaker sings a song of marshy doom. Each chosen creature within 30 feet of the croaker that can hear the song must make a DC 12 Wisdom saving throw. taking 9 (2d8) psychic damage on a failed save. or half as much damage on a successful one. A creature that fails this saving throw also has disadvantage on Constitution saving throws until the end of its next turn.</text>
 			<attack>Psychic Damage||2d8</attack>
+			<recharge>3/Day</recharge>
 		</action>
 		<action>
 			<name>Rooooo-glog (1/Day)</name>
 			<text>The croaker sings an ode to an elder froghemoth. Each bullywug within 30 feet of the croaker that can hear the song gains 10 temporary hit points.</text>
+			<recharge>1/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -314,6 +318,7 @@
 		<action>
 			<name>Croaked Degree (1/Day)</name>
 			<text>The royal makes a loud pronouncement. Each bullywug within 60 feet of the royal that can hear the pronouncement has advantage on its next attack roll.</text>
+			<recharge>1/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -372,6 +377,7 @@
 		<action>
 			<name>Psychic Screech (Hybrid Form Only; Recharges after a Short or Long Rest)</name>
 			<text>The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a DC 13 Wisdom saving throw or be stunned until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are 1n the same body of water.</text>
+			<recharge>Short</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -415,8 +421,9 @@
 			<name>Bluerot</name>
 			<text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
 			<text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+			<attack>Hours/Decrease||1d4</attack>
 			<text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-			<roll>4d8</roll>
+			<attack>Necrotic Damage||4d8</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -469,8 +476,9 @@
 			<name>Bluerot</name>
 			<text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
 			<text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+			<attack>Hours/Decrease||1d4</attack>
 			<text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-			<roll>4d8</roll>
+			<attack>Necrotic Damage||4d8</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -478,17 +486,18 @@
 		</action>
 		<action>
 			<name>Hand Crossbow</name>
-			<text>Ranged Weapon Attack: +5 to hit , range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
+			<text>Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
 			<attack>Hand Crossbow|5|1d6+3+1d6</attack>
 		</action>
 		<action>
 			<name>Dagger</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 9 (2d8)poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 9 (2d8) poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
 			<attack>Dagger|5|1d4+3+2d8</attack>
 		</action>
 		<action>
 			<name>Reveal (1/Day)</name>
 			<text>The drowned assassin removes its mask, revealing its rotting face. Each creature of the assassin's choice within 30 feet of it that can see the assassin must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn.</text>
+			<recharge>1/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -532,8 +541,9 @@
 			<name>Bluerot</name>
 			<text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
 			<text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+			<attack>Hours/Decrease||1d4</attack>
 			<text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-			<roll>4d8</roll>
+			<attack>Necrotic Damage||4d8</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -577,6 +587,7 @@
 		<trait>
 			<name>Cold Aura</name>
 			<text>At the start of each of the drowned master's turns, each creature within 5 feet of it takes 5 (1d10) cold damage. A creature that touches the drowned master or hits it with a melee attack while within 5 feet of it takes 5 (1d10) cold damage.</text>
+			<attack>Cold Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Undead Fortitude</name>
@@ -586,8 +597,9 @@
 			<name>Bluerot</name>
 			<text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
 			<text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+			<attack>Hours/Decrease||1d4</attack>
 			<text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-			<roll>4d8</roll>
+			<attack>Necrotic Damage||4d8</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -605,8 +617,9 @@
 		</action>
 		<action>
 			<name>Necrotic Ink (Recharge 5-6)</name>
-			<text>The drowned master discharges foul ink in front of itself in a 30-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw 1s blinded until the end of its next turn and contracts bluerot (see the "Bluerot" sidebar).</text>
-			<attack>Necrotic Ink (Recharge 5-6)||6d8</attack>
+			<text>The drowned master discharges foul ink in front of itself in a 30-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw is blinded until the end of its next turn and contracts bluerot (see the "Bluerot" sidebar).</text>
+			<attack>Necrotic Ink||6d8</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -636,8 +649,9 @@
 		<cr>2</cr>
 		<trait>
 			<name>Shapechanger (2/Day)</name>
-			<text>The fathomer can use its action to polymorph into a Medium serpent composed of water, or back into its true form. Anything the fathomer is wearing or carrying is subsumed into the serpent form during the change, inaccessible until the fathomer returns to its true form. The fathomer reverts to its true form after 4 hours, unless it can expend another use of this trait. If the fathom er is knocked unconscious or dies, it also reverts to its true form.</text>
+			<text>The fathomer can use its action to polymorph into a Medium serpent composed of water, or back into its true form. Anything the fathomer is wearing or carrying is subsumed into the serpent form during the change, inaccessible until the fathomer returns to its true form. The fathomer reverts to its true form after 4 hours, unless it can expend another use of this trait. If the fathomer is knocked unconscious or dies, it also reverts to its true form.</text>
 			<text>	While in serpent form, the fathomer gains a swimming speed of 40 feet, the ability to breathe underwater, immunity to poison damage, as well as resistance to fire damage and bludgeoning, piercing, and slashing damage from nonmagical weapons. It also has immunity to the following conditions: exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious. The serpent form can enter a hostile creature's space and stop there. In addition, if water can pass through a space, the serpent can do so without squeezing.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Olhydra's Armor (Human Form Only)</name>
@@ -652,11 +666,11 @@
 			<text>3rd level: vampiric touch</text>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
-		<slots>0,0,3,0,0,0,0,0,0</slots>
+		<slots>0,0,2,0,0,0,0,0,0</slots>
 		<spells>Chill Touch, Eldritch Blast, Mage Hand, Armor of Agathys, Expeditious Retreat, Hex, Invisibility, Vampiric Touch</spells>
 		<action>
 			<name>Constrict (Serpent Form Only)</name>
-			<text>Melee Weapon Attack: +4 to hit, reach S ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 12). Until the grapple ends, the target is restrained, and the fathomer can't constrict another target.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 12). Until the grapple ends, the target is restrained, and the fathomer can't constrict another target.</text>
 			<attack>Constrict|4|2d6+2</attack>
 		</action>
 		<action>
@@ -686,7 +700,7 @@
 		<resist/>
 		<immune/>
 		<conditionImmune/>
-		<senses>blinds1ght 10 ft.</senses>
+		<senses>blindsight 10 ft.</senses>
 		<passive>12</passive>
 		<languages>—</languages>
 		<cr>4</cr>
@@ -780,12 +794,13 @@
 		<action>
 			<name>Luring Song</name>
 			<text>The matriarch sings a magical melody. Every humanoid and giant within 300 feet of the matriarch that can hear the song must succeed on a DC 14 Wisdom saving throw or be charmed until the song ends. The matriarch must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the matriarch is incapacitated.</text>
-			<text>	While charmed by the matriarch, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 feet away from the matriarch, the target must move on its turn toward the matriarch by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks. but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the matriarch, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.</text>
+			<text>	While charmed by the matriarch, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 feet away from the matriarch, the target must move on its turn toward the matriarch by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the matriarch, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.</text>
 			<text>	A target that successfully saves is immune to this matriarch's song for the next 24 hours.</text>
 		</action>
 		<action>
 			<name>Visage of Desire (1/Day)</name>
 			<text>The matriarch projects a vision into the minds of creatures within 30 feet of it that aren't constructs or undead, showing each creature achieving whatever it most desires. An affected creature must succeed on a DC 14 Wisdom saving throw or drop whatever it is holding and become paralyzed until the end of its next turn.</text>
+			<recharge>1/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -830,6 +845,7 @@
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 7) piercing damage. If the target is a Medium or smaller creature grappled by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 21 (6d6) acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time.</text>
 			<text>	If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 23 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in spaces within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
 			<attack>Bite|12|3d8+7</attack>
+			<attack>Acid||6d6</attack>
 		</action>
 		<action>
 			<name>Tentacle</name>
@@ -839,6 +855,7 @@
 		<action>
 			<name>Fling</name>
 			<text>One Medium or smaller object held or creature grappled by the kraken is thrown up to 40 feet in a random direction and knocked prone. If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
+			<attack>Bludgeoning Damage||1d6</attack>
 		</action>
 		<action>
 			<name>Lightning Strike</name>
@@ -857,6 +874,7 @@
 		<legendary>
 			<name>Ink Cloud (Costs 3 Actions)</name>
 			<text>While underwater, the kraken expels an ink cloud in a 40-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken. Each creature other than the kraken that ends its turn there must succeed on a DC 18 Constitution saving throw, taking 11 (2d10) poison damage on a failed save or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn.</text>
+			<attack>Poison Damage||2d10</attack>
 		</legendary>
 	</monster>
 	<monster>
@@ -891,7 +909,7 @@
 		<trait>
 			<name>Martial Advantage</name>
 			<text>Once per turn, the koalinth can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the koalinth that isn't incapacitated.</text>
-			<roll>2d6</roll>
+			<attack>Martial Advantage||2d6</attack>
 		</trait>
 		<action>
 			<name>Trident</name>
@@ -932,7 +950,7 @@
 		<trait>
 			<name>Martial Advantage</name>
 			<text>Once per turn, the sergeant can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the sergeant that isn't incapacitated.</text>
-			<roll>2d6</roll>
+			<attack>Martial Advantage||2d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -940,7 +958,7 @@
 		</action>
 		<action>
 			<name>Trident</name>
-			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit:5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
 			<attack>Trident (1H)|4|1d6+2</attack>
 			<attack>Trident (2H)|4|1d8+2</attack>
 		</action>
@@ -952,6 +970,7 @@
 		<reaction>
 			<name>Spear the Helpless (2/Day)</name>
 			<text>Whenever a creature within 30 feet of the sergeant becomes restrained, the sergeant can move its speed toward the restrained creature. If the sergeant ends its move within reach of the restrained creature, it can make a melee attack against it.</text>
+			<recharge>2/Day</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -1001,6 +1020,7 @@
 		<action>
 			<name>Voice of the Kraken (Recharges after a Short or Long Rest)</name>
 			<text>A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>Short</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1099,10 +1119,11 @@
 			<name>Whirl (Recharge 5-6)</name>
 			<text>The statue can use its action to spin at the waist, targeting creatures of its choice within 10 feet of it. Each target must make a DC 13 Dexterity saving throw, taking 19 (3d10 + 3) bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Whirl||3d10+3</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
-		<name>Lizard Commoner</name>
+		<name>Lizardfolk Commoner</name>
 		<size>M</size>
 		<type>humanoid (lizardfolk)</type>
 		<description>Source: Ghosts of Saltmarsh</description>
@@ -1186,6 +1207,7 @@
 		<action>
 			<name>Rend the Field (Recharge 5-6)</name>
 			<text>The render makes a claw attack against each creature of its choice within 10 feet of it. A creature hit by this attack must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1238,7 +1260,7 @@
 		</action>
 		<reaction>
 			<name>Shield Block</name>
-			<text>If an ally within 5 feet ofthe scaleshield is hit by an attack, the scaleshield can reduce that attack's damage by half.</text>
+			<text>If an ally within 5 feet of the scaleshield is hit by an attack, the scaleshield can reduce that attack's damage by half.</text>
 		</reaction>
 	</monster>
 	<monster>
@@ -1272,7 +1294,7 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>The subchief is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +S to hit with spell attacks). It has the following cleric spells prepared:</text>
+			<text>The subchief is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following cleric spells prepared:</text>
 			<text>Cantrips (at will): light, sacred flame, spare the dying, thaumaturgy</text>
 			<text>1st level (4 slots): command, guiding bolt, purify food and drink</text>
 			<text>2nd level (3 slots): hold person, lesser restoration, silence</text>
@@ -1290,6 +1312,7 @@
 			<name>Jaws of Semuanya (Recharge 5-6)</name>
 			<text>The subchief invokes the primal magic of Semuanya, summoning a spectral maw around a target it can see within 60 feet of it. The target must make a DC 13 Dexterity saving throw, taking 22 (5d8) piercing damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw is also frightened until the end of its next turn.</text>
 			<attack>Jaws of Semuanya||5d8</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1390,7 +1413,7 @@
 		<type>fiend (demon)</type>
 		<description>Source: Ghosts of Saltmarsh</description>
 		<alignment>chaotic evil</alignment>
-		<ac>13 (natura l armor)</ac>
+		<ac>13 (natural armor)</ac>
 		<hp>33 (6d8 + 6)</hp>
 		<speed>30 ft.</speed>
 		<str>14</str>
@@ -1446,15 +1469,16 @@
 		<cr>7</cr>
 		<trait>
 			<name>Legendary Resistance (2/Day)</name>
-			<text>If the maw of Sekolah fails a saving throw, it can choose to succeed instead.</text>
+			<text>If the Maw of Sekolah fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Water Breathing</name>
-			<text>The maw of Sekolah can breathe only underwater.</text>
+			<text>The Maw of Sekolah can breathe only underwater.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The maw of Sekolah makes one attack with its bite and one attack with its tail smash.</text>
+			<text>The Maw of Sekolah makes one attack with its bite and one attack with its tail smash.</text>
 		</action>
 		<action>
 			<name>Bite</name>
@@ -1468,15 +1492,15 @@
 		</action>
 		<legendary>
 			<name>Detect</name>
-			<text>The maw of Sekolah makes a Wisdom (Perception) check.</text>
+			<text>The Maw of Sekolah makes a Wisdom (Perception) check.</text>
 		</legendary>
 		<legendary>
 			<name>Speed of Sekolah</name>
-			<text>The maw of Sekolah moves up to its speed.</text>
+			<text>The Maw of Sekolah moves up to its speed.</text>
 		</legendary>
 		<legendary>
 			<name>Feed (Costs 2 Actions)</name>
-			<text>The ferocious spirit of Sekolah flashes through the water, tearing through the foes ofthe maw of Sekolah. Each creature of the maw's choosing within 60 feet of it must make a DC 16 Dexterity saving throw, taking 7 (2d6) slashing damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The ferocious spirit of Sekolah flashes through the water, tearing through the foes of the Maw of Sekolah. Each creature of the Maw's choosing within 60 feet of it must make a DC 16 Dexterity saving throw, taking 7 (2d6) slashing damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Feed||2d6</attack>
 		</legendary>
 	</monster>
@@ -1522,6 +1546,7 @@
 			<name>Inject Toxin (2/Day)</name>
 			<text>Melee Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, and the creature must succeed on a DC 12 Constitution saving throw or be paralyzed until the end of its next turn.</text>
 			<attack>Inject Toxin|4|1d8+2</attack>
+			<recharge>2/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1609,6 +1634,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the peryton fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1670,7 +1696,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>Mr. Dory's innate spellcasting ab ility is Charisma (save DC 15, +7 to hit with spell attacks). Mr. Dory can innately cast the following spells, requiring no material components:</text>
+			<text>Mr. Dory's innate spellcasting ability is Charisma (save DC 15, +7 to hit with spell attacks). Mr. Dory can innately cast the following spells, requiring no material components:</text>
 			<text>At will: detect magic, detect thoughts, invisibility (self only)</text>
 			<text>2/day each: fear, fireball, fly</text>
 			<text>1/day each: cloudkill, etherealness</text>
@@ -1684,6 +1710,7 @@
 		<trait>
 			<name>Water Dependency</name>
 			<text>Mr. Dory takes 6 (1d12) acid damage at the end of every hour he goes without exposure to water.</text>
+			<attack>Acid Damage||1d12</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1697,7 +1724,8 @@
 		<action>
 			<name>Eye of Corruption (Recharge 5-6)</name>
 			<text>Mr. Dory glares at a creature he can see within 30 feet of him. The target must make a DC 15 Constitution saving throw. On a failed save, it takes 27 (5d10) necrotic damage and 27 (5d10) poison damage and then gains vulnerability to both necrotic and poison damage for 1 minute. On a successful save, it takes half damage and does not gain the vulnerabilities.</text>
-			<attack>Eye of Corruption (Recharge 5-6)||5d10+5d10</attack>
+			<attack>Eye of Corruption||5d10+5d10</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1805,7 +1833,7 @@
 		<wis>10</wis>
 		<cha>14</cha>
 		<save/>
-		<skill>Athletics +5 , Intimidation +4</skill>
+		<skill>Athletics +5, Intimidation +4</skill>
 		<vulnerable/>
 		<resist/>
 		<immune/>
@@ -1840,6 +1868,7 @@
 		<reaction>
 			<name>Shape Up, Ye Dog (2/day)</name>
 			<text>Whenever a friendly creature within 30 feet of the captain that can hear it misses with an attack, the captain can yell perilous threats to allow that creature to reroll the attack roll.</text>
+			<recharge>2/day</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -2257,9 +2286,9 @@
 		</trait>
 		<action>
 			<name>Bites</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage ifthe swarm has half of its hit points or fewer.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.</text>
 			<attack>Bites|6|4d6</attack>
-			<attack>Bites (under 1/2hp)|6|2d6</attack>
+			<attack>Bites (under 1/2 hp)|6|2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -2297,7 +2326,7 @@
 		</trait>
 		<trait>
 			<name>Shark Telepathy</name>
-			<text>The high priestess can magically command any shark within 120 feet of it, using a limited tele pathy.</text>
+			<text>The high priestess can magically command any shark within 120 feet of it, using a limited telepathy.</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -2366,7 +2395,7 @@
 		</trait>
 		<trait>
 			<name>Shark Telepathy</name>
-			<text>The wave shaper can magically command any shark within 120 feet of it, using a limited tele pathy.</text>
+			<text>The wave shaper can magically command any shark within 120 feet of it, using a limited telepathy.</text>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
@@ -2396,6 +2425,8 @@
 			<text>The wave shaper targets a body ofwater at least 50 feet square and 25 feet deep, causing a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, 25 feet tall, and lasts for 1 minute or until the wave shaper is incapacitated. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by succeeding on a DC 14 Strength (Athletics) check.</text>
 			<text>	When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a DC 14 Strength saving throw. On a failed save, the creature takes 9 (2d8) bludgeoning damage and is caught in the vortex until it ends. On a success, the creature takes half damage and isn't caught in the vortex. A creature caught in the vortexcan use its action to tryto swim away from the vortex as described above, but it has disadvantage on the Strength (Athletics) check to do so.</text>
 			<text>	The first time each turn that an object enters the vortex, the object takes 9 (2d8) bludgeoning damage. This damage occurs each round it remains in the vortex.</text>
+			<recharge>1/Day</recharge>
+			<attack>Whirlpool||2d8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -2620,6 +2651,7 @@
 			<name>Avalanche of Bones (Recharge 5-6)</name>
 			<text>The juggernaut collapses into a large heap before quickly reforming. Each creature within 10 feet of the juggernaut must make a DC 14 Dexterity saving throw, taking 18 (4d8) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw is also knocked prone.</text>
 			<attack>Avalanche of Bones||4d8</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -2702,7 +2734,7 @@
 		<trait>
 			<name>Water Dependency</name>
 			<text>The skum takes 6 (1d12) acid damage every 10 minutes it goes without exposure to water.</text>
-			<roll>1d12</roll>
+			<attack>Acid Damage||1d12</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2761,20 +2793,20 @@
 			<name>Wind Javelin</name>
 			<text>The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 (3d6 + 9) piercing damage to the target, striking unerringly. The javelin disappears after it hits.</text>
 			<attack>Wind Javelin||3d6+9</attack>
-			<legendary>
-				<name>Gust</name>
-				<text>The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around it. The target must succeed on a DC 18 Strength saving throw or be pushed up to 20 feet in any horizontal direction the giant chooses.</text>
-			</legendary>
-			<legendary>
-				<name>Thunderbolt (2 Actions)</name>
-				<text>The giant hurls a thunderbolt at a creature it can see within 600 feet of it. The target must make a DC 18 Dexterity saving throw, taking 22 (4d10) thunder damage on a failed save, or half as much damage on a successful one.</text>
-				<attack>Thunderbolt (2 Actions)||4d10</attack>
-			</legendary>
-			<legendary>
-				<name>One with the Storm (3 Actions)</name>
-				<text>The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm.</text>
-			</legendary>
 		</action>
+		<legendary>
+			<name>Gust</name>
+			<text>The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around it. The target must succeed on a DC 18 Strength saving throw or be pushed up to 20 feet in any horizontal direction the giant chooses.</text>
+		</legendary>
+		<legendary>
+			<name>Thunderbolt (2 Actions)</name>
+			<text>The giant hurls a thunderbolt at a creature it can see within 600 feet of it. The target must make a DC 18 Dexterity saving throw, taking 22 (4d10) thunder damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Thunderbolt (2 Actions)||4d10</attack>
+		</legendary>
+		<legendary>
+			<name>One with the Storm (3 Actions)</name>
+			<text>The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm.</text>
+		</legendary>
 	</monster>
 	<monster>
 		<name>Swarm of Rot Grubs</name>
@@ -2809,6 +2841,8 @@
 			<name>Bites</name>
 			<text>Melee Weapon Attack: +0 to hit, reach 0 ft., one creature in the swarm's space. Hit: The target is infested by 1d4 rot grubs. At the start of each of the target's turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned.</text>
 			<text>	If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target.</text>
+			<attack>Grubs||1d4</attack>
+			<attack>Piercing||1d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -2843,6 +2877,7 @@
 		<trait>
 			<name>Legendary Resistance (2/Day)</name>
 			<text>If Thousand Teeth fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2904,6 +2939,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the statue fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>

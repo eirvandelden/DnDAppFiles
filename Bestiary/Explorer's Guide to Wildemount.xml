@@ -87,7 +87,7 @@
 			<name>Innate Spellcasting</name>
 			<text>The nullifier's innate spellcasting ability is Charisma (spell save 16). It can innately cast the following spells, requiring no material components:</text>
 			<text>At will: counterspell (see "Reactions" below), detect magic, dispel magic, see invisibility</text>
-			<text>1: antimagic field</text>
+			<text>1/Day: antimagic field</text>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Counterspell,Detect Magic,Dispel Magic,See Invisibility,Antimagic Field</spells>
@@ -225,6 +225,7 @@
 			<name>Cold Breath (Recharge 6)</name>
 			<text>The yeti exhales a 30-foot cone of frigid air. Each creature in that area must make a 18 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Cold Breath||10d8</attack>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -368,6 +369,7 @@
 		<action>
 			<name>Animate Trees (1/Day)</name>
 			<text>The tree magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a tree, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the tree. The tree remains animate for 1 day or until it dies; until the tree dies or is more than 120 feet from the tree; or until the tree takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.</text>
+			<recharge>1/DAY</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -399,12 +401,14 @@
 			<name>Innate Spellcasting (1/Day)</name>
 			<text>The blood hunter can innately cast hex. Its innate spellcasting ability is Intelligence.</text>
 			<text>At will: hex</text>
+			<recharge>1/DAY</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Hex</spells>
 		<trait>
 			<name>Blood Curse of Binding (1/Day)</name>
 			<text>As a bonus action, the blood hunter targets one creature it can see within 30 feet of it. The target must succeed on a 14 Strength saving throw or have its speed reduced to 0 and be unable to take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>1/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Blood Frenzy</name>
@@ -636,11 +640,13 @@
 		<action>
 			<name>Alluring Thrum (Recharges 5-6)</name>
 			<text>The emissary emits a dreadful yet alluring hum. Each creature within 20 feet of the emissary that can hear it and that isn't an aberration must succeed on a 14 Constitution saving throw or be charmed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Crystal Spores (Recharge 6)</name>
 			<text>A 15-foot-radius cloud of toxic crystalline spores extends out from the emissary. The spores spread around corners. Each creature in the area must succeed on a 14 Constitution saving throw or become poisoned. While poisoned in this way, a creature takes 11 (2d10) poison damage at the start of each of its turns. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Crystal Spores||2d10</attack>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -689,6 +695,7 @@
 			<name>Psychedelic Orb</name>
 			<text>The seer hurls a glimmering orb at one creature it can see within 120 of it. The target must succeed on a 19 Wisdom saving throw or take 27 (5d10) psychic damage and suffer a random condition until the start of the seer's next turn. Roll a d6 for the condition: (1-2) blinded, (3-4) frightened, or (5-6) stunned.</text>
 			<attack>Psychedelic Orb||5d10</attack>
+			<attack>Condition||1d6</attack>
 		</action>
 		<reaction>
 			<name>Fuse Damage</name>
@@ -937,10 +944,12 @@
 		<trait>
 			<name>Freezing Body</name>
 			<text>A creature that touches the worm or hits it with a melee attack while within 5 feet of it takes 10 (3d6) cold damage.</text>
+			<attack>Freezing Body||3d6</attack>
 		</trait>
 		<trait>
 			<name>Death Burst</name>
 			<text>When the worm dies, it explodes in a burst of frigid energy. Each creature within 60 feet of it must make a 20 Dexterity saving throw, taking 28 (8d6) cold damage on a failed save, or half as much damage on a successful one. Creatures inside the worm when it dies automatically fail this saving throw.</text>
+			<attack>Death Burst||8d6</attack>
 		</trait>
 		<trait>
 			<name>Tunneler</name>
@@ -954,7 +963,8 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) piercing damage plus 10 (3d6) cold damage. If the target is a Large or smaller creature, it must succeed on a 20 Dexterity saving throw or be swallowed by the worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 10 (3d6) acid damage and 10 (3d6) cold damage at the start of each of the worm's turns.</text>
 			<text>	If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the worm.</text>
-			<attack>Bite|15|3d8+9+3d6+3d6+3d6</attack>
+			<attack>Bite|15|3d8+9+3d6</attack>
+			<attack>Swallowed||3d6+3d6</attack>
 		</action>
 		<action>
 			<name>Trill</name>
@@ -997,6 +1007,7 @@
 		<trait>
 			<name>Whirling Blades</name>
 			<text>Any creature that starts its turn within 5 feet of the gearkeeper takes 4 (1d8) slashing damage.</text>
+			<attack>Damage||1d8</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1016,6 +1027,7 @@
 			<name>Shrapnel Blast (Recharge 6)</name>
 			<text>The gearkeeper jettisons a spray of jagged metal in a 30-foot cone. Each creature in the area must make a 15 Dexterity saving throw, taking 21 (6d6) piercing damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Shrapnel Blast||6d6</attack>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1073,6 +1085,7 @@
 		<action>
 			<name>Shriek (Recharge 6)</name>
 			<text>The gloomstalker emits a terrible shriek. Each enemy within 60 feet of the gloomstalker that can hear it must succeed on a 13 Constitution saving throw or be paralyzed until the end of the enemy's next turn.</text>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1165,6 +1178,7 @@
 		<action>
 			<name>Shell Defense (Recharge 4-6)</name>
 			<text>The tortoise withdraws into its shell, falls prone, and gains a +5 bonus to AC. While the tortoise is in its shell, its speed is 0 and can't increase. The tortoise can emerge from its shell as an action, whereupon it is no longer prone.</text>
+			<recharge>D4</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1343,6 +1357,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Living Shadow</name>
@@ -1385,6 +1400,7 @@
 			<text>• Necrotic Breath. The dragon exhales an icy blast in a 90-foot cone. Each creature in that area must make a 24 Constitution saving throw, taking 67 (15d8) necrotic damage on a failed save, or half as much damage on a successful one.</text>
 			<text>• Paralyzing Breath. The dragon exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a 24 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Necrotic Breath||15d8</attack>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Change Shape</name>
@@ -1433,6 +1449,7 @@
 		<trait>
 			<name>Messy End</name>
 			<text>The kobold explodes 3 rounds after it dies, or immediately if it was killed by a critical hit. The explosion destroys the kobold's body, leaving its equipment behind. Each creature within 5 feet of the exploding kobold must make a 10 Dexterity saving throw, taking 4 (1d8) bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Damage||1d8</attack>
 		</trait>
 		<trait>
 			<name>Pack Tactics</name>
@@ -1569,7 +1586,7 @@
 			<text>Mossback Steward's innate spellcasting ability is Wisdom (spell save 15). It can innately cast the following spells, requiring no material components.</text>
 			<text>At will: friends</text>
 		</trait>
-		<spellAbility>undefined</spellAbility>
+		<spellAbility>Wisdom</spellAbility>
 		<spells>Friends</spells>
 		<trait>
 			<name>Amphibious</name>
@@ -1588,6 +1605,7 @@
 		<action>
 			<name>Shell Defense (Recharge 4-6)</name>
 			<text>Mossback Steward withdraws into its shell, falls prone, and gains a +5 bonus to AC. While Mossback Steward is in its shell, its speed is 0 and can't increase. Mossback Steward can emerge from its shell as an action, whereupon it is no longer prone.</text>
+			<recharge>D4</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1637,6 +1655,7 @@
 			<name>Siphon Life (Recharge 4-6)</name>
 			<text>The nergaliid magically draws the life from a humanoid it can see within 40 feet of it. The target must make a 15 Wisdom saving throw. An incapacitated target fails the save automatically. On a failed save, the creature takes 10 (3d6) psychic damage, and the nergaliid gains temporary hit points equal to the damage taken. On a successful save, the target takes half as much damage, and the nergaliid doesn't gain temporary hit points. If this damage kills the target, its body rises at the end of the nergaliid's current turn as a husk zombie (see earlier in this chapter).</text>
 			<attack>Siphon Life||3d6</attack>
+			<recharge>D4</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1748,6 +1767,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the dracolich fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -1780,6 +1800,7 @@
 			<name>Acid Breath (Recharge 5-6)</name>
 			<text>The dracolich exhales acid in a 90-foot line that is 10 feet wide. Each creature in that line must make a 22 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Acid Breath||15d8</attack>
+			<recharge>D5</recharge>
 		</action>
 		<legendary>
 			<name>Detect</name>
@@ -1834,6 +1855,9 @@
 		<trait>
 			<name>Divine Eminence</name>
 			<text>As a bonus action, Pellinost can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Pellinost expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.</text>
+			<attack>Damage||3d6</attack>
+			<attack>Damage (2nd level)||4d6</attack>
+			<attack>Damage (3rd level)||5d6</attack>
 		</trait>
 		<action>
 			<name>Mace</name>
@@ -1846,7 +1870,7 @@
 		<size>M</size>
 		<type>humanoid (elf)</type>
 		<description>Source: Explorer's Guide to Wildemount</description>
-		<alignment>lawful  chaotic  evil</alignment>
+		<alignment>Neutral Evil</alignment>
 		<ac>12 (leather armor)</ac>
 		<hp>9 (2d8)</hp>
 		<speed>35 ft.</speed>
@@ -1876,7 +1900,7 @@
 		</trait>
 		<trait>
 			<name>Mask of the Wild</name>
-			<text>Raegrin can attempt to hide even when they are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</text>
+			<text>Raegrin can attempt to hide even when he are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</text>
 		</trait>
 		<action>
 			<name>Scimitar</name>
@@ -1989,6 +2013,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the sea fury fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2148,12 +2173,13 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with two hands.</text>
 			<attack>Longsword|5|1d8+3</attack>
-			<attack>Longsword (2H)|5|1d8+3</attack>
+			<attack>Longsword (2H)|5|1d10+3</attack>
 		</action>
 		<reaction>
 			<name>Stone's Endurance (Recharges after a Short or Long Rest)</name>
 			<text>When Sken takes damage, she can use her reaction to reduce the damage taken by 8 (1d12 + 2).</text>
 			<attack>Stone's Endurance||1d12+2</attack>
+			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -2184,7 +2210,10 @@
 		<trait>
 			<name>Spellcasting (Lizardfolk Form Only)</name>
 			<text>Skr'a S'orsk is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save 12, +4 to hit with spell attacks). Skr'a S'orsk has the following druid spells prepared:</text>
-	
+			<text>Cantrips (at will): produce flame, resistance, thorn whip</text>
+			<text>1st level (4 slots): entangle, fog cloud</text>
+			<text>2nd level (3 slots): blindness/deafness, spike growth</text>
+			<text>3rd level (2 slots): animate dead, conjure animals (reptiles only)</text>
 		</trait>
 		<slots>4,3,2</slots>
 		<spellAbility>Wisdom</spellAbility>
@@ -2200,7 +2229,8 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 7 (1d10 + 2) piercing damage in crocodile form. If Skr'a S'orsk is in crocodile form and the target is a Large or smaller creature, the target is grappled (escape 12). Until this grapple ends, the target is restrained, and Skr'a S'orsk can't bite another target. If Skr'a S'orsk reverts to its true form, the grapple ends.</text>
-			<attack>Bite|4|1d6+2+1d10+2</attack>
+			<attack>Bite|4|1d6+2</attack>
+			<attack>Bite (Crocodile)|4|1d10+2</attack>
 		</action>
 		<action>
 			<name>Claws (Lizardfolk Form Only)</name>
@@ -2210,6 +2240,7 @@
 		<action>
 			<name>Change Shape (Recharges after a Short or Long Rest)</name>
 			<text>The lizardfolk magically polymorphs into a crocodile, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+			<recharge>SHORT</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -2244,7 +2275,8 @@
 		<action>
 			<name>Bites</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer. The target must make a 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Bites|6|2d6+1d6+4d6</attack>
+			<attack>Bites|6|2d6+4d6</attack>
+			<attack>Bites (under half hp)|6|1d6+4d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -2376,6 +2408,7 @@
 		<trait>
 			<name>Charge</name>
 			<text>If the udaak moves at least 20 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 27 (6d8) bludgeoning damage. If the target is a creature, it must succeed on a 21 Strength saving throw or be pushed up to 20 feet away from the udaak and knocked prone.</text>
+			<attack>Charge||6d8</attack>
 		</trait>
 		<trait>
 			<name>Siege Monster</name>
