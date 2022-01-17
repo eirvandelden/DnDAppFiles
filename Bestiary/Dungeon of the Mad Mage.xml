@@ -33,16 +33,19 @@
 			<text>	Halaster also wears a horned ring (a very rare magic item that requires attunement), which allows an attuned wearer to ignore Undermountain's magical restrictions (see "Alterations to Magic", page 10).</text>
 		</trait>
 		<trait>
-			<name>Arcane Recovery (1/ Day)</name>
+			<name>Arcane Recovery (1/Day)</name>
 			<text>When he finishes a short rest, Halaster recovers all his spell slots of 5th level and lower.</text>
+			<recharge>1/Day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Halaster fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Rejuvenation</name>
 			<text>If Halaster dies in Undermountain, he revives after 1d10 days, with all his hit points and any missing body parts restored. His new body appears in a random safe location in Undermountain.</text>
+			<attack>Days||1d10</attack>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -123,9 +126,10 @@
 		</action>
 		<action>
 			<name>Change Shape (2/Day)</name>
-			<text>The archdruid magically polymorphs into a beast or elemental with a challenge rating of6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.</text>
+			<text>The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.</text>
 			<text>	While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.</text>
 			<text>	The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.</text>
+			<recharge>2/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -156,10 +160,12 @@
 		<trait>
 			<name>Indomitable (2/Day)</name>
 			<text>The champion rerolls a failed saving throw.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, the champion can regain 20 hit points.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -298,7 +304,7 @@
 		<cr>0</cr>
 		<trait>
 			<name>Invisibility</name>
-			<text>THe unseen servant is invisible</text>
+			<text>The unseen servant is invisible</text>
 		</trait>
 		<action>
 			<name>Slam</name>
@@ -335,7 +341,7 @@
 			<name>Spellcasting</name>
 			<text>Muiral is a 13th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). He has the following wizard spells prepared:</text>
 			<text>Cantrips (at will): dancing lights, mage hand, prestidigitation, ray of frost, shocking grasp</text>
-			<text>1st level (4 slots): expeditious retreat.fog cloud, magic missile, shield</text>
+			<text>1st level (4 slots): expeditious retreat, fog cloud, magic missile, shield</text>
 			<text>2nd level (3 slots): darkness, knock, see invisibility, spider climb</text>
 			<text>3rd level (3 slots): animate dead, counterspell, lightning bolt</text>
 			<text>4th level (3 slots): greater invisibility, polymorph</text>
@@ -349,6 +355,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Muiral fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -430,11 +437,13 @@
 			<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 21 (3d8 + 8) bludgeoning damage plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid's turns.</text>
 			<text>	If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
 			<attack>Tentacles|13|3d8+8+3d8</attack>
+			<attack>Acid||10d6</attack>
 		</action>
 		<action>
 			<name>Acid Breath (Recharge 5-6)</name>
 			<text>The neothelid exhales acid in a 60- foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Acid Breath (Recharge 5-6)||10d6</attack>
+			<attack>Acid Breath||10d6</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -561,7 +570,7 @@
 		<cr>9</cr>
 		<trait>
 			<name>Creature Sense</name>
-			<text>The ulitharid is aware ofthe presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner.</text>
+			<text>The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner.</text>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -569,7 +578,7 @@
 		</trait>
 		<trait>
 			<name>Psionic Hub</name>
-			<text>If an elder brain establishes a psychic link with the ulitharid, the elder brain can form a psychic link with any other creature the ulitharid can detect using its Creature Sense. Any such link ends if the creature falls outside the telepathy ranges of both the ulitharid and the elder brain. The ulitharid can maintain its psychic link with the elder brain regardless ofthe distance between them, as long as they are both on the same plane of existence. If the ulitharid is more than 5 miles away from the elder brain, it can end the psychic link at any time (no action required).</text>
+			<text>If an elder brain establishes a psychic link with the ulitharid, the elder brain can form a psychic link with any other creature the ulitharid can detect using its Creature Sense. Any such link ends if the creature falls outside the telepathy ranges of both the ulitharid and the elder brain. The ulitharid can maintain its psychic link with the elder brain regardless of the distance between them, as long as they are both on the same plane of existence. If the ulitharid is more than 5 miles away from the elder brain, it can end the psychic link at any time (no action required).</text>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
@@ -593,7 +602,8 @@
 		<action>
 			<name>Mind Blast (Recharge 5-6)</name>
 			<text>The ulitharid magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 17 Intelligence saving throw or take 31 (4d12 + 5) psychic damage and be stunned for 1 minute. Atarget can repeat the saving throw at the end of each of its turns, ending the effect on itselfon a success.</text>
-			<attack>Mind Blast (Recharge 5-6)||4d12+5</attack>
+			<attack>Mind Blast||4d12+5</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -647,8 +657,8 @@
 		</action>
 		<action>
 			<name>Bite (Bat or Hybrid Form Only)</name>
-			<text>Melee Weapon Attack: +5 to hit, reach Sft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the werebat gains temporary hit points equal to the damage dealt. If the target is a humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with werebat lycanthropy.</text>
-			<attack>Bite (Bat or Hybrid Form Only)|5|1d6+3</attack>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the werebat gains temporary hit points equal to the damage dealt. If the target is a humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with werebat lycanthropy.</text>
+			<attack>Bite|5|1d6+3</attack>
 		</action>
 		<action>
 			<name>Scimitar (Humanoid or Hybrid Form Only)</name>
@@ -658,7 +668,7 @@
 		<action>
 			<name>Shortbow (Humanoid or Hybrid Form Only)</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
-			<attack>Shortbow (Humanoid or Hybrid Form Only)|5|1d6+3</attack>
+			<attack>Shortbow|5|1d6+3</attack>
 		</action>
 	</monster>
 </compendium>
