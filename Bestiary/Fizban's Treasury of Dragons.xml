@@ -364,6 +364,7 @@
             <text>The dragon uses one of the following breath weapons:</text>
             <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC 18 Dexterity saving throw, taking 49 (9d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Moonlight Breath||9d10</attack>
             <recharge>D5</recharge>
         </action>
         <legendary>
@@ -617,7 +618,7 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>Short</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -653,6 +654,7 @@
             <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
             <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
             <attack>Mass Telekinesis||7d12</attack>
+            <recharge>SHORT</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -921,7 +923,7 @@
         <trait>
             <name>Blessing of the Sea (Recharges after a Short or Long Rest)</name>
             <text>If the dragon turtle would be reduced to 0 hit points, its current hit point total instead resets to 350 hit points, and it recharges its Steam Breath. Additionally, the dragon turtle can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 62,000 XP (124,000 XP total) for defeating the dragon turtle after its Blessing of the Sea activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
@@ -1115,6 +1117,7 @@
             <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 120-foot line that is 10 feet wide. Each creature in that area must make a DC 21 Dexterity saving throw, taking 60 (11d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
             <recharge>D5</recharge>
+            <attack>Moonlight Weapon||11d10</attack>
         </action>
         <legendary>
             <name>Tail</name>
@@ -1384,10 +1387,12 @@
         <trait>
             <name>Fire Aura (Fire Form Only)</name>
             <text>At the start of each of the animated breath's turns, each creature within 5 feet of it takes 3 (1d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the animated breath or hits it with a melee attack takes 3 (1d6) fire damage.</text>
+            <attack>Damage||1d6</attack>
         </trait>
         <trait>
             <name>Putrid Aura (Acid and Poison Forms Only)</name>
             <text>A creature that starts its turn within 5 feet of the animated breath must succeed on a 15 Constitution saving throw or be poisoned until the start of its next turn. A creature that touches the animated breath or hits it with a melee attack takes 3 (1d6) acid damage.</text>
+            <attack>Damage||1d6</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1427,7 +1432,7 @@
         <trait>
             <name>Platinum Brilliance (Recharges after a Short or Long Rest)</name>
             <text>If the aspect would be reduced to 0 hit points, his current hit point total instead resets to 500 hit points, he recharges his Breath Weapon, and he regains any expended uses of Legendary Resistance. Additionally, the aspect can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 155,000 XP (310,000 XP total) for defeating the aspect of Bahamut after his Platinum Brilliance activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (5/Day)</name>
@@ -1456,9 +1461,11 @@
         <action>
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The aspect uses one of the following breath weapons:</text>
-            <text>• Exalting Breath. undefined</text>
-            <text>• Platinum Breath. undefined</text>
+            <text>• Exalting Breath. The aspect exhales the restoring winds of Mount Celestia in a 300-foot cone. Each creature in that area of the aspect's choice regains 71 (13d10) hit points, and each creature in that area of the aspect's choice that has been dead for no longer than 1 hour is restored to life with all its hit points.</text>
+            <text>• Platinum Breath. The aspect exhales radiant platinum flames in a 300-foot cone. Each creature in that area must make a DC 26 Dexterity saving throw, taking 66 (12d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
             <recharge>D5</recharge>
+            <attack>Exhalting Breath||13d10</attack>
+            <attack>Platinum Breath||12d10</attack>
         </action>
         <legendary>
             <name>Attack</name>
@@ -1497,7 +1504,7 @@
         <trait>
             <name>Chromatic Wrath (Recharges after a Short or Long Rest)</name>
             <text>If the aspect would be reduced to 0 hit points, her current hit point total instead resets to 500 hit points, she recharges her Chromatic Flames, and she regains any expended uses of Legendary Resistance. Additionally, the aspect can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 155,000 XP (310,000 XP total) for defeating the aspect of Tiamat after her Chromatic Wrath activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (5/Day)</name>
@@ -1566,7 +1573,7 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -1645,7 +1652,7 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -1729,7 +1736,7 @@
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1760,6 +1767,7 @@
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) fire damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <recharge>D5</recharge>
+            <attack>Elemental Breath||13d12</attack>
         </action>
         <action>
             <name>Change Shape</name>
@@ -1808,7 +1816,7 @@
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1839,6 +1847,7 @@
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) lightning damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <recharge>D5</recharge>
+            <attack>Elemental Breath||13d12</attack>
         </action>
         <action>
             <name>Change Shape</name>
@@ -1887,7 +1896,7 @@
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -1918,6 +1927,7 @@
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) acid damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <recharge>D5</recharge>
+            <attack>Elemental Breath||13d12</attack>
         </action>
         <action>
             <name>Change Shape</name>
@@ -2012,7 +2022,7 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -2048,6 +2058,7 @@
             <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
             <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
             <attack>Mass Telekinesis||7d12</attack>
+            <recharge>SHORT</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -2183,6 +2194,7 @@
         <trait>
             <name>Death Throes</name>
             <text>When the draconian is reduced to 0 hit points, it bursts into flames and is reduced to ashes. Each creature in a 10-foot-radius sphere centered on the draconian must succeed on a 13 Dexterity saving throw or take 10 (3d6) fire damage.</text>
+            <attack>Damage||3d6</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -2274,6 +2286,7 @@
         <trait>
             <name>Death Throes</name>
             <text>When the draconian is reduced to 0 hit points, it turns into a puddle of acid and splashes acid on those around it. Each creature within 5 feet of the draconian must succeed on a 12 Dexterity saving throw or be covered in acid for 1 minute. A creature can use its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 7 (2d6) acid damage at the start of each of its turns.</text>
+            <attack>Damage||2d6</attack>
         </trait>
         <trait>
             <name>Glide</name>
@@ -2324,6 +2337,7 @@
         <trait>
             <name>Death Throes</name>
             <text>When the draconian is reduced to 0 hit points, its scales and flesh immediately shrivel away and its bones explode. Each creature within 10 feet of it must succeed on a 10 Dexterity saving throw or take 9 (2d8) force damage.</text>
+            <attack>Damage||2d8</attack>
         </trait>
         <trait>
             <name>Glide</name>
@@ -2380,6 +2394,7 @@
         <trait>
             <name>Death Throes</name>
             <text>When the draconian is reduced to 0 hit points, its magical essence lashes out as a ball of lightning at the closest creature within 30 feet of it before arcing out to up to two other creatures within 15 feet of the first. Each creature must make a 14 Dexterity saving throw. On a failed save, the creature takes 9 (2d8) lightning damage and is stunned until the end of its next turn. On a successful save, the creature takes half as much damage and isn't stunned.</text>
+            <attack>Damage||2d8</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -2446,6 +2461,7 @@
         <trait>
             <name>Incorporeal Movement</name>
             <text>The shard can move through creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes 5 (1d10) force damage.</text>
+            <attack>Damage||1d10</attack>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
@@ -2455,6 +2471,7 @@
         <trait>
             <name>Rejuvenation</name>
             <text>When it drops to 0 hit points, the shard disappears and leaves a Tiny cracked gemstone in its space. The gemstone matches the kind of gem dragon it was in life and has AC 20, 15 hit points, and immunity to all damage except force. Unless the gemstone is destroyed, after 1d20 days, the gemstone dissipates and the shard re-forms, regaining all its hit points and appearing in the place the gemstone once occupied or in the nearest unoccupied space.</text>
+            <attack>Days||1d20</attack>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -2761,7 +2778,8 @@
         <action>
             <name>Pseudopod</name>
             <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape 15). Until this grapple ends, the target takes 7 (2d6) acid damage at the start of each of its turns.</text>
-            <attack>Pseudopod|7|1d10+4+4d6+2d6</attack>
+            <attack>Pseudopod|7|1d10+4+4d6</attack>
+            <attack>Acid damage||2d6</attack>
         </action>
         <action>
             <name>Slime Breath (Recharge 6)</name>
@@ -2865,7 +2883,8 @@
         <action>
             <name>Longsword</name>
             <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) radiant damage. The dragonborn can cause the sword to flare with bright light, and the target must succeed on a 14 Constitution saving throw or be blinded until the start of the dragonborn's next turn. The sword can flare in this way only once per turn.</text>
-            <attack>Longsword|7|1d8+4+1d10+4+3d8</attack>
+            <attack>Longsword|7|1d8+4+3d8</attack>
+            <attack>Longsword (2H)|7|1d10+4+3d8</attack>
         </action>
         <action>
             <name>Healing Touch (1/Day)</name>
@@ -2875,7 +2894,8 @@
         <action>
             <name>Radiant Breath (Recharge 6)</name>
             <text>The dragonborn exhales fiery radiance in a 30-foot cone. Each creature in that area must make a 15 Dexterity saving throw, taking 44 (8d10) radiant damage on a failed save, or half as much damage on a successful one. When the dragonborn uses this action, it can choose up to three creatures in the cone. These creatures take no damage from the radiance and instead regain 22 (4d10) hit points each.</text>
-            <attack>Radiant Breath||8d10+4d10</attack>
+            <attack>Radiant Breath||8d10</attack>
+            <attack>Hit points||4d10</attack>
             <recharge>D6</recharge>
         </action>
     </monster>
@@ -2932,7 +2952,8 @@
         <action>
             <name>Heat Breath (Recharge 6)</name>
             <text>The dragonborn exhales a wave of intense heat in a 30-foot cone. Each creature in that area must make a 14 Constitution saving throw, taking 27 (6d8) fire damage on a failed save, or half as much damage on a successful one. Metal objects in that area glow red-hot until the end of the dragonborn's next turn. Any creature in physical contact with a heated object at the start of its turn must make a 14 Constitution saving throw. On a failed save, the creature takes 9 (2d8) fire damage and has disadvantage on attack rolls until the start of its next turn.</text>
-            <attack>Heat Breath||6d8+2d8</attack>
+            <attack>Heat Breath||6d8</attack>
+            <attack>Damage||2d8</attack>
             <recharge>D6</recharge>
         </action>
     </monster>
@@ -3254,7 +3275,8 @@
         <action>
             <name>Egg Tooth</name>
             <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage, or 17 (4d6 + 3) piercing damage if the target is an object.</text>
-            <attack>Egg Tooth|5|2d6+3+4d6+3</attack>
+            <attack>Egg Tooth|5|2d6+3</attack>
+            <attack>Egg Tooth (object)||4d6+3</attack>
         </action>
     </monster>
     <monster>
@@ -3320,8 +3342,8 @@
             <text>  While infested, the creature takes 16 (3d10) psychic damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself after it succeeds on three of these saves. If the creature is targeted by magic that ends a curse or restores 40 hit points or more, the tadpoles infesting the creature are killed instantly, ending the effect on the creature.</text>,
             <text>  If a Humanoid is reduced to 0 hit points while infested, the creature is stable but remains unconscious for 6d12 hours. When the period of unconsciousness ends, the creature transforms into a mind flayer (see the Monster Manual) with all its hit points. Casting a wish spell on the unconscious creature rids it of the infestation and prevents it from turning into a mind flayer.</text>
             <attack>Tadpole Brine Breath||10d10</attack>
-            <attack>Tadpole Brine Breath||3d10</attack>
-            <attack>Tadpole Brine Breath||6d12</attack>
+            <attack>Poison Damage||3d10</attack>
+            <attack>Unconscious||6d12</attack>
             <recharge>D5</recharge>
         </action>
         <legendary>
@@ -3417,7 +3439,7 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -3453,6 +3475,7 @@
             <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
             <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
             <attack>Mass Telekinesis||7d12</attack>
+            <recharge>SHORT</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -3511,12 +3534,17 @@
         <action>
             <name>Eye Rays</name>
             <text>The eyedrake shoots three of the following magical eye rays at random (reroll duplicates), each ray targeting one creature it can see within 60 feet of it:</text>
-            <text>• 1: Freezing Ray. undefined</text>
-            <text>• 2: Debilitating Ray. undefined</text>
-            <text>• 3: Repulsion Ray. undefined</text>
-            <text>• 4: Fire Ray. undefined</text>
-            <text>• 5: Paralyzing Ray. undefined</text>
-            <text>• 6: Death Ray. undefined</text>
+            <text>• 1: Freezing Ray. The target must make a DC 14 Constitution saving throw. On a failed save, the target takes 17 (5d6) cold damage, and its speed is halved until the end of its next turn. On a successful save, the target takes half as much damage with no additional effects.</text>
+            <attack>Freezing Ray||5d6</attack>
+            <text>• 2: Debilitating Ray. The target must succeed on a DC 14 Constitution saving throw or take 7 (2d6) thunder damage and become incapacitated until the end of its next turn.</text>
+            <attack>Debilitating Ray||2d6</attack>
+            <text>• 3: Repulsion Ray. The target must succeed on a DC 14 Strength saving throw or take 14 (4d6) force damage and be pushed up to 60 feet away from the eyedrake.</text>
+            <attack>Repulsion Ray||4d6</attack>
+            <text>• 4: Fire Ray. The target must make a DC 14 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Fire Ray||6d6</attack>
+            <text>• 5: Paralyzing Ray. The target must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <text>• 6: Death Ray. The target must make a DC 14 Dexterity saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. The target dies if the ray reduces it to 0 hit points.</text>
+            <attack>Death Ray||5d6</attack>
         </action>
     </monster>
     <monster>
@@ -3595,6 +3623,7 @@
         <trait>
             <name>Incorporeal Movement</name>
             <text>The ghost dragon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+            <attack>Damage||1d10</attack>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
@@ -3622,7 +3651,7 @@
         <action>
             <name>Terrifying Breath (Recharge 6)</name>
             <text>The ghost dragon exhales shadowy mist in a 90-foot cone. Each creature in that area must make a 21 Constitution saving throw. On a failed save, the creature takes 40 (9d8) cold damage and is frightened of the ghost dragon for 1 minute. On a successful save, the creature takes half as much damage and isn't frightened.</text>
-            <text>  While frightened of the ghost dragon, a creature is paralyzed. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>,
+            <text>  While frightened of the ghost dragon, a creature is paralyzed. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <text>  If a creature's saving throw is successful or the effect ends for it, the creature is immune to this ghost dragon's Terrifying Breath for the next 24 hours.</text>
             <attack>Terrifying Breath||9d8</attack>
             <recharge>D6</recharge>
@@ -3692,7 +3721,7 @@
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -3723,6 +3752,7 @@
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) fire damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <recharge>D5</recharge>
+            <attack>Elemental Breath||13d12</attack>
         </action>
         <action>
             <name>Change Shape</name>
@@ -3766,7 +3796,7 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -3939,6 +3969,7 @@
         <trait>
             <name>Reconstruction</name>
             <text>When the hollow dragon is reduced to 0 hit points, its body breaks into nine pieces: two arms, two legs, two wings, a tail, a torso, and a head. Each piece is a Large object with AC 19, 27 hit points, and immunity to psychic and poison damage. After 1d6 days, if all pieces are still within 6 miles of each other, they all teleport to the location of the head piece and merge with it, whereupon the hollow dragon regains all its hit points and becomes active again.</text>
+            <attack>Days||1d6</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -4151,6 +4182,7 @@
             <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 30-foot line that is 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
             <recharge>D5</recharge>
+            <attack>Moonlight Breath||4d6</attack>
         </action>
     </monster>
     <monster>
@@ -4181,7 +4213,7 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -4319,7 +4351,7 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -4403,7 +4435,7 @@
         <trait>
             <name>Metallic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -4434,6 +4466,7 @@
             <text>• Elemental Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) cold damage on a failed save, or half as much damage on a successful one.</text>
             <text>• Sapping Breath. The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <recharge>D5</recharge>
+            <attack>Elemental||13d12</attack>
         </action>
         <action>
             <name>Change Shape</name>
@@ -4485,7 +4518,8 @@
         <action>
             <name>Swarm of Bites</name>
             <text>Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 13 (3d6 + 3) piercing damage, or 6 (1d6 + 3) piercing damage if the swarm is at half of its hit points or fewer, and the target has disadvantage on attack rolls until the start of its next turn.</text>
-            <attack>Swarm of Bites|5|3d6+3+1d6+3</attack>
+            <attack>Swarm of Bites|5|3d6+3</attack>
+            <attack>Swarm of Bites (half hp or fewer)|5|1d6+3</attack>
         </action>
     </monster>
     <monster>
@@ -4571,7 +4605,7 @@
         <trait>
             <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -4607,6 +4641,7 @@
             <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
             <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
             <attack>Mass Telekinesis||7d12</attack>
+            <recharge>SHORT</recharge>
         </action>
         <legendary>
             <name>Claw</name>
@@ -4650,7 +4685,7 @@
         <trait>
             <name>Chromatic Awakening (Recharges after a Short or Long Rest)</name>
             <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates.</text>
-            <recharge>D </recharge>
+            <recharge>SHORT</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (4/Day)</name>
@@ -5018,6 +5053,7 @@
             <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 60-foot line that is 5 feet wide. Each creature in that area must make a DC 14 Dexterity saving throw, taking 38 (7d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
             <recharge>D5</recharge>
+            <attack>Moonlight Breath||7d10</attack>
         </action>
     </monster>
     <monster>

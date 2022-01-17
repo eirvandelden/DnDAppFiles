@@ -67,7 +67,7 @@
 		</trait>
 		<trait>
 			<name>Sculpt Spells</name>
-			<text>When Azbara casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1+the spell's level to succeed on their saving throws against the spell. Those creatures take no damage if they would normally take half damage from the spell.</text>
+			<text>When Azbara casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1 + the spell's level to succeed on their saving throws against the spell. Those creatures take no damage if they would normally take half damage from the spell.</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -157,6 +157,7 @@
 		<trait>
 			<name>Action Surge (Recharges on a Short or Long Rest)</name>
 			<text>On his turn, Othelstan can take one additional action.</text>
+			<recharge>SHORT</recharge>
 		</trait>
 		<trait>
 			<name>Tiamat's Blessing of Retribution</name>
@@ -476,6 +477,7 @@
 		<trait>
 			<name>Action Surge (Recharges on a Short or Long Rest)</name>
 			<text>On his turn, Langdedrosa can take one additional action.</text>
+			<recharge>SHORT</recharge>
 		</trait>
 		<trait>
 			<name>Improved Critical</name>
@@ -500,6 +502,7 @@
 			<name>Lightning Breath (Recharge 5-6)</name>
 			<text>Langdedrosa breathes lightning in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Lightning Breath||4d10</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -530,6 +533,7 @@
 			<name>Poison Strike (3/Day)</name>
 			<text>Once per turn, when Pharblex hits with a melee attack, he can expend a use of this trait to deal an extra 9 (2d8) poison damage.</text>
 			<attack>Poison Strike||2d8</attack>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -609,6 +613,7 @@
 		<reaction>
 			<name>Illusory Self (Recharges on a Short or Long Rest)</name>
 			<text>When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates.</text>
+			<recharge>SHORT</recharge>
 		</reaction>
 		<spells>Fire Bolt, Minor Illusion, Prestidigitation, Shocking Grasp, Chromatic Orb, Color Spray, Mage Armor, Magic Missile, Detect Thoughts, Mirror Image, Phantasmal Force, Counterspell, Fireball, Major Image, Confusion, Greater Invisibility, Mislead, Seeming, Globe of Invulnerability</spells>
 		<slots>4,3,3,3,2,1,0,0,0</slots>
@@ -660,6 +665,7 @@
 		<trait>
 			<name>Legendary Resistance (1/Day)</name>
 			<text>If Rezmir fails a saving throw while wearing the Black Dragon Mask, she can choose to succeed instead.</text>
+			<recharge>1/DAY</recharge>
 		</trait>
 		<action>
 			<name>Greatsword (Hazirawn)</name>
@@ -675,6 +681,7 @@
 			<name>Acid Breath (Recharge 5-6)</name>
 			<text>Rezmir breathes acid in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 14 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Acid Breath||5d8</attack>
+			<recharge>D5</recharge>
 		</action>
 		<legendary>
 			<name>Darkness (Costs 2 Actions)</name>
@@ -733,6 +740,7 @@
 			<name>Winter Strike (3/Day)</name>
 			<text>Once per turn, when Talis hits with a melee attack, she can expend a use of this trait to deal an extra 9 (2d8) cold damage.</text>
 			<attack>Winter Strike||2d8</attack>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<action>
 			<name>Spear</name>
