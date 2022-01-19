@@ -41,8 +41,9 @@
             <name>Bluerot</name>
             <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
             <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+            <attack>Hours/Decrease||1d4</attack>
             <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <roll>4d8</roll>
+            <attack>Nerotic Damage||4d8</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -95,8 +96,9 @@
             <name>Bluerot</name>
             <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
             <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+            <attack>Hours/Decrease||1d4</attack>
             <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <roll>4d8</roll>
+            <attack>Necrotic Damage||4d8</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -158,8 +160,9 @@
             <name>Bluerot</name>
             <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
             <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+            <attack>Hours/Decrease||1d4</attack>
             <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <roll>4d8</roll>
+            <attack>Necrotic Damage||4d8</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -203,6 +206,7 @@
         <trait>
             <name>Cold Aura</name>
             <text>At the start of each of the drowned master's turns, each creature within 5 feet of it takes 5 (1d10) cold damage. A creature that touches the drowned master or hits it with a melee attack while within 5 feet of it takes 5 (1d10) cold damage.</text>
+            <attack>Cold Damage||1d10</attack>
         </trait>
         <trait>
             <name>Undead Fortitude</name>
@@ -212,8 +216,9 @@
             <name>Bluerot</name>
             <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
             <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+            <attack>Hours/Decrease||1d4</attack>
             <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <roll>4d8</roll>
+            <attack>Necrotic Damage||4d8</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -231,8 +236,8 @@
         </action>
         <action>
             <name>Necrotic Ink (Recharge 5-6)</name>
-            <text>The drowned master discharges foul ink in front of itself in a 30-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw 1s blinded until the end of its next turn and contracts bluerot (see the "Bluerot" sidebar).</text>
-            <attack>Necrotic Ink (Recharge 5-6)||6d8</attack>
+            <text>The drowned master discharges foul ink in front of itself in a 30-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw is blinded until the end of its next turn and contracts bluerot (see the "Bluerot" sidebar).</text>
+            <attack>Necrotic Ink||6d8</attack>
         </action>
     </monster>
     <monster>
@@ -312,6 +317,7 @@
         <action>
             <name>Voice of the Kraken (Recharges after a Short or Long Rest)</name>
             <text>A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>SHORT</recharge>
         </action>
         <spells>Command, Create or Destroy Water, Control Water, Darkness, Water Breathing, Water Walk, Call Lightning, Evard's Black Tentacles</spells>
     </monster>
@@ -350,7 +356,7 @@
         </trait>
         <trait>
             <name>Shark Telepathy</name>
-            <text>The blademaster can magically command any shark within 120 feet of it, using a limited tele pathy.</text>
+            <text>The blademaster can magically command any shark within 120 feet of it, using a limited telepathy.</text>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -415,7 +421,7 @@
         </trait>
         <action>
             <name>Bites</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage ifthe swarm has half of its hit points or fewer.</text>
+            <text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.</text>
             <attack>Bites|6|4d6</attack>
             <attack>Bites (under 1/2hp)|6|2d6</attack>
         </action>
@@ -501,6 +507,7 @@
             <name>Freezing Strikes (Recharge 6)</name>
             <text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
             <attack>Freezing Strikes|7|1d6+4+1d10</attack>
+            <recharge>D6</recharge>
         </action>
         <spells />
         <slots />
@@ -557,10 +564,12 @@
         <trait>
             <name>Balm of the Summer Court (12d6)</name>
             <text>(As a Bonus Action) Amble can choose one creature they can see within 120 feet of them and spend up to 6d6 of their die pool. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent. Amble regains all expended dice when they finish a long rest.</text>
+            <attack>Hit Points||1d6</attack>
         </trait>
         <trait>
             <name>Hidden Paths (4/Day)</name>
             <text>(As a Bonus Action) Amble may teleport up to 60 feet to an unoccupied space they can see.</text>
+            <recharge>4/DAY</recharge>
         </trait>
         <action>
             <name>Change Shape (2/Day)</name>
@@ -568,6 +577,7 @@
             <text>	Amble's game statistics are replaced by the statistics of the beast, but they retain their alignment, personality, and Intelligence, Wisdom, and Charisma scores. Amble also retains all their skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as Amble and the bonus in its stat block is higher, use the creature's bonus instead of Amble's.</text>,
             <text>	When Amble transforms, they assume the beast's hit points and Hit Dice. When Amble reverts to their normal form, they return to the number of hit points they had before they transformed. However, if Amble reverts as a result of dropping to 0 hit points, any excess damage carries over their normal form.</text>,
             <text>	Amble can't cast spells, and their ability to speak or take any action that requires hands is limited to the capabilities of their beast form. Transforming doesn't break Amble's concentration on a spell they've already cast however, or prevent them from taking actions that are part of a spell.</text>
+            <recharge>2/DAY</recharge>
         </action>
         <action>
             <name>Claws</name>
@@ -577,7 +587,8 @@
         <action>
             <name>Club</name>
             <text>Melee Weapon Attack: +6 to hit (8 to hit with shillelagh), reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
-            <attack>Club|6|1d6+2+1d8+4</attack>
+            <attack>Club|6|1d6+2</attack>
+            <attack>Shillelagh|6|1d8+4</attack>
         </action>
     </monster>
     <monster>
@@ -684,6 +695,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Gar fails a saving throw, he can choose to succeed instead.</text>
+            <recharge>3/DAY</recharge>
         </trait>
         <trait>
             <name>Water Walk</name>
@@ -705,11 +717,13 @@
         <action>
             <name>Wave</name>
             <text>Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 9 (1d6 + 6) piercing damage or 10 (1d8 + 6) piercing damage when used with two hands. If Gar scores a critical hit with this weapon, the target takes extra necrotic damage equal to half its hit point maximum.</text>
-            <attack>Wave|11|1d6+6+1d8+6</attack>
+            <attack>Wave|11|1d6+6</attack>
+            <attack>Wave (2H)|11|1d8+6</attack>
         </action>
         <action>
             <name>Umberlee's Wake (Recharge 5-6)</name>
             <text>Power ripples out in a 60-foot radius sphere from a point within range (150 ft.) as the will of Umberlee affects all in her watery embrace. Each creature in that area must succeed on a 18 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. This only affects targets that are submerged or floating in water. Gar Shatterkeel and any undead serving him are immune to this effect.</text>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Move</name>
@@ -753,7 +767,7 @@
             <name>Innate Spellcasting</name>
             <text>Shoalar's innate spellcasting ability is Constitution (spell save 14, +6 to hit with spell attacks). He can innately cast the following spells:</text>
             <text>At will: shape water</text>
-            <text>1: create or destroy water</text>
+            <text>1/Day: create or destroy water</text>
         </trait>
         <trait>
             <name>Spellcasting</name>
@@ -914,7 +928,7 @@
         <cr>5</cr>
         <trait>
             <name>Source</name>
-            <text>Tales from the Yawning Portal,  page 242</text>
+            <text>Tales from the Yawning Portal, page 242</text>
         </trait>
         <trait>
             <name>Amphibious</name>
@@ -988,7 +1002,7 @@
         </trait>
         <trait>
             <name>Lure</name>
-            <text>The deep diver can cause its lure to light up or darken at will. While the lure is lit, the deep diver sheds bright light in a 30-foot radius centered on itselfand dim light for an additional 20 feet.</text>
+            <text>The deep diver can cause its lure to light up or darken at will. While the lure is lit, the deep diver sheds bright light in a 30-foot radius centered on itself and dim light for an additional 20 feet.</text>
         </trait>
         <trait>
             <name>Shark Telepathy</name>

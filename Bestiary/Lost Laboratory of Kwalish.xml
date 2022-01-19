@@ -134,6 +134,7 @@
 		<trait>
 			<name>Bardic Inspiration (3/Day)</name>
 			<text>As a bonus action, Garret can give one chosen creature (other than him) a d6 inspiration die. The chosen creature must be within 60 feet of Garret and able to hear him. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can use the inspiration die after the roll is made but before the DM says whether it succeeds or fails. Once the inspiration die is rolled, it is lost. A creature can have only one inspiration die at a time.</text>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Cunning Action</name>
@@ -142,7 +143,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>Garret deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't incapacitated and Garret doesn't have disadvantage on the attack roll.</text>
-			<roll>2d6</roll>
+			<attack>Sneak Attack||2d6</attack>
 		</trait>
 		<action>
 			<name>Shortsword</name>
@@ -191,6 +192,7 @@
 		<trait>
 			<name>Fey Presence (Recharges after a Short Rest)</name>
 			<text>Mary can cause each creature within 10 feet of her to succeed on a 12 Wisdom saving throw or become charmed or frightened by her (Mary's choice) until the end of her next turn.</text>
+			<recharge>SHORT</recharge>
 		</trait>
 		<trait>
 			<name>Fey Ancestry</name>
