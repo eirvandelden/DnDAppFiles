@@ -54,6 +54,7 @@
             <text>The abhorrent overlord conjures a swarm of spectral crows and harpies in a 20-foot-radius sphere centered on a point the overlord can see within 120 feet of it. The sphere remains for 1 minute or until the overlord loses concentration (as if concentrating on a spell), and its area is lightly obscured and difficult terrain.</text>
             <text>	Any creature that moves into the area for the first time on a turn or starts its turn there must make a 15 Constitution saving throw. A creature takes 16 (3d10) slashing damage plus 16 (3d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Storm of Crows||3d10+3d10</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -84,6 +85,7 @@
         <trait>
             <name>Hold the Line</name>
             <text>While the hoplite is holding a spear, other creatures provoke an opportunity attack from the hoplite when they move within 5 feet of it. When the hoplite hits a creature with an opportunity attack using its spear, the creature takes an extra 4 (1d8) piercing damage, and the creature's speed becomes 0 for the rest of the turn.</text>
+            <attack>Hold the Line||1d8</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -92,7 +94,8 @@
         <action>
             <name>Spear</name>
             <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack.</text>
-            <attack>Spear|5|1d6+3+1d8+3</attack>
+            <attack>Spear|5|1d6+3</attack>
+            <attack>Spear (2H)|5|1d8+3</attack>
         </action>
         <action>
             <name>Shield Bash</name>
@@ -222,6 +225,7 @@
         <trait>
             <name>Legendary Resistance (2/Day)</name>
             <text>If Aphemia fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>2/Day</recharge>
         </trait>
         <trait>
             <name>Magic Resistance</name>
@@ -279,10 +283,12 @@
         <trait>
             <name>Armor of Spiders (Mythic Trait; Recharges after a Short or Long Rest)</name>
             <text>If Arasta is reduced to 0 hit points, she doesn't die or fall unconscious. Instead, she regains 200 hit points. In addition, Arasta's children immediately swarm over her body to protect her, granting her 100 temporary hit points.</text>
+            <recharge>Short</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Arasta fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Magic Resistance</name>
@@ -313,6 +319,7 @@
         <action>
             <name>Web of Hair (Recharge 4-6)</name>
             <text>Arasta unleashes her hair in the form of webbing that fills a 30-foot cube next to her. The web is difficult terrain, its area is lightly obscured, and it lasts for 1 minute. Any creature that moves into the web or that starts its turn there must make a 21 Dexterity saving throw. On a failed save, the creature is restrained while in the web. A creature can use an action to make a 21 Strength check. On a success, it can free itself or a creature within 5 feet of it that is restrained by the web. This webbing is immune to all damage except magical fire. A 5-foot cube of the web is destroyed if it takes at least 20 fire damage from a spell or other magical source on a single turn.</text>
+            <recharge>D4</recharge>
         </action>
         <legendary>
             <name>Claws</name>
@@ -372,6 +379,8 @@
         <trait>
             <name>Radiant Rebirth (Recharges after a Long Rest)</name>
             <text>If the archon is reduced to 0 hit points, it regains 30 hit points and springs back to its feet with a burst of radiance. Each creature of the archon's choice within 30 feet of it must succeed on a 16 Constitution saving throw, or the creature takes 13 (3d8) radiant damage and is blinded until the start of the archon's turn.</text>
+            <recharge>Long</recharge>
+            <attack>Radiant Damage||3d8</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -542,6 +551,7 @@
         <trait>
             <name>Charge</name>
             <text>If Antigonos moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a 14 Strength saving throw or be pushed up to 10 feet away and knocked prone.</text>
+            <attack>Piercing Damage||2d8</attack>
         </trait>
         <trait>
             <name>Labyrinthine Recall</name>
@@ -646,10 +656,12 @@
         <trait>
             <name>Charge</name>
             <text>If the hart moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 7 (2d6) fire damage. If the target is a creature, it must succeed on a 13 Strength saving throw or be knocked prone.</text>
+            <attack>Fire Damage||2d6</attack>
         </trait>
         <trait>
             <name>Heated Body</name>
             <text>A creature that touches the hart or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage.</text>
+            <attack>Fire Damage||1d10</attack>
         </trait>
         <trait>
             <name>Sure-Footed</name>
@@ -698,6 +710,7 @@
         <trait>
             <name>Crumbling Destruction</name>
             <text>When the colossus drops to 0 hit points, it crumbles and is destroyed. Any creature on the ground within 30 feet of the crumbling statue must make a 22 Dexterity saving throw, taking 22 (4d10) bludgeoning damage and 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Crumbling Destruction||4d10+4d10</attack>
         </trait>
         <trait>
             <name>Fire Absorption</name>
@@ -722,7 +735,8 @@
         <action>
             <name>Spear</name>
             <text>Melee or Ranged Weapon Attack: +16 to hit, reach 15 ft., or range 200/600 ft., one target. Hit: 23 (4d6 + 9) piercing damage, or 27 (4d8 + 9) piercing damage if used with two hands to make a melee attack. If the colossus makes a ranged attack with this spear, the spear magically returns to its hand after the attack.</text>
-            <attack>Spear|16|4d6+9+4d8+9</attack>
+            <attack>Spear|16|4d6+9</attack>
+            <attack>Spear (2H)|16|4d8+9</attack>
         </action>
         <action>
             <name>Sword</name>
@@ -733,6 +747,7 @@
             <name>Flames of Akros (Recharge 6)</name>
             <text>Magical flames issue from the colossus toward up to three creatures the colossus can see within 90 feet of it. Each target must make a 24 Dexterity saving throw, taking 36 (8d8) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a target also magically catches fire for 1 minute. At the end of each of its turns thereafter, the burning target repeats the saving throw. It takes 18 (4d8) fire damage on a failed save, and the effect ends on a successful one.</text>
             <attack>Flames of Akros||8d8+4d8</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -763,6 +778,7 @@
         <trait>
             <name>Aura of Erebos</name>
             <text>Any creature that starts its turn within 10 feet of the giant must succeed on a 18 Constitution saving throw, or it takes 10 (3d6) necrotic damage and can't regain hit points until the start of its next turn. On a successful saving throw, the creature is immune to the giant's Aura of Erebos for 24 hours.</text>
+            <attack>Necrotic Damage||3d6</attack>
         </trait>
         <trait>
             <name>Magic Resistance</name>
@@ -781,6 +797,7 @@
             <name>Noxious Gust (Recharge 5-6)</name>
             <text>The giant exhales a mighty gust that creates a blast of deadly mist in a 60-foot line that is 10 feet wide. Each creature in that line must make a 18 Constitution saving throw. On a failed save, the creature takes 36 (8d8) necrotic damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</text>
             <attack>Noxious Gust||8d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -829,6 +846,7 @@
             <name>Breath of Hopelessness (Recharge 5-6)</name>
             <text>The eater of hope exhales a miasma of Underworld winds in a 30-foot cone. Each creature in that area must make a 14 Charisma saving throw. On a failed save, the target takes 26 (4d12) necrotic damage and is cursed for 1 minute. While cursed in this way, the target takes an extra 6 (1d12) necrotic damage whenever the eater of hope hits it with an attack. On a successful save, the target takes half as much damage and isn't cursed.</text>
             <attack>Breath of Hopelessness||4d12+1d12</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -931,6 +949,7 @@
         <trait>
             <name>Incorporeal Movement</name>
             <text>The eidolon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+            <attack>Damage||1d10</attack>
         </trait>
         <trait>
             <name>Turn Resistance</name>
@@ -948,6 +967,7 @@
         <action>
             <name>Flitterstep (Recharge 5-6)</name>
             <text>The eidolon magically teleports to an unoccupied space it can see within 30 feet of it. If it makes an attack immediately after teleporting, it has advantage on the attack roll.</text>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -982,6 +1002,7 @@
         <trait>
             <name>Incorporeal Movement</name>
             <text>The eidolon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+            <attack>Damage||1d10</attack>
         </trait>
         <trait>
             <name>Turn Resistance</name>
@@ -1025,6 +1046,7 @@
         <trait>
             <name>Charge</name>
             <text>If the sentinel moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 10 (3d6) bludgeoning damage. If the target is a creature, it must succeed on a 15 Strength saving throw or be knocked prone.</text>
+            <attack>Damage||3d6</attack>
         </trait>
         <trait>
             <name>Spell Turning</name>
@@ -1043,6 +1065,7 @@
             <name>Fire Breath (Recharge 5-6)</name>
             <text>The sentinel exhales fire in a 15-foot cone. Each creature in that area must make a 15 Dexterity saving throw, taking 27 (6d8) fire damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Fire Breath||6d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -1077,6 +1100,7 @@
         <trait>
             <name>Charge</name>
             <text>If the hippocamp moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a 12 Strength saving throw or be knocked prone.</text>
+            <attack>Damage||2d6</attack>
         </trait>
         <action>
             <name>Hooves</name>
@@ -1169,13 +1193,14 @@
         <trait>
             <name>Innate Spellcasting</name>
             <text>Hythonia's spellcasting ability is Charisma (spell save 18). She can innately cast animate objects once per day requiring no material components.</text>
-            <text>1: animate objects</text>
+            <text>1/Day: animate objects</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Animate Objects</spells>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Hythonia fails a saving throw, she can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Petrifying Gaze</name>
@@ -1184,6 +1209,7 @@
         <trait>
             <name>Shed Skin (Mythic Trait; Recharges after a Short or Long Rest)</name>
             <text>If Hythonia is reduced to 0 hit points, she doesn't die or fall unconscious. Instead, she sheds her skin, regains 199 hit points, and moves up to her speed without provoking opportunity attacks.</text>
+            <recharge>Short</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1197,7 +1223,8 @@
         <action>
             <name>Constrict</name>
             <text>Melee Weapon Attack: +11 to hit, reach 15 ft., one Large or smaller creature. Hit: 16 (2d10 + 5) bludgeoning damage, and the target is grappled (escape 19). Until this grapple ends, the target is restrained and takes 15 (3d6 + 5) bludgeoning damage at the start of each of its turns, and Hythonia can't constrict another target.</text>
-            <attack>Constrict|11|2d10+5+3d6+5</attack>
+            <attack>Constrict|11|2d10+5</attack>
+            <attack>Start of Turn||3d6+5</attack>
         </action>
         <action>
             <name>Snaky Hair</name>
@@ -1246,6 +1273,7 @@
         <trait>
             <name>Acidic Blood</name>
             <text>When the hydra takes piercing or slashing damage, each creature within 5 feet of the hydra takes 9 (2d8) acid damage.</text>
+            <attack>Acid Damage||2d8</attack>
         </trait>
         <trait>
             <name>Hold Breath</name>
@@ -1481,7 +1509,8 @@
         <action>
             <name>Spear</name>
             <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack.</text>
-            <attack>Spear|5|1d6+3+1d8+3</attack>
+            <attack>Spear|5|1d6+3</attack>
+            <attack>Spear (2H)|5|1d8+3</attack>
         </action>
         <action>
             <name>Shield Bash</name>
@@ -1523,7 +1552,7 @@
             <name>Innate Spellcasting</name>
             <text>The naiad's spellcasting ability is Charisma (spell save 14). It can innately cast the following spells, requiring no material components:</text>
             <text>At will: minor illusion</text>
-            <text>3: phantasmal force</text>
+            <text>3/Day: phantasmal force</text>
             <text>1/Day: fly, hypnotic pattern</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
@@ -1585,6 +1614,7 @@
         <trait>
             <name>Aura of Nightmares</name>
             <text>Undead creatures within 30 feet of the shepherd gain a +5 bonus to attack and damage rolls. When any other creature that isn't undead or a construct starts its turn within 30 feet of the shepherd, that creature must succeed on a 17 Wisdom saving throw or take 11 (2d10) psychic damage.</text>
+            <attack>Damage||2d10</attack>
         </trait>
         <trait>
             <name>Magic Resistance</name>
@@ -1602,12 +1632,14 @@
         <action>
             <name>Staff</name>
             <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage, or 13 (2d8 + 4) bludgeoning damage if used with two hands, plus 26 (4d12) psychic damage.</text>
-            <attack>Staff|8|2d6+4+2d8+4+4d12</attack>
+            <attack>Staff|8|2d6+4+4d12</attack>
+            <attack>Staff (2H)|8|2d8+4+4d12</attack>
         </action>
         <action>
             <name>Herd the Underworld (Recharges after a Short or Long Rest)</name>
             <text>The shepherd pulls twisted souls from the Underworld; 1d6 shadow (without Sunlight Weakness) arise in unoccupied spaces within 20 feet of the shepherd. The shadows act right after the shepherd on the same initiative count and fight until they're destroyed. They disappear when the shepherd dies.</text>
             <attack>Herd the Underworld||1d6</attack>
+            <recharge>Short</recharge>
         </action>
     </monster>
     <monster>
@@ -1638,6 +1670,7 @@
         <trait>
             <name>Charge</name>
             <text>If the ram moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a 13 Strength saving throw or be knocked prone.</text>
+            <attack>Damage||2d4</attack>
         </trait>
         <trait>
             <name>Magic Resistance</name>
@@ -1690,6 +1723,7 @@
         <trait>
             <name>Blessings of the Gods</name>
             <text>While the oracle is wearing no armor and wielding no shield, its AC includes its Wisdom modifier. In addition, a creature that hits the oracle with a melee attack while within 5 feet of it takes 9 (2d8) force damage.</text>
+            <attack>Damage||2d8</attack>
         </trait>
         <action>
             <name>Eldritch Touch</name>
@@ -1699,6 +1733,7 @@
         <reaction>
             <name>Divine Insight (3/Day)</name>
             <text>When the oracle or a creature it can see makes an attack roll, a saving throw, or an ability check, the oracle can cause the roll to be made with advantage or disadvantage.</text>
+            <recharge>3/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -1730,7 +1765,7 @@
             <name>Innate Spellcasting</name>
             <text>The oread's spellcasting ability is Charisma (spell save 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
             <text>At will: fire bolt (see "Actions" below)</text>
-            <text>3: burning hands</text>
+            <text>3/Day: burning hands</text>
             <text>1/Day: hellish rebuke (see "Reactions" below), scorching ray</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
@@ -1761,6 +1796,7 @@
             <name>Hellish Rebuke (2nd-Level Spell; 1/Day)</name>
             <text>When the oread is damaged by a creature within 60 feet of the oread that it can see, the creature that damaged the oread must make a 14 Dexterity saving throw, taking 16 (3d10) fire damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Hellish Rebuke||3d10</attack>
+            <recharge>1/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -1807,12 +1843,14 @@
         <action>
             <name>Longsword</name>
             <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) slashing damage, or 16 (2d10 + 5) slashing damage if used with two hands, plus 11 (2d10) necrotic damage.</text>
-            <attack>Longsword|9|2d8+5+2d10+5+2d10</attack>
+            <attack>Longsword|9|2d8+5+2d10</attack>
+            <attack>Longsword (2H)|9|2d10+5+2d10</attack>
         </action>
         <action>
             <name>Strength Drain</name>
             <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 12 (2d6 + 5) necrotic damage. Unless the target is immune to necrotic damage, its Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.</text>
-            <attack>Strength Drain|9|2d6+5+1d4</attack>
+            <attack>Strength Drain|9|2d6+5</attack>
+            <attack>Strength Reduction||1d4</attack>
         </action>
     </monster>
     <monster>
@@ -1843,6 +1881,7 @@
         <trait>
             <name>Acidic Blood</name>
             <text>When Polukranos takes piercing or slashing damage, each creature within 5 feet of Polukranos takes 10 (3d6) acid damage.</text>
+            <attack>Acid Damage||3d6</attack>
         </trait>
         <trait>
             <name>Hold Breath</name>
@@ -1851,6 +1890,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Polukranos fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Multiple Heads</name>
@@ -1989,7 +2029,8 @@
         <action>
             <name>Underworld Bolt</name>
             <text>Ranged Spell Attack: +4 to hit, range 120 ft., one creature. Hit: 13 (2d8 + 2) necrotic damage, and the target can't regain hit points until the start of the Returned's next turn. If the target is missing any of its hit points, it instead takes 17 (2d12 + 2) necrotic damage.</text>
-            <attack>Underworld Bolt|4|2d8+2+2d12+2</attack>
+            <attack>Underworld Bolt|4|2d8+2</attack>
+            <attack>Underworld Bolt (damaged)|4|2d12+2</attack>
         </action>
     </monster>
     <monster>
@@ -2079,7 +2120,8 @@
         <action>
             <name>Spear</name>
             <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack, plus 7 (2d6) poison damage.</text>
-            <attack>Spear|5|1d6+3+1d8+3+2d6</attack>
+            <attack>Spear|5|1d6+3+2d6</attack>
+            <attack>Spear (2H)|5|1d8+3+2d6</attack>
         </action>
         <action>
             <name>Sling</name>
@@ -2190,6 +2232,7 @@
             <name>Hail of Arrows (Recharges after a Short or Long Rest)</name>
             <text>The satyr fires an arrow that magically transforms into a flurry of missiles in a 30-foot cone. Each creature in that area must make a 14 Dexterity saving throw, taking 17 (5d6) piercing damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Hail of Arrows||5d6</attack>
+            <recharge>Short</recharge>
         </action>
     </monster>
     <monster>
@@ -2288,6 +2331,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The chimera exhales fire in a 15-foot cone. Each creature in that area must make a 15 Dexterity saving throw, taking 32 (5d12) fire damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Breath Weapon||5d12</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -2319,7 +2363,7 @@
             <name>Innate Spellcasting</name>
             <text>The triton's spellcasting ability is Charisma (spell save 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
             <text>At will: ray of frost (see "Actions" below)</text>
-            <text>2: cone of cold</text>
+            <text>2/Day: cone of cold</text>
             <text>1/Day: fog cloud, gust of wind, wind wall</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
@@ -2331,6 +2375,7 @@
         <trait>
             <name>Summon Water Weird (Recharges after a Short or Long Rest)</name>
             <text>As a bonus action, the triton magically summons 1d4 water weird. The summoned weirds appear in unoccupied spaces in water within 60 feet of the triton. The water weirds act immediately after the triton on the same initiative count and fight until they're destroyed. They disappear if the triton dies.</text>
+            <recharge>Short</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -2439,10 +2484,12 @@
         <trait>
             <name>Hearts of the Kraken (Mythic Trait; Recharges after a Short or Long Rest)</name>
             <text>When Tromokratis is reduced to 0 hit points, it doesn't die or fall unconscious. Instead, the damage creates cracks in its carapace, revealing its hearts. Tromokratis has four hearts: two on its chest, one on its back, and one at the base of its tail. A heart has an AC of 22 and 100 hit points. It is immune to bludgeoning, piercing, and slashing damage from nonmagical attacks, and it is immune to all conditions. If it is forced to make a saving throw, treat its ability scores as 10 (+0). If it finishes a short or long rest, the carapace heals, any destroyed hearts regenerate, and the hearts are covered again. Tromokratis dies when all the hearts are destroyed.</text>
+            <recharge>Short</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If Tromokratis fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Magic Weapons</name>
@@ -2473,12 +2520,14 @@
         <action>
             <name>Tentacle Grasp</name>
             <text>Melee Weapon Attack: +18 to hit, reach 20 ft., one creature. Hit: 20 (3d6 + 10) bludgeoning damage, and the target is grappled (escape 26). If the target doesn't escape by the end of its next turn, Tromokratis throws the target up to 60 feet in a straight line. The target lands prone and takes 21 (6d6) bludgeoning damage.</text>
-            <attack>Tentacle Grasp|18|3d6+10+6d6</attack>
+            <attack>Tentacle Grasp|18|3d6+10</attack>
+            <attack>Bludgeoning Damage||6d6</attack>
         </action>
         <action>
             <name>Bite</name>
             <text>Melee Weapon Attack: +18 to hit, reach 5 ft., one target. Hit: 29 (3d12 + 10) piercing damage. If the target is a Large or smaller creature grappled by Tromokratis, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside Tromokratis, and it takes 42 (12d6) acid damage at the start of each of Tromokratis's turns. If Tromokratis takes 50 damage or more on a single turn from a creature inside it, Tromokratis must succeed on a 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of Tromokratis. If Tromokratis dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.</text>
-            <attack>Bite|18|3d12+10+12d6</attack>
+            <attack>Bite|18|3d12+10</attack>
+            <attack>Acid Damage||12d6</attack>
         </action>
         <legendary>
             <name>Move</name>
@@ -2543,6 +2592,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The cerberus exhales a 15-foot cone of molten rock. Each creature in the cone must make a 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also restrained by the hardening rock. A creature can make a 12 Strength (Athletics) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 10 hit points, and it is immune to fire, poison, and psychic damage.</text>
             <attack>Breath Weapon||3d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -2590,7 +2640,7 @@
         <action>
             <name>Constrict</name>
             <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one Large or smaller creature. Hit: 17 (3d6 + 7) bludgeoning damage, and the target is grappled (escape 19). Until this grapple ends, the target is restrained and takes 17 (3d6 + 7) bludgeoning damage at the start of each of its turns. The typhon can have up to two creatures constricted.</text>
-            <attack>Constrict|12|3d6+7+3d6+7</attack>
+            <attack>Constrict|12|3d6+7</attack>
         </action>
         <action>
             <name>Maw</name>
@@ -2648,6 +2698,7 @@
             <name>Breath Weapon (Recharge 5-6)</name>
             <text>The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone must make a 15 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also restrained by the hardening rock. A creature can make a 15 Strength (Athletics) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage.</text>
             <attack>Breath Weapon||6d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -2678,6 +2729,7 @@
         <trait>
             <name>Charge</name>
             <text>If the bull moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, the target takes an extra 19 (3d12) piercing damage.</text>
+            <attack>Damage||3d12</attack>
         </trait>
         <action>
             <name>Gore</name>
