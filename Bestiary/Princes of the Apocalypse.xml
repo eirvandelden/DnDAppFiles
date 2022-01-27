@@ -32,6 +32,7 @@
 		<trait>
 			<name>Legendary Resistance (2/Day)</name>
 			<text>If Aerisi fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -92,6 +93,7 @@
 			<name>Lightning Strike (Recharge 6)</name>
 			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
 			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -392,6 +394,7 @@
 		<trait>
 			<name>Action Surge (Recharges after a Short or Long Rest)</name>
 			<text>Drannin takes an additional action on his turn.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<trait>
 			<name>Brute</name>
@@ -404,11 +407,13 @@
 		<trait>
 			<name>Indomitable (Recharges after a Short or Long Rest)</name>
 			<text>Drannin can reroll a saving throw that he fails. He must use the new roll.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
 			<text>Drannin can use a bonus action to regain 16 (1d10 + 11) hit points.</text>
 			<attack>Second Wind||1d10+11</attack>
+			<recharge>Short</recharge>
 		</trait>
 		<trait>
 			<name>Special Equipment</name>
@@ -463,6 +468,7 @@
 			<name>Thunderous Strike (Recharge 6)</name>
 			<text>The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
 			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -496,6 +502,7 @@
 		<trait>
 			<name>Summon Mephits (Recharges after a Long Rest)</name>
 			<text>By puffing on his pipe, Elizar can use an action to cast conjure minor elementals. If he does so, he summons four smoke mephits.</text>
+			<recharge>Long</recharge>
 		</trait>
 		<action>
 			<name>Dagger +1</name>
@@ -529,6 +536,7 @@
 			<name>Flaming Weapon (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, the guard can wreath one melee weapon it is wielding in flame. The guard is unharmed by this fire, which lasts until the end of the guard's next turn. While wreathed in flame, the weapon deals an extra 3 (1d6) fire damage on a hit.</text>
 			<attack>Flaming Weapon||1d6</attack>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -605,6 +613,7 @@
 			<name>Shapechanger (2/day)</name>
 			<text>The fathomer can use its action to polymorph into a Medium serpent composed of water, or back into its true form. Anything the fathomer is wearing or carrying is subsumed into the serpent form during the change, inaccessible until the fathomer returns to its true form. The fathomer reverts to its true form after 4 hours, unless it can expend another use of this trait. If the fathomer is knocked unconscious or dies, it also reverts to its true form.</text>
 			<text>While in serpent form, the fathomer gains a swimming speed of 40 feet, the ability to breathe underwater, immunity to poison damage, as well as resistance to fire damage and bludgeoning, piercing, and slashing damage from nonmagical weapons. It also has immunity to the following conditions: exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious. The serpent form can enter a hostile creature's space and stop there. In addition, if water can pass through a space, the serpent can do so without squeezing.</text>
+			<recharge>2/day</recharge>
 		</trait>
 		<trait>
 			<name>Olhydra's Armor (Human Form Only)</name>
@@ -721,6 +730,7 @@
 			<name>Fiery Strikes (Recharge 6)</name>
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
 			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -791,6 +801,7 @@
 		<trait>
 			<name>Legendary Resistance (2/Day)</name>
 			<text>If Gar fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -915,6 +926,7 @@
 		<trait>
 			<name>Stunning Strike (Recharge 5-6)</name>
 			<text>When Hellenrae hits a target with a melee weapon attack, the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of Hellenrae's next turn.</text>
+			<recharge>D5</recharge>
 		</trait>
 		<trait>
 			<name>Unarmored Defense</name>
@@ -960,6 +972,7 @@
 		<trait>
 			<name>Guiding Wind (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, the initiate gains advantage on the next ranged attack roll it makes before the end of its next turn.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<trait>
 			<name>Hold Breath</name>
@@ -1065,6 +1078,7 @@
 		<reaction>
 			<name>Deflect Missiles</name>
 			<text>When the hurricane is hit by a ranged weapon attack, it reduces the damage from the attack by 1d10 + 9. If the damage is reduced to 0, the hurricane can catch the missile if it is small enough to hold in one hand and the hurricane has at least one hand free.</text>
+			<attack>Deflect Missiles||1d10+9</attack>
 		</reaction>
 		<spells>Blade Ward, Gust, Light, Prestidigitation, Feather Fall, Jump, Thunderwave, Gust of Wind</spells>
 		<slots>4,2,0,0,0,0,0,0,0</slots>
@@ -1112,6 +1126,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Imix fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
@@ -1141,6 +1156,7 @@
 		<action>
 			<name>Summon Elementals (1/Day)</name>
 			<text>Imix summons up to three fire elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Imix, and disappear if Imix is reduced to 0 hit points.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<legendary>
 			<name>Heat Wave</name>
@@ -1155,6 +1171,7 @@
 			<name>Combustion (Costs 3 Actions)</name>
 			<text>Imix causes one creature he can see within 30 feet of him to burst into flames. The target must make a DC 21 Constitution saving throw. On a failed save, the target takes 70 (20d6) fire damage and catches fire. A target on fire takes 10 (3d6) fire damage when it starts its turn, and remains on fire until it or another creature takes an action to douse the flames. On a successful save, the target takes half as much damage and doesn't catch fire.</text>
 			<attack>Combustion||20d6</attack>
+			<attack>Start of Turn||3d6</attack>
 		</legendary>
 		<spells>Fireball, Wall of Fire, Fire Storm, Haste, Teleport</spells>
 	</monster>
@@ -1190,6 +1207,7 @@
 		<trait>
 			<name>Legendary Resistance (2/Day)</name>
 			<text>If Marlos fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Petrifying Gaze</name>
@@ -1296,6 +1314,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Ogremoch fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -1322,6 +1341,7 @@
 		<action>
 			<name>Summon Elementals (1/Day)</name>
 			<text>Ogremoch summons up to three earth elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Ogremoch, and disappear if Ogremoch is reduced to 0 hit points.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<legendary>
 			<name>Illuminating Crystals</name>
@@ -1375,6 +1395,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Olhydra fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -1401,6 +1422,7 @@
 		<action>
 			<name>Summon Elementals (1/Day)</name>
 			<text>Olhydra summons up to three water elementals and loses 30 hit points for each elemental she summons. Summoned elementals have maximum hit points, appear within 100 feet of Olhydra, and disappear if Olhydra is reduced to 0 hit points.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<legendary>
 			<name>Crush</name>
@@ -1499,6 +1521,7 @@
 		<trait>
 			<name>Swift Animation (Recharges after a Long Rest)</name>
 			<text>When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid's corpse, instead of using the spell's normal casting time.</text>
+			<recharge>Long</recharge>
 		</trait>
 		<action>
 			<name>Dagger</name>
@@ -1536,6 +1559,7 @@
 		<trait>
 			<name>Shrapnel Explosion</name>
 			<text>When the razerblast drops to 0 hit points, a flaming orb in its chest explodes, destroying the razerblast's body and scattering its armor as shrapnel. Creatures within 10 feet of the razerblast when it explodes must succeed on a DC 12 Dexterity saving throw, taking 21 (6d6) piercing damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Shrapnel Explosion||6d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1710,6 +1734,7 @@
 			<name>Black Earth Rod</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage. The Stonemelder can also expend a spell slot to deal extra damage, dealing 2d8 bludgeoning damage for a 1st level slot, plus an additional 1d8 for each level of the slot above 1st.</text>
 			<attack>Black Earth Rod|5|1d6+2</attack>
+			<attack>Extra Damage||2d8</attack>
 		</action>
 		<spells>Acid Splash, Blade Ward, Light, Mending, Mold Earth, Expeditious Retreat, False Life, Shield, Maximilian's Earthen Grasp, Shatter, Erupting Earth, Meld into Stone, Stoneskin</spells>
 		<slots>4,3,3,1,0,0,0,0,0</slots>
@@ -1790,6 +1815,7 @@
 		<trait>
 			<name>Legendary Resistance (2/Day)</name>
 			<text>If Vanifer fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -1852,6 +1878,7 @@
 			<name>Freezing Strikes (Recharge 6)</name>
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
 			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1983,6 +2010,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Yan-C-Bin fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2001,6 +2029,7 @@
 			<name>Thundercrack (Recharges after a Short or Long Rest)</name>
 			<text>Yan-C-Bin unleashes a terrible thundercrack in a 100-foot- radius sphere centered on himself. All other creatures in the area must succeed on a DC 24 Constitution saving throw or take 31 (9d6) thunder damage and be deafened for 1 minute. On a successful save, a creature takes half as much damage and is deafened until the start of Yan-C-Bin's next turn.</text>
 			<attack>Thundercrack||9d6</attack>
+			<recharge>Short</recharge>
 		</action>
 		<action>
 			<name>Change Shape</name>
@@ -2009,6 +2038,7 @@
 		<action>
 			<name>Summon Elementals (1/Day)</name>
 			<text>Yan-C-Bin summons up to three air elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Yan-C-Bin, and disappear if Yan-C-Bin is reduced to 0 hit points.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<legendary>
 			<name>Peal of Thunder</name>
