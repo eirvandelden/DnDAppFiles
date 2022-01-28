@@ -114,7 +114,7 @@
 			<name>Fire Breath (Recharge 5-6)</name>
 			<text>The dracolich exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on a failed save, or half as much damage</text>
 			<attack>Fire Breath||18d6</attack>
-            <recharge>5-6</recharge>
+            <recharge>D5</recharge>
 		</action>
 		<legendary>
 			<name>Detect</name>
@@ -525,6 +525,7 @@
         <trait>
             <name>Death Throes (Demon Only)</name>
             <text>When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes 2d10 + the spell's level fire damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Fire Damage||2d10</attack>
         </trait>
         <trait>
             <name>Devil's Sight (Devil Only)</name>
@@ -566,13 +567,13 @@
         <wis>10</wis>
         <cha>7</cha>
         <save>dex +2 plus your proficiency bonus</save>
-        <skill>perception +0 plus your proficiency bonus × 2,stealth +2 plus your proficiency bonus</skill>
+        <skill>perception +0 plus your proficiency bonus * 2,stealth +2 plus your proficiency bonus</skill>
         <vulnerable></vulnerable>
         <resist></resist>
         <immune>poison</immune>
         <conditionImmune>exhaustion,poisoned</conditionImmune>
         <senses>darkvision 60 ft.</senses>
-        <passive>10 + (your proficiency bonus × 2)</passive>
+        <passive>10 + (your proficiency bonus * 2)</passive>
         <languages>understands the languages you speak</languages>
         <trait>
             <name>Evasion</name>
@@ -581,7 +582,7 @@
         <action>
             <name>Force Strike</name>
             <text>Ranged Weapon Attack: your spell attack modifier to hit, range 30 ft., one target you can see. Hit: 1d4 + your proficiency bonus force damage.</text>
-            <attack>Force Strike|0|1d4+</attack>
+            <attack>Force Strike|0|1d4</attack>
         </action>
         <reaction>
             <name>Channel Magic</name>
@@ -726,6 +727,7 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.</text>
 			<text>If a non-evil humanoid dies from this attack, a new reflection rises from the corpse 1d4 hours later.</text>
 			<attack>Strength Drain|4|2d6+2</attack>
+            <attack>Hours||1d4</attack>
 		</action>
 	</monster>
     <monster>
@@ -772,6 +774,7 @@
         <action>
             <name>Dreadful Scream (1/Day)</name>
             <text>The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be frightened for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>1/DAY</recharge>
         </action>
     </monster>
     <monster>
@@ -790,13 +793,13 @@
         <wis>10</wis>
         <cha>6</cha>
         <save>dex +1 plus your proficiency bonus,con +2 plus your proficiency bonus</save>
-        <skill>athletics +2 plus your proficiency bonus,perception +0 plus your proficiency bonus × 2</skill>
+        <skill>athletics +2 plus your proficiency bonus,perception +0 plus your proficiency bonus * 2</skill>
         <vulnerable></vulnerable>
         <resist></resist>
         <immune>poison</immune>
         <conditionImmune>charmed,exhaustion,poisoned</conditionImmune>
         <senses>darkvision 60 ft.</senses>
-        <passive>10 + (your proficiency bonus × 2)</passive>
+        <passive>10 + (your proficiency bonus * 2)</passive>
         <languages>understands the languages you speak</languages>
         <trait>
             <name>Vigilant</name>
@@ -805,12 +808,13 @@
         <action>
             <name>Force-Empowered Rend</name>
             <text>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + your proficiency bonus force damage.</text>
-            <attack>Force-Empowered Rend|0|1d8+</attack>
+            <attack>Force-Empowered Rend|0|1d8</attack>
         </action>
         <action>
             <name>Repair (3/Day)</name>
             <text>The magical mechanisms inside the defender restore 2d8 + your proficiency bonus hit points to itself or to one construct or object within 5 feet of it.</text>
             <attack>Repair||2d8</attack>
+            <recharge>3/DAY</recharge>
         </action>
         <reaction>
             <name>Deflect Attack</name>
