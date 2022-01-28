@@ -32,7 +32,7 @@
 		</trait>
 		<trait>
 			<name>Improved Critical</name>
-			<text>Jarhild’s weapon attacks score a critical hit on a roll of 19 or 20.</text>
+			<text>Jarhild's weapon attacks score a critical hit on a roll of 19 or 20.</text>
 		</trait>
 		<action>
 			<name>Longsword</name>
@@ -133,7 +133,8 @@
 		</action>
 		<action>
 			<name>Turn Undead (Recharges after a Short or Long Rest)</name>
-			<text>Illydia presents her holy symbol and speaks a prayer censuring the undead. Each undead that can see or hear her within 30 feet of her must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. A turned creature must spend its turns trying to move as far away from Illydia as it can, and it can’t willingly move to a space within 30 feet of her. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</text>
+			<text>Illydia presents her holy symbol and speaks a prayer censuring the undead. Each undead that can see or hear her within 30 feet of her must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. A turned creature must spend its turns trying to move as far away from Illydia as it can, and it can't willingly move to a space within 30 feet of her. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</text>
+			<recharge>SHORT</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -159,7 +160,7 @@
 		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
-		<languages>Common, Dwarvish, Thieves’ cant</languages>
+		<languages>Common, Dwarvish, Thieves' cant</languages>
 		<cr>2</cr>
 		<trait>
 			<name>Dwarven Resilience</name>
@@ -167,15 +168,17 @@
 		</trait>
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
-			<text>Larethar deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Larethar that isn’t incapacitated and Larethar doesn’t have disadvantage on the attack roll.</text>
+			<text>Larethar deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Larethar that isn't incapacitated and Larethar doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||2d6</attack>
 		</trait>
 		<trait>
 			<name>Cunning Action/Fast Hands</name>
-			<text>Larethar can take a bonus action on each of his turns in combat. This action can be used to take the Dash, Disengage, Hide, or Use an Object actions. He can also use this action to make a Dexterity (Sleight of Hand) check with a +5 bonus, or to use his thieves’ tools to disarm a trap or open a lock.</text>
+			<text>Larethar can take a bonus action on each of his turns in combat. This action can be used to take the Dash, Disengage, Hide, or Use an Object actions. He can also use this action to make a Dexterity (Sleight of Hand) check with a +5 bonus, or to use his thieves' tools to disarm a trap or open a lock.</text>
 		</trait>
 		<trait>
 			<name>Thief</name>
-			<text>Larethar gets a +7 to Dexterity checks he can make while using his thieves’ tools.</text>
+			<text>Larethar gets a +7 to Dexterity checks he can make while using his thieves' tools.</text>
+			<attack>Thieves' Tools|7|</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -237,11 +240,11 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Bryn is a 3rd-level spellcaster. Her spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). Bryn has the following ranger spells prepared:</text>
-			<text>1st level (3 slots): ensnaring strike, hunter’s mark, longstrider</text>
+			<text>1st level (3 slots): ensnaring strike, hunter's mark, longstrider</text>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>3,0,0,0,0,0,0,0,0</slots>
-		<spells>Ensnaring Strike, Hunter’s Mark, Longstrider</spells>
+		<spells>Ensnaring Strike, Hunter's Mark, Longstrider</spells>
 		<action>
 			<name>Multiattack</name>
 			<text>Bryn makes two attacks: one with her dagger and one with her shortsword.</text>
