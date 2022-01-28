@@ -27,7 +27,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 230</text>
+			<text>Tales from the Yawning Portal, page 230</text>
 		</trait>
 		<trait>
 			<name>Constructed Nature</name>
@@ -44,6 +44,7 @@
 		<trait>
 			<name>Charge</name>
 			<text>If the table moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||2d8</attack>
 		</trait>
 		<action>
 			<name>Ram</name>
@@ -80,7 +81,7 @@
 		<cr>6</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 231</text>
+			<text>Tales from the Yawning Portal, page 231</text>
 		</trait>
 		<trait>
 			<name>Undead Nature</name>
@@ -89,6 +90,7 @@
 		<trait>
 			<name>Charge</name>
 			<text>If the centaur mummy moves at least 20 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage.</text>
+			<attack>Charge||3d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -138,7 +140,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 233</text>
+			<text>Tales from the Yawning Portal, page 233</text>
 		</trait>
 		<trait>
 			<name>Undead Nature</name>
@@ -199,7 +201,7 @@
 		<cr>l</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 233</text>
+			<text>Tales from the Yawning Portal, page 233</text>
 		</trait>
 		<trait>
 			<name>Undead Nature</name>
@@ -254,7 +256,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 234</text>
+			<text>Tales from the Yawning Portal, page 234</text>
 		</trait>
 		<trait>
 			<name>Cunning Action</name>
@@ -267,6 +269,7 @@
 		<trait>
 			<name>Sneak Attack</name>
 			<text>Once per turn, the spy can deal an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn't incapacitated and the spy doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||2d6</attack>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -277,13 +280,14 @@
 			<text>The spy makes two shortsword attacks.</text>
 		</action>
 		<action>
-			<name>Eniarge (Recharges after a Short or Long Rest)</name>
+			<name>Enlarge (Recharges after a Short or Long Rest)</name>
 			<text>For 1 minute, the spy magically increases in size, along with anything it is wearing or carrying. While enlarged, the spy is Large, doubles her damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the spy lacks the room to become Large, it attains the maximum size possible in the space available.</text>
 		</action>
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 10 (2d6 + 3) piercing damage while enlarged.</text>
 			<attack>Shortsword|5|1d6+3</attack>
+			<attack>Shortsword (2H)|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Hand Crossbow</name>
@@ -293,6 +297,7 @@
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
 			<text>The spy magically turns invisible until it attacks, deals damage, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the spy wears or carries is invisible with it.</text>
+			<recharge>SHORT</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -319,13 +324,12 @@
 		<immune/>
 		<conditionImmune/>
 		<senses>blindsight 30 ft.</senses>
-		<passive>9
-</passive>
+		<passive>9</passive>
 		<languages/>
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 235</text>
+			<text>Tales from the Yawning Portal, page 235</text>
 		</trait>
 		<trait>
 			<name>Amphibious</name>
@@ -370,7 +374,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 236</text>
+			<text>Tales from the Yawning Portal, page 236</text>
 		</trait>
 		<trait>
 			<name>Water Breathing</name>
@@ -387,7 +391,9 @@
 		</action>
 		<action>
 			<name>Lightning jolt (Recharge 5-6)</name>
-			<text>One creature the eel touches within 5 feet of it outside water, or each creature within l 5 feet ofit in a body of water, must make a DC 12 Constitution saving throw. On failed save, a target takes 13 (3d8) lightning damage. If the target takes any of this damage, the target is stunned until the end of the eel's next turn. On a successful save, a target takes half as much damage and isn't stunned.</text>
+			<text>One creature the eel touches within 5 feet of it outside water, or each creature within 15 feet of it in a body of water, must make a DC 12 Constitution saving throw. On failed save, a target takes 13 (3d8) lightning damage. If the target takes any of this damage, the target is stunned until the end of the eel's next turn. On a successful save, a target takes half as much damage and isn't stunned.</text>
+			<recharge>D5</recharge>
+			<attack>Lightning Jolt||3d8</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -419,7 +425,7 @@
 		<cr>4</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 236</text>
+			<text>Tales from the Yawning Portal, page 236</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -437,9 +443,10 @@
 		</action>
 		<action>
 			<name>Swallow</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one Medium or smaller creature the lizard is grappling. Hit: 16 (2d10 + 5) piercing damage, the target is swallowed, and the grapp le ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the lizard, and it takes 10 (3d6) acid damage at the start of each of the lizard's turns. The lizard can have only one target swallowed at a time.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one Medium or smaller creature the lizard is grappling. Hit: 16 (2d10 + 5) piercing damage, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the lizard, and it takes 10 (3d6) acid damage at the start of each of the lizard's turns. The lizard can have only one target swallowed at a time.</text>
 			<text>	If the lizard dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
 			<attack>Swallow|7|2d10+5</attack>
+			<attack>Acid Damage||3d6</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -471,7 +478,7 @@
 		<cr>5</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 237</text>
+			<text>Tales from the Yawning Portal, page 237</text>
 		</trait>
 		<trait>
 			<name>Undead Nature</name>
@@ -492,7 +499,7 @@
 		<action>
 			<name>Empowered Slam</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage.</text>
-			<attack>Empowered Slam|7|1d6+4</attack>
+			<attack>Empowered Slam|7|1d6+4+2d6</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -524,7 +531,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 238</text>
+			<text>Tales from the Yawning Portal, page 238</text>
 		</trait>
 		<trait>
 			<name>Amphibious</name>
@@ -577,7 +584,7 @@
 		<cr>4</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 238</text>
+			<text>Tales from the Yawning Portal, page 238</text>
 		</trait>
 		<trait>
 			<name>Amphibious</name>
@@ -638,7 +645,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 239</text>
+			<text>Tales from the Yawning Portal, page 239</text>
 		</trait>
 		<trait>
 			<name>Amphibious</name>
@@ -665,10 +672,12 @@
 		<action>
 			<name>Fling</name>
 			<text>One Medium or smaller object held or creature grappled by the kraken's tentacles is thrown up to 60 feet in a random direction and knocked prone. If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 16 Dexterity saving throw or take the same damage and be knocked prone.</text>
+			<attack>Damage per 10 feet||1d6</attack>
 		</action>
 		<action>
 			<name>Lightning Storm</name>
 			<text>The kraken creates three bolts of lightning, each of which can strike a target the kraken can see within 150 feet ofit. A target must make a DC 16 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Lightning Storm||3d10</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -700,7 +709,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 240</text>
+			<text>Tales from the Yawning Portal, page 240</text>
 		</trait>
 		<trait>
 			<name>Amphibious</name>
@@ -730,10 +739,13 @@
 		<action>
 			<name>Drowning Kiss (Recharge 5-6)</name>
 			<text>The nereid touches one creature it can see within 5 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 22 (3d12 + 3) acid damage. On a failure, it also runs out of breath and can't speak for 1 minute. At the end of each of its turns, it can repeat the save, ending the effect on itself on a success.</text>
+			<recharge>D5</recharge>
+			<attack>Acid Damage||2d12+3</attack>
 		</action>
 		<action>
 			<name>Water Lash</name>
 			<text>The nereid causes a 5-foot cube of water within 60 feet of it to take a shape of its choice and strike one target it can see within 5 feet of that water. The target must make a DC 13 Strength saving throw. On a failed save, it takes 17 (4d6 + 3) bludgeoning damage, and ifit is a Large or smaller creature, it is pushed up to 15 feet in a straight line or is knocked prone (nereid's choice). On a successful save, the target takes half as much damage and isn't pushed or knocked prone.</text>
+			<attack>Water Lash||4d6+3</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -765,7 +777,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 241</text>
+			<text>Tales from the Yawning Portal, page 241</text>
 		</trait>
 		<trait>
 			<name>Undead Nature</name>
@@ -775,6 +787,7 @@
 			<name>Corrosive Form</name>
 			<text>A creature that touches the Ooze Master or hits it with a melee attack while within 5 feet of it takes 9 (2d8) acid damage. Any nonmagical weapon that hits the Ooze Master corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition that hits the Ooze Master is destroyed after dealing damage.</text>
 			<text>	The Ooze Master can eat through 2-inch-thick, nonmagical wood or metal in 1 round.</text>
+			<attack>Acid Damage||2d8</attack>
 		</trait>
 		<trait>
 			<name>Instinctive Attack</name>
@@ -802,7 +815,6 @@
 		<reaction>
 			<name>Instinctive Charm</name>
 			<text>If a creature the Ooze Master can see makes an attack roll against it while within 30 feet of it, the Ooze Master can use a reaction to divert the attack if another creature is within the attack's range. The attacker must make a DC 15 Wisdom saving throw. On a failed save, the attacker targets the creature that is closest to it, not including itself or the Ooze Master. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, the attacker is immune to this Instinctive Charm for 24 hours. Creatures that can't be charmed are immune to this effect.</text>
-			<attack/>
 		</reaction>
 		<spells>Acid Splash, Friends, Mage Hand, Poison Spray, Charm Person, Detect Magic, Magic Missile, Ray of Sickness, Detect Thoughts, Melf's Acid Arrow, Suggestion, Fear, Slow, Stinking Cloud, Confusion, Evard's Black Tentacles, Cloudkill</spells>
 		<slots>4,3,3,3,1</slots>
@@ -834,7 +846,7 @@
 		<cr>5</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 242</text>
+			<text>Tales from the Yawning Portal, page 242</text>
 		</trait>
 		<trait>
 			<name>Amphibious</name>
@@ -896,7 +908,7 @@
 		<cr>1/2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 242</text>
+			<text>Tales from the Yawning Portal, page 242</text>
 		</trait>
 		<trait>
 			<name>Barkskin</name>
@@ -951,7 +963,7 @@
 		<cr>1/2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 243</text>
+			<text>Tales from the Yawning Portal, page 243</text>
 		</trait>
 		<trait>
 			<name>Barkskin</name>
@@ -967,14 +979,13 @@
 		</trait>
 		<action>
 			<name>Longsword</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1dlO + 4) slashing damage if used with two hands.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
 			<attack>Longsword|6|1d8+4</attack>
 			<attack>Two Handed|6|1d10+4</attack>
 		</action>
 		<reaction>
 			<name>Protection</name>
 			<text>When a creature Sir Braford can see attacks a target other than him that is within 5 feet of him, he can use a reaction to use his shield to impose disadvantage on the attack roll.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -1006,7 +1017,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 243</text>
+			<text>Tales from the Yawning Portal, page 243</text>
 		</trait>
 		<trait>
 			<name>Amphibious</name>
@@ -1029,6 +1040,7 @@
 		<action>
 			<name>Stupefying Touch</name>
 			<text>Siren touches one creature she can see within 5 feet of her. The creature must succeed on a DC 13 Intelligence saving throw or take 13 (3d6 + 3) psychic damage and be stunned until the start of Siren's next turn.</text>
+			<attack>Psychic Damage||3d6+3</attack>
 		</action>
 		<spells>Charm Person, Fog Cloud, Greater Invisibility, Polymorph</spells>
 		<slots/>
@@ -1060,7 +1072,7 @@
 		<cr>13</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 244</text>
+			<text>Tales from the Yawning Portal, page 244</text>
 		</trait>
 		<trait>
 			<name>Undead Nature</name>
@@ -1073,10 +1085,11 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Var fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/DAY</recharge>
 		</trait>
 		<trait>
 			<name>Rejuvenation</name>
-			<text>If Var is destroyed but his phylactery remains intact, Var gains a new body in ldlO days, regaining all his hit points and becoming active again. The new body appears within 5 feet of the phylactery.</text>
+			<text>If Var is destroyed but his phylactery remains intact, Var gains a new body in 1d10 days, regaining all his hit points and becoming active again. The new body appears within 5 feet of the phylactery.</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -1149,7 +1162,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 246</text>
+			<text>Tales from the Yawning Portal, page 246</text>
 		</trait>
 		<trait>
 			<name>Doomvault Devotion</name>
@@ -1165,7 +1178,7 @@
 		</action>
 		<action>
 			<name>Longsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1dlO + 3) slashing damage if used with two hands.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
 			<attack>Longsword|5|1d8+3</attack>
 			<attack>Two Handed|5|1d10+3</attack>
 		</action>
@@ -1204,12 +1217,13 @@
 		<cr>1/2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 246</text>
+			<text>Tales from the Yawning Portal, page 246</text>
 		</trait>
 		<trait>
 			<name>Adhesive Blossoms</name>
 			<text>The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also grappled by it (escape DC 11). Ability checks made to escape this grapple have disadvantage.</text>
 			<text>	At the end of each of the thorn slinger's turns, anything grappled by it takes 3 (1d6) acid damage.</text>
+			<attack>Acid Damage||1d6</attack>
 		</trait>
 		<trait>
 			<name>False Appearance</name>
@@ -1250,7 +1264,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 247</text>
+			<text>Tales from the Yawning Portal, page 247</text>
 		</trait>
 		<trait>
 			<name>Undead Nature</name>
@@ -1262,11 +1276,11 @@
 		</trait>
 		<trait>
 			<name>Forbiddance</name>
-			<text>The vampiric mist can 't enter a residence without an invitation from one of the occupants.</text>
+			<text>The vampiric mist can't enter a residence without an invitation from one of the occupants.</text>
 		</trait>
 		<trait>
 			<name>Misty Form</name>
-			<text>The vampiric mist can occupy another creature's space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than l extra foot. The mist can 't manipulate objects in any way that requires hands; it can apply simple force only.</text>
+			<text>The vampiric mist can occupy another creature's space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than 1 extra foot. The mist can't manipulate objects in any way that requires hands; it can apply simple force only.</text>
 		</trait>
 		<trait>
 			<name>Sunlight Hypersensitivity</name>
@@ -1276,6 +1290,7 @@
 			<name>Blood Drain</name>
 			<text>One creature in the vampiric mist's space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6 + 3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount.</text>
 			<text>	This reduction to the target's hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0.</text>
+			<attack>Necrotic Damage||2d6+3</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -1286,8 +1301,7 @@
 		<type>ooze</type>
 		<description>Source: Tales from the Yawning Portal</description>
 		<alignment>chaotic neutral</alignment>
-		<ac>5
-</ac>
+		<ac>5</ac>
 		<hp>217 (14d20+70)</hp>
 		<speed>10 ft.</speed>
 		<str>18</str>
@@ -1308,7 +1322,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 248</text>
+			<text>Tales from the Yawning Portal, page 248</text>
 		</trait>
 		<trait>
 			<name>Ooze Nature</name>
@@ -1366,7 +1380,7 @@
 		<cr>1</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 248</text>
+			<text>Tales from the Yawning Portal, page 248</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
