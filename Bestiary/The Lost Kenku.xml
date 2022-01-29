@@ -58,7 +58,8 @@
         <action>
             <name>Mind Blast (Recharge 5-6)</name>
             <text>The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Mind Blast| |4d8+4</attack>
+            <attack>Mind Blast||4d8+4</attack>
+            <recharge>D5</recharge>
         </action>
         <spells>Detect Thoughts, Levitate, Dominate Monster, Plane Shift, Chill Touch, Dancing Lights, Mage Hand, Prestidigitation, Shocking Grasp, Detect Magic, Disguise Self, Magic Missile, Shield, Invisibility, Mirror Image, Scorching Ray, Counterspell, Fly, Lightning Bolt, Confusion, Evard's Black Tentacles, Phantasmal Killer, Modify Memory, Wall of Force, Disintegrate, Globe of Invulnerability</spells>
         <slots>4,3,3,3,2,1,0,0,0</slots>
@@ -268,7 +269,7 @@
         <action>
             <name>Mind Blast (1/Day)</name>
             <text>Celest magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Mind Blast| |4d8+4</attack>
+            <attack>Mind Blast||4d8+4</attack>
         </action>
         <action>
             <name>Club</name>
@@ -325,13 +326,14 @@
         </action>
         <action>
             <name>Snakes</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or halfas much damage on a successful one.</text>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Snakes|5|1d6+3</attack>
             <attack>Poison||6d6</attack>
         </action>
         <action>
             <name>Sleep Breath (Recharges after a Short or Long Rest)</name>
             <text>The kamadan exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if it takes damage or someone uses an action to wake it.</text>
+            <recharge>SHORT</recharge>
         </action>
     </monster>
     <monster>
@@ -408,7 +410,7 @@
         <trait>
             <name>Sneak Attack (1/Turn)</name>
             <text>The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.</text>
-            <attack>Sneak Attack| |4d6</attack>
+            <attack>Sneak Attack||4d6</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -430,14 +432,4 @@
         </reaction>
         <spells />
     </monster>
-    Mez Kara apprentice + friendship and charm person
-    Gregor Forskog bandit captain
-    Tooth, Cat Keeper, bandit
-    Gnator Gnimmcap, commoner?
-    Tonk Hammertoes, commoner?
-    Celest Weirding, commoner + mind blast
-    Cawkrin Jones, master thief
-    Kamadan
-    Formorian
-    Quinn Quinn, Kobold
 </compendium>
