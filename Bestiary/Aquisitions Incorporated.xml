@@ -195,9 +195,10 @@
 			<attack>Martial Advantage||2d6</attack>
 		</trait>
 		<action>
-			<name>Acid Spray Gun (Recharge 5–6)</name>
+			<name>Acid Spray Gun (Recharge 5-6)</name>
 			<text>The hobgoblin sprays acid in a 10-foot cone. Each creature in the area must make a DC 10 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Acid Spray Gun||2d6</attack>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Longsword</name>
@@ -416,6 +417,7 @@
 		<action>
 			<name>Paralysis Gas (Recharge 5-6)</name>
 			<text>The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -461,7 +463,8 @@
 		<action>
 			<name>Fire Breath (Recharge 5-6)</name>
 			<text>The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Fire Breath (Recharge 5-6)||7d8</attack>
+			<attack>Fire Breath||7d8</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -500,6 +503,7 @@
 		<action>
 			<name>Paralysis Gas (Recharge 5-6)</name>
 			<text>The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -529,6 +533,7 @@
 		<trait>
 			<name>Iconic Documancer: Scroll Service (1/day)</name>
 			<text>As an action, the Dagdra draws a spell scroll from her documancy satchel. The scroll contains a spell of up to 3rd level of her choice. Only she can use the scroll, which vanishes after 1 minute.</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Divine Eminence</name>
@@ -578,6 +583,7 @@
 		<trait>
 			<name>Iconic Documancer: Scroll Service (1/day)</name>
 			<text>As an action, the Aela draws a spell scroll from her documancy satchel. The scroll contains a spell of up to 3rd level of her choice. Only she can use the scroll, which vanishes after 1 minute.</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Divine Eminence</name>
@@ -623,6 +629,7 @@
 		<trait>
 			<name>Iconic Hoardsperson: That Thing You Need (3/Day)</name>
 			<text>The hoardsperson pulls one item of its choice from the living loot satchel. This can be any item found on the Adventuring Gear table in chapter 5, "Equipment," of the Player's Handbook. The item must be worth no more than 15 gp.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Hold Breath</name>
@@ -975,6 +982,7 @@
 		<trait>
 			<name>Iconic Hoardsperson: That Thing You Need (3/Day)</name>
 			<text>The hoardsperson pulls one item of its choice from the living loot satchel. This can be any item found on the Adventuring Gear table in chapter 5, "Equipment," of the Player's Handbook. The item must be worth no more than 15 gp.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Cunning Action</name>
@@ -1045,6 +1053,7 @@
 			<name>Lightning Breath (Recharge 5-6)</name>
 			<text>The behir exhales a line of lightning that is 20 ft. long and 5 ft. wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Lightning Breath||12d10</attack>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Swallow</name>
@@ -1074,9 +1083,20 @@
 		<passive>11</passive>
 		<languages>Common</languages>
 		<cr>3</cr>
-		<trait><name>Iconic Affiliate of the Six: Glimpse of the Beyond (1/Day)</name> <text>As an action, this creature provides a glimpse into its true nature by extolling the madness of the Far Realm. Each creature within 30 feet of this creature that can see and hear it must succeed on a DC 13 Intelligence saving throw or be blinded. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text></trait>
-		<trait><name>Iconic Affiliate of the Six: Something Feels Off (1/Day)</name> <text>When a visible attacker within 5 feet of this creature makes an attack roll against it, it can use its reaction to unleash a pulse of distracting otherworldly power, imposing disadvantage on the attack roll.</text></trait>
-		<trait><name>Iconic Affiliate of the Six: Touch of Madness</name> <text>This creature has advantage on saving throws against being charmed or frightened.</text></trait>
+		<trait>
+			<name>Iconic Affiliate of the Six: Glimpse of the Beyond (1/Day)</name>
+			<text>As an action, this creature provides a glimpse into its true nature by extolling the madness of the Far Realm. Each creature within 30 feet of this creature that can see and hear it must succeed on a DC 13 Intelligence saving throw or be blinded. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Iconic Affiliate of the Six: Something Feels Off (1/Day)</name>
+			<text>When a visible attacker within 5 feet of this creature makes an attack roll against it, it can use its reaction to unleash a pulse of distracting otherworldly power, imposing disadvantage on the attack roll.</text>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Iconic Affiliate of the Six: Touch of Madness</name>
+			<text>This creature has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
 		<trait>
 			<name>Shapechanger</name>
 			<text>The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
@@ -1324,6 +1344,7 @@
 		<trait>
 			<name>Taunt (2/Day)</name>
 			<text>Brahma can use a bonus action to target one creature she can see within 30 feet of her. If the target can hear Brahma, it must succeed on a 13 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Brahma's next turn.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<action>
 			<name>War Lute</name>
@@ -1333,6 +1354,7 @@
 		<action>
 			<name>Song of Domination (3/Day)</name>
 			<text>Brahma targets one creature that can see or hear her, which must succeed on a 13 Wisdom saving throw or be charmed by her for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success. It has disadvantage on these saves if being charmed by Brahma is something the target openly or secretly desires. For 1 hour after the charm effect ends, the target has disadvantage on Intelligence, Wisdom, or Charisma checks made as part of a contest with Brahma.</text>
+			<recharge>3/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1376,6 +1398,7 @@
 		<action>
 			<name>Chaos Cloud (Recharges after a Short or Long Rest)</name>
 			<text>The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a 14 Charisma saving throw or be stunned until the end of its next turn.</text>
+			<recharge>Short</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1416,6 +1439,7 @@
 			<name>Fire Breath (Recharge 5)</name>
 			<text>The clockwork dragon exhales fire in a 15-foot cone. Each creature in that area must make a 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Fire Breath||4d6</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1507,6 +1531,7 @@
 		<trait>
 			<name>Champion Challenge (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a 13 Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is incapacitated or dies, or if the creature is moved more than 30 feet away from him.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1732,6 +1757,8 @@
 			<text>	Any creature affected by the hot oil spray that takes fire damage before the oil dries (after 1 minute) takes an additional 3 (1d6) fire damage, and the oil burns away.</text>,
 			<text>	If the oil that remains in the area of the spray is lit, it burns for 1d4 rounds and deals 3 (1d6) fire damage to any creature that enters the area for the first time on a turn or ends its turn there.</text>
 			<attack>Hot Oil Spray||1d8+3</attack>
+			<attack>Fire Damage||1d6</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1843,6 +1870,7 @@
 		<reaction>
 			<name>Return the Favor (3/Day)</name>
 			<text>When Oak takes damage from a melee weapon attack, he can make a hooked dagger attack.</text>
+			<recharge>3/Day</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -1886,6 +1914,7 @@
 		<trait>
 			<name>Divine Strike</name>
 			<text>Once on each of his turns when he hits a creature with a weapon attack, Omin can cause the attack to deal an extra 4 (1d8) damage of the same type dealt by the weapon.</text>
+			<attack>Divine Strike||1d8</attack>
 		</trait>
 		<trait>
 			<name>Fey Ancestry</name>
@@ -1903,6 +1932,7 @@
 		<reaction>
 			<name>War God's Blessing (Recharges after a Short or Long Rest)</name>
 			<text>When a creature within 30 feet of Omin makes an attack roll, but before learning whether it hits or misses, Omin can grant the creature a +10 bonus to that roll.</text>
+			<recharge>Short</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -1943,6 +1973,7 @@
 		<trait>
 			<name>Echo Spell (1/Day)</name>
 			<text>Pendragon can cast the spell he cast on his last turn, whose casting time becomes 1 bonus action. This bonus casting uses a spell slot as normal.</text>
+			<recharge>1/Day</recharge>
 		</trait>
 		<action>
 			<name>Shortsword</name>
@@ -1988,6 +2019,7 @@
 		<trait>
 			<name>Divine Display (1/Day)</name>
 			<text>As a bonus action, Phoenix causes his shield to flare with divine light. Each creature of his choice within 30 feet of him must succeed on a 13 Wisdom saving throw or be blinded for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself with a success.</text>
+			<recharge>1/Day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2027,6 +2059,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>Portentia deals an extra 14 (4d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Portentia that isn't incapacitated and Portentia doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||4d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2081,6 +2114,7 @@
 		<trait>
 			<name>Divine Eminence</name>
 			<text>As a bonus action, Prophetess can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Prophetess expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.</text>
+			<attack>Divinve Eminence||3d6</attack>
 		</trait>
 		<trait>
 			<name>Fey Ancestry</name>
@@ -2148,7 +2182,8 @@
 		<action>
 			<name>Staff of the Master (+1 Quarterstaff)</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if used with two hands.</text>
-			<attack>Staff of the Master|6|1d6+4+1d8+4</attack>
+			<attack>Staff of the Master|6|1d6+4</attack>
+			<attack>Staff of the Master (2H)|6|1d8+4</attack>
 		</action>
 		<action>
 			<name>Unarmed Strike</name>
@@ -2210,6 +2245,7 @@
 		<action>
 			<name>Word From Beyond (1/Day)</name>
 			<text>Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a 12 Wisdom saving throw or be stunned until the end of its next turn.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<reaction>
 			<name>Absorb Attack</name>
@@ -2252,6 +2288,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>Viari deals an extra 14 (4d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Viari that isn't incapacitated and Viari doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||4d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2327,6 +2364,7 @@
 			<text>As a bonus action, Walnut can assume the shape of a dire wolf. She can stay in this form for 3 hours or until she reverts to her normal form as a bonus action. She automatically reverts if she falls unconscious, drops to 0 hit points, or dies.</text>
 			<text>	While transformed, Walnut's game statistics are replaced by the statistics of the dire wolf, except she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores.</text>,
 			<text>	Her attacks in beast form are magical. While in beast form, Walnut can use a bonus action to expend one spell slot and regain 1d8 hit points per level of the spell slot expended.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
