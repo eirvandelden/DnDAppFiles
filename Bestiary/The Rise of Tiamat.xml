@@ -48,6 +48,7 @@
 			<name>Orb of Dragon's Breath (2/Day)</name>
 			<text>Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance.</text>
 			<attack>Orb of Dragon's Breath|5|5d8</attack>
+			<recharge>2/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -101,6 +102,7 @@
 			<name>Orb of Dragon's Breath (3/Day)</name>
 			<text>Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit: 27 (6d8) damage of the type to which the dragonsoul has damage resistance.</text>
 			<attack>Orb of Dragon's Breath|7|6d8</attack>
+			<recharge>3/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -239,7 +241,8 @@
 		</action>
 		<action>
 			<name>Poisonous Cloud (2/Day)</name>
-			<text>Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 			</text>
+			<text>Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>2/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -282,6 +285,7 @@
 		<trait>
 			<name>Legendary Resistance (5/Day)</name>
 			<text>While wearing the Mask of the Dragon Queen, if Severin fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>5/Day</recharge>
 		</trait>
 		<action>
 			<name>Burning Touch</name>
@@ -349,6 +353,7 @@
 		<trait>
 			<name>Legendary Resistance (5/Day)</name>
 			<text>If Tiamat fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>5/Day</recharge>
 		</trait>
 		<trait>
 			<name>Limited Magic Immunity</name>
