@@ -32,6 +32,7 @@
         <trait>
             <name>Rejuvenation</name>
             <text>When the plant dies, it returns to life in the place where it died 1d12 months later, unless the ground where it took root is sown with salt or soaked with poison.</text>
+            <attack>Months||1d12</attack>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -141,7 +142,8 @@
             <text>The carrion stalker releases a burst of larvae in a 10-foot-radius sphere centered on itself. Each creature in that area must succeed on a 13 Constitution saving throw or be poisoned. A creature poisoned in this way takes 7 (2d6) poison damage at the start of each of its turns as larvae infest its body. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Any effect that cures disease or removes the poisoned condition instantly kills the larvae in the creature, ending the effect on it.</text>
             <text>  If a creature is reduced to 0 hit points by the infestation, it dies. The larvae remain in the corpse, and one survives to become a fully grown carrion stalker in 1d4 weeks. Any effect that cures diseases or removes the poisoned condition that targets the corpse instantly kills the larvae.</text>
             <attack>Larval Burst||2d6</attack>
-            <attack>Larval Burst||1d4</attack>
+            <attack>Weeks||1d4</attack>
+            <recharge>1/Day</recharge>
         </action>
     </monster>
     <monster>
@@ -180,7 +182,8 @@
         <action>
             <name>Silver Needle</name>
             <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage plus 3 (1d6) necrotic damage, and the target must succeed on a 12 Charisma saving throw or become cursed for 1 minute. While cursed in this way, the target's speed is reduced by 10 feet, and it must roll a 1d4 and subtract the number rolled from each ability check or attack roll it makes.</text>
-            <attack>Silver Needle|4|1d6+1d4</attack>
+            <attack>Silver Needle|4|1+1d6</attack>
+            <attack>Roll||1d4</attack>
         </action>
         <action>
             <name>Soul Swap</name>
@@ -196,7 +199,7 @@
         <alignment></alignment>
         <ac>16 (natural armor)</ac>
         <hp>17 (5d4 + 5)</hp>
-        <speed>[object Object] ft., fly 30 ft. (hover)</speed>
+        <speed>0 ft., fly 30 ft. (hover)</speed>
         <str>8</str>
         <dex>13</dex>
         <con>12</con>
@@ -264,11 +267,12 @@
         <cr>10</cr>
         <trait>
             <name>Headless Summoning (Recharges after a Short or Long Rest)</name>
-            <text>If the dullahan is reduced to 0 hit points, it doesn't die or fall unconscious. Instead, it regains 97 hit points. In addition, it summons three death's head, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the \"Mythic Actions\" section. Award a party an additional 5,900 XP (11,800 XP total) for defeating the dullahan after it uses Headless Summoning.</text>
+            <text>If the dullahan is reduced to 0 hit points, it doesn't die or fall unconscious. Instead, it regains 97 hit points. In addition, it summons three death's head, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the "Mythic Actions" section. Award a party an additional 5,900 XP (11,800 XP total) for defeating the dullahan after it uses Headless Summoning.</text>
         </trait>
         <trait>
             <name>Legendary Resistance (2/Day)</name>
             <text>If the dullahan fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>2/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -281,7 +285,9 @@
         <action>
             <name>Battleaxe</name>
             <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 11 (2d10) necrotic damage. If the dullahan scores a critical hit against a creature, the target must succeed on a 15 Constitution saving throw or the dullahan cuts off the target's head. The target dies if it can't survive without the lost head. A creature that doesn't have or need a head, or has legendary actions, instead takes an extra 27 (6d8) slashing damage.</text>
-            <attack>Battleaxe|8|1d8+4+1d10+4+2d10+6d8</attack>
+            <attack>Battleaxe|8|1d8+4+2d10</attack>
+            <attack>Battleaxe (2H)|8|1d10+4+2d10</attack>
+            <attack>Slashing Damage||6d8</attack>
         </action>
         <action>
             <name>Fiery Skull</name>
@@ -300,6 +306,18 @@
             <name>Head Hunt (Costs 3 Actions)</name>
             <text>The dullahan moves up to its speed without provoking opportunity attacks and makes one Battleaxe attack with advantage. If the attack hits, but is not a critical hit, the attack deals an extra 27 (6d8) necrotic damage.</text>
             <attack>Head Hunt||6d8</attack>
+        </legendary>
+        <legendary>
+            <name>Coordinated Assault</name>
+            <text>The dullahan makes a Battleaxe attack, and then one death's head the dullahan can see within 30 feet of it can use its reaction to make a melee attack.</text>
+            <attack>Battleaxe|8|1d8+4+2d10</attack>
+            <attack>Battleaxe (2H)|8|1d10+4+2d10</attack>
+            <attack>Slashing Damage||6d8</attack>
+        </legendary>
+        <legendary>
+            <name>Headless Wail (Costs 2 Actions)</name>
+            <text>An echoing shriek issues from the dullahan's headless stump. Each creature of the dullahan's choice within 10 feet of it must make a DC 15 Wisdom saving throw. Each creature takes 16 (3d10) psychic damage on a failed save, or half as much damage on a successful one. If one or more creatures fail the saving throw, the dullahan gains 10 temporary hit points.</text>
+            <attack>Headless Wail (Costs 2 Actions)||3d10</attack>
         </legendary>
     </monster>
     <monster>
@@ -361,7 +379,7 @@
         <alignment></alignment>
         <ac>12</ac>
         <hp>85 (19d8)</hp>
-        <speed>[object Object] ft., fly 40 ft. (hover)</speed>
+        <speed>0 ft., fly 40 ft. (hover)</speed>
         <str>8</str>
         <dex>14</dex>
         <con>10</con>
@@ -385,6 +403,7 @@
         <trait>
             <name>Incorporeal Movement</name>
             <text>The gallows speaker can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends it turn inside an object.</text>
+            <attack>Damage||1d10</attack>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -429,6 +448,7 @@
         <trait>
             <name>Legendary Resistance (4/Day)</name>
             <text>If the emissary fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -452,6 +472,7 @@
             <name>Unearthly Bile (Recharge 5-6)</name>
             <text>The emissary expels bile that splashes all creatures in a 30-foot-radius sphere centered on a point within 120 feet of the emissary. Each creature in that area must make a 23 Dexterity saving throw, taking 55 (10d10) acid damage on a failed save, or half as much damage on a successful one. For each creature that fails the saving throw, a gibbering mouther (see its entry in the Monster Manual) appears in an unoccupied space on a surface that can support it within 30 feet of that creature. The gibbering mouthers act right after the emissary on the same initiative count, gaining a +7 bonus to their attack and damage rolls, and fighting until they are destroyed. They disappear when the emissary dies.</text>
             <attack>Unearthly Bile||10d10</attack>
+            <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Attack</name>
@@ -468,7 +489,7 @@
             <attack>Mind Cloud||5d12</attack>
         </legendary>
     </monster>
-        <monster>
+    <monster>
         <name>Gremishka</name>
         <size>T</size>
         <type>Monstrosity</type>
@@ -504,7 +525,8 @@
             <text>1-2 The gremishka emanates magical energy. Each creature within 30 feet of the gremishka must succeed on a DC 10 Constitution saving throw or take 3 (1d6) force damage.</text>
             <text>3-4 The gremishka surges with magical energy and regains 3 (1d6) hit points.</text>
             <text>5-6 The gremishka explodes and dies, and one swarm of gremishkas instantly appears in the space where this gremishka died. The swarm uses the gremishka's initiative.</text>
-            <attack>||1d6+1d6</attack>
+            <attack>Roll/Damage/Hit Points||1d6</attack>
+            <recharge>1/Day</recharge>
         </reaction>
     </monster>
     <monster>
@@ -547,7 +569,8 @@
         <action>
             <name>Silver Longsword</name>
             <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.</text>
-            <attack>Silver Longsword|7|1d8+4+1d10+4+4d8</attack>
+            <attack>Silver Longsword|7|1d8+4+4d8</attack>
+            <attack>Silver Longsword (2H)|7|1d10+4+4d8</attack>
         </action>
         <action>
             <name>Mind Fire</name>
@@ -557,6 +580,7 @@
         <action>
             <name>Inquisitor's Command (Recharge 5-6)</name>
             <text>Each creature of the inquisitor's choice that it can see within 60 feet of it must succeed on a 15 Wisdom saving throw or be charmed until the start of the inquisitor's next turn. On the charmed target's turn, the inquisitor can telepathically control the target's move, action, or both. When controlled in this way, the target can take only the Attack (inquisitor chooses the target) or Dash action.</text>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -603,7 +627,12 @@
         <action>
             <name>Silver Longsword</name>
             <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.</text>
-            <attack>Silver Longsword|7|1d8+4+1d10+4+4d8</attack>
+            <attack>Silver Longsword|7|1d8+4+4d8</attack>
+            <attack>Silver Longssword (2H)|7|1d10+4+4d8</attack>
+        </action>
+        <action>
+            <name>Blink Step</name>
+            <text>The inquisitor teleports up to 60 feet to an unoccupied space it can see.</text>
         </action>
     </monster>
     <monster>
@@ -651,12 +680,14 @@
         <action>
             <name>Silver Longsword</name>
             <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.</text>
-            <attack>Silver Longsword|7|1d8+4+1d10+4+4d8</attack>
+            <attack>Silver Longsword|7|1d8+4+4d8</attack>
+            <attack>Silver Longsword|7|1d10+4+4d8</attack>
         </action>
         <action>
             <name>Implode (Recharge 4-6)</name>
             <text>Each creature in a 20-foot-radius sphere centered on a point the inquisitor can see within 120 feet of it must succeed on a 15 Constitution saving throw or take 31 (6d8 + 4) force damage and be knocked prone and moved to the unoccupied space closest to the sphere's center. Large and smaller objects that aren't being worn or carried in the sphere automatically take the damage and are similarly moved.</text>
             <attack>Implode||6d8+4</attack>
+            <recharge>D4</recharge>
         </action>
         <reaction>
             <name>Telekinetic Deflection</name>
@@ -691,7 +722,7 @@
         <trait>
             <name>Innate Spellcasting</name>
             <text>Isolde's spellcasting ability is Charisma (spell save 14). Isolde can innately cast the following spells, requiring no material components:</text>
-            <text>1: plane shift (self only)</text>
+            <text>1/Day: plane shift (self only)</text>
             <text>3/Day: alter self, command, detect magic</text>
         </trait>
         <spellAbility>Charisma</spellAbility>
@@ -711,7 +742,9 @@
         <action>
             <name>Nepenthe</name>
             <text>Melee Weapon Attack: +10 to hit, reach 5 ft.., one target. Hit: 11 (1d8 + 7) slashing damage, or 12 (1d10 + 7) slashing damage if used with two hands to make a melee attack. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage.</text>
-            <attack>Nepenthe|10|1d8+7+1d10+7+2d10</attack>
+            <attack>Nepenthe|10|1d8+7</attack>
+            <attack>Nepenthe (2H)|10|1d10+7</attack>
+            <attack>Fiend/Undead||2d10</attack>
         </action>
         <action>
             <name>Fire Ray</name>
@@ -810,6 +843,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the emissary fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Unusual Nature</name>
@@ -855,7 +889,7 @@
         <alignment></alignment>
         <ac>16 (natural armor)</ac>
         <hp>170 (20d8 + 80)</hp>
-        <speed>[object Object] ft.</speed>
+        <speed>30 ft. (40 ft. in hybrid form, 50 ft. in dire wolf form)</speed>
         <str>18</str>
         <dex>18</dex>
         <con>18</con>
@@ -879,6 +913,7 @@
         <trait>
             <name>Legendary Resistance (2/Day)</name>
             <text>When the loup garou fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>2/Day</recharge>
         </trait>
         <trait>
             <name>Regeneration</name>
@@ -901,7 +936,12 @@
         <action>
             <name>Longsword (Humanoid Form Only)</name>
             <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands.</text>
-            <attack>Longsword|9|2d8+4+2d10+4</attack>
+            <attack>Longsword|9|2d8+4</attack>
+            <attack>Longsword (2H)|9|2d10+4</attack>
+        </action>
+        <action>
+            <name>Change Shape</name>
+            <text>The loup garou polymorphs into a Large wolf-humanoid hybrid or into a Large dire wolf, or back into its true form, which appears humanoid. Its statistics, other than its size and speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
         </action>
         <legendary>
             <name>Swipe</name>
@@ -944,10 +984,12 @@
         <trait>
             <name>Legendary Resistance (2/Day)</name>
             <text>If the necrichor fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>2/Day</recharge>
         </trait>
         <trait>
             <name>Rejuvenation</name>
             <text>Unless its lifeless remains are splashed with holy water or placed in a vessel under the effects of the hallow spell, the destroyed necrichor re-forms in 1d10 days, regaining all its hits points and appearing in the place it died or in the nearest unoccupied space.</text>
+            <attack>Days||1d10</attack>
         </trait>
         <trait>
             <name>Spider Climb</name>
@@ -975,6 +1017,7 @@
             <name>Blood Puppeteering (Recharge 6)</name>
             <text>The necrichor targets a creature it can see within 5 feet of it that is missing any of its hit points. If the target isn't a Construct or an Undead, it must succeed on a 14 Constitution saving throw or the necrichor enters the target's space and attaches itself to the target for 1 minute. While attached, the necrichor takes only half damage dealt to it (round down), and the target takes the remaining damage. The necrichor can attach to only one creature at a time.</text>
             <text>  The attached necrichor can telepathically control the target's move, action, or both. When controlled this way, the target can take only the Attack action (necrichor chooses the target) or the Dash action. The attached target can repeat the saving throw at the end of each of its turns, detaching from the necrichor and forcing it to move into the nearest unoccupied space on a success.</text>
+            <recharge>D6</recharge>
         </action>
     </monster>
     <monster>
@@ -1031,13 +1074,15 @@
             <name>Bite</name>
             <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 9 (1d8 + 5) piercing damage plus 7 (2d6) necrotic damage. If the target is missing any of its hit points, it instead takes 11 (2d10) necrotic damage.</text>
             <text>    The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the nosferatu regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0. A Humanoid slain in this way and then buried in the ground rises as a nosferatu after 1d10 days.</text>
-            <attack>Bite|8|1d8+5+2d6+2d10</attack>
-            <attack>Bite||1d10</attack>
+            <attack>Bite|8|1d8+5+2d6</attack>
+            <attack>Bite|8|1d8+5+2d10</attack>
+            <attack>Days||1d10</attack>
         </action>
         <action>
             <name>Blood Disgorge (Recharge 5-6)</name>
             <text>The nosferatu vomits blood in a 15-foot cone. Each creature in that area must make a 16 Constitution saving throw. On a failed save, a creature takes 18 (4d8) necrotic damage, and it can't regain hit points for 1 minute. On a successful save, the creature takes half as much damage with no additional effects.</text>
             <attack>Blood Disgorge||4d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -1108,7 +1153,30 @@
             <name>Tattoo of Osybus</name>
             <text>If the priest drops to 0 hit points, roll on the Boons of Undeath table for the boon the priest receives. The priest dies if it receives a boon it already has. If it receives a new boon, it revives at the start of its next turn with half its hit points restored, and its creature type is now Undead.</text>
             <text>   To prevent this revival, the Tattoo of Osybus on the priest's body must be destroyed. The tattoo is invulnerable while the priest has at least 1 hit point. The tattoo is otherwise an object with AC 15, and it is immune to poison and psychic damage. It has 15 hit points, but it regains all its hit points at the end of every combatant's turn.</text>
+            <text></text>
+            <text>Boons of Undeath</text>
+            <text></text>
+            <text>When a priest of Osybus drops to 0 hit points, the priest might revive with a benefit from the Boons of Undeath table. You can give a priest one or more of these boons of your choice before the priest faces adventurers. If you do so, the priest is Undead, rather than Humanoid, and a priest can receive each boon only once.</text>
+            <text></text>
+            <text>Boons of Undeath</text>
+            <text>d6    Boon</text>
+            <text>1     Dread. Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be frightened of the priest until the start of the creature's next turn.</text>
+            <text>2     Ectoplasmic. An otherworldly slime drips off the priest and fades away moments later, leaving a greenish stain. When any creature starts its turn within 10 feet of the priest, the priest can reduce that creature's speed by 10 feet until the start of the creature's next turn, until which the creature is covered by ectoplasm. In addition, as an action, the priest can use the slime to make itself look and feel like any creature that is Medium or Small, while retaining its game statistics. This transformation lasts for 8 hours or until the priest drops to 0 hit points.</text>
+            <text>3     Vampiric. When the priest deals necrotic damage to any creature, the priest gains a number of temporary hit points equal to half that necrotic damage. The priest's speed also increases by 10 feet.</text>
+            <text>4     Blazing. The priest sloughs off its flesh, and its skeleton crumbles away, leaving only its skull. Its stat block is replaced by that of a flameskull, but it retains its Tattoo of Osybus trait, and all fire damage it deals becomes necrotic damage. The Tattoo of Osybus now appears carved into the skull's forehead.</text>
+            <text>5     Spectral. The priest now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 5 (1d10) force damage if it ends its turn inside a creature or an object.</text>
+            <text>6     Deathly. The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast animate dead and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action:</text>
+            <text>    Circle of Death (Spell; Recharge 5-6). Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one.)</text>
+            <attack>Tattoo||1d6</attack>
+            <attack>Force Damage||1d10</attack>
+            <attack>Necrotic Damage||8d6</attack>
         </trait>
+        <action>
+            <name>Soul Tattoo (Recharge 5-6)</name>
+            <text>The priest touches one of the Soul Tattoos on its body. The tattoo vanishes as the trapped soul manifests as a shadowy creature that appears in an unoccupied space the priest can see within 30 feet of it. The creature has the size and silhouette of its original body, but it otherwise uses the stat block of a shadow.</text>
+            <text>    The shadow obeys the priest's mental commands (no action required) and takes its turn immediately after the priest. If the creature is within 5 feet of the priest, it can turn back into a tattoo as an action, reappearing on the priest's flesh and regaining all its hit points.</text>
+            <recharge>D5</recharge>
+        </action>
         <action>
             <name>Multiattack</name>
             <text>The priest attacks twice.</text>
@@ -1152,6 +1220,7 @@
         <trait>
             <name>Legendary Resistance (3/Day)</name>
             <text>If the juggernaut fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
         </trait>
         <trait>
             <name>Regeneration</name>
@@ -1178,6 +1247,7 @@
         <action>
             <name>Deadly Shaping (Recharge 5-6)</name>
             <text>The juggernaut magically shapes a feature of its surroundings into a deadly implement. A creature the juggernaut can see within 60 feet of it must make a 18 Dexterity saving throw. If the saving throw fails, the targeted creature is struck by one of the following (juggernaut's choice):</text>
+            <recharge>D5</recharge>
         </action>
         <action>
             <name>Flying Stone</name>
@@ -1187,7 +1257,8 @@
         <action>
             <name>Scything Shrapnel</name>
             <text>The target takes 14 (4d6) slashing damage, and the implement vanishes. At the start of each of its turns, the target takes 10 (3d6) necrotic damage from the wound left by the shrapnel. The wound ends if the target regains any hit points or if a creature uses an action to stanch the wound, which requires a successful 15 Wisdom (Medicine) check.</text>
-            <attack>Scything Shrapnel||4d6+3d6</attack>
+            <attack>Scything Shrapnel||4d6</attack>
+            <attack>Necrotic Damage||3d6</attack>
         </action>
         <legendary>
             <name>Implacable Advance</name>
@@ -1227,6 +1298,7 @@
         <trait>
             <name>Legendary Resistance (1/Day)</name>
             <text>If the slasher fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>1/Day</recharge>
         </trait>
         <trait>
             <name>Shrouded Presence</name>
@@ -1239,7 +1311,9 @@
         <action>
             <name>Slasher's Knife</name>
             <text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/60 ft., one target. Hit: 6 (1d4 + 4) slashing damage plus 21 (6d6) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 (2d6) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 (1d6). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful 15 Wisdom (Medicine) check.</text>
-            <attack>Slasher's Knife|7|1d4+4+6d6+2d6+1d6</attack>
+            <attack>Slasher's Knife|7|1d4+4+6d6</attack>
+            <attack>Lingering Wound||2d6</attack>
+            <attack>Wounded Extra Damage||1d6</attack>
         </action>
         <legendary>
             <name>Slice</name>
@@ -1296,8 +1370,9 @@
         </action>
         <action>
             <name>Ravenous Children (1/Day)</name>
-            <text>The strigoi magically summons 1d4 + 2 stirge (see their entry in the Monster Manual) in unoccupied spaces it can see within 30 feet of it. The stirges are under the strigoi's control and act immediately after the strigoi in the initiative order. The stirges disappear after 1 hour, when the strigoi dies, or when the strigoi dismisses them (no action required).</text>
+            <text>The strigoi magically summons 1d4 + 2 stirges (see their entry in the Monster Manual) in unoccupied spaces it can see within 30 feet of it. The stirges are under the strigoi's control and act immediately after the strigoi in the initiative order. The stirges disappear after 1 hour, when the strigoi dies, or when the strigoi dismisses them (no action required).</text>
             <attack>Ravenous Children||1d4+2</attack>
+            <recharge>1/Day</recharge>
         </action>
     </monster>
     <monster>
@@ -1336,14 +1411,15 @@
         <action>
             <name>Bites</name>
             <text>Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. Hit: 12 (3d6 + 2) piercing damage, or 5 (1d6 + 2) piercing damage if the swarm has half of its hit points or fewer, plus 7 (2d6) force damage.</text>
-            <attack>Bites|4|3d6+2+1d6+2+2d6</attack>
+            <attack>Bites|4|3d6+2+2d6</attack>
+            <attack>Bites (1/2 hp)|4|1d6+2+2d6</attack>
         </action>
         <reaction>
             <name>Spell Redirection</name>
             <text>In response to a spell attack roll missing the swarm, the swarm causes that spell to hit another creature of its choice within 30 feet of it that it can see.</text>
         </reaction>
     </monster>
-        <monster>
+    <monster>
         <name>Swarm of Maggots</name>
         <size>M</size>
         <type>swarm of tiny beasts</type>
@@ -1382,6 +1458,7 @@
             <text>The disease lasts until it's removed by magic or until the creature rolls the same random effect for the disease two long rests in a row.</text>
             <attack>Infestation|3|4d4</attack>
             <attack>Infestation(under 1/2)|3|2d4</attack>
+            <attack>Disease Roll||1d6</attack>
             <attack>Disease 3-4||2d4</attack>
         </action>
     </monster>
@@ -1425,7 +1502,9 @@
         <action>
             <name>Ravenous Bites</name>
             <text>Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 (1d6) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies.</text>
-            <attack>Ravenous Bites|4|4d6+2d6+1d6</attack>
+            <attack>Ravenous Bites|4|4d6</attack>
+            <attack>Ravenous Bites (1/2 hp)|4|2d6</attack>
+            <attack>Piercing Damage||1d6</attack>
         </action>
     </monster>
     <monster>
@@ -1468,12 +1547,13 @@
         <action>
             <name>Undead Mass</name>
             <text>Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. Hit: 5 (1d6 + 2) bludgeoning damage, or 4 (1d4 + 2) bludgeoning damage if the swarm has half of its hit points or fewer.</text>
-            <attack>Undead Mass|4|1d6+2+1d4+2</attack>
+            <attack>Undead Mass|4|1d6+2</attack>
+            <attack>Undead Mass (1/2 hp)|4|1d4+2</attack>
         </action>
         <action>
             <name>Grasping Limbs</name>
             <text>Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. Hit: 7 (2d6) necrotic damage, and the creature must succeed on a 12 Strength saving throw or be restrained. The creature can repeat the saving throw at the end of each of its turns, taking 7 (2d6) necrotic damage on a failed save. The creature is freed if it succeeds on this saving throw, the swarm moves out of the creature's space, or the swarm dies.</text>
-            <attack>Grasping Limbs|4|2d6+2d6</attack>
+            <attack>Grasping Limbs|4|2d6</attack>
         </action>
     </monster>
     <monster>
@@ -1572,10 +1652,44 @@
         <trait>
             <name>Bile Body (Oozing Organs Only)</name>
             <text>Any creature that touches the horror or hits it with a melee attack takes 5 (1d10) acid damage.</text>
+            <attack>Acid Damage||1d10</attack>
         </trait>
         <trait>
             <name>Relentless Stride (Loathsome Limbs Only)</name>
             <text>The horror can move through the space of another creature. The first time on a turn that the horror enters a creature's space during this move, the creature must succeed on a 16 Strength saving throw or be knocked prone.</text>
+        </trait>
+        <trait>
+            <name>Customizing a Horror</name>
+            <text>An unspeakable horror has one of four body compositions, determined by rolling on the Body Composition table. You can roll on the Limbs to customize it further, while results from the Hex Blast table replace that action in the stat block. If the results of multiple tables conflict, chose your preferred result.</text>
+            <text>    The results of these tables are meant to be broad, so feel free to describe the details of an unspeakable horror's form and the interplay between its parts however you desire. The more discordant and unexpected a horror's parts, the more unsettling it might be.</text>
+            <text></text>
+            <text>Body Composition</text>
+            <text>d4    Body</text>
+            <text>1     Aberrant Armor. The horror's body is armored in petrified wood, alien crystal, rusted mechanisms, sculpted stone, or an exoskeleton.</text>
+            <text>2     Loathsome Limbs. The horror's body boasts spider like legs, many-jointed appendages, or thrashing tentacles.</text>
+            <text>3     Malleable Mass. The horror's body is composed of a clot of boneless flesh, shadowy tendrils, or mist.</text>
+            <text>4     Oozing Organs. The horror's body boasts exposed entrails, bloated parasites, or a gelatinous shroud, perhaps because it is inside out.</text>
+            <text></text>
+            <text>Hex Blast</text>
+            <text>d4    Hex</text>
+            <text>1     Beguiling Hex (Recharge 5-6). The horror expels a wave of mind-altering magic. Each creature within 30 feet of the horror must make a DC 15 Wisdom saving throw, taking 33 (6d10) psychic damage and being incapacitated until the end of the creature's next turn on a failed save, or taking half as much damage on a successful one.</text>
+            <text>2     Bile Hex (Recharge 5-6). The horror expels acidic bile in a 60-foot line that is 5 feet wide. Each creature in that line must succeed on a DC 15 Dexterity saving throw or be covered in bile. A creature covered in bile takes 31 (7d8) acid damage at the start of each of its turns until it or another creature uses its action to scrape or wash off the bile that covers it.</text>
+            <text>3     Petrifying Hex (Recharge 5-6). The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 15 Constitution saving throw or take 14 (4d6) necrotic damage and be restrained as it begins to turn to stone. A restrained creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.</text>
+            <text>4     Reality-Stealing Hex (Recharge 5-6). The horror expels a wave of perception-distorting energy. Each creature within 30 feet of the horror must make a DC 15 Wisdom saving throw. On a failed save, the target takes 22 (5d8) psychic damage and is deafened until the end of its next turn. If the saving throw fails by 5 or more, the target is also blinded until the end of its next turn.</text>
+            <text></text>
+            <text>Limbs</text>
+            <text>d4    Attack</text>
+            <text>1     Bone Blade. The horror's limb ends in a blade made of bone, which deals slashing damage instead of bludgeoning damage. In addition, it scores a critical hit on a roll of 19 or 20 and rolls the damage dice of a crit three times, instead of twice.</text>
+            <text>2     Corrosive Pseudopod. The horror's limb attack deals an extra 9 (2d8) acid damage.</text>
+            <text>3     Grasping Tentacle. The horror's limb is a grasping tentacle. When the horror hits a creature with this limb, the creature is also grappled (escape DC 16). The limb can have only one creature grappled at a time.</text>
+            <text>4     Poisonous Limb. The horror's limb deals piercing damage instead of bludgeoning damage. In addition, when the horror hits a creature with this limb, the creature must succeed on a DC 15 Constitution saving throw or take 7 (2d6) poison damage and be poisoned until the end of its next turn.</text>
+            <recharge>D5</recharge>
+            <attack>Beguiling Hex||6d10</attack>
+            <attack>Bile Hex||7d8</attack>
+            <attack>Petrifying Hex||4d6</attack>
+            <attack>Reality-Stealing Hex||5d8</attack>
+            <attack>Corrosive Tentacle||2d8</attack>
+            <attack>Poisonous Limb||2d6</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -1590,6 +1704,7 @@
             <name>Hex Blast (Recharge 5-6)</name>
             <text>The horror expels necrotic energy in a 30-foot cone. Each creature in that area must make a 15 Constitution saving throw, taking 45 (7d12) necrotic damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Hex Blast||7d12</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -1648,6 +1763,11 @@
             <text>The mind flayer targets one creature it is grappling. The target must succeed on a 15 Wisdom saving throw or take 14 (4d6) psychic damage and gain 1 level of exhaustion. The mind flayer regains a number of hit points equal to the psychic damage dealt. A creature reduced to 0 hit points by the psychic damage dies.</text>
             <attack>Drink Sapience||4d6</attack>
         </action>
+        <action>
+            <name>Disrupt Psyche (Recharge 5-6)</name>
+            <text>The mind flayer magically emits psionic energy in a 30-foot-radius sphere centered on itself. Each creature in that area must succeed on a DC 15 Intelligence saving throw or be incapacitated for 1 minute. The incapacitated creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>D5</recharge>
+        </action>
     </monster>
     <monster>
         <name>Zombie Clot</name>
@@ -1677,6 +1797,7 @@
         <trait>
             <name>Deathly Stench</name>
             <text>Any creature that starts its turn within 10 feet of the zombie must succeed on a 14 Constitution saving throw or take 9 (2d8) poison damage and be poisoned until the start of the creature's next turn.</text>
+            <attack>Deathly Stench||2d8</attack>
         </trait>
         <trait>
             <name>Undead Fortitude</name>
@@ -1701,6 +1822,7 @@
             <text> A creature entombed in the dead flesh is restrained, has total cover against attacks and other effects outside the dead flesh, and takes 10 (3d6) necrotic damage at the start of each of its turns. The creature can be freed if the dead flesh is destroyed. The dead flesh is a Large object with AC 10, 25 hit points, and immunity to poison and psychic damage.</text>
             <attack>Flesh Entomb||3d10</attack>
             <attack>Flesh Entomb||3d6</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
@@ -1753,6 +1875,7 @@
             <name>Virulent Miasma (1/Day)</name>
             <text>The plague spreader releases toxic gas in a 30-foot-radius sphere centered on itself. Each creature in that area must make a 12 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one. A Humanoid reduced to 0 hit points by this damage dies and rises as a zombie (see its stat block in the Monster Manual) 1 minute later. The zombie acts immediately after the plague spreader in the initiative count.</text>
             <attack>Virulent Miasma||4d6</attack>
+            <recharge>1/Day</recharge>
         </action>
     </monster>
 </compendium>
