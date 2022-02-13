@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+<monster>
+    <name>Homarid</name>
+    <size>M</size>
+    <type>monstrosity</type>
+    <description>Source: Plane Shift: Dominaria</description>
+    <alignment>chaotic evil</alignment>
+    <ac>14 (natural armor)</ac>
+    <hp>44 (8d8 + 8)</hp>
+    <speed>20 ft., swim 30 ft.</speed>
+    <str>13</str>
+    <dex>8</dex>
+    <con>13</con>
+    <int>9</int>
+    <wis>14</wis>
+    <cha>10</cha>
+    <save></save>
+    <skill>perception +4,stealth +3</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>14</passive>
+    <languages>Homarid</languages>
+    <cr>1</cr>
+    <trait>
+      <name>Amphibious</name>
+      <text>The homarid can breathe air and water.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The homarid makes two claw attacks.</text>
+    </action>
+    <action>
+      <name>Claw</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, and the target is grappled (escape 11). The homarid has two claws, each of which can grapple only one target.</text>
+      <attack>Claw|3|1d8+1</attack>
+    </action>
+</monster>
+<monster>
+    <name>Kavu Predator</name>
+    <size>L</size>
+    <type>beast</type>
+    <description>Source: Plane Shift: Dominaria</description>
+    <alignment>unaligned</alignment>
+    <ac>15 (natural armor)</ac>
+    <hp>75 (10d10 + 20)</hp>
+    <speed>30 ft., climb 30 ft.</speed>
+    <str>18</str>
+    <dex>12</dex>
+    <con>15</con>
+    <int>6</int>
+    <wis>14</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>perception +4,stealth +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>14</passive>
+    <languages>understands Elvish</languages>
+    <cr>2</cr>
+    <trait>
+      <name>Pounce</name>
+      <text>If the kavu moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a 14 Strength saving throw or be knocked prone. If the target is prone, the kavu can make one bite attack against it as a bonus action.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The kavu makes two claw attacks.</text>
+    </action>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.</text>
+      <attack>Bite|6|1d10+4</attack>
+    </action>
+    <action>
+      <name>Claw</name>
+      <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
+      <attack>Claw|6|1d6+4</attack>
+    </action>
+</monster>
+<monster>
+    <name>Steel Leaf Kavu</name>
+    <size>L</size>
+    <type>beast</type>
+    <description>Source: Plane Shift: Dominaria</description>
+    <alignment>unaligned</alignment>
+    <ac>16 (natural armor)</ac>
+    <hp>142 (15d10 + 60)</hp>
+    <speed>40 ft.</speed>
+    <str>20</str>
+    <dex>12</dex>
+    <con>18</con>
+    <int>6</int>
+    <wis>14</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>perception +4</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>14</passive>
+    <languages>understands Elvish</languages>
+    <cr>4</cr>
+    <trait>
+      <name>Raking Charge</name>
+      <text>If the kavu moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a 15 Strength saving throw or be knocked prone. If the target is prone, the kavu can make one rend attack against it as a bonus action.</text>
+    </trait>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.</text>
+      <attack>Bite|7|2d8+5</attack>
+    </action>
+    <action>
+      <name>Rend</name>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one prone creature. Hit: 23 (4d8 + 5) slashing damage.</text>
+      <attack>Rend|7|4d8+5</attack>
+    </action>
+</monster>
+</compendium>
