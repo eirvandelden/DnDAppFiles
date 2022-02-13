@@ -63,7 +63,8 @@
 		<cr>7</cr>
 		<trait>
 			<name>Flameform</name>
-			<text>As a bonus action, the firetamer can transform into a  re elemental. While in this form, the firetamer cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the firetamer is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in flameform for up to 5 hours, and can enter  flameform twice, regaining expended uses after completing a short or long rest.</text>
+			<text>As a bonus action, the firetamer can transform into a fire elemental. While in this form, the firetamer cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the firetamer is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in flameform for up to 5 hours, and can enter flameform twice, regaining expended uses after completing a short or long rest.</text>
+			<attack>Hit Points||1d8</attack>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -86,6 +87,7 @@
 		<action>
 			<name>Flamecharm (Recharges after a Short or Long Rest)</name>
 			<text>The firetamer can cast dominate monster (save DC 16) on a fire elemental or other fire elemental creature. If the elemental has 150 or more hit points, it has advantage on the saving throw.</text>
+			<recharge>Short</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -169,6 +171,7 @@
 		<trait>
 			<name>Fishform</name>
 			<text>As a bonus action, the waverider can transform into a hunter shark or giant octopus. While in this form, the waverider cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the waverider is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in fishform for up to 3 hours, and can enter fishform twice, regaining expended uses after completing a short or long rest.</text>
+			<attack>Hit Points||1d8</attack>
 		</trait>
 		<trait>
 			<name>Healing Tides</name>
@@ -290,7 +293,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>The cutthroat deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the cutthroat that isn't incapacitated and the cutthroat doesn't have disadvantage on the attack roll.</text>
-			<roll>4d6</roll>
+			<attack>Roll||4d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -343,6 +346,7 @@
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, the enforcer can regain 12 hit points.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -407,7 +411,7 @@
 		</action>
 		<action>
 			<name>Ice Claws</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (3d6 +3) slashing damage plus 3 (1d6) cold damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (3d6+3) slashing damage plus 3 (1d6) cold damage.</text>
 			<attack>Ice Claws|7|3d6+3+1d6</attack>
 		</action>
 	</monster>
@@ -457,11 +461,13 @@
 			<name>Greataxe</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage plus 7 (2d6) lightning damage. Miss: 3 (1d6) lightning damage.</text>
 			<attack>Greataxe|6|1d12+4+2d6</attack>
+			<attack>Miss||1d6</attack>
 		</action>
 		<reaction>
 			<name>Endurance</name>
 			<text>When the stormborn takes damage, it may reduce the damage by 10 (1d12 + 4). It cannot use this trait again until it completes a short or long rest.</text>
 			<attack>Endurance||1d12+4</attack>
+			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -509,6 +515,7 @@
 			<name>Endurance</name>
 			<text>When the stormborn takes damage, it may reduce the damage by 8 (1d12 + 2). It cannot use this trait again until it completes a short or long rest.</text>
 			<attack>Endurance||1d12+2</attack>
+			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -592,7 +599,7 @@
 		<trait>
 			<name>Charge</name>
 			<text>If the goat-knight steed moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes a extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
-			<roll>2d4</roll>
+			<attack>Bludgeoning||2d4</attack>
 		</trait>
 		<trait>
 			<name>Sure-Footed</name>
@@ -695,6 +702,7 @@
 		<trait>
 			<name>Legendary Resistance (2/Day)</name>
 			<text>If the Slaughter Lord fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Unarmored Defense</name>
@@ -757,7 +765,7 @@
 		<trait>
 			<name>Unknowable Secrets</name>
 			<text>Any attempt to form a mental link with the remnant cultist, scry the cultist, or cast speak with dead on a cultist instantly fails, and the creature that initiated the attempt takes 6d6 psychic damage.</text>
-			<roll>6d6</roll>
+			<attack>Psychic Damage||6d6</attack>
 		</trait>
 		<trait>
 			<name>One-Eyed</name>
@@ -771,6 +779,7 @@
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage. Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.</text>
 			<text>	Once per turn, the cultist may choose to wound its target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time the cultist wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.</text>
 			<attack>Dagger of Wounding|7|1d4+3</attack>
+			<attack>Necrotic Damage||1d4</attack>
 		</action>
 	</monster>
 	<monster>
