@@ -825,7 +825,7 @@
 		</action>
 		<action>
 			<name>Unarmed Strike</name>
-			<text>Melee Weapon Atiack: +12 to hit, reach 5 ft., one target. Hit: 12 (1d10 + 7) bludgeoning damage. If the target is a creature, Hlam can choose one ofthe following additional effects:</text>
+			<text>Melee Weapon Atiack: +12 to hit, reach 5 ft., one target. Hit: 12 (1d10 + 7) bludgeoning damage. If the target is a creature, Hlam can choose one of the following additional effects:</text>
 			<text>• The target must succeed on a DC 18 Strength saving throw or drop one item it is holding (Hlam's choice).</text>
 			<text>• The target must succeed on a DC 18 Dexterity saving throw or be knocked prone.</text>
 			<text>• The target must succeed on a DC 18 Constitution saving throw or be stunned until the end of Hlam's next turn.</text>
@@ -943,11 +943,13 @@
 		<cr>4</cr>
 		<trait>
 			<name>Special Equipment</name>
-			<text>Jalester carries a badge ofthe Watch.</text>
+			<text>Jalester carries a badge of the Watch.</text>
 		</trait>
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, Jalester can regain 16 (1d10 + 11) hit points.</text>
+			<recharge>SHORT</recharge>
+			<attack>Second Wind||1d10+11</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1170,7 +1172,7 @@
 		<cr>13</cr>
 		<trait>
 			<name>Special Equipment</name>
-			<text>Manshoon wears a black robe ofthe archmagi and wields a staff of power (both accounted for in his statistics). Roll 2d10 to determine how many charges the staff has remaining.</text>
+			<text>Manshoon wears a black robe of the archmagi and wields a staff of power (both accounted for in his statistics). Roll 2d10 to determine how many charges the staff has remaining.</text>
 			<roll>2d10</roll>
 		</trait>
 		<trait>
@@ -1477,7 +1479,7 @@
 		<spells>Dancing Lights, Mage Hand, Mending, Message, Ray of Frost, Alarm, Mage Armor, Magic Missile, Shield, Arcane Lock, Invisibility, Counterspell, Dispel Magic, Fireball, Banishment, Stoneskin, Cone of Cold, Wall of Force, Flesh to Stone, Globe of Invulnerability, Symbol, Teleport</spells>
 		<trait>
 			<name>Arcane Ward</name>
-			<text>Remallia has a magical ward that has 30 hit points. Whenever she takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, Remallia takes any remaining damage. When Remallia casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level ofthe spell.</text>
+			<text>Remallia has a magical ward that has 30 hit points. Whenever she takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, Remallia takes any remaining damage. When Remallia casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.</text>
 		</trait>
 		<action>
 			<name>Dagger</name>
@@ -1728,7 +1730,7 @@
 		<cr>18</cr>
 		<trait>
 			<name>Crumbling Colossus</name>
-			<text>When the statue drops to 0 hit points, It crumbles and is destroyed. Any creature on the ground within 30 feet ofthe crumbling statue must make a DC 22 Dexterity saving throw, taking 22 (4d10) bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
+			<text>When the statue drops to 0 hit points, It crumbles and is destroyed. Any creature on the ground within 30 feet of the crumbling statue must make a DC 22 Dexterity saving throw, taking 22 (4d10) bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
 			<roll>4d10</roll>
 		</trait>
 		<trait>
