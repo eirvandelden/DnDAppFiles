@@ -161,6 +161,12 @@
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
 			<attack>Psychic Damage||4d8</attack>
+			<attack>Reduction||1d4</attack>
+			<attack>Reduction||1d6</attack>
+			<attack>Reduction||1d8</attack>
+			<attack>Reduction||1d10</attack>
+			<attack>Reduction||1d12</attack>
+			<attack>Reduction||1d20</attack>
 		</action>
 		<spells>Charm Person, Color Spray, Detect Thoughts, Hold Person</spells>
 		<slots/>
@@ -1297,6 +1303,90 @@
 			<text/>
 			<text>10 — Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 			<attack>||1d10</attack>
+		</trait>
+		<trait>
+			<name>Enhancement: Camouflaged</name>
+			<text>The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sensors</name>
+			<text>The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Improved Armor</name>
+			<text>The clockwork's AC increases by 2.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Increased Speed</name>
+			<text>The clockwork's speed increases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Reinforced Construction</name>
+			<text>The clockwork has resistance to force, lightning, and thunder damage.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Self-Repairing</name>
+			<text>If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sturdy Frame</name>
+			<text>The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Suction</name>
+			<text>The clockwork gains a climbing speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Vocal Resonator</name>
+			<text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Water Propulsion</name>
+			<text>The clockwork gains a swimming speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Faulty Sensors</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Flawed Targeting</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Ground Fault</name>
+			<text>The clockwork has vulnerability to lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Imprinting Loop</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Leaking Lubricant</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Limited Steering</name>
+			<text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Overactive Sense of Self-Preservation</name>
+			<text>If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Overheats</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Rusty Gears</name>
+			<text>The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Weak Armor</name>
+			<text>The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 		</trait>
 		<action>
 			<name>Bite</name>
@@ -3535,6 +3625,12 @@
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
 			<attack>Psychic Damage||8d10</attack>
+			<attack>Reduction||1d4</attack>
+			<attack>Reduction||1d6</attack>
+			<attack>Reduction||1d8</attack>
+			<attack>Reduction||1d10</attack>
+			<attack>Reduction||1d12</attack>
+			<attack>Reduction||1d20</attack>
 		</action>
 		<spells>Charm Person, Detect Thoughts, Hold Person, Confusion, Dimension Door, Dominate Person, Fear, Hallucinatory Terrain, Hold Monster, Hypnotic Pattern, Telekinesis</spells>
 		<slots/>
@@ -5016,6 +5112,90 @@
 			<text>10 — Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 			<attack>Changes||1d10</attack>
 		</trait>
+		<trait>
+			<name>Enhancement: Camouflaged</name>
+			<text>The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sensors</name>
+			<text>The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Improved Armor</name>
+			<text>The clockwork's AC increases by 2.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Increased Speed</name>
+			<text>The clockwork's speed increases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Reinforced Construction</name>
+			<text>The clockwork has resistance to force, lightning, and thunder damage.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Self-Repairing</name>
+			<text>If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sturdy Frame</name>
+			<text>The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Suction</name>
+			<text>The clockwork gains a climbing speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Vocal Resonator</name>
+			<text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Water Propulsion</name>
+			<text>The clockwork gains a swimming speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Faulty Sensors</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Flawed Targeting</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Ground Fault</name>
+			<text>The clockwork has vulnerability to lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Imprinting Loop</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Leaking Lubricant</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Limited Steering</name>
+			<text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Overactive Sense of Self-Preservation</name>
+			<text>If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Overheats</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Rusty Gears</name>
+			<text>The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Weak Armor</name>
+			<text>The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
+		</trait>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or suffer one random poison effect:</text>
@@ -6221,6 +6401,90 @@
 			<text>10 — Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 			<attack>Changes||1d10</attack>
 		</trait>
+		<trait>
+			<name>Enhancement: Camouflaged</name>
+			<text>The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sensors</name>
+			<text>The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Improved Armor</name>
+			<text>The clockwork's AC increases by 2.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Increased Speed</name>
+			<text>The clockwork's speed increases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Reinforced Construction</name>
+			<text>The clockwork has resistance to force, lightning, and thunder damage.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Self-Repairing</name>
+			<text>If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sturdy Frame</name>
+			<text>The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Suction</name>
+			<text>The clockwork gains a climbing speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Vocal Resonator</name>
+			<text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Water Propulsion</name>
+			<text>The clockwork gains a swimming speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Faulty Sensors</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Flawed Targeting</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Ground Fault</name>
+			<text>The clockwork has vulnerability to lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Imprinting Loop</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Leaking Lubricant</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Limited Steering</name>
+			<text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Overactive Sense of Self-Preservation</name>
+			<text>If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Overheats</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Rusty Gears</name>
+			<text>The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Weak Armor</name>
+			<text>The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The oaken bolter makes two lancing bolt attacks or one lancing bolt attack and one harpoon attack.</text>
@@ -7383,6 +7647,7 @@
 			<text/>
 			<text>Deafened:</text>
 			<text>• A deafened creature can't hear and automatically fails any ability check that requires hearing.</text>
+			<attack>Effect||1d100</attack>
 		</action>
 		<spells>Charm Person, Command, Dispel Magic, Hold Monster, Feeblemind</spells>
 		<slots/>
@@ -8367,6 +8632,90 @@
 			<text/>
 			<text>10 — Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 			<attack>Change||1d10</attack>
+		</trait>
+		<trait>
+			<name>Enhancement: Camouflaged</name>
+			<text>The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sensors</name>
+			<text>The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Improved Armor</name>
+			<text>The clockwork's AC increases by 2.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Increased Speed</name>
+			<text>The clockwork's speed increases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Reinforced Construction</name>
+			<text>The clockwork has resistance to force, lightning, and thunder damage.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Self-Repairing</name>
+			<text>If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sturdy Frame</name>
+			<text>The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Suction</name>
+			<text>The clockwork gains a climbing speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Vocal Resonator</name>
+			<text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Water Propulsion</name>
+			<text>The clockwork gains a swimming speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Faulty Sensors</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Flawed Targeting</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Ground Fault</name>
+			<text>The clockwork has vulnerability to lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Imprinting Loop</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Leaking Lubricant</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Limited Steering</name>
+			<text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Overactive Sense of Self-Preservation</name>
+			<text>If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Overheats</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Rusty Gears</name>
+			<text>The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Weak Armor</name>
+			<text>The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 		</trait>
 		<action>
 			<name>Slam</name>

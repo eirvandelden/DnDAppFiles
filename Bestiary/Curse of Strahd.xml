@@ -477,6 +477,7 @@
 			<text>18-19 — Standing Leap: The mongrelfolk's long jump is up to 20 feet and its high jump up to 10 feet, with or without a running start.</text>
 			<text/>
 			<text>20 — Two-Headed: The mongrelfolk has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.</text>
+			<attack>Feature||1d20</attack>
 		</trait>
 		<trait>
 			<name>Mimicry</name>
@@ -918,6 +919,7 @@
 			<text>	A severed arm has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll. Each time the zombie loses an arm, it loses a claw attack.</text>
 			<text>	If its head is severed, the zombie loses its bite attack and its body is blinded unless the head can see it. The severed head has a speed of 0 feet. It can make a bite attack but only against a target in its space.</text>
 			<text>	The zombie's speed is halved if it's missing a leg. If it loses both legs, it falls prone. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed.</text>
+			<attack>Limb check||1d20</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>

@@ -4760,7 +4760,7 @@
 			<text>6-7. The giant makes one attack with its bite against one random target within its reach. If no other creatures are within its reach, its eyes glaze over and it becomes stunned until the start of its next turn.</text>
 			<text/>
 			<text>8-10. The giant makes three attacks against one random target within its reach: one attack with its bite and two with its fists. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.</text>
-			<attack>Mouth of Madness||1d6</attack>
+			<attack>Mouth of Madness||1d10</attack>
 		</trait>
 		<action>
 			<name>Bite</name>
@@ -6809,6 +6809,7 @@
 			<name>Dark One's Own Luck (Recharges after a Short or Long Rest)</name>
 			<text>When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur.</text>
 			<recharge>Short</recharge>
+			<attack>Bonus||1d10</attack>
 		</trait>
 		<action>
 			<name>Mace</name>

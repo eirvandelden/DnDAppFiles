@@ -9347,6 +9347,7 @@
 			<name>Leadership (recharges after a Short or Long Rest)</name>
 			<text>The enchantress can utter a special command or warning to a creature she can see within 30 feet of her. The creature must not be hostile to the enchantress and it must be able to hear (the command is inaudible to all but the target creature). For 1 minute, the creature adds a d4 to its attack rolls and saving throws. A creature can benefit from only one enchantress's Leadership at a time. This effect ends if the enchantress is incapacitated.</text>
 			<recharge>Short</recharge>
+			<attack>Bonus||1d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -21893,11 +21894,13 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or contract the arcane wasting disease (see sidebar).</text>
 			<attack>Bite|7|2d8+4</attack>
+			<attack>Bite (Spellcaster)|7|3d8+4</attack>
 		</action>
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) slashing damage.</text>
 			<attack>Claw|7|2d10+4</attack>
+			<attack>Claw (Spellcaster)|7|3d10+4</attack>
 		</action>
 		<action>
 			<name>Frenzy (1/Day)</name>
@@ -22436,6 +22439,7 @@
 			<name>Leadership (Recharges after a Short or Long Rest)</name>
 			<text>For 1 minute, the bandit lord can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the bandit lord. A creature can benefit from only one Leadership die at a time. This effect ends if the bandit lord is incapacitated.</text>
 			<recharge>Short</recharge>
+			<attack>Bonus||1d4</attack>
 		</action>
 		<reaction>
 			<name>Parry</name>

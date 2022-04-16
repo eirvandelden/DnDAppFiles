@@ -4209,6 +4209,7 @@
 		<trait>
 			<name>Berserk</name>
 			<text>Whenever the golem starts its turn with 60 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.</text>
+			<attack>Berserk||1d6</attack>
 		</trait>
 		<trait>
 			<name>Immutable Form</name>
@@ -8747,6 +8748,7 @@
 		<trait>
 			<name>Gibbering</name>
 			<text>The mouther babbles incoherently while it can see any creature and isn't incapacitated. Each creature that starts its turn within 20 feet of the mouther and can hear the gibbering must succeed on a DC 10 Wisdom saving throw. On a failure, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack.</text>
+			<attack>Turn Action||1d8</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -10528,6 +10530,7 @@
 			<name>Leadership (Recharges after a Short or Long Rest)</name>
 			<text>For 1 minute, the hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is incapacitated.</text>
 			<recharge>Short</recharge>
+			<attack>Bonus||1d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -10579,6 +10582,7 @@
 			<name>Leadership (Recharges after a Short or Long Rest)</name>
 			<text>For 1 minute, the hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is incapacitated.</text>
 			<recharge>Short</recharge>
+			<attack>Bonus||1d4</attack>
 		</action>
 		<reaction>
 			<name>Parry</name>
@@ -11382,6 +11386,7 @@
 			<name>Leadership (Recharges after a Short or Long Rest)</name>
 			<text>For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is incapacitated.</text>
 			<recharge>Short</recharge>
+			<attack>Bonus||1d4</attack>
 		</action>
 		<reaction>
 			<name>Parry</name>
@@ -15881,7 +15886,7 @@
 		</action>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1 d6 + 3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
 			<attack>Shortsword|5|1d6+3</attack>
 		</action>
 		<action>
@@ -17483,6 +17488,7 @@
 		<trait>
 			<name>Reflective Carapace</name>
 			<text>Any time the tarrasque is targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected, and the effect is reflected back at the caster as though it originated from the tarrasque, turning the caster into the target.</text>
+			<attack>Reflective Carapace||1d6</attack>
 		</trait>
 		<trait>
 			<name>Siege Monster</name>
@@ -17971,6 +17977,7 @@
 			<text>A severed arm has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll unless the troll can see the arm and its target. Each time the troll loses an arm, it loses a claw attack.</text>
 			<text>If its head is severed, the troll loses its bite attack and its body is blinded unless the head can see it. The severed head has a speed of 0 feet and the troll's Keen Smell trait. It can make a bite attack but only against a target in its space.</text>
 			<text>The troll's speed is halved if it's missing a leg. If it loses both legs, it falls prone. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed.</text>
+			<attack>Limb Action||1d20</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -18144,6 +18151,7 @@
 			<text>When a creature starts its turn within 30 feet of the umber hulk and is able to see the umber hulk's eyes, the umber hulk can magically force it to make a DC 15 Charisma saving throw, unless the umber hulk is incapacitated.</text>
 			<text>On a failed saving throw, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach.</text>
 			<text>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the umber hulk until the start of its next turn, when it can avert its eyes again. If the creature looks at the umber hulk in the meantime, it must immediately make the save.</text>
+			<attack>Turn Action||1d8</attack>
 		</trait>
 		<trait>
 			<name>Tunneler</name>
