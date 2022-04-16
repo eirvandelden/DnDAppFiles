@@ -50,7 +50,7 @@
         <action>
             <name>Entrapping Pod</name>
             <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one Medium or smaller creature grappled by the plant. Hit: 22 (4d8 + 4) acid damage, and the target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is restrained, and it has total cover against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a DC 16 Constitution saving throw or be stunned by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of exhaustion for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment.</text>
-            <text>  As an action, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful 15 Strength check. If the plant dies, the target is no longer restrained and can escape from the pod by spending 10 feet of movement, exiting prone. The plant has one pod, which can envelop one creature at a time.</text>
+            <text>  As an action, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful DC 15 Strength check. If the plant dies, the target is no longer restrained and can escape from the pod by spending 10 feet of movement, exiting prone. The plant has one pod, which can envelop one creature at a time.</text>
             <attack>Entrapping Pod|7|4d8+4</attack>
         </action>
     </monster>
@@ -98,7 +98,7 @@
         </action>
         <action>
             <name>Crushing Embrace</name>
-            <text>The boneless wraps its body around a Large or smaller creature grappled by it. While the boneless is attached, the target is blinded and is unable to breathe. The target must succeed on a DC 13 Strength saving throw at the start of each of the boneless' turns or take 5 (1d4 + 3) bludgeoning damage. If something moves the target, the boneless moves with it. The boneless can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to try to detach the boneless and force it to move into the nearest unoccupied space, doing so with a successful 13 Strength check. When the boneless dies, it detaches from any creature it is attached to.</text>
+            <text>The boneless wraps its body around a Large or smaller creature grappled by it. While the boneless is attached, the target is blinded and is unable to breathe. The target must succeed on a DC 13 Strength saving throw at the start of each of the boneless' turns or take 5 (1d4 + 3) bludgeoning damage. If something moves the target, the boneless moves with it. The boneless can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to try to detach the boneless and force it to move into the nearest unoccupied space, doing so with a successful DC 13 Strength check. When the boneless dies, it detaches from any creature it is attached to.</text>
             <attack>Crushing Embrace||1d4+3</attack>
         </action>
     </monster>
@@ -134,7 +134,7 @@
         <action>
             <name>Tentacle</name>
             <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the carrion stalker attaches to the target and pulls itself into the target's space. While attached, the carrion stalker moves with the target and has advantage on attack rolls against it.</text>
-            <text>  A creature can use its action to try to detach the carrion stalker and force it to move into the nearest unoccupied space, doing so with a successful 11 Strength check. On its turn, the carrion stalker can detach itself from the target by using 5 feet of movement. When it dies, the carrion stalker detaches from any creature it is attached to.</text>
+            <text>  A creature can use its action to try to detach the carrion stalker and force it to move into the nearest unoccupied space, doing so with a successful DC 11 Strength check. On its turn, the carrion stalker can detach itself from the target by using 5 feet of movement. When it dies, the carrion stalker detaches from any creature it is attached to.</text>
             <attack>Tentacle|5|1d4+3</attack>
         </action>
         <action>
