@@ -561,6 +561,7 @@
 			<name>Web (Recharge 5-6)</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</text>
 			<attack>Web|5|0</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1043,6 +1044,7 @@
 			<name>Poison Breath (Recharge 5-6)</name>
 			<text>The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Poison Breath||12d6</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>

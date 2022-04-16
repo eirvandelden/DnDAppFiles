@@ -117,6 +117,7 @@
         <action>
             <name>Reveal (1/Day)</name>
             <text>The drowned assassin removes its mask, revealing its rotting face. Each creature of the assassin's choice within 30 feet of it that can see the assassin must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn.</text>
+            <recharge>1/DAY</recharge>
         </action>
     </monster>
     <monster>
@@ -238,6 +239,7 @@
             <name>Necrotic Ink (Recharge 5-6)</name>
             <text>The drowned master discharges foul ink in front of itself in a 30-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw is blinded until the end of its next turn and contracts bluerot (see the "Bluerot" sidebar).</text>
             <attack>Necrotic Ink||6d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster>
