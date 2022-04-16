@@ -2139,7 +2139,7 @@
         <trait>
             <name>Multiple Heads</name>
             <text>The dracohydra has five heads. While it has more than one head, the dracohydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.</text>
-            <text>  Whenever the dracohydra takes 30 or more damage in a single turn, one of its heads dies. If all its heads die, the dracohydra dies.</text>,
+            <text>  Whenever the dracohydra takes 30 or more damage in a single turn, one of its heads dies. If all its heads die, the dracohydra dies.</text>
             <text>  At the end of its turn, the dracohydra grows two heads for each of its heads that died since its last turn, unless it has taken radiant damage since its last turn. The dracohydra regains 10 hit points for each head regrown this way.</text>
         </trait>
         <trait>
@@ -2490,7 +2490,7 @@
             <name>Inhabit Object</name>
             <text>The shard disappears as it pours its psychic essence into a Medium or smaller nonsentient object it can see within 30 feet of it, magically possessing it. The object uses the shard's AC, and any damage dealt to the object applies to the shard's hit points. The shard inhabits the object until it uses an action to leave; until it is turned; until it is reduced to 0 hit points; or until an effect that ends possession, such as a dispel evil and good spell, is used on it. When it leaves the object, it reappears in the nearest unoccupied space.</text>
             <text>  While inhabited, the object becomes a magic item if it wasn't already, and a Tiny cracked gemstone matching the kind of gem dragon the shard was in life appears somewhere on the object. The shard can cause the object to fly using the shard's own flying speed, use its senses, speak verbally or telepathically, cast spells, and use its legendary actions.</text>
-            <text>  If a creature wears or carries the inhabited object, the shard can grant the creature the following benefits:</text>,
+            <text>  If a creature wears or carries the inhabited object, the shard can grant the creature the following benefits:</text>
             <text>  Each of the creature's attacks deals an extra 1d8 force damage on a hit.</text>
             <text>  The creature gains resistance to psychic damage.</text>
             <attack>Inhabit Object||1d8</attack>
@@ -3339,11 +3339,11 @@
         <action>
             <name>Tadpole Brine Breath (Recharge 5-6)</name>
             <text>The dragon exhales brine in a 120-foot line that is 15 feet wide. Each creature in that area must make a 22 Constitution saving throw, taking 55 (10d10) psychic damage on a failed save, or half as much damage on a successful one. On a success or failure, if the creature isn't a Construct or an Undead, it becomes infested with illithid tadpoles.</text>
-            <text>  While infested, the creature takes 16 (3d10) psychic damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself after it succeeds on three of these saves. If the creature is targeted by magic that ends a curse or restores 40 hit points or more, the tadpoles infesting the creature are killed instantly, ending the effect on the creature.</text>,
+            <text>  While infested, the creature takes 16 (3d10) psychic damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself after it succeeds on three of these saves. If the creature is targeted by magic that ends a curse or restores 40 hit points or more, the tadpoles infesting the creature are killed instantly, ending the effect on the creature.</text>
             <text>  If a Humanoid is reduced to 0 hit points while infested, the creature is stable but remains unconscious for 6d12 hours. When the period of unconsciousness ends, the creature transforms into a mind flayer (see the Monster Manual) with all its hit points. Casting a wish spell on the unconscious creature rids it of the infestation and prevents it from turning into a mind flayer.</text>
             <attack>Tadpole Brine Breath||10d10</attack>
-            <attack>Poison Damage||3d10</attack>
-            <attack>Unconscious||6d12</attack>
+            <attack>Psychic Damage||3d10</attack>
+            <attack>Unconscious Hours||6d12</attack>
             <recharge>D5</recharge>
         </action>
         <legendary>

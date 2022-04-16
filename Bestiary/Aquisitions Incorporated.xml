@@ -1754,9 +1754,10 @@
 		<action>
 			<name>Hot Oil Spray (Recharge 5)</name>
 			<text>The keg robot sprays hot oil in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must make a 13 Dexterity saving throw. On a failed save, a creature takes 7 (1d8 + 3) fire damage and falls prone. On a successful save, a creature takes half as much damage and doesn't fall prone.</text>
-			<text>	Any creature affected by the hot oil spray that takes fire damage before the oil dries (after 1 minute) takes an additional 3 (1d6) fire damage, and the oil burns away.</text>,
+			<text>	Any creature affected by the hot oil spray that takes fire damage before the oil dries (after 1 minute) takes an additional 3 (1d6) fire damage, and the oil burns away.</text>
 			<text>	If the oil that remains in the area of the spray is lit, it burns for 1d4 rounds and deals 3 (1d6) fire damage to any creature that enters the area for the first time on a turn or ends its turn there.</text>
 			<attack>Hot Oil Spray||1d8+3</attack>
+			<attack>Rounds||1d4</attack>
 			<attack>Fire Damage||1d6</attack>
 			<recharge>D5</recharge>
 		</action>
@@ -2362,8 +2363,12 @@
 		<trait>
 			<name>Wild Shape (Recharges after a Short or Long rest)</name>
 			<text>As a bonus action, Walnut can assume the shape of a dire wolf. She can stay in this form for 3 hours or until she reverts to her normal form as a bonus action. She automatically reverts if she falls unconscious, drops to 0 hit points, or dies.</text>
-			<text>	While transformed, Walnut's game statistics are replaced by the statistics of the dire wolf, except she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores.</text>,
+			<text>	While transformed, Walnut's game statistics are replaced by the statistics of the dire wolf, except she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores.</text>
 			<text>	Her attacks in beast form are magical. While in beast form, Walnut can use a bonus action to expend one spell slot and regain 1d8 hit points per level of the spell slot expended.</text>
+			<attack>Hit Points (1st level slot)||1d8</attack>
+			<attack>Hit Points (2nd level slot)||2d8</attack>
+			<attack>Hit Points (3rd level slot)||3d8</attack>
+			<attack>Hit Points (4th level slot)||4d8</attack>
 			<recharge>Short</recharge>
 		</trait>
 		<action>
