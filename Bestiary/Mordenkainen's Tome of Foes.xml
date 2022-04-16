@@ -425,7 +425,6 @@
 		<reaction>
 			<name>Instinctive Charm</name>
 			<text>When a creature within 60 feet of the amnizu makes an attack roll against it, and another creature is within the attack's range, the attacker must make a DC 19 Wisdom saving throw. On a failed save, the attacker must target the creature that is closest to it, not including the amnizu or itself. If multiple creatures are closest, the attacker chooses which one to target. If the saving throw is successful, the attacker is immune to the amnizu's Instinctive Charm for 24 hours.</text>
-			<attack/>
 		</reaction>
 		<spells>Charm Person, Command, Dominate Person, Fireball, Dominate Monster, Feeblemind</spells>
 		<slots/>
@@ -644,7 +643,6 @@
 		<reaction>
 			<name>Foster Peace</name>
 			<text>If a creature charmed by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker.</text>
-			<attack/>
 		</reaction>
 		<spells>Calm Emotions, Sleep, Cure Wounds, Lesser Restoration, Greater Restoration, Heal, Raise Dead</spells>
 		<slots>0</slots>
@@ -1210,7 +1208,6 @@
 		<reaction>
 			<name>Deadly Reach</name>
 			<text>In response to a visible enemy moving into its reach, the boneclaw makes one claw attack against that enemy. If the attack hits, the boneclaw can make a second claw attack against the target.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -2506,7 +2503,6 @@
 		<reaction>
 			<name>Parry</name>
 			<text>The drow adds 3 to his AC against one melee attack that would hit him. To do so, the drow must see the attacker and be wielding a melee weapon.</text>
-			<attack/>
 		</reaction>
 		<spells>Dancing Lights, Darkness, Faerie Fire, Levitate</spells>
 		<slots>0</slots>
@@ -3302,7 +3298,6 @@
 			<name>Scouring Instruction</name>
 			<text>When an ally that the duergar can see makes a d20 roll, the duergar can roll a d6 and the ally can add the number rolled to the d20 roll by taking 3 (1d6) psychic damage. A creature immune to psychic damage can't be affected by Scouring Instruction.</text>
 			<attack>Psychic Damage||1d6</attack>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -4228,7 +4223,6 @@
 		<reaction>
 			<name>Parry</name>
 			<text>The githyanki adds 4 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon.</text>
-			<attack/>
 		</reaction>
 		<spells>Mage Hand, Blur, Jump, Misty Step, Nondetection, Plane Shift, Telekinesis</spells>
 		<slots/>
@@ -4277,7 +4271,6 @@
 		<reaction>
 			<name>Parry</name>
 			<text>The githyanki adds 5 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon.</text>
-			<attack/>
 		</reaction>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -4491,7 +4484,6 @@
 		<reaction>
 			<name>Misty Escape (Recharges after a Short or Long Rest)</name>
 			<text>When the gloom weaver takes damage, it turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks or casts a spell.</text>
-			<attack/>
 			<recharge>Short</recharge>
 		</reaction>
 		<spells>Arcane Eye, Mage Armor, Speak with Dead, Arcane Gate, Bane, Compulsion, Confusion, True Seeing, Chill Touch, Eldritch Blast, Minor Illusion, Prestidigitation, Armor of Agathys, Blight, Darkness, Dream, Invisibility, Fear, Hypnotic Pattern, Major Image, Contact Other Plane, Vampiric Touch, Witch Bolt</spells>
@@ -4546,7 +4538,6 @@
 		<reaction>
 			<name>Bloody Rampage</name>
 			<text>When the gray render takes damage, it makes one attack with its claws against a random creature within its reach, other than its master.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -4926,7 +4917,6 @@
 		<reaction>
 			<name>Fearful Voice (Recharge 5-6)</name>
 			<text>In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil must succeed on a DC 22 Wisdom saving throw or become frightened of him for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to Hutijin's Fearful Voice for 24 hours.</text>
-			<attack/>
 			<recharge>D5</recharge>
 		</reaction>
 		<legendary>
@@ -5722,7 +5712,6 @@
 		<reaction>
 			<name>Loyal Bodyguard</name>
 			<text>When another fiend within 5 feet of the merregon is hit by an attack, the merregon causes itself to be hit instead.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -7044,7 +7033,6 @@
 			<name>Explosive Retribution</name>
 			<text>When it is reduced to 15 hit points or fewer, the orthon causes itself to explode. All other creatures within 30 feet of it must each make a DC 17 Dexterity saving throw, taking 9 (2d8) fire damage plus 9 (2d8) thunder damage on a failed save, or half as much damage on a successful one. This explosion destroys the orthon, its infernal dagger, and its brass crossbow.</text>
 			<attack>Explosive Retribution||2d8+2d8</attack>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -8163,7 +8151,6 @@
 		<reaction>
 			<name>Feed on Weakness</name>
 			<text>When a creature within 20 feet of the larva mage fails a saving throw, the larva mage gains 10 temporary hit points.</text>
-			<attack/>
 		</reaction>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -8293,7 +8280,6 @@
 		<reaction>
 			<name>Bend Space</name>
 			<text>When the seer would be hit by an attack, it teleports, exchanging positions with another star spawn it can see within 60 feet of it. The other star spawn is hit by the attack instead.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -8797,7 +8783,6 @@
 		<reaction>
 			<name>Parry</name>
 			<text>The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -9703,7 +9688,6 @@
 		<reaction>
 			<name>Vicious Reprisal</name>
 			<text>In response to taking damage, the abishai makes a bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking opportunity attacks.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -9773,7 +9757,6 @@
 			<name>Frigid Rebuke</name>
 			<text>When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to succeed on a DC 16 Constitution saving throw or take 11 (2d10) cold damage.</text>
 			<attack>Cold Damage||2d10</attack>
-			<attack/>
 		</reaction>
 		<spells>Fog Cloud, Gust of Wind, Cone of Cold, Ice Storm</spells>
 		<slots>0</slots>
