@@ -287,7 +287,7 @@
         </action>
         <action>
             <name>Grasping Limb</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape 14). The archivist can have no more than two targets grappled at a time.</text>
+            <text>Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 14). The archivist can have no more than two targets grappled at a time.</text>
             <attack>Grasping Limb|6|2d8+4</attack>
         </action>
     </monster>
@@ -910,7 +910,7 @@
         </action>
         <action>
             <name>Tail</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 22 (4d8 + 4) piercing damage, and the target is grappled (escape 15). Until this grapple ends, the target is restrained, and the hunter can't make a Tail attack against another target.</text>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 22 (4d8 + 4) piercing damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the hunter can't make a Tail attack against another target.</text>
             <attack>Tail|7|4d8+4</attack>
         </action>
         <action>
@@ -1600,7 +1600,7 @@
         <cr>2</cr>
         <action>
             <name>Claws</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) slashing damage, and the target is grappled (escape 15). The relic sloth can grapple no more than two targets at a time.</text>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) slashing damage, and the target is grappled (escape DC 15). The relic sloth can grapple no more than two targets at a time.</text>
             <attack>Claws|7|2d8+5</attack>
         </action>
         <reaction>

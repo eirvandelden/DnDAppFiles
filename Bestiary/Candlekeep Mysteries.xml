@@ -78,7 +78,7 @@
     </action>
     <action>
       <name>Chained Book</name>
-      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and if the target is a creature, it is grappled (escape 12).</text>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and if the target is a creature, it is grappled (escape DC 12).</text>
       <attack>Chained Book|4|1d8+2</attack>
     </action>
   </monster>
@@ -699,7 +699,7 @@
     </action>
     <action>
       <name>Tongue</name>
-      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is grappled (escape 12). Until this grapple ends, the target is restrained, and the grippli can't grab another creature.</text>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the grippli can't grab another creature.</text>
       <attack>Tongue|4|</attack>
     </action>
     <action>
@@ -968,7 +968,7 @@
     </action>
     <action>
       <name>Bite</name>
-      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it is grappled by the kiddywidget (escape 8).</text>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it is grappled by the kiddywidget (escape DC 8).</text>
       <attack>Bite|4|1d4+2</attack>
     </action>
     <action>
@@ -1284,7 +1284,7 @@
     </trait>
     <trait>
       <name>Adhesive (Object Form Only)</name>
-      <text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape 10). Ability checks made to escape this grapple have disadvantage.</text>
+      <text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 10). Ability checks made to escape this grapple have disadvantage.</text>
     </trait>
     <trait>
       <name>False Appearance (Object Form Only)</name>
@@ -1411,7 +1411,7 @@
       </action>
       <action>
         <name>Constrict</name>
-        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The target is grappled (escape 16) if the behir isn't already constricting a creature, and the target is restrained until this grapple ends.</text>
+        <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The target is grappled (escape DC 16) if the behir isn't already constricting a creature, and the target is restrained until this grapple ends.</text>
         <attack>Constrict|10|2d10+6+2d10+6</attack>
       </action>
       <action>
@@ -1676,7 +1676,7 @@
       </action>
       <action>
         <name>Bite</name>
-        <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it is grappled by the skitterwidget (escape 13).</text>
+        <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it is grappled by the skitterwidget (escape DC 13).</text>
         <attack>Bite|6|2d6+3</attack>
       </action>
       <action>
@@ -1729,7 +1729,7 @@
       </action>
       <action>
         <name>Whip</name>
-        <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) slashing damage or, if the target is a creature, Steel Crane can grapple the target instead (escape 15). Steel Crane can't make attacks with the whip while using it to grapple a creature. Anytime on his turn, he can release a creature grappled by the whip (no action required).</text>
+        <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) slashing damage or, if the target is a creature, Steel Crane can grapple the target instead (escape DC 15). Steel Crane can't make attacks with the whip while using it to grapple a creature. Anytime on his turn, he can release a creature grappled by the whip (no action required).</text>
         <attack>Whip|7|1d4+4</attack>
       </action>
       <action>

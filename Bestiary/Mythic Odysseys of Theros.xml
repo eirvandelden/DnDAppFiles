@@ -1222,7 +1222,7 @@
         </action>
         <action>
             <name>Constrict</name>
-            <text>Melee Weapon Attack: +11 to hit, reach 15 ft., one Large or smaller creature. Hit: 16 (2d10 + 5) bludgeoning damage, and the target is grappled (escape 19). Until this grapple ends, the target is restrained and takes 15 (3d6 + 5) bludgeoning damage at the start of each of its turns, and Hythonia can't constrict another target.</text>
+            <text>Melee Weapon Attack: +11 to hit, reach 15 ft., one Large or smaller creature. Hit: 16 (2d10 + 5) bludgeoning damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained and takes 15 (3d6 + 5) bludgeoning damage at the start of each of its turns, and Hythonia can't constrict another target.</text>
             <attack>Constrict|11|2d10+5</attack>
             <attack>Start of Turn||3d6+5</attack>
         </action>
@@ -1463,7 +1463,7 @@
         </action>
         <action>
             <name>Constrict</name>
-            <text>Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 7 (2d6) bludgeoning damage, and the target is grappled (escape 11). Until this grapple ends, the target is restrained, and the medusa can't constrict another target.</text>
+            <text>Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 7 (2d6) bludgeoning damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the medusa can't constrict another target.</text>
             <attack>Constrict|3|2d6</attack>
         </action>
     </monster>
@@ -2509,7 +2509,7 @@
         </action>
         <action>
             <name>Pincer</name>
-            <text>Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit: 20 (3d6 + 10) bludgeoning damage, and if the target is a creature, it is grappled (escape 26). Until the grapple ends, the target is restrained, and Tromokratis can't use this attack on anyone else.</text>
+            <text>Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit: 20 (3d6 + 10) bludgeoning damage, and if the target is a creature, it is grappled (escape DC 26). Until the grapple ends, the target is restrained, and Tromokratis can't use this attack on anyone else.</text>
             <attack>Pincer|18|3d6+10</attack>
         </action>
         <action>
@@ -2519,7 +2519,7 @@
         </action>
         <action>
             <name>Tentacle Grasp</name>
-            <text>Melee Weapon Attack: +18 to hit, reach 20 ft., one creature. Hit: 20 (3d6 + 10) bludgeoning damage, and the target is grappled (escape 26). If the target doesn't escape by the end of its next turn, Tromokratis throws the target up to 60 feet in a straight line. The target lands prone and takes 21 (6d6) bludgeoning damage.</text>
+            <text>Melee Weapon Attack: +18 to hit, reach 20 ft., one creature. Hit: 20 (3d6 + 10) bludgeoning damage, and the target is grappled (escape DC 26). If the target doesn't escape by the end of its next turn, Tromokratis throws the target up to 60 feet in a straight line. The target lands prone and takes 21 (6d6) bludgeoning damage.</text>
             <attack>Tentacle Grasp|18|3d6+10</attack>
             <attack>Bludgeoning Damage||6d6</attack>
         </action>
@@ -2639,7 +2639,7 @@
         </action>
         <action>
             <name>Constrict</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one Large or smaller creature. Hit: 17 (3d6 + 7) bludgeoning damage, and the target is grappled (escape 19). Until this grapple ends, the target is restrained and takes 17 (3d6 + 7) bludgeoning damage at the start of each of its turns. The typhon can have up to two creatures constricted.</text>
+            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one Large or smaller creature. Hit: 17 (3d6 + 7) bludgeoning damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained and takes 17 (3d6 + 7) bludgeoning damage at the start of each of its turns. The typhon can have up to two creatures constricted.</text>
             <attack>Constrict|12|3d6+7</attack>
         </action>
         <action>
@@ -2808,7 +2808,7 @@
         </trait>
         <action>
             <name>Multiattack</name>
-            <text>The woe strider makes two claw attacks and one bite attack. If both claws hit the same creature, the target is grappled (escape 14).</text>
+            <text>The woe strider makes two claw attacks and one bite attack. If both claws hit the same creature, the target is grappled (escape DC 14).</text>
         </action>
         <action>
             <name>Claw</name>
