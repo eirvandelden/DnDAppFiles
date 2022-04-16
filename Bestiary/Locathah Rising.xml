@@ -722,7 +722,7 @@
         </action>
         <action>
             <name>Umberlee's Wake (Recharge 5-6)</name>
-            <text>Power ripples out in a 60-foot radius sphere from a point within range (150 ft.) as the will of Umberlee affects all in her watery embrace. Each creature in that area must succeed on a 18 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. This only affects targets that are submerged or floating in water. Gar Shatterkeel and any undead serving him are immune to this effect.</text>
+            <text>Power ripples out in a 60-foot radius sphere from a point within range (150 ft.) as the will of Umberlee affects all in her watery embrace. Each creature in that area must succeed on a DC 18 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. This only affects targets that are submerged or floating in water. Gar Shatterkeel and any undead serving him are immune to this effect.</text>
             <recharge>D5</recharge>
         </action>
         <legendary>
@@ -836,7 +836,7 @@
         </action>
         <action>
             <name>Ink Cloud</name>
-            <text>While underwater, Whymsee can expel an ink cloud in a 20-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than kraken priests or a kraken. Each creature other than a kraken priest or a kraken that ends its turn there must succeed on a 14 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of Whymsee's next turn.</text>
+            <text>While underwater, Whymsee can expel an ink cloud in a 20-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than kraken priests or a kraken. Each creature other than a kraken priest or a kraken that ends its turn there must succeed on a DC 14 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of Whymsee's next turn.</text>
             <attack>Ink Cloud||2d8</attack>
         </action>
         <action>
@@ -881,7 +881,7 @@
             <name>Bite</name>
             <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 7) piercing damage.</text>
             <text>	If the target is a Medium or smaller creature grappled by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 21 (6d6) acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time.</text>
-            <text>	If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a 23 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in spaces within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
+            <text>	If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 23 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in spaces within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
             <attack>Bite|12|3d8+7</attack>
             <attack>Acid Damage||6d6</attack>
         </action>
@@ -892,12 +892,12 @@
         </action>
         <action>
             <name>Fling</name>
-            <text>One Medium or smaller object held or creature grappled by the kraken is thrown up to 40 feet in a random direction and knocked prone. If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
+            <text>One Medium or smaller object held or creature grappled by the kraken is thrown up to 40 feet in a random direction and knocked prone. If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
             <attack>Fling||1d6</attack>
         </action>
         <action>
             <name>Lightning Strike</name>
-            <text>The kraken magically create a bolt of lightning, which can strike a target the kraken can see within 90 feet of it. The target must make a 18 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+            <text>The kraken magically create a bolt of lightning, which can strike a target the kraken can see within 90 feet of it. The target must make a DC 18 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Lightning Strike||4d10</attack>
         </action>
     </monster>

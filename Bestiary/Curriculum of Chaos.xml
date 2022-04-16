@@ -57,7 +57,7 @@
         </action>
         <action>
             <name>Gravity Shift (Recharge 5-6)</name>
-            <text>The archaic reverses gravity for one creature it can see within 100 feet of itself. The creature must succeed on a 22 Wisdom saving throw or fall 100 feet upward. If the falling creature encounters a solid object (such as a ceiling) in this fall, it strikes the object just as it would during a downward fall. If the creature reaches the top of the area without striking anything, it hovers there until the start of the archaic's next turn, at which time gravity returns to normal and the creature falls.</text>
+            <text>The archaic reverses gravity for one creature it can see within 100 feet of itself. The creature must succeed on a DC 22 Wisdom saving throw or fall 100 feet upward. If the falling creature encounters a solid object (such as a ceiling) in this fall, it strikes the object just as it would during a downward fall. If the creature reaches the top of the area without striking anything, it hovers there until the start of the archaic's next turn, at which time gravity returns to normal and the creature falls.</text>
             <recharge>D5</recharge>
         </action>
         <action>
@@ -66,7 +66,7 @@
         </action>
         <reaction>
             <name>Spell Mimicry (1/Day)</name>
-            <text>Immediately after a creature the archaic can see casts a spell of 5th level or lower, that creature must succeed on a 22 Charisma saving throw, or the archaic immediately casts the same spell at the same level (+14 to hit with spell attacks, spell save 22), requiring no material components and choosing the spell's targets.</text>
+            <text>Immediately after a creature the archaic can see casts a spell of 5th level or lower, that creature must succeed on a DC 22 Charisma saving throw, or the archaic immediately casts the same spell at the same level (+14 to hit with spell attacks, spell save 22), requiring no material components and choosing the spell's targets.</text>
             <recharge>1/Day</recharge>
         </reaction>
         <legendary>
@@ -79,7 +79,7 @@
         </legendary>
         <legendary>
             <name>Unravel Magic (Costs 2 Actions)</name>
-            <text>The archaic targets one creature it can see within 120 feet of itself. The target must succeed on a 22 Constitution saving throw or take 35 (10d6) force damage, and each spell of 5th level or lower on the target ends.</text>
+            <text>The archaic targets one creature it can see within 120 feet of itself. The target must succeed on a DC 22 Constitution saving throw or take 35 (10d6) force damage, and each spell of 5th level or lower on the target ends.</text>
             <attack>Unravel Magic||10d6</attack>
         </legendary>
     </monster>
@@ -110,7 +110,7 @@
         <cr>1/4</cr>
         <trait>
             <name>Death Burst</name>
-            <text>When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a 11 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <text>When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a DC 11 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
         </trait>
         <action>
             <name>Joyful Flare</name>
@@ -124,7 +124,7 @@
         </action>
         <action>
             <name>Captivating Artistry (1/Day)</name>
-            <text>The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a 12 Charisma saving throw or be charmed for 1 minute. The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <text>The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a DC 12 Charisma saving throw or be charmed for 1 minute. The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
             <recharge>1/Day</recharge>
         </action>
     </monster>
@@ -185,13 +185,13 @@
         </action>
         <action>
             <name>Decaying Breath (Recharge 5-6)</name>
-            <text>Beledros exhales decaying energy in a 90-foot cone. Each creature in that area must make a 23 Constitution saving throw, taking 39 (6d12) necrotic damage and 39 (6d12) poison damage on a failed save, or half as much damage on a successful one. A creature that takes damage from the breath can't regain hit points until the start of Beledros's next turn.</text>
+            <text>Beledros exhales decaying energy in a 90-foot cone. Each creature in that area must make a DC 23 Constitution saving throw, taking 39 (6d12) necrotic damage and 39 (6d12) poison damage on a failed save, or half as much damage on a successful one. A creature that takes damage from the breath can't regain hit points until the start of Beledros's next turn.</text>
             <attack>Decaying Breath||6d12+6d12</attack>
             <recharge>D5</recharge>
         </action>
         <action>
             <name>Miasmal Flow</name>
-            <text>Beledros becomes a swirling cloud of green mist and can move up to half her flying speed without provoking opportunity attacks, then resumes her true form. During this movement, she can move through creatures and objects as if they were difficult terrain. If she moves through a creature, it must succeed on a 23 Constitution saving throw or become poisoned until the end of its next turn. If Beledros ends this move inside an object, she takes 5 (1d10) force damage and is shunted to the nearest unoccupied space.</text>
+            <text>Beledros becomes a swirling cloud of green mist and can move up to half her flying speed without provoking opportunity attacks, then resumes her true form. During this movement, she can move through creatures and objects as if they were difficult terrain. If she moves through a creature, it must succeed on a DC 23 Constitution saving throw or become poisoned until the end of its next turn. If Beledros ends this move inside an object, she takes 5 (1d10) force damage and is shunted to the nearest unoccupied space.</text>
             <attack>Miasmal Flow||1d10</attack>
         </action>
         <legendary>
@@ -240,7 +240,7 @@
         </trait>
         <action>
             <name>Tusk</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 3 (1d6) poison damage. If the target is a creature, it must succeed on a 15 Strength saving throw or be knocked prone.</text>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 3 (1d6) poison damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
             <attack>Tusk|7|2d10+5+1d6</attack>
         </action>
     </monster>
@@ -332,7 +332,7 @@
         </action>
         <action>
             <name>Terrify (Recharge 4-6)</name>
-            <text>The daemogoth targets one creature it can see within 120 feet of itself. The target must make a 17 Wisdom saving throw. On a failed save, the target takes 33 (6d10) psychic damage and is frightened of the daemogoth until the end of the daemogoth's next turn, and the daemogoth regains 5 hit points. On a successful save, the target takes half as much damage and isn't frightened, and the daemogoth doesn't heal.</text>
+            <text>The daemogoth targets one creature it can see within 120 feet of itself. The target must make a DC 17 Wisdom saving throw. On a failed save, the target takes 33 (6d10) psychic damage and is frightened of the daemogoth until the end of the daemogoth's next turn, and the daemogoth regains 5 hit points. On a successful save, the target takes half as much damage and isn't frightened, and the daemogoth doesn't heal.</text>
             <attack>Terrify||6d10</attack>
             <recharge>D4</recharge>
         </action>
@@ -392,12 +392,12 @@
         </legendary>
         <legendary>
             <name>Stalking Nightmare (Costs 2 Actions)</name>
-            <text>The titan uses Teleport, after which it can target one creature within 20 feet of itself that it can see. The target must make a 20 Constitution saving throw. On a failed save, the target takes 22 (4d10) necrotic damage, and the titan regains 10 hit points. On a successful save, the target takes half as much damage, and the titan doesn't heal.</text>
+            <text>The titan uses Teleport, after which it can target one creature within 20 feet of itself that it can see. The target must make a DC 20 Constitution saving throw. On a failed save, the target takes 22 (4d10) necrotic damage, and the titan regains 10 hit points. On a successful save, the target takes half as much damage, and the titan doesn't heal.</text>
             <attack>Stalking Nightmare||4d10</attack>
         </legendary>
         <legendary>
             <name>Terrorize (Costs 3 Actions)</name>
-            <text>The titan targets one creature it can see within 120 feet of itself. The target must make a 20 Wisdom saving throw. On a failed save, the target takes 38 (7d10) psychic damage and is frightened of the titan until the end of the target's next turn, and the titan regains 15 hit points. On a successful save, the target takes half as much damage and isn't frightened, and the titan doesn't heal.</text>
+            <text>The titan targets one creature it can see within 120 feet of itself. The target must make a DC 20 Wisdom saving throw. On a failed save, the target takes 38 (7d10) psychic damage and is frightened of the titan until the end of the target's next turn, and the titan regains 15 hit points. On a successful save, the target takes half as much damage and isn't frightened, and the titan doesn't heal.</text>
             <attack>Terrorize||7d10</attack>
         </legendary>
     </monster>
@@ -539,7 +539,7 @@
         </action>
         <action>
             <name>Dancing Elements Breath (Recharge 5-6)</name>
-            <text>Galazeth exhales a blast of flames and ice in a 90-foot cone. Each creature in that area must make a 22 Dexterity saving throw, gaining no benefit from cover (other than total cover) and taking 38 (7d10) fire damage and 38 (7d10) cold damage on a failed save, or half as much damage on a successful one.</text>
+            <text>Galazeth exhales a blast of flames and ice in a 90-foot cone. Each creature in that area must make a DC 22 Dexterity saving throw, gaining no benefit from cover (other than total cover) and taking 38 (7d10) fire damage and 38 (7d10) cold damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Dancing Elements Breath||7d10+7d10</attack>
             <recharge>D5</recharge>
         </action>
@@ -549,7 +549,7 @@
         </legendary>
         <legendary>
             <name>Lightning Flash (Costs 2 Actions)</name>
-            <text>Galazeth moves up to half his flying speed without provoking opportunity attacks. When he passes within 15 feet of a creature during this move, that creature must succeed on a 22 Dexterity saving throw or take 11 (2d10) lightning damage. A creature can take this damage no more than once during the move.</text>
+            <text>Galazeth moves up to half his flying speed without provoking opportunity attacks. When he passes within 15 feet of a creature during this move, that creature must succeed on a DC 22 Dexterity saving throw or take 11 (2d10) lightning damage. A creature can take this damage no more than once during the move.</text>
             <attack>Lightning Flash||2d10</attack>
         </legendary>
         <legendary>
@@ -603,7 +603,7 @@
         </action>
         <action>
             <name>Swamp Claw</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage. If the target is a Medium or smaller creature, it must succeed on a 15 Strength saving throw or become engulfed by the groff. While engulfed, the target can't breathe, is restrained, and takes 10 (3d6) poison damage at the start of each of its turns. When the groff moves, the engulfed target moves with it. The groff can have only one target engulfed at a time.</text>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or become engulfed by the groff. While engulfed, the target can't breathe, is restrained, and takes 10 (3d6) poison damage at the start of each of its turns. When the groff moves, the engulfed target moves with it. The groff can have only one target engulfed at a time.</text>
             <text>  An engulfed target can repeat the saving throw at the end of its turns. On a success, the target escapes and enters the nearest unoccupied space.</text>
             <attack>Swamp Claw|7|1d6+5</attack>
             <attack>Poison||3d6</attack>
@@ -645,7 +645,7 @@
         </action>
         <action>
             <name>Ink Spray (1/Day)</name>
-            <text>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a 12 Constitution saving throw or be blinded until the end of the inkling's next turn.</text>
+            <text>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inkling's next turn.</text>
             <recharge>1/Day</recharge>
         </action>
     </monster>
@@ -689,7 +689,7 @@
         </action>
         <action>
             <name>Reduce to Memory (Recharge 6)</name>
-            <text>Thundering golden energy erupts around a creature the apprentice can see within 90 feet of it. The creature must make a 12 Constitution saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one. A Construct has disadvantage on the saving throw.</text>
+            <text>Thundering golden energy erupts around a creature the apprentice can see within 90 feet of it. The creature must make a DC 12 Constitution saving throw, taking 33 (6d10) thunder damage on a failed save, or half as much damage on a successful one. A Construct has disadvantage on the saving throw.</text>
             <attack>Reduce to Memory||6d10</attack>
             <recharge>D6</recharge>
         </action>
@@ -744,7 +744,7 @@
         </action>
         <action>
             <name>Reduce to Memory (Recharge 5-6)</name>
-            <text>Thundering golden energy erupts around a creature the pledgemage can see within 90 feet of it. The creature must make a 13 Constitution saving throw, taking 44 (8d10) thunder damage on a failed save, or half as much damage on a successful one. A Construct has disadvantage on the saving throw.</text>
+            <text>Thundering golden energy erupts around a creature the pledgemage can see within 90 feet of it. The creature must make a DC 13 Constitution saving throw, taking 44 (8d10) thunder damage on a failed save, or half as much damage on a successful one. A Construct has disadvantage on the saving throw.</text>
             <attack>Reduce to Memory||8d10</attack>
             <recharge>D5</recharge>
         </action>
@@ -798,12 +798,12 @@
         </action>
         <action>
             <name>Spectral Scroll</name>
-            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 15 (2d10 + 4) force damage. If the target is a creature, it must succeed on a 15 Strength saving throw or be knocked prone.</text>
+            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 15 (2d10 + 4) force damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
             <attack>Spectral Scroll|7|2d10+4</attack>
         </action>
         <action>
             <name>Weight of History (Recharge 5-6)</name>
-            <text>The professor magically compresses time around up to six creatures of its choice that it can see within 30 feet of itself. Each target must succeed on a 15 Wisdom saving throw or be restrained for 1 minute, but the restrained target's speed is halved instead of being reduced to 0. At the start of each of its turns, the restrained target takes 4 (1d8) force damage. A restrained target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <text>The professor magically compresses time around up to six creatures of its choice that it can see within 30 feet of itself. Each target must succeed on a DC 15 Wisdom saving throw or be restrained for 1 minute, but the restrained target's speed is halved instead of being reduced to 0. At the start of each of its turns, the restrained target takes 4 (1d8) force damage. A restrained target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Weight of History||1d8</attack>
             <recharge>D5</recharge>
         </action>
@@ -852,7 +852,7 @@
         </action>
         <action>
             <name>Repelling Burst</name>
-            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 13 (2d8 + 4) force damage. If the target is a Large or smaller creature, it must succeed on a 15 Strength saving throw or be pushed up to 10 feet directly away from the professor and become restrained until the start of professor's next turn.</text>
+            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 13 (2d8 + 4) force damage. If the target is a Large or smaller creature, it must succeed on a DC 15 Strength saving throw or be pushed up to 10 feet directly away from the professor and become restrained until the start of professor's next turn.</text>
             <attack>Repelling Burst|7|2d8+4</attack>
         </action>
         <action>
@@ -915,12 +915,12 @@
         </action>
         <action>
             <name>Mage Tracker (Sentry Form Only)</name>
-            <text>The hunter emits a pulse of energy that helps it better locate its magical quarry. Each creature within 120 feet of the hunter that has the ability to cast spells must succeed on a 14 Wisdom saving throw or be mystically marked by the hunter for 1 hour.</text>
+            <text>The hunter emits a pulse of energy that helps it better locate its magical quarry. Each creature within 120 feet of the hunter that has the ability to cast spells must succeed on a DC 14 Wisdom saving throw or be mystically marked by the hunter for 1 hour.</text>
             <text>  While marked, a creature can't become hidden from the hunter and gains no benefit from the invisible condition against the hunter. Additionally, while a marked creature is on the same plane of existence as the hunter, the hunter always knows the distance and direction to the creature.</text>
         </action>
         <reaction>
             <name>Consume and Destroy</name>
-            <text>When the hunter takes damage from a spell, it takes only half the triggering damage (rounded down). If the creature that cast the spell is within 60 feet of the hunter, that creature must succeed on a 14 Dexterity saving throw or take the other half of the damage.</text>
+            <text>When the hunter takes damage from a spell, it takes only half the triggering damage (rounded down). If the creature that cast the spell is within 60 feet of the hunter, that creature must succeed on a DC 14 Dexterity saving throw or take the other half of the damage.</text>
         </reaction>
     </monster>
     <monster>
@@ -971,7 +971,7 @@
         </action>
         <action>
             <name>Blood Boil (Recharge 4-6)</name>
-            <text>Murgaxor chooses a point within 150 feet of himself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Murgaxor's choice that he can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
+            <text>Murgaxor chooses a point within 150 feet of himself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Murgaxor's choice that he can see in that area must make a DC 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
             <attack>Blood Boil||7d10</attack>
             <recharge>D4</recharge>
         </action>
@@ -1026,7 +1026,7 @@
         </action>
         <action>
             <name>Paradoxy (Recharge 4-6)</name>
-            <text>Momentary warps in reality appear at three different points the Oracle can see within 120 feet of her. Each creature in a 20-foot-radius sphere centered on each point must make a 18 Strength saving throw. On a failed save, a creature takes 33 (6d10) force damage and is pulled up to 15 feet in a straight line toward the center of the sphere. On a successful save, the creature takes half as much damage and isn't pulled. A creature caught in the area of multiple warps is affected by only one, which the Oracle chooses.</text>
+            <text>Momentary warps in reality appear at three different points the Oracle can see within 120 feet of her. Each creature in a 20-foot-radius sphere centered on each point must make a DC 18 Strength saving throw. On a failed save, a creature takes 33 (6d10) force damage and is pulled up to 15 feet in a straight line toward the center of the sphere. On a successful save, the creature takes half as much damage and isn't pulled. A creature caught in the area of multiple warps is affected by only one, which the Oracle chooses.</text>
             <attack>Paradoxy||6d10</attack>
             <recharge>D4</recharge>
         </action>
@@ -1036,7 +1036,7 @@
         </action>
         <legendary>
             <name>Vector Shift</name>
-            <text>The Oracle teleports one creature she can see within 60 feet of herself, along with any equipment it is wearing or carrying, to an unoccupied space within 30 feet of herself. An unwilling target must succeed on a 18 Charisma saving throw to avoid the effect.</text>
+            <text>The Oracle teleports one creature she can see within 60 feet of herself, along with any equipment it is wearing or carrying, to an unoccupied space within 30 feet of herself. An unwilling target must succeed on a DC 18 Charisma saving throw to avoid the effect.</text>
         </legendary>
         <legendary>
             <name>Spellcasting (Costs 2 Actions)</name>
@@ -1044,7 +1044,7 @@
         </legendary>
         <legendary>
             <name>Vortex Jaunt (Costs 2 Actions)</name>
-            <text>The Oracle uses Teleport, and immediately after she disappears, each creature within 30 feet of the space she left must succeed on a 18 Constitution saving throw or take 16 (3d10) force damage.</text>
+            <text>The Oracle uses Teleport, and immediately after she disappears, each creature within 30 feet of the space she left must succeed on a DC 18 Constitution saving throw or take 16 (3d10) force damage.</text>
             <attack>Vortex Jaunt||3d10</attack>
         </legendary>
     </monster>
@@ -1096,7 +1096,7 @@
         </action>
         <action>
             <name>Blood Boil (Recharge 4-6)</name>
-            <text>The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
+            <text>The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a DC 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
             <attack>Blood Boil||7d10</attack>
             <recharge>D4</recharge>
         </action>
@@ -1281,7 +1281,7 @@
         </action>
         <action>
             <name>Showstopper (1/Day)</name>
-            <text>The pledgemage shines with elemental magic, targeting one creature it can see within 60 feet of itself. The target must make a 13 Wisdom saving throw. On a failed save, the target takes 28 (8d6) fire or cold damage (the pledgemage's choice) and is stunned until the start of the pledgemage's next turn. On a successful save, the target takes half as much damage and isn't stunned.</text>
+            <text>The pledgemage shines with elemental magic, targeting one creature it can see within 60 feet of itself. The target must make a DC 13 Wisdom saving throw. On a failed save, the target takes 28 (8d6) fire or cold damage (the pledgemage's choice) and is stunned until the start of the pledgemage's next turn. On a successful save, the target takes half as much damage and isn't stunned.</text>
             <attack>Showstopper||8d6</attack>
             <recharge>1/Day</recharge>
         </action>
@@ -1330,7 +1330,7 @@
         </action>
         <action>
             <name>Lightning Flourish (Recharge 6)</name>
-            <text>The professor unleashes arcs of magical lightning at up to two creatures it can see within 60 feet of itself. Each target must make a 15 Dexterity saving throw, taking 35 (10d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
+            <text>The professor unleashes arcs of magical lightning at up to two creatures it can see within 60 feet of itself. Each target must make a DC 15 Dexterity saving throw, taking 35 (10d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Lightning Flourish||10d6</attack>
             <recharge>D6</recharge>
         </action>
@@ -1564,7 +1564,7 @@
         </action>
         <action>
             <name>Overriding Theorem (Recharge 4-6)</name>
-            <text>The professor magically influences the mind of up to two creatures it can see within 60 feet of itself. Each target must succeed on a 15 Intelligence saving throw or become charmed by the professor until the start of the professor's next turn. The charmed creature must immediately use its reaction, if available, to move up its speed toward another creature of the professor's choice and make one melee attack against that other creature.</text>
+            <text>The professor magically influences the mind of up to two creatures it can see within 60 feet of itself. Each target must succeed on a DC 15 Intelligence saving throw or become charmed by the professor until the start of the professor's next turn. The charmed creature must immediately use its reaction, if available, to move up its speed toward another creature of the professor's choice and make one melee attack against that other creature.</text>
             <recharge>D4</recharge>
         </action>
         <reaction>
@@ -1651,7 +1651,7 @@
         </action>
         <action>
             <name>Excavator</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) force damage. If the target is a Huge or smaller creature, it must succeed on a 17 Strength saving throw or be pushed up to 10 feet away and knocked prone.</text>
+            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) force damage. If the target is a Huge or smaller creature, it must succeed on a DC 17 Strength saving throw or be pushed up to 10 feet away and knocked prone.</text>
             <attack>Excavator|9|2d6+6</attack>
         </action>
     </monster>
@@ -1739,7 +1739,7 @@
         </action>
         <action>
             <name>Illuminating Shadow Breath (Recharge 5-6)</name>
-            <text>Shadrix exhales an entwined burst of blinding radiance and unnerving shadow in a 90-foot cone. Each creature in that area must make a 21 Constitution saving throw. On a failed save, a creature takes 31 (7d8) radiant damage and 31 (7d8) psychic damage and is blinded until the start of Shadrix's next turn. On a successful save, a creature takes half as much damage and isn't blinded.</text>
+            <text>Shadrix exhales an entwined burst of blinding radiance and unnerving shadow in a 90-foot cone. Each creature in that area must make a DC 21 Constitution saving throw. On a failed save, a creature takes 31 (7d8) radiant damage and 31 (7d8) psychic damage and is blinded until the start of Shadrix's next turn. On a successful save, a creature takes half as much damage and isn't blinded.</text>
             <attack>Illuminating Shadow Breath||7d8+7d8</attack>
             <recharge>D5</recharge>
         </action>
@@ -1749,7 +1749,7 @@
         </legendary>
         <legendary>
             <name>Shadow Slip (Costs 2 Actions)</name>
-            <text>Shadrix becomes an inky cloud of shadow and can move up to half his flying speed without provoking opportunity attacks, then resumes his true form. During this movement, he can move through creatures and objects as if they were difficult terrain. If he moves through a creature, it must succeed on a 21 Constitution saving throw or become blinded until the end of its next turn. If Shadrix ends this move inside an object, he takes 5 (1d10) force damage and is shunted to the nearest unoccupied space.</text>
+            <text>Shadrix becomes an inky cloud of shadow and can move up to half his flying speed without provoking opportunity attacks, then resumes his true form. During this movement, he can move through creatures and objects as if they were difficult terrain. If he moves through a creature, it must succeed on a DC 21 Constitution saving throw or become blinded until the end of its next turn. If Shadrix ends this move inside an object, he takes 5 (1d10) force damage and is shunted to the nearest unoccupied space.</text>
             <attack>Shadow Slip||1d10</attack>
         </legendary>
         <legendary>
@@ -1884,7 +1884,7 @@
         </action>
         <action>
             <name>Radiant Strike</name>
-            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) radiant damage. If the target is a creature, it must succeed on a 15 Constitution saving throw be blinded until the end of its next turn.</text>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) radiant damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw be blinded until the end of its next turn.</text>
             <attack>Radiant Strike|7|3d8+4</attack>
         </action>
     </monster>
@@ -1932,7 +1932,7 @@
         </action>
         <action>
             <name>Ink Lance</name>
-            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage. If the target is a creature, it must succeed on a 15 Constitution saving throw be blinded until the end of its next turn.</text>
+            <text>Melee or Ranged Spell +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 17 (3d8 + 4) necrotic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw be blinded until the end of its next turn.</text>
             <attack>Ink Lance|7|3d8+4</attack>
         </action>
     </monster>
@@ -1963,7 +1963,7 @@
         <cr>1/4</cr>
         <trait>
             <name>Death Burst</name>
-            <text>When the spirit statue is reduced to 0 hit points, the statue crumbles, and the spirit returns to the afterlife in a burst of ghostly white flame. Each creature within 5 feet of it must succeed on a 12 Constitution saving throw or take 3 (1d6) radiant damage.</text>
+            <text>When the spirit statue is reduced to 0 hit points, the statue crumbles, and the spirit returns to the afterlife in a burst of ghostly white flame. Each creature within 5 feet of it must succeed on a DC 12 Constitution saving throw or take 3 (1d6) radiant damage.</text>
             <attack>Damage||1d6</attack>
         </trait>
         <action>
@@ -2025,7 +2025,7 @@
         </action>
         <action>
             <name>Smile and Wave</name>
-            <text>Each creature of the guide's choice that is within 30 feet of the guide must succeed on a 11 Wisdom saving throw or be magically charmed by the guide for 1 hour.</text>
+            <text>Each creature of the guide's choice that is within 30 feet of the guide must succeed on a DC 11 Wisdom saving throw or be magically charmed by the guide for 1 hour.</text>
             <text>  A charmed target must move on its turn toward the guide, trying to get within 5 feet of the guide. The target doesn't move into obviously dangerous ground, such as a fire or a pit. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
             <text>  A target that successfully saves is immune to any guide's Smile and Wave ability for the next 24 hours.</text>
         </action>
@@ -2083,7 +2083,7 @@
         </action>
         <action>
             <name>Diminution Breath (Recharge 5-6)</name>
-            <text>Tanazir exhales a weakening equation in a 90-foot cone. Each creature in that area must make a 23 Constitution saving throw. On a failed save, a creature takes 45 (13d6) force damage and 45 (13d6) psychic damage and is weakened until the start of Tanazir's next turn. While weakened, it has disadvantage on the following rolls that rely on Strength: attack rolls, ability checks, and saving throws. On a successful save, a creature takes half as much damage and isn't weakened.</text>
+            <text>Tanazir exhales a weakening equation in a 90-foot cone. Each creature in that area must make a DC 23 Constitution saving throw. On a failed save, a creature takes 45 (13d6) force damage and 45 (13d6) psychic damage and is weakened until the start of Tanazir's next turn. While weakened, it has disadvantage on the following rolls that rely on Strength: attack rolls, ability checks, and saving throws. On a successful save, a creature takes half as much damage and isn't weakened.</text>
             <attack>Diminution Breath||13d6+13d6</attack>
             <recharge>D5</recharge>
         </action>
@@ -2097,7 +2097,7 @@
         </legendary>
         <legendary>
             <name>Fold Space (Costs 2 Actions)</name>
-            <text>Tanazir uses Teleport, and each other creature within 20 feet of the space she left must succeed on a 24 Strength saving throw or be pulled up to 30 feet closer to the center of that space and take 16 (3d10) force damage.</text>
+            <text>Tanazir uses Teleport, and each other creature within 20 feet of the space she left must succeed on a DC 24 Strength saving throw or be pulled up to 30 feet closer to the center of that space and take 16 (3d10) force damage.</text>
             <attack>Fold Space||3d10</attack>
         </legendary>
         <legendary>
@@ -2159,7 +2159,7 @@
         </action>
         <action>
             <name>Battle Tide Breath (Recharge 5-6)</name>
-            <text>Velomachus exhales thunderous sound in a 90-foot cone. Each creature in that area must make a 25 Constitution saving throw. On a failure, a creature takes 45 (7d12) force damage and 45 (7d12) thunder damage and is pushed up to 20 feet in a horizontal direction of Velomachus' choice. On a success, the creature takes half as much damage and isn't pushed. Objects that aren't being worn or carried take the damage and are pushed as if they were creatures that failed the saving throw.</text>
+            <text>Velomachus exhales thunderous sound in a 90-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failure, a creature takes 45 (7d12) force damage and 45 (7d12) thunder damage and is pushed up to 20 feet in a horizontal direction of Velomachus' choice. On a success, the creature takes half as much damage and isn't pushed. Objects that aren't being worn or carried take the damage and are pushed as if they were creatures that failed the saving throw.</text>
             <attack>Battle Tide Breath||7d12+7d12</attack>
             <recharge>D5</recharge>
         </action>
@@ -2226,7 +2226,7 @@
         </action>
         <reaction>
             <name>Wither Burst</name>
-            <text>When the apprentice sees a creature within 30 feet of itself drop to 0 hit points, the apprentice channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a 12 Constitution saving throw or become poisoned for 1 minute. While poisoned in this way, the target takes 3 (1d6) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <text>When the apprentice sees a creature within 30 feet of itself drop to 0 hit points, the apprentice channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. While poisoned in this way, the target takes 3 (1d6) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Wither Burst||1d6</attack>
         </reaction>
     </monster>
@@ -2278,7 +2278,7 @@
         </action>
         <reaction>
             <name>Wither Burst</name>
-            <text>When the pledgemage sees a creature within 30 feet of itself drop to 0 hit points, the pledgemage channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a 13 Constitution saving throw or become poisoned for 1 minute. While poisoned in this way, the target takes 3 (1d6) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
+            <text>When the pledgemage sees a creature within 30 feet of itself drop to 0 hit points, the pledgemage channels the expended life essence and targets another creature it can see within 30 feet of itself. The target must succeed on a DC 13 Constitution saving throw or become poisoned for 1 minute. While poisoned in this way, the target takes 3 (1d6) poison damage at the start of each of its turns. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Wither Burst||1d6</attack>
         </reaction>
     </monster>
@@ -2331,7 +2331,7 @@
         </action>
         <action>
             <name>Essence Pulse (Recharge 5-6)</name>
-            <text>The professor creates a life-draining vortex in a 30-foot-radius sphere centered on itself. Each creature of the professor's choice that it can see within that area must make a 15 Constitution saving throw, taking 22 (5d8) necrotic damage on a failed save, or half as much damage on a successful one. The professor then regains 10 hit points. An affected creature's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest. The creature dies if its hit point maximum is reduced to 0.</text>
+            <text>The professor creates a life-draining vortex in a 30-foot-radius sphere centered on itself. Each creature of the professor's choice that it can see within that area must make a DC 15 Constitution saving throw, taking 22 (5d8) necrotic damage on a failed save, or half as much damage on a successful one. The professor then regains 10 hit points. An affected creature's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest. The creature dies if its hit point maximum is reduced to 0.</text>
             <attack>Essence Pulse||5d8</attack>
             <recharge>D5</recharge>
         </action>
@@ -2375,7 +2375,7 @@
         </action>
         <action>
             <name>Verdant Lash</name>
-            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a 15 Strength saving throw or be pulled up to 10 feet closer to the professor.</text>
+            <text>Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 15 Strength saving throw or be pulled up to 10 feet closer to the professor.</text>
             <attack>Verdant Lash|7|2d6+4+2d6</attack>
         </action>
         <action>
@@ -2432,7 +2432,7 @@
         </action>
         <action>
             <name>Blood Boil (Recharge 4-6)</name>
-            <text>Y'demi chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Y'demi's choice that she can see in that area must make a 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
+            <text>Y'demi chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Y'demi's choice that she can see in that area must make a DC 17 Constitution saving throw. On a failed save, a creature takes 38 (7d10) necrotic damage and is incapacitated until the end of its next turn. On a success, a creature takes half as much damage and isn't incapacitated. A creature dies if reduced to 0 hit points by this necrotic damage.</text>
             <attack>Blood Boil||7d10</attack>
             <recharge>D4</recharge>
         </action>

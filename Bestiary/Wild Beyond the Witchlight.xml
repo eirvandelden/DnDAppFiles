@@ -1148,7 +1148,7 @@
 	<cr>13</cr>
 	<trait>
 		<name>Confusing Burble</name>
-		<text>The jabberwock burbles to itself unless it is incapacitated. Any creature that starts its turn within 30 feet of the jabberwock and is able to hear its burbling must make a 18 Charisma saving throw. On a failed saving throw, the creature can't take reactions until the start of its next turn, and it rolls a d4 to determine what it does during its current turn:</text>
+		<text>The jabberwock burbles to itself unless it is incapacitated. Any creature that starts its turn within 30 feet of the jabberwock and is able to hear its burbling must make a DC 18 Charisma saving throw. On a failed saving throw, the creature can't take reactions until the start of its next turn, and it rolls a d4 to determine what it does during its current turn:</text>
 		<text>1-2. The creature does nothing.</text>
 		<text></text>
 		<text>3. The creature does nothing except use all its movement to move in a random direction.</text>
@@ -1185,7 +1185,7 @@
 	</action>
 	<action>
 		<name>Fiery Gaze (Recharge 5-6)</name>
-		<text>Unless it is blinded, the jabberwock emits a 120-foot-long, 5-foot-wide line of fire from its eyes. Each creature in that line must make a 18 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+		<text>Unless it is blinded, the jabberwock emits a 120-foot-long, 5-foot-wide line of fire from its eyes. Each creature in that line must make a DC 18 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one.</text>
 		<attack>Fiery Gaze||7d8</attack>
 		<recharge>D5</recharge>
 	</action>
@@ -1199,7 +1199,7 @@
 	</legendary>
 	<legendary>
 		<name>Wing Attack (3 Actions)</name>
-		<text>The jabberwock beats its wings. Each creature within 10 feet of the jabberwock must succeed on a 18 Dexterity saving throw or take 8 (1d6 + 5) bludgeoning damage and be knocked prone.</text>
+		<text>The jabberwock beats its wings. Each creature within 10 feet of the jabberwock must succeed on a DC 18 Dexterity saving throw or take 8 (1d6 + 5) bludgeoning damage and be knocked prone.</text>
 		<attack>Wing Attack||1d6+5</attack>
 	</legendary>
 </monster>
@@ -1947,7 +1947,7 @@
 		<text>The target takes no action or bonus action and uses all of its movement to move in a random direction.</text>
 		<text></text>
 		<text>5-6</text>
-		<text>The target doesn't move, and the only thing it can do on its turn is make a 11 Wisdom saving throw, ending the effect on itself on a success.</text>
+		<text>The target doesn't move, and the only thing it can do on its turn is make a DC 11 Wisdom saving throw, ending the effect on itself on a success.</text>
 		<recharge>D5</recharge>
 		<attack>Behavior||1d6</attack>
 	</action>

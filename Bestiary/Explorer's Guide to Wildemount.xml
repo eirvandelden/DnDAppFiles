@@ -32,7 +32,7 @@
 		</trait>
 		<trait>
 			<name>Pounce</name>
-			<text>If the absorber moves at least 20 feet straight toward a creature and then hits its claws attack on the same turn, that target must succeed on a 17 Strength saving throw or be knocked prone. If the target is prone, the absorber can make one bite attack against it as a bonus action.</text>
+			<text>If the absorber moves at least 20 feet straight toward a creature and then hits its claws attack on the same turn, that target must succeed on a DC 17 Strength saving throw or be knocked prone. If the target is prone, the absorber can make one bite attack against it as a bonus action.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -55,7 +55,7 @@
 		</action>
 		<reaction>
 			<name>Tail Ray</name>
-			<text>When the absorber takes damage from a spell, the absorber takes only half the triggering damage. If the spellcaster is within 60 feet of the absorber, the absorber can force the caster to make a 16 Dexterity saving throw. Unless the save succeeds, the caster takes the other half of the damage.</text>
+			<text>When the absorber takes damage from a spell, the absorber takes only half the triggering damage. If the spellcaster is within 60 feet of the absorber, the absorber can force the caster to make a DC 16 Dexterity saving throw. Unless the save succeeds, the caster takes the other half of the damage.</text>
 		</reaction>
 	</monster>
 	<monster>
@@ -93,7 +93,7 @@
 		<spells>Counterspell,Detect Magic,Dispel Magic,See Invisibility,Antimagic Field</spells>
 		<trait>
 			<name>Horrid Gnashing</name>
-			<text>The nullifier's mouths gnash incoherently while it can see any enemies. Each creature that starts its turn within 20 feet of the nullifier and can hear it must make a 16 Wisdom saving throw. Unless the save succeeds, the creature rolls a d8 to determine what it does during the current turn:</text>
+			<text>The nullifier's mouths gnash incoherently while it can see any enemies. Each creature that starts its turn within 20 feet of the nullifier and can hear it must make a DC 16 Wisdom saving throw. Unless the save succeeds, the creature rolls a d8 to determine what it does during the current turn:</text>
 			<text>	1-4: The creature is stunned until the end of the turn.</text>
 			<text>	5-6: The creature is frightened until the end of the turn and uses its movement to get as far as possible from the nullifier.</text>
 			<text>	7-8: The creature doesn't move, and it uses its action to make one melee attack against a random creature (other than itself) if one is within reach. It otherwise does nothing.</text>
@@ -219,12 +219,12 @@
 		</action>
 		<action>
 			<name>Chilling Gaze</name>
-			<text>The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a 18 Constitution saving throw against this magic or take 21 (6d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour.</text>
+			<text>The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 18 Constitution saving throw against this magic or take 21 (6d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour.</text>
 			<attack>Chilling Gaze||6d6</attack>
 		</action>
 		<action>
 			<name>Cold Breath (Recharge 6)</name>
-			<text>The yeti exhales a 30-foot cone of frigid air. Each creature in that area must make a 18 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The yeti exhales a 30-foot cone of frigid air. Each creature in that area must make a DC 18 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Cold Breath||10d8</attack>
 			<recharge>D6</recharge>
 		</action>
@@ -277,7 +277,7 @@
 		</action>
 		<action>
 			<name>Chilling Gaze</name>
-			<text>The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a 13 Constitution saving throw against this magic or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.</text>
+			<text>The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 13 Constitution saving throw against this magic or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.</text>
 			<attack>Chilling Gaze||3d6</attack>
 		</action>
 	</monster>
@@ -408,7 +408,7 @@
 		<spells>Hex</spells>
 		<trait>
 			<name>Blood Curse of Binding (1/Day)</name>
-			<text>As a bonus action, the blood hunter targets one creature it can see within 30 feet of it. The target must succeed on a 14 Strength saving throw or have its speed reduced to 0 and be unable to take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>As a bonus action, the blood hunter targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Strength saving throw or have its speed reduced to 0 and be unable to take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<recharge>1/DAY</recharge>
 		</trait>
 		<trait>
@@ -586,7 +586,7 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage and the target must succeed on a 11 Wisdom saving throw or become frightened until the start of the crawler's next turn.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage and the target must succeed on a DC 11 Wisdom saving throw or become frightened until the start of the crawler's next turn.</text>
 			<attack>Bite|4|1d4+2</attack>
 		</action>
 		<action>
@@ -640,12 +640,12 @@
 		</action>
 		<action>
 			<name>Alluring Thrum (Recharges 5-6)</name>
-			<text>The emissary emits a dreadful yet alluring hum. Each creature within 20 feet of the emissary that can hear it and that isn't an aberration must succeed on a 14 Constitution saving throw or be charmed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>The emissary emits a dreadful yet alluring hum. Each creature within 20 feet of the emissary that can hear it and that isn't an aberration must succeed on a DC 14 Constitution saving throw or be charmed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Crystal Spores (Recharge 6)</name>
-			<text>A 15-foot-radius cloud of toxic crystalline spores extends out from the emissary. The spores spread around corners. Each creature in the area must succeed on a 14 Constitution saving throw or become poisoned. While poisoned in this way, a creature takes 11 (2d10) poison damage at the start of each of its turns. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>A 15-foot-radius cloud of toxic crystalline spores extends out from the emissary. The spores spread around corners. Each creature in the area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a creature takes 11 (2d10) poison damage at the start of each of its turns. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Crystal Spores||2d10</attack>
 			<recharge>D6</recharge>
 		</action>
@@ -694,7 +694,7 @@
 		</action>
 		<action>
 			<name>Psychedelic Orb</name>
-			<text>The seer hurls a glimmering orb at one creature it can see within 120 of it. The target must succeed on a 19 Wisdom saving throw or take 27 (5d10) psychic damage and suffer a random condition until the start of the seer's next turn. Roll a d6 for the condition: (1-2) blinded, (3-4) frightened, or (5-6) stunned.</text>
+			<text>The seer hurls a glimmering orb at one creature it can see within 120 of it. The target must succeed on a DC 19 Wisdom saving throw or take 27 (5d10) psychic damage and suffer a random condition until the start of the seer's next turn. Roll a d6 for the condition: (1-2) blinded, (3-4) frightened, or (5-6) stunned.</text>
 			<attack>Psychedelic Orb||5d10</attack>
 			<attack>Condition||1d6</attack>
 		</action>
@@ -752,8 +752,8 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 30 (5d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a 18 Dexterity saving throw or be swallowed by the worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 21 (6d6) fire damage at the start of each of the worm's turns.</text>
-			<text>	If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
+			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 30 (5d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 21 (6d6) fire damage at the start of each of the worm's turns.</text>
+			<text>	If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
 			<attack>Bite|13|5d8+8+6d6</attack>
 		</action>
 	</monster>
@@ -848,7 +848,7 @@
 		</action>
 		<action>
 			<name>Life Drain</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) necrotic damage. The target must succeed on a 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
 			<text>	A humanoid slain by this attack rises 24 hours later as a zombie under Ferol's control, unless the humanoid is restored to life or its body is destroyed. Ferol can have no more than twelve zombies under its control at one time.</text>
 			<attack>Life Drain|4|1d6+2</attack>
 		</action>
@@ -891,7 +891,7 @@
 		<cr>9</cr>
 		<trait>
 			<name>Numbing Aura</name>
-			<text>Any creature that starts its turn within 10 feet of the zombie must make a 17 Constitution saving throw. Unless the save succeeds, the creature can't make more than one attack, or take a bonus action on that turn.</text>
+			<text>Any creature that starts its turn within 10 feet of the zombie must make a DC 17 Constitution saving throw. Unless the save succeeds, the creature can't make more than one attack, or take a bonus action on that turn.</text>
 		</trait>
 		<trait>
 			<name>Undead Fortitude</name>
@@ -913,7 +913,7 @@
 		</action>
 		<action>
 			<name>Freezing Stare</name>
-			<text>The zombie targets one creature it can see within 60 feet of it. The target must succeed on a 17 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn.</text>
+			<text>The zombie targets one creature it can see within 60 feet of it. The target must succeed on a DC 17 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn.</text>
 			<attack>Freezing Stare||10d6</attack>
 		</action>
 	</monster>
@@ -949,7 +949,7 @@
 		</trait>
 		<trait>
 			<name>Death Burst</name>
-			<text>When the worm dies, it explodes in a burst of frigid energy. Each creature within 60 feet of it must make a 20 Dexterity saving throw, taking 28 (8d6) cold damage on a failed save, or half as much damage on a successful one. Creatures inside the worm when it dies automatically fail this saving throw.</text>
+			<text>When the worm dies, it explodes in a burst of frigid energy. Each creature within 60 feet of it must make a DC 20 Dexterity saving throw, taking 28 (8d6) cold damage on a failed save, or half as much damage on a successful one. Creatures inside the worm when it dies automatically fail this saving throw.</text>
 			<attack>Death Burst||8d6</attack>
 		</trait>
 		<trait>
@@ -962,14 +962,14 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) piercing damage plus 10 (3d6) cold damage. If the target is a Large or smaller creature, it must succeed on a 20 Dexterity saving throw or be swallowed by the worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 10 (3d6) acid damage and 10 (3d6) cold damage at the start of each of the worm's turns.</text>
-			<text>	If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the worm.</text>
+			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) piercing damage plus 10 (3d6) cold damage. If the target is a Large or smaller creature, it must succeed on a DC 20 Dexterity saving throw or be swallowed by the worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 10 (3d6) acid damage and 10 (3d6) cold damage at the start of each of the worm's turns.</text>
+			<text>	If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the worm.</text>
 			<attack>Bite|15|3d8+9+3d6</attack>
 			<attack>Swallowed||3d6+3d6</attack>
 		</action>
 		<action>
 			<name>Trill</name>
-			<text>The frost worm emits a haunting cry. Each creature within 60 feet of the worm that can hear it must succeed on a 20 Wisdom saving throw or be stunned for 1 minute. A creature can repeat the saving throw each time it takes damage and at the end of each of its turns, ending the effect on itself on a success. Once a creature successfully saves against this effect, or if this effect ends for it, that creature is immune to the Trill of all frost worms for the next 24 hours. Frost worms are immune to this effect.</text>
+			<text>The frost worm emits a haunting cry. Each creature within 60 feet of the worm that can hear it must succeed on a DC 20 Wisdom saving throw or be stunned for 1 minute. A creature can repeat the saving throw each time it takes damage and at the end of each of its turns, ending the effect on itself on a success. Once a creature successfully saves against this effect, or if this effect ends for it, that creature is immune to the Trill of all frost worms for the next 24 hours. Frost worms are immune to this effect.</text>
 		</action>
 	</monster>
 	<monster>
@@ -1026,7 +1026,7 @@
 		</action>
 		<action>
 			<name>Shrapnel Blast (Recharge 6)</name>
-			<text>The gearkeeper jettisons a spray of jagged metal in a 30-foot cone. Each creature in the area must make a 15 Dexterity saving throw, taking 21 (6d6) piercing damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The gearkeeper jettisons a spray of jagged metal in a 30-foot cone. Each creature in the area must make a DC 15 Dexterity saving throw, taking 21 (6d6) piercing damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Shrapnel Blast||6d6</attack>
 			<recharge>D6</recharge>
 		</action>
@@ -1085,7 +1085,7 @@
 		</action>
 		<action>
 			<name>Shriek (Recharge 6)</name>
-			<text>The gloomstalker emits a terrible shriek. Each enemy within 60 feet of the gloomstalker that can hear it must succeed on a 13 Constitution saving throw or be paralyzed until the end of the enemy's next turn.</text>
+			<text>The gloomstalker emits a terrible shriek. Each enemy within 60 feet of the gloomstalker that can hear it must succeed on a DC 13 Constitution saving throw or be paralyzed until the end of the enemy's next turn.</text>
 			<recharge>D6</recharge>
 		</action>
 	</monster>
@@ -1128,7 +1128,7 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (1d10 + 6) piercing damage. If the target is a creature, it must succeed on a 16 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (1d10 + 6) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.</text>
 			<attack>Bite|8|1d10+6</attack>
 		</action>
 		<action>
@@ -1326,7 +1326,7 @@
 		</action>
 		<action>
 			<name>Hand Crossbow</name>
-			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</text>
+			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.</text>
 			<attack>Hand Crossbow|4|1d6+2</attack>
 		</action>
 	</monster>
@@ -1393,13 +1393,13 @@
 		</action>
 		<action>
 			<name>Frightful Presence</name>
-			<text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+			<text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
 		</action>
 		<action>
 			<name>Breath Weapons (Recharge 5-6)</name>
 			<text>The dragon uses one of the following breath weapons.</text>
-			<text>• Necrotic Breath. The dragon exhales an icy blast in a 90-foot cone. Each creature in that area must make a 24 Constitution saving throw, taking 67 (15d8) necrotic damage on a failed save, or half as much damage on a successful one.</text>
-			<text>• Paralyzing Breath. The dragon exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a 24 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>• Necrotic Breath. The dragon exhales an icy blast in a 90-foot cone. Each creature in that area must make a DC 24 Constitution saving throw, taking 67 (15d8) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<text>• Paralyzing Breath. The dragon exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a DC 24 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Necrotic Breath||15d8</attack>
 			<recharge>D5</recharge>
 		</action>
@@ -1418,7 +1418,7 @@
 		</legendary>
 		<legendary>
 			<name>Wing Attack (Costs 2 Actions)</name>
-			<text>The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+			<text>The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
 			<attack>Wing Attack||2d6+10</attack>
 		</legendary>
 	</monster>
@@ -1449,7 +1449,7 @@
 		<cr>1/8</cr>
 		<trait>
 			<name>Messy End</name>
-			<text>The kobold explodes 3 rounds after it dies, or immediately if it was killed by a critical hit. The explosion destroys the kobold's body, leaving its equipment behind. Each creature within 5 feet of the exploding kobold must make a 10 Dexterity saving throw, taking 4 (1d8) bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The kobold explodes 3 rounds after it dies, or immediately if it was killed by a critical hit. The explosion destroys the kobold's body, leaving its equipment behind. Each creature within 5 feet of the exploding kobold must make a DC 10 Dexterity saving throw, taking 4 (1d8) bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Damage||1d8</attack>
 		</trait>
 		<trait>
@@ -1518,7 +1518,7 @@
 		</action>
 		<action>
 			<name>Lightning Bolt (3rd-Level Spell; Requires a Spell Slot)</name>
-			<text>The merrow unleashes a stroke of lightning in a line 100 feet long and 5 feet wide. Each creature in the line must make a 13 Dexterity saving throw, taking 28 (8d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The merrow unleashes a stroke of lightning in a line 100 feet long and 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 28 (8d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Lightning Bolt||8d6</attack>
 		</action>
 	</monster>
@@ -1644,7 +1644,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) piercing damage, and the target must succeed on a 15 Constitution saving throw or become poisoned for 1 minute. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 15 Constitution saving throw or become poisoned for 1 minute. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Bite|6|2d8+4</attack>
 		</action>
 		<action>
@@ -1654,7 +1654,7 @@
 		</action>
 		<action>
 			<name>Siphon Life (Recharge 4-6)</name>
-			<text>The nergaliid magically draws the life from a humanoid it can see within 40 feet of it. The target must make a 15 Wisdom saving throw. An incapacitated target fails the save automatically. On a failed save, the creature takes 10 (3d6) psychic damage, and the nergaliid gains temporary hit points equal to the damage taken. On a successful save, the target takes half as much damage, and the nergaliid doesn't gain temporary hit points. If this damage kills the target, its body rises at the end of the nergaliid's current turn as a husk zombie (see earlier in this chapter).</text>
+			<text>The nergaliid magically draws the life from a humanoid it can see within 40 feet of it. The target must make a DC 15 Wisdom saving throw. An incapacitated target fails the save automatically. On a failed save, the creature takes 10 (3d6) psychic damage, and the nergaliid gains temporary hit points equal to the damage taken. On a successful save, the target takes half as much damage, and the nergaliid doesn't gain temporary hit points. If this damage kills the target, its body rises at the end of the nergaliid's current turn as a husk zombie (see earlier in this chapter).</text>
 			<attack>Siphon Life||3d6</attack>
 			<recharge>D4</recharge>
 		</action>
@@ -1795,11 +1795,11 @@
 		</action>
 		<action>
 			<name>Frightful Presence</name>
-			<text>Each creature of the dracolich's choice that is within 120 feet of the dracolich and aware of it must succeed on a 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dracolich's Frightful Presence for the next 24 hours.</text>
+			<text>Each creature of the dracolich's choice that is within 120 feet of the dracolich and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dracolich's Frightful Presence for the next 24 hours.</text>
 		</action>
 		<action>
 			<name>Acid Breath (Recharge 5-6)</name>
-			<text>The dracolich exhales acid in a 90-foot line that is 10 feet wide. Each creature in that line must make a 22 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The dracolich exhales acid in a 90-foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Acid Breath||15d8</attack>
 			<recharge>D5</recharge>
 		</action>
@@ -1813,7 +1813,7 @@
 		</legendary>
 		<legendary>
 			<name>Wing Attack (Costs 2 Actions)</name>
-			<text>The dracolich beats its wings. Each creature within 15 feet of the dracolich must succeed on a 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dracolich can then fly up to half its flying speed.</text>
+			<text>The dracolich beats its wings. Each creature within 15 feet of the dracolich must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dracolich can then fly up to half its flying speed.</text>
 			<attack>Wing Attack||2d6+8</attack>
 		</legendary>
 	</monster>
@@ -1965,7 +1965,7 @@
 		</action>
 		<action>
 			<name>Sword of Fathoms</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) slashing damage, and if the target is a creature, it must succeed on a 13 Constitution saving throw or begin choking. The choking creature is incapacitated until the end of its next turn, when the effect ends on it.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) slashing damage, and if the target is a creature, it must succeed on a DC 13 Constitution saving throw or begin choking. The choking creature is incapacitated until the end of its next turn, when the effect ends on it.</text>
 			<attack>Sword of Fathoms|4|1d10+2</attack>
 		</action>
 		<action>
@@ -2031,7 +2031,7 @@
 		</action>
 		<action>
 			<name>Death Glare</name>
-			<text>The sea fury targets one frightened creature it can see within 30 feet of it. The target must succeed on a 16 Wisdom saving throw or drop to 0 hit points.</text>
+			<text>The sea fury targets one frightened creature it can see within 30 feet of it. The target must succeed on a DC 16 Wisdom saving throw or drop to 0 hit points.</text>
 		</action>
 		<legendary>
 			<name>As Water</name>
@@ -2039,7 +2039,7 @@
 		</legendary>
 		<legendary>
 			<name>Fearsome Apparition (Costs 2 Actions)</name>
-			<text>The sea fury conjures an apparition of one of its dead sisters, which appears in an unoccupied space the sea fury can see within 30 feet of it. Enemies of the sea fury that can see the apparition must succeed on a 16 Wisdom saving throw or be frightened of it until it vanishes at the end of the sea fury's next turn.</text>
+			<text>The sea fury conjures an apparition of one of its dead sisters, which appears in an unoccupied space the sea fury can see within 30 feet of it. Enemies of the sea fury that can see the apparition must succeed on a DC 16 Wisdom saving throw or be frightened of it until it vanishes at the end of the sea fury's next turn.</text>
 		</legendary>
 		<legendary>
 			<name>Conjure Snakes (Costs 3 Actions)</name>
@@ -2073,7 +2073,7 @@
 		<cr>5</cr>
 		<trait>
 			<name>Stench</name>
-			<text>Any creature that starts its turn within 5 feet of the shadowghast must succeed on a 12 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to this Stench for 24 hours.</text>
+			<text>Any creature that starts its turn within 5 feet of the shadowghast must succeed on a DC 12 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to this Stench for 24 hours.</text>
 		</trait>
 		<trait>
 			<name>Shadow Stealth</name>
@@ -2090,7 +2090,7 @@
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. If the target is a creature other than an undead, it must succeed on a 12 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 12 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Claws|8|2d6+5</attack>
 		</action>
 	</monster>
@@ -2275,7 +2275,7 @@
 		</trait>
 		<action>
 			<name>Bites</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer. The target must make a 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer. The target must make a DC 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Bites|6|2d6+4d6</attack>
 			<attack>Bites (under half hp)|6|1d6+4d6</attack>
 		</action>
@@ -2311,7 +2311,7 @@
 		</trait>
 		<trait>
 			<name>Petrifying Secretions</name>
-			<text>A creature must make a 13 Constitution saving throw if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn grappled by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone and is restrained, and it must repeat the saving throw at the end of its next turn. On a successful save, the effect ends. On a failure, the creature is petrified.</text>
+			<text>A creature must make a DC 13 Constitution saving throw if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn grappled by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone and is restrained, and it must repeat the saving throw at the end of its next turn. On a successful save, the effect ends. On a failure, the creature is petrified.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2408,7 +2408,7 @@
 		<cr>16</cr>
 		<trait>
 			<name>Charge</name>
-			<text>If the udaak moves at least 20 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 27 (6d8) bludgeoning damage. If the target is a creature, it must succeed on a 21 Strength saving throw or be pushed up to 20 feet away from the udaak and knocked prone.</text>
+			<text>If the udaak moves at least 20 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 27 (6d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be pushed up to 20 feet away from the udaak and knocked prone.</text>
 			<attack>Charge||6d8</attack>
 		</trait>
 		<trait>
@@ -2432,7 +2432,7 @@
 		<action>
 			<name>Swallow</name>
 			<text>The udaak makes one bite attack against a Large or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the udaak, and it takes 21 (6d6) acid damage at the start of each of the udaak's turns.</text>
-			<text>	If the udaak takes 30 damage or more on a single turn from a creature inside it, the udaak must succeed on a 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the udaak. If the udaak dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
+			<text>	If the udaak takes 30 damage or more on a single turn from a creature inside it, the udaak must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the udaak. If the udaak dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
 			<attack>Swallow||6d6</attack>
 		</action>
 	</monster>

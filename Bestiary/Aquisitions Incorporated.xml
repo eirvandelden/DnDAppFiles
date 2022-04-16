@@ -1236,7 +1236,7 @@
 		</action>
 		<action>
 			<name>Shadow Caw</name>
-			<text>The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a 17 Constitution saving throw. On a failure, a creature takes 10 (3d6) psychic damage.</text>
+			<text>The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a DC 17 Constitution saving throw. On a failure, a creature takes 10 (3d6) psychic damage.</text>
 			<attack>Shadow Caw||3d6</attack>
 		</action>
 		<legendary>
@@ -1249,7 +1249,7 @@
 		</legendary>
 		<legendary>
 			<name>Wing Attack (Costs 2 Actions)</name>
-			<text>The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The ancient deep crow can then fly up to half its flying speed.</text>
+			<text>The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The ancient deep crow can then fly up to half its flying speed.</text>
 			<attack>Wing Attack||2d6+6</attack>
 		</legendary>
 	</monster>
@@ -1343,7 +1343,7 @@
 		</trait>
 		<trait>
 			<name>Taunt (2/Day)</name>
-			<text>Brahma can use a bonus action to target one creature she can see within 30 feet of her. If the target can hear Brahma, it must succeed on a 13 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Brahma's next turn.</text>
+			<text>Brahma can use a bonus action to target one creature she can see within 30 feet of her. If the target can hear Brahma, it must succeed on a DC 13 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Brahma's next turn.</text>
 			<recharge>2/Day</recharge>
 		</trait>
 		<action>
@@ -1353,7 +1353,7 @@
 		</action>
 		<action>
 			<name>Song of Domination (3/Day)</name>
-			<text>Brahma targets one creature that can see or hear her, which must succeed on a 13 Wisdom saving throw or be charmed by her for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success. It has disadvantage on these saves if being charmed by Brahma is something the target openly or secretly desires. For 1 hour after the charm effect ends, the target has disadvantage on Intelligence, Wisdom, or Charisma checks made as part of a contest with Brahma.</text>
+			<text>Brahma targets one creature that can see or hear her, which must succeed on a DC 13 Wisdom saving throw or be charmed by her for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success. It has disadvantage on these saves if being charmed by Brahma is something the target openly or secretly desires. For 1 hour after the charm effect ends, the target has disadvantage on Intelligence, Wisdom, or Charisma checks made as part of a contest with Brahma.</text>
 			<recharge>3/Day</recharge>
 		</action>
 	</monster>
@@ -1397,7 +1397,7 @@
 		</action>
 		<action>
 			<name>Chaos Cloud (Recharges after a Short or Long Rest)</name>
-			<text>The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a 14 Charisma saving throw or be stunned until the end of its next turn.</text>
+			<text>The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a DC 14 Charisma saving throw or be stunned until the end of its next turn.</text>
 			<recharge>Short</recharge>
 		</action>
 	</monster>
@@ -1437,7 +1437,7 @@
 		</action>
 		<action>
 			<name>Fire Breath (Recharge 5)</name>
-			<text>The clockwork dragon exhales fire in a 15-foot cone. Each creature in that area must make a 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The clockwork dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Fire Breath||4d6</attack>
 			<recharge>D5</recharge>
 		</action>
@@ -1530,7 +1530,7 @@
 		<spells>Command,Compelled Duel,Cure Wounds,Wrathful Smite,Aid,Branding Smite,Lesser Restoration,Warding Bond,Zone of Truth</spells>
 		<trait>
 			<name>Champion Challenge (Recharges after a Short or Long Rest)</name>
-			<text>As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a 13 Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is incapacitated or dies, or if the creature is moved more than 30 feet away from him.</text>
+			<text>As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a DC 13 Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is incapacitated or dies, or if the creature is moved more than 30 feet away from him.</text>
 			<recharge>Short</recharge>
 		</trait>
 		<action>
@@ -1549,7 +1549,7 @@
 		</action>
 		<action>
 			<name>Acid Vomit</name>
-			<text>Donaar regurgitates acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Donaar regurgitates acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Acid Vomit||2d6</attack>
 		</action>
 	</monster>
@@ -1748,12 +1748,12 @@
 		</action>
 		<action>
 			<name>Beer Shower</name>
-			<text>The keg robot spews an unnaturally potent beer in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must succeed on a 13 Constitution saving throw or be poisoned. While poisoned in this way, a creature has its speed halved by exposure to the potent brew. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>The keg robot spews an unnaturally potent beer in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must succeed on a DC 13 Constitution saving throw or be poisoned. While poisoned in this way, a creature has its speed halved by exposure to the potent brew. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<text>	Additionally, the beer shower extinguishes any fires or open flames in its area.</text>
 		</action>
 		<action>
 			<name>Hot Oil Spray (Recharge 5)</name>
-			<text>The keg robot sprays hot oil in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must make a 13 Dexterity saving throw. On a failed save, a creature takes 7 (1d8 + 3) fire damage and falls prone. On a successful save, a creature takes half as much damage and doesn't fall prone.</text>
+			<text>The keg robot sprays hot oil in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 7 (1d8 + 3) fire damage and falls prone. On a successful save, a creature takes half as much damage and doesn't fall prone.</text>
 			<text>	Any creature affected by the hot oil spray that takes fire damage before the oil dries (after 1 minute) takes an additional 3 (1d6) fire damage, and the oil burns away.</text>
 			<text>	If the oil that remains in the area of the spray is lit, it burns for 1d4 rounds and deals 3 (1d6) fire damage to any creature that enters the area for the first time on a turn or ends its turn there.</text>
 			<attack>Hot Oil Spray||1d8+3</attack>
@@ -2019,7 +2019,7 @@
 		<spells>Guidance,Light,Mending,Sacred Flame,Bane,Cure Wounds,Guiding Bolt,Hold Person,Spiritual Weapon</spells>
 		<trait>
 			<name>Divine Display (1/Day)</name>
-			<text>As a bonus action, Phoenix causes his shield to flare with divine light. Each creature of his choice within 30 feet of him must succeed on a 13 Wisdom saving throw or be blinded for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself with a success.</text>
+			<text>As a bonus action, Phoenix causes his shield to flare with divine light. Each creature of his choice within 30 feet of him must succeed on a DC 13 Wisdom saving throw or be blinded for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself with a success.</text>
 			<recharge>1/Day</recharge>
 		</trait>
 		<action>
@@ -2028,7 +2028,7 @@
 		</action>
 		<action>
 			<name>Warhammer</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target must succeed on a 12 Strength saving throw or be pushed 5 feet.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or be pushed 5 feet.</text>
 			<attack>Warhammer|4|1d8+2</attack>
 		</action>
 	</monster>
@@ -2245,7 +2245,7 @@
 		</action>
 		<action>
 			<name>Word From Beyond (1/Day)</name>
-			<text>Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a 12 Wisdom saving throw or be stunned until the end of its next turn.</text>
+			<text>Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a DC 12 Wisdom saving throw or be stunned until the end of its next turn.</text>
 			<recharge>1/Day</recharge>
 		</action>
 		<reaction>
