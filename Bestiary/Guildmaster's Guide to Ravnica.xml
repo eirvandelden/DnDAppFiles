@@ -1085,7 +1085,7 @@
 		</action>
 	</monster>
 	<monster>
-		<name>Blisercoil Weird</name>
+		<name>Blistercoil Weird</name>
 		<size>M</size>
 		<type>elemental</type>
 		<description>Source: Guildmaster's Guide to Ravnica</description>
@@ -1131,7 +1131,7 @@
 		</trait>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 11 (2d8 + 3) bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 12 (2d8 + 3) bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger.</text>
 			<attack>Slam|5|1d8+3+2d6</attack>
 			<attack>Slam (Large+)|5|2d8+3+4d6</attack>
 		</action>
@@ -1173,13 +1173,14 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 10 (3d6) fire damage.</text>
-			<attack>Slam|7|2d8+3+3d6</attack>
+			<attack>Slam|7|2d8+4+3d6</attack>
 		</action>
 		<action>
 			<name>Arc Lightning</name>
-			<text>Melee Weapon Attack: +5 to hit, reach  ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 11 (2d8 + 3) bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger.</text>
-			<attack>Arc Lightning|7|1d8+2d6</attack>
-			<attack>Arc Lightning(Large+)|7|2d8+4d6</attack>
+			<text>Ranged Spell Attack: +7 to hit, range 30 ft., one target. Hit: 16 (3d10) lightning damage, and lightning jumps from the target to one creature of the fluxcharger's choice that it can see within 30 feet of the target. That second creature must succeed on a DC 15 Dexterity saving throw or take 13 (3d8) lightning damage. Hit or Miss: The fluxcharger takes 5 (1d10) force damage after resolving the attack.</text>
+			<attack>Arc Lightning|7|3d10</attack>
+			<attack>Arc Lightning(2nd creature)||3d8</attack>
+			<attack>Force Damage||1d10</attack>
 		</action>
 	</monster>
 	<monster>

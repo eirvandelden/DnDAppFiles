@@ -530,7 +530,7 @@
         <description>Source: Mythic Odysseys of Theros</description>
         <alignment>chaotic evil</alignment>
         <ac>14 (natural armor)</ac>
-        <hp>38 (9d10 + 27)</hp>
+        <hp>38</hp>
         <speed>40 ft.</speed>
         <str>18</str>
         <dex>11</dex>
@@ -1014,7 +1014,7 @@
         </action>
         <action>
             <name>Ghostblade</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 3) slashing damage plus 11 (2d10) force damage.</text>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage plus 11 (2d10) force damage.</text>
             <attack>Ghostblade|6|1d8+3+2d10</attack>
         </action>
     </monster>
@@ -2028,7 +2028,7 @@
         </action>
         <action>
             <name>Underworld Bolt</name>
-            <text>Ranged Spell Attack: +4 to hit, range 120 ft., one creature. Hit: 13 (2d8 + 2) necrotic damage, and the target can't regain hit points until the start of the Returned's next turn. If the target is missing any of its hit points, it instead takes 17 (2d12 + 2) necrotic damage.</text>
+            <text>Ranged Spell Attack: +4 to hit, range 120 ft., one creature. Hit: 11 (2d8 + 2) necrotic damage, and the target can't regain hit points until the start of the Returned's next turn. If the target is missing any of its hit points, it instead takes 15 (2d12 + 2) necrotic damage.</text>
             <attack>Underworld Bolt|4|2d8+2</attack>
             <attack>Underworld Bolt (damaged)|4|2d12+2</attack>
         </action>
