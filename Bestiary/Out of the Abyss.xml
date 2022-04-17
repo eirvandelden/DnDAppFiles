@@ -1182,7 +1182,7 @@
 			<text>The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.</text>
 			<recharge>Long</recharge>
 		</action>
-		<spells>Acid Splash, Light, Mage Hand, Poison Spray, Prestidigitation, False Life, Mage Armor, Ray of Sickness, Shield, Crown of Madness, Misty Step, Gaseous Form, Stinking Cloud, Blight, Confusion, Cloudkill</spells>
+		<spells>Nondetection, Blindness/Deafness, Blur, Disguise Self, Acid Splash, Light, Mage Hand, Poison Spray, Prestidigitation, False Life, Mage Armor, Ray of Sickness, Shield, Crown of Madness, Misty Step, Gaseous Form, Stinking Cloud, Blight, Confusion, Cloudkill</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
@@ -1816,6 +1816,7 @@
 			<text>2. The target must succeed on a DC 17 Constitution saving throw or be paralyzed until the start of Yeenoghu's next turn.</text>
 			<text>3. The target must succeed on a DC 17 Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn.</text>
 			<attack>Bludgeoning Damage||2d12</attack>
+			<attack>Effect||1d3</attack>
 		</action>
 		<action>
 			<name>Flail</name>
