@@ -368,6 +368,14 @@
 			<text>5/day each: dispel magic</text>
 			<text>1/day: commune (5 questions), wall of force</text>
 		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Commune (5 questions), Wall of Force</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Aid, Blur, Detect Magic, Dimension Door, Dispel Magic, Commune, Wall of Force</spells>
 		<action>
@@ -556,6 +564,38 @@
 			<text>1/day each: blight, commune with nature, contagion, flesh to stone, plant growth</text>
 			<attack>Spell Attack|11|</attack>
 		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Reincarnate</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Commune with Nature</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Flesh to Stone</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Create Water, Speak with Animals, Stoneshape, Control Weather, Dispel Magic, Reincarnate, Blight, Commune with Nature, Contagion, Flesh to Stone, Plant Growth</spells>
 		<trait>
@@ -722,6 +762,14 @@
 			<text>3/day: cure wounds, scorching ray (5 rays)</text>
 			<text>1/day: bless, daylight, detect evil and good, enhance ability, hallow, protection from evil and good</text>
 			<attack>Spell Attack|6|</attack>
+		</trait>
+		<trait>
+			<name>Cure Wounds, Scorching Ray (5 rays)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Bless, Daylight, Detect Evil and Good, Enhance Ability, Hallow, Protection from Evil and Good</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Guidance, Light, Purify Food and Drink, Spare the Dying, Cure Wounds, Scorching Ray, Bless, Daylight, Detect Evil and Good, Enhance Ability, Hallow, Protection from Evil and Good</spells>
@@ -1033,6 +1081,14 @@
 			<text>3/day: charm person, faerie fire, mage armor</text>
 			<text>1/day: spike growth</text>
 		</trait>
+		<trait>
+			<name>Charm Person, Faerie Fire, Mage Armor</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Spike Growth</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dancing Lights, Detect Magic, Invisibility, Charm Person, Faerie Fire, Mage Armor, Spike Growth</spells>
 		<action>
@@ -1173,6 +1229,38 @@
 			<text>3/day each: ethereal jaunt, phantom steed (appears as a horse colored appropriately to the horseman), plane shift (self and steed only)</text>
 			<attack>Spell Attack|8|</attack>
 		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fire Shield</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Slow</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Ethereal Jaunt</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Phantom Steed (appears as a horse colored appropriately to the horseman)</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Plane Shift (self and steed only)</text>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Ray of Frost, Dimension Door, Fire Shield, Haste, Slow, Darkness, Ethereal Jaunt, Phantom Steed, Plane Shift</spells>
 		<trait>
@@ -1242,6 +1330,38 @@
 			<text>3/day each: ethereal jaunt, phantom steed (appears as a horse colored appropriately to the horseman), plane shift (self and steed only)</text>
 			<attack>Spell Attack|8|</attack>
 		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fire Shield</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Slow</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Daylight</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Ethereal Jaunt</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Phantom Steed (appears as a horse colored appropriately to the horseman)</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Plane Shift (self and steed only)</text>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Sacred Flame, Dimension Door, Fire Shield, Haste, Slow, Daylight, Ethereal Jaunt, Phantom Steed, Plane Shift</spells>
 		<trait>
@@ -1309,6 +1429,42 @@
 			<text>2/day each: continual flame, scorching ray</text>
 			<text>3/day each: ethereal jaunt, phantom steed (appears as a horse colored appropriately to the horseman), plane shift (self and steed only)</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fire Shield</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Slow</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Continual Flame</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Ethereal Jaunt</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Phantom Steed (appears as a horse colored appropriately to the horseman)</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Plane Shift (self and steed only)</text>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dimension Door, Fire Shield, Haste, Slow, Continual Flame, Scorching Ray, Ethereal Jaunt, Phantom Steed, Plane Shift</spells>
@@ -1417,6 +1573,18 @@
 			<text>3/day each: charm person, cure wounds</text>
 			<text>1/day: enhance ability (only Cat's Grace)</text>
 			<attack>Spell Attack|6|</attack>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cure Wounds</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Enhance Ability (only Cat's Grace)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Guidance, Charm Person, Cure Wounds, Enhance Ability</spells>
@@ -1582,6 +1750,10 @@
 			<text>3/day: chill touch</text>
 			<attack>Spell Attack|4|</attack>
 		</trait>
+		<trait>
+			<name>Chill Touch</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Invisibility, Chill Touch</spells>
 		<action>
@@ -1708,6 +1880,14 @@
 			<text>3/day: control water, create or destroy water, fog cloud, invisibility, see invisibility, water breathing</text>
 			<text>1/day: wall of ice</text>
 		</trait>
+		<trait>
+			<name>Control Water, Create or Destroy Water, Fog Cloud, Invisibility, See Invisibility, Water Breathing</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Ice</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Detect Magic, Water Walk, Control Water, Create or Destroy Water, Fog Cloud, Invisibility, See Invisibility, Water Breathing, Wall of Ice</spells>
 		<trait>
@@ -1761,6 +1941,10 @@
 			<text>At will: chill touch</text>
 			<text>3/day: animate dead (up to 5 skeletons or zombies)</text>
 			<attack>Spell Attack|6|</attack>
+		</trait>
+		<trait>
+			<name>Animate Dead (up to 5 skeletons or zombies)</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Chill Touch, Animate Dead</spells>
@@ -1938,6 +2122,58 @@
 			<text>3/day each: call lightning, control weather, cure wounds, dispel magic, ice storm, lesser restoration</text>
 			<text>1/day each: chain lightning, earthquake, finger of death, heal, shapechange, wall of ice, word of recall</text>
 		</trait>
+		<trait>
+			<name>Call Lightning</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cure Wounds</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lesser Restoration</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Chain Lightning</name>
+			<recharge>1/day each</recharge>
+		</trait>
+		<trait>
+			<name>Earthquake</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Shapechange</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Ice</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Word of Recall</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Create Water, Detect Magic, Guidance, Invisibility, Polymorph, Speak with Animals, True Seeing, Wind Wall, Call Lightning, Control Weather, Cure Wounds, Dispel Magic, Ice Storm, Lesser Restoration, Chain Lightning, Earthquake, Finger of Death, Heal, Shapechange, Wall of Ice, Word of Recall</spells>
 		<trait>
@@ -2024,6 +2260,14 @@
 			<text>3/day: darkness, expeditious retreat</text>
 			<text>1/day: contagion</text>
 			<attack>Spell Attack|5|</attack>
+		</trait>
+		<trait>
+			<name>Darkness, Expeditious Retreat</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Evil and Good, Detect Magic, Thaumaturgy, Darkness, Expeditious Retreat, Contagion</spells>
@@ -2126,6 +2370,10 @@
 			<text>At will: invisibility</text>
 			<text>3/day each: darkness, ensnaring strike, locate object</text>
 		</trait>
+		<trait>
+			<name>Darkness, Ensnaring Strike, Locate Object</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Invisibility, Darkness, Ensnaring Strike, Locate Object</spells>
 		<action>
@@ -2225,6 +2473,22 @@
 			<text>At will: comprehend languages, detect evil and good, holy aura, pass without trace</text>
 			<text>3/day each: haste, longstrider</text>
 			<text>1/day each: plane shift, wind walk</text>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Longstrider</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day each</recharge>
+		</trait>
+		<trait>
+			<name>Wind Walk</name>
+			<recharge>1/day each</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Comprehend Languages, Detect Evil and Good, Holy Aura, Pass without Trace, Haste, Longstrider, Plane Shift, Wind Walk</spells>
@@ -2376,6 +2640,14 @@
 			<attack>Cure Wounds||4d8+3</attack>
 			<attack>Ray of Sickness||4d8</attack>
 			<attack>Spell Attack|9|</attack>
+		</trait>
+		<trait>
+			<name>Cure Wounds, Ray of Sickness, Protection from Poison, Heal</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Finger of Death</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Levitate, Alter Self, Detect Thoughts, Hold Person, Plane Shift, Spare the Dying, Cure Wounds, Ray of Sickness, Protection from Poison, Heal, Finger of Death</spells>
@@ -2575,6 +2847,10 @@
 			<text>At will: detect magic, invisibility, mage hand, mending, message, prestidigitation</text>
 			<text>1/day each: detect poison and disease, dimension door</text>
 		</trait>
+		<trait>
+			<name>Detect Poison and Disease, Dimension Door</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Magic, Invisibility, Mage Hand, Mending, Message, Prestidigitation, Detect Poison and Disease, Dimension Door</spells>
 		<action>
@@ -2719,6 +2995,10 @@
 			<text></text>
 			<text>At will: speak with animals</text>
 			<text>1/day: silence</text>
+		</trait>
+		<trait>
+			<name>Silence</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Speak with Animals, Silence</spells>
@@ -3152,6 +3432,26 @@
 			<text>At will: friends, mending, minor illusion, purify food and drink, vicious mockery</text>
 			<text>1/day each: blur, calm emotions, heroism, sleep, suggestion</text>
 		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Calm Emotions</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heroism</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Friends, Mending, Minor Illusion, Purify Food and Drink, Vicious Mockery, Blur, Calm Emotions, Heroism, Sleep, Suggestion</spells>
 		<trait>
@@ -3299,6 +3599,26 @@
 			<text>At will: detect thoughts</text>
 			<text>3/day each: invisibility, mirror image</text>
 			<text>1/day each: mirage arcana, programmed illusion, project image</text>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirage Arcana</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Programmed Illusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Project Image</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Thoughts, Invisibility, Mirror Image, Mirage Arcana, Programmed Illusion, Project Image</spells>
@@ -3553,6 +3873,26 @@
 			<text>1/day each: ice storm, shatter</text>
 			<attack>Spell Attack|4|</attack>
 		</trait>
+		<trait>
+			<name>Inflict Wounds</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Shatter</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Sacred Flame, Shocking Grasp, Inflict Wounds, Sanctuary, Sleep, Ice Storm, Shatter</spells>
 		<trait>
@@ -3611,6 +3951,34 @@
 			<text>3/day each: charm person, lightning bolt, sanctuary, shatter</text>
 			<text>1/day each: chain lightning, cone of cold, ice storm</text>
 			<attack>Spell Attack|7|</attack>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shatter</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Chain Lightning</name>
+			<recharge>1/day each</recharge>
+		</trait>
+		<trait>
+			<name>Cone of Cold</name>
+			<recharge>1/day each</recharge>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>1/day each</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Bless, Revivify, Sacred Flame, Shocking Grasp, Suggestion, Charm Person, Lightning Bolt, Sanctuary, Shatter, Chain Lightning, Cone of Cold, Ice Storm</spells>
@@ -3677,6 +4045,14 @@
 			<text>The apau perape is an innate spellcaster. Its spellcasting ability is Charisma (spell save DC 13). The apau perape can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>1/day each: fear, wall of fire</text>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Fire</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Fear, Wall of Fire</spells>
@@ -3791,6 +4167,14 @@
 			<text>The demon's spellcasting ability is Charisma (spell save DC 17). The demon can innately cast the following spells, requiring no material components: At will: detect evil and good, detect magic, suggestion</text>
 			<text>3/day: glibness</text>
 			<text>1/day: dominate person</text>
+		</trait>
+		<trait>
+			<name>Glibness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Glibness, Dominate Person</spells>
@@ -3912,6 +4296,10 @@
 			<text></text>
 			<text>1/day: greater invisibility</text>
 		</trait>
+		<trait>
+			<name>Greater Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Greater Invisibility</spells>
 		<trait>
@@ -3980,6 +4368,22 @@
 			<text>1/day: control weather</text>
 			<attack>Spell Attack|8|</attack>
 		</trait>
+		<trait>
+			<name>Call Lightning</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gust of Wind</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Disguise Self, Fog Cloud, Call Lightning, Gust Of Wind, Lightning Bolt, Control Weather</spells>
 		<trait>
@@ -4040,6 +4444,14 @@
 			<text>3/day: dispel magic, insect plague (6th level), shapechange (vermin only)</text>
 			<text>1/day: contagion (always filth fever)</text>
 			<attack>Spell Attack|11|</attack>
+		</trait>
+		<trait>
+			<name>Dispel Magic, Insect Plague (6th level), Shapechange (vermin only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion (always filth fever)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Evil and Good, Magic Circle, Teleport, Dispel Magic, Insect Plague, Shapechange, Contagion</spells>
@@ -4166,6 +4578,22 @@
 			<text>3/day each: fear, invisibility, teleport</text>
 			<text>1/day: circle of death</text>
 		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Circle of Death</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Darkness, Silence, Fear, Invisibility, Teleport, Circle of Death</spells>
 		<trait>
@@ -4291,6 +4719,14 @@
 			<text>3/day each: banishment, haste, symbol</text>
 			<text>1/day: earthquake</text>
 			<attack>Spell Attack|14|</attack>
+		</trait>
+		<trait>
+			<name>Banishment, Haste, Symbol</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Earthquake</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Darkness, Detect Evil and Good, Dispel Magic, Plane Shift, Shapechange, Telekinesis, Teleport, Banishment, Haste, Symbol, Earthquake</spells>
@@ -4431,6 +4867,22 @@
 			<text>1/day each: meteor swarm, power word kill</text>
 			<attack>Spell Attack|14|</attack>
 		</trait>
+		<trait>
+			<name>Fire Storm</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Power Word Stun</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Meteor Swarm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Power Word Kill</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dispel Magic, Fireball, Hold Monster, Wall of Fire, Fire Storm, Power Word Stun, Meteor Swarm, Power Word Kill</spells>
 		<trait>
@@ -4538,6 +4990,26 @@
 			<text>At will: detect magic, Evard's black tentacles</text>
 			<text>3/day each: dispel magic, fear, insect plague (biting worms)</text>
 			<text>1/day each: earthquake, teleport</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Insect Plague (biting worms)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Earthquake</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Magic, Evard's Black Tentacles, Dispel Magic, Fear, Insect Plague, Earthquake, Teleport</spells>
@@ -4776,6 +5248,26 @@
 			<text>1/day each: cloudkill, contagion, insect plague</text>
 			<attack>Spell Attack|14|</attack>
 		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Stinking Cloud</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cloudkill</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Insect Plague</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Poison Spray, Fog Cloud, Stinking Cloud, Cloudkill, Contagion, Insect Plague</spells>
 		<trait>
@@ -4861,6 +5353,10 @@
 			<text></text>
 			<text>1/day: conjure animals (only swarms of insects)</text>
 		</trait>
+		<trait>
+			<name>Conjure Animals (only swarms of insects)</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Conjure Animals</spells>
 		<trait>
@@ -4923,6 +5419,42 @@
 			<text>1/day each: bestow curse, contagion, harm, insect plague, fireball</text>
 			<attack>Spell Attack|11|</attack>
 		</trait>
+		<trait>
+			<name>Burning Hands</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ray of Enfeeblement</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ray of Sickness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Bestow Curse</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Harm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Insect Plague</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Fire Bolt, Poison Spray, Burning Hands, Invisibility, Ray of Enfeeblement, Ray of Sickness, Bestow Curse, Contagion, Harm, Insect Plague, Fireball</spells>
 		<trait>
@@ -4984,6 +5516,38 @@
 			<text>3/day each: animate objects, counterspell, creation, instant summons, legend lore, teleport</text>
 			<text>1/day each: imprisonment (minimus containment only, inside gems), sunburst</text>
 			<attack>Spell Attack|16|</attack>
+		</trait>
+		<trait>
+			<name>Animate Objects</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Creation</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Instant Summons</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Legend Lore</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Imprisonment</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Sunburst</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Charm Person, Detect Magic, Dispel Magic, Fabricate, Heat Metal, Magic Aura, Animate Objects, Counterspell, Creation, Instant Summons, Legend Lore, Teleport, Imprisonment, Sunburst</spells>
@@ -5191,6 +5755,14 @@
 			<text>At will: charm person, suggestion, teleport</text>
 			<text>1/day each: banishing smite, cloudkill</text>
 		</trait>
+		<trait>
+			<name>Banishing Smite</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Cloudkill</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Charm Person, Suggestion, Teleport, Banishing Smite, Cloudkill</spells>
 		<action>
@@ -5265,6 +5837,26 @@
 			<text>1/day each: dispel magic, dominate person, flame strike, haste</text>
 			<attack>Spell Attack|9|</attack>
 		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Flame Strike</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Blur, Magic Circle, Teleportation, Scorching Ray, Dispel Magic, Dominate Person, Flame Strike, Haste</spells>
 		<action>
@@ -5329,6 +5921,14 @@
 			<text></text>
 			<text>2/day: command</text>
 			<text>1/day: suggestion</text>
+		</trait>
+		<trait>
+			<name>Command</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Command, Suggestion</spells>
@@ -5408,6 +6008,26 @@
 			<text>1/day: teleport (self plus 50 lb of objects only)</text>
 			<attack>Spell Attack|7|</attack>
 		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Polymorph</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Scrying</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport (self plus 50 lb of objects only)</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Detect Thoughts, Major Image, Suggestion, Dominate Person, Polymorph, Scorching Ray, Scrying, Teleport</spells>
 		<action>
@@ -5486,6 +6106,14 @@
 			<text>1/day each: glyph of warding, planar ally (1d4 + 1 lemures 40 percent, or 1 ink devil 25 percent)</text>
 			<attack>Chance||1d100</attack>
 			<attack>Lemures||1d4+1</attack>
+		</trait>
+		<trait>
+			<name>Glyph of Warding</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Planar Ally</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Magic, Illusory Script, Invisibility, Teleportation, Glyph of Warding, Planar Ally</spells>
@@ -5604,6 +6232,14 @@
 			<text>3/day: greater invisibility</text>
 			<text>1/day: wall of ice</text>
 		</trait>
+		<trait>
+			<name>Greater Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Ice</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Fly, Major Image, Planar Binding, Greater Invisibility, Wall of Ice</spells>
 		<trait>
@@ -5701,6 +6337,50 @@
 			<text>1/day each: eyebite, find the path, foresight</text>
 			<attack>Spell Attack|10|</attack>
 		</trait>
+		<trait>
+			<name>Bestow Curse</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Antimagic Field</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Chain Lightning</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Contact Other Plane</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Dimension Door</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Wall of Fire</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Eyebite</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Find the Path</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Foresight</text>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Evil and Good, Augury, Protection from Evil and Good, Teleport, Bestow Curse, Fireball, Scorching Ray, Antimagic Field, Chain Lightning, Contact Other Plane, Dimension Door, Wall of Fire, Eyebite, Find the Path, Foresight</spells>
 		<action>
@@ -5767,6 +6447,14 @@
 			<text></text>
 			<text>At will: darkness</text>
 			<text>1/day each: harm, teleport</text>
+		</trait>
+		<trait>
+			<name>Harm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Darkness, Harm, Teleport</spells>
@@ -6181,6 +6869,18 @@
 			<text>At will: alter self, invisibility</text>
 			<text>3/day each: darkness, dimension door, haste</text>
 		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Alter Self, Invisibility, Darkness, Dimension Door, Haste</spells>
 		<action>
@@ -6265,6 +6965,22 @@
 			<text></text>
 			<text>3/day each: blink, dimension door, haste, shatter</text>
 		</trait>
+		<trait>
+			<name>Blink</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shatter</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Blink, Dimension Door, Haste, Shatter</spells>
 		<trait>
@@ -6333,6 +7049,30 @@
 			<text>At will: detect magic, speak with dead</text>
 			<text>3/day each: blur, counterspell, darkness, web</text>
 			<text>1/day each: dispel magic, hold person</text>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Web</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Magic, Speak With Dead, Blur, Counterspell, Darkness, Web, Dispel Magic, Hold Person</spells>
@@ -6444,6 +7184,22 @@
 			<text>1/day each: blur, counterspell, web</text>
 			<text>3/day: darkness</text>
 		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Web</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Blur, Counterspell, Web, Darkness</spells>
 		<action>
@@ -6504,6 +7260,10 @@
 			<text>The dragon's innate spellcasting ability is Charisma. It can innately cast the following spell, requiring no material components:</text>
 			<text></text>
 			<text>3/day: darkness</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>darkness</spells>
@@ -6819,6 +7579,18 @@
 			<text>5/day each: counterspell, dispel magic, enhance ability</text>
 		</trait>
 		<trait>
+			<name>Counterspell</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Enhance Ability</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
 			<name>Mithral Shards</name>
 			<text>Ancient mithral dragons can choose to retain the mithral shards of their breath weapon as a hazardous zone of spikes. Treat as a spike growth zone that does 2d8 magical slashing damage for every 5 feet travelled.</text>
 			<attack>Mithral Shards||2d8</attack>
@@ -6926,6 +7698,14 @@
 			<attack>Spell Attack|10|</attack>
 		</trait>
 		<trait>
+			<name>Dispel Magic</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Enhance Ability</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The dragon is a 6th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The dragon has the following wizard spells prepared:</text>
 			<text></text>
@@ -7015,6 +7795,10 @@
 			<text></text>
 			<text>At will: tongues</text>
 			<text>3/day: enhance ability</text>
+		</trait>
+		<trait>
+			<name>Enhance Ability</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Tongues, Enhance Ability</spells>
@@ -7667,6 +8451,14 @@
 			<text>At will: feather fall</text>
 			<text>5/day each: lightning bolt, ice storm</text>
 		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>5/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Feather Fall, Lightning Bolt, Ice Storm</spells>
 		<trait>
@@ -7774,6 +8566,10 @@
 			<text></text>
 			<text>At will: feather fall</text>
 			<text>3/day: lightning bolt</text>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Feather Fall, Lightning Bolt</spells>
@@ -8075,6 +8871,30 @@
 			<text>5/day each: calm emotions, dissonant whispers, ray of sickness, Tasha's hideous laughter</text>
 			<text>3/day each: confusion, invisibility</text>
 			<attack>Spell Attack|5|</attack>
+		</trait>
+		<trait>
+			<name>Calm Emotions</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Dissonant Whispers</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Ray of Sickness</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Tasha's Hideous Laughter</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Friends, Vicious Mockery, Calm Emotions, Dissonant Whispers, Ray of Sickness, Tasha's Hideous Laughter, Confusion, Invisibility</spells>
@@ -8523,6 +9343,18 @@
 			<text>3/day: plane shift</text>
 			<text>1/day each: gate, planar binding</text>
 		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gate</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Planar Binding</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Faerie Fire, Moonbeam, Plane Shift, Gate, Planar Binding</spells>
 		<action>
@@ -8650,6 +9482,10 @@
 			<text>At will: command</text>
 			<text>3/day: suggestion</text>
 		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Command,Suggestion</spells>
 		<action>
@@ -8771,6 +9607,50 @@
 			<text>3/day each: charm person, entangle, invisibility, magic missile</text>
 			<text>1/day each: barkskin, counterspell, dispel magic, fog cloud, shillelagh, suggestion, wall of thorns</text>
 		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Magic Missile</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Barkskin</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Shillelagh</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Thorns</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dancing Lights, Druidcraft, Charm Person, Entangle, Invisibility, Magic Missile, Barkskin, Counterspell, Dispel Magic, Fog Cloud, Shillelagh, Suggestion, Wall of Thorns</spells>
 		<trait>
@@ -8841,6 +9721,18 @@
 			<text>3/day each: false life, see invisibility</text>
 			<text>1/day: blight</text>
 			<attack>Spell Attack|7|</attack>
+		</trait>
+		<trait>
+			<name>False Life</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>See Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Bane, Chill Touch, Hex, Knock, False Life, See Invisibility, Blight</spells>
@@ -8992,6 +9884,30 @@
 			<text>1/day each: cure wounds (as 3rd level), magic weapon (as 6th level), misty step</text>
 			<attack>Spell Attack|7|</attack>
 		</trait>
+		<trait>
+			<name>Freedom of Movement</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Inflict Wounds</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>True Strike</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cure Wounds (as 3rd level)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Magic Weapon (as 6th level)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Freedom of Movement, Inflict Wounds, True Strike, Cure Wounds, Magic Weapon, Misty Step</spells>
 		<trait>
@@ -9140,6 +10056,14 @@
 			<text>At will: bless, spare the dying</text>
 			<text>1/day each: death ward, spirit guardians</text>
 		</trait>
+		<trait>
+			<name>Death Ward</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Spirit Guardians</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Bless, Spare the Dying, Death Ward, Spirit Guardians</spells>
 		<action>
@@ -9194,6 +10118,22 @@
 			<text>At will: dancing lights</text>
 			<text>3/day each: charm person, suggestion</text>
 			<text>2/day each: hallucinatory terrain, major image</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>2/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dancing Lights, Charm Person, Suggestion, Hallucinatory Terrain, Major Image</spells>
@@ -9295,6 +10235,10 @@
 			<text>The shadow fey's innate spellcasting ability is Charisma. It can cast the following spells innately, requiring no material components.</text>
 			<text>1/day: misty step (when in shadows, dim light, or darkness only)</text>
 		</trait>
+		<trait>
+			<name>Misty Step (when in shadows, dim light, or darkness only)</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Misty Step</spells>
 		<trait>
@@ -9345,6 +10289,10 @@
 			<name>Innate Spellcasting</name>
 			<text>The shadow fey's innate spellcasting ability is Charisma. It can cast the following spells innately, requiring no material components.</text>
 			<text>3/day: misty step (when in shadows, dim light, or darkness only)</text>
+		</trait>
+		<trait>
+			<name>Misty Step (when in shadows, dim light, or darkness only)</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Misty Step</spells>
@@ -9404,6 +10352,10 @@
 			<name>Innate Spellcasting</name>
 			<text>The shadow fey's innate spellcasting ability is Charisma. She can cast the following spells innately, requiring no material components.</text>
 			<text>4/day: misty step (when in shadows, dim light, or darkness only)</text>
+		</trait>
+		<trait>
+			<name>Misty Step (when in shadows, dim light, or darkness only)</name>
+			<recharge>4/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Misty Step, Blade Ward, Friends, Message, Vicious Mockery, Bane, Charm Person, Faerie Fire, Enthrall, Hold Person, Conjure Fey, Fear, Hypnotic Pattern, Confusion, Greater Invisibility, Phantasmal Killer, Animate Objects, Dominate Person, Hold Monster</spells>
@@ -9477,6 +10429,10 @@
 			<text>The shadow fey's innate spellcasting ability is Charisma. It can cast the following spells innately, requiring no material components.</text>
 			<text>3/day: misty step (when in shadows, dim light, or darkness only)</text>
 		</trait>
+		<trait>
+			<name>Misty Step (when in shadows, dim light, or darkness only)</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Misty Step</spells>
 		<trait>
@@ -9537,6 +10493,10 @@
 			<name>Innate Spellcasting</name>
 			<text>The shadow fey's innate spellcasting ability is Charisma. It can cast the following spells innately, requiring no material components.</text>
 			<text>1/day: misty step (when in shadows, dim light, or darkness only)</text>
+		</trait>
+		<trait>
+			<name>Misty Step (when in shadows, dim light, or darkness only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Misty Step</spells>
@@ -9847,6 +10807,42 @@
 			<text>1/day each: commune with nature, freedom of movement, nondetection, tree stride</text>
 			<attack>Spell Attack|5|</attack>
 		</trait>
+		<trait>
+			<name>Barkskin</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Woodland Beings</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Animal (as hold person but affects beasts only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Longstrider</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Commune with Nature</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Freedom of Movement</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Tree Stride</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Magic Weapon, Speak with Animals, Calm Emotions, Charm Animal, Cure Wounds, Detect Poison And Disease, Water Breathing, Water Walk, Barkskin, Conjure Woodland Beings, Hold Animal, Jump, Longstrider, Commune with Nature, Freedom of Movement, Nondetection, Tree Stride</spells>
 		<action>
@@ -9890,6 +10886,14 @@
 			<text>The fate eater's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>1/day each: blink, hallucinatory terrain</text>
+		</trait>
+		<trait>
+			<name>Blink</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Blink, Hallucinatory Terrain</spells>
@@ -9954,6 +10958,18 @@
 			<text></text>
 			<text>At will: detect thoughts, fear</text>
 			<text>2/day each: charm person, command, confusion</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Command</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>2/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Thoughts, Fear, Charm Person, Command, Confusion</spells>
@@ -10057,6 +11073,26 @@
 			<text>At will: hex</text>
 			<text>3/day each: counterspell, fear, gaseous form</text>
 			<text>1/day each: hold monster, true seeing</text>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>True Seeing</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Hex, Counterspell, Fear, Gaseous Form, Hold Monster, True Seeing</spells>
@@ -10223,6 +11259,18 @@
 			<text>3/day each: commune with nature, conjure volley</text>
 			<text>1/day: conjure fey (conjured creatures vanish if the Lord of the Hunt's concentration is broken)</text>
 		</trait>
+		<trait>
+			<name>Commune with Nature</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Volley</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Fey (conjured creatures vanish if the Lord of the Hunt's concentration is broken)</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Druidcraft, Hunter's Mark, Phantom Steed, Commune with Nature, Conjure Volley, Conjure Fey</spells>
 		<trait>
@@ -10321,6 +11369,26 @@
 			<text>3/day each: blight, dispel evil and good, dispel magic</text>
 			<text>1/day each: demiplane, heal</text>
 			<attack>Spell Attack|11|</attack>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Demiplane</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Continual Flame, Detect Evil and Good, Invisibility, Moonbeam, Zone of Truth, Blight, Dispel Evil and Good, Dispel Magic, Demiplane, Heal</spells>
@@ -10559,6 +11627,54 @@
 			<text>1/day each: power word kill, sleep (9th level), true polymorph</text>
 			<attack>Spell Attack|12|</attack>
 		</trait>
+		<trait>
+			<name>Chain Lightning</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hypnotic Pattern</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleportation Circle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Bestow Curse</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Feeblemind</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Mass Suggestion</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Flesh to Stone</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Power Word Kill</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Sleep (9th Level)</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>True Polymorph</text>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Faerie Fire, Hex, Misty Step, Silent Image, Tongues, Chain Lightning, Counterspell, Dispel Magic, Hypnotic Pattern, Teleportation, Circle, Bestow Curse, Feeblemind, Mass Suggestion, Flesh to Stone, Power Word Kill, Sleep, True Polymorph</spells>
 		<trait>
@@ -10658,6 +11774,18 @@
 			<text>3/day each: freedom of movement, control water</text>
 			<text>1/day: chain lightning</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Freedom of Movement</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Chain Lightning</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Create or Destroy Water, Shocking Grasp, Water Breathing, Freedom of Movement, Control Water, Chain Lightning</spells>
@@ -10759,6 +11887,18 @@
 			<text>3/day each: chill metal (as heat metal, but does cold damage), freezing sphere</text>
 			<text>1/day: cone of cold</text>
 			<attack>Spell Attack|9|</attack>
+		</trait>
+		<trait>
+			<name>Chill Metal (as heat metal, but does cold damage)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Otiluke's Freezing Sphere</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cone of Cold</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Fog Cloud, Magic Missile, Ray of Frost, Chill Metal, Freezing Sphere, Cone of Cold</spells>
@@ -10924,6 +12064,46 @@
 			<text>At will: guidance, purify food and drink, speak with animals</text>
 			<text>3/day each: charm person, cure wounds (2d8 + 5), daylight, faerie fire, heat metal, hypnotic pattern, tongues</text>
 			<text>1/day each: geas, heal, reincarnate</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cure Wounds (2d8 + 5)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Daylight</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Heat Metal</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hypnotic Pattern</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Geas</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Reincarnate</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Guidance, Purify Food and Drink, Speak with Animals, Charm Person, Cure Wounds, Daylight, Faerie Fire, Heat Metal, Hypnotic Pattern, Tongues, Geas, Heal, Reincarnate</spells>
@@ -11105,6 +12285,22 @@
 			<text>At will: comprehend languages, minor illusion</text>
 			<text>3/day each: disguise self, suggestion</text>
 			<text>1/day each: dream, etherealness</text>
+		</trait>
+		<trait>
+			<name>Disguise Self</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dream</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Etherealness</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Comprehend Languages, Minor Illusion, Disguise Self, Suggestion, Dream, Etherealness</spells>
@@ -11450,6 +12646,38 @@
 			<text>3/day each: destroy food and water (as create food and water, but makes food and drink unpalatable), tongues, wind walk</text>
 			<text>1/day each: creation, gaseous form, insect plague, invisibility, major image</text>
 		</trait>
+		<trait>
+			<name>Destroy Food and Water (as create food and water, but makes food and drink unpalatable)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wind Walk</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Creation</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Insect Plague</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Evil and Good, Detect Magic, Thunderwave, Destroy Food and Water, Tongues, Wind Walk, Creation, Gaseous Form, Insect Plague, Invisibility, Major Image</spells>
 		<trait>
@@ -11597,6 +12825,14 @@
 			<text>3/day: blindness/deafness, circle of death (7th level; 10d6)</text>
 			<text>1/day: finger of death</text>
 			<attack>Spell Attack|10|</attack>
+		</trait>
+		<trait>
+			<name>Blindness/Deafness, Circle of Death (7th level; 10d6)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Chill Touch, Darkness, Dispel Magic, Ray of Enfeeblement, Blindness/Deafness, Circle of Death, Finger of Death</spells>
@@ -12015,6 +13251,10 @@
 			<text>At will: feather fall, light</text>
 			<text>3/day: control weather</text>
 		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Feather Fall, Light, Control Weather</spells>
 		<trait>
@@ -12123,6 +13363,14 @@
 			<text>At will: earthquake, shapechange, speak with animals</text>
 			<text>3/day: bestow curse, gust of wind</text>
 			<text>1/day: divination</text>
+		</trait>
+		<trait>
+			<name>Bestow Curse, Gust of Wind</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Divination</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Earthquake, Shapechange, Speak with Animals, Bestow Curse, Gust of Wind, Divination</spells>
@@ -12795,6 +14043,10 @@
 			<text>At will: prestidigitation</text>
 			<text>3/day: hex</text>
 		</trait>
+		<trait>
+			<name>Hex</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Prestidigitation, Hex</spells>
 		<trait>
@@ -12852,6 +14104,30 @@
 			<text>3/day each: contagion, mirror image</text>
 			<text>1/day each: delayed blast fireball, finger of death, mislead, seeming</text>
 			<attack>Spell Attack|9|</attack>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Delayed Blast Fireball</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mislead</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Seeming</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Disguise Self, Grease, Inflict Wounds, Magic Mouth, Misty Step, Contagion, Mirror Image, Delayed Blast Fireball, Finger of Death, Mislead, Seeming</spells>
@@ -12989,6 +14265,26 @@
 			<text>3/day each: bestow curse, invisibility, mirror image</text>
 			<text>1/day each: cloudkill, modify memory</text>
 		</trait>
+		<trait>
+			<name>Bestow Curse</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cloudkill</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Modify Memory</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Disguise Self, Knock, Minor Illusion, Misty Step, Pass without Trace, Protection from Evil and Good, Tongues, Water Breathing, Bestow Curse, Invisibility, Mirror Image, Cloudkill, Modify Memory</spells>
 		<action>
@@ -13062,6 +14358,34 @@
 			<text>At will: disguise self, inflict wounds (4d10), message, ray of enfeeblement</text>
 			<text>1/day each: detect thoughts, dispel magic, lightning bolt, locate creature, shillelagh, stinking cloud, teleport</text>
 			<attack>Spell Attack|7|</attack>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Locate Creature</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Shillelagh</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Stinking Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Disguise Self, Inflict Wounds, Message, Ray Of Enfeeblement, Detect Thoughts, Dispel Magic, Lightning Bolt, Locate Creature, Shillelagh, Stinking Cloud, Teleport</spells>
@@ -13185,6 +14509,14 @@
 			<text>2/day each: hallucinatory terrain, major image</text>
 		</trait>
 		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
 			<name>Mimicry</name>
 			<text>The sand hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom (Insight) check.</text>
 		</trait>
@@ -13246,6 +14578,10 @@
 			<text>The owl harpy's innate spellcasting ability is Charisma. The owl harpy can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>3/day: darkness</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Darkness</spells>
@@ -13312,6 +14648,82 @@
 			<text>3/day each: bestow curse, dispel magic, plant growth, remove curse, telekinesis</text>
 			<text>1/day each: blight, contagion, dream</text>
 			<text>1/week each: geas, hallow</text>
+		</trait>
+		<trait>
+			<name>Bane</name>
+			<recharge>7/day</recharge>
+		</trait>
+		<trait>
+			<name>Create or Destroy Water</name>
+			<recharge>7/day</recharge>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>7/day</recharge>
+		</trait>
+		<trait>
+			<name>Purify Food and Drink</name>
+			<recharge>7/day</recharge>
+		</trait>
+		<trait>
+			<text>Blindness/Deafness</text>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Gust of Wind</text>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Locate Object</text>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Moonbeam</text>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Shatter</text>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Bestow Curse</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Dispel Magic</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Plant Growth</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Remove Curse</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Telekinesis</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Blight</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Contagion</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Dream</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Geas (1/week)</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Hallow (1/week)</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Detect Thoughts, Invisibility, Mage Hand, Scrying, Dancing Lights, Druidcraft, Mending, Spare the Dying, Bane, Create or Destroy Water, Fog Cloud, Purify Food and Drink, Blindness/Deafness, Gust of Wind, Locate Object, Moonbeam, Shatter, Bestow Curse, Dispel Magic, Plant Growth, Remove Curse, Telekinesis, Blight, Contagion, Dream, Geas, Hallow</spells>
@@ -13672,6 +15084,50 @@
 			<text>1/day each: awaken, creation, heroes' feast, magnificent mansion, plant growth, reincarnate, stone shape</text>
 		</trait>
 		<trait>
+			<name>Compulsion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Evard's Black Tentacles</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Otto's Irresistible Dance</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Awaken</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Creation</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heroes' Feast</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mordenkainen's Magnificent Mansion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Reincarnate</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Stone Shape</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Weapons</name>
 			<text>The hundun's weapon attacks are magical.</text>
 		</trait>
@@ -13736,6 +15192,38 @@
 			<text>5/day each: endure elements (cold only), fear, fog cloud, misty step</text>
 			<text>3/day each: alter self, protection from energy, sleet storm</text>
 			<text>1/day: ice storm</text>
+		</trait>
+		<trait>
+			<name>Endure Elements (cold only)</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Alter Self</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Protection from Energy</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Sleet Storm</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Ice Storm</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Chill Touch, Detect Magic, Light, Mage Hand, Prestidigitation, Resistance, Endure Elements, Fear, Fog Cloud, Misty Step, Alter Self, Protection from Energy, Sleet Storm, Ice Storm</spells>
@@ -13914,6 +15402,26 @@
 			<text>3/day each: control water, earthquake</text>
 			<text>1/day each: control weather, storm of vengeance, tsunami</text>
 		</trait>
+		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Earthquake</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Storm of Vengeance</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Tsunami</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Animal Messenger, Control Water, Earthquake, Control Weather, Storm Of Vengeance, Tsunami</spells>
 		<action>
@@ -14053,6 +15561,26 @@
 			<text>At will: invisibility (self only), mage hand, mending, minor illusion, prestidigitation</text>
 			<text>3/day each: animal friendship, blinding smite, sleep</text>
 			<text>1/day each: insect plague, major image</text>
+		</trait>
+		<trait>
+			<name>Animal Friendship</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Blinding Smite</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Insect Plague</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Invisibility, Mage Hand, Mending, Minor Illusion, Prestidigitation, Animal Friendship, Blinding Smite, Sleep, Insect Plague, Major Image</spells>
@@ -14350,6 +15878,42 @@
 			<text>1/day each: disintegrate, meteor swarm, true polymorph</text>
 			<attack>Spell Attack|11|</attack>
 		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Magic Missile</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Animate Objects</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Cone of Cold</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Hypnotic Pattern</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Disintegrate</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Meteor Swarm</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>True Polymorph</text>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Magic, Phantom Steed, Scorching Ray, Sending, Invisibility, Magic Missile, Shield, Animate Objects, Cone of Cold, Hypnotic Pattern, Disintegrate, Meteor Swarm, True Polymorph</spells>
 		<trait>
@@ -14442,6 +16006,18 @@
 			<text>3/day each: fog cloud, invisibility (self only)</text>
 			<text>1/day: blink</text>
 		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Blink</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Fog Cloud, Invisibility, Blink</spells>
 		<action>
@@ -14499,6 +16075,14 @@
 			<text></text>
 			<text>At will: protection from energy, ray of frost</text>
 			<text>1/day each: ice storm, wall of ice</text>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Ice</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Protection from Energy, Ray of Frost, Ice Storm, Wall of Ice</spells>
@@ -14568,6 +16152,18 @@
 			<text></text>
 			<text>1/day each: burning hands, color spray, scorching ray</text>
 			<attack>Spell Attack|5|</attack>
+		</trait>
+		<trait>
+			<name>Burning Hands</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Burning Hands, Color Spray, Scorching Ray</spells>
@@ -14703,6 +16299,26 @@
 			<text></text>
 			<text>At will: animal friendship, pass without trace, speak with animals</text>
 			<text>1/day each: entangle, plant growth, shillelagh, speak with plants, Tasha's hideous laughter</text>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Shillelagh</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Speak with Plants</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Tasha's Hideous Laughter</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Animal Friendship, Pass without Trace, Speak with Animals, Entangle, Plant Growth, Shillelagh, Speak with Plants, Tasha's Hideous Laughter</spells>
@@ -14844,6 +16460,22 @@
 			<text>3/day each: crown of madness, mirror image, ray of enfeeblement</text>
 			<text>1/day: bestow curse</text>
 		</trait>
+		<trait>
+			<name>Crown of Madness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ray of Enfeeblement</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Bestow Curse</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Message, Crown of Madness, Mirror Image, Ray of Enfeeblement, Bestow Curse</spells>
 		<trait>
@@ -14965,6 +16597,42 @@
 			<text>2/day each: alter self, blur, divination, hypnotic pattern, prismatic spray, scorching ray</text>
 			<text>1/day each: hallucinatory terrain, plane shift, sunbeam</text>
 			<attack>Spell Attack|7|</attack>
+		</trait>
+		<trait>
+			<name>Alter Self</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Divination</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Hypnotic Pattern</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Prismatic Spray</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Sunbeam</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Augury, Color Spray, Dancing Lights, Detect Magic, Flare, Light, Silent Image, Spare the Dying, Alter Self, Blur, Divination, Hypnotic Pattern, Prismatic Spray, Scorching Ray, Hallucinatory Terrain, Plane Shift, Sunbeam</spells>
@@ -15232,6 +16900,30 @@
 			<text>1/day each: dispel magic, plant growth, wind wall</text>
 			<attack>Spell Attack|7|</attack>
 		</trait>
+		<trait>
+			<name>Create or Destroy Water</name>
+			<recharge>4/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>4/day</recharge>
+		</trait>
+		<trait>
+			<text>Locate Animals or Plants</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Dispel Magic</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Plant Growth</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Wind Wall</text>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Druidcraft, Produce Flame, Create or Destroy Water, Entangle, Locate Animals or Plants, Dispel Magic, Plant Growth, Wind Wall</spells>
 		<trait>
@@ -15293,6 +16985,10 @@
 			<text></text>
 			<text>At will: magic missile</text>
 			<text>1/day: haste</text>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Magic Missile, Haste</spells>
@@ -15412,6 +17108,30 @@
 			<text>1/day each: counterspell, dispel magic, enlarge/reduce, spider climb, tongues</text>
 			<text>1/week: gate</text>
 		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Enlarge/Reduce</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Gate (1/week)</text>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Alter Self, Counterspell, Dispel Magic, Enlarge/Reduce, Spider Climb, Tongues, Gate</spells>
 		<trait>
@@ -15472,6 +17192,50 @@
 			<text>3/day each: darkness, hold person, inflict wounds, invisibility, silence</text>
 			<text>1/day each: animate dead, bestow curse, blindness/deafness, contagion, dispel magic, vampiric touch</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Inflict Wounds</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Silence</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Animate Dead</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Bestow Curse</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Blindness/Deafness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Vampiric Touch</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Protection from Evil and Good, Create Or Destroy Water, Dancing Lights, Ray of Frost, Resistance, Witch Bolt, Darkness, Hold Person, Inflict Wounds, Invisibility, Silence, Animate Dead, Bestow Curse, Blindness/Deafness, Contagion, Dispel Magic, Vampiric Touch</spells>
@@ -15698,6 +17462,18 @@
 			<text></text>
 			<text>3/day: charm person</text>
 			<text>1/day each: hallucinatory terrain, suggestion</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Charm Person, Hallucinatory Terrain, Suggestion</spells>
@@ -16345,6 +18121,30 @@
 			<text>1/day each: teleport, word of recall</text>
 			<attack>Spell Attack|7|</attack>
 		</trait>
+		<trait>
+			<name>Blink</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Polymorph (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Word of Recall</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Detect Magic, Invisibility, Magic Missile, Ray of Frost, Blink, Dimension Door, Haste, Polymorph, Teleport, Word of Recall</spells>
 		<trait>
@@ -16418,6 +18218,30 @@
 			<text></text>
 			<text>3/day each: darkness, dissonant whispers, hold person</text>
 			<text>1/day each: conjure woodland beings (wolves only), dimension door, scrying (targets falsemen only)</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dissonant Whispers</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Woodland Beings (wolves only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Scrying (targets falsemen only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Darkness, Dissonant Whispers, Hold Person, Conjure Woodland Beings, Dimension Door, Scrying</spells>
@@ -17136,6 +18960,22 @@
 			<text>1/day each: commune, mirror image</text>
 			<text>3/day each: sending, suggestion</text>
 		</trait>
+		<trait>
+			<name>Sending</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Commune</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Animal Messenger, Message, Vicious Mockery, Commune, Mirror Image, Sending, Suggestion</spells>
 		<trait>
@@ -17282,6 +19122,14 @@
 			<text></text>
 			<text>At will: entangle, sleep</text>
 			<text>1/day each: heal, wall of thorns</text>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Thorns</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Entangle, Sleep, Heal, Wall of Thorns</spells>
@@ -17458,6 +19306,38 @@
 			<text>3/day each: counterspell, fear, phantom steed</text>
 			<text>1/day each: blight, call lightning, clairvoyance, insect plague</text>
 			<text>1/week: legend lore</text>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantom Steed</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Blight</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Call Lightning</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Clairvoyance</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Insect Plague</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Legend Lore (1/week)</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Comprehend Languages, Counterspell, Fear, Phantom Steed, Blight, Call Lightning, Clairvoyance, Insect Plague, Legend Lore</spells>
@@ -17886,6 +19766,10 @@
 			<text>At will: control water, suggestion, tongues, water walk (can be ended freely at will)</text>
 			<text>1/day: dominate person</text>
 		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Control Water, Suggestion, Tongues, Water Walk, Dominate Person</spells>
 		<trait>
@@ -17998,6 +19882,22 @@
 			<text>At will: darkness, minor illusion, plane shift (at night only), phantom steed, prestidigitation, sleep (11d8)</text>
 			<text>3/day each: hypnotic pattern, major image</text>
 			<text>1/day each: dream, phantasmal killer (5d10)</text>
+		</trait>
+		<trait>
+			<name>Hypnotic Pattern</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dream</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Killer (5d10)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Darkness, Minor Illusion, Plane Shift, Phantom Steed, Prestidigitation, Sleep, Hypnotic Pattern, Major Image, Dream, Phantasmal Killer</spells>
@@ -18274,6 +20174,42 @@
 			<text>1/day each: dispel magic, dominate person, hold person</text>
 			<attack>Spell Attack|6|</attack>
 		</trait>
+		<trait>
+			<name>Magic Missile</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Ray of Enfeeblement</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Silent Image</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Locate Object (radius 3,000 ft to locate a vanisher hat)</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Tasha's Hideous Laughter</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Web</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Dispel Magic</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Dominate Person</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Hold Person</text>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dancing Lights, Darkness, Detect Evil and Good, Faerie Fire, Invisibility, Fly, Mage Hand, Ray of Frost, Magic Missile, Ray of Enfeeblement, Silent Image, Locate Object, Tasha's Hideous Laughter, Web, Dispel Magic, Dominate Person, Hold Person</spells>
 		<trait>
@@ -18395,6 +20331,22 @@
 			<text></text>
 			<text>At will: dancing lights, minor illusion</text>
 			<text>3/day each: alter self, fear, sleep, suggestion</text>
+		</trait>
+		<trait>
+			<name>Alter Self</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dancing Lights, Minor Illusion, Alter Self, Fear, Sleep, Suggestion</spells>
@@ -18552,6 +20504,10 @@
 			<text>At will: disguise self (as horse or unicorn only)</text>
 			<text>2/day: darkness (centered on itself, moves with the shadhavar)</text>
 		</trait>
+		<trait>
+			<name>Darkness (centered on itself, moves with the shadhavar)</name>
+			<recharge>2/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Disguise Self, Darkness</spells>
 		<trait>
@@ -18618,6 +20574,14 @@
 			<text></text>
 			<text>3/day each: fear, telekinesis</text>
 		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Fear, Telekinesis</spells>
 		<trait>
@@ -18675,6 +20639,18 @@
 			<text></text>
 			<text>1/day each: darkness, fog cloud</text>
 			<text>1/day (if in possession of its coat): water breathing</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Water Breathing (if in possession of its coat)</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<spells>Darkness, Fog Cloud, Water Breathing</spells>
 		<trait>
@@ -19045,6 +21021,10 @@
 			<text>At will: lightning bolt</text>
 			<text>3/day: chain lightning</text>
 		</trait>
+		<trait>
+			<name>Chain Lightning</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Lightning Bolt, Chain Lightning</spells>
 		<trait>
@@ -19272,6 +21252,14 @@
 			<text>3/day: lightning bolt</text>
 			<text>1/day: call lightning</text>
 			<attack>Spell Attack|6|</attack>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Call Lightning</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Shocking Grasp, Lightning Bolt, Call Lightning</spells>
@@ -19664,6 +21652,30 @@
 			<text>1/day each: arcane eye, confusion, hypnotic pattern, stoneskin</text>
 			<attack>Spell Attack|6|</attack>
 		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Silence</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Arcane Eye</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hypnotic Pattern</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Stoneskin</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Comprehend Languages, Detect Magic, Shocking Grasp, Shield, Silence, Arcane Eye, Confusion, Hypnotic Pattern, Stoneskin</spells>
 		<trait>
@@ -19787,6 +21799,26 @@
 			<text>1/day each: faerie fire, thunderwave</text>
 			<attack>Spell Attack|4|</attack>
 		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Thunderwave</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Produce Spark, Dancing Lights, Feather Fall, Invisibility, Faerie Fire, Thunderwave</spells>
 		<trait>
@@ -19891,6 +21923,10 @@
 			<text>The stryx's innate spellcasting ability is Wisdom. It can cast the following spell, requiring no components:</text>
 			<text></text>
 			<text>3/day: comprehend languages</text>
+		</trait>
+		<trait>
+			<name>Comprehend Languages</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Comprehend Languages</spells>
@@ -20418,6 +22454,14 @@
 			<text></text>
 			<text>3/day: power word stun</text>
 			<text>1/day: power word kill</text>
+		</trait>
+		<trait>
+			<name>Power Word Stun</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Power Word Kill</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Power Word Stun, Power Word Kill</spells>
@@ -21140,6 +23184,30 @@
 			<text>3/day each: blur, meld into stone, phantasmal killer</text>
 			<text>1/day each: black tentacles, eyebite, greater invisibility</text>
 		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Meld into Stone</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Killer</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Black Tentacles</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Eyebite</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Feather Fall, Blur, Meld into Stone, Phantasmal Killer, Black Tentacles, Eyebite, Greater Invisibility</spells>
 		<trait>
@@ -21279,6 +23347,34 @@
 			<text>1/day each: enlarge/reduce, phantom steed</text>
 			<text>1/week each: bestow curse, geas, remove curse</text>
 		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Hunter's Mark</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Enlarge/Reduce</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Phantom Steed</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Bestow Curse (1/week)</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Geas (1/week)</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Remove Curse (1/week)</text>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Gaseous Form, Hunter's Mark, Enlarge/Reduce, Phantom Steed, Bestow Curse, Geas, Remove Curse</spells>
 		<trait>
@@ -21359,6 +23455,46 @@
 			<text>1/day each: commune, death ward, freedom of movement, geas</text>
 			<attack>Spell Attack|8|</attack>
 		</trait>
+		<trait>
+			<name>Gentle Repose</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Healing Word</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Warding Bond</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<text>Beacon of Hope</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Mass Healing Word</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Revivify</text>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Commune</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Death Ward</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Freedom of Movement</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Geas</text>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Bane, Bless, Invisibility, Sacred Flame, Spare the Dying, Speak with Animals, Thaumaturgy, Gentle Repose, Healing Word, Warding Bond, Beacon of Hope, Mass Healing Word, Revivify, Commune, Death Ward, Freedom of Movement, Geas</spells>
 		<action>
@@ -21426,6 +23562,14 @@
 			<text>At will: mirror image, plane shift (plane of shadows only)</text>
 			<text>1/day each: bane (when in dim light or darkness only), Evard's black tentacles</text>
 		</trait>
+		<trait>
+			<name>Bane (when in dim light or darkness only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Evard's Black Tentacles</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Mirror Image, Plane Shift, Bane, Evard's Black Tentacles</spells>
 		<trait>
@@ -21473,6 +23617,10 @@
 			<text>The lynx's innate spellcasting ability is Charisma. It can cast the following spell, requiring no material components:</text>
 			<text></text>
 			<text>3/day: gaseous form</text>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Gaseous Form</spells>
@@ -21603,6 +23751,14 @@
 			<text></text>
 			<text>3/day: sleep</text>
 			<text>1/week: control weather</text>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Control Weather</text>
+			<recharge>1/week</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Sleep, Control Weather</spells>
@@ -21852,6 +24008,22 @@
 			<text>3/day each: eldritch blast (3 beams), Evard's black tentacles</text>
 			<text>1/day each: phantasmal force, reverse gravity</text>
 		</trait>
+		<trait>
+			<name>Eldritch Blast (3 beams)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Evard's Black Tentacles</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Force</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Reverse Gravity</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Darkness, Detect Magic, Fear, Eldritch Blast, Evard's Black Tentacles, Phantasmal Force, Reverse Gravity</spells>
 		<trait>
@@ -21904,6 +24076,10 @@
 			<text></text>
 			<text>At will: disguise self (appearance of a female human), mage hand</text>
 			<text>2/day: hex</text>
+		</trait>
+		<trait>
+			<name>Hex</name>
+			<recharge>2/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Disguise Self, Mage Hand, Hex</spells>
@@ -22178,6 +24354,26 @@
 			<text>2/day each: blindness-deafness, hold person</text>
 			<text>1/day each: animate dead, speak with dead</text>
 			<attack>Spell Attack|6|</attack>
+		</trait>
+		<trait>
+			<name>Inflict Wounds</name>
+			<recharge>4/day</recharge>
+		</trait>
+		<trait>
+			<text>Blindness/Deafness</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Hold Person</text>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<text>Animate Dead</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Speak with Dead</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Command, Detect Evil and Good, Inflict Wounds, Blindness/Deafness, Hold Person, Animate Dead, Speak with Dead</spells>
@@ -22909,6 +25105,30 @@
 			<text>1/day each: suggestion, teleport</text>
 		</trait>
 		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Slow</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The Emerald Order cult leader is a 10th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). The cult leader has the following cleric spells prepared:</text>
 			<text></text>
@@ -23252,6 +25472,14 @@
 			<text>At will: misty step, shield</text>
 			<text>1/day each: dominate monster, levitate</text>
 		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Misty Step, Shield, Dominate Monster, Levitate</spells>
 		<trait>
@@ -23484,6 +25712,26 @@
 			<text>The vampire's spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components.</text>
 			<text>At will: darkness, dominate person, invisibility, misty step</text>
 			<text>1/day each: arms of hadar, disguise self, dissonant whispers, detect thoughts, hold monster</text>
+		</trait>
+		<trait>
+			<name>Arms of Hadar</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Disguise Self</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dissonant Whispers</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Monster</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Darkness, Dominate Person, Invisibility, Misty Step, Arms of Hadar, Disguise Self, Dissonant Whispers, Detect Thoughts, Hold Monster</spells>

@@ -184,6 +184,22 @@
 		<text></text>
 		<text>1/day: plane shift (self only)</text>
 	</trait>
+	<trait>
+		<name>Create Food and Water</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Polymorph</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Remove Curse</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Plane Shift (self only)</name>
+		<recharge>1/day</recharge>
+	</trait>
 	<spellAbility>Intelligence</spellAbility>
     <spells>Detect Magic,Plane Shift,Create Food and Water,Polymorph,Remove Curse</spells>
 	<trait>
@@ -255,6 +271,22 @@
 		<text>At will: minor illusion, spare the dying</text>
 		<text></text>
 		<text>1/day each: animal friendship, faerie fire, meld into stone, silence</text>
+	</trait>
+	<trait>
+		<name>Animal Friendship</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Faerie Fire</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Meld into Stone</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Silence</name>
+		<recharge>1/day</recharge>
 	</trait>
 	<spellAbility>Charisma</spellAbility>
     <spells>Minor Illusion,Spare the Dying,Animal Friendship,Faerie Fire,Meld into Stone,Silence</spells>
@@ -593,6 +625,18 @@
 		<text>2/day each: augury, polymorph</text>
 		<text></text>
 		<text>1/day: plane shift (self only)</text>
+	</trait>
+	<trait>
+		<name>Augury</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Polymorph</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Plane Shift (self only)</name>
+		<recharge>1/day</recharge>
 	</trait>
 	<spellAbility>Charisma</spellAbility>
     <spells>Detect Magic,Mage Hand,Plane Shift,Augury,Polymorph</spells>
@@ -1069,6 +1113,34 @@
 		<text>1/day each: maze, telekinesis, teleport, wish</text>
 		<attack>Spell Attack|16|</attack>
 	</trait>
+	<trait>
+		<name>Dispel Magic</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<name>Fly</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<name>Polymorph</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<name>Maze</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Telekinesis</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Teleport</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Wish</name>
+		<recharge>1/day</recharge>
+	</trait>
 	<spellAbility>Intelligence</spellAbility>
     <spells>Detect Magic,Disguise Self,Invisibility,Light,Mage Hand,Message,Prestidigitation,Tasha's Hideous Laughter,Dispel Magic,Fly,Polymorph,Maze,Telekinesis,Teleport,Wish</spells>
 	<trait>
@@ -1272,6 +1344,22 @@
 		<text></text>
 		<text>1/day each: dominate beast, fly, mirror image, web</text>
 	</trait>
+	<trait>
+		<name>Dominate Beast</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Fly</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Mirror Image</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Web</name>
+		<recharge>1/day</recharge>
+	</trait>
 	<spellAbility>Charisma</spellAbility>
     <spells>Light,Mage Hand,Prestidigitation,Dominate Beast,Fly,Mirror Image,Web</spells>
 	<trait>
@@ -1338,6 +1426,18 @@
 		<text>At will: disguise self, friends, mage hand, minor illusion</text>
 		<text></text>
 		<text>1/day each: bestow curse, faerie fire, speak with animals</text>
+	</trait>
+	<trait>
+		<name>Bestow Curse</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Faerie Fire</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Speak with Animals</name>
+		<recharge>1/day</recharge>
 	</trait>
 	<spellAbility>Charisma</spellAbility>
     <spells>Disguise Self,Friends,Mage Hand,Minor Illusion,Bestow Curse,Faerie Fire,Speak with Animals</spells>
@@ -1442,6 +1542,34 @@
 		<text>2/day each: command, create food and water, cure wounds, faerie fire, hold person, revivify</text>
 		<text></text>
 		<text>1/day: death ward</text>
+	</trait>
+	<trait>
+		<name>Command</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Create Food and Water</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Cure Wounds</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Faerie Fire</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Hold Person</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Revivify</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Death Ward</name>
+		<recharge>1/day</recharge>
 	</trait>
 	<spellAbility>Wisdom</spellAbility>
     <spells>Light,Spare the Dying,Death Ward,Command,Create Food and Water,Cure Wounds,Faerie Fire,Hold Person,Revivify</spells>
@@ -1796,6 +1924,34 @@
 		<text></text>
 		<text>1/day each: banishment, dispel magic, fly, knock</text>
 	</trait>
+	<trait>
+		<name>Charm Person</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<name>Detect Magic</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<name>Sleep</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<text>Banishment</text>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<text>Dispel Magic</text>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<text>Fly</text>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<text>Knock</text>
+		<recharge>1/day</recharge>
+	</trait>
 	<spellAbility>Intelligence</spellAbility>
     <spells>Light,Mage Hand,Prestidigitation,Charm Person,Detect Magic,Sleep,Banishment,Dispel Magic,Fly,Knock</spells>
 	<trait>
@@ -1919,6 +2075,42 @@
 		<text>1/Day: color spray (Orange), mirror image (Yellow), suggestion (Green), major image (Blue), hallucinatory terrain (Indigo), polymorph (Violet)</text>
 		<text>1/Day: dancing lights, mage hand, minor illusion</text>
 	</trait>
+	<trait>
+		<name>Color Spray (Orange)</name>
+		<recharge>1/Day</recharge>
+	</trait>
+	<trait>
+		<name>Mirror Image (Yellow)</name>
+		<recharge>1/Day</recharge>
+	</trait>
+	<trait>
+		<name>Suggestion (Green)</name>
+		<recharge>1/Day</recharge>
+	</trait>
+	<trait>
+		<name>Major Image (Blue)</name>
+		<recharge>1/Day</recharge>
+	</trait>
+	<trait>
+		<name>Hallucinatory Terrain (Indigo)</name>
+		<recharge>1/Day</recharge>
+	</trait>
+	<trait>
+		<name>Polymorph (Violet)</name>
+		<recharge>1/Day</recharge>
+	</trait>
+	<trait>
+		<name>Dancing Lights</name>
+		<recharge>1/Day</recharge>
+	</trait>
+	<trait>
+		<name>Mage Hand</name>
+		<recharge>1/Day</recharge>
+	</trait>
+	<trait>
+		<name>Minor Illusion</name>
+		<recharge>1/Day</recharge>
+	</trait>
 	<spellAbility>Charisma</spellAbility>
     <spells>Color Spray,Mirror Image,Suggestion,Major Image,Hallucinatory Terrain,Polymorph,Dancing Lights,Mage Hand,Minor Illusion</spells>
 	<trait>
@@ -1990,6 +2182,22 @@
 		<text></text>
 		<text>1/day: awaken (as an action), plane shift (self only)</text>
 	</trait>
+	<trait>
+		<name>Polymorph</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Remove Curse</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Speak with Plants</name>
+		<recharge>2/day</recharge>
+	</trait>
+	<trait>
+		<name>Awaken (as an action), Plane Shift (self only)</name>
+		<recharge>1/day</recharge>
+	</trait>
 	<spellAbility>Wisdom</spellAbility>
     <spells>Detect Magic,Druidcraft,Speak with Animals,Awaken,Plane Shift,Polymorph,Remove Curse,Speak with Plants</spells>
 	<trait>
@@ -2045,6 +2253,34 @@
 		<name>Spellcasting</name>
 		<text>Skylla casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 13):</text>
 		<text>1/day each: detect magic, disguise self, faerie fire, fly, hypnotic pattern, invisibility, mage armor</text>
+	</trait>
+	<trait>
+		<name>Detect Magic</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Disguise Self</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Faerie Fire</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Fly</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Hypnotic Pattern</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Invisibility</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Mage Armor</name>
+		<recharge>1/day</recharge>
 	</trait>
 	<spellAbility>Charisma</spellAbility>
     <spells>Detect Magic,Disguise Self,Faerie Fire,Fly,Hypnotic Pattern,Invisibility,Mage Armor</spells>
@@ -2143,6 +2379,30 @@
 		<text>3/day each: command, detect evil and good, protection from evil and good</text>
 		<text></text>
 		<text>1/day each: lesser restoration, remove curse, zone of truth</text>
+	</trait>
+	<trait>
+		<name>Command</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<name>Detect Evil and Good</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<name>Protection from Evil and Good</name>
+		<recharge>3/day</recharge>
+	</trait>
+	<trait>
+		<text>Lesser Restoration</text>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<text>Remove Curse</text>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<text>Zone of Truth</text>
+		<recharge>1/day</recharge>
 	</trait>
 	<spellAbility>Charisma</spellAbility>
     <spells>Command,Detect Evil and Good,Protection from Evil and Good,Lesser Restoration,Remove Curse,Zone of Truth</spells>
@@ -2644,6 +2904,26 @@
 		<text>At will: light, thaumaturgy</text>
 		<text></text>
 		<text>1/day each: command, gaseous form, hold person, silence, speak with dead</text>
+	</trait>
+	<trait>
+		<name>Command</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Gaseous Form</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Hold Person</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Silence</name>
+		<recharge>1/day</recharge>
+	</trait>
+	<trait>
+		<name>Speak with Dead</name>
+		<recharge>1/day</recharge>
 	</trait>
 	<spellAbility>Wisdom</spellAbility>
     <spells>Light,Thaumaturgy,Command,Gaseous Form,Hold Person,Silence,Speak with Dead</spells>

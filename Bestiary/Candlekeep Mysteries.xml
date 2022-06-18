@@ -114,6 +114,30 @@
       <text>3/day each: detect magic, dispel magic, faerie fire, hold monster</text>
       <text>1/day each: mind blank, teleport</text>
     </trait>
+    <trait>
+      <name>Detect Magic</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Dispel Magic</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Faerie Fire</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Hold Monster</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Mind Blank</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Teleport</name>
+      <recharge>1/day</recharge>
+    </trait>
     <spellAbility>Charisma</spellAbility>
     <spells>Light,Mage Hand,Prestidigitation,Detect Magic,Dispel Magic,Faerie Fire,Hold Monster,Mind Blank,Teleport</spells>
     <action>
@@ -340,6 +364,14 @@
       <text>At will: fog cloud</text>
       <text>3/day: telekinesis</text>
       <text>1/day: control weather</text>
+    </trait>
+    <trait>
+      <name>Telekinesis</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Control Weather</name>
+      <recharge>1/day</recharge>
     </trait>
     <spellAbility>Charisma</spellAbility>
     <spells>Fog Cloud,Control Weather,Telekinesis</spells>
@@ -1016,6 +1048,34 @@
       <text>3/day each: detect magic, fog cloud, pass without trace</text>
       <text>1/day each: antilife shell, dispel magic, speak with plants, transport via plants</text>
     </trait>
+    <trait>
+      <name>Detect Magic</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Fog Cloud</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Pass without Trace</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Antilife Shell</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Dispel Magic</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Speak With Plants</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Transport Via Plants</name>
+      <recharge>1/day</recharge>
+    </trait>
     <spellAbility>Wisdom</spellAbility>
     <spells>Druidcraft,Detect Magic,Fog Cloud,Pass without Trace,Antilife Shell,Dispel Magic,Speak with Plants,Transport via Plants,Fire Storm</spells>
     <trait>
@@ -1151,6 +1211,82 @@
       <text>1/day each: banishment, contact other plane, Drawmij's instant summons, legend lore, locate creature, planar binding, polymorph, protection from evil and good, scrying, sending, true seeing</text>
     	<attack>Spell Attack|6|</attack>
     </trait>
+    <trait>
+      <name>Comprehend Languages</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Detect Magic</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Dispel Magic</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Identify</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Levitate</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Locate Object</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Tenser's Floating Disk</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Unseen Servant</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Banishment</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Contact Other Plane</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Drawmij's Instant Summons</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Legend Lore</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Locate Creature</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Planar Binding</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Polymorph</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Protection from Evil and Good</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Scrying</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Sending</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>True Seeing</name>
+      <recharge>1/day</recharge>
+    </trait>
     <spellAbility>Intelligence</spellAbility>
     <spells>Light,Mage Hand,Mending,Prestidigitation,Shocking Grasp,Comprehend Languages,Detect Magic,Dispel Magic,Fireball,Identify,Levitate,Locate Object,Shield,Tenser's Floating Disk,Unseen Servant,Banishment,Contact Other Plane,Drawmij's Instant Summons,Legend Lore,Locate Creature,Planar Binding,Polymorph,Protection from Evil and Good,Scrying,Sending,True Seeing</spells>
     <action>
@@ -1202,6 +1338,30 @@
       <text>At will: dancing lights, mage hand</text>
       <text>3/day each: detect magic, detect thoughts, dispel magic, locate creature</text>
       <text>1/day each: dispel evil and good, wall of force</text>
+    </trait>
+    <trait>
+      <name>Detect Magic</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Detect Thoughts</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Dispel Magic</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Locate Creature</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Dispel Evil and Good</name>
+      <recharge>1/day</recharge>
+    </trait>
+    <trait>
+      <name>Wall of Force</name>
+      <recharge>1/day</recharge>
     </trait>
     <spellAbility>Charisma</spellAbility>
     <spells>Dancing Lights,Mage Hand,Detect Magic,Detect Thoughts,Dispel Magic,Locate Creature,Dispel Evil and Good,Wall of Force</spells>
@@ -1345,6 +1505,18 @@
       <text>Nintra casts one of the following spells, using Charisma as the spellcasting ability (save 20) and requiring no material components:</text>
       <text></text>
       <text>3/day each: dispel magic, faerie fire, mirror image</text>
+    </trait>
+    <trait>
+      <name>Dispel Magic</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Faerie Fire</name>
+      <recharge>3/day</recharge>
+    </trait>
+    <trait>
+      <name>Mirror Image</name>
+      <recharge>3/day</recharge>
     </trait>
     <spellAbility>Charisma</spellAbility>
     <spells>Dispel Magic,Faerie Fire,Mirror Image</spells>
@@ -1529,6 +1701,46 @@
         <text>3/day each: comprehend languages, detect magic, identify</text>
         <text>1/day each: dispel magic, levitate, locate object, see invisibility, sending, tongues, unseen servant</text>
       	<attack>Spell Attack|6|</attack>
+      </trait>
+      <trait>
+        <name>Comprehend Languages</name>
+        <recharge>3/day</recharge>
+      </trait>
+      <trait>
+        <name>Detect Magic</name>
+        <recharge>3/day</recharge>
+      </trait>
+      <trait>
+        <name>Identify</name>
+        <recharge>3/day</recharge>
+      </trait>
+      <trait>
+        <name>Dispel Magic</name>
+        <recharge>1/day</recharge>
+      </trait>
+      <trait>
+        <name>Levitate</name>
+        <recharge>1/day</recharge>
+      </trait>
+      <trait>
+        <name>Locate Object</name>
+        <recharge>1/day</recharge>
+      </trait>
+      <trait>
+        <name>See Invisibility</name>
+        <recharge>1/day</recharge>
+      </trait>
+      <trait>
+        <name>Sending</name>
+        <recharge>1/day</recharge>
+      </trait>
+      <trait>
+        <name>Tongues</name>
+        <recharge>1/day</recharge>
+      </trait>
+      <trait>
+        <name>Unseen Servant</name>
+        <recharge>1/day</recharge>
       </trait>
       <spellAbility>Intelligence</spellAbility>
       <spells>Light,Mage Hand,Mending,Shocking Grasp,Comprehend Languages,Detect Magic,Identify,Shield,Dispel Magic,Levitate,Locate Object,See Invisibility,Sending,Tongues,Unseen Servant</spells>
@@ -2007,6 +2219,18 @@
         <text></text>
         <text>At will: dancing lights</text>
         <text>1/Day: darkness, faerie fire, levitate (self only)</text>
+      </trait>
+      <trait>
+        <name>Darkness</name>
+        <recharge>1/Day</recharge>
+      </trait>
+      <trait>
+        <name>Faerie Fire</name>
+        <recharge>1/Day</recharge>
+      </trait>
+      <trait>
+        <name>Levitate (self only)</name>
+        <recharge>1/Day</recharge>
       </trait>
       <trait>
         <name>Spellcasting</name>

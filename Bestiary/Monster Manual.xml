@@ -2691,6 +2691,22 @@
 			<text>2/day each: disguise self, invisibility (self only)</text>
 		</trait>
 		<trait>
+			<name>Entangle</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Force</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Disguise Self</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility (self only)</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
 			<name>Reckless</name>
 			<text>At the start of its turn, the barlgura can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
 		</trait>
@@ -3809,6 +3825,22 @@
 			<text>3/day each: alter self, command, detect magic</text>
 			<text>1/day: plane shift (self only)</text>
 		</trait>
+		<trait>
+			<name>Alter Self</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Command</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The cambion makes two melee attacks or uses its Fire Ray twice.</text>
@@ -4343,6 +4375,30 @@
 			<text>3/day each: feather fall, fly, misty step, telekinesis</text>
 			<text>1/day each: control weather, gaseous form</text>
 		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Fling</name>
 			<text>The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a DC 20 Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land prone, taking 1d8 bludgeoning damage for every 10 feet it was thrown.</text>
@@ -4510,6 +4566,46 @@
 			<text>At will: detect evil and good, detect magic, detect thoughts</text>
 			<text>3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield</text>
 			<text>1/day each: dream, greater restoration, scrying</text>
+		</trait>
+		<trait>
+			<name>Bless</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Create Food and Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cure Wounds</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lesser Restoration</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Protection from Poison</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dream</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Restoration</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Scrying</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Weapons</name>
@@ -4773,6 +4869,42 @@
 			<attack>Spell Attack|6|</attack>
 		</trait>
 		<trait>
+			<name>Passwall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Move Earth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Elemental (earth elemental only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Killer</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Stone</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Sure-Footed</name>
 			<text>The dao has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
 		</trait>
@@ -4979,6 +5111,30 @@
 			<attack>Spell Attack|7|</attack>
 		</trait>
 		<trait>
+			<name>Fear</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Cloudkill</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The slaad has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -5110,6 +5266,18 @@
 			<text></text>
 			<text>At will: nondetection (self only)</text>
 			<text>1/day each: blindness/deafness, blur, disguise self</text>
+		</trait>
+		<trait>
+			<name>Blindness/Deafness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Disguise Self</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>War Pick</name>
@@ -5244,6 +5412,14 @@
 			<text>1/day each: commune, raise dead</text>
 		</trait>
 		<trait>
+			<name>Commune</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Raise Dead</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The deva has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -5370,6 +5546,42 @@
 			<text>3/day each: create food and water (can create wine instead of water), tongues, wind walk</text>
 			<text>1/day each: conjure elemental (air elemental only), creation, gaseous form, invisibility, major image, plane shift</text>
 			<attack>Spell Attack|9|</attack>
+		</trait>
+		<trait>
+			<name>Create Food and Water (can create wine instead of water)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wind Walk</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Elemental (Air Elemental only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Creation</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Variant: Genie Powers</name>
@@ -5593,6 +5805,14 @@
 			<text>1/day each: darkness, faerie fire</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spider Climb</name>
 			<text>The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
 		</trait>
@@ -5656,6 +5876,14 @@
 			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spider Climb</name>
@@ -5734,6 +5962,14 @@
 			<text>1/day each: darkness, faerie fire</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Sunlight Sensitivity</name>
 			<text>While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
 		</trait>
@@ -5780,6 +6016,18 @@
 			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -5835,6 +6083,18 @@
 			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -5897,6 +6157,18 @@
 			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -5996,6 +6268,26 @@
 			<text>At will: druidcraft</text>
 			<text>3/day each: entangle, goodberry</text>
 			<text>1/day each: barkskin, pass without trace, shillelagh</text>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Goodberry</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Barkskin</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Pass without Trace</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Shillelagh</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -6148,6 +6440,10 @@
 			<text>The mephit can innately cast sleep, requiring no material components. Its innate spellcasting ability is Charisma.</text>
 			<text>1/day: sleep</text>
 		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
@@ -6270,6 +6566,38 @@
 			<attack>Spell Attack|7|</attack>
 		</trait>
 		<trait>
+			<name>Enlarge/Reduce</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Elemental (Fire Elemental only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Variant: Genie Powers</name>
 			<text>Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.</text>
 			<text/>
@@ -6389,6 +6717,26 @@
 			<text>At will: greater restoration, pass without trace, water breathing, water walk</text>
 			<text>1/day each: commune, dispel evil and good, earthquake, fire storm, plane shift (self only)</text>
 			<attack>Spell Attack|15|</attack>
+		</trait>
+		<trait>
+			<name>Commune</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Earthquake</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fire Storm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -6632,6 +6980,34 @@
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
 			<text>1/day each: color spray, dancing lights, mage hand, major image, minor illusion, mirror image, suggestion</text>
 		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Minor Illusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
@@ -6696,6 +7072,30 @@
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
 			<text>1/day each: color spray, dancing lights, mage hand, minor illusion, mirror image, suggestion</text>
+		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Minor Illusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Bite</name>
@@ -6762,6 +7162,38 @@
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
 			<text>1/day each: color spray, dancing lights, hallucinatory terrain, mage hand, major image, minor illusion, mirror image, suggestion</text>
 		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Minor Illusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
@@ -6826,6 +7258,22 @@
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
 			<text>1/day each: color spray, dancing lights, mage hand, minor illusion</text>
+		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Minor Illusion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Bite</name>
@@ -6892,6 +7340,18 @@
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
 			<text>1/day each: dancing lights, mage hand, minor illusion</text>
 		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Minor Illusion</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
@@ -6957,6 +7417,42 @@
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
 			<text>1/day each: color spray, dancing lights, hallucinatory terrain, mage hand, major image, minor illusion, mirror image, polymorph, suggestion</text>
 		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Minor Illusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Polymorph</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
@@ -7021,6 +7517,26 @@
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
 			<text>1/day each: color spray, dancing lights, mage hand, minor illusion, mirror image</text>
+		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Minor Illusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Bite</name>
@@ -8841,6 +9357,30 @@
 			<text>3/day each: jump, misty step, nondetection (self only), tongues</text>
 			<text>1/day each: plane shift, telekinesis</text>
 		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The githyanki makes two silver greatsword attacks.</text>
@@ -8877,6 +9417,18 @@
 			<text></text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: jump, misty step, nondetection (self only)</text>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection (self only)</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -8915,6 +9467,22 @@
 			<text></text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: feather fall, jump, see invisibility, shield</text>
+		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>See Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Psychic Defense</name>
@@ -8957,6 +9525,27 @@
 			<text></text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: feather fall, jump, see invisibility, shield</text>
+		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+			<name>See Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Killer</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Psychic Defense</name>
@@ -9002,6 +9591,18 @@
 			<text></text>
 			<text>At will: darkness, detect magic, dispel magic</text>
 			<text>1/day each: confusion, fly, power word stun</text>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Power Word Stun</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -9579,6 +10180,26 @@
 			<text>1/day: plane shift (self only)</text>
 		</trait>
 		<trait>
+			<name>Fear</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The slaad has advantage on saving throws against spells and other magical effects</text>
 		</trait>
@@ -9763,6 +10384,18 @@
 			<text>At will: detect magic, detect thoughts, mage hand</text>
 			<text>2/day each: fear, invisibility (self only)</text>
 			<text>1/day: fireball</text>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility (self only)</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -11036,6 +11669,10 @@
 			<text>The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.</text>
 			<text>1/day: fog cloud</text>
 		</trait>
+ 		<trait>
+			<name>Fog Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.</text>
@@ -11826,6 +12463,26 @@
 			<text>3/day each: charm person, mirror image, scrying, suggestion</text>
 			<text>1/day: geas</text>
 		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Scrying</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Geas</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The lamia makes two attacks: one with its claws and one with its dagger or Intoxicating Touch.</text>
@@ -12261,6 +12918,10 @@
 			<text>The mephit can innately cast heat metal (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.</text>
 			<text>1/day: heat metal</text>
 		</trait>
+		<trait>
+			<name>Heat Metal</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.</text>
@@ -12457,6 +13118,38 @@
 			<text>3/day each: tongues, water breathing, water walk</text>
 			<text>1/day each: conjure elemental (water elemental only), control water, gaseous form, invisibility, plane shift</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Breathing</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Walk</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Elemental (Water Elemental only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Water</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Variant: Genie Powers</name>
@@ -12733,6 +13426,18 @@
 			<text>1/day: cloudkill</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Cloudkill</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The mezzoloth has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -12849,6 +13554,14 @@
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: dominate monster, plane shift (self only)</text>
 		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Tentacles</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</text>
@@ -12898,6 +13611,14 @@
 			<text></text>
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: dominate monster, plane shift (self only)</text>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -13504,6 +14225,18 @@
 			<attack>Spell Attack|6|</attack>
 		</trait>
 		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Ray of Enfeeblement</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The hag has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -13902,6 +14635,22 @@
 			<text></text>
 			<text>At will: darkness, invisibility</text>
 			<text>1/day each: charm person, cone of cold, gaseous form, sleep</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Cone of Cold</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Weapons</name>
@@ -14485,6 +15234,14 @@
 			<text>At will: detect magic, fireball</text>
 			<text>3/day each: hold monster, wall of fire</text>
 		</trait>
+		<trait>
+			<name>Hold Monster</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Fire</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.</text>
@@ -14541,6 +15298,46 @@
 			<text>At will: druidcraft</text>
 			<text>1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep</text>
 		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Evil and Good</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Force</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Polymorph</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Superior Invisibility</name>
 			<text>The pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is invisible with it.</text>
@@ -14585,6 +15382,34 @@
 			<text>At will: detect evil and good, invisibility (self only)</text>
 			<text>3/day each: blade barrier, dispel evil and good, flame strike, raise dead</text>
 			<text>1/day each: commune, control weather, insect plague</text>
+		</trait>
+		<trait>
+			<name>Blade Barrier</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Flame Strike</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Raise Dead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Commune</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Insect Plague</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -15071,6 +15896,22 @@
 			<text>At will: feather fall, mage hand (the hand is invisible)</text>
 			<text>1/day each: cure wounds, enlarge/reduce, heat metal, mirror image</text>
 		</trait>
+		<trait>
+			<name>Cure Wounds</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Enlarge/Reduce</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heat Metal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The quaggoth makes two claw attacks.</text>
@@ -15199,6 +16040,42 @@
 			<text>3/day each: charm person, detect magic, invisibility, major image, suggestion</text>
 			<text>1/day each: dominate person, fly, plane shift, true seeing</text>
 			<attack>Spell Attack|10|</attack>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>True Seeing</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -16513,6 +17390,10 @@
 			<text>The mephit can innately cast dancing lights, requiring no material components. Its innate spellcasting ability is Charisma.</text>
 			<text>1/day: dancing lights</text>
 		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
@@ -16571,6 +17452,26 @@
 			<text>At will: detect evil and good, invisibility (self only)</text>
 			<text>3/day each: blade barrier, dispel evil and good, resurrection</text>
 			<text>1/day each: commune, control weather</text>
+		</trait>
+		<trait>
+			<name>Blade Barrier</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Resurrection</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Commune</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -16952,6 +17853,10 @@
 			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
 			<text>1/day: blur</text>
 		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
@@ -17131,6 +18036,14 @@
 			<text></text>
 			<text>At will: detect magic, feather fall, levitate, light</text>
 			<text>3/day each: control weather, water breathing</text>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Breathing</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -17724,6 +18637,18 @@
 			<text>2/day each: blur, magic weapon</text>
 			<text>1/day: invisibility (self only)</text>
 		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Magic Weapon</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The thri-kreen makes two attacks: one with its bite and one with its claws.</text>
@@ -18182,6 +19107,26 @@
 			<text>1/day each: fire storm, mass suggestion</text>
 		</trait>
 		<trait>
+			<name>Dimension Door</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Fire</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fire Storm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The ultroloth has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -18296,6 +19241,18 @@
 			<text></text>
 			<text>At will: detect evil and good, druidcraft, pass without trace</text>
 			<text>1/day each: calm emotions, dispel evil and good, entangle</text>
+		</trait>
+		<trait>
+			<name>Calm Emotions</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -19793,6 +20750,10 @@
 			<text>1/day: dominate person</text>
 		</trait>
 		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Web Walker</name>
 			<text>The yochlol ignores movement restrictions caused by webbing.</text>
 		</trait>
@@ -20403,6 +21364,14 @@
 			<text>1/day: fear</text>
 		</trait>
 		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The yuan-ti has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -20464,6 +21433,10 @@
 			<text></text>
 			<text>At will: animal friendship (snakes only)</text>
 			<text>3/day: suggestion</text>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -20532,6 +21505,10 @@
 			<text>3/day: suggestion</text>
 		</trait>
 		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The yuan-ti has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -20586,6 +21563,10 @@
 			<text></text>
 			<text>At will: animal friendship (snakes only)</text>
 			<text>3/day: suggestion</text>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -20653,6 +21634,14 @@
 			<text></text>
 			<text>At will: animal friendship (snakes only)</text>
 			<text>3/day each: poison spray, suggestion</text>
+		</trait>
+		<trait>
+			<name>Poison Spray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>

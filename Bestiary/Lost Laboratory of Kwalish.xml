@@ -33,6 +33,34 @@
 			<text>3/Day: charm person, command, hold person</text>
 			<text>1/Day: compulsion, hold monster, sleep (cast at 3rd level), Tasha's hideous laughter</text>
 		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/Day</recharge>
+		</trait>
+		<trait>
+			<name>Command</name>
+			<recharge>3/Day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>3/Day</recharge>
+		</trait>
+		<trait>
+			<name>Compulsion</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Monster</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep (cast at 3rd level)</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Tasha's Hideous Laughter</name>
+			<recharge>1/Day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Detect Thoughts,Mage Hand,Zone of Truth,Charm Person,Command,Hold Person,Compulsion,Hold Monster,Sleep,Tasha's Hideous Laughter</spells>
 		<trait>
@@ -992,6 +1020,14 @@
 			<text>1/day each: control weather</text>
 		</trait>
 		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The merrenoloth has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -1073,6 +1109,14 @@
 			<text />
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: dominate monster, plane shift (self only)</text>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -1335,6 +1379,10 @@
 			<name>Innate Spellcasting</name>
 			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
 			<text>1/day: blur</text>
+		</trait>
+		<trait>
+			<name>Blue</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Claws</name>

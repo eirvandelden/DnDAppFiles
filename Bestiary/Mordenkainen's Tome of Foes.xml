@@ -132,6 +132,22 @@
 			<text>3/day each: charm person (as 5th-level spell), color spray, detect thoughts, hold person (as 3rd-level spell)</text>
 		</trait>
 		<trait>
+			<name>Charm Person (as 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person (as 3rd-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Sulfurous Impersonation</name>
 			<text>As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 1d4 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. For all practical purposes, the simulacrum is the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed.</text>
 			<attack>Creatures||1d4+1</attack>
@@ -377,6 +393,22 @@
 			<text>3/day each: dominate person, fireball</text>
 			<text>1/day each: dominate monster, feeblemind</text>
 			<attack>Spell Attack|11|</attack>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -630,6 +662,26 @@
 			<text>1/day each: greater restoration, heal, raise dead</text>
 		</trait>
 		<trait>
+			<name>Cure Wounds (as a 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lesser Restoration</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Restoration</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Raise Dead</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -693,6 +745,34 @@
 			<text>3/day each: counterspell, dispel magic, fly, suggestion, wall of fire</text>
 			<text>1/day each: dominate monster, symbol (stunning only)</text>
 			<attack>Spell Attack|13|</attack>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Fire</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (stunning only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -882,6 +962,30 @@
 			<text>1/day each: teleport</text>
 		</trait>
 		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Beast</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hunter's Mark</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Maze</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Stone</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Labyrinthine Recall</name>
 			<text>Baphomet can perfectly recall any path he has traveled, and he is immune to the maze spell.</text>
 		</trait>
@@ -1005,6 +1109,10 @@
 			<text></text>
 			<text>At will: speak with dead</text>
 			<text>1/day each: plane shift (self only)</text>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1902,6 +2010,18 @@
 			<text>1/day each:fear, hold person, misty step</text>
 		</trait>
 		<trait>
+			<name>Fear</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Sunlight Sensitivity</name>
 			<text>While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
 		</trait>
@@ -1955,6 +2075,26 @@
 			<text>At will: detect magic, major image</text>
 			<text>3/day each: dispel magic, fear, telekinesis</text>
 			<text>1/day each: feeblemind, project image</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Project Image</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -2169,6 +2309,10 @@
 			<text>3/day each: sleep</text>
 		</trait>
 		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The dhergoloth has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -2295,6 +2439,18 @@
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The drow is a 16th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
 			<text>Cantrips (at will): chill touch, eldritch blast, mage hand, poison spray</text>
@@ -2302,6 +2458,10 @@
 			<text/>
 			<text>1/day each: dominate monster, etherealness, eyebite</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Dominate Monster, Etherealness, Eyebite</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spider Climb</name>
@@ -2393,6 +2553,18 @@
 			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -2487,6 +2659,18 @@
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Sunlight Sensitivity</name>
 			<text>While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
 		</trait>
@@ -2571,6 +2755,34 @@
 			<text>1/day each: clairvoyance, darkness, detect thoughts, dispel magic, faerie fire, levitate (self only), suggestion</text>
 		</trait>
 		<trait>
+			<name>Clairvoyance</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The drow has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -2645,6 +2857,34 @@
 			<text></text>
 			<text>At will: dancing lights, detect magic</text>
 			<text>1/day each: clairvoyance, darkness, detect thoughts, dispel magic, faerie fire, levitate (self only), suggestion</text>
+		</trait>
+		<trait>
+			<name>Clairvoyance</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Lolth's Fickle Favor</name>
@@ -2756,6 +2996,18 @@
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Shadow Step</name>
 			<text>While in dim light or darkness, the drow can teleport as a bonus action up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn.</text>
 		</trait>
@@ -2833,6 +3085,18 @@
 			<text></text>
 			<text>At will: mage hand, minor illusion</text>
 			<text>1/day each: counterspell, misty step, stinking cloud</text>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Stinking Cloud</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -3163,6 +3427,14 @@
 			<text>At will: blade ward, true strike</text>
 			<text>1/day each: jump, hunter's mark</text>
 		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hunter's Mark</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Enlarge (Recharges on a Short or Long Rest)</name>
 			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
@@ -3435,6 +3707,14 @@
 			<text>3/day each: fear, phantasmal force</text>
 		</trait>
 		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Force</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The dybbuk has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -3622,6 +3902,38 @@
 			<text></text>
 			<text>At will: charm person (as 5th-level spell), detect thoughts, hold person</text>
 			<text>3/day each: confusion, dimension door, dominate person, fear, hallucinatory terrain, hold monster, hypnotic pattern, telekinesis</text>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Monster</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hypnotic Pattern</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Sulfurous Impersonation</name>
@@ -3845,6 +4157,38 @@
 			<text>1/day each: mirage arcane, modify memory, project image</text>
 		</trait>
 		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dream</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mislead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Programmed Illusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Seeming</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirage Arcane</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Modify Memory</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Project Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Fraz-Urb'luu fails a saving throw, he can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -3985,6 +4329,14 @@
 			<text></text>
 			<text>At will: alter self (can become Medium when changing his appearance), detect magic, geas, ice storm, invisibility (self only), locate object, suggestion, wall of ice</text>
 			<text>1/day each: divine word, symbol (pain only)</text>
+		</trait>
+		<trait>
+			<name>Divine Word</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (pain only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -4187,6 +4539,26 @@
 			<text>1/day each: plane shift, telekinesis</text>
 		</trait>
 		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The githyanki is an 8th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The githyanki has the following wizard spells prepared:</text>
 			<text></text>
@@ -4248,6 +4620,30 @@
 			<text>1/day each: plane shift, telekinesis</text>
 		</trait>
 		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Rally the Troops</name>
 			<text>As a bonus action, the githyanki can magically end the charmed and frightened conditions on itself and each creature of its choice that it can see within 30 feet of it.</text>
 		</trait>
@@ -4299,6 +4695,38 @@
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: jump, levitate (self only), misty step, nondetection (self only)</text>
 			<text>1/day each: Bigby's hand, mass suggestion, plane shift, telekinesis</text>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Bigby's Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -4365,6 +4793,42 @@
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: feather fall, jump, see invisibility, shield, telekinesis</text>
 			<text>1/day each: globe of invulnerability, plane shift, teleportation circle, wall of force</text>
+		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>See Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Globe of Invulnerability</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleportation Circle</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Force</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Psychic Defense</name>
@@ -4448,6 +4912,42 @@
 			<text>1/day each: haste, plane shift, teleport</text>
 		</trait>
 		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Expeditious Retreat</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>See Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Psychic Defense</name>
 			<text>While the githzerai is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.</text>
 		</trait>
@@ -4509,6 +5009,26 @@
 			<text>At will: arcane eye, mage armor, speak with dead</text>
 			<text>1/day each: arcane gate, bane, compulsion, confusion, true seeing</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Arcane Gate</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Bane</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Compulsion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>True Seeing</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -4626,6 +5146,38 @@
 			<text>1/day each: dominate monster, greater invisibility</text>
 		</trait>
 		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Graz'zt fails a saving throw, he can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -4719,6 +5271,30 @@
 			<text>At will: alter self, major image</text>
 			<text>3/day each: charm person, detect thoughts, fear</text>
 			<text>1/day each: confusion, dominate person, mass suggestion</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4915,6 +5491,18 @@
 			<text>1/day each: heal, symbol (hopelessness only)</text>
 		</trait>
 		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (hopelessness only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Hutijin fails a saving throw, he can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -5023,6 +5611,26 @@
 			<text></text>
 			<text>At will: darkness, detect magic, dispel magic, invisibility (self only), water walk</text>
 			<text>3/day each: control water, crown of madness, fear, phantasmal killer, suggestion</text>
+		</trait>
+		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Crown of Madness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Killer</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -5296,6 +5904,18 @@
 			<text>At will: acid splash (17th level), detect magic</text>
 			<text>3/day each: blight, contagion, gaseous form</text>
 			<attack>Spell Attack|10|</attack>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -5802,6 +6422,14 @@
 			<text>1/day each: control weather</text>
 		</trait>
 		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The merrenoloth has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -5883,6 +6511,14 @@
 			<text></text>
 			<text>At will: alter self (can become Medium when changing his appearance), animate dead, burning hands (as a 7th-level spell), confusion, detect magic, fly, geas, major image, stinking cloud, suggestion, wall of fire</text>
 			<text>1/day each: flame strike, symbol (stunning only)</text>
+		</trait>
+		<trait>
+			<name>Flame Strike</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (stunning only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -5986,6 +6622,14 @@
 			<text>At will: dispel magic, polymorph, telekinesis, teleport</text>
 			<text>3/day each: lightning bolt</text>
 			<text>1/day each: imprisonment</text>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Imprisonment</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -6831,6 +7475,22 @@
 			<text>1/day each: feeblemind, globe of invulnerability, wall of fire, wall of ice</text>
 		</trait>
 		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Globe of Invulnerability</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Ice</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The oinoloth has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -6931,6 +7591,18 @@
 			<text>3/day each: create undead, dispel magic</text>
 			<text>1/day: time stop</text>
 			<attack>Spell Attack|15|</attack>
+		</trait>
+		<trait>
+			<name>Create Undead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Time Stop</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -7301,6 +7973,14 @@
 			<text>The retriever's innate spellcasting ability is Wisdom (spell save DC 13). The retriever can innately cast the following spells, requiring no material components.</text>
 			<text>3/day each: plane shift (only self and up to one incapacitated creature, which is considered willing for the spell), web</text>
 		</trait>
+		<trait>
+			<name>Plane Shift (only self and up to one incapacitated creature, which is considered willing for the spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Web</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The retriever makes two foreleg attacks and uses its force or paralyzing beam once, if available.</text>
@@ -7597,6 +8277,10 @@
 			<text>3/day each: feeblemind</text>
 		</trait>
 		<trait>
+			<name>Feeblemind</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the sibriex fails a saving throw, it can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -7880,6 +8564,30 @@
 			<attack>Spell Attack|8|</attack>
 		</trait>
 		<trait>
+			<name>Bestow Curse</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Chain Lightning</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Killer</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Seeming</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The soul monger has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -8020,6 +8728,26 @@
 			<text>At will: charm person, Tasha's hideous laughter</text>
 			<text>3/day each: confusion, enthrall, suggestion</text>
 			<text>1/day each: hallucinatory terrain, Otto's irresistible dance</text>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Enthrall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Otto's Irresistible Dance</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Joyful Presence</name>
@@ -8184,6 +8912,14 @@
 			<text>3/day each: dominate monster</text>
 			<text>1/day each: circle of death</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Circle of Death</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Return to Worms</name>
@@ -8493,6 +9229,14 @@
 			<text>The steel predator's innate spellcasting ability is Wisdom. The steel predator can innately cast the following spells, requiring no components:</text>
 			<text></text>
 			<text>3/day each: dimension door (self only), plane shift (self only)</text>
+		</trait>
+		<trait>
+			<name>Dimension Door (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -9262,6 +10006,22 @@
 			<text>1/day each: feeblemind, symbol (discord or sleep only)</text>
 		</trait>
 		<trait>
+			<name>Greater Invisibility (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mislead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (discord or sleep only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Titivilus fails a saving throw, he can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -9801,6 +10561,14 @@
 			<text>1/day each: cone of cold, ice storm</text>
 		</trait>
 		<trait>
+			<name>Cone of Cold</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -9864,6 +10632,10 @@
 			<text></text>
 			<text>At will: darkness, detect magic, dispel magic, invisibility (self only), suggestion</text>
 			<text>3/day each: lightning bolt</text>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -9944,6 +10716,22 @@
 			<text>3/day each: dispel magic, fear, invisibility</text>
 			<text>1/day: teleport</text>
 			<attack>Spell Attack|9|</attack>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -10224,6 +11012,18 @@
 			<text>3/day each: blade barrier, dispel evil and good, finger of death</text>
 		</trait>
 		<trait>
+			<name>Blade Barrier</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Zariel fails a saving throw, she can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -10332,6 +11132,30 @@
 			<text>At will: detect magic, locate animals or plants, ray of sickness</text>
 			<text>3/day each: dispel magic, ensnaring strike, entangle, plant growth</text>
 			<text>1/day: etherealness, teleport</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ensnaring Strike</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Etherealness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>

@@ -86,6 +86,22 @@
 			<attack>Spell Attack|10|</attack>
 		</trait>
 		<trait>
+			<name>Compelled Duel</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Guiding Bolt (as a 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Daylight</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball (as a 6th-level spell)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The angel has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -148,6 +164,22 @@
 			<text>3/day each: charm person (as a 5th-level spell), darkness, suggestion</text>
 			<text>1/day: raise dead</text>
 			<attack>Spell Attack|11|</attack>
+		</trait>
+		<trait>
+			<name>Charm Person (as a 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Raise Dead</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -325,6 +357,34 @@
 			<text>1/day each: moonbeam, grasping vine, wall of thorns</text>
 		</trait>
 		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Spike Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Moonbeam</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Grasping Vine</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Thorns</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The dryad has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -395,6 +455,10 @@
 			<attack>Spell Attack|3|</attack>
 		</trait>
 		<trait>
+			<name>Tasha's Hideous Laughter</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Last Laugh</name>
 			<text>When the cackler dies, it releases a dying laugh that scars the minds of other nearby creatures. Each creature within 10 feet of the cackler must succeed on a DC 11 Wisdom saving throw or take 2 (1d4) psychic damage.</text>
 			<attack>Last Laugh||1d4</attack>
@@ -453,6 +517,10 @@
 			<text></text>
 			<text>At will: charm person (as a 3rd-level spell), crown of madness</text>
 			<text>1/day: dominate person</text>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Charm Person, Crown of Madness, Dominate Person</spells>
@@ -513,6 +581,14 @@
 			<text>At will: clairvoyance, crown of madness, major image, suggestion</text>
 			<text>1/day: confusion, mass suggestion</text>
 			<attack>Spell Attack|10|</attack>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Clairvoyance, Crown of Madness, Major Image, Suggestion, Confusion, Mass Suggestion</spells>
@@ -1780,6 +1856,26 @@
 			<text>1/day each: animate dead, blight, vampiric touch</text>
 			<attack>Spell Attack|4|</attack>
 		</trait>
+		<trait>
+			<name>Ray of Enfeeblement</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ray of Sickness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Animate Dead</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Vampiric Touch</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Chill Touch, Poison Spray, Ray of Enfeeblement, Ray of Sickness, Animate Dead, Blight, Vampiric Touch</spells>
 		<trait>
@@ -2355,6 +2451,18 @@
 			<text></text>
 			<text>1/day each: expeditious retreat, fog cloud, misty step</text>
 		</trait>
+		<trait>
+			<name>Expeditious Retreat</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Expeditious Retreat, Fog Cloud, Misty Step</spells>
 		<trait>
@@ -2462,6 +2570,30 @@
 			<text>At will: message</text>
 			<text>3/day each: charm person, hold person, mirror image, sleep</text>
 			<text>1/day each: gaseous form, major image</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Message, Charm Person, Hold Person, Mirror Image, Sleep, Gaseous Form, Major Image</spells>
@@ -2747,6 +2879,18 @@
 			<text></text>
 			<text>3/day: detect thoughts, mage armor</text>
 			<text>1/day each: clairvoyance, locate object</text>
+		</trait>
+		<trait>
+			<name>Detect Thoughts, Mage Armor</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Clairvoyance</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Locate Object</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Detect Thoughts, Mage Armor, Clairvoyance, Locate Object</spells>
@@ -3035,6 +3179,26 @@
 			<text>3/day each: blur, confusion, mirror image</text>
 			<text>1/day each: modify memory, Rary's telepathic bond</text>
 		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Modify Memory</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Rary's Telepathic Bond</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Detect Thoughts, Encode Thoughts, Freedom of Movement, Vicious Mockery, Blur, Confusion, Mirror Image, Modify Memory, Rary's Telepathic Bond</spells>
 		<trait>
@@ -3111,6 +3275,38 @@
 			<text>3/day each: charm person, detect thoughts, mage armor, sleep, suggestion</text>
 			<text>1/day each: dominate person, mass suggestion, modify memory</text>
 		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Armor</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Modify Memory</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Encode Thoughts, Friends, Charm Person, Detect Thoughts, Mage Armor, Sleep, Suggestion, Dominate Person, Mass Suggestion, Modify Memory</spells>
 		<action>
@@ -3154,6 +3350,18 @@
 			<text></text>
 			<text>At will: charm person, disguise self, encode thoughts (see chapter 2)</text>
 			<text>1/day each: blur, detect thoughts, gaseous form</text>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Charm Person, Disguise Self, Encode Thoughts, Blur, Detect Thoughts, Gaseous Form</spells>
@@ -3693,6 +3901,22 @@
 			<text>2/day: fireball</text>
 			<attack>Spell Attack|6|</attack>
 		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Thunderwave</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>2/day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Scorching Ray, Shield, Thunderwave, Fireball</spells>
 		<trait>
@@ -3746,6 +3970,30 @@
 			<text>1/day each: counterspell, dispel magic, protection from energy</text>
 			<attack>Spell Attack|6|</attack>
 		</trait>
+		<trait>
+			<name>Enlarge/Reduce</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Armor (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Protection from Energy</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Enlarge/Reduce, Mage Armor, Scorching Ray, Counterspell, Dispel Magic, Protection from Energy</spells>
 		<action>
@@ -3795,6 +4043,22 @@
 			<text>3/day each: levitate, lightning bolt, thunderwave</text>
 			<text>1/day: stoneskin</text>
 			<attack>Spell Attack|7|</attack>
+		</trait>
+		<trait>
+			<name>Levitate</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Thunderwave</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Stoneskin</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Gust-Propelled Leap</name>
@@ -3902,6 +4166,14 @@
 			<text>At will: chill touch (at 5th level, and the ghost regains hit points equal to half the amount of damage the target takes)</text>
 			<text>1/day each: sanctuary, spirit guardians (at 4th level)</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Spirit Guardians (at 4th level)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Chill Touch, Sanctuary, Spirit Guardians, Ray of Enfeeblement, Misty Step</spells>
@@ -4051,6 +4323,30 @@
 			<text>1/day each: circle of death, enthrall, suggestion</text>
 			<text>3/day each: hellish rebuke, hex, scorching ray (at 3rd level)</text>
 			<attack>Spell Attack|7|</attack>
+		</trait>
+		<trait>
+			<name>Circle of Death</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Enthrall</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hellish Rebuke</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hex</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray (at 3rd level)</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Alter Self, Detect Magic, Eldritch Blast, False Life, Levitate, Mage Armor, Circle of Death, Enthrall, Suggestion, Hellish Rebuke, Hex, Scorching Ray</spells>
@@ -4267,6 +4563,42 @@
 			<text>3/day each: bless, conjure animals, giant insect, moonbeam, plant growth, spike growth, suggestion</text>
 			<text>1/day each: conjure fey, mass cure wounds</text>
 		</trait>
+		<trait>
+			<name>Bless</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Animals</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Giant Insect</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Moonbeam</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Spike Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Fey</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Cure Wounds</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Dispel Magic, Druidcraft, Bless, Conjure Animals, Giant Insect, Moonbeam, Plant Growth, Spike Growth, Suggestion, Conjure Fey, Mass Cure Wounds</spells>
 		<trait>
@@ -4361,6 +4693,14 @@
 			<text>The horncaller's innate spellcasting ability is Wisdom (spell save DC 14). The horncaller can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>1/day each: bless, conjure animals</text>
+		</trait>
+		<trait>
+			<name>Bless</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Animals</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Bless, Conjure Animals</spells>

@@ -33,6 +33,26 @@
 			<text>1/day each: augury, bless, lightning bolt (8d6 damage), revivify</text>
 			<text>3/day: thunderwave (2d8) damage</text>
 		</trait>
+		<trait>
+			<name>Augury</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Bless</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Lightning Bolt (8d6 damage)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Revivify</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Thunderwave (2d8) damage</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
 		<spells>Augury, Bless, Lightning Bolt, Revivify, Thunderwave</spells>
@@ -637,6 +657,30 @@
 			<text>3/day each: control water, darkness, water breathing, water walk</text>
 			<text>1/day each: call lightning, Evard's black tentacles</text>
 			<attack>Spell Attack|5|</attack>
+		</trait>
+		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Breathing</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Walk</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<text>Call Lightning</text>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<text>Evard's Black Tentacles</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Thunderous Touch</name>
@@ -1268,6 +1312,22 @@
 			<text>Claugiyliamatar's spellcasting ability is Charisma (spell save DC 19). She can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>1/day each: invisibility, legend lore, protection from energy, true seeing</text>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Legend Lore</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Protection from Energy</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>True Seeing</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -2491,6 +2551,22 @@
 			<text>Lhammaruntosz's spellcasting ability is Charisma (spell save DC 17). She can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>1/day each: create food and water, detect thoughts, fog cloud, speak with animals</text>
+		</trait>
+		<trait>
+			<name>Create Food and Water</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Speak with Animals</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Regeneration</name>

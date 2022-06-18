@@ -1297,6 +1297,10 @@
 			<text>At will: detect thoughts</text>
 			<text>1/Day: augury</text>
 		</trait>
+		<trait>
+			<name>Augury</name>
+			<recharge>1/Day</recharge>
+		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Detect Thoughts,Augury</spells>
 		<action>
@@ -1710,11 +1714,23 @@
 			<text>At will: dancing lights, disguise self</text>
 			<text>1/Day: darkness, faerie fire</text>
 		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/Day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Chill Touch,Eldritch Blast,Mending,Prestidigitation,Thorn Whip,Vicious Mockery,Dissonant Whispers,Fly,Hex,Misty Step,Sending,Shatter,Dancing Lights,Disguise Self,Darkness,Faerie Fire</spells>
 		<trait>
 			<name>Special Equipment</name>
 			<text>K'thriss wears a robe of stars (accounted for in his statistics). The robe allows him to cast the following spells: 6/day: magic missile (7 missiles)</text>
+		</trait>
+		<trait>
+			<name>Magic Missile (7 missiles)</name>
+			<recharge>6/day</recharge>
 		</trait>
 		<trait>
 			<name>Awakened Mind</name>
@@ -2192,6 +2208,26 @@
 			<text></text>
 			<text>At will: minor illusion, sacred flame, thaumaturgy</text>
 			<text>1/Day: command, darkness, darkvision, pass without trace, silence</text>
+		</trait>
+		<trait>
+			<name>Command</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Pass without Trace</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Silence</name>
+			<recharge>1/Day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Minor Illusion,Sacred Flame,Thaumaturgy,Command,Darkness,Darkvision,Pass without Trace,Silence</spells>

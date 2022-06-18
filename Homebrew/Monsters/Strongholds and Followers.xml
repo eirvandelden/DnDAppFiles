@@ -434,6 +434,22 @@
 			<text>1/day each: cone of cold, eyebite, mass suggestion</text>
 			<attack>Spell Attack|8|</attack>
 		</trait>
+		<trait>
+			<name>Branding Smite, Evard's Black Tentacles, Counterspell, Dimension Door, Hold Person</name>
+			<recharge>5/day</recharge>
+		</trait>
+		<trait>
+			<name>Cone of Cold</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Eyebite</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
 		<spells>Acid Splash, Eldritch Blast, Minor Illusion, Hellish Rebuke, Branding Smite, Evard's Black Tentacles, Counterspell, Dimension Door, Hold Person, Cone of Cold, Eyebite, Mass Suggestion</spells>
@@ -754,6 +770,18 @@
 			<text></text>
 			<text>At will: aid, enhance ability, lesser restoration, shield of faith</text>
 			<text>3/day each: haste, remove curse, stoneskin</text>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Remove Curse</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Stoneskin</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
@@ -1590,6 +1618,14 @@
 			<text>At will: misty step, hunter's mark</text>
 			<text>3/day: blur, mirror image</text>
 		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
 		<spells>Misty Step, Hunter's Mark, Blur, Mirror Image</spells>
@@ -1709,6 +1745,10 @@
 			<text>1/day: raise dead</text>
 		</trait>
 		<trait>
+			<name>Raise Dead</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The Marshal is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The Marshal has the following spells prepared:</text>
 			<text></text>
@@ -1776,6 +1816,10 @@
 			<text></text>
 			<text>At will: darkness, dominate person</text>
 			<text>1/day: power word stun</text>
+		</trait>
+		<trait>
+			<name>Power Word Stun</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -1963,6 +2007,26 @@
 			<text>3/day each: invisibility, misty step, gust of wind</text>
 			<text>1/day each: wind wall, gaseous form</text>
 			<attack>Spell Attack|5|</attack>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gust of Wind</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wind Wall</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
@@ -5947,6 +6011,10 @@
 			<text></text>
 			<text>3/day: death ward</text>
 		</trait>
+		<trait>
+			<name>Death Ward</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
 		<spells>Death Ward</spells>
@@ -6160,6 +6228,10 @@
 			<text>Nature's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>3/day: banishment, counterspell</text>
+		</trait>
+		<trait>
+			<name>Banishment, Counterspell</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>

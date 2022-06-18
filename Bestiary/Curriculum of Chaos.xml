@@ -31,6 +31,14 @@
             <text>At will: detect magic, divination, sending</text>
             <text>1/day each: banishment, forcecage</text>
         </trait>
+        <trait>
+            <name>Banishment</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Forcecage</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Detect Magic,Divination,Sending,Banishment,Forcecage</spells>
         <trait>
@@ -158,6 +166,26 @@
             <text>Beledros casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
             <text>1/day each: greater restoration, mass cure wounds, plant growth, revivify, speak with dead</text>
         </trait>
+        <trait>
+            <name>Greater Restoration</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mass Cure Wounds</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Plant Growth</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Revivify</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Speak with Dead</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Greater Restoration,Mass Cure Wounds,Plant Growth,Revivify,Speak with Dead</spells>
         <trait>
@@ -274,6 +302,10 @@
             <text>The archivist casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:</text>
             <text>At will: dancing lights, prestidigitation</text>
             <text>2/day: silence</text>
+        </trait>
+        <trait>
+            <name>Silence</name>
+            <recharge>2/day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dancing Lights,Prestidigitation,Silence</spells>
@@ -432,6 +464,10 @@
             <text>At will: mage hand, prestidigitation</text>
             <text>1/day: detect magic</text>
         </trait>
+        <trait>
+            <name>Detect Magic</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Mage Hand,Prestidigitation,Detect Magic</spells>
         <trait>
@@ -515,6 +551,18 @@
             <name>Spellcasting</name>
             <text>Galazeth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 23):</text>
             <text>1/day each: control water, gust of wind, wall of stone</text>
+        </trait>
+        <trait>
+            <name>Control Water</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Gust of Wind</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Stone</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Control Water,Gust of Wind,Wall of Stone</spells>
@@ -680,6 +728,18 @@
             <text>At will: guidance, light</text>
             <text>1/day each: comprehend languages, locate object, mage armor</text>
         </trait>
+        <trait>
+            <name>Comprehend Languages</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Locate Object</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Light,Comprehend Languages,Locate Object,Mage Armor</spells>
         <action>
@@ -730,6 +790,26 @@
             <text>At will: guidance, light</text>
             <text>2/day each: comprehend languages, locate object</text>
             <text>1/day each: mage armor, speak with dead, stone shape</text>
+        </trait>
+        <trait>
+            <name>Comprehend Languages</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Locate Object</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Speak with Dead</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Stone shape</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Light,Comprehend Languages,Locate Object,Mage Armor,Speak with Dead,Stone Shape</spells>
@@ -785,6 +865,18 @@
             <text>At will: comprehend languages, dancing lights, guidance</text>
             <text>2/day each: locate object, mage armor, passwall</text>
         </trait>
+        <trait>
+            <name>Locate Object</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Passwall</name>
+            <recharge>2/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Comprehend Languages,Dancing Lights,Guidance,Locate Object,Mage Armor,Passwall</spells>
         <trait>
@@ -838,6 +930,22 @@
             <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
             <text>At will: comprehend languages, guidance, light</text>
             <text>2/day each: dimension door, locate object, mage armor, stone shape</text>
+        </trait>
+        <trait>
+            <name>Dimension Door</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Locate Object</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Stone Shape</name>
+            <recharge>2/day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Comprehend Languages,Guidance,Light,Dimension Door,Locate Object,Mage Armor,Stone Shape</spells>
@@ -1008,6 +1116,34 @@
             <text>2/day each: dispel magic, mage armor, remove curse, sending</text>
             <text>1/day each: power word stun, scrying (as an action), wall of force</text>
         </trait>
+        <trait>
+            <name>Dispel Magic</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Remove Curse</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Sending</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Power Word Stun</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Scrying (as an action)</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Force</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Detect Magic,Dispel Magic,Mage Armor,Remove Curse,Sending,Power Word Stun,Scrying,Wall of Force</spells>
         <trait>
@@ -1133,6 +1269,14 @@
             <text>2/day: charm person</text>
             <text>1/day: suggestion</text>
         </trait>
+        <trait>
+            <name>Charm Person</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Suggestion</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Disguise Self,Silent Image,Suggestion,Charm Person</spells>
         <trait>
@@ -1224,6 +1368,18 @@
             <text>At will: minor illusion</text>
             <text>1/day each: gust of wind, mage armor, silent image</text>
         </trait>
+        <trait>
+            <name>Gust of Wind</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Silent Image</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Minor Illusion,Gust of Wind,Mage Armor,Silent Image</spells>
         <action>
@@ -1263,6 +1419,22 @@
             <text>At will: minor illusion</text>
             <text>2/day each: gust of wind, silent image</text>
             <text>1/day each: mage armor, water walk</text>
+        </trait>
+        <trait>
+            <name>Gust of Wind</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Silent Image</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Water Walk</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Minor Illusion,Gust of Wind,Silent Image,Mage Armor,Water Walk</spells>
@@ -1317,6 +1489,18 @@
             <text>At will: minor illusion</text>
             <text>2/day each: fog cloud, gust of wind, mage armor</text>
         </trait>
+        <trait>
+            <name>Fog Cloud</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Gust of Wind</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Minor Illusion,Fog Cloud,Gust of Wind,Mage Armor</spells>
         <action>
@@ -1367,6 +1551,26 @@
             <text>2/day each: control water, create or destroy water, mage armor, stone shape</text>
             <text>1/day: wall of ice</text>
         </trait>
+        <trait>
+            <name>Control Water</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Create or Destroy Water</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Stone Shape</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Ice</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Minor Illusion,Wall of Ice,Control Water,Create or Destroy Water,Mage Armor,Stone Shape</spells>
         <trait>
@@ -1414,6 +1618,14 @@
             <text>At will: guidance, mage hand</text>
             <text>1/day each: enlarge/reduce, mage armor</text>
         </trait>
+        <trait>
+            <name>Enlarge/Reduce</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Mage Hand,Enlarge/Reduce,Mage Armor</spells>
         <action>
@@ -1458,6 +1670,22 @@
             <text>At will: guidance, mage hand</text>
             <text>1/day each: dimension door, enlarge/reduce, mage armor, plant growth</text>
         </trait>
+        <trait>
+            <name>Dimension Door</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Enlarge/Reduce</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Plant Growth</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Mage Hand,Dimension Door,Enlarge/Reduce,Mage Armor,Plant Growth</spells>
         <action>
@@ -1501,6 +1729,26 @@
             <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
             <text>At will: guidance, mage hand, mending (as an action)</text>
             <text>1/day each: creation (as an action), dimension door, mage armor, plant growth, polymorph</text>
+        </trait>
+        <trait>
+            <name>Creation (as an action)</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Dimension Door</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Plant Growth</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Polymorph</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Mage Hand,Mending,Creation,Dimension Door,Mage Armor,Plant Growth,Polymorph</spells>
@@ -1550,6 +1798,22 @@
             <text>The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
             <text>At will: guidance, mage hand, minor illusion</text>
             <text>1/day each: mage armor, major image, mirage arcane (as an action), Rary's telepathic bond</text>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Major Image</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mirage Arcane (as an action)</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Rary's Telepathic Bond</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Guidance,Mage Hand,Minor Illusion,Mage Armor,Major Image,Mirage Arcane,Rary's Telepathic Bond</spells>
@@ -1716,6 +1980,26 @@
             <text>Shadrix casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 23):</text>
             <text>1/day each: darkness, daylight, hypnotic pattern, sending, suggestion</text>
         </trait>
+        <trait>
+            <name>Darkness</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Daylight</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Hypnotic Pattern</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Sending</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Suggestion</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Darkness,Daylight,Hypnotic Pattern,Sending,Suggestion</spells>
         <trait>
@@ -1789,6 +2073,14 @@
             <text>At will: dancing lights, friends</text>
             <text>1/day each: command, mage armor</text>
         </trait>
+        <trait>
+            <name>Command</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Friends,Command,Mage Armor</spells>
         <action>
@@ -1831,6 +2123,22 @@
             <text>The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 13):</text>
             <text>At will: dancing lights, friends</text>
             <text>1/day each: command, confusion, mage armor, tongues</text>
+        </trait>
+        <trait>
+            <name>Command</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Confusion</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Tongues</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Friends,Command,Confusion,Mage Armor,Tongues</spells>
@@ -1876,6 +2184,34 @@
             <text>2/day each: bless, command, cure wounds, daylight, mage armor</text>
             <text>1/day each: hypnotic pattern, tongues</text>
         </trait>
+        <trait>
+            <name>Bless</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Command</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Cure Wounds</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Daylight</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Hypnotic Pattern</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Tongues</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Friends,Bless,Command,Cure Wounds,Daylight,Mage Armor,Hypnotic Pattern,Tongues</spells>
         <action>
@@ -1919,6 +2255,26 @@
             <text>At will: dancing lights, friends</text>
             <text>2/day each: bane, command, darkness, mage armor</text>
             <text>1/day: tongues</text>
+        </trait>
+        <trait>
+            <name>Bane</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Command</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Darkness</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <text>Tongues</text>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Friends,Bane,Command,Darkness,Mage Armor,Tongues</spells>
@@ -2061,6 +2417,30 @@
             <text>Tanazir casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 24):</text>
             <text>1/day each: divination, enlarge/reduce, mirage arcane (as an action), polymorph, scrying (as an action), seeming</text>
         </trait>
+        <trait>
+            <name>Divination</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Enlarge/Reduce</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mirage Arcane (as an action)</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Polymorph</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Scrying (as an action)</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Seeming</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Divination,Enlarge/Reduce,Mirage Arcane,Polymorph,Scrying,Seeming</spells>
         <trait>
@@ -2137,6 +2517,22 @@
             <text>Velomachus casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:</text>
             <text>1/day each: contact other plane (as an action, contacting a long-dead spirit), divination, move earth, wall of force</text>
         </trait>
+        <trait>
+            <name>Contact Other Plane (as an action, contacting a long-dead spirit)</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Divination</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Move Earth</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Force</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Contact Other Plane,Divination,Move Earth,Wall of Force</spells>
         <trait>
@@ -2210,6 +2606,10 @@
             <text>At will: druidcraft, spare the dying</text>
             <text>1/day: pass without trace</text>
         </trait>
+        <trait>
+            <name>Pass without Trace</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Druidcraft,Spare the Dying,Pass without Trace</spells>
         <trait>
@@ -2262,6 +2662,18 @@
             <text>At will: druidcraft, spare the dying</text>
             <text>1/day each: death ward, pass without trace, speak with plants</text>
         </trait>
+        <trait>
+            <name>Death Ward</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Pass without Trace</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Speak with Plants</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Druidcraft,Spare the Dying,Death Ward,Pass without Trace,Speak with Plants</spells>
         <trait>
@@ -2313,6 +2725,22 @@
             <text>The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 15):</text>
             <text>At will: druidcraft, spare the dying</text>
             <text>1/day each: antilife shell, bane, feign death, speak with dead</text>
+        </trait>
+        <trait>
+            <name>Antilife Shell</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Bane</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Feign Death</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Speak with Dead</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Druidcraft,Spare the Dying,Antilife Shell,Bane,Feign Death,Speak with Dead</spells>
@@ -2367,6 +2795,30 @@
             <text>The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:</text>
             <text>At will: druidcraft, spare the dying</text>
             <text>1/day each: greater restoration, lesser restoration, mass cure wounds, pass without trace, plant growth, revivify</text>
+        </trait>
+        <trait>
+            <name>Greater Restoration</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Lesser Restoration</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mass Cure Wounds</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Pass without Trace</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Plant Growth</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Revivify</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Druidcraft,Spare the Dying,Greater Restoration,Lesser Restoration,Mass Cure Wounds,Pass without Trace,Plant Growth,Revivify</spells>

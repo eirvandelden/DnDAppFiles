@@ -90,6 +90,14 @@
 			<text>1/day each: dominate monster, plane shift (self only)</text>
 		</trait>
 		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:</text>
 			<text></text>
@@ -149,6 +157,14 @@
 			<name>Innate Spellcasting</name>
 			<text>The hag's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:</text>
 			<text>3/day each: disguise self (including the form of a Medium humanoid), fog cloud</text>
+		</trait>
+		<trait>
+			<name>Disguise Self (including the form of a Medium humanoid)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Hag Coven</name>
@@ -255,6 +271,14 @@
             <text>3/day each: disguise self (including the form of a Medium humanoid), fog cloud</text>
         </trait>
         <trait>
+          <name>Disguise Self (including the form of a Medium humanoid)</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
+          <name>Fog Cloud</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
             <name>Hag Coven</name>
             <text>When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.</text>
             <text>	A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.</text>
@@ -329,6 +353,14 @@
             <text>3/day each: disguise self (including the form of a Medium humanoid), fog cloud</text>
         </trait>
         <trait>
+          <name>Disguise Self (including the form of a Medium humanoid)</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
+          <name>Fog Cloud</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
             <name>Hag Coven</name>
             <text>When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.</text>
             <text>	A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.</text>
@@ -401,6 +433,14 @@
             <name>Innate Spellcasting</name>
             <text>The hag's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:</text>
             <text>3/day each: disguise self (including the form of a Medium humanoid), fog cloud</text>
+        </trait>
+        <trait>
+          <name>Disguise Self (including the form of a Medium humanoid)</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
+          <name>Fog Cloud</name>
+          <recharge>3/day</recharge>
         </trait>
         <trait>
             <name>Hag Coven</name>
@@ -834,6 +874,18 @@
 			<text>1/day each: charm person, dimension door, suggestion</text>
 		</trait>
 		<trait>
+			<name>Charm Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Soul Feeding</name>
 			<text>A barghest can feed on the corpse of a humanoid that it killed that has been dead for less than 10 minutes, devouring both flesh and soul in doing so. This feeding takes at least 1 minute, and it destroys the victim's body. The victim's soul is trapped in the barghest for 24 hours, after which time it is digested. If the barghest dies before the soul is digested, the soul is released.</text>
 			<text>	While a humanoid's soul is trapped in a barghest, any form of revival that could work has only a 50 percent chance of doing so, freeing the soul from the barghest if it is successful. Once a creature's soul is digested, however, no mortal magic can return that humanoid to life.</text>
@@ -892,6 +944,22 @@
 			<text>3/day each: cone of cold*, ice storm*, wall of ice*</text>
 			<text>1/day each: control weather</text>
 			<attack>Spell Attack|6|</attack>
+		</trait>
+		<trait>
+			<name>Cone of Cold</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Ice</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Hag Coven</name>
@@ -999,6 +1067,22 @@
         	<attack>Spell Attack|6|</attack>
         </trait>
         <trait>
+            <name>Cone of Cold</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Ice Storm</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Ice</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Control Weather</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
             <name>Hag Coven</name>
             <text>When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.</text>
             <text>	A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.</text>
@@ -1074,6 +1158,22 @@
         	<attack>Spell Attack|6|</attack>
         </trait>
         <trait>
+            <name>Cone of Cold</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Ice Storm</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Ice</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Control Weather</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
             <name>Hag Coven</name>
             <text>When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.</text>
             <text>	A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.</text>
@@ -1147,6 +1247,22 @@
             <text>3/day each: cone of cold*, ice storm*, wall of ice*</text>
             <text>1/day each: control weather</text>
         	<attack>Spell Attack|6|</attack>
+        </trait>
+        <trait>
+            <name>Cone of Cold</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Ice Storm</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Ice</name>
+            <recharge>3/day</recharge>
+        </trait>
+        <trait>
+            <name>Control Weather</name>
+            <recharge>1/day</recharge>
         </trait>
         <trait>
             <name>Hag Coven</name>
@@ -1766,6 +1882,30 @@
 			<text>At will: detect magic, fog cloud, light</text>
 			<text>3/day each: feather fall, fly, misty step, telekinesis</text>
 			<text>1/day each: control weather, gaseous form</text>
+		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -2425,6 +2565,18 @@
 			<text>At will: darkness</text>
 			<text>1/day each: confusion, dancing lights, faerie fire</text>
 		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The draegloth makes three attacks: one with its bite and two with its claws.</text>
@@ -2476,6 +2628,14 @@
 			<text></text>
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: dominate monster, plane shift (self only)</text>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -3862,6 +4022,14 @@
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: dominate monster, plane shift (self only)</text>
 		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Paralyzing Touch</name>
 			<text>Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
@@ -3988,6 +4156,10 @@
 			<text></text>
 			<text>At will: gaseous form, major image (6th-level version), wind walk</text>
 			<text>1/day: create food and water</text>
+		</trait>
+		<trait>
+			<name>Create Food and Water</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -4263,6 +4435,14 @@
 			<text>1/day each: conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto's irresistible dance</text>
 		</trait>
 		<trait>
+			<name>Conjure Elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Otto's Irresistible Dance</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Stone Camouflage</name>
 			<text>The korred has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</text>
 		</trait>
@@ -4325,6 +4505,30 @@
 			<text>3/day each: control water, darkness, water breathing, water walk</text>
 			<text>1/day each: call lightning, Evard's black tentacles</text>
 			<attack>Spell Attack|5|</attack>
+		</trait>
+		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Breathing</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Walk</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Call Lightning</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Evard's Black Tentacles</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Thunderous Touch</name>
@@ -5077,6 +5281,18 @@
 			<text>1/day each: confusion, feeblemind, telekinesis</text>
 		</trait>
 		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The neothelid has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -5126,6 +5342,10 @@
 			<text></text>
 			<text>At will: mage hand, Tasha's hideous laughter, vicious mockery</text>
 			<text>1/day: confusion</text>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Nilbogism</name>
@@ -6157,6 +6377,14 @@
 			<text>1/day each: confusion, dominate monster</text>
 		</trait>
 		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Swarm</name>
 			<text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points.</text>
 		</trait>
@@ -6543,6 +6771,42 @@
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: confusion, dominate monster, eyebite, feeblemind, mass suggestion, plane shift (self only), project image, scrying, telekinesis</text>
 		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Eyebite</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Project Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Scrying</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Tentacles</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 27 (4d10+5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 14) and must succeed on a DC 17 Intelligence saving throw or be stunned until this grapple ends.</text>
@@ -6826,6 +7090,10 @@
 			<text>1/day: conjure fey</text>
 		</trait>
 		<trait>
+			<name>Conjure Fey</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
 			<text>Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery</text>
@@ -6876,6 +7144,18 @@
 			<text></text>
 			<text>At will: alter self, false life, levitate (self only), mage armor (self only), silent image</text>
 			<text>1/day each: feeblemind, finger of death, plane shift</text>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -6929,6 +7209,14 @@
 			<text></text>
 			<text>At will: detect magic, jump, levitate, mage armor (self only), speak with dead</text>
 			<text>1/day each: arcane gate, true seeing</text>
+		</trait>
+		<trait>
+			<name>Arcane Gate</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>True Seeing</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -7352,6 +7640,34 @@
 			<text>1/day: divine word</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Polymorph</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Divine Word</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The anathema has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -7497,6 +7813,10 @@
 			<text>3/day: suggestion</text>
 		</trait>
 		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The yuan-ti has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -7583,6 +7903,10 @@
 			<text>At will: animal friendship (snakes only) 3/day: suggestion</text>
 		</trait>
 		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The yuan-ti has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
@@ -7657,6 +7981,10 @@
 			<text>The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>At will: animal friendship (snakes only) 3/day: suggestion</text>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>

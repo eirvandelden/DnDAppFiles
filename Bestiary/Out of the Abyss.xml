@@ -273,6 +273,14 @@
 			<text>1/day each: disguise self, sleep</text>
 		</trait>
 		<trait>
+			<name>Disguise Self</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Duergar Resilience</name>
 			<text>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
 		</trait>
@@ -396,6 +404,10 @@
 			<text>1/day: command</text>
 		</trait>
 		<trait>
+			<name>Command</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The Keeper of the Flame is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The Keeper of the Flame has the following cleric spells prepared:</text>
 			<text></text>
@@ -471,6 +483,14 @@
 			<text></text>
 			<text>At will: blade ward, true strike</text>
 			<text>1/day each: jump, hunter's mark</text>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hunter's Mark</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Enlarge (Recharges after a Short or Long Rest)</name>
@@ -999,6 +1019,18 @@
 			<text>1/day each: darkness, fear, shatter</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Shatter</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>Droki deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage ont he attack roll, or when the target is within 5 feet of an ally of Droki that isn't incapacitated and Droki doesn't have disadvantage on the attack roll.</text>
 			<attack>Sneak Attack||2d6</attack>
@@ -1165,6 +1197,18 @@
 			<text>1/day each: blindness/deafness, blur, disguise self</text>
 		</trait>
 		<trait>
+			<name>Blindness/Deafness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Disguise Self</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Insanity</name>
 			<text>The Pudding King has advantage on saving throws against being charmed or frightened.</text>
 		</trait>
@@ -1291,6 +1335,30 @@
 			<text>1/day each: teleport</text>
 		</trait>
 		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Beast</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hunter's Mark</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Maze</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Stone</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Labyrinthine Recall</name>
 			<text>Baphomet can perfectly recall any path he has traveled, and he is immune to the maze spell.</text>
 		</trait>
@@ -1384,6 +1452,26 @@
 			<text>1/day each: feeblemind, project image</text>
 		</trait>
 		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Project Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Demogorgon fails a saving throw, he can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -1463,6 +1551,38 @@
 			<text>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasmal force</text>
 			<text>3/day each: confusion, dream, mislead, programmed illusion, seeming</text>
 			<text>1/day each: mirage arcane, modify memory, project image</text>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dream</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mislead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Programmed Illusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Seeming</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirage Arcane</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Modify Memory</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Project Image</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -1547,6 +1667,38 @@
 			<text>1/day each: dominate monster, greater invisibility</text>
 		</trait>
 		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Graz'zt fails a saving throw, he can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -1629,6 +1781,18 @@
 			<text>At will: acid splash (17th level), detect magic</text>
 			<text>3/day each: blight, contagion, gaseous form</text>
 			<attack>Spell Attack|10|</attack>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -1725,6 +1889,18 @@
 			<attack>Spell Attack|15|</attack>
 		</trait>
 		<trait>
+			<name>Create Undead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Time Stop</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Orcus fails a saving throw, he can choose to succeed instead.</text>
 			<recharge>3/Day</recharge>
@@ -1805,6 +1981,22 @@
 			<text>3/day each: dispel magic, fear, invisibility</text>
 			<text>1/day: teleport</text>
 			<attack>Spell Attack|9|</attack>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -1891,6 +2083,30 @@
 			<text>At will: detect magic, locate animals or plants, ray of sickness</text>
 			<text>3/day each: dispel magic, ensnaring strike, entangle, plant growth</text>
 			<text>1/day: etherealness, teleport</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ensnaring Strike</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Etherealness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>

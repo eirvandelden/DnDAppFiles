@@ -562,6 +562,14 @@
             <text>At will: arcane eye, calm emotions, detect magic, detect thoughts, dispel magic, sending, suggestion</text>
             <text>1/Day: mass suggestion, modify memory</text>
         </trait>
+        <trait>
+          <name>Mass Suggestion</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Modify Memory</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Arcane Eye,Calm Emotions,Detect Magic,Detect Thoughts,Dispel Magic,Sending,Suggestion,Mass Suggestion,Modify Memory</spells>
         <action>
@@ -616,6 +624,18 @@
             <text>At will: detect magic, detect thoughts, dispel magic, sending</text>
             <text>1/Day: dimension door, fly, greater invisibility</text>
         </trait>
+        <trait>
+          <name>Dimension Door</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Fly</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Greater Invisibility</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Detect Magic,Detect Thoughts,Dispel Magic,Sending,Dimension Door,Fly,Greater Invisibility</spells>
         <trait>
@@ -667,6 +687,14 @@
             <text>The inquisitor casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
             <text>At will: detect magic, dispel magic, levitate, mage armor, mage hand, sending</text>
             <text>1/Day: Otiluke's resilient sphere, telekinesis</text>
+        </trait>
+        <trait>
+          <name>Otiluke's Resilient Sphere</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Telekinesis</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Detect Magic,Dispel Magic,Levitate,Mage Armor,Mage Hand,Sending,Otiluke's Resilient Sphere,Telekinesis</spells>
@@ -727,6 +755,22 @@
             <text></text>
             <text>1/Day: plane shift (self only)</text>
             <text>3/Day: alter self, command, detect magic</text>
+        </trait>
+        <trait>
+          <name>Plane Shift (self only)</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Alter Self</name>
+          <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+          <name>Command</name>
+          <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+          <name>Detect Magic</name>
+          <recharge>3/Day</recharge>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Plane Shift,Alter Self,Command,Detect Magic</spells>

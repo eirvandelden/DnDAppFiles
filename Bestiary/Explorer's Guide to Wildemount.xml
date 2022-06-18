@@ -90,6 +90,10 @@
 			<text>At will: counterspell (see "Reactions" below), detect magic, dispel magic, see invisibility</text>
 			<text>1/Day: antimagic field</text>
 		</trait>
+		<trait>
+			<name>Antimagic Field</name>
+			<recharge>1/Day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Counterspell,Detect Magic,Dispel Magic,See Invisibility,Antimagic Field</spells>
 		<trait>
@@ -466,6 +470,22 @@
 			<text>At will: eldritch blast, false life, mage armor, mage hand</text>
 			<text>1/Day: charm person, hex, hold person, invisibility</text>
 			<attack>Spell Attack|4|</attack>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Hex</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>1/Day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Eldritch Blast,False Life,Mage Armor,Mage Hand,Charm Person,Hex,Hold Person,Invisibility</spells>
@@ -1315,6 +1335,13 @@
 			<text>At will: dancing lights</text>
 			<text>1/Day: darkness, faerie fire</text>
 		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/Day</recharge>
+		</trait>
+			<name>Faerie Fire</name>
+			<recharge>1/Day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Dancing Lights,Darkness,Faerie Fire</spells>
 		<trait>
@@ -1952,6 +1979,30 @@
 			<text>1/Day: armor of Agathys, arms of Hadar, counterspell, crown of madness, invisibility, hunger of Hadar</text>
 			<attack>Spell Attack|5|</attack>
 		</trait>
+		<trait>
+			<name>Armor of Agathys</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Arms of Hadar</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Crown of Madness</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Hunger of Hadar</name>
+			<recharge>1/Day</recharge>
+		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Eldritch Blast,Minor Illusion,Armor of Agathys,Arms of Hadar,Counterspell,Crown of Madness,Invisibility,Hunger of Hadar</spells>
 		<trait>
@@ -2018,6 +2069,18 @@
 			<text>At will: witch bolt</text>
 			<text>1/Day: bestow curse, fear, thunderwave</text>
 			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Bestow Curse</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Thunderwave</name>
+			<recharge>1/Day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Witch Bolt,Bestow Curse,Fear,Thunderwave</spells>

@@ -30,6 +30,26 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 18):</text>
             <text>1/Day: blink, control water, dispel magic, protection from evil and good, sending</text>
         </trait>
+        <trait>
+          <name>Blink</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Control Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Protection from Evil and Good</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Sending</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Blink,Control Water,Dispel Magic,Protection from Evil and Good,Sending</spells>
         <trait>
@@ -105,6 +125,22 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16):</text>
             <text>At will: dancing lights, guidance</text>
             <text>1/Day: command, divination, hypnotic pattern, lesser restoration</text>
+        </trait>
+        <trait>
+          <name>Command</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Divination</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hypnotic Pattern</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Lesser Restoration</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dancing Lights,Guidance,Command,Divination,Hypnotic Pattern,Lesser Restoration</spells>
@@ -252,6 +288,22 @@
             <text>At will: mage hand (the hand is invisible), minor illusion</text>
             <text>1/Day: detect thoughts, dispel magic, invisibility, major image</text>
         </trait>
+        <trait>
+          <name>Detect Thoughts</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Invisibility</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Major Image</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Mage Hand,Minor Illusion,Detect Thoughts,Dispel Magic,Invisibility,Major Image</spells>
         <trait>
@@ -334,6 +386,18 @@
             <text>At will: faerie fire</text>
             <text>1/day each: calm emotions, invisibility, revivify</text>
         </trait>
+        <trait>
+            <name>Calm Emotions</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Revivify</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Faerie Fire,Calm Emotions,Invisibility,Revivify</spells>
         <trait>
@@ -406,6 +470,22 @@
             <name>Spellcasting (Psionics)</name>
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):</text>
             <text>1/Day: dissonant whispers, hold monster, meld into stone, telekinesis</text>
+        </trait>
+        <trait>
+          <name>Dissonant Whispers</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hold Monster</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Meld into Stone</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Telekinesis</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dissonant Whispers,Hold Monster,Meld into Stone,Telekinesis</spells>
@@ -485,6 +565,18 @@
             <name>Spellcasting (Psionics)</name>
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):</text>
             <text>1/Day: bane, control water, create or destroy water</text>
+        </trait>
+        <trait>
+          <name>Bane</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Control Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Create or Destroy Water</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Bane,Control Water,Create or Destroy Water</spells>
@@ -566,6 +658,18 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 13):</text>
             <text>1/Day: protection from evil and good, Tenser's floating disk, unseen servant</text>
         </trait>
+        <trait>
+          <name>Protection from Evil and Good</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Tenser's Floating Disk</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Unseen Servant</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Protection from Evil and Good,Tenser's Floating Disk,Unseen Servant</spells>
         <trait>
@@ -613,6 +717,26 @@
             <name>Spellcasting (Psionics)</name>
             <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
             <text>1/Day: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
@@ -701,6 +825,38 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 23, +15 to hit with spell attacks):</text>
             <text>1/Day: blink, control water, dispel magic, freedom of movement, globe of invulnerability, plane shift, protection from evil and good, sending</text>
         </trait>
+        <trait>
+          <name>Blink</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Control Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Freedom of Movement</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Globe of Invulnerability</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Protection from Evil and Good</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Sending</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Blink,Control Water,Dispel Magic,Freedom of Movement,Globe of Invulnerability,Plane Shift,Protection from Evil and Good,Sending</spells>
         <trait>
@@ -776,6 +932,26 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 19):</text>
             <text>At will: dancing lights, guidance</text>
             <text>1/Day: command, divination, greater restoration, hypnotic pattern, invisibility</text>
+        </trait>
+        <trait>
+          <name>Command</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Divination</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Greater Restoration</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hypnotic Pattern</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Invisibility</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dancing Lights,Guidance,Command,Divination,Greater Restoration,Hypnotic Pattern,Invisibility</spells>
@@ -1005,6 +1181,26 @@
             <text>At will: mage hand (the hand is invisible), minor illusion</text>
             <text>1/Day: detect thoughts, dispel magic, etherealness, major image, mislead</text>
         </trait>
+        <trait>
+          <name>Detect Thoughts</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Etherealness</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Major Image</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Mislead</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Mage Hand,Minor Illusion,Detect Thoughts,Dispel Magic,Etherealness,Major Image,Mislead</spells>
         <trait>
@@ -1087,6 +1283,22 @@
             <text>At will: faerie fire</text>
             <text>2/day each: calm emotions, dispel magic, invisibility, revivify</text>
         </trait>
+        <trait>
+            <name>Calm Emotions</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Dispel Magic</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Revivify</name>
+            <recharge>2/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Faerie Fire,Calm Emotions,Dispel Magic,Invisibility,Revivify</spells>
         <trait>
@@ -1159,6 +1371,26 @@
             <name>Spellcasting (Psionics)</name>
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 20):</text>
             <text>1/Day: dissonant whispers, hold monster, meld into stone, telekinesis, teleport</text>
+        </trait>
+        <trait>
+          <name>Dissonant Whispers</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hold Monster</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Meld into Stone</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Telekinesis</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Teleport</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dissonant Whispers,Hold Monster,Meld into Stone,Telekinesis,Teleport</spells>
@@ -1306,6 +1538,22 @@
             <name>Spellcasting (Psionics)</name>
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 19):</text>
             <text>1/Day: antilife shell, bane, control water, create or destroy water</text>
+        </trait>
+        <trait>
+          <name>Antilife Shell</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Bane</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Control Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Create or Destroy Water</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Antilife Shell,Bane,Control Water,Create or Destroy Water</spells>
@@ -2019,6 +2267,26 @@
             <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
             <text>1/Day: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
         </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
         <trait>
@@ -2334,6 +2602,18 @@
             <text>The draconian casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 12):</text>
             <text>1/day each: enlarge/reduce, invisibility, stinking cloud</text>
         </trait>
+        <trait>
+            <name>Enlarge/Reduce</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Stinking Cloud</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Enlarge/Reduce,Invisibility,Stinking Cloud</spells>
         <trait>
@@ -2390,6 +2670,18 @@
             <text>The draconian casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14):</text>
             <text>At will: invisibility, mage hand</text>
             <text>2/day each: dimension door, disguise self, sending</text>
+        </trait>
+        <trait>
+            <name>Dimension Door</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Disguise Self</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Sending</name>
+            <recharge>2/day</recharge>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Invisibility,Mage Hand,Dimension Door,Disguise Self,Sending</spells>
@@ -2590,6 +2882,26 @@
             <text>At will: light, thaumaturgy</text>
             <text>1/day each: enhance ability, flame strike, mass cure wounds, revivify, tongues</text>
         </trait>
+        <trait>
+            <name>Enhance Ability</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Flame Strike</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Mass Cure Wounds</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Revivify</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Tongues</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Wisdom</spellAbility>
         <spells>Light,Thaumaturgy,Enhance Ability,Flame Strike,Mass Cure Wounds,Revivify,Tongues</spells>
         <action>
@@ -2681,6 +2993,22 @@
             <text>The speaker casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 13):</text>
             <text>At will: dancing lights</text>
             <text>1/day each: calm emotions, charm person, command, comprehend languages</text>
+        </trait>
+        <trait>
+            <name>Calm Emotions</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Charm Person</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Command</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Comprehend Languages</name>
+            <recharge>1/day</recharge>
         </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Dancing Lights,Calm Emotions,Charm Person,Command,Comprehend Languages</spells>
@@ -2931,6 +3259,18 @@
             <name>Spellcasting (Psionics)</name>
             <text>The dragonborn casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15, +7 to hit with spell attacks):</text>
             <text>1/Day: Bigby's hand, hypnotic pattern, telekinesis</text>
+        </trait>
+        <trait>
+          <name>Bigby's Hand</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hypnotic Pattern</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Telekinesis</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Bigby's Hand,Hypnotic Pattern,Telekinesis</spells>
@@ -3437,6 +3777,26 @@
             <name>Spellcasting (Psionics)</name>
             <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
             <text>1/Day: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
@@ -4298,6 +4658,14 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:</text>
             <text>1/Day: alarm, Tenser's floating disk</text>
         </trait>
+        <trait>
+          <name>Alarm</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Tenser's Floating Disk</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Alarm,Tenser's Floating Disk</spells>
         <trait>
@@ -4349,6 +4717,26 @@
             <name>Spellcasting (Psionics)</name>
             <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
             <text>1/Day: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
@@ -4557,6 +4945,10 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 12):</text>
             <text>1/Day: bane</text>
         </trait>
+        <trait>
+          <name>Bane</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Bane</spells>
         <trait>
@@ -4604,6 +4996,26 @@
             <name>Spellcasting (Psionics)</name>
             <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
             <text>1/Day: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
@@ -4771,6 +5183,22 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16):</text>
             <text>1/Day: blink, dispel magic, protection from evil and good, sending</text>
         </trait>
+        <trait>
+          <name>Blink</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Protection from Evil and Good</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Sending</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Blink,Dispel Magic,Protection from Evil and Good,Sending</spells>
         <trait>
@@ -4828,6 +5256,14 @@
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16):</text>
             <text>At will: dancing lights, guidance</text>
             <text>1/Day: hypnotic pattern, lesser restoration</text>
+        </trait>
+        <trait>
+          <name>Hypnotic Pattern</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Lesser Restoration</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dancing Lights,Guidance,Hypnotic Pattern,Lesser Restoration</spells>
@@ -4979,6 +5415,18 @@
             <text>At will: mage hand (the hand is invisible), minor illusion</text>
             <text>1/Day: detect thoughts, invisibility, silent image</text>
         </trait>
+        <trait>
+          <name>Detect Thoughts</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Invisibility</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Silent Image</name>
+          <recharge>1/Day</recharge>
+        </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Mage Hand,Minor Illusion,Detect Thoughts,Invisibility,Silent Image</spells>
         <trait>
@@ -5037,6 +5485,14 @@
             <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 15):</text>
             <text>1/day each: calm emotions, faerie fire</text>
         </trait>
+        <trait>
+            <name>Calm Emotions</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Faerie Fire</name>
+            <recharge>1/day</recharge>
+        </trait>
         <spellAbility>Charisma</spellAbility>
         <spells>Calm Emotions,Faerie Fire</spells>
         <action>
@@ -5091,6 +5547,18 @@
             <name>Spellcasting (Psionics)</name>
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
             <text>1/Day: dissonant whispers, hold person, meld into stone</text>
+        </trait>
+        <trait>
+          <name>Dissonant Whispers</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hold Person</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Meld into Stone</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Dissonant Whispers,Hold Person,Meld into Stone</spells>
@@ -5207,6 +5675,14 @@
             <name>Spellcasting (Psionics)</name>
             <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 14):</text>
             <text>1/Day: bane, create or destroy water</text>
+        </trait>
+        <trait>
+          <name>Bane</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Create or Destroy Water</name>
+          <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
         <spells>Bane,Create or Destroy Water</spells>
