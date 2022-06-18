@@ -108,7 +108,7 @@
 			<name>Innate Spellcasting</name>
 			<text>Iymrith's innate spellcasting ability is Charisma (spell save DC 20). Iymrith's stone shape can create a living gargoyle instead of altering the stone as described in the spell description. She can innately cast the following spells, requiring no material components:</text>
 			<text></text>
-			<text>1/day: counterspell, detect magic, ice storm, stone shape, teleport</text>
+			<text>1/day each: counterspell, detect magic, ice storm, stone shape, teleport</text>
 		</trait>
 		<trait>
 			<name>Counterspell</name>
@@ -351,7 +351,7 @@
 			<text>The shaman can innately cast the following spells. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks).</text>
 			<text/>
 			<text>At Will: dancing lights, message, mage hand, thaumaturgy</text>
-			<text>1/day: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians</text>
+			<text>1/day each: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians</text>
 			<attack>Spell Attack|4|</attack>
 		</trait>
 		<trait>
@@ -1144,10 +1144,10 @@
 		</trait>
 	</monster>
 	<monster>
-		<name>Claugiyliamatar</name>
+		<name>Claugiyliamatar (SKT)</name>
 		<size>G</size>
 		<type>dragon</type>
-		<description>Source: Monster Manual</description>
+		<description>Source: Storm King's Thunder</description>
 		<alignment>lawful evil</alignment>
 		<ac>21 (natural armor)</ac>
 		<hp>385 (22d20+154)</hp>
@@ -1179,7 +1179,8 @@
 			<name>Innate Spellcasting</name>
 			<text>Claugiyliamatar's spellcasting ability is Charisma (spell save DC 19). She can innately cast the following spells, requiring no material components:</text>
 			<text></text>
-			<text>1/day each: invisibility, legend lore, protection from energy, true seeing</text>
+			<text>2/day each: animal messenger, cure wounds, dispel magic, entangle, invisibility</text>
+			<text>1/day each: blight, legend lore (cast as 1 action), locate creature, pass without trace, protection from energy, true seeing</text>
 		</trait>
 		<trait>
 			<name>Animal Messenger</name>
@@ -1225,20 +1226,7 @@
 			<name>True Seeing</name>
 			<recharge>1/day</recharge>
 		</trait>
-		<trait>
-			<name>Spellcasting</name>
-			<text>Claugiyliamatar is an 8th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 18; +10 to hit with spell attacks). She has the following druid spells prepared:</text>
-			<text></text>
-			<text>Cantrips (at will): druidcraft, mending, produce flame</text>
-			<text>1st level (4 slots): cure wounds, detect magic, entangle, speak with animals</text>
-			<text>2nd level (3 slots): animal messenger, pass without trace</text>
-			<text>3rd level (3 slots): dispel magic, plant growth</text>
-			<text>4th level (2 slots): blight, locate creature, stoneskin</text>
-			<attack>Spell Attack|10|</attack>
-		</trait>
-		<spellAbility>Wisdom</spellAbility>
-		<slots>4,3,3,2,0,0,0,0,0</slots>
-		<spells>Druidcraft, Mending, Produce Flame, Cure Wounds, Detect Magic, Entangle, Speak with Animals, Animal Messenger, Pass without Trace, Dispel Magic, Plant Growth, Blight, Locate Creature, Stoneskin</spells>
+		<spells>Animal Messenger, Cure Wounds, Dispel Magic, Entangle, Invisibility, Blight, Legend Lore, Locate Creature, Pass without Trace, Protection from Energy, True Seeing</spells>
 		<action>
 			<name>Multiattack</name>
 			<text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>

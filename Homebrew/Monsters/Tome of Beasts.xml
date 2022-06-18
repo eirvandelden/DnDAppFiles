@@ -2368,7 +2368,7 @@
 			<text>The bucca's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>At will: invisibility</text>
-			<text>3/day each: darkness, ensnaring strike, locate object</text>
+			<text>3/day: darkness, ensnaring strike, locate object</text>
 		</trait>
 		<trait>
 			<name>Darkness, Ensnaring Strike, Locate Object</name>
@@ -2845,7 +2845,7 @@
 			<text>The chernomoi's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>At will: detect magic, invisibility, mage hand, mending, message, prestidigitation</text>
-			<text>1/day each: detect poison and disease, dimension door</text>
+			<text>1/day: detect poison and disease, dimension door</text>
 		</trait>
 		<trait>
 			<name>Detect Poison and Disease, Dimension Door</name>
@@ -4164,7 +4164,8 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The demon's spellcasting ability is Charisma (spell save DC 17). The demon can innately cast the following spells, requiring no material components: At will: detect evil and good, detect magic, suggestion</text>
+			<text>The demon's spellcasting ability is Charisma (spell save DC 17). The demon can innately cast the following spells, requiring no material components:</text>
+			<text>At will: detect evil and good, detect magic, suggestion</text>
 			<text>3/day: glibness</text>
 			<text>1/day: dominate person</text>
 		</trait>
@@ -4385,7 +4386,7 @@
 			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
-		<spells>Disguise Self, Fog Cloud, Call Lightning, Gust Of Wind, Lightning Bolt, Control Weather</spells>
+		<spells>Disguise Self, Fog Cloud, Call Lightning, Gust of Wind, Lightning Bolt, Control Weather</spells>
 		<trait>
 			<name>Sneak Attack (1/turn)</name>
 			<text>The rubezahl does an extra 10 (3d6) damage if it hits a target with a weapon attack when it had advantage on the attack roll, or if the target is within 5 feet of an ally of the rubezahl that isn't incapacitated and the rubezahl doesn't have disadvantage on the attack roll.</text>
@@ -4716,7 +4717,7 @@
 			<text>Camazotz' innate spellcasting ability is Charisma (spell save DC 22, +14 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>At will: darkness, detect evil and good, dispel magic, plane shift, shapechange, telekinesis, teleport</text>
-			<text>3/day each: banishment, haste, symbol</text>
+			<text>3/day: banishment, haste, symbol</text>
 			<text>1/day: earthquake</text>
 			<attack>Spell Attack|14|</attack>
 		</trait>
@@ -15062,16 +15063,11 @@
 			<name>Enlightening Befuddlement</name>
 			<text>When a hundun's confusion spell affects a target, it can elect to use the following table rather than the standard one:</text>
 			<text>1d100 Result</text>
-			<text>01-10 Inspired:</text>
-			<text>Advantage on attack rolls, ability checks, and saving throws</text>
-			<text>11-20 Distracted:</text>
-			<text>Disadvantage on attack rolls, ability checks, and saving throws</text>
-			<text>21-50 Incoherent:</text>
-			<text>The target does nothing but babble or scribble incoherent notes on a new idea</text>
-			<text>51-75 Obsessed:</text>
-			<text>Target is recipient of geas to create a quality magical object</text>
-			<text>76-100 Suggestible:</text>
-			<text>Target receives a suggestion from the hundun</text>
+			<text>01-10 Inspired: Advantage on attack rolls, ability checks, and saving throws</text>
+			<text>11-20 Distracted: Disadvantage on attack rolls, ability checks, and saving throws</text>
+			<text>21-50 Incoherent: The target does nothing but babble or scribble incoherent notes on a new idea</text>
+			<text>51-75 Obsessed: Target is recipient of geas to create a quality magical object</text>
+			<text>76-100 Suggestible: Target receives a suggestion from the hundun</text>
 			<attack>Chance||1d100</attack>
 		</trait>
 		<trait>
@@ -18957,8 +18953,8 @@
 			<text>The ratatosk's spellcasting attribute is Charisma (save DC 14). It can innately cast the following spells without requiring material or somatic components:</text>
 			<text></text>
 			<text>At will: animal messenger, message, vicious mockery</text>
-			<text>1/day each: commune, mirror image</text>
 			<text>3/day each: sending, suggestion</text>
+			<text>1/day each: commune, mirror image</text>
 		</trait>
 		<trait>
 			<name>Sending</name>
