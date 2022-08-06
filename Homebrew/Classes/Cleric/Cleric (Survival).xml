@@ -11,13 +11,9 @@
 				<text>Survival Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
 				<text>1st - create or destroy water, false life</text>
-				<text/>
 				<text>3rd - locate animals or plants, prayer of healing</text>
-				<text/>
 				<text>5th - fear, protection from energy</text>
-				<text/>
 				<text>7th - death ward, dominate beast</text>
-				<text/>
 				<text>9th - antilife shell, greater restoration</text>
 			</feature>
 			<feature optional="YES">
@@ -56,4 +52,16 @@
 			</feature>
 		</autolevel>
 	</subclass>
+	<spellList name="Cleric (Survival)">
+        <index name="Create or Destroy Water" />
+        <index name="False Life" />
+        <index name="Locate Animals or Plants" />
+        <index name="Prayer of Healing" />
+        <index name="Fear" />
+        <index name="Protection from Energy" />
+        <index name="Death Ward" />
+        <index name="Dominate Beast" />
+        <index name="Antilife Shell" />
+        <index name="Greater Restoration" />
+	</spellList>
 </compendium>

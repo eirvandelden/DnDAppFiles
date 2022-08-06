@@ -11,13 +11,9 @@
 				<text>Blood Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
 				<text>1st - sleep, ray of sickness</text>
-				<text/>
 				<text>3rd - ray of enfeeblement, crown of madness</text>
-				<text/>
 				<text>5th - haste, slow</text>
-				<text/>
 				<text>7th - blight, stoneskin</text>
-				<text/>
 				<text>9th - dominate person, hold monster</text>
 			</feature>
 			<feature optional="YES">
@@ -64,4 +60,16 @@
 			</feature>
 		</autolevel>
 	</subclass>
+	<spellList class="Cleric (Blood)">
+		<index name="Sleep"/>
+		<index name="Ray of Sickness"/>
+		<index name="Ray of Enfeeblement"/>
+		<index name="Crown of Madness"/>
+		<index name="Haste"/>
+		<index name="Slow"/>
+		<index name="Blight"/>
+		<index name="Stoneskin"/>
+		<index name="Dominate Person"/>
+		<index name="Hold Monster"/>
+	</spellList>
 </compendium>

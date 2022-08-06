@@ -10,13 +10,9 @@
 				<text>Entropy Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
 				<text>1st - detect magic, inflict wounds</text>
-				<text/>
 				<text>3rd - gentle repose, spiritual weapon</text>
-				<text/>
 				<text>5th - dispel magic, protection from energy</text>
-				<text/>
 				<text>7th - blight, death ward</text>
-				<text/>
 				<text>9th - circle of power, hallow</text>
 			</feature>
 			<feature optional="YES">
@@ -50,4 +46,16 @@
 			</feature>
 		</autolevel>
 	</subclass>
+	<spellList class="Cleric (Entropy)">
+		<index name="Detect Magic"/>
+		<index name="Inflict Wounds"/>
+		<index name="Gentle Repose"/>
+		<index name="Spiritual Weapon"/>
+		<index name="Dispel Magic"/>
+		<index name="Protection from Energy"/>
+		<index name="Blight"/>
+		<index name="Death Ward"/>
+		<index name="Circle of Power"/>
+		<index name="Hallow"/>
+	</spellList>
 </compendium>
