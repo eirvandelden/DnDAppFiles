@@ -3125,7 +3125,7 @@
 		<cha>7</cha>
 		<resist>bludgeoning, piercing, and slashing</resist>
 		<immune>fire, poison, psychic</immune>
-		<conditionImmune> charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>11</passive>
 		<languages>-</languages>
@@ -5578,7 +5578,7 @@
 			<text>- Treasure in the possession of creatures other than Mammon turns to worthless materials such as lead, wood, or gravel, after spending 24 hours within 1 mile of the lair. The resulting junk resumes its valuable form when Mammon claims it, or by means of a wish spell or comparable magic.</text>
 			<text>- Creatures that spend more than 1 hour within 1 mile of Mammon's lair become obsessed with gaining the most generous payment or portion of wealth in any dealing unless they succeed on a DC 18 Wisdom saving throw. A creature that saves successfully is immune to this effect for 24 hours. The effect can be removed by a greater restoration spell or comparable magic.</text>
 			<text>- Any naturally occurring treasure in Mammon's home plane reverts to worthless junk if removed from the plane. Similarly, any mundane item left behind transforms into something fantastically valuable, as long as it remains on the plane.</text>
-			<text> If Mammon dies, conditions in the area surrounding the lair return to normal over the course of 1d10 days.</text>
+			<text>If Mammon dies, conditions in the area surrounding the lair return to normal over the course of 1d10 days.</text>
 			<attack>Days||1d10</attack>
 		</trait>
 		<action>
@@ -8277,7 +8277,7 @@
 			<name>Breath Weapons (Recharge 5-6)</name>
 			<text>The dragon uses one of the following breath weapons:</text>
 			<text>	Gravitic Breath. The dragon exhales a 60-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 20 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.</text>
-			<text>	Stellar Flare Breath. The dragon exhales star fire in a 60- foot cone. Each creature in that area must make a DC 20 Dexterity saving throw, taking 31 (9d6) fire damage and 31 (9d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
+			<text>	Stellar Flare Breath. The dragon exhales star fire in a 60-foot cone. Each creature in that area must make a DC 20 Dexterity saving throw, taking 31 (9d6) fire damage and 31 (9d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
 			<recharge>D5</recharge>
 			<attack>Gravitic Breath (per 10 ft)||1d10</attack>
 			<attack>Stellar Flare Breath||9d6+9d6</attack>
@@ -8362,7 +8362,7 @@
 			<text>The dragon uses one of the following breath weapons:</text>
 			<text>	Gravitic Breath. The dragon exhales a 30-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen</text>
 			<text>When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, it must make a DC 17 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.</text>
-			<text>	Stellar Flare Breath. The dragon exhales star fire in a 30- foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 28 (8d6) fire damage and 28 (8d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
+			<text>	Stellar Flare Breath. The dragon exhales star fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 28 (8d6) fire damage and 28 (8d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Gravitic Breath (per 10 ft)||1d10</attack>
 			<attack>Stellar Flare Breath||8d6+8d6</attack>
 			<recharge>D5</recharge>
@@ -10910,12 +10910,13 @@
 		<action>
 			<name>Spectral Bite</name>
 			<text>When a fate eater scores a critical hit against a target, it damages not only the creature but also the threads of its fate, changing the character's past or future. The target must roll 1d6 on the chart below for each critical hit that isn't negated by a successful DC 15 Charisma saving throw:</text>
-			<text>1- Seeing the Alternates: Suffers the effects of the confusion spell for 1d4 rounds</text>
-			<text>2- Untied from the Loom: Character's speed is randomized for four rounds. Roll 3d20 at the start of each of the character's turns to determine his or her speed in feet that turn</text>
-			<text>3- Shifting Memories: Permanently loses 2 from a random skill and gains 2 in a random untrained skill</text>
-			<text>4- Not So Fast: Loses the use of one class ability, chosen at random</text>
-			<text>5- Lost Potential: Loses 1 point from one randomly chosen ability score</text>
-			<text>6- Took the Lesser Path: The character's current hit point total becomes his or her hit point maximum</text>
+			<text>1d6  Effect</text>
+			<text>1    Seeing the Alternates: Suffers the effects of the confusion spell for 1d4 rounds</text>
+			<text>2    Untied from the Loom: Character's speed is randomized for four rounds. Roll 3d20 at the start of each of the character's turns to determine his or her speed in feet that turn</text>
+			<text>3    Shifting Memories: Permanently loses 2 from a random skill and gains 2 in a random untrained skill</text>
+			<text>4    Not So Fast: Loses the use of one class ability, chosen at random</text>
+			<text>5    Lost Potential: Loses 1 point from one randomly chosen ability score</text>
+			<text>6    Took the Lesser Path: The character's current hit point total becomes his or her hit point maximum</text>
 			<text>Effects 3-6 are permanent until the character makes a successful Charisma saving throw. The saving throw is repeated after every long rest, but the DC increases by 1 after every long rest, as the character becomes more entrenched in this new destiny. Otherwise, these new fates can be undone by nothing short of a wish spell or comparable magic.</text>
 			<attack>Spectral Bite||1d6</attack>
 			<attack>Seeing the Alternatives||1d4</attack>
@@ -11534,7 +11535,7 @@
 			<text>- Shadows come to life within 6 miles of the Queen's lair. Most of the time these living shadows are unnerving and nothing more, but when a creature acts against the interests of the Queen, the shadows can interfere and cause any relevant die roll to be made with disadvantage.</text>
 			<text>- Magic saturates the area within 6 miles of the lair, causing minor random effects similar to a prestidigitation cantrip.</text>
 			<text>- The Queen of Night and Magic can cast her senses to any area containing darkness, dim light, or shadows within 6 miles of her lair, similar to a clairvoyance spell.</text>
-			<text> While the Summer Court rules, the regional effects of the Queen's lair extend into the Winter Palace, but they are diminished and weaker than normal. During the Winter Court's reign, the Winter Palace is not subject to the regional effects. If the Queen of Night and Magic dies, conditions in the area surrounding the lair gradually return to normal over the course of 2d10 days.</text>
+			<text>While the Summer Court rules, the regional effects of the Queen's lair extend into the Winter Palace, but they are diminished and weaker than normal. During the Winter Court's reign, the Winter Palace is not subject to the regional effects. If the Queen of Night and Magic dies, conditions in the area surrounding the lair gradually return to normal over the course of 2d10 days.</text>
 			<attack>Days||2d10</attack>
 		</trait>
 		<action>
@@ -20694,8 +20695,8 @@
 		<cha>13</cha>
 		<skill>Perception +9</skill>
 		<resist>fire, bludgeoning, piercing</resist>
-		<immune> cold, thunder, slashing</immune>
-		<conditionImmune> blinded, deafened, prone, stunned, unconscious</conditionImmune>
+		<immune>cold, thunder, slashing</immune>
+		<conditionImmune>blinded, deafened, prone, stunned, unconscious</conditionImmune>
 		<senses>darkvision 120 ft., tremorsense 60 ft.</senses>
 		<passive>19</passive>
 		<languages>Void Speech</languages>
@@ -22673,7 +22674,7 @@
 		</trait>
 		<trait>
 			<name>Regional Effects</name>
-			<text> The region containing a tosculi hive-queen's lair is warped by the creature's presence, which creates one or more of the	following effects:</text>
+			<text>The region containing a tosculi hive-queen's lair is warped by the creature's presence, which creates one or more of the	following effects:</text>
 			<text>- Intelligent creatures within 6 miles suffer frequent headaches. It's as if they had a constant buzzing inside their heads.</text>
 			<text>- Beasts within 6 miles are more irritable and violent than usual and have the Blood Frenzy trait: The beast has advantage on melee attack rolls against a creature that doesn't have all its hit points.</text>
 			<text>If the tosculi hive-queen dies, the buzzing disappears immediately, and the beasts go back to normal within 1d10 days.</text>
@@ -23622,7 +23623,7 @@
 		<spells>Gaseous Form</spells>
 		<trait>
 			<name>Smoky Constitution</name>
-			<text>The vapor lynx spends its time in both gaseous and solid form. Its unique constitution makes it immune to all fog- or gas-related spells and attacks, including its own. A vapor lynx sees clearly through light or heavy obscurement caused by fog, mist, or spells such as fog cloud.</text>
+			<text>The vapor lynx spends its time in both gaseous and solid form. Its unique constitution makes it immune to all fog-or gas-related spells and attacks, including its own. A vapor lynx sees clearly through light or heavy obscurement caused by fog, mist, or spells such as fog cloud.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -24325,9 +24326,9 @@
 		<type>undead</type>
 		<description>Source: Tome of Beasts</description>
 		<alignment>chaotic evil</alignment>
-		<ac> 12</ac>
-		<hp> 97 (13d8 + 39)</hp>
-		<speed> 30 ft.</speed>
+		<ac>12</ac>
+		<hp>97 (13d8 + 39)</hp>
+		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>14</dex>
 		<con>16</con>
