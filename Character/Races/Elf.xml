@@ -323,4 +323,48 @@
 			<text>	Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</text>
 		</trait>
 	</race>
+	<race name="Elf (Pallid)" source="EGW">
+		<name>Elf (Pallid)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Dex 2, Wis 1</ability>
+		<proficiency>Perception</proficiency>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Keen Senses</name>
+			<text>You have proficiency in the Perception skill.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common, and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+		</trait>
+		<trait>
+			<name>Incisive Sense</name>
+			<text>You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks.</text>
+		</trait>
+		<trait>
+			<name>Blessing of the Moon Weaver</name>
+			<text>You know the light cantrip. When you reach 3rd level, you can cast the sleep spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the invisibility spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Light, Sleep, Invisibility</spells>
+		<trait>
+			<name>Height and Weight</name>
+			<text>Base Height: 4'6"</text>
+			<text>Base Weight: 90 lbs</text>
+			<text>Height Modifier: 2d10</text>
+			<text>Weight Modifier: x1d4</text>
+		</trait>
+	</race>
 </compendium>
