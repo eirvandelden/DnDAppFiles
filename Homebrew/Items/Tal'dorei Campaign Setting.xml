@@ -20,6 +20,7 @@
 		<rarity/>
 		<text>Oloore Root began as a druidic ceremonial tool for vision quests and communion with nature, but has become sought after by high society for its psychedelic properties. Drinking of the tea brewed from the root leads to heavy hallucinations, and sometimes grants insight to the world around them.</text>
 		<text>	The imbiber must make a Constitution saving throw (DC 14) or become poisoned for 1d4 hours. Upon a success, the imbiber gains advantage on any Wisdom ability checks for 1 hour. On a saving throw of 19 or 20, the imbiber gains supernatural distance seeing, as though they had cast a scrying spell. They may Concentrate on this for up to 1 minute. (Valued at around 100 gp per dose.)</text>
+		<roll>1d4</roll>
 	</item>
 	<item>
 		<name>Zeal</name>
@@ -28,7 +29,9 @@
 		<weight/>
 		<rarity/>
 		<text>Zeal is distilled from the blood of captured or slain quaggoth deep from beneath the surface of Exandria. When brewed properly, a thick, purple-colored liquid that tastes of ash remains.</text>
-		<text>	Drinking zeal or applying liberally to exposed skin (requiring an action) forces the user to make a Constitution saving throw (DC 12) or become paralyzed for 1d4 rounds as every muscle seizes up. With a success, the user deals an additional 3 damage to any target it hits with a melee attack for 2d6 rounds. THe user suffers 1 point of exhaustion after the effect ends, regardless of saving throw success. (valued at around 150 gp per dose)</text>
+		<text>	Drinking zeal or applying liberally to exposed skin (requiring an action) forces the user to make a Constitution saving throw (DC 12) or become paralyzed for 1d4 rounds as every muscle seizes up. With a success, the user deals an additional 3 damage to any target it hits with a melee attack for 2d6 rounds. The user suffers 1 point of exhaustion after the effect ends, regardless of saving throw success. (valued at around 150 gp per dose)</text>
+		<roll>1d4</roll>
+		<roll>2d6</roll>
 	</item>
 	<item>
 		<name>Suude</name>
@@ -38,6 +41,7 @@
 		<rarity/>
 		<text>Suude is a dangerous, granular substance refined from magic residuum. Initially developed during the Age of Arcanum by archmages as an incense burned to enhance long spell ritual casting, the secret was discovered and spread among the spellcasting riffraff of Exandria. The varying forms of refinement are dangerous, and can produce one of three different types of suude.</text>
 		<text>	When burned and the fumes inhaled (requiring an action), the imbiber must make a Constitution saving throw (DC 10) or become unconscious for 2d4 rounds. With a success, the user gains 1 Sorcery Point and access to one Metamagic option (as per the Sorcerer class Font of Magic and Metamagic features) for 1 hour based on the type of suude used. If more than one dose of suude is used within 1 hour of another, the DC of the Constitution saving throw is increased by 3 per additional dose. If three or more doses are used within 1 hour of each other, failing the Constitution saving throw drops the user to 0 hit points. Brown suude grants the Extended Spell option, Blue suude grants the Twinned Spell option, and Red suude grants the Distant Spell option. (valued at around 80 gp per dose)</text>
+		<roll>2d4</roll>
 	</item>
 	<item>
 		<name>Graz'tchar, The Decadent End</name>
@@ -100,6 +104,7 @@
 		<weight/>
 		<rarity/>
 		<text>Creatures within 20 foot radius must make a DC 12 Constitution saving throw or be poisoned for 1d6 rounds, detonates after 6-second fuse</text>
+		<roll>1d6</roll>
 	</item>
 	<item>
 		<name>Wind glider</name>
@@ -229,6 +234,7 @@
 		<text>This cloak of dark leather and gold trim seems to occasionally shimmer with small sparks of blue energy across the shadowed lining. This cloak has 4 charges, and regains 1d4 expended charges daily at dawn.</text>
 		<text>	When you are targeted by an enemy's spell, you can use your reaction to have the cloak swallow part of the spell. The cloak gains a number of charges equal to the spell level of the triggering spell. You are still subject to whatever effects the spell would normally inflict on you. You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you hit with an attack, you can choose to expend any number of charges from the cloak, dealing an additional 1d6 lightning damage per charge expended, which is inflicted on the target of that attack. If your attack strikes multiple targets, you must choose one target from the group to be subject to this damage.</text>
+		<roll>1d6</roll>
 		<roll>1d4</roll>
 	</item>
 	<item>
@@ -242,6 +248,7 @@
 		<text>This cloak of dark leather and gold trim seems to occasionally shimmer with small sparks of blue energy across the shadowed lining. This cloak has 6 charges, and regains 1d4+2 expended charges daily at dawn.</text>
 		<text>	When you are targeted by an enemy's spell, you can use your reaction to have the cloak swallow part of the spell. The cloak gains a number of charges equal to the spell level of the triggering spell. You are still subject to whatever effects the spell would normally inflict on you. You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you hit with an attack, you can choose to expend any number of charges from the cloak, dealing an additional 1d6 lightning damage per charge expended, which is inflicted on the target of that attack. If your attack strikes multiple targets, you must choose one target from the group to be subject to this damage.</text>
+		<roll>1d6</roll>
 		<text>	You gain advantage on all saving throws against spells and other magical effects while wearing this cloak.</text>
 		<text>	When using the cloak's ability to swallow a spell, you gain resistance to the damage of that spell.</text>
 		<roll>1d4+2</roll>
@@ -257,6 +264,7 @@
 		<text>This cloak of dark leather and gold trim seems to occasionally shimmer with small sparks of blue energy across the shadowed lining. This cloak has 10 charges, and regains 1d6+4 expended charges daily at dawn.</text>
 		<text>	When you are targeted by an enemy's spell, you can use your reaction to have the cloak swallow part of the spell. The cloak gains a number of charges equal to the spell level of the triggering spell. You are still subject to whatever effects the spell would normally inflict on you. You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you hit with an attack, you can choose to expend any number of charges from the cloak, dealing an additional 1d6 lightning damage per charge expended, which is inflicted on the target of that attack. If your attack strikes multiple targets, you must choose one target from the group to be subject to this damage.</text>
+		<roll>1d6</roll>
 		<text>	You gain advantage on all saving throws against spells and other magical effects while wearing this cloak.</text>
 		<text>	When using the cloak's ability to swallow a spell, you gain resistance to the damage of that spell.</text>
 		<roll>1d6+4</roll>
@@ -483,6 +491,7 @@
 		<text>	When a creature is killed by an arrow from this weapon, a single 6-ft tree rapidly grows out of their corpse over the next minute.</text>
 		<text>	Additionally when you hit with an attack using this weapon, the target takes an additional 1d4 lightning damage.</text>
 		<text>	When you hit with an attack, you can declare a bramble shot. The target takes an additional 3d8 piercing damage, and they must make a DC 15 Strength saving throw or become restrained by the suddenly sprouting steel-hard thorn brambles that immediately grow from the arrow. The restrained target can repeat the saving throw at the end of each of its turns, ending the effect on a success. You cannot use this ability again until you finish a short or long rest.</text>
+		<roll>3d8</roll>
 		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
 		<text/>
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
@@ -514,6 +523,7 @@
 		<text>	When a creature is killed by an arrow from this weapon, a single 6-ft tree rapidly grows out of their corpse over the next minute.</text>
 		<text>	Additionally when you hit with an attack using this weapon, the target takes an additional 1d6 lightning damage.</text>
 		<text>	When you hit with an attack, you can declare a bramble shot. The target takes an additional 3d8 piercing damage, and they must make a DC 17 Strength saving throw or become restrained by the suddenly sprouting steel-hard thorn brambles that immediately grow from the arrow. The restrained target can repeat the saving throw at the end of each of its turns, ending the effect on a success. You can use this ability twice between rests.</text>
+		<roll>3d8</roll>
 		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
 		<text/>
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
@@ -759,7 +769,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Requires attunement</text>
-		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +2 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 1d6 fire damage.</text>
+		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +2 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 2d6 fire damage.</text>
 		<text>	You can choose to have this weapon shed bright light in a 30 foot radius and dim light for an additional 30 feet. If you kill a creature with an attack using this weapon, the corpse is immolated, turning to ash.</text>
 		<text>	As an action, you can slam the Pyremaul into the ground to cast the burning hands spell at 2nd level (spell save DC 15). You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you score a critical hit with this weapon, the target must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
@@ -781,7 +791,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Requires attunement</text>
-		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +3 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 1d6 fire damage.</text>
+		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +3 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 3d6 fire damage.</text>
 		<text>	You can choose to have this weapon shed bright light in a 30 foot radius and dim light for an additional 30 feet. If you kill a creature with an attack using this weapon, the corpse is immolated, turning to ash.</text>
 		<text>	As an action, you can slam the Pyremaul into the ground to cast the burning hands spell at 3rd level (spell save DC 17). You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you score a critical hit with this weapon, the target must succeed on a DC 17 Strength saving throw or be knocked prone. You can also roll an additional 3d6 fire damage when determining the extra damage for the critical hit.</text>
@@ -1000,6 +1010,7 @@
 		<text>	Whenever you finish a short or long rest, you gain a number of temporary hit points equal to your full ki points.</text>
 		<text>	As a bonus action, you can cast the spell misty step. You cannot use this ability again until you score a critical hit with an unarmed strike, or you complete a short or long rest.</text>
 		<text>	When you hit with an unarmed strike, you can choose to make the attack a Ravenous Strike. The target takes an additional 6d6 necrotic damage, and you regain hit points equal to the additional necrotic damage dealt. You cannot use this ability again until you complete a short or long rest.</text>
+		<roll>6d6</roll>
 		<modifier category="bonus">melee attacks +3</modifier>
 		<modifier category="bonus">melee damage +3</modifier>
 	</item>

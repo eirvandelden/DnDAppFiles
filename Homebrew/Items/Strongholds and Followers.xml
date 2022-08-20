@@ -45,6 +45,7 @@
 		<text>Starts as a basic gray potion with no effect. However, if a material component is added, it gains one of the following effects:</text>
 		<text>Potion of Bear's Endurance. You gain 2d6 temporary hit points and have advantage on Constitution checks for 1 hour. Requires a hair from a bear.</text>
 		<roll>2d6</roll>
+		<roll>2d6</roll>
 		<text>Potion of Bull's Strength. You have advantage on Strength checks and your carrying capacity doubles for 1 hour. Requires a tail-hair from a bull.</text>
 		<text>Potion of Cat's Grace. You have advantage on Dexterity checks and do not take damage from falling up to 20 feet while you are not incapacitated for 1 hour. Requires a cat's claw.</text>
 		<text>Potion of Eagle's Splendor. You have advantage on Charisma checks for 1 hour. Requires an eagle's feather.</text>
@@ -64,6 +65,7 @@
 		<text>Requires Attunement by a barbarian</text>
 		<text>The wicked edge of this serrated greataxe is permanently coated in dried blood.</text>
 		<text>	This greataxe has a +1 bonus to attack and damage rolls. Also, while you are raging, your attacks with this weapon deal an extra 2d6 necrotic damage, and the target's maximum hit points are decreased in equal amount to the necrotic damage dealt. The target's hit point maximum does not return to normal until it finishes a long rest or its grievous wounds are soothed by a greater restoration spell.</text>
+		<roll>2d6</roll>
 		<text/>
 		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
 		<text/>
@@ -153,6 +155,7 @@
 		<text>Shadow Tower</text>
 		<text>Once per year as an action, you can summon a round spire made of solid darkness. The tower is 30 feet in diameter and 40 feet high with windows on all sides and a battlement on top. The interior is divided into three floors, with a spiral staircase on the inner wall connecting them. The stairs end at a trapdoor leading to the roof. When summoned, the tower side facing you has a door proportional to your size. The door will only open on your command, which you can speak as a bonus action. Magic of less than 7th level will not open the door.</text>
 		<text>	Each creature in the area where the tower appears must make a DC 13 Dexterity saving throw, taking 12d10 bludgeoning damage on a failed save, or half as much damage on a successful one. All creatures in the area are pushed to an unoccupied space outside but next to the tower. Objects in the area are pushed automatically.</text>
+		<roll>12d10</roll>
 		<text>	The sky above the tower is always dark, and the tower itself is made of substantial shadow and melds with the ground, preventing it from being tipped over. The roof, door, and walls each have 90 hit points, immunity to damage from nonmagical weapons except siege weapons, and resistance to all other damage. It cannot be repaired, but can be dismissed as an action. The next time the tower is summoned, it is complete and free of damage.</text>
 		<text>	The tower is a 2nd-level tower stronghold and grants units defending it +1 Morale.</text>
 		<text/>
@@ -193,10 +196,15 @@
 		<text>Once per week as an action, you may sacrifice Hit Dice to summon a Legion of Hell. This unit's size depends on the number of Hit Dice you sacrificed, as follows.</text>
 		<text>Hit Dice  Sacrificed Size of Unit</text>
 		<text>2         1d4</text>
+		<roll>1d4</roll>
 		<text>4         1d6</text>
+		<roll>1d6</roll>
 		<text>6         1d8</text>
+		<roll>1d8</roll>
 		<text>8         1d10</text>
+		<roll>1d10</roll>
 		<text>10        1d12</text>
+		<roll>1d12</roll>
 		<text/>
 		<text>The Key to the Gate</text>
 		<text>While the codex incabulum is on the Mundane World, summoned demons and devils cannot summon more demons or devils. Should the Book of Fiends ever leave the Mundane World, however, this restriction would be lifted, and then even minor demons could gate in powerful allies, who themselves could gate in more allies, until armies of demons flooded the world.</text>
@@ -224,6 +232,7 @@
 		<text>Walking Tower</text>
 		<text>Once per year as an action, you can summon a tall square tower made of metal and gears. The tower is 20 feet on a side and 60 feet high, with windows on all sides and a battlement on top. The tower has six mechanical legs, granting it a movement speed of 24 miles per day. The interior is divided into five floors connected by an automated moving staircase on the inner wall. The stairs end at a trapdoor leading to the roof. When summoned, the tower side facing you has a door proportional to your size. The door will only open on your command, which you can speak as a bonus action. Magic of less than 7th level will not open the door.</text>
 		<text>	Each creature in the area where the tower appears must make a DC 13 Dexterity saving throw, taking 13d8 bludgeoning damage on a failed save, or half as much damage on a successful one. All creatures in the area are pushed to an unoccupied space outside but next to the tower. Objects in the area are pushed automatically.</text>
+		<roll>13d8</roll>
 		<text>	The tower is made of metal. The roof, door, and walls each have 300 hit points, immunity to damage from nonmagical weapons except siege weapons, and resistance to all other damage. It cannot be repaired, but can be dismissed as an action. The next time the tower is summoned, it is complete and free of damage.</text>
 		<text>	An automated ballista protrudes from each wall, granting the tower an Attack: 12, Power: 14 attack in battles.</text>
 		<text>	The tower counts as a tower stronghold, and it grants units defending it +2 Morale.</text>
@@ -236,6 +245,7 @@
 		<text/>
 		<text>Master of Golems</text>
 		<text>No construct will attack you. As an action, you can make a Command check against a construct within 30 feet by rolling 1d20 and adding your Wisdom bonus + 2. If the result is greater than the construct's Hit Dice, then the construct is yours to command, as though you were its creator.</text>
+		<roll>1d20</roll>
 		<text>	This control lasts 1 hour, after which the construct is free of your influence and cannot be commanded again in this way.</text>
 	</item>
 	<item>
@@ -311,6 +321,7 @@
 		<text>41-45   The target is completely covered in an inch-thick coat of honey. also, 500 bees arrive.</text>
 		<text>46-49   Every time the target speaks, the following music plays: (https://flat.io/score/5c1396a35e87c23257ad5965-mcdm-codex-miror-sheet-music?sharingKey=dacf2982723e7f3d0475877fa17b16b3cec6ec44385cca4b366867e54fdde956b82befecbf92bb988859b4184c39c4f00d7bb0158b513ca0e4f01cf1ef3810e6)</text>
 		<text>50-54   A small cottage falls on you, dealing 8d10 damage. you are pinned under the house with only your feet sticking out.</text>
+		<roll>8d10</roll>
 		<text>55-59   Rotting fish shower down within 100 feet of the target for 6 seconds.</text>
 		<text>60-63   You are polymorphed into a centaur.</text>
 		<text>64-67   All weapons within 60 feet turn into bunches of flowers.</text>
@@ -345,6 +356,7 @@
 		<text/>
 		<text>Fire Armor</text>
 		<text>You are always protected by an invisible fire shield spell. Whenever you take damage from a melee attack, your fire armor erupts in flame, revealing itself and dealing damage to the attacker in equal amount to the damage taken (instead of 2d8).</text>
+		<roll>2d8</roll>
 		<text/>
 		<text>Ward of Fire</text>
 		<text>Whenever you are surprised in combat, a fire elemental immediately arrives and acts on initiative count 20. It attacks your enemies, putting your safety first, obeying your orders second. It remains in the Mundane World for 1 minute, after which it returns to Quintessence.</text>
@@ -380,7 +392,9 @@
 		<text>Summon Temporal Duplicate</text>
 		<text>Once per month as an action, you can summon a version of yourself from the future. It is one possible version of your future character. It has your stats but is four levels higher and may have different items or even spells, at your GM's discretion.21 You have no control over your temporal duplicate, but it is a version of you and will probably help you out. Because it is from one possible future, it is experiencing one possible past and may not remember the situation it finds itself in, because it never experienced this past.</text>
 		<text>	The duplicate remains in this manifold of the timescape for 4 + 1d4 rounds, after which it returns to its own time. If it drops to 0 hit points, it automatically returns—unconscious—to its original manifold.</text>
+		<roll>1d4</roll>
 		<text>	While you are attuned to the book, the GM may ask you to make a percentile roll at random moments. If you roll a 100, you disappear for 4 + 1d4 rounds, as you are relentlessly pulled backward into an alternate past to serve a version of yourself four levels lower.</text>
+		<roll>1d4</roll>
 		<text/>
 		<text>Nomad of the Timescape</text>
 		<text>You cease aging. As an action once per year, you may sacrifice any number of Hit Dice to move forward or backward in time by a hundred years per Hit Die sacrificed. You can observe and interact with, but cannot change, the past or future. Because of the manifold nature of the timescape, the past or future you find yourself in may not be your past or future.</text>
@@ -480,6 +494,7 @@
 		<text>Requires attunement by a chaotic creature</text>
 		<text/>
 		<text>If you are a neutral character, this dull grey longsword functions as a normal weapon with no bonus or special properties. If you are lawful, touching Disruptor deals 2d8 necrotic damage to you. If you are a chaotic character, you can use Disruptor as a magic weapon with the following properties.</text>
+		<roll>2d8</roll>
 		<text>	You gain a +1 bonus to attack and damage rolls made with this weapon. This bonus increases to +3 against lawful creatures. If an attack with Disruptor reduces a creature to 0 hit points, their chest bursts open and their organs spill out.</text>
 		<text>	Whenever you score a critical hit with Disruptor, roll a d6 on the Court of All Flesh row of the Servitors chart (page 31). The critical hit lops a limb off the enemy's body, and the rolled servitor spawns from the severed flesh. This servitor fights for you and obeys your commands. They return to Morphosis after 1 minute or if they drop to 0 hit points.</text>
 		<text/>
@@ -501,6 +516,7 @@
 		<text>Rarity: Very Rare</text>
 		<text>Requires attunement by a chaotic creature</text>
 		<text>If you are a neutral character, this ash longbow functions as a normal weapon with no bonus or magical properties. If you are lawful, touching this weapon deals 2d8 radiant damage to you. If you are chaotic, you can use the foxglove bow as a magic weapon with the following properties.</text>
+		<roll>2d8</roll>
 		<text>	Arrows nocked in this bow begin to drip with poison. All arrows fired from this bow deal poison damage in addition to piercing damage.</text>
 		<text>	Whenever you score a critical hit with this bow, roll a d6 on the Court of Arcadia row of the Servitors chart (page 31). Foxglove flowers begin to fall like rain, and the rolled servitor appears behind the target. This servitor fights for you and obeys your commands. They return to Arcadia after 1 minute or if they drop to 0 hit points.</text>
 		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
@@ -524,6 +540,7 @@
 		<text>Rarity: Very Rare</text>
 		<text>Requires Attunement by a good creature</text>
 		<text>If you are a neutral character, this steel mace functions as a normal weapon with no bonus or special properties. If you are evil, touching this weapon deals 2d8 radiant damage to you. If you are a good character, you can use Glory as a magic weapon with the following properties.</text>
+		<roll>2d8</roll>
 		<text>	You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage in addition to bludgeoning damage. While wielding Glory, you glow with faint light.</text>
 		<text>	Whenever you score a critical hit with Glory, roll a d6 on the Celestial Court row of the Servitors chart (page 31). Radiant light floods the battlefield and an angelic chorus begins to play. When the light dissipates, the rolled servitor stands next to you. This servitor fights for you and obeys your commands. They return to their plane after 1 minute or if they drop to 0 hit points.</text>
 		<modifier category="bonus">melee attacks +2</modifier>
@@ -543,7 +560,9 @@
 		<text>Requires Attunement by an evil creature</text>
 		<text/>
 		<text>If you are a neutral character, this reaping tool functions as a normal weapon with no bonus or special properties. If you are good, touching Harvest deals 2d8 necrotic damage to you. If you are an evil character, you can use this sickle as a magic weapon with the following properties.</text>
+		<roll>2d8</roll>
 		<text>	You gain a +1 bonus to attack and damage rolls made with this magic weapon. This bonus increases to +3 against good creatures. If you reduce a living, mortal creature to 0 hit points, you regain 1d8 hit points.</text>
+		<roll>1d8</roll>
 		<text>	Whenever you score a critical hit, roll a d6 on the Undead row of the Servitors chart (page 31). A bell tolls and the rolled servitors burst from the ground. These undead fight for you and obey your commands. The undead turn to dust after 1 minute or if they drop to 0 hit points.</text>
 		<text/>
 		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
@@ -598,6 +617,7 @@
 		<text>Requires attunement by a lawful creature</text>
 		<text/>
 		<text>If you are a neutral character, this crystal longsword functions as a normal weapon with no bonus or special properties. If you are chaotic, touching Obey deals 2d8 force damage to you. If you are a lawful character, you can use Obey as a magic weapon with the following properties.</text>
+		<roll>2d8</roll>
 		<text/>
 		<text>You gain a +1 bonus to attack and damage rolls made with this magic weapon. When this weapon strikes a magic-user concentrating on a spell, their concentration is broken and they are knocked prone.</text>
 		<text>	When you score a critical hit, roll a d6 on the Inexorables row of the Servitors chart (page 31). A glowing white door opens in front of you, the rolled servitor steps through, and the door vanishes. This servitor fights for you and obeys your commands. They return to Axiom after 1 minute or if they drop to 0 hit points.</text>
@@ -618,9 +638,13 @@
 		<text>Chipped off the hide of a gemstone dragon, this crystal grants you psionic abilities depending on its size. It recharges upon completing a long rest. If you ever use the last charge, it turns into an inert precious stone.</text>
 		<text>Size     Example    Charges    Recharge    Manifestations</text>
 		<text>Small    a coin     8          1d4         Amplify, Flay, Distance</text>
+		<roll>1d4</roll>
 		<text>Medium   an apple   12         1d6         Amplify, Distance, Flay, Forget, Sympathy</text>
+		<roll>1d6</roll>
 		<text>Large    a bowl     16         1d8         Amplify, Distance, Flay, Forget, Mindscape, Reflection, Sympathy</text>
+		<roll>1d8</roll>
 		<text>Huge     a pumpkin  24         1d10        Amplify, Believe, Distance, Elsewhere, Flay, Forget, Mindscape, Reflection, Sympathy</text>
+		<roll>1d10</roll>
 	</item>
 	<item>
 		<name>Sword of the Demon Knight</name>
@@ -636,6 +660,7 @@
 		<text>Requires attunement by an evil creature</text>
 		<text/>
 		<text>If you are a neutral character, this jagged longsword functions as a normal weapon with no bonus or special properties. If you are good, touching Sir Malcoda's blade deals 2d8 necrotic damage to you. If you are an evil character, you can use the sword of the demon knight as a magic weapon with the following properties.</text>
+		<roll>2d8</roll>
 		<text>	You gain a +1 bonus to attack and damage rolls made with this magic weapon. Wielding this weapon with two hands causes it to glow with red light, shedding bright light for 20 feet and dim light for an extra 20 feet. Once per day, the wielder can cause the sword to flash a baleful, blinding red light. Lawful good creatures within 30 feet must succeed on a DC 15 Constitution saving throw or be blinded for 1 round.</text>
 		<text>	Whenever you score a critical hit, roll a d6 on the Demons row of the Servitors chart (page 31). Demonic runes appear on the ground and the rolled servitor appears from the shadows. This servitor fights for you and obeys your commands. They return to the Abyss after 1 minute or if they drop to 0 hit points.</text>
 		<text>	The demonic eye on the sword's cross-guard focuses intently on any lawful good creature within 30 feet.</text>
@@ -661,6 +686,7 @@
 		<rarity>Rare</rarity>
 		<text>Rarity: Rare</text>
 		<text>A compass of dwarven origin. Above the north marking of the compass is a small receptacle. Once per season, placing a piece of ore or precious stone into it causes the needle on the compass to point toward the nearest seam containing that material within 12 miles. This seam holds ore and gems worth 4d4 x 100 gp, and mining the seam takes three weeks.</text>
+		<roll>4d4</roll>
 	</item>
 	<item>
 		<name>The Tapestry of Reweaving</name>
@@ -686,7 +712,9 @@
 		<text>Rarity: Very Rare</text>
 		<text>Requires Attunement by an evil character</text>
 		<text>If you are a neutral character, these black iron shortswords function as normal weapons with no bonus or special properties. If you are good, touching either weapon deals 2d8 necrotic damage to you. If you are an evil character, you can use Vincere and Punire as magic weapons with the following properties.</text>
+		<roll>2d8</roll>
 		<text>	You gain a +1 bonus to attack and damage rolls made with these magic weapons. Once per round, if both blades strike a single foe, they deal an extra 1d6 fire damage.</text>
+		<roll>1d6</roll>
 		<text>	When you score a critical hit with either blade, roll a d6 on the Devils row of the Servitors chart (page 31). Flames burst from the ground and the rolled servitor appears. This servitor fights for you and obeys your commands. They return to Hell after 1 minute or if they drop to 0 hit points.</text>
 		<text>	If this weapon strikes a demon, it shackles it and pulls it down to Hell, removing it from the battle.</text>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>

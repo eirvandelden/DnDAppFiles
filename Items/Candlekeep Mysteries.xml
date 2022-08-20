@@ -68,6 +68,7 @@
         <text>Requires Attunement</text>
         <text>Your Constitution score is 20 while you wear these gloves. This property of the gloves has no effect on you if your Constitution is already 20 or higher.</text>
         <text>After making a successful unarmed strike while wearing these gloves, you can use the gloves to deal an extra 2d10 force damage to the target, and you regain a number of hit points equal to the force damage dealt. Alternatively, instead of regaining hit points in this way, you can choose to gain advantage on one attack roll, ability check, or saving throw you make before the end of your next turn.</text>
+        <roll>2d10</roll>
         <text></text>
         <text>Source: Candlekeep Mysteries</text>
     </item>
@@ -77,8 +78,10 @@
         <rarity>legendary</rarity>
         <text>Rarity: legendary</text>
         <text>Unlike most scrolls, a Nether Scroll of Azumar is not a consumable magic item. It takes 30 days of concentrated study—at least 8 hours per day—to attempt to understand this scroll. After completing this study, you must make a DC 25 Intelligence (Arcana) check. If this check fails, you take 16d10 psychic damage, and you can attempt the check again after another 30 days of concentrated study.</text>
+        <roll>16d10</roll>
         <text>When you succeed on the check, you gain the following benefits:</text>
         <text>Your Intelligence score increases by 2, to a maximum of 22. Once you gain this benefit, you can't use this scroll to increase your Intelligence again.</text>
+        <modifier category="ability score">Intelligence+2</modifier>
         <text>  You gain advantage on saving throws against spells and other magical effects.</text>
         <text>When you gain the scroll's benefits, a stone golem magically appears in an unoccupied space within 60 feet of you and acts as your ally. If you die, the golem turns to dust.</text>
         <text></text>
@@ -106,6 +109,7 @@
         <text>Rarity: unknown (magic)</text>
         <text>Requires Attunement by a spellcaster</text>
         <text>While holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack. Radiance is in the form of an exquisite golden hand mirror.</text>
+        <modifier category="bonus">spell attack +1</modifier>
         <text>While surrounded by darkness, it sheds dim light in a 5-foot radius. A creature that is attuned to Radiance can use a bonus action while holding the mirror to cast the enhance ability spell, choosing itself and no other creature as the spell's target. Once this property of the wand is used, it can't be used again until the next dawn.</text>
         <text></text>
         <text>Source: Candlekeep Mysteries</text>
@@ -131,6 +135,7 @@
         <text>Rarity: rare</text>
         <properties>V</properties>
         <text>This single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra 1d10 poison damage to any target it hits.</text>
+        <roll>1d10</roll>
         <text></text>
         <text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.</text>
         <text></text>
@@ -149,8 +154,11 @@
         <text>Requires Attunement</text>
         <properties>V</properties>
         <text>This transparent crystal staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.</text>
+        <modifier category="bonus">weapon attacks +3</modifier>
+        <modifier category="bonus">weapon damage +3</modifier>
         <text>Altered Outcome. The staff has 6 charges. As a bonus action, you can expend 1 of the staff's charges to give yourself or one other creature that you can see a d4. The recipient can roll this d4 and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes before the start of your next turn. If this extra die is not used before then, it is lost.</text>
         <text>  If you expend the staff's last charge, roll a d20. On a roll of 9 or lower, the staff becomes a nonmagical quarterstaff that breaks the first time it scores a hit and deals damage. On a roll of 10 or higher, the staff regains 1d6 of its expended charges.</text>
+        <roll>1d6</roll>
         <text></text>
         <text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.</text>
         <text></text>
@@ -176,6 +184,7 @@
         <text>Rarity: very rare</text>
         <text>Requires Attunement</text>
         <text>While you wear this helm, you gain a +1 bonus to AC and remain aware of your surroundings even while you're asleep, and you have advantage on Wisdom (Perception) checks that rely on sight.</text>
+        <modifier category="bonus">ac +1</modifier>
         <text>As a bonus action, you can cast the see invisibility spell from the helm. Once this property of the helm is used, it can't be used again until the next dawn.</text>
         <text></text>
         <text>Source: Candlekeep Mysteries</text>
