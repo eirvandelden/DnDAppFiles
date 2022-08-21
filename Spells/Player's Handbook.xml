@@ -67,6 +67,7 @@
 		<text>Change Appearance: You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also don't appear as a creature of a different size than you, and your basic shape stays the same, if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</text>
 		<text/>
 		<text>Natural Weapons: You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with you unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</text>
+		<roll>1d20+PROF+STR+1</roll>
 		<roll>1d6+1</roll>
 	</spell>
 	<spell>
@@ -146,14 +147,24 @@
 		<text>Animated Object Statistics</text>
 		<text/>
 		<text>Tiny - HP: 20, AC: 18, Attack: +8 to hit, 1d4 + 4 damage, Str: 4, Dex: 18</text>
+		<roll>1d20+8</roll>
+		<roll>1d4 + 4</roll>
 		<text/>
 		<text>Small - HP: 25, AC: 16, Attack: +6 to hit, 1d8 + 2 damage, Str: 6, Dex: 14</text>
+		<roll>1d20+6</roll>
+		<roll>1d8 + 2</roll>
 		<text/>
 		<text>Medium - HP: 40, AC: 13, Attack: +5 to hit, 2d6 + 1 damage, Str: 10, Dex: 12</text>
+		<roll>1d20+5</roll>
+		<roll>2d6 + 1</roll>
 		<text/>
 		<text>Large - HP: 50, AC: 10, Attack: +6 to hit, 2d10 + 2 damage, Str: 14, Dex: 10</text>
+		<roll>1d20+6</roll>
+		<roll>2d10 + 2</roll>
 		<text/>
 		<text>Huge - HP: 80, AC: 10, Attack: +8 to hit, 2d12 + 4 damage, Str: 18, Dex: 6</text>
+		<roll>1d20+8</roll>
+		<roll>2d12 + 4</roll>
 		<text/>
 		<text>An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determine by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet, if the objects lack legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.</text>
 		<text/>
@@ -291,6 +302,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
 		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
 	</spell>
 	<spell>
 		<name>Astral Projection</name>
@@ -482,6 +501,7 @@
 		<text>A remove curse spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.</text>
 		<text/>
 		<text>At Higher Levels: If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.</text>
+		<roll>1d8</roll>
 	</spell>
 	<spell>
 		<name>Bigby's Hand</name>
@@ -507,10 +527,17 @@
 		<text>Interposing Hand. The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>4d8</roll>
-		<roll>5*SPELL</roll>
+		<roll>6d8</roll>
+		<roll>8d8</roll>
+		<roll>10d8</roll>
+		<roll>12d8</roll>
+		<roll>5+5*SPELL</roll>
 		<roll>2d6+SPELL</roll>
+		<roll>4d6+SPELL</roll>
+		<roll>6d6+SPELL</roll>
+		<roll>8d6+SPELL</roll>
+		<roll>10d6+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Blade Barrier</name>
@@ -567,6 +594,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</text>
 		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<roll>11d8</roll>
+		<roll>12d8</roll>
+		<roll>13d8</roll>
 	</spell>
 	<spell>
 		<name>Blinding Smite</name>
@@ -633,6 +665,13 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.</text>
 		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
 	</spell>
 	<spell>
 		<name>Burning Hands</name>
@@ -649,6 +688,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
 		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<roll>11d6</roll>
 	</spell>
 	<spell>
 		<name>Call Lightning</name>
@@ -667,6 +714,12 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher level, the damage increases by 1d10 for each slot level above 3rd.</text>
 		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>8d10</roll>
+		<roll>9d10</roll>
 	</spell>
 	<spell>
 		<name>Calm Emotions</name>
@@ -726,7 +779,6 @@
 		<text>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</text>
 		<text/>
 		<text>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -744,8 +796,15 @@
 		<text>You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose. At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<roll>11d8</roll>
 	</spell>
 	<spell>
 		<name>Circle of Death</name>
@@ -760,6 +819,9 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.</text>
 		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<roll>11d6</roll>
 	</spell>
 	<spell>
 		<name>Circle of Power</name>
@@ -813,6 +875,13 @@
 		<text/>
 		<text>At Higher Levels: when you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.</text>
 		<roll>4d4</roll>
+		<roll>5d4</roll>
+		<roll>6d4</roll>
+		<roll>7d4</roll>
+		<roll>8d4</roll>
+		<roll>9d4</roll>
+		<roll>10d4</roll>
+		<roll>11d4</roll>
 	</spell>
 	<spell>
 		<name>Cloudkill</name>
@@ -829,8 +898,12 @@
 		<text/>
 		<text>The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings. At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
 		<text/>
-		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
+		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
 		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
 	</spell>
 	<spell>
 		<name>Color Spray</name>
@@ -847,6 +920,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.</text>
 		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>8d10</roll>
+		<roll>9d10</roll>
+		<roll>10d10</roll>
+		<roll>11d10</roll>
+		<roll>12d10</roll>
+		<roll>13d10</roll>
+		<roll>14d10</roll>
 	</spell>
 	<spell>
 		<name>Command</name>
@@ -960,6 +1041,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
 		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<roll>11d8</roll>
+		<roll>12d8</roll>
 	</spell>
 	<spell>
 		<name>Confusion</name>
@@ -974,13 +1059,11 @@
 		<text/>
 		<text>An affected target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.</text>
 		<text/>
-		<text>1: The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn't take an action this turn.</text>
-		<text/>
-		<text>2-6: The creature doesn't move or take actions this turn.</text>
-		<text/>
-		<text>7-8: The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.</text>
-		<text/>
-		<text>9-10: The creature can act and move normally.</text>
+		<text>d10    Effect</text>
+		<text>1      The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn't take an action this turn.</text>
+		<text>2-6    The creature doesn't move or take actions this turn.</text>
+		<text>7-8    The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.</text>
+		<text>9-10   The creature can act and move normally.</text>
 		<text/>
 		<text>At the end of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.</text>
 		<text/>
@@ -1398,6 +1481,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</text>
 		<roll>1d8+SPELL</roll>
+		<roll>2d8+SPELL</roll>
+		<roll>3d8+SPELL</roll>
+		<roll>4d8+SPELL</roll>
+		<roll>5d8+SPELL</roll>
+		<roll>6d8+SPELL</roll>
+		<roll>7d8+SPELL</roll>
+		<roll>8d8+SPELL</roll>
+		<roll>9d8+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Dancing Lights</name>
@@ -1483,6 +1574,18 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 8th level or higher, the base damage increases by 1d6 for each slot level above 7th.</text>
 		<roll>12d6</roll>
+		<roll>13d6</roll>
+		<roll>14d6</roll>
+		<roll>15d6</roll>
+		<roll>16d6</roll>
+		<roll>17d6</roll>
+		<roll>18d6</roll>
+		<roll>19d6</roll>
+		<roll>20d6</roll>
+		<roll>21d6</roll>
+		<roll>22d6</roll>
+		<roll>23d6</roll>
+		<roll>24d6</roll>
 	</spell>
 	<spell>
 		<name>Demiplane</name>
@@ -1616,6 +1719,9 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th.</text>
 		<roll>10d6+40</roll>
+		<roll>13d6+40</roll>
+		<roll>16d6+40</roll>
+		<roll>19d6+40</roll>
 	</spell>
 	<spell>
 		<name>Dispel Evil and Good</name>
@@ -1659,6 +1765,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
 		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<roll>11d6</roll>
 	</spell>
 	<spell>
 		<name>Divination</name>
@@ -1856,7 +1970,6 @@
 		<text>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</text>
 		<text/>
 		<text>The spell creates more than one beam when you reach higher levels - two beams at 5th level, three beams at 11th level, and four beams at 17th level. you can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d10</roll>
 		<roll>1d10+CHA</roll>
 	</spell>
@@ -1873,6 +1986,8 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.</text>
 		<roll>1d4</roll>
+		<roll>2d4</roll>
+		<roll>3d4</roll>
 	</spell>
 	<spell>
 		<name>Enhance Ability</name>
@@ -1898,6 +2013,7 @@
 		<text>Owl's Wisdom: The target has advantage on Wisdom checks.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</text>
+		<roll>2d6</roll>
 	</spell>
 	<spell>
 		<name>Enlarge/Reduce</name>
@@ -1915,6 +2031,7 @@
 		<text>Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attack with them deal 1d4 extra damage.</text>
 		<text/>
 		<text>Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).</text>
+		<roll>1d4</roll>
 	</spell>
 	<spell>
 		<name>Ensnaring Strike</name>
@@ -1931,6 +2048,14 @@
 		<text/>
 		<text>At Higher Levels: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
 		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
 	</spell>
 	<spell>
 		<name>Entangle</name>
@@ -2064,6 +2189,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.</text>
 		<roll>1d4+4</roll>
+		<roll>1d4+4+1*5</roll>
+		<roll>1d4+4+2*5</roll>
+		<roll>1d4+4+3*5</roll>
+		<roll>1d4+4+4*5</roll>
+		<roll>1d4+4+5*5</roll>
+		<roll>1d4+4+6*5</roll>
+		<roll>1d4+4+7*5</roll>
+		<roll>1d4+4+8*5</roll>
 	</spell>
 	<spell>
 		<name>Fear</name>
@@ -2214,7 +2347,6 @@
 		<text>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</text>
 		<text/>
 		<text>This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d10</roll>
 		<roll>2d10</roll>
 		<roll>3d10</roll>
@@ -2265,6 +2397,12 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</text>
 		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<roll>11d6</roll>
+		<roll>12d6</roll>
+		<roll>13d6</roll>
+		<roll>14d6</roll>
 	</spell>
 	<spell>
 		<name>Flame Blade</name>
@@ -2282,8 +2420,10 @@
 		<text>The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d6</roll>
+		<roll>5d6</roll>
+		<roll>7d6</roll>
+		<roll>9d6</roll>
 	</spell>
 	<spell>
 		<name>Flame Strike</name>
@@ -2298,6 +2438,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by 1d6 for each slot level above 5th.</text>
 		<roll>4d6+4d6</roll>
+		<roll>4d6+5d6</roll>
+		<roll>4d6+6d6</roll>
+		<roll>4d6+7d6</roll>
+		<roll>4d6+8d6</roll>
 	</spell>
 	<spell>
 		<name>Flaming Sphere</name>
@@ -2316,6 +2460,13 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</text>
 		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
 	</spell>
 	<spell>
 		<name>Flesh to Stone</name>
@@ -2569,6 +2720,12 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by 1d8 for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding.</text>
 		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<roll>11d8</roll>
 	</spell>
 	<spell>
 		<name>Goodberry</name>
@@ -2711,8 +2868,15 @@
 		<text>A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<roll>11d6</roll>
+		<roll>12d6</roll>
 	</spell>
 	<spell>
 		<name>Gust of Wind</name>
@@ -2744,6 +2908,11 @@
 		<text/>
 		<text>At Higher Levels: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st (to a maximum of 6d10).</text>
 		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
 	</spell>
 	<spell>
 		<name>Hallow</name>
@@ -2844,6 +3013,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</text>
 		<roll>1d4+SPELL</roll>
+		<roll>2d4+SPELL</roll>
+		<roll>3d4+SPELL</roll>
+		<roll>4d4+SPELL</roll>
+		<roll>5d4+SPELL</roll>
+		<roll>6d4+SPELL</roll>
+		<roll>7d4+SPELL</roll>
+		<roll>8d4+SPELL</roll>
+		<roll>9d4+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Heat Metal</name>
@@ -2860,6 +3037,13 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot above 2nd.</text>
 		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
 	</spell>
 	<spell>
 		<name>Hellish Rebuke</name>
@@ -2874,6 +3058,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</text>
 		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>8d10</roll>
+		<roll>9d10</roll>
+		<roll>10d10</roll>
 	</spell>
 	<spell>
 		<name>Heroes' Feast</name>
@@ -2969,7 +3161,6 @@
 		<text/>
 		<text>The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes 2d6 cold damage. Any creature that ends its turn in the area must succeed on a Dexterity saving throw or take 2d6 acid damage as milky, otherworldly tentacles rub against it.</text>
 		<roll>2d6</roll>
-		<roll>2d6</roll>
 	</spell>
 	<spell>
 		<name>Hunter's Mark</name>
@@ -3012,6 +3203,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.</text>
 		<roll>2d8+4d6</roll>
+		<roll>3d8+4d6</roll>
+		<roll>4d8+4d6</roll>
+		<roll>5d8+4d6</roll>
+		<roll>6d8+4d6</roll>
+		<roll>7d8+4d6</roll>
 	</spell>
 	<spell>
 		<name>Identify</name>
@@ -3112,8 +3308,15 @@
 		<text>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>8d10</roll>
+		<roll>9d10</roll>
+		<roll>10d10</roll>
+		<roll>11d10</roll>
 	</spell>
 	<spell>
 		<name>Insect Plague</name>
@@ -3130,6 +3333,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.</text>
 		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>8d10</roll>
 	</spell>
 	<spell>
 		<name>Invisibility</name>
@@ -3272,7 +3479,15 @@
 		<text>The piece of ammunition or weapon then returns to its normal form.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by 1d8 for each slot level above 3rd.</text>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
 		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
 	</spell>
 	<spell>
 		<name>Lightning Bolt</name>
@@ -3289,6 +3504,12 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot above 3rd.</text>
 		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<roll>11d6</roll>
+		<roll>12d6</roll>
+		<roll>13d6</roll>
+		<roll>14d6</roll>
 	</spell>
 	<spell>
 		<name>Locate Animals or Plants</name>
@@ -3431,6 +3652,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot above 1st.</text>
 		<roll>1d4+1</roll>
+		<roll>2*(1d4+1)</roll>
+		<roll>3*(1d4+1)</roll>
+		<roll>4*(1d4+1)</roll>
+		<roll>5*(1d4+1)</roll>
+		<roll>6*(1d4+1)</roll>
+		<roll>7*(1d4+1)</roll>
+		<roll>8*(1d4+1)</roll>
+		<roll>9*(1d4+1)</roll>
 	</spell>
 	<spell>
 		<name>Magic Mouth</name>
@@ -3491,6 +3720,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.</text>
 		<roll>3d8+SPELL</roll>
+		<roll>4d8+SPELL</roll>
+		<roll>5d8+SPELL</roll>
+		<roll>6d8+SPELL</roll>
+		<roll>7d8+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Mass Heal</name>
@@ -3516,6 +3749,12 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.</text>
 		<roll>1d4+SPELL</roll>
+		<roll>2d4+SPELL</roll>
+		<roll>3d4+SPELL</roll>
+		<roll>4d4+SPELL</roll>
+		<roll>5d4+SPELL</roll>
+		<roll>6d4+SPELL</roll>
+		<roll>7d4+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Mass Suggestion</name>
@@ -3580,9 +3819,16 @@
 		<text>A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</text>
-		<roll>1d20+SPELL+PROF</roll>
-		<roll>4d4</roll>
 		<roll>2d4</roll>
+		<roll>3d4</roll>
+		<roll>4d4</roll>
+		<roll>5d4</roll>
+		<roll>6d4</roll>
+		<roll>7d4</roll>
+		<roll>8d4</roll>
+		<roll>9d4</roll>
+		<roll>10d4</roll>
+		<roll>11d4</roll>
 	</spell>
 	<spell>
 		<name>Mending</name>
@@ -3754,6 +4000,13 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.</text>
 		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>8d10</roll>
+		<roll>9d10</roll>
 	</spell>
 	<spell>
 		<name>Mordenkainen's Faithful Hound</name>
@@ -3770,7 +4023,6 @@
 		<text/>
 		<text>At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 4d8 piercing damage.</text>
 		<roll>4d8</roll>
-		<roll>SPELL+PROF</roll>
 	</spell>
 	<spell>
 		<name>Mordenkainen's Magnificent Mansion</name>
@@ -3828,7 +4080,6 @@
 		<text>You create a sword-shaped plane of force that hovers within range. It lasts for the duration.</text>
 		<text/>
 		<text>When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit. the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d10</roll>
 	</spell>
 	<spell>
@@ -3895,6 +4146,9 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th</text>
 		<roll>10d6</roll>
+		<roll>11d6</roll>
+		<roll>12d6</roll>
+		<roll>13d6</roll>
 	</spell>
 	<spell>
 		<name>Otiluke's Resilient Sphere</name>
@@ -3983,6 +4237,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</text>
 		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>8d10</roll>
+		<roll>9d10</roll>
 	</spell>
 	<spell>
 		<name>Phantom Steed</name>
@@ -4151,6 +4410,13 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.</text>
 		<roll>2d8+SPELL</roll>
+		<roll>3d8+SPELL</roll>
+		<roll>4d8+SPELL</roll>
+		<roll>5d8+SPELL</roll>
+		<roll>6d8+SPELL</roll>
+		<roll>7d8+SPELL</roll>
+		<roll>8d8+SPELL</roll>
+		<roll>9d8+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Prestidigitation</name>
@@ -4188,21 +4454,15 @@
 		<classes>Sorcerer, Wizard</classes>
 		<text>Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a Dexterity saving throw. For each target, roll a d8 to determine which color ray affects it.</text>
 		<text/>
-		<text>1-Red: The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.</text>
-		<text/>
-		<text>2-Orange: The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.</text>
-		<text/>
-		<text>3-Yellow: The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.</text>
-		<text/>
-		<text>4-Green: The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.</text>
-		<text/>
-		<text>5-Blue: The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.</text>
-		<text/>
-		<text>6-Indigo: On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind.</text>
-		<text/>
-		<text>7-Violet: On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)</text>
-		<text/>
-		<text>8-Special: The target is struck by two rays. Roll twice more, rerolling any 8.</text>
+		<text>d8   Color/Effect</text>
+		<text>1    Red: The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.</text>
+		<text>2    Orange: The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.</text>
+		<text>3    Yellow: The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.</text>
+		<text>4    Green: The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.</text>
+		<text>5    Blue: The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.</text>
+		<text>6    Indigo: On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind.</text>
+		<text>7    Violet: On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)</text>
+		<text>8    Special: The target is struck by two rays. Roll twice more, rerolling any 8.</text>
 		<roll>1d8</roll>
 		<roll>10d6</roll>
 	</spell>
@@ -4252,7 +4512,6 @@
 		<text>You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.</text>
 		<text/>
 		<text>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -4398,7 +4657,6 @@
 		<text>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.</text>
 		<text/>
 		<text>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -4416,8 +4674,15 @@
 		<text>A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
 	</spell>
 	<spell>
 		<name>Regenerate</name>
@@ -4593,7 +4858,6 @@
 		<text>Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>2d6</roll>
 	</spell>
 	<spell>
@@ -4641,6 +4905,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot above the 1st.</text>
 		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
 	</spell>
 	<spell>
 		<name>See Invisibility</name>
@@ -4734,6 +5006,14 @@
 		<text>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</text>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
 	</spell>
 	<spell>
 		<name>Shield</name>
@@ -4780,7 +5060,6 @@
 		<text>Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.</text>
 		<text/>
 		<text>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -4847,6 +5126,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.</text>
 		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<roll>11d8</roll>
+		<roll>12d8</roll>
+		<roll>13d8</roll>
 	</spell>
 	<spell>
 		<name>Sleet Storm</name>
@@ -4975,6 +5262,12 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</text>
 		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
 	</spell>
 	<spell>
 		<name>Spiritual Weapon</name>
@@ -4992,8 +5285,10 @@
 		<text>The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8+SPELL</roll>
+		<roll>2d8+SPELL</roll>
+		<roll>3d8+SPELL</roll>
+		<roll>4d8+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Staggering Smite</name>
@@ -5225,14 +5520,14 @@
 		<classes>Bard, Sorcerer, Wizard</classes>
 		<text>This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature. The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls d100 and consults the table.</text>
 		<text/>
-		<text>Familiarity - Mishap - Similar Area - Off Target - On Target</text>
-		<text>Permanent Circle - x - x - x - 01-100</text>
-		<text>Associated Object - x - x - x - 01-100</text>
-		<text>Very Familiar - 01-05 - 06-13 - 14-24 - 25-100</text>
-		<text>Seen Casually - 01-33 - 34-43 - 44-53 - 54-100</text>
-		<text>Viewed Once - 01-43 - 44-53 - 54-73 - 74-100</text>
-		<text>Description - 01-43 - 44-53 - 54-73 - 74-100</text>
-		<text>False Description - 01-50 - 51-100 - x - x</text>
+		<text>Familiarity         Mishap  Similar Area   Off Target   On Target</text>
+		<text>Permanent Circle      x          x             x         01-100</text>
+		<text>Associated Object     x          x             x         01-100</text>
+		<text>Very Familiar       01-05      06-13         14-24       25-100</text>
+		<text>Seen Casually       01-33      34-43         44-53       54-100</text>
+		<text>Viewed Once         01-43      44-53         54-73       74-100</text>
+		<text>Description         01-43      44-53         54-73       74-100</text>
+		<text>False Description   01-50      51-100          x           x</text>
 		<text/>
 		<text>Familiarity: "Permanent Circle" means a permanent teleportation circle whose sigil sequence you know. "Associated Object" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a Lich's secret tomb.</text>
 		<text/>
@@ -5242,11 +5537,14 @@
 		<text/>
 		<text>On Target: You and your group (or the target object) appear where you want to go.</text>
 		<text/>
-		<text>Off Target: You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10 percent of the distance that was to be travelled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as north-east, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.</text>
+		<text>Off Target: You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10 percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as north-east, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.</text>
 		<text/>
 		<text>Similar Area: You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.</text>
 		<text/>
 		<text>Mishap: The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 force damage and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).</text>
+		<roll>1d100</roll>
+		<roll>1d10*1d10</roll>
+		<roll>3d10</roll>
 	</spell>
 	<spell>
 		<name>Teleportation Circle</name>
@@ -5316,7 +5614,6 @@
 		<text>You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.</text>
 		<text/>
 		<text>This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d6</roll>
 		<roll>2d6</roll>
 		<roll>3d6</roll>
@@ -5349,6 +5646,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
 		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
 	</spell>
 	<spell>
 		<name>Time Stop</name>
@@ -5514,8 +5819,13 @@
 		<text>The touch of your shadow-wreathed hand can siphon force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
 	</spell>
 	<spell>
 		<name>Vicious Mockery</name>
@@ -5551,6 +5861,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</text>
 		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
 	</spell>
 	<spell>
 		<name>Wall of Force</name>
@@ -5583,6 +5898,12 @@
 		<text>At Higher Levels: When you cast this spell using a spell slot of 7th level or higher, the damage the wall deals when it appears increases by 2d6, and the damage from passing through the sheet of frigid air increases by 1d6 for each slot level above 6th.</text>
 		<roll>10d6</roll>
 		<roll>5d6</roll>
+		<roll>12d6</roll>
+		<roll>6d6</roll>
+		<roll>14d6</roll>
+		<roll>7d6</roll>
+		<roll>16d6</roll>
+		<roll>8d6</roll>
 	</spell>
 	<spell>
 		<name>Wall of Stone</name>
@@ -5622,6 +5943,9 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 7th level or higher, both types of damage increase by 1d8 for each slot level above 6th.</text>
 		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
 	</spell>
 	<spell>
 		<name>Warding Bond</name>
@@ -5751,7 +6075,7 @@
 		<text>The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. This damage can't be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn't 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast Wish ever again if you suffer this stress.</text>
 		<roll>1d10</roll>
 		<roll>2d4</roll>
-		<roll>1d6</roll>
+		<roll>1d100</roll>
 	</spell>
 	<spell>
 		<name>Witch Bolt</name>
@@ -5766,6 +6090,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d12 for each slot level above 1st.</text>
 		<roll>1d12</roll>
+		<roll>2d12</roll>
+		<roll>3d12</roll>
+		<roll>4d12</roll>
+		<roll>5d12</roll>
+		<roll>6d12</roll>
+		<roll>7d12</roll>
+		<roll>8d12</roll>
+		<roll>9d12</roll>
 	</spell>
 	<spell>
 		<name>Word of Recall</name>
@@ -5790,6 +6122,7 @@
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Paladin</classes>
 		<text>The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.</text>
+		<roll>1d6</roll>
 	</spell>
 	<spell>
 		<name>Zone of Truth</name>
@@ -5804,4 +6137,161 @@
 		<text/>
 		<text>An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth.</text>
 	</spell>
+
+	<!-- monster entries for tracking/ease of use -->
+	<monster>
+		<name>Animated Object (Tiny)</name>
+		<size>T</size>
+		<type>construct</type>
+		<description>Source: Player's Handbook</description>
+		<alignment>unaligned</alignment>
+		<ac>18</ac>
+		<hp>20</hp>
+		<speed>30 ft. (flying with hover if object lacks legs/locomotion appendages)</speed>
+		<str>4</str>
+		<dex>18</dex>
+		<con>10</con>
+		<int>3</int>
+		<wis>3</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsense 30 ft. (blind beyond this radius)</senses>
+		<passive></passive>
+		<languages>—</languages>
+		<cr></cr>
+		<action>
+			<name>Slam</name>
+			<text>Attack: +8 to hit, 1d4 + 4 damage</text>
+			<attack>Slam|8|1d4+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Animated Object (Tiny)</name>
+		<size>T</size>
+		<type>construct</type>
+		<description>Source: Player's Handbook</description>
+		<alignment>unaligned</alignment>
+		<ac>16</ac>
+		<hp>25</hp>
+		<speed>30 ft. (flying with hover if object lacks legs/locomotion appendages)</speed>
+		<str>6</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>3</int>
+		<wis>3</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsense 30 ft. (blind beyond this radius)</senses>
+		<passive></passive>
+		<languages>—</languages>
+		<cr></cr>
+		<action>
+			<name>Slam</name>
+			<text>Attack: +6 to hit, 1d8 + 2 damage</text>
+			<attack>Slam|6|1d8 + 2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Animated Object (Medium)</name>
+		<size>M</size>
+		<type>construct</type>
+		<description>Source: Player's Handbook</description>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>40</hp>
+		<speed>30 ft. (flying with hover if object lacks legs/locomotion appendages)</speed>
+		<str>10</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>3</int>
+		<wis>3</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsense 30 ft. (blind beyond this radius)</senses>
+		<passive></passive>
+		<languages>—</languages>
+		<cr></cr>
+		<action>
+			<name>Slam</name>
+			<text>Attack: +5 to hit, 2d6 + 1 damage</text>
+			<attack>Slam|5|2d6 + 1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Animated Object (Large)</name>
+		<size>L</size>
+		<type>construct</type>
+		<description>Source: Player's Handbook</description>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>50</hp>
+		<speed>30 ft. (flying with hover if object lacks legs/locomotion appendages)</speed>
+		<str>14</str>
+		<dex>10</dex>
+		<con>10</con>
+		<int>3</int>
+		<wis>3</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsense 30 ft. (blind beyond this radius)</senses>
+		<passive></passive>
+		<languages>—</languages>
+		<cr></cr>
+		<action>
+			<name>Slam</name>
+			<text>Attack: +6 to hit, 2d10 + 2 damage</text>
+			<attack>Slam|6|2d10 + 2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Animated Object (Huge)</name>
+		<size>H</size>
+		<type>construct</type>
+		<description>Source: Player's Handbook</description>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>80</hp>
+		<speed>30 ft. (flying with hover if object lacks legs/locomotion appendages)</speed>
+		<str>18</str>
+		<dex>6</dex>
+		<con>10</con>
+		<int>3</int>
+		<wis>3</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsense 30 ft. (blind beyond this radius)</senses>
+		<passive></passive>
+		<languages>—</languages>
+		<cr></cr>
+		<action>
+			<name>Slam</name>
+			<text>Attack: +8 to hit, 2d12 + 4 damage</text>
+			<attack>Slam|8|2d12 + 4</attack>
+		</action>
+	</monster>
 </compendium>
