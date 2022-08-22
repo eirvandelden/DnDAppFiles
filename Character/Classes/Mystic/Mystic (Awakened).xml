@@ -26,7 +26,7 @@
 		</autolevel>
 		<autolevel level="3">
 			<feature optional="YES">
-				<name>Order of the Awakened: Psionic Investigation</name>
+				<name>Awakened: Psionic Investigation</name>
 				<text>Starting at 3rd level, you can focus your mind to read the psionic imprint left on an object. If you hold an object and concentrate on it for 10 minutes (as if concentrating on a psionic discipline), you learn a few basic facts about it. You gain a mental image from the object's point of view, showing the last creature to hold the object within the past 24 hours.</text>
 				<text>	You also learn of any events that have occurred within 20 feet of the object within the past hour. The events you perceive unfold from the object's perspective. You see and hear such events as if you were there, but can't use other senses.</text>
 				<text>	Additionally, you can embed an intangible psionic sensor within the object. For the next 24 hours, you can use an action to learn the object's location relative to you (its distance and direction) and to look at the object's surroundings from its point of view as if you were there. This perception lasts until the start of your next turn.</text>
@@ -35,21 +35,21 @@
 		</autolevel>
 		<autolevel level="6">
 			<feature optional="YES">
-				<name>Order of the Awakened: Psionic Surge</name>
+				<name>Awakened: Psionic Surge</name>
 				<text>Starting at 6th level, you can overload your psychic focus to batter down an opponent's defenses. You can impose disadvantage on a target's saving throw against a discipline or talent you use, but at the cost of using your psychic focus. Your psychic focus immediately ends if it's active, and you can't use it until you finish a short or long rest.</text>
 				<text>	You can't use this feature if you can't use your psychic focus.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="8">
-			<feature>
-				<name>Order of the Awakened: Potent Psionics</name>
+			<feature optional="YES">
+				<name>Awakened: Potent Psionics</name>
 				<text>At 8th level, you gain the ability to infuse your weapon attacks with psychic energy. Once on each of your turns when you hit a creature with a weapon, you can deal an extra 1d8 psychic damage to that target. When you reach 14th level, this extra damage increases to 2d8.</text>
 				<text>	In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="14">
 			<feature optional="YES">
-				<name>Order of the Awakened: Spectral Form</name>
+				<name>Awakened: Spectral Form</name>
 				<text>At 14th level, you gain the ability to become a ghostly figure of psionic energy. As an action, you can transform into a transparent, ghostly version of yourself. While in this form, you have resistance to all damage, move at half speed, and can pass through objects and creatures while moving but can't willingly end your movement in their spaces. The form lasts for 10 minutes or until you use an action to end it.</text>
 				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>
@@ -152,7 +152,7 @@
 		<text>You wield your mind like a weapon, unleashing salvos of psionic energy.</text>
 		<text>Psychic Focus:</text>
 		<text>While focused on this discipline, you gain a +2 bonus to damage rolls with psionic talents that deal psychic damage.</text>
-		<text>Psionic Blast (1–7 psi):</text>
+		<text>Psionic Blast (1-7 psi):</text>
 		<text>As an action, choose one creature you can see within 60 feet of you. The target takes 1d8 psychic damage per psi point spent on this ability.</text>
 		<text>Ego Whip (3 psi):</text>
 		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, the creature takes 3d8 psychic damage, and it is filled with self-doubt, leaving it able to use its action on its next turn only to take the Dodge, Disengage, or Hide action. On a successful saving throw, it takes half as much damage.</text>
@@ -161,7 +161,7 @@
 		<text>Psychic Blast (6 psi):</text>
 		<text>As an action, you unleash devastating psychic energy in a 60-foot cone. Each creature in that area must make an Intelligence saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one. You can increase the damage by 2d8 if you spend 1 more psi point on this ability.</text>
 		<text>Psychic Crush (7 psi):</text>
-		<text> As an action, you create a 20-foot cube of psychic energy within 120 feet of you. Each creature in that area must make an Intelligence saving throw. On a failed save, a target takes 8d8 psychic damage and is stunned until the end of your next turn. On a successful save, a target takes half as much damage.</text>
+		<text>As an action, you create a 20-foot cube of psychic energy within 120 feet of you. Each creature in that area must make an Intelligence saving throw. On a failed save, a target takes 8d8 psychic damage and is stunned until the end of your next turn. On a successful save, a target takes half as much damage.</text>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -181,7 +181,7 @@
 		<text>You create psychic static that disrupts other creatures' ability to think clearly.</text>
 		<text>Psychic Focus:</text>
 		<text>While focused on this discipline, you have advantage on Charisma (Deception) checks.</text>
-		<text>Distracting Haze (1–7 psi Conc 1m):</text>
+		<text>Distracting Haze (1-7 psi Conc 1m):</text>
 		<text>As an action, choose one creature you can see within 60 feet of you. That creature must make an Intelligence saving throw. On a failed save, it takes 1d10 psychic damage per psi point spent and can't see anything more than 10 feet from it until your concentration ends. On a successful save, it takes half as much damage.</text>
 		<text>Daze (3 psi):</text>
 		<text>As an action, choose one creature you can see within 60 feet of you. That creature must make an Intelligence saving throw. On a failed save, the target is incapacitated until the end of your next turn or until it takes any damage.</text>
@@ -208,7 +208,7 @@
 		<text>You reach into a creature's mind to uncover information or plant ideas within it.</text>
 		<text>Psychic Focus:</text>
 		<text>While focused on this discipline, you know when a creature communicating with you via telepathy is lying.</text>
-		<text>Hammer of Inquisition (1–7 psi):</text>
+		<text>Hammer of Inquisition (1-7 psi):</text>
 		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it takes 1d10 psychic damage per psi point spent and suffers disadvantage on its next Wisdom saving throw before the end of your next turn. On a successful save, it takes half as much damage.</text>
 		<text>Forceful Query (2 psi):</text>
 		<text>As an action, you ask a question of one creature that can see and hear you within 30 feet of you. The question must be phrased so that it can be answered with a yes or no, otherwise this ability fails. The target must succeed on a Wisdom saving throw, or it replies with a truthful answer. A creature is immune to this ability if it is immune to being charmed.</text>
@@ -238,7 +238,7 @@
 		<text>Your power reaches into a creature's mind and causes it false perceptions.</text>
 		<text>Psychic Focus:</text>
 		<text>While focused on this discipline, you have advantage on Charisma (Deception) checks.</text>
-		<text>Distracting Figment (1–7 psi):</text>
+		<text>Distracting Figment (1-7 psi):</text>
 		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it takes 1d10 psychic damage per psi point spent and thinks it perceives a threatening creature just out of its sight; until the end of your next turn, it can't use reactions, and melee attack rolls against it have advantage. On a successful save, it takes half as much damage.</text>
 		<text>Phantom Foe (3 psi Conc 1m):</text>
 		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it perceives a horrid creature adjacent to it until your concentration ends. During this time, the target can't take reactions, and it takes 1d8 psychic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can increase the damage by 1d8 for each additional psi point spent on the ability.</text>

@@ -35,9 +35,19 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The archon's innate spellcasting ability is Charisma (spell save DC 17). The archon can innately cast the following spells, requiring only verbal components:</text>
+			<text></text>
 			<text>At will: detect evil and good</text>
 			<text>1/day each: destructive wave, geas</text>
 		</trait>
+		<trait>
+			<name>Destructive Wave</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Geas</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<spells>Detect Evil and Good, Destructive Wave, Geas</spells>
 		<trait>
 			<name>Magic Resistance</name>
 			<text>The archon has advantage on saving throws against spells and other magical effects.</text>
@@ -89,9 +99,23 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The felidar's innate spellcasting ability is Charisma (spell save DC 14). The felidar can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: detect evil and good, light, thaumaturgy</text>
 			<text>1/day each: calm emotions, daylight, dispel evil and good</text>
 		</trait>
+		<trait>
+			<name>Calm Emotions</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Daylight</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<spells>Detect Evil And Good, Light, Thaumaturgy, Calm Emotions, Daylight, Dispel Evil And Good</spells>
 		<trait>
 			<name>Magic Resistance</name>
 			<text>The felidar has advantage on saving throws against spells and other magical effects.</text>
@@ -117,6 +141,7 @@
 		<action>
 			<name>Healing Touch (3/Day)</name>
 			<text>The felidar touches another creature with its horns. The target magically regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.</text>
+			<recharge>3/DAY</recharge>
 		</action>
 		<action>
 			<name>Teleport (1/Day)</name>
@@ -129,7 +154,7 @@
 		</legendary>
 		<legendary>
 			<name>Shimmering Shield (Costs 2 Actions)</name>
-			<text>The felidar creates a shimmering magical  eld around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the felidar's next turn.</text>
+			<text>The felidar creates a shimmering magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the felidar's next turn.</text>
 		</legendary>
 		<legendary>
 			<name>Heal Self (Costs 3 Actions)</name>
@@ -166,8 +191,18 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The kraken's innate spellcasting ability is Charisma (spell save DC 17). The kraken can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>3/day each: control weather, water breathing</text>
 		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Breathing</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<spells>Control Weather, Water Breathing</spells>
 		<action>
 			<name>Multiattack</name>
 			<text>The kraken makes two attacks: one with its claw and one with its tentacles.</text>
@@ -183,9 +218,9 @@
 			<attack>Tentacles|14|6d6+9</attack>
 		</action>
 		<action>
-			<name>Lightning Strike (Recharge 5–6)</name>
+			<name>Lightning Strike (Recharge 5-6)</name>
 			<text>The kraken hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Lightning Strike|14|12d8</attack>
+			<attack>Lightning Strike||12d8</attack>
 		</action>
 	</monster>
 </compendium>

@@ -43,6 +43,7 @@
 		<text>Requires Attunement</text>
 		<text>While holding this iron tower shield, you gain a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.</text>
 		<text>	Additionally, the shield has 3 charges, and it regains 1d3 expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it prone, or both.</text>
+		<roll>1d3</roll>
 		<text />
 		<modifier category="bonus">ac +1</modifier>
 		<text>Source: Explorer's Guide to Wildemount</text>
@@ -97,9 +98,8 @@
 		<text>Personality. An insane glabrezu named Ragazuu lives within the Blade of Broken Mirrors. The weapon yearns to cause chaos. It learns its wielder's principles, then uses those ideals to encourage reckless action. The dagger whispers ideas of revolution.</text>
 		<text>Awakened. When the dagger reaches an awakened state, it grants the following properties:</text>
 		<text>	• You can speak, read, and write Abyssal.</text>
-		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. Immediately after you make a ranged attack with this weapon, it returns to your hand.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon. Immediately after you make a ranged attack with this weapon, it returns to your hand.</text>
 		<text>	• Whenever you kill a humanoid with an attack using the Blade of Broken Mirrors, the blade remembers the creature's appearance. While holding the dagger, you can use an action to change your form to match any humanoid the blade remembers. Your statistics, other than your size, don't change. Any equipment you are wearing or carrying isn't transformed. You can revert to your true appearance as an action. You revert to your true appearance automatically when you die. When the Blade of Broken Mirrors attunes to a new wielder, the appearances of humanoids it has killed are wiped from its memory.</text>
-		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
 		<text>	• While holding the weapon, you can use an action to cast one of the following spells from it (save DC 15): fabricate, hallucinatory terrain, major image, or phantasmal killer. Once a spell has been cast using the dagger, that spell can't be cast from the dagger again until the next dawn.</text>
 		<modifier category="bonus">melee attacks +2</modifier>
 		<modifier category="bonus">melee damage +2</modifier>
@@ -123,12 +123,9 @@
 		<text>Personality. An insane glabrezu named Ragazuu lives within the Blade of Broken Mirrors. The weapon yearns to cause chaos. It learns its wielder's principles, then uses those ideals to encourage reckless action. The dagger whispers ideas of revolution.</text>
 		<text>Exalted. When the dagger reaches an exalted state, it grants the following properties:</text>
 		<text>	• You can speak, read, and write Abyssal.</text>
-		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. Immediately after you make a ranged attack with this weapon, it returns to your hand.</text>
+		<text>	• You gain a +3 bonus to attack and damage rolls made with this magic weapon. Immediately after you make a ranged attack with this weapon, it returns to your hand.</text>
 		<text>	• Whenever you kill a humanoid with an attack using the Blade of Broken Mirrors, the blade remembers the creature's appearance. While holding the dagger, you can use an action to change your form to match any humanoid the blade remembers. Your statistics, other than your size, don't change. Any equipment you are wearing or carrying isn't transformed. You can revert to your true appearance as an action. You revert to your true appearance automatically when you die. When the Blade of Broken Mirrors attunes to a new wielder, the appearances of humanoids it has killed are wiped from its memory.</text>
-		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
-		<text>	• While holding the weapon, you can use an action to cast one of the following spells from it (save DC 15): fabricate, hallucinatory terrain, major image, or phantasmal killer. Once a spell has been cast using the dagger, that spell can't be cast from the dagger again until the next dawn.</text>
-		<text>	• The weapon's bonus to attack and damage rolls increases to +3.</text>
-		<text>	• The saving throw DC for spells cast from the dagger increases to 17.</text>
+		<text>	• While holding the weapon, you can use an action to cast one of the following spells from it (save DC 17): fabricate, hallucinatory terrain, major image, or phantasmal killer. Once a spell has been cast using the dagger, that spell can't be cast from the dagger again until the next dawn.</text>
 		<text>	• While holding the dagger, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until you stop holding the dagger, until you attack or cast a spell that forces a creature to make a saving throw, or until you use a bonus action to become visible again.</text>
 		<modifier category="bonus">melee attacks +3</modifier>
 		<modifier category="bonus">melee damage +3</modifier>
@@ -142,6 +139,7 @@
 		<magic>1</magic>
 		<text>This volatile alchemical powder comes in a small pouch. When ignited by an open flame or a fuse, the powder explodes. Each creature within 5 feet of the exploding pouch must make a DC 13 Dexterity saving throw, taking 3d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
 		<text>	A character can bind multiple pouches of blasting powder together so they explode at the same time. Each additional pouch increases the damage by 1d6 (maximum of 10d6) and the blast radius by 5 feet (maximum of 20 feet).</text>
+		<roll>1d6</roll>
 		<roll>1d6</roll>
 		<roll>2d6</roll>
 		<roll>3d6</roll>
@@ -174,6 +172,7 @@
 		<text>Rarity: very rare</text>
 		<text>Requires Attunement</text>
 		<text>You gain a +2 bonus to attack and damage rolls made with this magic axe. The axe deals an extra 1d6 necrotic damage to creatures that aren't constructs or undead. If you reduce such a creature to 0 hit points with an attack using this axe, you gain 10 temporary hit points.</text>
+		<roll>1d6</roll>
 		<text>	This axe is forged from a dark, rust-colored metal and once belonged to the goliath barbarian Grog Strongjaw of Vox Machina.</text>
 		<modifier category="bonus">melee attacks +2</modifier>
 		<modifier category="bonus">melee damage +2</modifier>
@@ -295,6 +294,7 @@
 		<text>Requires Attunement</text>
 		<text>This item takes the form of a leather-wrapped metal rod emblazoned with the symbol of Pelor, the Dawn Father. While grasping the rod, you can use a bonus action to cause a warhammer head of crackling radiance to spring into existence. The warhammer's radiant head emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. You can use an action to make the radiant head disappear.</text>
 		<text>	While the radiant head is active, you gain a +2 bonus to attack and damage rolls made with this magic weapon, and attacks with the weapon deal radiant damage instead of bludgeoning damage. An undead creature hit by the weapon takes an extra 1d8 radiant damage.</text>
+		<roll>1d8</roll>
 		<text>	While you are holding Duskcrusher and its radiant head is active, you can use an action to cast the sunbeam spell (save DC 15) from the weapon, and this action can't be used again until the next dawn.</text>
 		<roll>1d8</roll>
 		<modifier category="bonus">melee attacks +2</modifier>
@@ -425,9 +425,8 @@
 		<text>Personality. A covetous ultroloth named Ciria lives within Grovelthrash. The weapon values material possessions and doling out pain. It compliments its wielder whenever they claim treasure and takes pleasure in harming others.</text>
 		<text>Awakened. When the warhammer reaches an awakened state, it grants the following properties:</text>
 		<text>	• You can speak, read, and write Abyssal and Infernal.</text>
-		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra 2d6 bludgeoning damage to the target. If you do, you take 1d6 psychic damage. The warhammer deals double damage to objects and structures.</text>
+		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra 2d6 bludgeoning damage to the target. If you do, you take 1d6 psychic damage. The warhammer deals double damage to objects and structures.</text>
 		<text>	• While holding this weapon, you have advantage on Wisdom (Insight) checks made to discern a lie spoken in a language you understand.</text>
-		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
 		<text>	• You gain a burrowing speed equal to your walking speed. You can use your burrowing speed to move through sand, loose earth, mud, or ice, not solid rock.</text>
 		<text>	• When a creature you can see within 30 feet of you hits you with an attack while you are wielding the warhammer, you can use your reaction to deal an amount of psychic damage to that creature equal to the damage you took from the attack. This property can't be used again until the next dawn.</text>
 		<roll>2d6</roll>
@@ -455,12 +454,10 @@
 		<text>Personality. A covetous ultroloth named Ciria lives within Grovelthrash. The weapon values material possessions and doling out pain. It compliments its wielder whenever they claim treasure and takes pleasure in harming others.</text>
 		<text>Exalted. When the warhammer reaches an exalted state, it grants the following properties:</text>
 		<text>	• You can speak, read, and write Abyssal and Infernal.</text>
-		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra 2d6 bludgeoning damage to the target. If you do, you take 1d6 psychic damage. The warhammer deals double damage to objects and structures.</text>
+		<text>	• You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra 2d6 bludgeoning damage to the target. If you do, you take 1d6 psychic damage. The warhammer deals double damage to objects and structures.</text>
 		<text>	• While holding this weapon, you have advantage on Wisdom (Insight) checks made to discern a lie spoken in a language you understand.</text>
-		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
 		<text>	• You gain a burrowing speed equal to your walking speed. You can use your burrowing speed to move through sand, loose earth, mud, or ice, not solid rock.</text>
 		<text>	• When a creature you can see within 30 feet of you hits you with an attack while you are wielding the warhammer, you can use your reaction to deal an amount of psychic damage to that creature equal to the damage you took from the attack. This property can't be used again until the next dawn.</text>
-		<text>	• The weapon's bonus to attack and damage rolls increases to +3.</text>
 		<text>	• When you have fewer hit points than half your hit point maximum, the warhammer deals an extra 2d6 bludgeoning damage on a hit. You can burrow through solid rock at half your burrowing speed and leave a 5-foot-diameter tunnel in your wake.</text>
 		<text>	• As an action, you can use the warhammer to cast one of the following spells from it (save DC 17): earthquake, meld into stone, or stone shape. Once a spell has been cast using the warhammer, that spell can't be cast from the warhammer again until the next dawn.</text>
 		<modifier category="bonus">melee attacks +3</modifier>
@@ -539,6 +536,7 @@
 		<text>Requires Attunement</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text>The coat has 3 charges. When you hit a creature with an attack and that creature doesn't have all its hit points, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target. The coat regains 1d3 expended charges daily at dawn.</text>
+		<roll>1d3</roll>
 		<text>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</text>
 		<modifier category="bonus">ac +1</modifier>
 		<roll>1d10</roll>
@@ -668,7 +666,7 @@
 		<text>Personality. A mad marilith named Sizlifeth lives within the Lash of Shadows. The weapon has a short temper and experiences only extreme emotions. It is most happy when dealing harm.</text>
 		<text>Awakened. When the whip reaches an awakened state, it grants the following properties:</text>
 		<text>	• You can speak, read, and write Abyssal and Draconic.</text>
-		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• You gain a +3 bonus to attack and damage rolls made with this magic weapon.</text>
 		<text>	• You can attempt to poison any creature that is hit by the whip. The creature must succeed on a DC 15 Constitution saving throw or suffer the effect of one of the following poisons of your choice; once a poison other than Serpent Venom has been used, that poison can't be used again until the next dawn:</text>
 		<text>		Dead Eyes. A creature that fails the saving throw against this poison is poisoned for 1 hour. While poisoned in this way, the creature is blinded.</text>
 		<text>		Serpent Venom. A creature that fails the saving throw against this poison takes 3d6 poison damage, or half as much damage on a successful save.</text>
@@ -898,6 +896,7 @@
 		<text>Rarity: uncommon</text>
 		<text>Requires Attunement</text>
 		<text>This band of iron resembles a skull and is cold to the touch. It has 3 charges and regains 1d3 expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the fog cloud spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required).</text>
+		<roll>1d3</roll>
 		<text />
 		<text>Source: Explorer's Guide to Wildemount</text>
 	</item>
@@ -972,6 +971,7 @@
 		<text>	• You gain a +2 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 2d8 piercing damage to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand.</text>
 		<text>	• As a reaction when you are hit by a melee attack, you can make a melee attack with Ruin's Wake with advantage against the attacker. You can't use this property again until you finish a short or long rest.</text>
 		<text>	• When you hurl the spear and speak a command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a creature you can see within 120 feet of you. Each creature in the line, excluding you, must make a DC 15 Dexterity saving throw, taking 8d6 lightning damage on a failed save, or half as much damage on a successful one. Ruin's Wake then returns to your hand. This property can't be used again until the next dawn.</text>
+		<roll>8d6</roll>
 		<modifier category="bonus">melee attacks +2</modifier>
 		<modifier category="bonus">melee damage +2</modifier>
 		<roll>2d8</roll>
@@ -1079,14 +1079,10 @@
 		<text>Exalted. The rapier grants the following benefits in its exalted state:</text>
 		<text>	• You can speak, read, and write Abyssal, Elvish, and Undercommon.</text>
 		<text>	• You have darkvision out to a range of 60 feet. If you already have darkvision, being attuned to the rapier increases the range of your darkvision by 60 feet.</text>
-		<text>	• You gain a +1 bonus to attack and damage rolls made with this magic weapon.</text>
+		<text>	• You gain a +3 bonus to attack and damage rolls made with this magic weapon.</text>
 		<text>	• You can use an action to cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 17 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.</text>
 		<text>	• While carrying the rapier, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. Additionally, you can't be caught in webs of any sort and can move through webs as if they were difficult terrain.</text>
-		<text>Awakened. The rapier grants the following benefits in its awakened state:</text>
-		<text>	• The weapon's bonus to attack and damage rolls increases to +2.</text>
-		<text>	• The saving throw DC for the weapon's poison increases to 15.</text>
 		<text>	• While holding the rapier, you can use an action to cast one of the following spells from it (save DC 17): cloudkill, darkness, levitate, or web. Once a spell has been cast using the rapier, that spell can't be cast from the rapier again until the next dawn.</text>
-		<text>	• The saving throw DC for the weapon's poison and spells cast from the weapon increases to 17.</text>
 		<text>	• Magical darkness doesn't impede your darkvision.</text>
 		<text>	• While holding the weapon in dim light or darkness, you can use a bonus action to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. This property can't be used again until the next dawn.</text>
 		<modifier category="bonus">melee attacks +3</modifier>
@@ -1132,7 +1128,7 @@
 		<text>This staff of polished gray wood bears numerous runes carved along its length. The staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns into dust and is destroyed.</text>
 		<text>	While holding the staff, you can use an action to expend 2 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: fortune's favor (2 charges), pulse wave (3 charges), or gravity sinkhole (4 charges).</text>
 		<text>	New Possibility. If you are holding the staff and fail a saving throw against a spell that targets only you, you can turn your failed save into a successful one. This property can't be used again until the next dawn.</text>
-		<roll>1d4+4</roll>
+		<roll>1d6+4</roll>
 		<text />
 		<text>Source: Explorer's Guide to Wildemount</text>
 	</item>
@@ -1342,6 +1338,7 @@
 		<text>	• When you cast the polymorph spell using the Verminshroud, you can transform into a giant wasp.</text>
 		<text>	• You gain a climbing speed equal to your walking speed.</text>
 		<text>	• Your teeth become razor-sharp natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You can make this attack as a bonus action. When you bite a creature and deal damage to it, the creature must succeed on a DC 17 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.</text>
+		<roll>1d6+STR</roll>
 		<text>	• When you cast the polymorph spell using the Verminshroud, you can transform into a giant scorpion.</text>
 		<text />
 		<text>Source: Explorer's Guide to Wildemount</text>
@@ -1528,6 +1525,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 		<text>Special. If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Two-Handed. This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it.</text>
 		<text />
@@ -1665,6 +1663,7 @@
 		<roll>1d8</roll>
 		<text/>
 		<text>Special. If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Two-Handed. This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it.</text>
 		<text />
@@ -2868,6 +2867,7 @@
 		<text>When you damage a creature with an attack using this magic weapon, the target can't regain hit points until the start of your next turn.</text>
 		<text/>
 		<text>Special. If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Two-Handed. This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it.</text>
 		<text />

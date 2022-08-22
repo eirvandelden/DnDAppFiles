@@ -27,10 +27,37 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The urban dryad's innate spellcasting ability is Wisdom (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: druidcraft</text>
 			<text>2/day each: earth tremor, goodberry, thorn whip</text>
 			<text>1/day each: calm emotions, earthbind, pass without trace</text>
 		</trait>
+		<trait>
+			<name>Earth Tremor</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Goodberry</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Thorn Whip</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Calm Emotions</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Earthbind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Pass without Trace</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Druidcraft, Earth Tremor, Goodberry, Thorn Whip, Calm Emotions, Earthbind, Pass without Trace</spells>
 		<trait>
 			<name>False Appearance</name>
 			<text>While hidden or resting, an urban dryad is indistinguishable from a mass of ivy creepers.</text>
@@ -135,11 +162,21 @@
 		<cr>6</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The urban dryad's innate spellcasting ability is Wisdom (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text>The elder dryad's innate spellcasting ability is Wisdom (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: commune with nature, meld into stone, sleep</text>
 			<text>3/day: spike growth</text>
 			<text>1/day: blight</text>
 		</trait>
+		<trait>
+			<name>Spike Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<spells>Commune With Nature, Meld into Stone, Sleep, Spike Growth, Blight</spells>
 		<trait>
 			<name>False Appearance</name>
 			<text>While hidden or resting, the elder dryad is indistinguishable from a flowering azalea or another local shrub.</text>
@@ -195,9 +232,23 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The gen's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: detect evil and good, gust</text>
 			<text>2/day each: fog cloud, plane shift (self only), tongues</text>
 		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<spells>Detect Evil and Good, Gust, Fog Cloud, Plane Shift, Tongues</spells>
 		<trait>
 			<name>Elemental Demise</name>
 			<text>If the gen dies, its body disintegrates into a warm breeze, leaving behind only equipment the gen was wearing or carrying.</text>
@@ -250,10 +301,28 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The gen's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: detect evil and good</text>
 			<text>2/day each: entangle, plane shift (self only)</text>
 			<text>1/day each: earth tremor, tongues</text>
 		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Earth Tremor</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<spells>Detect Evil and Good, Entangle, Plane Shift, Earth Tremor, Tongues</spells>
 		<trait>
 			<name>Elemental Demise</name>
 			<text>If the gen dies, its body disintegrates into crystalline powder, leaving behind only equipment the gen was wearing or carrying.</text>
@@ -308,10 +377,24 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The gen's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: control flames, detect evil and good</text>
 			<text>2/day each: plane shift (self only)</text>
 			<text>1/day each: heat metal, tongues</text>
 		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Heat Metal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<spells>Control Flames, Detect Evil and Good, Plane Shift, Heat Metal, Tongues</spells>
 		<trait>
 			<name>Elemental Demise</name>
 			<text>If the gen dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the gen was wearing or carrying.</text>
@@ -363,10 +446,24 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The gen's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: detect evil and good, frostbite, shape water</text>
 			<text>2/day each: plane shift (self only)</text>
 			<text>1/day each: tongues, water walk (self only)</text>
 		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>2/day</recharge>
+		</trait>
+		<trait>
+			<name>Tongues</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Water Walk (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<spells>Detect Evil and Good, Frostbite, Shape Water Plane Shift, Tongues, Water Walk</spells>
 		<trait>
 			<name>Amphibious</name>
 			<text>The gen can breathe air and water.</text>
@@ -392,6 +489,7 @@
 			<name>Tidal Wave (Recharge 6)</name>
 			<text>The gen creates a rushing wave of water in a 15-foot cone. Each creature in that area must succeed on a DC 13 Dexterity saving throw, taking 5 (2d4) bludgeoning damage on a failed save, or half as much on a successful one. A creature that fails its save is also pushed up to 10 feet away and knocked prone.</text>
 			<attack>Tidal Wave||2d4</attack>
+			<recharge>D6</recharge>
 		</action>
 		<action>
 			<name>Invisibility</name>

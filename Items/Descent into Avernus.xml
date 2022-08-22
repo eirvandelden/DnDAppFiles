@@ -27,6 +27,7 @@
 		<text>You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.</text>
 		<text />
 		<text>When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.</text>
+		<roll>6d8</roll>
 		<text />
 		<text>Random Properties. The sword has the following randomly determined properties, as described in chapter 7 of the Dungeon Master's Guide:,[object Object]</text>
 		<text />
@@ -67,6 +68,7 @@
 		<text>Fane-Eater is a battleaxe belonging to Arkhan the Cruel.</text>
 		<text />
 		<text>You gain a +3 bonus to attack and damage rolls with Fane-Eater. If you attack a creature with this weapon and roll a 20 on the attack roll, the creature takes an extra 2d8 necrotic damage, and you regain a number of hit points equal to the necrotic damage taken.</text>
+		<roll>2d8</roll>
 		<text />
 		<text>Source: Baldur's Gate: Descent into Avernus</text>
         <modifier category="bonus">melee attacks +3</modifier>
@@ -79,7 +81,8 @@
 		<rarity>rare</rarity>
 		<text>Rarity: rare</text>
 		<text>Requires Attunement</text>
-		<text>While you wear both of these steel gauntlets, any non- magical weapon you grasp with either gauntlet is treated as a magic weapon. As a bonus action, you can use the gauntlets to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals an extra 1d6 fire damage on a hit. The flames last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn.</text>
+		<text>While you wear both of these steel gauntlets, any non-magical weapon you grasp with either gauntlet is treated as a magic weapon. As a bonus action, you can use the gauntlets to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals an extra 1d6 fire damage on a hit. The flames last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn.</text>
+		<roll>1d6</roll>
 		<text />
 		<text>Source: Baldur's Gate: Descent into Avernus</text>
 	</item>
@@ -97,6 +100,7 @@
 		<text>The helm has 3 charges. As an action, you can expend 1 charge to cast dominate monster (save DC 21), which affects devils only. (The spell fails and the charge is wasted if you target any creature that's not a devil.) If a devil can see you when you cast this spell on it, the devil knows you tried to charm it. The helm regains all its charges 24 hours after its last charge is expended.</text>
 		<text />
 		<text>If you are not a devil, using the helm's dominate monster property in the Nine Hells has a 20 percent chance of attracting a narzugon, which arrives on the back of a nightmare mount in 1d4 hours. The narzugon tries to recover the helm, killing you if necessary to obtain it. If it gets the helm, the narzugon tries to deliver it to its infernal master.</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Source: Baldur's Gate: Descent into Avernus</text>
 	</item>
@@ -111,6 +115,7 @@
 		<text>When an object small enough to fit inside an infernal puzzle box is placed in it, the container magically seals shut around the object, and no magic can force the box open. The sealed box becomes immune to all damage as well. Every infernal puzzle box is constructed with a unique means of opening it. The trick to solving the puzzle is always mundane, never magical. Once a creature figures out the trick or sequence of steps needed to open a particular infernal puzzle box, that creature can open the box as an action, allowing access to the box's contents.</text>
 		<text />
 		<text>A creature that spends 1 hour holding an infernal puzzle box while trying to open it can make a DC 30 Intelligence (Investigation) check. If the check succeeds, the creature figures out the trick or sequence of steps needed to open the box. If the check fails by 5 or more, the creature must make a DC 18 Wisdom saving throw, taking 42 (12d6) psychic damage on a failed save, or half as much damage on a successful one.</text>
+		<roll>12d6</roll>
 		<text />
 		<text>Source: Baldur's Gate: Descent into Avernus</text>
 	</item>
@@ -128,6 +133,7 @@
 		<text>Matalotok, the Frost Father, is an ancient hammer fashioned by Thrym, the god of frost giants. The favored weapon of the demon lord Kostchtchie, Matalotok is frigid to the touch and wreathed in mist.</text>
 		<text />
 		<text>You are immune to cold damage while holding Matalotok. Whenever it deals damage to a creature, the hammer radiates a burst of intense cold in a 30-foot-radius sphere. Each creature in that area takes 10 (3d6) cold damage.</text>
+		<roll>3d6</roll>
 		<text />
 		<text>Source: Baldur's Gate: Descent into Avernus</text>
 	</item>
@@ -151,6 +157,7 @@
 		<rarity>unknown</rarity>
 		<text>Rarity: unknown</text>
 		<text>A shatterstick is a nonmagical, 12-inch-long, 4-pound stake made of blue-tinged infernal iron mined on Cania, the eighth layer of the Nine Hells. When embedded in earth or pounded into solid rock, the stake emits a seismic vibration in a 20-foot radius centered on itself for 1 minute, shaking the ground in that area for the duration. When the effects ends, the shatterstick breaks apart, becoming useless, and all structures within 20 feet of it take 35 (10d6) bludgeoning damage.</text>
+		<roll>10d6</roll>
 		<text />
 		<text>Source: Baldur's Gate: Descent into Avernus</text>
 	</item>
@@ -213,6 +220,8 @@
 		<text>Random Properties. The sword has 2 minor Artifact Properties; Minor Beneficial Properties.</text>
 		<text />
 		<text>Searing Radiance. The sword deals an extra 9 (2d8) radiant damage to any creature it hits, or 16 (3d10) radiant damage if you're wielding the weapon with two hands. An evil creature that takes this radiant damage must succeed on a DC 17 Constitution saving throw or be blinded until the end of its next turn.</text>
+		<roll>2d8</roll>
+		<roll>3d10</roll>
 		<text />
 		<text>Sentience. The Sword of Zariel is a sentient, lawful good item with an Intelligence of 10, a Wisdom of 20, and a Charisma of 18. It has hearing and normal vision out to a range of 30 feet. The sword communicates by transmitting emotion to the creature carrying or wielding it.</text>
 		<text />

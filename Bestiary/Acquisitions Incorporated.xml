@@ -61,8 +61,10 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>1st level (3 slots): bless, cure wounds, sanctuary</text>
+			<attack>Spell Attack|4|</attack>
 		</trait>
 		<action>
 			<name>Club</name>
@@ -157,8 +159,10 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>1st level (3 slots): bless, cure wounds, sanctuary</text>
+			<attack>Spell Attack|4|</attack>
 		</trait>
 		<action>
 			<name>Club</name>
@@ -195,9 +199,10 @@
 			<attack>Martial Advantage||2d6</attack>
 		</trait>
 		<action>
-			<name>Acid Spray Gun (Recharge 5–6)</name>
+			<name>Acid Spray Gun (Recharge 5-6)</name>
 			<text>The hobgoblin sprays acid in a 10-foot cone. Each creature in the area must make a DC 10 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Acid Spray Gun||2d6</attack>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Longsword</name>
@@ -245,7 +250,7 @@
 		</action>
 		<action>
 			<name>Javelin</name>
-			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6) piercing damage.</text>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage.</text>
 			<attack>Javelin|2|1d6</attack>
 		</action>
 	</monster>
@@ -416,6 +421,7 @@
 		<action>
 			<name>Paralysis Gas (Recharge 5-6)</name>
 			<text>The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -461,7 +467,8 @@
 		<action>
 			<name>Fire Breath (Recharge 5-6)</name>
 			<text>The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Fire Breath (Recharge 5-6)||7d8</attack>
+			<attack>Fire Breath||7d8</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -500,6 +507,7 @@
 		<action>
 			<name>Paralysis Gas (Recharge 5-6)</name>
 			<text>The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -528,7 +536,8 @@
 		</trait>
 		<trait>
 			<name>Iconic Documancer: Scroll Service (1/day)</name>
-			<text>As an action, the Dagdra draws a spell scroll from her documancy satchel. The scroll contains a spell of up to 3rd level of her choice. Only she can use the scroll, which vanishes after 1 minute.</text>
+			<text>As an action, Dagdra draws a spell scroll from her documancy satchel. The scroll contains a spell of up to 3rd level of her choice. Only she can use the scroll, which vanishes after 1 minute.</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Divine Eminence</name>
@@ -538,10 +547,12 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>1st level (4 slots): cure wounds, guiding bolt, sanctuary</text>
 			<text>2nd level (3 slots): lesser restoration, spiritual weapon</text>
 			<text>3rd level (2 slots): dispel magic, spirit guardians</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<action>
 			<name>Mace</name>
@@ -578,6 +589,7 @@
 		<trait>
 			<name>Iconic Documancer: Scroll Service (1/day)</name>
 			<text>As an action, the Aela draws a spell scroll from her documancy satchel. The scroll contains a spell of up to 3rd level of her choice. Only she can use the scroll, which vanishes after 1 minute.</text>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Divine Eminence</name>
@@ -587,10 +599,12 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>1st level (4 slots): cure wounds, guiding bolt, sanctuary</text>
 			<text>2nd level (3 slots): lesser restoration, spiritual weapon</text>
 			<text>3rd level (2 slots): dispel magic, spirit guardians</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<action>
 			<name>Mace</name>
@@ -623,6 +637,7 @@
 		<trait>
 			<name>Iconic Hoardsperson: That Thing You Need (3/Day)</name>
 			<text>The hoardsperson pulls one item of its choice from the living loot satchel. This can be any item found on the Adventuring Gear table in chapter 5, "Equipment," of the Player's Handbook. The item must be worth no more than 15 gp.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Hold Breath</name>
@@ -854,10 +869,12 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Thoman is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). He has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>1st level (4 slots): cure wounds, guiding bolt, sanctuary</text>
 			<text>2nd level (3 slots): lesser restoration, spiritual weapon</text>
 			<text>3rd level (2 slots): dispel magic, spirit guardians</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<action>
 			<name>Mace</name>
@@ -935,10 +952,12 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Jormun is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). He has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>1st level (4 slots): cure wounds, guiding bolt, sanctuary</text>
 			<text>2nd level (3 slots): lesser restoration, spiritual weapon</text>
 			<text>3rd level (2 slots): dispel magic, spirit guardians</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<action>
 			<name>Mace</name>
@@ -975,6 +994,7 @@
 		<trait>
 			<name>Iconic Hoardsperson: That Thing You Need (3/Day)</name>
 			<text>The hoardsperson pulls one item of its choice from the living loot satchel. This can be any item found on the Adventuring Gear table in chapter 5, "Equipment," of the Player's Handbook. The item must be worth no more than 15 gp.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Cunning Action</name>
@@ -1045,6 +1065,7 @@
 			<name>Lightning Breath (Recharge 5-6)</name>
 			<text>The behir exhales a line of lightning that is 20 ft. long and 5 ft. wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Lightning Breath||12d10</attack>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Swallow</name>
@@ -1074,9 +1095,20 @@
 		<passive>11</passive>
 		<languages>Common</languages>
 		<cr>3</cr>
-		<trait><name>Iconic Affiliate of the Six: Glimpse of the Beyond (1/Day)</name> <text>As an action, this creature provides a glimpse into its true nature by extolling the madness of the Far Realm. Each creature within 30 feet of this creature that can see and hear it must succeed on a DC 13 Intelligence saving throw or be blinded. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text></trait>
-		<trait><name>Iconic Affiliate of the Six: Something Feels Off (1/Day)</name> <text>When a visible attacker within 5 feet of this creature makes an attack roll against it, it can use its reaction to unleash a pulse of distracting otherworldly power, imposing disadvantage on the attack roll.</text></trait>
-		<trait><name>Iconic Affiliate of the Six: Touch of Madness</name> <text>This creature has advantage on saving throws against being charmed or frightened.</text></trait>
+		<trait>
+			<name>Iconic Affiliate of the Six: Glimpse of the Beyond (1/Day)</name>
+			<text>As an action, this creature provides a glimpse into its true nature by extolling the madness of the Far Realm. Each creature within 30 feet of this creature that can see and hear it must succeed on a DC 13 Intelligence saving throw or be blinded. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Iconic Affiliate of the Six: Something Feels Off (1/Day)</name>
+			<text>When a visible attacker within 5 feet of this creature makes an attack roll against it, it can use its reaction to unleash a pulse of distracting otherworldly power, imposing disadvantage on the attack roll.</text>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Iconic Affiliate of the Six: Touch of Madness</name>
+			<text>This creature has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
 		<trait>
 			<name>Shapechanger</name>
 			<text>The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
@@ -1182,8 +1214,8 @@
 		<int>10</int>
 		<wis>15</wis>
 		<cha>19</cha>
-		<save>con +11,wis +7</save>
-		<skill>perception +7,stealth +13</skill>
+		<save>Con +11,Wis +7</save>
+		<skill>Perception +7,Stealth +13</skill>
 		<vulnerable></vulnerable>
 		<resist>bludgeoning, piercing, slashing from nonmagical attacks</resist>
 		<immune></immune>
@@ -1206,7 +1238,7 @@
 		</action>
 		<action>
 			<name>Mandibles</name>
-			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage, and the target is grappled (escape 19). Until this grapple ends, the target is restrained, and the ancient deep crow can't use its mandibles on another target.</text>
+			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the ancient deep crow can't use its mandibles on another target.</text>
 			<attack>Mandibles|11|2d10+6</attack>
 		</action>
 		<action>
@@ -1216,7 +1248,7 @@
 		</action>
 		<action>
 			<name>Shadow Caw</name>
-			<text>The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a 17 Constitution saving throw. On a failure, a creature takes 10 (3d6) psychic damage.</text>
+			<text>The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a DC 17 Constitution saving throw. On a failure, a creature takes 10 (3d6) psychic damage.</text>
 			<attack>Shadow Caw||3d6</attack>
 		</action>
 		<legendary>
@@ -1229,7 +1261,7 @@
 		</legendary>
 		<legendary>
 			<name>Wing Attack (Costs 2 Actions)</name>
-			<text>The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The ancient deep crow can then fly up to half its flying speed.</text>
+			<text>The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The ancient deep crow can then fly up to half its flying speed.</text>
 			<attack>Wing Attack||2d6+6</attack>
 		</legendary>
 	</monster>
@@ -1249,7 +1281,7 @@
 		<wis>12</wis>
 		<cha>10</cha>
 		<save></save>
-		<skill>athletics +5,perception +3</skill>
+		<skill>Athletics +5,Perception +3</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1261,8 +1293,13 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>Auspicia's innate spellcasting ability is Intelligence. She can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: detect thoughts</text>
 			<text>1/Day: augury</text>
+		</trait>
+		<trait>
+			<name>Augury</name>
+			<recharge>1/Day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Detect Thoughts,Augury</spells>
@@ -1298,7 +1335,7 @@
 		<wis>13</wis>
 		<cha>16</cha>
 		<save></save>
-		<skill>perception +3,performance +5,persuasion +5</skill>
+		<skill>Perception +3,Performance +5,Persuasion +5</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1309,10 +1346,12 @@
 		<cr>2</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Brahma is a 4th-level spellcaster. Her spellcasting ability is Charisma (spell save 13, +5 to hit with spell attacks). She has the following bard spells prepared:</text>
+			<text>Brahma is a 4th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She has the following bard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): mage hand, message, vicious mockery</text>
 			<text>1st Level (4 slots): charm person, heroism, illusory script, sleep, unseen servant</text>
 			<text>2nd Level (3 slots): cloud of daggers, invisibility</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<slots>4,3</slots>
 		<spellAbility>Charisma</spellAbility>
@@ -1323,7 +1362,8 @@
 		</trait>
 		<trait>
 			<name>Taunt (2/Day)</name>
-			<text>Brahma can use a bonus action to target one creature she can see within 30 feet of her. If the target can hear Brahma, it must succeed on a 13 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Brahma's next turn.</text>
+			<text>Brahma can use a bonus action to target one creature she can see within 30 feet of her. If the target can hear Brahma, it must succeed on a DC 13 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Brahma's next turn.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<action>
 			<name>War Lute</name>
@@ -1332,7 +1372,8 @@
 		</action>
 		<action>
 			<name>Song of Domination (3/Day)</name>
-			<text>Brahma targets one creature that can see or hear her, which must succeed on a 13 Wisdom saving throw or be charmed by her for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success. It has disadvantage on these saves if being charmed by Brahma is something the target openly or secretly desires. For 1 hour after the charm effect ends, the target has disadvantage on Intelligence, Wisdom, or Charisma checks made as part of a contest with Brahma.</text>
+			<text>Brahma targets one creature that can see or hear her, which must succeed on a DC 13 Wisdom saving throw or be charmed by her for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success. It has disadvantage on these saves if being charmed by Brahma is something the target openly or secretly desires. For 1 hour after the charm effect ends, the target has disadvantage on Intelligence, Wisdom, or Charisma checks made as part of a contest with Brahma.</text>
+			<recharge>3/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1351,7 +1392,7 @@
 		<wis>10</wis>
 		<cha>4</cha>
 		<save></save>
-		<skill>acrobatics +5,perception +4</skill>
+		<skill>Acrobatics +5,Perception +4</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1370,12 +1411,13 @@
 		</action>
 		<action>
 			<name>Tentacle</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. If the target is a creature, it is grappled (escape 14). Until this grapple ends, the target is restrained. The chaos quadrapod can grapple no more than two targets at a time.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. If the target is a creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained. The chaos quadrapod can grapple no more than two targets at a time.</text>
 			<attack>Tentacle|6|2d6+4</attack>
 		</action>
 		<action>
 			<name>Chaos Cloud (Recharges after a Short or Long Rest)</name>
-			<text>The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a 14 Charisma saving throw or be stunned until the end of its next turn.</text>
+			<text>The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a DC 14 Charisma saving throw or be stunned until the end of its next turn.</text>
+			<recharge>Short</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1394,7 +1436,7 @@
 		<wis>11</wis>
 		<cha>13</cha>
 		<save></save>
-		<skill>acrobatics +2,perception +4</skill>
+		<skill>Acrobatics +2,Perception +4</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune>poison,psychic</immune>
@@ -1414,8 +1456,9 @@
 		</action>
 		<action>
 			<name>Fire Breath (Recharge 5)</name>
-			<text>The clockwork dragon exhales fire in a 15-foot cone. Each creature in that area must make a 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The clockwork dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Fire Breath||4d6</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1433,8 +1476,8 @@
 		<int>8</int>
 		<wis>15</wis>
 		<cha>14</cha>
-		<save>con +8,wis +6</save>
-		<skill>perception +6,stealth +11</skill>
+		<save>Con +8,Wis +6</save>
+		<skill>Perception +6,Stealth +11</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1461,7 +1504,7 @@
 		</action>
 		<action>
 			<name>Mandibles</name>
-			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage, and the target is grappled (escape 17). Until this grapple ends, the target is restrained, and the deep crow can't use its mandibles on another target.</text>
+			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the deep crow can't use its mandibles on another target.</text>
 			<attack>Mandibles|9|2d10+5</attack>
 		</action>
 		<action>
@@ -1485,8 +1528,8 @@
 		<int>10</int>
 		<wis>10</wis>
 		<cha>16</cha>
-		<save>wis +2,cha +5</save>
-		<skill>history +2,insight +2,intimidation +5,persuasion +5</skill>
+		<save>Wis +2,Cha +5</save>
+		<skill>History +2,Insight +2,Intimidation +5,Persuasion +5</skill>
 		<vulnerable></vulnerable>
 		<resist>acid</resist>
 		<immune></immune>
@@ -1497,16 +1540,19 @@
 		<cr>3</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Donaar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save 13, +5 to hit with spell attacks). He has the following paladin spells prepared:</text>
+			<text>Donaar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He has the following paladin spells prepared:</text>
+			<text></text>
 			<text>1st Level (4 slots): command, compelled duel, cure wounds, wrathful smite</text>
 			<text>2nd Level (2 slots): aid, branding smite, lesser restoration, warding bond, zone of truth</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<slots>4,2</slots>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Command,Compelled Duel,Cure Wounds,Wrathful Smite,Aid,Branding Smite,Lesser Restoration,Warding Bond,Zone of Truth</spells>
 		<trait>
 			<name>Champion Challenge (Recharges after a Short or Long Rest)</name>
-			<text>As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a 13 Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is incapacitated or dies, or if the creature is moved more than 30 feet away from him.</text>
+			<text>As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a DC 13 Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is incapacitated or dies, or if the creature is moved more than 30 feet away from him.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1524,7 +1570,7 @@
 		</action>
 		<action>
 			<name>Acid Vomit</name>
-			<text>Donaar regurgitates acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Donaar regurgitates acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Acid Vomit||2d6</attack>
 		</action>
 	</monster>
@@ -1543,8 +1589,8 @@
 		<int>17</int>
 		<wis>13</wis>
 		<cha>13</cha>
-		<save>int +5,wis +3</save>
-		<skill>arcana +5,persuasion +3,history +5,perception +3</skill>
+		<save>Int +5,Wis +3</save>
+		<skill>Arcana +5,Persuasion +3,History +5,Perception +3</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1555,13 +1601,15 @@
 		<cr>4</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Flabbergast is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save 13, +5 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text>Flabbergast is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): fire bolt, light, mage hand, prestidigitation</text>
 			<text>1st Level (4 slots): detect magic, mage armor, distort value</text>
 			<text>2nd Level (3 slots): gift of gab, suggestion</text>
 			<text>3rd Level (3 slots): fast friends, lightning bolt</text>
 			<text>4th Level (3 slots): greater invisibility</text>
 			<text>5th Level (1 slots): cone of cold</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<slots>4,3,3,3,1</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -1587,8 +1635,8 @@
 		<int>18</int>
 		<wis>12</wis>
 		<cha>14</cha>
-		<save>int +7,wis +4</save>
-		<skill>acrobatics +5,animal handling +4,arcana +7,history +7,performance +5</skill>
+		<save>Int +7,Wis +4</save>
+		<skill>Acrobatics +5,Animal handling +4,Arcana +7,History +7,Performance +5</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1599,13 +1647,15 @@
 		<cr>5</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Jim is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save 15, +7 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text>Jim is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): fire bolt, friends, mage hand, minor illusion, prestidigitation</text>
 			<text>1st Level (4 slots): disguise self, Jim's magic missile, mage armor</text>
 			<text>2nd Level (3 slots): invisibility, Jim's glowing coin</text>
 			<text>3rd Level (3 slots): incite greed, fireball</text>
 			<text>4th Level (3 slots): conjure minor elementals, polymorph</text>
 			<text>5th Level (1 slots): mislead</text>
+			<attack>Spell Attack|7|</attack>
 		</trait>
 		<slots>4,3,3,3,1</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -1639,8 +1689,8 @@
 		<int>14</int>
 		<wis>11</wis>
 		<cha>18</cha>
-		<save>str +0,dex +3,con +2,int +3,wis +3,cha +7</save>
-		<skill>arcana +4,insight +2,investigation +4,perception +2,religion +4</skill>
+		<save>Str +0,Dex +3,Con +2,Int +3,Wis +3,Cha +7</save>
+		<skill>Arcana +4,Insight +2,Investigation +4,Perception +2,Religion +4</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1651,22 +1701,36 @@
 		<cr>3</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save 14, +6 to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:</text>
+			<text>K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:</text>
 			<text>Cantrips (at will): chill touch, eldritch blast, mending, prestidigitation, thorn whip, vicious mockery</text>
 			<text>3rd Level (2 slots): dissonant whispers, fly, hex, misty step, sending, shatter</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<slots>0,0,2</slots>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>K'thriss's innate spellcasting ability is Charisma (spell save 14). He can innately cast the following spells, requiring no material components:</text>
+			<text>K'thriss's innate spellcasting ability is Charisma (spell save DC 14). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dancing lights, disguise self</text>
 			<text>1/Day: darkness, faerie fire</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/Day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Chill Touch,Eldritch Blast,Mending,Prestidigitation,Thorn Whip,Vicious Mockery,Dissonant Whispers,Fly,Hex,Misty Step,Sending,Shatter,Dancing Lights,Disguise Self,Darkness,Faerie Fire</spells>
 		<trait>
 			<name>Special Equipment</name>
 			<text>K'thriss wears a robe of stars (accounted for in his statistics). The robe allows him to cast the following spells: 6/day: magic missile (7 missiles)</text>
+		</trait>
+		<trait>
+			<name>Magic Missile (7 missiles)</name>
+			<recharge>6/day</recharge>
 		</trait>
 		<trait>
 			<name>Awakened Mind</name>
@@ -1698,7 +1762,7 @@
 		<wis>8</wis>
 		<cha>5</cha>
 		<save></save>
-		<skill>perception +1</skill>
+		<skill>Perception +1</skill>
 		<vulnerable></vulnerable>
 		<resist>bludgeoning, piercing, slashing from nonmagical attacks</resist>
 		<immune>poison,psychic</immune>
@@ -1723,15 +1787,18 @@
 		</action>
 		<action>
 			<name>Beer Shower</name>
-			<text>The keg robot spews an unnaturally potent beer in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must succeed on a 13 Constitution saving throw or be poisoned. While poisoned in this way, a creature has its speed halved by exposure to the potent brew. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>The keg robot spews an unnaturally potent beer in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must succeed on a DC 13 Constitution saving throw or be poisoned. While poisoned in this way, a creature has its speed halved by exposure to the potent brew. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<text>	Additionally, the beer shower extinguishes any fires or open flames in its area.</text>
 		</action>
 		<action>
 			<name>Hot Oil Spray (Recharge 5)</name>
-			<text>The keg robot sprays hot oil in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must make a 13 Dexterity saving throw. On a failed save, a creature takes 7 (1d8 + 3) fire damage and falls prone. On a successful save, a creature takes half as much damage and doesn't fall prone.</text>
-			<text>	Any creature affected by the hot oil spray that takes fire damage before the oil dries (after 1 minute) takes an additional 3 (1d6) fire damage, and the oil burns away.</text>,
+			<text>The keg robot sprays hot oil in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 7 (1d8 + 3) fire damage and falls prone. On a successful save, a creature takes half as much damage and doesn't fall prone.</text>
+			<text>	Any creature affected by the hot oil spray that takes fire damage before the oil dries (after 1 minute) takes an additional 3 (1d6) fire damage, and the oil burns away.</text>
 			<text>	If the oil that remains in the area of the spray is lit, it burns for 1d4 rounds and deals 3 (1d6) fire damage to any creature that enters the area for the first time on a turn or ends its turn there.</text>
 			<attack>Hot Oil Spray||1d8+3</attack>
+			<attack>Rounds||1d4</attack>
+			<attack>Fire Damage||1d6</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1749,8 +1816,8 @@
 		<int>12</int>
 		<wis>14</wis>
 		<cha>10</cha>
-		<save>str +3,dex +6</save>
-		<skill>athletics +3,insight +4,nature +3,perception +4,stealth +6,survival +4</skill>
+		<save>Str +3,Dex +6</save>
+		<skill>Athletics +3,Insight +4,Nature +3,Perception +4,Stealth +6,Survival +4</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1761,15 +1828,18 @@
 		<cr>4</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Môrgæn is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save 12, +4 to hit with spell attacks). She has the following ranger spells prepared:</text>
+			<text>Môrgæn is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following ranger spells prepared:</text>
+			<text></text>
 			<text>1st Level (4 slots): alarm, animal friendship, hunter's mark</text>
 			<text>2nd Level (3 slots): pass without trace, spike growth</text>
 			<text>3rd Level (2 slots): conjure animals</text>
+			<attack>Spell Attack|4|</attack>
 		</trait>
 		<slots>4,3,2</slots>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Môrgæn's spellcasting ability is Intelligence. She can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: mage hand</text>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
@@ -1809,7 +1879,7 @@
 		<wis>13</wis>
 		<cha>11</cha>
 		<save></save>
-		<skill>nature +3,perception +3,performance +2,stealth +5,survival +3</skill>
+		<skill>Nature +3,Perception +3,Performance +2,Stealth +5,Survival +3</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1843,6 +1913,7 @@
 		<reaction>
 			<name>Return the Favor (3/Day)</name>
 			<text>When Oak takes damage from a melee weapon attack, he can make a hooked dagger attack.</text>
+			<recharge>3/Day</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -1860,8 +1931,8 @@
 		<int>11</int>
 		<wis>18</wis>
 		<cha>12</cha>
-		<save>wis +7,cha +4</save>
-		<skill>deception +4,insight +7,intimidation +4,medicine +7,perception +7,persuasion +4</skill>
+		<save>Wis +7,Cha +4</save>
+		<skill>Deception +4,Insight +7,Intimidation +4,Medicine +7,Perception +7,Persuasion +4</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1872,13 +1943,15 @@
 		<cr>5</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Omin is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save 15, +7 to hit with spell attacks). He has the following cleric spells prepared:</text>
+			<text>Omin is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). He has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): guidance, sacred flame, spare the dying, thaumaturgy</text>
 			<text>1st Level (4 slots): bless, command, divine favor, shield of faith</text>
 			<text>2nd Level (3 slots): enhance ability, hold person, magic weapon, silence, spiritual weapon</text>
 			<text>3rd Level (3 slots): beacon of hope, crusader's mantle, dispel magic, mass healing word, spirit guardians</text>
 			<text>4th Level (3 slots): death ward, freedom of movement, locate creature, stoneskin</text>
 			<text>5th Level (1 slots): dispel evil and good, flame strike, hold monster, greater restoration, legend lore</text>
+			<attack>Spell Attack|7|</attack>
 		</trait>
 		<slots>4,3,3,3,1</slots>
 		<spellAbility>Wisdom</spellAbility>
@@ -1886,6 +1959,7 @@
 		<trait>
 			<name>Divine Strike</name>
 			<text>Once on each of his turns when he hits a creature with a weapon attack, Omin can cause the attack to deal an extra 4 (1d8) damage of the same type dealt by the weapon.</text>
+			<attack>Divine Strike||1d8</attack>
 		</trait>
 		<trait>
 			<name>Fey Ancestry</name>
@@ -1903,6 +1977,7 @@
 		<reaction>
 			<name>War God's Blessing (Recharges after a Short or Long Rest)</name>
 			<text>When a creature within 30 feet of Omin makes an attack roll, but before learning whether it hits or misses, Omin can grant the creature a +10 bonus to that roll.</text>
+			<recharge>Short</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -1921,7 +1996,7 @@
 		<wis>10</wis>
 		<cha>11</cha>
 		<save></save>
-		<skill>arcana +5,investigation +5,performance +2</skill>
+		<skill>Arcana +5,Investigation +5,Performance +2</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1932,10 +2007,12 @@
 		<cr>2</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Pendragon is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save 13, +5 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text>Pendragon is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): acid splash, light, mage hand, poison spray, shocking grasp</text>
 			<text>1st Level (4 slots): detect magic, mage armor, magic missile, sleep</text>
 			<text>2nd Level (3 slots): blindness/deafness, cloud of daggers, scorching ray</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<slots>4,3</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -1943,6 +2020,7 @@
 		<trait>
 			<name>Echo Spell (1/Day)</name>
 			<text>Pendragon can cast the spell he cast on his last turn, whose casting time becomes 1 bonus action. This bonus casting uses a spell slot as normal.</text>
+			<recharge>1/Day</recharge>
 		</trait>
 		<action>
 			<name>Shortsword</name>
@@ -1966,7 +2044,7 @@
 		<wis>16</wis>
 		<cha>13</cha>
 		<save></save>
-		<skill>athletics +4,performance +3,persuasion +3,religion +3</skill>
+		<skill>Athletics +4,Performance +3,Persuasion +3,Religion +3</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -1977,17 +2055,20 @@
 		<cr>2</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Phoenix is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save 13, +5 to hit with spell attacks). He has the following cleric spells prepared:</text>
+			<text>Phoenix is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). He has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): guidance, light, mending, sacred flame</text>
 			<text>1st Level (4 slots): bane, cure wounds, guiding bolt</text>
 			<text>2nd Level (3 slots): hold person, spiritual weapon</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<slots>4,3</slots>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Guidance,Light,Mending,Sacred Flame,Bane,Cure Wounds,Guiding Bolt,Hold Person,Spiritual Weapon</spells>
 		<trait>
 			<name>Divine Display (1/Day)</name>
-			<text>As a bonus action, Phoenix causes his shield to flare with divine light. Each creature of his choice within 30 feet of him must succeed on a 13 Wisdom saving throw or be blinded for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself with a success.</text>
+			<text>As a bonus action, Phoenix causes his shield to flare with divine light. Each creature of his choice within 30 feet of him must succeed on a DC 13 Wisdom saving throw or be blinded for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself with a success.</text>
+			<recharge>1/Day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1995,7 +2076,7 @@
 		</action>
 		<action>
 			<name>Warhammer</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target must succeed on a 12 Strength saving throw or be pushed 5 feet.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or be pushed 5 feet.</text>
 			<attack>Warhammer|4|1d8+2</attack>
 		</action>
 	</monster>
@@ -2015,7 +2096,7 @@
 		<wis>12</wis>
 		<cha>14</cha>
 		<save></save>
-		<skill>deception +6,insight +3,perception +3</skill>
+		<skill>Deception +6,Insight +3,Perception +3</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -2027,6 +2108,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>Portentia deals an extra 14 (4d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Portentia that isn't incapacitated and Portentia doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||4d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2058,7 +2140,7 @@
 		<wis>16</wis>
 		<cha>13</cha>
 		<save></save>
-		<skill>medicine +5,persuasion +3,religion +5</skill>
+		<skill>Medicine +5,Persuasion +3,Religion +5</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -2069,11 +2151,13 @@
 		<cr>2</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Prophetess is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save 13, +5 to hit with spell attacks). Prophetess has the following cleric spells prepared:</text>
+			<text>Prophetess is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). Prophetess has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>1st Level (4 slots): cure wounds, guiding bolt, sanctuary</text>
 			<text>2nd Level (3 slots): lesser restoration, spiritual weapon</text>
 			<text>3rd Level (2 slots): dispel magic, spirit guardians</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<slots>4,3,2</slots>
 		<spellAbility>Wisdom</spellAbility>
@@ -2081,6 +2165,7 @@
 		<trait>
 			<name>Divine Eminence</name>
 			<text>As a bonus action, Prophetess can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Prophetess expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.</text>
+			<attack>Divinve Eminence||3d6</attack>
 		</trait>
 		<trait>
 			<name>Fey Ancestry</name>
@@ -2107,8 +2192,8 @@
 		<int>12</int>
 		<wis>14</wis>
 		<cha>14</cha>
-		<save>str +1,dex +5</save>
-		<skill>acrobatics +5,history +3,intimidation +4,stealth +5</skill>
+		<save>Str +1,Dex +5</save>
+		<skill>Acrobatics +5,History +3,Intimidation +4,Stealth +5</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -2119,9 +2204,30 @@
 		<cr>3</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>Rosie's innate spellcasting ability is Wisdom (spell save 12). She can innately cast the following spells, requiring no material components:</text>
+			<text>Rosie's innate spellcasting ability is Wisdom (spell save DC 12). She can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: minor illusion, sacred flame, thaumaturgy</text>
 			<text>1/Day: command, darkness, darkvision, pass without trace, silence</text>
+		</trait>
+		<trait>
+			<name>Command</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Darkvision</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Pass without Trace</name>
+			<recharge>1/Day</recharge>
+		</trait>
+		<trait>
+			<name>Silence</name>
+			<recharge>1/Day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Minor Illusion,Sacred Flame,Thaumaturgy,Command,Darkness,Darkvision,Pass without Trace,Silence</spells>
@@ -2148,7 +2254,8 @@
 		<action>
 			<name>Staff of the Master (+1 Quarterstaff)</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if used with two hands.</text>
-			<attack>Staff of the Master|6|1d6+4+1d8+4</attack>
+			<attack>Staff of the Master|6|1d6+4</attack>
+			<attack>Staff of the Master (2H)|6|1d8+4</attack>
 		</action>
 		<action>
 			<name>Unarmed Strike</name>
@@ -2176,8 +2283,8 @@
 		<int>14</int>
 		<wis>11</wis>
 		<cha>10</cha>
-		<save>int +4,wis +2</save>
-		<skill>stealth +6</skill>
+		<save>Int +4,Wis +2</save>
+		<skill>Stealth +6</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -2209,7 +2316,8 @@
 		</action>
 		<action>
 			<name>Word From Beyond (1/Day)</name>
-			<text>Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a 12 Wisdom saving throw or be stunned until the end of its next turn.</text>
+			<text>Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a DC 12 Wisdom saving throw or be stunned until the end of its next turn.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<reaction>
 			<name>Absorb Attack</name>
@@ -2231,8 +2339,8 @@
 		<int>10</int>
 		<wis>8</wis>
 		<cha>14</cha>
-		<save>dex +8,int +3</save>
-		<skill>acrobatics +11,athletics +7,perception +5,performance +5,persuasion +5,sleight of hand +11,stealth +8</skill>
+		<save>Dex +8,Int +3</save>
+		<skill>Acrobatics +11,Athletics +7,Perception +5,Performance +5,Persuasion +5,Sleight of hand +11,Stealth +8</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -2252,6 +2360,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>Viari deals an extra 14 (4d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Viari that isn't incapacitated and Viari doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||4d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2292,8 +2401,8 @@
 		<int>10</int>
 		<wis>18</wis>
 		<cha>10</cha>
-		<save>int +2,wis +6</save>
-		<skill>athletics +1,insight +6,perception +6,stealth +5,survival +6</skill>
+		<save>Int +2,Wis +6</save>
+		<skill>Athletics +1,Insight +6,Perception +6,Stealth +5,Survival +6</skill>
 		<vulnerable></vulnerable>
 		<resist></resist>
 		<immune></immune>
@@ -2304,12 +2413,14 @@
 		<cr>3</cr>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Walnut is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save 14, +6 to hit with spell attacks). She has the following druid spells prepared:</text>
+			<text>Walnut is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). She has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): druidcraft, produce flame, thorn whip</text>
 			<text>1st Level (4 slots): cure wounds, entangle, thunderwave</text>
 			<text>2nd Level (3 slots): flame blade, moonbeam, pass without trace</text>
 			<text>3rd Level (3 slots): call lightning, dispel magic, plant growth</text>
 			<text>4th Level (1 slots): blight, freedom of movement</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<slots>4,3,3,1</slots>
 		<spellAbility>Wisdom</spellAbility>
@@ -2325,8 +2436,13 @@
 		<trait>
 			<name>Wild Shape (Recharges after a Short or Long rest)</name>
 			<text>As a bonus action, Walnut can assume the shape of a dire wolf. She can stay in this form for 3 hours or until she reverts to her normal form as a bonus action. She automatically reverts if she falls unconscious, drops to 0 hit points, or dies.</text>
-			<text>	While transformed, Walnut's game statistics are replaced by the statistics of the dire wolf, except she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores.</text>,
+			<text>	While transformed, Walnut's game statistics are replaced by the statistics of the dire wolf, except she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores.</text>
 			<text>	Her attacks in beast form are magical. While in beast form, Walnut can use a bonus action to expend one spell slot and regain 1d8 hit points per level of the spell slot expended.</text>
+			<attack>Hit Points (1st level slot)||1d8</attack>
+			<attack>Hit Points (2nd level slot)||2d8</attack>
+			<attack>Hit Points (3rd level slot)||3d8</attack>
+			<attack>Hit Points (4th level slot)||4d8</attack>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
