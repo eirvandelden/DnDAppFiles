@@ -9,6 +9,7 @@
 		<weapons>simple weapons</weapons>
 		<tools>Thieves' tools, tinker's tools, one type of artisan's tools of your choice</tools>
 		<wealth>5d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Intelligence</spellAbility>
 		<autolevel level="1">
 			<slots>2,2,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>4,4,3,3,3,2</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -90,8 +92,6 @@
 				<text>• Thieves' tools and dungeoneer's pack</text>
 				<text/>
 			</feature>
-		</autolevel>
-		<autolevel level="1">
 			<feature>
 				<name>Magical Tinkering</name>
 				<text>At 1st level, you learn how to invest a spark of magic into mundane objects. To use this ability, you must have tinker's tools or other artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:</text>
@@ -614,7 +614,7 @@
 		</reaction>
 	</monster>
 
-	<!-- Artificer Infusions -->
+<!-- Artificer Infusions -->
 	<spell PS="PS">
 		<classes>Artificer Infusion</classes>
 		<level>1</level>

@@ -9,6 +9,7 @@
 		<weapons>simple weapons, martial weapons</weapons>
 		<tools>none</tools>
 		<wealth>2d4x10</wealth>
+    <!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -28,8 +29,6 @@
 				<text/>
 				<text>Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
 			</feature>
-		</autolevel>
-		<autolevel level="1">
 			<feature>
 				<name>Rage</name>
 				<text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.</text>
@@ -177,5 +176,30 @@
 				<text>At 20th level, there is no limit to the number of times you may rage.</text>
 			</feature>
 		</autolevel>
+    <!-- Tasha's Variants -->
+        <autolevel level="3" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Primal Knowledge</name>
+                <text>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="7" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Instinctive Pounce</name>
+                <text>As part of the bonus action you take to enter your rage, you can move up to half your speed.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="10" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Primal Knowledge</name>
+                <text>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>
