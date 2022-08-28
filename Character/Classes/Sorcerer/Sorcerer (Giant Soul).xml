@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="UA:GSS">
 	<subclass baseclass="Sorcerer" UA="Giant Soul Sorcerer">
 		<name>Sorcerer (Giant Soul)</name>
 		<autolevel level="1">
@@ -8,6 +8,8 @@
 				<text>The giants once dwelled in a fabled realm known as Ostoria, a paradise for their folk that reflected their mastery of the mortal realm. In time, Ostoria fell, and the giants were scattered and broken. During that mythic era, the giants granted a few chosen individuals among the small folk a shard of their great power. These favored people were caught in the same tragedy that sundered Ostoria. Since that time, they have spread across the many worlds of the multiverse. Now and again, one of their descendants manifests the gifts imparted by the giants, granting them sorcerous magic that allows them to command the elements and gain the might of a giant.</text>
 				<text/>
 				<text>This sorcerous Origin is from Unearthed Arcana: Giant Soul Sorcerer and as such may not be allowed in your game. Consult your DM before choosing this class option.</text>
+				<text></text>
+				<text>Source: Unearthed Arcana: Giant Soul Sorcerer</text>
 			</feature>
 			<feature optional="YES">
 				<name>Giant Soul: Jotun Resilience</name>
@@ -20,7 +22,7 @@
 				<text>Cloud giant   fog cloud, minor illusion         invisibility</text>
 				<text>Fire giant    burning hands, fire bolt          flaming sphere</text>
 				<text>Frost giant   armor of Agathys, ray of frost    hold person</text>
-				<text>Hill giant    heroism,shillelagh                enlarge/reduce</text>
+				<text>Hill giant    heroism, shillelagh                enlarge/reduce</text>
 				<text>Stone giant   entangle, resistance              spike growth</text>
 				<text>Storm giant   shocking grasp, thunderwave       gust of wind</text>
 			</feature>
@@ -46,7 +48,7 @@
 				<text>• Your reach increases by 5 feet.</text>
 				<text>• Your walking speed increases by 5 feet.</text>
 				<text>• You have advantage on Strength checks and Strength saving throws.</text>
-				<text>• You gain a bonus to the damage rolls of yourmelee weapon attacks; the bonus equals your Constitution modifier (minimum of +1).</text>
+				<text>• You gain a bonus to the damage rolls of your melee weapon attacks; the bonus equals your Constitution modifier (minimum of +1).</text>
 				<text>	Once you use this feature, you can't use it again until you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
@@ -58,4 +60,34 @@
 			</feature>
 		</autolevel>
 	</subclass>
+	<spellList class="Sorcerer (Giant Soul, Cloud)">
+		<index name="Fog Cloud"/>
+		<index name="Minor Illusion"/>
+		<index name="Invisibility"/>
+	</spellList>
+	<spellList class="Sorcerer (Giant Soul, Fire)">
+		<index name="Burning Hands"/>
+		<index name="Fire Bolt"/>
+		<index name="Flaming Sphere"/>
+	</spellList>
+	<spellList class="Sorcerer (Giant Soul, Frost)">
+		<index name="Armor of Agathys"/>
+		<index name="Ray of Frost"/>
+		<index name="Hold Person"/>
+	</spellList>
+	<spellList class="Sorcerer (Giant Soul, Hill)">
+		<index name="Heroism"/>
+		<index name="Shillelagh"/>
+		<index name="Enlarge/Reduce"/>
+	</spellList>
+	<spellList class="Sorcerer (Giant Soul, Stone)">
+		<index name="Entangle"/>
+		<index name="Resistance"/>
+		<index name="Spike Growth"/>
+	</spellList>
+	<spellList class="Sorcerer (Giant Soul, Storm)">
+		<index name="Shocking Grasp"/>
+		<index name="Thunderwave"/>
+		<index name="Gust of Wind"/>
+	</spellList>
 </compendium>

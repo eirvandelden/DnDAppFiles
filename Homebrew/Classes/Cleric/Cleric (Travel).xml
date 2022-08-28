@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Travel)</name>
 		<autolevel level="1">
@@ -9,11 +9,14 @@
 				<text/>
 				<text>Travel Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
-				<text>1st - expeditious retreat, longstrider</text>
-				<text>3rd - pass without trace, rope trick</text>
-				<text>5th - tiny hut, water walk</text>
-				<text>7th - dimension door, freedom of movement</text>
-				<text>9th - teleportation circle, tree stride</text>
+				<text>Level    Spells</text>
+				<text>1st      expeditious retreat, longstrider</text>
+				<text>3rd      pass without trace, rope trick</text>
+				<text>5th      tiny hut, water walk</text>
+				<text>7th      dimension door, freedom of movement</text>
+				<text>9th      teleportation circle, tree stride</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Travel: Shift</name>

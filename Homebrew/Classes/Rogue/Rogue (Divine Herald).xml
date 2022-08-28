@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="XLNtEE">
 	<subclass baseclass="Rogue">
 		<name>Rogue (Divine Herald)</name>
+	<!-- Spells -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="3">
 			<slots optional="YES">3,2,0,0,0</slots>
@@ -57,10 +58,13 @@
 		<autolevel level="20">
 			<slots optional="YES">4,4,3,3,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Roguish Archetype: Divine Herald</name>
 				<text>Your strict upbringing has made you an unwavering and swift agent of divine retribution. You don't simply exist to serve the priests of your order, you have a higher purpose and calling, to alleviate the world of false prophets and heretics.</text>
+				<text></text>
+				<text>Source: Xanathar's Lost Notes to Everything Else</text>
 			</feature>
 			<feature optional="YES">
 				<name>Divine Herald: Spellcasting</name>

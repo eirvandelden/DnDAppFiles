@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" auto_indent="YES" HB="HB">
+<compendium version="5" auto_indent="YES" HB="HB" source="PS:K">
 	<!--Plane Shift: Kaladesh-->
-	<race name="Aetherborn" source="PS:K">
+	<race name="Aetherborn">
 		<name>Aetherborn</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -27,8 +27,12 @@
 			<name>Languages</name>
 			<text>You can speak, read, and write Common and two other languages of your choice.</text>
 		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Plane Shift Kaladesh</text>
+		</trait>
 	</race>
-	<race name="Dwarf (Kaladesh)" source="PS:K">
+	<race name="Dwarf (Kaladesh)">
 		<name>Dwarf (Kaladesh)</name>
 		<size>M</size>
 		<speed>25</speed>
@@ -58,8 +62,12 @@
 			<name>Languages</name>
 			<text>You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.</text>
 		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Plane Shift Kaladesh</text>
+		</trait>
 	</race>
-	<race name="Elf (Kaladesh Bishtahar/Tirahar)" source="PS:K">
+	<race name="Elf (Kaladesh Bishtahar/Tirahar)">
 		<name>Elf (Kaladesh Bishtahar/Tirahar)</name>
 		<size>M</size>
 		<speed>35</speed>
@@ -101,8 +109,12 @@
 			<name>Mask of the Wild</name>
 			<text>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</text>
 		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Plane Shift Kaladesh</text>
+		</trait>
 	</race>
-	<race name="Elf (Kaladesh Vahadar)" source="PS:K">
+	<race name="Elf (Kaladesh Vahadar)">
 		<name>Elf (Kaladesh Vahadar)</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -144,8 +156,12 @@
 			<name>Extra Language</name>
 			<text>You can speak, read, and write one extra language of your choice.</text>
 		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Plane Shift Kaladesh</text>
+		</trait>
 	</race>
-	<race name="Vedalken (Kaladesh)" source="PS:K">
+	<race name="Vedalken (Kaladesh)">
 		<name>Vedalken (Kaladesh)</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -166,6 +182,10 @@
 		<trait>
 			<name>Languages</name>
 			<text>You can speak, read, and write Common and Vedalken. The Vedalken language is renowned for its technical treatises and its catalogs of knowledge about the natural world and the aether that pervades it.</text>
+		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Plane Shift Kaladesh</text>
 		</trait>
 	</race>
 </compendium>

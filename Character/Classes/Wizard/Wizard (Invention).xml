@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="UA:TS">
 	<subclass baseclass="Wizard" UA="Three Subclasses">
 		<name>Wizard (Invention)</name>
 		<autolevel level="2">
@@ -9,11 +9,11 @@
 				<text>	Adherents of this school believe that innovation is best served through experimentation. They have a reputation for acting first, thinking second. Most wizards are scholars who have mastered their craft through careful study, rigorous practice, and endless hours of repetition. These wizards would rather throw spells together and see what happens.</text>
 				<text>	Many wizards of this tradition are gnomes, alchemists, or both, and they take pride in the magic-infused armor they don. The armor not only provides protection, but it is also designed to help the wizard channel magic in unpredictable ways.</text>
 				<text>	Wizards of this tradition are regarded as savants to their faces, but wizards of other traditions often think of them as lunatics.</text>
-				<text>This aracane tradition is from Unearthed Arcana: Three Subclasses and as such may not be allowed in your game. Consult your DM before choosing this class option.</text>
+				<text>This arcane tradition is from Unearthed Arcana: Three Subclasses and as such may not be allowed in your game. Consult your DM before choosing this class option.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Invention: Tools of the Inventor</name>
-				<text>At	2nd	level,	you	gain	proficiency	with	two	tools	of	your	choice.</text>
+				<text>At 2nd level, you gain proficiency with two tools of your choice.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Invention: Arcanomechanical Armor</name>
@@ -124,4 +124,60 @@
 			</feature>
 		</autolevel>
 	</subclass>
+	<spellList class="Wizard (Invention)">
+		<index name="Acid Splash"/>
+		<index name="Chill Touch"/>
+		<index name="Fire Bolt"/>
+		<index name="Light"/>
+		<index name="Poison Spray"/>
+		<index name="Ray of Frost"/>
+		<index name="Shocking Grasp"/>
+		<index name="Sacred Flame"/>
+		<index name="Thorn Whip"/>
+		<index name="Burning Hands"/>
+		<index name="Chromatic Orb"/>
+		<index name="Color Spray"/>
+		<index name="Faerie Fire"/>
+		<index name="False Life"/>
+		<index name="Fog Cloud"/>
+		<index name="Jump"/>
+		<index name="Magic Missile"/>
+		<index name="Thunderwave"/>
+		<index name="Blur"/>
+		<index name="Darkness"/>
+		<index name="Enlarge/Reduce"/>
+		<index name="Gust of Wind"/>
+		<index name="Invisibility"/>
+		<index name="Levitate"/>
+		<index name="Melf's Acid Arrow"/>
+		<index name="Scorching Ray"/>
+		<index name="Shatter"/>
+		<index name="Blink"/>
+		<index name="Fear"/>
+		<index name="Feign Death"/>
+		<index name="Fireball"/>
+		<index name="Fly"/>
+		<index name="Gaseous Form"/>
+		<index name="Lightning Bolt"/>
+		<index name="Sleet Storm"/>
+		<index name="Stinking Cloud"/>
+		<index name="Blight"/>
+		<index name="Confusion"/>
+		<index name="Evard's Black Tentacles"/>
+		<index name="Fire Shield"/>
+		<index name="Greater Invisibility"/>
+		<index name="Ice Storm"/>
+		<index name="Phantasmal Killer"/>
+		<index name="Stoneskin"/>
+		<index name="Wall of Fire"/>
+		<index name="Cloudkill"/>
+		<index name="Cone of Cold"/>
+		<index name="Destructive Wave"/>
+		<index name="Flame Strike"/>
+		<index name="Hold Monster"/>
+		<index name="Insect Plague"/>
+		<index name="Mass Cure Wounds"/>
+		<index name="Wall of Force"/>
+		<index name="Wall of Stone"/>
+	</spellList>
 </compendium>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PHB">
 	<baseclass>
 		<name>Cleric</name>
 		<hd>8</hd>
@@ -124,6 +124,10 @@
 				<text>Domain Spells</text>
 				<text>Each domain has a list of spells-its domain spells-that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
 				<text>	If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
+			</feature>
+			<feature>
+				<name>Source</name>
+				<text>Player's Handbook</text>
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>

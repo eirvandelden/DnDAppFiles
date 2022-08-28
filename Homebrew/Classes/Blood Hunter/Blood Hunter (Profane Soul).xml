@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BH">
 	<subclass baseclass="Blood Hunter">
+	<!-- Spells -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="3">
 			<slots optional="YES">2,1,0,0,0,0,0,0,0,0</slots>
@@ -56,12 +57,15 @@
 		<autolevel level="20">
 			<slots optional="YES">3,0,0,0,3,0,0,0,0,0</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<name>Blood Hunter (Profane Soul)</name>
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Blood Hunter Order: Order of the Profane Soul</name>
 				<text>The magics adopted by the wayward blood hunter prove formidable against many an evil across the realm. However, the darkest of abominations draw from an ancient well of cruel, unfathomable power. These terrors can control shadows to do their bidding, hide in plain sight among the noblest of nobles, and bend the minds of the most stalwart warrior with but a glance. These fiends are far trickier to hunt, and many lost their lives in pursuit of such wickedness.</text>
 				<text>	A small sect of blood hunters had finally had enough and delved into the same well of corrupting arcane knowledge, making pacts with lesser evils to better combat the greater. While they may have lost a part of themselves, the power gained far outweighed the price, for even devils now quake when they know they've drawn the attention of the Order of the Profane Soul.</text>
+				<text></text>
+				<text>Source: Blood Hunter</text>
 			</feature>
 			<feature optional="YES">
 				<name>Profane Soul: Otherworldly Patron</name>

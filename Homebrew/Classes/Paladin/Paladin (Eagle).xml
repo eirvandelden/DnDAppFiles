@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Paladin">
 		<name>Paladin (Eagle)</name>
 		<autolevel level="3">
@@ -14,16 +14,19 @@
 				<text>	Shine as a Symbol: You are an example to others; just as you once gazed up to the skies and saw the soaring eagle above you, so too will others look up to you and see your deeds and triumphs. Always remember that you exemplify not only the tenets of your Oath, but all those of your order. Give those who look upon you something to aspire to.</text>
 				<text>	Be a Relentless Hunter: Do not flag in your pursuit of your enemies. When you drive off slavers and tyrants, give them no chance to escape; pursue, and bring them down. The enemies of your order cannot be allowed to flee from the justice of your grasp.</text>
 				<text>	Soar to the Greatest Heights: Always strive to achieve great things. Reach for the skies in all things, and never be satisfied with your deeds. There is always more to be done, and every triumph you complete elevates both you and the other members of your faith.</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Eagle: Oath Spells</name>
 				<text>You gain oath spells at the paladin levels listed.</text>
 				<text/>
-				<text>3rd - feather fall, jump</text>
-				<text>5th - gust of wind, levitate</text>
-				<text>9th - fly, wind wall</text>
-				<text>13th - dominate monster, freedom of movement</text>
-				<text>17th - cone of cold, wall of force</text>
+				<text>Level    Spells</text>
+				<text>3rd      feather fall, jump</text>
+				<text>5th      gust of wind, levitate</text>
+				<text>9th      fly, wind wall</text>
+				<text>13th     dominate monster, freedom of movement</text>
+				<text>17th     cone of cold, wall of force</text>
 			</feature>
 			<feature optional="YES">
 				<name>Eagle Channel Divinity: Sacred Hunt</name>

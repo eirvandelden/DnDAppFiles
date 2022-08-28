@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PHB">
 	<subclass baseclass="Fighter">
 		<name>Fighter (Eldritch Knight)</name>
+	<!-- Spells -->
 		<spellAbility>Intelligence</spellAbility>
 		<autolevel level="3">
 			<slots optional="YES">2,2,0,0,0</slots>
@@ -57,10 +58,13 @@
 		<autolevel level="20">
 			<slots optional="YES">3,4,3,3,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Martial Archetype: Eldritch Knight</name>
 				<text>The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic - abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.</text>
+				<text></text>
+				<text>Source: Player's Handbook</text>
 			</feature>
 			<feature optional="YES">
 				<name>Eldritch Knight: Spellcasting</name>

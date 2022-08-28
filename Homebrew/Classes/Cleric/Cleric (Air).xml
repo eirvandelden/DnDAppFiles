@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Air)</name>
 		<autolevel level="1">
@@ -9,11 +9,14 @@
 				<text/>
 				<text>Air Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
-				<text>1st - feather fall, fog cloud</text>
-				<text>3rd - gust of wind, hold person</text>
-				<text>5th - fly, wind wall</text>
-				<text>7th - conjure minor elementals, freedom of movement</text>
-				<text>9th - conjure elemental, hold monster</text>
+				<text>Level   Spells</text>
+				<text>1st     feather fall, fog cloud</text>
+				<text>3rd     gust of wind, hold person</text>
+				<text>5th     fly, wind wall</text>
+				<text>7th     conjure minor elementals, freedom of movement</text>
+				<text>9th     conjure elemental, hold monster</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Air: Bonus Proficiency</name>

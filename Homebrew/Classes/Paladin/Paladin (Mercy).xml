@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Paladin">
 		<name>Paladin (Mercy)</name>
 		<autolevel level="3">
@@ -14,16 +14,19 @@
 				<text>	Give Succor: If you are not able to prevent the outbreak of violence, it is your sacred duty to tend to those who are its victims. You have been gifted with the ability to heal wounds, cure poisons, and lift diseases; such a gift is wasted if it is not used. Tend to the wounded, the weak, and the ill and put them before yourself.</text>
 				<text>	Protect Those Who Need It: Your strength is more than just a weapon; it is a shield. Interpose yourself between those bent on violence and those who cannot defend themselves. Put yourself in harm's way to spare another the pain that violence brings. Do not be afraid to sacrifice your own wellbeing to protect others.</text>
 				<text>	Choose Violence Last: Though you should always strive to leave your sword in its sheath, there might come a time when words fail, and you must meet violence with violence. Mercy is not pacifism, and from time to time a rabid dog must be put down for the safety of those around it.</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Mercy: Oath Spells</name>
 				<text>You gain oath spells at the paladin levels listed.</text>
 				<text/>
-				<text>3rd - healing word, sanctuary</text>
-				<text>5th - calm emotions, prayer of healing</text>
-				<text>9th - create food and water, mass healing word</text>
-				<text>13th - death ward, spell</text>
-				<text>17th - mass cure wounds, modify memory</text>
+				<text>Level    Spells</text>
+				<text>3rd      healing word, sanctuary</text>
+				<text>5th      calm emotions, prayer of healing</text>
+				<text>9th      create food and water, mass healing word</text>
+				<text>13th     death ward, spell</text>
+				<text>17th     mass cure wounds, modify memory</text>
 			</feature>
 			<feature optional="YES">
 				<name>Mercy Channel Divinity: Benevolent Sacrifice</name>
