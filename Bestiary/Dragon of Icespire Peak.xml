@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="DoIP">
 	<!--Dragon of Icespire Peak-->
-	<monster>
+	<monster name="Anchorite of Talos">
 		<name>Anchorite of Talos</name>
 		<size>M</size>
 		<type>humanoid</type>
@@ -71,7 +71,7 @@
 			<attack>Tusk|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Don-Jon Raskin">
 		<name>Don-Jon Raskin</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -120,7 +120,7 @@
 			<attack>Sling|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Falcon the Hunter">
 		<name>Falcon the Hunter</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -169,7 +169,7 @@
 			<attack>Longbow|4|2d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gorthok the Thunder Boar">
 		<name>Gorthok the Thunder Boar</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -220,7 +220,7 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rock Gnome Recluse">
 		<name>Rock Gnome Recluse</name>
 		<size>S</size>
 		<type>humanoid (gnome)</type>
@@ -271,7 +271,7 @@
 			<attack>Ray of Frost|4|1d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Air Elemental Myrmidon">
 		<name>Air Elemental Myrmidon</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -325,7 +325,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Allip">
 		<name>Allip</name>
 		<size>M</size>
 		<type>undead</type>
@@ -385,7 +385,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Archer">
 		<name>Archer</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -431,7 +431,7 @@
 		</action>
 		<spells />
 	</monster>
-	<monster>
+	<monster name="Dark Tide Knight">
 		<name>Dark Tide Knight</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -478,7 +478,7 @@
 			<text>When an attacker the knight can see hits it with an attack, the knight can halve the damage against it.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Flail Snail">
 		<name>Flail Snail</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -536,7 +536,7 @@
 			<text>The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Huge Giant Crab">
 		<name>Huge Giant Crab</name>
 		<size>H</size>
 		<type>beast</type>
@@ -566,7 +566,7 @@
 			<attack>Claw|9|4d10+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Kobold Dragonshield">
 		<name>Kobold Dragonshield</name>
 		<size>S</size>
 		<type>humanoid (kobold)</type>
@@ -620,7 +620,7 @@
 		</action>
 		<spells />
 	</monster>
-	<monster>
+	<monster name="Kraken Priest">
 		<name>Kraken Priest</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -694,7 +694,7 @@
 		</action>
 		<spells>Command, Create or Destroy Water, Control Water, Darkness, Water Breathing, Water Walk, Call Lightning, Evard's Black Tentacles</spells>
 	</monster>
-	<monster>
+	<monster name="Lizardfolk Subchief">
 		<name>Lizardfolk Subchief</name>
 		<size>M</size>
 		<type>humanoid (lizardfolk)</type>
@@ -747,7 +747,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lizardfolk Render">
 		<name>Lizardfolk Render</name>
 		<size>L</size>
 		<type>humanoid (lizardfolk)</type>
@@ -800,7 +800,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Master Thief">
 		<name>Master Thief</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -858,7 +858,7 @@
 		</reaction>
 		<spells />
 	</monster>
-	<monster>
+	<monster name="Rot Troll">
 		<name>Rot Troll</name>
 		<size>L</size>
 		<type>giant</type>
@@ -905,7 +905,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Skull Flier">
 		<name>Skull Flier</name>
 		<size>M</size>
 		<type>construct</type>
@@ -937,7 +937,7 @@
 			<attack>Sting (poison)||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Star Spawn Mangler">
 		<name>Star Spawn Mangler</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -987,7 +987,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Statue of Talos">
 		<name>Statue of Talos</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -1031,7 +1031,7 @@
 			<attack>Lightning Bolt Blades|8|2d4+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Swashbuckler">
 		<name>Swashbuckler</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1080,7 +1080,7 @@
 		</action>
 		<spells />
 	</monster>
-	<monster>
+	<monster name="Tooth-N-Claw">
 		<name>Tooth-N-Claw</name>
 		<size>M</size>
 		<type>fiend</type>
@@ -1125,7 +1125,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Alkilith">
 		<name>Alkilith</name>
 		<size>M</size>
 		<type>fiend (demon)</type>
@@ -1179,7 +1179,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Assassin Vine">
 		<name>Assassin Vine</name>
 		<size>L</size>
 		<type>plant</type>
@@ -1219,7 +1219,7 @@
 			<text>The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bard">
 		<name>Bard</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1275,7 +1275,7 @@
 		<spells>Friends, Mage Hand, Vicious Mockery, Charm Person, Healing Word, Heroism, Sleep, Thunderwave, Invisibility, Shatter</spells>
 		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Claugiyliamatar">
 		<name>Claugiyliamatar</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -1386,7 +1386,7 @@
 			<attack>Wing Attack||2d6+8</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Deathlock Mastermind">
 		<name>Deathlock Mastermind</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1463,7 +1463,7 @@
 		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility</spells>
 		<slots>0,0,0,0,2</slots>
 	</monster>
-	<monster>
+	<monster name="Deathlock Mastermind (Archfey)">
 		<name>Deathlock Mastermind (Archfey)</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1536,7 +1536,7 @@
 		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility, Blink, Dominate Beast, Dominate Person, Faerie Fire, Greater Invisibility, Hunger of Hadar, Hypnotic Pattern, Phantasmal Force, Seeming, Sleep</spells>
 		<slots>0,0,0,0,2</slots>
 	</monster>
-	<monster>
+	<monster name="Deathlock Mastermind (Fiend)">
 		<name>Deathlock Mastermind (Fiend)</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1609,7 +1609,7 @@
 		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility, Blindness/Deafness, Burning Hands, Command, Fire Shield, Fireball, Flame Strike, Hellish Rebuke, Scorching Ray, Stinking Cloud, Wall of Fire</spells>
 		<slots>0,0,0,0,2</slots>
 	</monster>
-	<monster>
+	<monster name="Deathlock Mastermind (Great Old One)">
 		<name>Deathlock Mastermind (Great Old One)</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1682,7 +1682,7 @@
 		<spells>Detect Magic, Disguise Self, Mage Armor, Chill Touch, Mage Hand, Minor Illusion, Poison Spray, Arms of Hadar, Blight, Counterspell, Crown of Madness, Darkness, Dimension Door, Dispel Magic, Fly, Hold Monster, Invisibility, Clairvoyance, Detect Thoughts, Dissonant Whispers, Dominate Person, Evard's Black Tentacles, Hunger of Hadar, Phantasmal Force, Sending, Tasha's Hideous Laughter, Telekinesis</spells>
 		<slots>0,0,0,0,2</slots>
 	</monster>
-	<monster>
+	<monster name="Giant Skeleton">
 		<name>Giant Skeleton</name>
 		<size>H</size>
 		<type>undead</type>
@@ -1726,7 +1726,7 @@
 			<attack>Scimitar|8|3d6+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Greater Zombie">
 		<name>Greater Zombie</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1779,7 +1779,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Master Thief">
 		<name>Master Thief</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1837,7 +1837,7 @@
 		</reaction>
 		<spells />
 	</monster>
-	<monster>
+	<monster name="Sahuagin Blademaster">
 		<name>Sahuagin Blademaster</name>
 		<size>M</size>
 		<type>humanoid (sahuagun)</type>
@@ -1894,7 +1894,7 @@
 			<attack>Claws|6|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin High Priestess">
 		<name>Sahuagin High Priestess</name>
 		<size>M</size>
 		<type>humanoid (sahuagin)</type>
@@ -1965,7 +1965,7 @@
 			<attack>Claws|5|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sword Wraith Commander">
 		<name>Sword Wraith Commander</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2027,7 +2027,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Sword Wraith Warrior">
 		<name>Sword Wraith Warrior</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2074,7 +2074,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="War Priest">
 		<name>War Priest</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -2128,7 +2128,7 @@
 		<spells>Light, Mending, Sacred Flame, Spare the Dying, Divine Favor, Guiding Bolt, Healing Word, Shield of Faith, Lesser Restoration, Magic Weapon, Prayer of Healing, Silence, Spiritual Weapon, Beacon of Hope, Crusader's Mantle, Dispel Magic, Revivify, Spirit Guardians, Water Walk, Banishment, Freedom of Movement, Guardian of Faith, Stoneskin, Flame Strike, Mass Cure Wounds, Hold Monster</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Wood Woad">
 		<name>Wood Woad</name>
 		<size>M</size>
 		<type>plant</type>
@@ -2180,7 +2180,7 @@
 		</action>
 		<spells />
 	</monster>
-	<monster>
+	<monster name="Blackguard">
 		<name>Blackguard</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -2236,7 +2236,7 @@
 		<spells>Command, Protection from Evil and Good, Thunderous Smite, Branding Smite, Find Steed, Blinding Smite, Dispel Magic</spells>
 		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Boneclaw">
 		<name>Boneclaw</name>
 		<size>L</size>
 		<type>undead</type>
@@ -2303,7 +2303,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Eidolon">
 		<name>Eidolon</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2365,7 +2365,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Half-Blue Dragon Gladiator">
 		<name>Half-Blue Dragon Gladiator</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -2421,7 +2421,7 @@
 			<text>The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Sacred Statue">
 		<name>Sacred Statue</name>
 		<size>L</size>
 		<type>construct</type>
@@ -2475,7 +2475,7 @@
 		<spells />
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Skeletal Swarm">
 		<name>Skeletal Swarm</name>
 		<size>L</size>
 		<type>swarm of medium undead</type>
@@ -2515,7 +2515,7 @@
 			<attack>Slash (under 1/2hp)|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lhammaruntosz">
 		<name>Lhammaruntosz</name>
 		<size>H</size>
 		<type>dragon</type>

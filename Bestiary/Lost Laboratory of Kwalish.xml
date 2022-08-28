@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="LLK">
-	<monster>
+	<monster name="Brain in a Jar">
 		<name>Brain in a Jar</name>
 		<size>M</size>
 		<type>undead</type>
@@ -78,7 +78,7 @@
 			<recharge>d5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Clockwork Kraken">
 		<name>Clockwork Kraken</name>
 		<size>L</size>
 		<type>construct</type>
@@ -122,7 +122,7 @@
 			<attack>Tentacle Slam|9|2d6+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Garret Levistusson">
 		<name>Garret Levistusson</name>
 		<size>M</size>
 		<type>humanoid</type>
@@ -183,7 +183,7 @@
 			<attack>Shortsword|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Mary Greymalkin">
 		<name>Mary Greymalkin</name>
 		<size>M</size>
 		<type>humanoid</type>
@@ -237,7 +237,7 @@
 			<attack>Quarterstaff|2|1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ooze-Folk">
 		<name>Ooze-Folk</name>
 		<size>M</size>
 		<type>ooze</type>
@@ -285,7 +285,7 @@
 			<attack>Pseudopod|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gloine Nathair-Nathair">
 		<name>Gloine Nathair-Nathair</name>
 		<size>M</size>
 		<type>undead</type>
@@ -338,7 +338,7 @@
 	</monster>
 
 	<!-- repeated monsters -->
-	<monster>
+	<monster name="Bandit Captain">
 		<name>Bandit Captain</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -377,7 +377,7 @@
 			<text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Berserker">
 		<name>Berserker</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -405,7 +405,7 @@
 			<attack>Greataxe|5|1d12+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bone Devil">
 		<name>Bone Devil</name>
 		<size>L</size>
 		<type>fiend (devil)</type>
@@ -452,7 +452,7 @@
 			<attack>Sting|8|2d8+4+5d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Commoner">
 		<name>Commoner</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -476,7 +476,7 @@
 			<attack>Club|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Cult Fanatic">
 		<name>Cult Fanatic</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -520,7 +520,7 @@
 		<spells>Light, Sacred Flame, Thaumaturgy, Command, Inflict Wounds, Shield of Faith, Hold Person, Spiritual Weapon</spells>
 		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Cultist">
 		<name>Cultist</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -549,7 +549,7 @@
 			<attack>Scimitar|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Evoker">
 		<name>Evoker</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -601,7 +601,7 @@
 		<spells>Fire Bolt, Light, Prestidigitation, Ray of Frost, Burning Hands, Mage Armor, Magic Missile, Mirror Image, Misty Step, Shatter, Counterspell, Fireball, Lightning Bolt, Ice Storm, Stoneskin, Bigby's Hand, Cone of Cold, Chain Lightning, Wall of Ice</spells>
 		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Froghemoth">
 		<name>Froghemoth</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -654,7 +654,7 @@
 			<text>The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 18 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth, and the froghemoth can make a bite attack against it as a bonus action.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Galeb Duhr">
 		<name>Galeb Duhr</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -695,7 +695,7 @@
 			<text>The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell).</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gelatinous Cube">
 		<name>Gelatinous Cube</name>
 		<size>L</size>
 		<type>ooze</type>
@@ -738,7 +738,7 @@
 			<text>An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gibbering Mouther">
 		<name>Gibbering Mouther</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -780,7 +780,7 @@
 			<text>The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a DC 13 Dexterity saving throw or be blinded until the end of the mouther's next turn.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gynosphinx">
 		<name>Gynosphinx</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -847,7 +847,7 @@
 		<spells>Mage Hand, Minor Illusion, Prestidigitation, Detect Magic, Identify, Shield, Darkness, Locate Object, Suggestion, Dispel Magic, Remove Curse, Tongues, Banishment, Greater Invisibility, Legend Lore</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Kenku">
 		<name>Kenku</name>
 		<size>M</size>
 		<type>humanoid (kenku)</type>
@@ -885,7 +885,7 @@
 			<attack>Shortbow|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Martial Arts Adept">
 		<name>Martial Arts Adept</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -940,7 +940,7 @@
 		</reaction>
 		<spells />
 	</monster>
-	<monster>
+	<monster name="Medusa">
 		<name>Medusa</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -986,7 +986,7 @@
 			<attack>Longbow|5|1d8+2+2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Merrenoloth">
 		<name>Merrenoloth</name>
 		<size>M</size>
 		<type>fiend (yugoloth)</type>
@@ -1077,7 +1077,7 @@
 		<spells>Charm Person, Darkness, Detect Magic, Dispel Magic, Gust of Wind, Control Water, Control Weather</spells>
 		<slots />
 	</monster>
-	<monster>
+	<monster name="Mind Flayer Arcanist">
 		<name>Mind Flayer Arcanist</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -1148,7 +1148,7 @@
 		<spells>Detect Thoughts, Levitate, Dominate Monster, Plane Shift, Blade Ward, Dancing Lights, Mage Hand, Shocking Grasp, Detect Magic, Disguise Self, Shield, Sleep, Blur, Invisibility, Ray of Enfeeblement, Clairvoyance, Lightning Bolt, Sending, Confusion, Hallucinatory Terrain, Telekinesis, Wall of Force</spells>
 		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Monodrone">
 		<name>Monodrone</name>
 		<size>M</size>
 		<type>construct</type>
@@ -1186,7 +1186,7 @@
 			<attack>Javelin|2|1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Quasit">
 		<name>Quasit</name>
 		<size>T</size>
 		<type>fiend (demon)</type>
@@ -1235,7 +1235,7 @@
 			<text>The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Quickling">
 		<name>Quickling</name>
 		<size>T</size>
 		<type>fey</type>
@@ -1279,7 +1279,7 @@
 		</action>
 		<spells />
 	</monster>
-	<monster>
+	<monster name="Skeleton">
 		<name>Skeleton</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1311,7 +1311,7 @@
 			<attack>Shortbow|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sprite">
 		<name>Sprite</name>
 		<size>T</size>
 		<type>fey</type>
@@ -1349,7 +1349,7 @@
 			<text>The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Steam Mephit">
 		<name>Steam Mephit</name>
 		<size>S</size>
 		<type>elemental</type>
@@ -1399,7 +1399,7 @@
 		</action>
 		<spells>Blur</spells>
 	</monster>
-	<monster>
+	<monster name="Stirge">
 		<name>Stirge</name>
 		<size>T</size>
 		<type>beast</type>
@@ -1424,7 +1424,7 @@
 			<attack>Blood Drain|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Stone Golem">
 		<name>Stone Golem</name>
 		<size>L</size>
 		<type>construct</type>
@@ -1471,7 +1471,7 @@
 			<text>The golem targets one or more creatures it can see within 10 ft. of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Swarm of Bats">
 		<name>Swarm of Bats</name>
 		<size>M</size>
 		<type>swarm of tiny beasts</type>
@@ -1510,7 +1510,7 @@
 			<attack>Half|4|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Thug">
 		<name>Thug</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1548,7 +1548,7 @@
 			<attack>Heavy Crossbow|2|1d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Treant">
 		<name>Treant</name>
 		<size>H</size>
 		<type>plant</type>
@@ -1595,7 +1595,7 @@
 			<text>The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Umber Hulk">
 		<name>Umber Hulk</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1640,7 +1640,7 @@
 			<attack>Mandibles|8|2d8+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Vampire">
 		<name>Vampire</name>
 		<size>M</size>
 		<type>undead (shapechanger)</type>
@@ -1729,7 +1729,7 @@
 			<text>The vampire makes one bite attack.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Vampire Spawn">
 		<name>Vampire Spawn</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1782,7 +1782,7 @@
 			<attack>Claws|6|2d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Wraith">
 		<name>Wraith</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1822,7 +1822,7 @@
 			<text>The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target's spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at one time.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Xorn">
 		<name>Xorn</name>
 		<size>M</size>
 		<type>elemental</type>

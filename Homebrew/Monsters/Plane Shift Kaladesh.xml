@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" HB="HB" source="PS:K">
 	<!--Plane Shift: Kaladesh-->
-	<monster>
+	<monster name="Gremlin">
 		<name>Gremlin</name>
 		<size>S</size>
 		<type>beast</type>
@@ -35,7 +35,7 @@
 			<text>	If the aether-powered device grants any bonus (to attack rolls, damage rolls, Armor Class, and so on), that bonus is reduced by 1. If the device has charges, it loses 1 charge. Otherwise, it stops functioning for 1 round. Left unhindered, a gremlin can completely destroy an aether-powered device.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sky Leviathan">
 		<name>Sky Leviathan</name>
 		<size>G</size>
 		<type>beast</type>
@@ -62,7 +62,7 @@
 			<attack>Acid Damage||6d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Servo">
 		<name>Servo</name>
 		<size>T</size>
 		<type>construct</type>

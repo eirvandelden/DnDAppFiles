@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="WDMM">
 	<!--Waterdeep: Dungeon of the Mad Mage-->
-	<monster>
+	<monster name="Halaster Blackcloak">
 		<name>Halaster Blackcloak</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -79,7 +79,7 @@
 			<text>Halaster expends a spell slot of 4th level or lower and gains 5 temporary hit points per level of the slot.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Archdruid">
 		<name>Archdruid</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -136,7 +136,7 @@
 			<recharge>2/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Champion">
 		<name>Champion</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -188,7 +188,7 @@
 			<attack>Shortbow (under 1/2 hp)|6|1d6+2+2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Githyanki Gish">
 		<name>Githyanki Gish</name>
 		<size>M</size>
 		<type>humanoid (gith)</type>
@@ -260,7 +260,7 @@
 		<slots>4,3,3,2,0,0,0,0,0</slots>
 		<spells>Mage Hand, Jump, Misty Step, Nondetection, Plane Shift, Telekinesis, Blade Ward, Light, Message, True Strike, Expeditious Retreat, Magic Missile, Sleep, Thunderwave, Blur, Invisibility, Levitate, Counterspell, Fireball, Haste, Dimension Door</spells>
 	</monster>
-	<monster>
+	<monster name="Lava Child">
 		<name>Lava Child</name>
 		<size>M</size>
 		<type>humanoid (lava child)</type>
@@ -304,7 +304,7 @@
 			<attack>Claws|7|1d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Living Unseen Servant">
 		<name>Living Unseen Servant</name>
 		<size>M</size>
 		<type>construct</type>
@@ -339,7 +339,7 @@
 			<attack>Slam|2|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Muiral">
 		<name>Muiral</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -419,7 +419,7 @@
 			<attack>Retreating Strike (2H)|9|2d10+4</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Neothelid">
 		<name>Neothelid</name>
 		<size>G</size>
 		<type>aberration</type>
@@ -488,7 +488,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Scaladar">
 		<name>Scaladar</name>
 		<size>H</size>
 		<type>construct</type>
@@ -537,7 +537,7 @@
 			<attack>Sting|7|1d10+4+2d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Shadow Assassin">
 		<name>Shadow Assassin</name>
 		<size>M</size>
 		<type>undead</type>
@@ -585,7 +585,7 @@
 			<attack>Shadow Blade|8|1d6+4+3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ulitharid">
 		<name>Ulitharid</name>
 		<size>L</size>
 		<type>aberration</type>
@@ -685,7 +685,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Werebat">
 		<name>Werebat</name>
 		<size>S</size>
 		<type>humanoid (goblin, shapechanger)</type>

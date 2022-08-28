@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="EGW">
 	<!-- Explorer's Guide to Wildemount -->
-	<monster>
+	<monster name="Aeorian Absorber">
 		<name>Aeorian Absorber</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -58,7 +58,7 @@
 			<text>When the absorber takes damage from a spell, the absorber takes only half the triggering damage. If the spellcaster is within 60 feet of the absorber, the absorber can force the caster to make a DC 16 Dexterity saving throw. Unless the save succeeds, the caster takes the other half of the damage.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Aeorian Nullifier">
 		<name>Aeorian Nullifier</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -127,7 +127,7 @@
 			<text>The nullifier attempts to interrupt a creature that it can see within 60 feet in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, the nullifier makes a Charisma check with a DC equal to 10 + the spell's level. On a success, the creature's spell fails and has no effect.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Aeorian Reverser">
 		<name>Aeorian Reverser</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -176,7 +176,7 @@
 			<attack>Reversal||3d8</attack>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Allowak Abominable Yeti">
 		<name>Allowak Abominable Yeti</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -234,7 +234,7 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Allowak Yeti">
 		<name>Allowak Yeti</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -286,7 +286,7 @@
 			<attack>Chilling Gaze||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Animated Knife">
 		<name>Animated Knife</name>
 		<size>T</size>
 		<type>construct</type>
@@ -325,7 +325,7 @@
 			<attack>Dagger|4|1d4+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Animated Tree">
 		<name>Animated Tree</name>
 		<size>H</size>
 		<type>plant</type>
@@ -378,7 +378,7 @@
 			<recharge>1/DAY</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Blood Hunter">
 		<name>Blood Hunter</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -438,7 +438,7 @@
 			<attack>Heavy Crossbow|4|1d10+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bol'bara">
 		<name>Bol'bara</name>
 		<size>S</size>
 		<type>humanoid (goblinoid)</type>
@@ -525,7 +525,7 @@
 			<text>A 15-foot-radius sphere of magical confusion extends from a point Bol'bara can see within 60 feet of her and spreads around corners. Each creature that starts its turn in that area is treated as if targeted by the confusion spell (save 12). The sphere lasts as long as Bol'bara maintains concentration, up to 1 minute (as if concentrating on a spell).</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Bristled Moorbounder">
 		<name>Bristled Moorbounder</name>
 		<size>L</size>
 		<type>beast</type>
@@ -573,7 +573,7 @@
 			<attack>Claws|6|4d4+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Core Spawn Crawler">
 		<name>Core Spawn Crawler</name>
 		<size>S</size>
 		<type>aberration</type>
@@ -622,7 +622,7 @@
 			<attack>Tail|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Core Spawn Emissary">
 		<name>Core Spawn Emissary</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -672,7 +672,7 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Core Spawn Seer">
 		<name>Core Spawn Seer</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -726,7 +726,7 @@
 			<attack>Fuse Damage||1d6</attack>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Core Spawn Worm">
 		<name>Core Spawn Worm</name>
 		<size>G</size>
 		<type>aberration</type>
@@ -779,7 +779,7 @@
 			<attack>Bite|13|5d8+8+6d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Damaged Flesh Golem">
 		<name>Damaged Flesh Golem</name>
 		<size>M</size>
 		<type>construct</type>
@@ -836,7 +836,7 @@
 			<attack>Slam|7|2d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ferol Sal">
 		<name>Ferol Sal</name>
 		<size>M</size>
 		<type>undead</type>
@@ -887,7 +887,7 @@
 			<attack>Longbow|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Frost Giant Zombie">
 		<name>Frost Giant Zombie</name>
 		<size>H</size>
 		<type>undead</type>
@@ -940,7 +940,7 @@
 			<attack>Freezing Stare||10d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Frost Worm">
 		<name>Frost Worm</name>
 		<size>G</size>
 		<type>monstrosity</type>
@@ -995,7 +995,7 @@
 			<text>The frost worm emits a haunting cry. Each creature within 60 feet of the worm that can hear it must succeed on a DC 20 Wisdom saving throw or be stunned for 1 minute. A creature can repeat the saving throw each time it takes damage and at the end of each of its turns, ending the effect on itself on a success. Once a creature successfully saves against this effect, or if this effect ends for it, that creature is immune to the Trill of all frost worms for the next 24 hours. Frost worms are immune to this effect.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gearkeeper Construct">
 		<name>Gearkeeper Construct</name>
 		<size>L</size>
 		<type>construct</type>
@@ -1054,7 +1054,7 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gloomstalker">
 		<name>Gloomstalker</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1112,7 +1112,7 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Guardian Wolf">
 		<name>Guardian Wolf</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -1160,7 +1160,7 @@
 			<attack>Claws|8|2d8+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Horizonback Tortoise">
 		<name>Horizonback Tortoise</name>
 		<size>G</size>
 		<type>monstrosity</type>
@@ -1205,7 +1205,7 @@
 			<recharge>D4</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hulil Lutan">
 		<name>Hulil Lutan</name>
 		<size>M</size>
 		<type>humanoid (dwarf)</type>
@@ -1260,7 +1260,7 @@
 			<attack>Dagger|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Husk Zombie">
 		<name>Husk Zombie</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1303,7 +1303,7 @@
 			<attack>Claw|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ishel">
 		<name>Ishel</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -1364,7 +1364,7 @@
 			<attack>Hand Crossbow|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Karkethzerethzerus, the Sable Despoiler">
 		<name>Karkethzerethzerus, the Sable Despoiler</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -1456,7 +1456,7 @@
 			<attack>Wing Attack||2d6+10</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Kobold Underling">
 		<name>Kobold Underling</name>
 		<size>S</size>
 		<type>humanoid (kobold)</type>
@@ -1505,7 +1505,7 @@
 			<attack>Hand Crossbow|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Merrow Shallowpriest">
 		<name>Merrow Shallowpriest</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1558,7 +1558,7 @@
 			<attack>Lightning Bolt||8d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Moorbounder">
 		<name>Moorbounder</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1593,7 +1593,7 @@
 			<attack>Claws|6|4d4+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Mossback Steward">
 		<name>Mossback Steward</name>
 		<size>G</size>
 		<type>monstrosity</type>
@@ -1645,7 +1645,7 @@
 			<recharge>D4</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Nergaliid">
 		<name>Nergaliid</name>
 		<size>L</size>
 		<type>fiend (devil)</type>
@@ -1695,7 +1695,7 @@
 			<recharge>D4</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ogre Lord Buhfal II">
 		<name>Ogre Lord Buhfal II</name>
 		<size>L</size>
 		<type>giant</type>
@@ -1731,7 +1731,7 @@
 			<attack>Javelin|6|2d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Old Croaker">
 		<name>Old Croaker</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1776,7 +1776,7 @@
 			<attack>Swallow||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Oracs the Enduring">
 		<name>Oracs the Enduring</name>
 		<size>G</size>
 		<type>undead</type>
@@ -1853,7 +1853,7 @@
 			<attack>Wing Attack||2d6+8</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Parson Pellinost">
 		<name>Parson Pellinost</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1904,7 +1904,7 @@
 			<attack>Mace|2|1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Raegrin Mau">
 		<name>Raegrin Mau</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -1947,7 +1947,7 @@
 			<attack>Scimitar|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin Warlock of Uk'otoa">
 		<name>Sahuagin Warlock of Uk'otoa</name>
 		<size>M</size>
 		<type>humanoid (sahuagin)</type>
@@ -2038,7 +2038,7 @@
 			<attack>Eldritch Blast|5|1d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sea Fury">
 		<name>Sea Fury</name>
 		<size>M</size>
 		<type>fey</type>
@@ -2124,7 +2124,7 @@
 			<text>The sea fury disgorges a swarm of poisonous snakes, which occupies the same space as the sea fury, acts on its own initiative count, and attacks as directed by the sea fury. The sea fury can control up to three of these swarms at a time.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Shadowghast">
 		<name>Shadowghast</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2172,7 +2172,7 @@
 			<attack>Claws|8|2d6+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sharkbody Abomination">
 		<name>Sharkbody Abomination</name>
 		<size>L</size>
 		<type>aberration</type>
@@ -2215,7 +2215,7 @@
 			<attack>Bite|6|2d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sken Zabriss">
 		<name>Sken Zabriss</name>
 		<size>M</size>
 		<type>humanoid (goliath)</type>
@@ -2261,7 +2261,7 @@
 			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Skr'a S'orsk">
 		<name>Skr'a S'orsk</name>
 		<size>M</size>
 		<type>humanoid (lizardfolk)</type>
@@ -2323,7 +2323,7 @@
 			<recharge>SHORT</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Swarm of Undead Snakes">
 		<name>Swarm of Undead Snakes</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2359,7 +2359,7 @@
 			<attack>Bites (under half hp)|6|1d6+4d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Swavain Basilisk">
 		<name>Swavain Basilisk</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -2407,7 +2407,7 @@
 			<attack>Tail|6|2d10+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Three Earrings">
 		<name>Three Earrings</name>
 		<size>M</size>
 		<type>humanoid (tabaxi)</type>
@@ -2460,7 +2460,7 @@
 			<text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, Three Earrings must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Udaak">
 		<name>Udaak</name>
 		<size>G</size>
 		<type>fiend</type>
@@ -2515,7 +2515,7 @@
 			<attack>Swallow||6d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Vox Seeker">
 		<name>Vox Seeker</name>
 		<size>T</size>
 		<type>construct</type>
@@ -2554,7 +2554,7 @@
 			<attack>Pincer|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Yinra Emberwind">
 		<name>Yinra Emberwind</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>

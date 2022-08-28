@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="ToA">
 	<!--Tomb of Annihilation-->
-	<monster>
+	<monster name="Acererak">
 		<name>Acererak</name>
 		<size>M</size>
 		<type>undead</type>
@@ -103,7 +103,7 @@
 			<attack>Disrupt Life||12d6</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Albino Dwarf Warrior">
 		<name>Albino Dwarf Warrior</name>
 		<size>M</size>
 		<type>humanoid (dwarf)</type>
@@ -138,7 +138,7 @@
 			<attack>Handaxe|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Aldani (Lobsterfolk)">
 		<name>Aldani (Lobsterfolk)</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -177,7 +177,7 @@
 			<attack>Claw|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Almiraj">
 		<name>Almiraj</name>
 		<size>S</size>
 		<type>beast</type>
@@ -212,7 +212,7 @@
 			<attack>Horn|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Artus Cimber">
 		<name>Artus Cimber</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -270,7 +270,7 @@
 			<attack>Extreme Heat||1d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Assassin Vine">
 		<name>Assassin Vine</name>
 		<size>L</size>
 		<type>plant</type>
@@ -310,7 +310,7 @@
 			<text>The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Atropal">
 		<name>Atropal</name>
 		<size>H</size>
 		<type>undead (titan)</type>
@@ -384,7 +384,7 @@
 			<text>The atropal lets out a withering wail. Any creature within 120 feet of the atropal that can hear the wail must succeed on a DC 19 Constitution saving throw or gain 1 level of exhaustion.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Bodak">
 		<name>Bodak</name>
 		<size>M</size>
 		<type>undead</type>
@@ -430,7 +430,7 @@
 			<attack>Withering Gaze||4d10</attack>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Brontosaurus">
 		<name>Brontosaurus</name>
 		<size>G</size>
 		<type>beast</type>
@@ -466,7 +466,7 @@
 			<attack>Tail|8|6d8+5</attack>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Champion">
 		<name>Champion</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -518,7 +518,7 @@
 			<attack>Shortbow (1/2 hp)|6|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Chwinga">
 		<name>Chwinga</name>
 		<size>T</size>
 		<type>elemental</type>
@@ -566,7 +566,7 @@
 			<text>The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while Inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Deinonychus">
 		<name>Deinonychus</name>
 		<size>M</size>
 		<type>beast</type>
@@ -610,7 +610,7 @@
 			<attack>Claw|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Dimetrodon">
 		<name>Dimetrodon</name>
 		<size>M</size>
 		<type>beast</type>
@@ -641,7 +641,7 @@
 			<attack>Bite|4|2d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Dragonbait">
 		<name>Dragonbait</name>
 		<size>M</size>
 		<type>humanoid (saurial)</type>
@@ -690,7 +690,7 @@
 			<text>Dragonbait chooses one creature he can see within 60 feet of him and determines its alignment, as long as the creature isn't hidden from divination magic by a spell or other magical effect.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Eblis">
 		<name>Eblis</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -746,7 +746,7 @@
 			<attack>Beak|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Firenewt Warrior">
 		<name>Firenewt Warrior</name>
 		<size>M</size>
 		<type>humanoid (firenewt)</type>
@@ -791,7 +791,7 @@
 			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Firenewt Warlock of Imix">
 		<name>Firenewt Warlock of Imix</name>
 		<size>M</size>
 		<type>humanoid (firenewt)</type>
@@ -844,7 +844,7 @@
 			<attack>Morningstar|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Flail Snail">
 		<name>Flail Snail</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -902,7 +902,7 @@
 			<text>The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Flying Monkey">
 		<name>Flying Monkey</name>
 		<size>S</size>
 		<type>beast</type>
@@ -937,7 +937,7 @@
 			<attack>Bite|1|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Froghemoth">
 		<name>Froghemoth</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -991,7 +991,7 @@
 			<text>The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 18 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth, and the froghemoth can make a bite attack against it as a bonus action.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Four-Armed Gargoyle">
 		<name>Giant Four-Armed Gargoyle</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -1035,7 +1035,7 @@
 			<attack>Claw|8|2d4+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Snapping Turtle">
 		<name>Giant Snapping Turtle</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1074,7 +1074,7 @@
 			<attack>Bite|6|4d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Strider">
 		<name>Giant Strider</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1115,7 +1115,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Girallon">
 		<name>Girallon</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1163,7 +1163,7 @@
 			<attack>Claw|6|1d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Grung">
 		<name>Grung</name>
 		<size>S</size>
 		<type>humanoid (grung)</type>
@@ -1207,7 +1207,7 @@
 			<attack>Poison||2d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Grung Elite Warrior">
 		<name>Grung Elite Warrior</name>
 		<size>S</size>
 		<type>humanoid (grung)</type>
@@ -1262,7 +1262,7 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Grung Wilding">
 		<name>Grung Wilding</name>
 		<size>S</size>
 		<type>humanoid (grung)</type>
@@ -1323,7 +1323,7 @@
 			<attack>Poison||2d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hadrosaurus">
 		<name>Hadrosaurus</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1354,7 +1354,7 @@
 			<attack>Tail|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Jaculi">
 		<name>Jaculi</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1398,7 +1398,7 @@
 			<attack>Extra Dmg||2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Kamadan">
 		<name>Kamadan</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1457,7 +1457,7 @@
 			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Kobold Scale Sorcerer">
 		<name>Kobold Scale Sorcerer</name>
 		<size>S</size>
 		<type>humanoid (kobold)</type>
@@ -1514,7 +1514,7 @@
 			<attack>Dagger|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Kobold Inventor">
 		<name>Kobold Inventor</name>
 		<size>S</size>
 		<type>humanoid (kobold)</type>
@@ -1575,7 +1575,7 @@
 			<attack>Scorpion on a Stick|4|1+1d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Liara Portyr">
 		<name>Liara Portyr</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1625,7 +1625,7 @@
 			<attack>Heavy Crossbow|3|1d10+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Mantrap">
 		<name>Mantrap</name>
 		<size>L</size>
 		<type>plant</type>
@@ -1665,7 +1665,7 @@
 			<attack>Engulf|4|</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Mwaxanaré">
 		<name>Mwaxanaré</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1706,7 +1706,7 @@
 			<attack>Dagger|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pterafolk">
 		<name>Pterafolk</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1755,7 +1755,7 @@
 			<attack>Javelin|4|2d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Quetzalcoatlus">
 		<name>Quetzalcoatlus</name>
 		<size>H</size>
 		<type>beast</type>
@@ -1795,7 +1795,7 @@
 			<attack>Bite|4|3d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ras Nsi">
 		<name>Ras Nsi</name>
 		<size>M</size>
 		<type>monstrosity (shapechanger, yuan-ti)</type>
@@ -1880,7 +1880,7 @@
 			<attack>Flame Tongue Longsword (2H)|6|1d10+3+2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Stegosaurus">
 		<name>Stegosaurus</name>
 		<size>H</size>
 		<type>beast</type>
@@ -1911,7 +1911,7 @@
 			<attack>Tail|7|6d6+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Stone Juggernaut">
 		<name>Stone Juggernaut</name>
 		<size>L</size>
 		<type>construct</type>
@@ -1959,7 +1959,7 @@
 			<attack>Slam|10|3d12+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Su-Monster">
 		<name>Su-Monster</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -2006,7 +2006,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Tabaxi Hunter">
 		<name>Tabaxi Hunter</name>
 		<size>M</size>
 		<type>humanoid (tabaxi)</type>
@@ -2055,7 +2055,7 @@
 			<attack>Shortbow|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Tabaxi Minstrel">
 		<name>Tabaxi Minstrel</name>
 		<size>M</size>
 		<type>humanoid (tabaxi)</type>
@@ -2104,7 +2104,7 @@
 			<attack>Dart|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Thorny">
 		<name>Thorny</name>
 		<size>M</size>
 		<type>plant</type>
@@ -2143,7 +2143,7 @@
 			<attack>Thorny Body||1d4</attack>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Tri-Flower Frond">
 		<name>Tri-Flower Frond</name>
 		<size>M</size>
 		<type>plant</type>
@@ -2187,7 +2187,7 @@
 			<attack>Poison Damage||2d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Vegepygmy">
 		<name>Vegepygmy</name>
 		<size>S</size>
 		<type>plant</type>
@@ -2231,7 +2231,7 @@
 			<attack>Sling|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Vegepygmy Chief">
 		<name>Vegepygmy Chief</name>
 		<size>S</size>
 		<type>plant</type>
@@ -2286,7 +2286,7 @@
 			<recharge>1/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Velociraptor">
 		<name>Velociraptor</name>
 		<size>T</size>
 		<type>beast</type>
@@ -2326,7 +2326,7 @@
 			<attack>Claws|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Volothamp "Volo" Geddarm">
 		<name>Volothamp "Volo" Geddarm</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -2368,7 +2368,7 @@
 			<attack>Dagger|3|1d4+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Xandala">
 		<name>Xandala</name>
 		<size>M</size>
 		<type>humanoid (half-elf)</type>
@@ -2420,7 +2420,7 @@
 			<attack>Quarterstaff (2H)|3|1d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Yellow Musk Creeper">
 		<name>Yellow Musk Creeper</name>
 		<size>M</size>
 		<type>plant</type>
@@ -2464,7 +2464,7 @@
 			<recharge>3/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Yellow Musk Zombie">
 		<name>Yellow Musk Zombie</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2499,7 +2499,7 @@
 			<attack>Slam|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Yuan-Ti Broodguard">
 		<name>Yuan-Ti Broodguard</name>
 		<size>M</size>
 		<type>humanoid (yuan-ti)</type>
@@ -2547,7 +2547,7 @@
 			<attack>Claws|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Yuan-Ti Nightmare Speaker">
 		<name>Yuan-Ti Nightmare Speaker</name>
 		<size>M</size>
 		<type>monstrosity (shapechanger, yuan-ti)</type>
@@ -2627,7 +2627,7 @@
 			<attack>Psychic Damage||2d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Zindar">
 		<name>Zindar</name>
 		<size>M</size>
 		<type>humanoid (half-dragon)</type>
@@ -2687,7 +2687,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ankylosaurus Zombie">
 		<name>Ankylosaurus Zombie</name>
 		<size>H</size>
 		<type>undead</type>
@@ -2722,7 +2722,7 @@
 			<attack>Tail|6|4d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Girallon Zombie">
 		<name>Girallon Zombie</name>
 		<size>L</size>
 		<type>undead</type>
@@ -2770,7 +2770,7 @@
 			<attack>Claw|6|1d4+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Tyrannosaurus Zombie">
 		<name>Tyrannosaurus Zombie</name>
 		<size>H</size>
 		<type>undead</type>
@@ -2819,7 +2819,7 @@
 			<attack>Tail|10|3d8+7</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Zorbo">
 		<name>Zorbo</name>
 		<size>S</size>
 		<type>monstrosity</type>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="SKT">
-	<monster>
+	<monster name="Crag Cat">
 		<name>Crag Cat</name>
 		<size>L</size>
 		<type>beast</type>
@@ -44,7 +44,7 @@
 			<attack>Claw|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hulking Crab">
 		<name>Hulking Crab</name>
 		<size>H</size>
 		<type>beast</type>
@@ -82,7 +82,7 @@
 			<attack>Claw|7|3d10+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Iymrith, Ancient Blue Dragon">
 		<name>Iymrith, Ancient Blue Dragon</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -179,7 +179,7 @@
 		</legendary>
 		<spells>Counterspell, Detect Magic, Ice Storm, Stone Shape, Teleport</spells>
 	</monster>
-	<monster>
+	<monster name="Maegera the Dawn Titan">
 		<name>Maegera the Dawn Titan</name>
 		<size>G</size>
 		<type>elemental</type>
@@ -253,7 +253,7 @@
 			<text>Maegera's hit points are reduced by 50 as part of it separates and becomes a fire elemental with 102 hit points. The fire element appears in an unoccupied space within 15 feet of Maegera and acts on Maegera's initiative count. Maegera can't use this action if it has 50 hit points or fewer. The fire element obeys Maegera's commands and fights until destroyed.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Purple Wormling">
 		<name>Purple Wormling</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -289,7 +289,7 @@
 			<attack>Poison Damage||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Tressym">
 		<name>Tressym</name>
 		<size>T</size>
 		<type>beast</type>
@@ -327,7 +327,7 @@
 			<attack>Claws|0|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Uthgardt Shaman">
 		<name>Uthgardt Shaman</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -398,7 +398,7 @@
 		</action>
 		<spells>Dancing Lights, Message, Mage Hand, Thaumaturgy, Augury, Bestow Curse, Cordon of Arrows, Detect Magic, Hex, Prayer of Healing, Speak with Dead, Spirit Guardians</spells>
 	</monster>
-	<monster>
+	<monster name="Yakfolk Warrior">
 		<name>Yakfolk Warrior</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -438,7 +438,7 @@
 			<attack>Longbow|2|2d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Yakfolk Priest">
 		<name>Yakfolk Priest</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -493,7 +493,7 @@
 		<slots>4,3,3,1,0,0,0,0,0</slots>
 	</monster>
 	<!--Special NPCs-->
-	<monster>
+	<monster name="Augrek Brighthelm">
 		<name>Augrek Brighthelm</name>
 		<size>M</size>
 		<type>humanoid (shield dwarf)</type>
@@ -538,7 +538,7 @@
 			<text>Flaw: "I'm head over heels in love with Sheriff Southwell. One day I hope to marry him."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Sirac of Suzail">
 		<name>Sirac of Suzail</name>
 		<size>M</size>
 		<type>humanoid (chondathan human)</type>
@@ -580,7 +580,7 @@
 			<text>Flaw: "I am honest to a fault."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Duvessa Shane">
 		<name>Duvessa Shane</name>
 		<size>M</size>
 		<type>humanoid (illuskan human)</type>
@@ -617,7 +617,7 @@
 			<text>Flaw: "I don't give an inch in any argument of conflict."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Markham Southwell">
 		<name>Markham Southwell</name>
 		<size>M</size>
 		<type>humanoid (turami human)</type>
@@ -660,7 +660,7 @@
 			<text>Flaw: "I bury my emotions and have no interest in small talk."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Beldora">
 		<name>Beldora</name>
 		<size>M</size>
 		<type>humanoid (illuskan human)</type>
@@ -702,7 +702,7 @@
 			<text>Flaw: "I like lying to people. Makes life more interesting, no?"</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Sir Baric Nylef">
 		<name>Sir Baric Nylef</name>
 		<size>M</size>
 		<type>humanoid (illuskan human)</type>
@@ -744,7 +744,7 @@
 			<text>Flaw: "I'm not afraid to die. When Tyr finally calls me, I'll go to him happily."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Shalvus Martholio">
 		<name>Shalvus Martholio</name>
 		<size>M</size>
 		<type>humanoid (turami human)</type>
@@ -788,7 +788,7 @@
 			<text>Flaw: "I can't resist taking risks to feed my ambitions."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Lifferlas">
 		<name>Lifferlas</name>
 		<size>H</size>
 		<type>plant</type>
@@ -830,7 +830,7 @@
 			<text>Flaw: "I can't remember people's names and often get them mixed up."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Zi Liang">
 		<name>Zi Liang</name>
 		<size>M</size>
 		<type>humanoid (shou human)</type>
@@ -877,7 +877,7 @@
 			<text>Flaw: "I don't trust authority. I do what my heart says is right."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Miros Xelbrin">
 		<name>Miros Xelbrin</name>
 		<size>M</size>
 		<type>humanoid (damaran human)</type>
@@ -920,7 +920,7 @@
 			<text>Flaw: "When something upsets me, I have a tendency to fly into a rage."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Naxene Drathkala">
 		<name>Naxene Drathkala</name>
 		<size>M</size>
 		<type>humanoid (turami human)</type>
@@ -966,7 +966,7 @@
 		<spells>Fire Bolt, Light, Mage Hand, Prestidigitation, Mage Armor, Magic Missile, Shield, Misty Step, Suggestion, Fly, Lightning Bolt</spells>
 		<slots>4,3,3,0,0,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Oren Yogilvy">
 		<name>Oren Yogilvy</name>
 		<size>S</size>
 		<type>humanoid (strongheart halfling)</type>
@@ -1012,7 +1012,7 @@
 			<text>Flaw: "I have a knack for putting myself in harm's way. Good thing I'm lucky!"</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Darathra Shendrel">
 		<name>Darathra Shendrel</name>
 		<size>M</size>
 		<type>humanoid (illuskan humanoid)</type>
@@ -1058,7 +1058,7 @@
 			<text>Flaw: "I refuse to back down. Push me, and I'll push back."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Darz Helgar">
 		<name>Darz Helgar</name>
 		<size>M</size>
 		<type>humanoid (illuskan human)</type>
@@ -1101,7 +1101,7 @@
 			<text>Flaw: "I have no regrets. I do whatever it takes to survive."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Narth Tezrin">
 		<name>Narth Tezrin</name>
 		<size>M</size>
 		<type>humanoid (tethyrian human)</type>
@@ -1143,7 +1143,7 @@
 			<text>Flaw: "I'll risk life and limb to become a legend."</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Claugiyliamatar (SKT)">
 		<name>Claugiyliamatar (SKT)</name>
 		<size>G</size>
 		<type>dragon</type>

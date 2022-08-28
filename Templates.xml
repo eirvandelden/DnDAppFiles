@@ -125,7 +125,7 @@
 	<modifier></modifier>
 </feat>
 <!--Item template-->
-<item>
+<item name="">
 	<name></name>
 	<type></type><!-- (LA|MA|HA|S|M|R|A|RD|ST|WD|RG|P|SC|W|G|$) -->
 	<magic></magic>
@@ -143,7 +143,7 @@
 	<text></text>
 </item>
 <!--Monster template-->
-<monster>
+<monster name="">
 	<name></name>
 	<size></size><!-- (T|S|M|LH|G) -->
 	<type></type>
@@ -184,7 +184,7 @@
 	<spells></spells>
 </monster>
 <!--Race template-->
-<race>
+<race name="">
 	<name></name>
 	<size></size>
 	<speed></speed>
@@ -199,7 +199,7 @@
 	<modifier></modifier>
 </race>
 <!--Spell template-->
-<spell>
+<spell name="">
 	<name></name>
 	<level></level>
 	<school></school><!-- (A|C|D|EN|EV|I|N|T) -->
@@ -445,7 +445,7 @@
 		<item></item>
 		<container>
 			<name>Storage</name>
-			<item>
+			<item name="Copper (cp)">
 				<name>Copper (cp)</name>
 				<text>bar</text>
 				<type>15</type>
