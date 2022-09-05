@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" HB="HB" source="ToB">
-	<monster name="Aboleth, Nihilith">
-		<name>Aboleth, Nihilith</name>
+	<monster name="Aboleth, Nihileth">
+		<name>Aboleth, Nihileth</name>
 		<size>L</size>
 		<type>undead</type>
 		<description>Source: Tome of Beasts</description>
@@ -400,8 +400,8 @@
 			<attack>Force Damage||6d6</attack>
 		</action>
 	</monster>
-	<monster name="Alseid">
-		<name>Alseid</name>
+	<monster name="Alseid, ToB">
+		<name>Alseid, ToB</name>
 		<size>M</size>
 		<type>monstrosity</type>
 		<description>Source: Tome of Beasts</description>
@@ -559,7 +559,7 @@
 			<name>Innate Spellcasting</name>
 			<text>The andrenjinyi's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:</text>
 			<text></text>
-			<text>At will: create water, speak with animals, stoneshape</text>
+			<text>At will: create water, speak with animals, stone shape</text>
 			<text>3/day each: control weather, dispel magic, reincarnate</text>
 			<text>1/day each: blight, commune with nature, contagion, flesh to stone, plant growth</text>
 			<attack>Spell Attack|11|</attack>
@@ -597,7 +597,7 @@
 			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
-		<spells>Create Water, Speak with Animals, Stoneshape, Control Weather, Dispel Magic, Reincarnate, Blight, Commune with Nature, Contagion, Flesh to Stone, Plant Growth</spells>
+		<spells>Create Water, Speak with Animals, Stone shape, Control Weather, Dispel Magic, Reincarnate, Blight, Commune with Nature, Contagion, Flesh to Stone, Plant Growth</spells>
 		<trait>
 			<name>Magic Resistance</name>
 			<text>The andrenjinyi has advantage on saving throws against spells and other magical effects.</text>
@@ -3338,7 +3338,7 @@
 		</trait>
 		<action>
 			<name>Halberd</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 10 ft., onetarget. Hit: 7 (1d10 + 2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) slashing damage.</text>
 			<attack>Halberd|4|1d10+2</attack>
 		</action>
 		<action>
@@ -6046,7 +6046,7 @@
 			<text>An item is treated as jewelry if it is made of a precious material (such as silver, gold, ivory, or adamantine), adorned with gems, or both, and is worth at least 100 gp.</text>
 			<text>Arms: Melee Damage halved until a short rest</text>
 			<text>Hand: Drop any held item</text>
-			<text>Eyes: Permanetly blinded</text>
+			<text>Eyes: Permanently blinded</text>
 			<text>Head: Disadvantage on INT checks until long rest</text>
 			<text>Feet: Speed halved for 24 hours</text>
 			<text>Neck: Stunned, unable to breathe for 1 round</text>
@@ -6935,7 +6935,7 @@
 		</action>
 		<action>
 			<name>Doppeling Disease</name>
-			<text>At the end of a dopplerat encounter, every creature bitten by a doppelrat or its duplicates must succeed on a DC 12 Constitution saving throw or contract the degenerate cloning disease. During each long rest, the diseased creature grows and sloughs off a stillborn clone. The doppeling process leaves the diseased creature incapacitated for 1 hour, unable to move and barely able to speak (spellcasting is impossible in this state). When the incapacitation wears off, the creature makes a DC 12 Constitution saving throw; it recovers from the disease when it makes its second successful save. Humanoid clones created by the disease cannot be brought to life in any manner.</text>
+			<text>At the end of a doppelrat encounter, every creature bitten by a doppelrat or its duplicates must succeed on a DC 12 Constitution saving throw or contract the degenerate cloning disease. During each long rest, the diseased creature grows and sloughs off a stillborn clone. The doppeling process leaves the diseased creature incapacitated for 1 hour, unable to move and barely able to speak (spellcasting is impossible in this state). When the incapacitation wears off, the creature makes a DC 12 Constitution saving throw; it recovers from the disease when it makes its second successful save. Humanoid clones created by the disease cannot be brought to life in any manner.</text>
 		</action>
 	</monster>
 	<monster name="Dorreq">
@@ -7593,7 +7593,7 @@
 		</trait>
 		<trait>
 			<name>Mithral Shards</name>
-			<text>Ancient mithral dragons can choose to retain the mithral shards of their breath weapon as a hazardous zone of spikes. Treat as a spike growth zone that does 2d8 magical slashing damage for every 5 feet travelled.</text>
+			<text>Ancient mithral dragons can choose to retain the mithral shards of their breath weapon as a hazardous zone of spikes. Treat as a spike growth zone that does 2d8 magical slashing damage for every 5 feet traveled.</text>
 			<attack>Mithral Shards||2d8</attack>
 		</trait>
 		<trait>
@@ -7783,7 +7783,7 @@
 		<cha>14</cha>
 		<save>Dex +9, Con +4, Wis +5, Cha +5</save>
 		<skill>Acrobatics +6, Insight +5, Perception +5, Persuasion +5</skill>
-		<resist>ludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>acid, thunder</immune>
 		<conditionImmune>charmed</conditionImmune>
 		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
@@ -9293,7 +9293,7 @@
 			<name>Rust Drake Lockjaw</name>
 			<text>This disease manifests symptoms in 1d4 days, when the affected creature experiences painful muscle spasms, particularly in the jaw. After each long rest, the creature must repeat the saving throw. If it fails, the victim takes 1d3 Dexterity damage and is paralyzed for 24 hours; if the saving throw succeeds, the creature takes no damage and feels well enough to act normally for the day. This continues until the creature dies from Dexterity loss, recovers naturally by making successful saving throws after two consecutive long rests, or is cured with lesser restoration or comparable magic. After the disease ends, the victim recovers 1d3 lost Dexterity with each long rest; greater restoration or comparable magic can restore it all at once.</text>
 			<attack>Days||1d4</attack>
-			<attack>Dexerity Reduction||1d3</attack>
+			<attack>Dexterity Reduction||1d3</attack>
 		</action>
 	</monster>
 	<monster name="Star Drake">
