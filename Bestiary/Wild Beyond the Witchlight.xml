@@ -533,7 +533,7 @@
 	</action>
 	<action>
 		<name>+1 Longsword</name>
-		<text>Melee Weapon Attack:  +2 to hit, reach 5 ft., one target. Hit: 4 (1d8) slashing damage, or 5 (1d10) slashing damage when used with two hands. If the target is a creature that is Large or bigger, it takes an extra 5 (1d10) slashing damage.</text>
+		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d8) slashing damage, or 5 (1d10) slashing damage when used with two hands. If the target is a creature that is Large or bigger, it takes an extra 5 (1d10) slashing damage.</text>
 		<attack>+1 Longsword|2|1d8</attack>
 		<attack>+1 Longsword (2 hand)|2|1d10</attack>
 		<attack>Extra||1d10</attack>
@@ -1975,6 +1975,7 @@
 		<name>Bonus Action: Alter Size</name>
 		<text>Skabatha magically shrinks herself to Tiny size (between 4 and 8 inches tall) or returns to her normal size. If Skabatha lacks the room to return to her normal size, she attains the maximum size possible in the space available. Anything she is wearing or carrying changes size along with her.</text>
 		<text>	As a Tiny creature, Skabatha deals 2 (1d4) poison damage when she hits with a Claw attack. She has advantage on Dexterity (Stealth) checks, and disadvantage on Strength checks and Strength saving throws. Her statistics otherwise remain unchanged.</text>
+		<attack>Tiny Attack|7|1d4</attack>
 	</action>
 </monster>
 <monster>
@@ -2023,7 +2024,7 @@
 		<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage when used with two hands, and Skylla can expend up to 3 of the staff's charges, dealing an extra 4 (1d8) lightning damage for each expended charge.</text>
 		<attack>Eldritch Staff|2|1d6</attack>
 		<attack>Eldritch Staff (2 Hands)|2|1d8</attack>
-		<attack>Extra|2|1d8</attack>
+		<attack>Extra||1d8</attack>
 	</action>
 	<reaction>
 		<name>Eldritch Escape</name>
@@ -2071,6 +2072,7 @@
 	<action>
 		<name>Boggle Oil (3 Applications)</name>
 		<text>Squirt expends 1 application of boggle oil to create a 10-foot-square puddle of slippery, non-flammable oil on the ground within 5 feet of it. The puddle is difficult terrain and lasts for 1 hour. Each creature that enters the puddle's area or starts its turn there must succeed on a 11 Dexterity saving throw or fall prone. Boggles are unaffected by the oil. After it expends all 3 applications, Squirt can't use this action again until its supply of boggle oil is replenished.</text>
+		<recharge>3/DAY</recharge>
 	</action>
 </monster>
 <monster>
@@ -2356,7 +2358,7 @@
 		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with two hands, plus 7 (2d6) fire damage if the weapon is aflame.</text>
 		<attack>Flame Tongue|6|1d8+3</attack>
 		<attack>Flame Tongue (2 Hands)|6|1d10+3</attack>
-		<attack>Flame|6|2d6</attack>
+		<attack>Flame||2d6</attack>
 	</action>
 	<action>
 		<name>Dagger</name>
