@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Paladin">
 		<name>Paladin (Ascetic)</name>
 		<autolevel level="3">
@@ -14,16 +14,19 @@
 				<text>	Charity: Keep only what you need to survive and give all excess to those in need.</text>
 				<text>	Temperance: Your body is a temple, so treat it as such. Eat and drink only what is needed to sustain you.</text>
 				<text>	Courage: Do what must be done with enthusiasm and zeal, but have the wisdom to know when such action would be futile.</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Ascetic: Oath Spells</name>
 				<text>You gain oath spells at the paladin levels listed.</text>
 				<text/>
-				<text>3rd - mage armor, purify food and drink</text>
-				<text>5th - lesser restoration, warding bond</text>
-				<text>9th - create food and water, mass healing word</text>
-				<text>13th - aura of purity, freedom of movement</text>
-				<text>17th - greater restoration, mass cure wounds</text>
+				<text>Level    Spells</text>
+				<text>3rd      mage armor, purify food and drink</text>
+				<text>5th      lesser restoration, warding bond</text>
+				<text>9th      create food and water, mass healing word</text>
+				<text>13th     aura of purity, freedom of movement</text>
+				<text>17th     greater restoration, mass cure wounds</text>
 			</feature>
 			<feature optional="YES">
 				<name>Ascetic Channel Divinity: Armor of Faith</name>

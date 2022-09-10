@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Fire)</name>
 		<autolevel level="1">
@@ -9,11 +9,14 @@
 				<text/>
 				<text>Fire Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
-				<text>1st - burning hands, hellish rebuke</text>
-				<text>3rd - flaming sphere, heat metal</text>
-				<text>5th - daylight, fireball</text>
-				<text>7th - conjure minor elementals, wall of fire</text>
-				<text>9th - conjure elemental, flame strike</text>
+				<text>Level    Spells</text>
+				<text>1st      burning hands, hellish rebuke</text>
+				<text>3rd      flaming sphere, heat metal</text>
+				<text>5th      daylight, fireball</text>
+				<text>7th      conjure minor elementals, wall of fire</text>
+				<text>9th      conjure elemental, flame strike</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Fire: Bonus Cantrip</name>

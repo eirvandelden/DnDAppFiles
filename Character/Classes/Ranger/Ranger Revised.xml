@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="UA:RR">
 	<baseclass UA="UA">
 		<name>Ranger (Revised) (UA)</name>
 		<hd>10</hd>
@@ -10,6 +10,7 @@
 		<weapons>simple weapons, martial weapons</weapons>
 		<tools>none</tools>
 		<wealth>5d10x4</wealth>
+	<!-- Spells -->
 		<autolevel level="1">
 			<slots>0,0,0,0,0,0</slots>
 		</autolevel>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>0,4,3,3,3,2</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Ranger (Revised)</name>
@@ -117,6 +119,10 @@
 				<text>• When you forage, you find twice as much food as you normally would.</text>
 				<text/>
 				<text>• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</text>
+			</feature>
+			<feature>
+				<name>Source</name>
+				<text>Unearthed Arcana: The Ranger Revised</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">

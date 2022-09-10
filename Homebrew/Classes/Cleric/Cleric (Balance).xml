@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Balance)</name>
 		<autolevel level="1">
@@ -9,11 +9,14 @@
 				<text/>
 				<text>Balance Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
-				<text>1st - detect evil and good, sanctuary</text>
-				<text>3rd - calm emotions, warding bond</text>
-				<text>5th - dispel magic, tongues</text>
-				<text>7th - banishment, freedom of movement</text>
-				<text>9th - dispel evil and good, geas</text>
+				<text>Level    Spells</text>
+				<text>1st      detect evil and good, sanctuary</text>
+				<text>3rd      calm emotions, warding bond</text>
+				<text>5th      dispel magic, tongues</text>
+				<text>7th      banishment, freedom of movement</text>
+				<text>9th      dispel evil and good, geas</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Balance: Bonus Proficiency</name>

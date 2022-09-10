@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Paladin">
 		<name>Paladin (Battle)</name>
 		<autolevel level="3">
@@ -14,16 +14,19 @@
 				<text>	Comrades Before Oneself: A soldier alone is merely a soldier; many soldiers together are a force to be reckoned with. You are nothing without your comrades in arms; you must put the wellbeing and safety of your battle companions before your own, and when an ally falls, it is your duty to pick them up and carry them to safety if need be.</text>
 				<text>	Never Forget the Mission: Do not let anger, revenge, or despair come between you and your goal. Every battle is fought for a reason, and there is an objective to be won that must be remembered always. In every facet of life, remember your mission, and place it before your own desires.</text>
 				<text>	Defeat is Not an Option: Never surrender when the fight can still be won. Never abandon your position unless commanded to do so by a superior o cer. Never do anything to endanger the chance for your force to emerge from battle victorious. Fight to the last, but remember that the war is more important than the battle.</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Battle: Oath Spells</name>
 				<text>You gain oath spells at the paladin levels listed.</text>
 				<text/>
-				<text>3rd - healing word, shield</text>
-				<text>5th - flame blade, spiritual weapon</text>
-				<text>9th - beacon of hope, spirit guardians</text>
-				<text>13th - guardian of faith, stoneskin</text>
-				<text>17th - greater restoration, mass cure wounds</text>
+				<text>Level    Spells</text>
+				<text>3rd      healing word, shield</text>
+				<text>5th      flame blade, spiritual weapon</text>
+				<text>9th      beacon of hope, spirit guardians</text>
+				<text>13th     guardian of faith, stoneskin</text>
+				<text>17th     greater restoration, mass cure wounds</text>
 			</feature>
 			<feature optional="YES">
 				<name>Battle Channel Divinity: Sacred Armor</name>

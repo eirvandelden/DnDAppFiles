@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Repose)</name>
 		<autolevel level="1">
@@ -9,11 +9,14 @@
 				<text/>
 				<text>Repose Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
-				<text>1st - false life, sleep</text>
-				<text>3rd - gentle repose, hold person</text>
-				<text>5th - glyph of warding, speak with dead</text>
-				<text>7th - banishment, death ward</text>
-				<text>9th - raise dead, hold monster</text>
+				<text>Level    Spells</text>
+				<text>1st      false life, sleep</text>
+				<text>3rd      gentle repose, hold person</text>
+				<text>5th      glyph of warding, speak with dead</text>
+				<text>7th      banishment, death ward</text>
+				<text>9th      raise dead, hold monster</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Repose: Power of the Grave</name>

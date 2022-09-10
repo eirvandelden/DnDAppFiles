@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="ToA">
 	<background>
 		<name>Archaeologist</name>
 		<proficiency>History, Survival</proficiency>
@@ -59,7 +59,11 @@
             <text>5     When given the choice of going left or right, I always go left.</text>
             <text>6     I can't sleep except in total darkness.</text>
         </trait>
-	</background>
+        <trait>
+            <name>Source</name>
+            <text>Tomb of Annihilation</text>
+        </trait>
+    </background>
 	<background>
 		<name>Anthropologist</name>
 		<proficiency>Insight, Religion</proficiency>
@@ -113,5 +117,9 @@
             <text>5     I complain about everything.</text>
             <text>6     I wear a tribal mask and never take it off.</text>
         </trait>
-	</background>
+        <trait>
+            <name>Source</name>
+            <text>Tomb of Annihilation</text>
+        </trait>
+    </background>
 </compendium>

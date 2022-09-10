@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PHB">
 	<subclass baseclass="Paladin">
 		<name>Paladin (Devotion)</name>
 		<autolevel level="3">
@@ -15,6 +15,8 @@
 				<text>	Compassion. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.</text>
 				<text>	Honor. Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.</text>
 				<text>	Duty. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.</text>
+				<text></text>
+				<text>Source: Player's Handbook</text>
 			</feature>
 			<feature optional="YES">
 				<name>Devotion Channel Divinity: Sacred Weapon</name>
@@ -31,13 +33,9 @@
 				<text>You gain oath spells at the paladin levels listed.</text>
 				<text/>
 				<text>3rd - protection from evil and good, sanctuary</text>
-				<text/>
 				<text>5th - lesser restoration, zone of truth</text>
-				<text/>
 				<text>9th - beacon of hope, dispel magic</text>
-				<text/>
 				<text>13th - freedom of movement, guardian of faith</text>
-				<text/>
 				<text>17th - commune, flame strike</text>
 			</feature>
 		</autolevel>

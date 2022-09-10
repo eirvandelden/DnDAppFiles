@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Fighter">
 		<name>Fighter (Hospitaler)</name>
+	<!-- Spells -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="3">
 			<slots optional="YES">2,2,0,0,0</slots>
@@ -57,10 +58,13 @@
 		<autolevel level="20">
 			<slots optional="YES">3,4,3,3,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Martial Archetype: Hospitaler</name>
 				<text>The hospitaler archetype stands at the crossroads of martial mastery and devotion to one or more gods. Hospitalers approach their faith much as clerics do, but draw on their religious convictions to help them overcome their enemies in battle. Where paladins are called to fight in the name of righteousness, hospitalers use their devotion to the divine to advance the cause of their patron deities in the world and might serve as combat healers, chaplains, or simply devout warriors who took up arms in the name of the gods. Hospitalers pray for and receive a small number of cleric spells, and most focus their spell selection on healing magic.</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Hospitaler: Spellcasting</name>

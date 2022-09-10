@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" UA="The Mystic Class">
+<compendium version="5" UA="The Mystic Class" source="UA:TMC">
 	<baseclass>
 		<name>Mystic (UA)</name>
 		<hd>8</hd>
@@ -9,6 +9,7 @@
 		<weapons>simple weapons</weapons>
 		<tools>none</tools>
 		<wealth>5d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Intelligence</spellAbility>
 		<autolevel level="1">
 			<slots>1,1,4,2,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>4,8,71,7,0,0,0,0,0,0</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -213,6 +215,10 @@
 				<name>Mystic Order</name>
 				<text>At 1st level, you choose a Mystic Order: the Order of the Avatar, the Order of the Awakened, the Order of the Immortal, the Order of the Nomad, the Order of the Soul Knife, or the Order of the Wu Jen, each of which is detailed at the end of the class description. Each order specializes in a specific approach to psionics.</text>
 				<text>Your order gives you features when you choose it at 1st level and additional features at 3rd, 6th, and 14th level.</text>
+			</feature>
+			<feature>
+				<name>Source</name>
+				<text>Source: Unearthed Arcana: The Mystic Class</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">

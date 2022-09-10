@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="SCAG">
 	<!--Spell Attack rolls assume PROF added to roll, not applicable for Ranged while engaged in Melee range-->
 	<!--replaced ":" as intro to list with ".", and as in-line text with " - "-->
 	<spell>
@@ -17,6 +17,8 @@
 		<roll>2d8</roll>
 		<roll>3d8</roll>
 		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Sword Coast Adventure's Guide</text>
 	</spell>
 	<spell>
 		<name>Green-Flame Blade</name>
@@ -35,6 +37,8 @@
 		<roll>2d8+SPELL</roll>
 		<roll>3d8</roll>
 		<roll>3d8+SPELL</roll>
+		<text></text>
+		<text>Source: Sword Coast Adventure's Guide</text>
 	</spell>
 	<spell>
 		<name>Lightning Lure</name>
@@ -51,6 +55,8 @@
 		<roll>2d8</roll>
 		<roll>3d8</roll>
 		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Sword Coast Adventure's Guide</text>
 	</spell>
 	<spell>
 		<name>Sword Burst</name>
@@ -67,5 +73,7 @@
 		<roll>2d6</roll>
 		<roll>3d6</roll>
 		<roll>4d6</roll>
+		<text></text>
+		<text>Source: Sword Coast Adventure's Guide</text>
 	</spell>
 </compendium>

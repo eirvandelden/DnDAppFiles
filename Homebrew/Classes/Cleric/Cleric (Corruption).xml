@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Corruption)</name>
 		<autolevel level="1">
@@ -9,11 +9,14 @@
 				<text/>
 				<text>Corruption Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
-				<text>1st - charm person, disguise self</text>
-				<text>3rd - crown of madness, suggestion</text>
-				<text>5th - fear, major image</text>
-				<text>7th - confusion, polymorph</text>
-				<text>9th - modify memory, seeming</text>
+				<text>Level    Spells</text>
+				<text>1st      charm person, disguise self</text>
+				<text>3rd      crown of madness, suggestion</text>
+				<text>5th      fear, major image</text>
+				<text>7th      confusion, polymorph</text>
+				<text>9th      modify memory, seeming</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Corruption: Tools of Corruption</name>

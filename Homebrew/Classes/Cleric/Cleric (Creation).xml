@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Creation)</name>
 		<autolevel level="1">
@@ -9,11 +9,14 @@
 				<text/>
 				<text>Creation Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
-				<text>1st - create or destroy water, identify</text>
-				<text>3rd - magic weapon, shatter</text>
-				<text>5th - glyph of warding, leomund's tiny hut</text>
-				<text>7th - fabricate, stone shape</text>
-				<text>9th - creation, wall of stone</text>
+				<text>Level    Spells</text>
+				<text>1st      create or destroy water, identify</text>
+				<text>3rd      magic weapon, shatter</text>
+				<text>5th      glyph of warding, leomund's tiny hut</text>
+				<text>7th      fabricate, stone shape</text>
+				<text>9th      creation, wall of stone</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
 				<name>Creation: Disciple of Creation</name>
