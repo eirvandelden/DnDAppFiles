@@ -29,7 +29,10 @@
 		<text>When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.</text>
 		<roll>6d8</roll>
 		<text />
-		<text>Random Properties. The sword has the following randomly determined properties, as described in chapter 7 of the Dungeon Master's Guide:,[object Object]</text>
+		<text>Random Properties. The sword has the following randomly determined properties, as described in chapter 7 of the Dungeon Master's Guide:</text>
+		<text>• 2 minor beneficial properties</text>
+		<text>• 1 major beneficial property</text>
+		<text>• 1 major detrimental property, which is suppressed while the sword is attuned to an archdevil</text>
 		<text />
 		<text>Ruler of Avernus. As an action, you can point this sword at one devil you can see within 60 feet of you. That devil must succeed on a DC 22 Charisma saving throw or be charmed by you for 1 hour. While charmed in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil.</text>
 		<text />
@@ -196,7 +199,10 @@
 		<text />
 		<text>Carrying Soul Coins. To hold a soul coin is to feel the soul bound within it—overcome with rage or fraught with despair. An evil creature can carry as many soul coins as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of soul coins equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of soul coins greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</text>
 		<text />
-		<text>Using a Soul Coin. A soul coin has 3 charges. A creature carrying the coin can use its action to expend 1 charge from a soul coin and use it to do one of the following:,[object Object]</text>
+		<text>Using a Soul Coin. A soul coin has 3 charges. A creature carrying the coin can use its action to expend 1 charge from a soul coin and use it to do one of the following:</text>
+		<text>• Drain Life. You siphon away some of the soul's essence and gain 1d10 temporary hit points.</text>
+		<roll>1d10</roll>
+		<text>• Query. You telepathically ask the soul a question and receive a brief telepathic response, which you can understand. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</text>
 		<text />
 		<text>Freeing a Soul. Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as lemure devils. A soul can also be freed by destroying the coin that contains it. A soul coin has AC 19, 1 hit point for each charge it has remaining, and immunity to all damage except that which is dealt by a hellfire weapon or an infernal war machine's furnace (see "Soul Fuel"). Freeing a soul from a soul coin is considered a good act, even if the soul belongs to an evil creature.</text>
 		<text />
@@ -217,7 +223,53 @@
 		<text>Requires Attunement by a creature the sword deems worthy</text>
 		<text>This longsword belonged to the angel Zariel before her fall from grace. Fashioned from celestial steel, it gives off a faint glow and hum. The weapon chooses who can attune to it and who can't. It desires a wielder who embodies bravery and heroism.</text>
 		<text />
-		<text>Attunement. The sword allows you to attune to it immediately, without having to take a short rest. The first time you attune to the sword, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. Neither magic nor divine intervention can reverse this transformation. Your alignment becomes lawful good, and you gain the following traits:,[object Object]</text>
+		<text>Attunement. The sword allows you to attune to it immediately, without having to take a short rest. The first time you attune to the sword, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. Neither magic nor divine intervention can reverse this transformation. Your alignment becomes lawful good, and you gain the following traits:</text>
+		<text>• Angelic Language. You can speak, read, and write Celestial.</text>
+		<text>• Celestial Resistance. You have resistance to necrotic and radiant damage.</text>
+		<text>• Divine Presence. Your Charisma score becomes 20, unless it is already 20 or higher.</text>
+		<text>• Feathered Wings. You sprout a beautiful pair of feathered wings that grant you a flying speed of 90 feet and the ability to hover. If you already have a different kind of wings, these new wings replace the old ones, which fall off.</text>
+		<text>• Truesight. Your eyes become luminous pools of silver. You can see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the Ethereal Plane, all within a range of 60 feet.</text>
+		<text>• New Personality. You gain new personality traits, determined by rolling once on each of the following tables. These traits override any conflicting personality trait, ideal, bond, or flaw.</text>
+		<text></text>
+		<text>Personality Traits</text>
+		<text>d8    Personality Trait</text>
+		<text>1     I treat all beings, even enemies, with respect.</text>
+		<text>2     I won't tell a lie.</text>
+		<text>3     I enjoy sharing my philosophical worldview and experiences with others.</text>
+		<text>4     I cut right to the chase in every conversation.</text>
+		<text>5     I often quote (or misquote) religious texts.</text>
+		<text>6     I anger quickly when I witness cruelty or injustice.</text>
+		<text>7     My praise and trust are earned and never given freely.</text>
+		<text>8     I like everything clean and organized.</text>
+		<text></text>
+		<text>Ideals</text>
+		<text>d6    Ideal</text>
+		<text>1     Charity. I always help those in need. (Good)</text>
+		<text>2     Faith. I choose to follow the tenets of a particular lawful good deity to the letter. (Lawful)</text>
+		<text>3     Responsibility. It is the duty of the strong to protect the weak. (Lawful)</text>
+		<text>4     Respect. All people deserve to be treated with dignity. (Good)</text>
+		<text>5     Honor. The way I conduct myself determines my reward in the afterlife. (Lawful)</text>
+		<text>6     Redemption. All creatures are capable of change for the better. (Good)</text>
+		<text></text>
+		<text>Bonds</text>
+		<text>d6    Bond</text>
+		<text>1     I have a favorite religious hymn that I constantly hum.</text>
+		<text>2     I must keep a written record of my beliefs and the sins that I witness. When finished, this book will be my gift to the multiverse.</text>
+		<text>3     I have cherished memories of Idyllglen, though I've only seen this bucolic town in dreams.</text>
+		<text>4     I would die for those who fight beside me, regardless of their faults.</text>
+		<text>5     I seek to honor the angel Zariel by destroying fiends and other evildoers wherever I find them.</text>
+		<text>6     The Sword of Zariel has chosen me. I shall not fail to wield it justly.</text>
+		<text></text>
+		<text>Flaws</text>
+		<text>d6    Flaw</text>
+		<text>1     I am too quick to judge others.</text>
+		<text>2     I offer forgiveness too readily.</text>
+		<text>3     I will sacrifice innocent lives for the greater good.</text>
+		<text>4     Flaw? What flaw? I am flawless. Utter perfection!</text>
+		<text>5     I allow nothing to stand in the way of my crusade to eradicate evil from the multiverse.</text>
+		<text>6     I ignore those who do not support my plans, for my calling is higher than all others.</text>
+		<roll>1d8</roll>
+		<roll>1d6</roll>
 		<text />
 		<text>Holy Light. The sword sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Fiends find the sword's light disconcerting and painful, even if they can't see it, and have disadvantage on attack rolls made within the weapon's radius of bright light. As a bonus action, you can intensify the sword's light, causing it to shed bright light in a 15-foot radius and dim light for an additional 15 feet, or reduce its glow to its normal intensity.</text>
 		<text />
