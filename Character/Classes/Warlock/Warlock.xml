@@ -9,6 +9,7 @@
 		<weapons>simple weapons</weapons>
 		<tools>none</tools>
 		<wealth>4d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Charisma</spellAbility>
 		<autolevel level="1">
 			<slots>2,1,0,0,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>4,0,0,0,0,4,0,0,0,0</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -90,8 +92,6 @@
 				<text/>
 				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
 			</feature>
-		</autolevel>
-		<autolevel level="1">
 			<feature>
 				<name>Otherworldly Patron</name>
 				<text>At 1st level, you have struck a bargain with an otherworldly being of your choice - the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</text>
@@ -234,7 +234,7 @@
 				<text>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</text>
 			</feature>
 		</autolevel>
-		<!-- Repeated Eldritch Invocation -->
+	<!-- Repeated Eldritch Invocation -->
 		<autolevel level="2" IL="IL">
 			<feature optional="YES">
 				<name>Eldritch Invocation: Agonizing Blast</name>
@@ -1741,7 +1741,7 @@
 				<text>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</text>
 			</feature>
 		</autolevel>
-		<!-- Unearthed Arcana Eldritch Invocations-->
+	<!-- Unearthed Arcana Eldritch Invocations-->
 		<autolevel level="2" IL="IL">
 			<feature UA="Revised Class Options" optional="YES">
 				<name>Eldritch Invocation: Frost Lance (UA)</name>
@@ -1762,7 +1762,7 @@
 				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
 			</feature>
 		</autolevel>
-		<!-- Eldritch Invocations from Warlock & Wizard not repeated/replaced in Revised Class Options-->
+	<!-- Eldritch Invocations from Warlock & Wizard not repeated/replaced in Revised Class Options-->
 		<autolevel level="2" IL="IL">
 			<feature UA="Warlock &amp; Wizard" optional="YES">
 				<name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
@@ -1838,8 +1838,83 @@
 				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
 			</feature>
 		</autolevel>
+    <!--Tasha's Variants-->
+        <autolevel level="3" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Pact Boon: Pact of the Talisman</name>
+                <text>Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.</text>
+                <text>If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="4" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Eldritch Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:</text>
+                <text></text>
+                <text>	Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.</text>
+                <text>	Replace the option you chose for the Pact Boon feature with one of that feature's other options.</text>
+                <text>	If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level.</text>
+                <text>If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="8" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Eldritch Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:</text>
+                <text></text>
+                <text>	Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.</text>
+                <text>	Replace the option you chose for the Pact Boon feature with one of that feature's other options.</text>
+                <text>	If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level.</text>
+                <text>If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="12" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Eldritch Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:</text>
+                <text></text>
+                <text>	Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.</text>
+                <text>	Replace the option you chose for the Pact Boon feature with one of that feature's other options.</text>
+                <text>	If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level.</text>
+                <text>If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="16" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Eldritch Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:</text>
+                <text></text>
+                <text>	Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.</text>
+                <text>	Replace the option you chose for the Pact Boon feature with one of that feature's other options.</text>
+                <text>	If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level.</text>
+                <text>If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="19" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Eldritch Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:</text>
+                <text></text>
+                <text>	Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.</text>
+                <text>	Replace the option you chose for the Pact Boon feature with one of that feature's other options.</text>
+                <text>	If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level.</text>
+                <text>If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
-	<!-- PHB/Official Eldritch Invocations as Spells -->
+<!-- PHB/Official Eldritch Invocations as Spells -->
 	<spell PS="PS">
 		<name>Eldritch Invocation: Agonizing Blast</name>
 		<classes>Warlock Eldritch Invocation</classes>
@@ -2194,7 +2269,7 @@
 		<text/>
 		<text>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</text>
 	</spell>
-	<!-- Unearthed Arcana Eldritch Invocations as Spells -->
+<!-- Unearthed Arcana Eldritch Invocations as Spells -->
 	<spell PS="PS" UA="Warlock &amp; Wizard">
 		<name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
 		<classes>Warlock Eldritch Invocation</classes>

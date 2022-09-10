@@ -9,6 +9,7 @@
 		<weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons>
 		<tools>none</tools>
 		<wealth>4d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Intelligence</spellAbility>
 		<autolevel level="1">
 			<slots>3,2,0,0,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>5,4,3,3,3,3,2,2,1,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -90,8 +92,6 @@
 				<text/>
 				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
 			</feature>
-		</autolevel>
-		<autolevel level="1">
 			<feature>
 				<name>Arcane Recovery</name>
 				<text>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.</text>
@@ -180,5 +180,14 @@
 				<text>	If you want to cast either spell at a higher level, you must expend a spell slot as normal.</text>
 			</feature>
 		</autolevel>
+    <!--Tasha's Variants-->
+        <autolevel level="3" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Formulas</name>
+                <text>You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>
