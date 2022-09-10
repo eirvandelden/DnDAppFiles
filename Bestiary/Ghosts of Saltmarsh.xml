@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="GoS">
 	<!--Ghosts of Saltmarsh-->
-	<monster>
+	<monster name="Amphisbaena">
 		<name>Amphisbaena</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -41,7 +41,7 @@
 			<attack>Poison||1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Assassin Vine">
 		<name>Assassin Vine</name>
 		<size>L</size>
 		<type>plant</type>
@@ -81,7 +81,7 @@
 			<text>The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bard">
 		<name>Bard</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -137,7 +137,7 @@
 		<spells>Friends, Mage Hand, Vicious Mockery, Charm Person, Healing Word, Heroism, Sleep, Thunderwave, Invisibility, Shatter</spells>
 		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Bodak">
 		<name>Bodak</name>
 		<size>M</size>
 		<type>undead</type>
@@ -188,7 +188,7 @@
 		</action>
 		<spells/>
 	</monster>
-	<monster>
+	<monster name="Bullywug Croaker">
 		<name>Bullywug Croaker</name>
 		<size>M</size>
 		<type>humanoid (bullywug)</type>
@@ -252,7 +252,7 @@
 			<recharge>1/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bullywug Royal">
 		<name>Bullywug Royal</name>
 		<size>M</size>
 		<type>humanoid (bullywug)</type>
@@ -322,7 +322,7 @@
 			<recharge>1/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Deep Scion">
 		<name>Deep Scion</name>
 		<size>M</size>
 		<type>humanoid (shapechanger)</type>
@@ -381,7 +381,7 @@
 			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Drowned Ascetic">
 		<name>Drowned Ascetic</name>
 		<size>M</size>
 		<type>undead</type>
@@ -436,7 +436,7 @@
 			<attack>Unarmed Strike|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Drowned Assassin">
 		<name>Drowned Assassin</name>
 		<size>M</size>
 		<type>undead</type>
@@ -501,7 +501,7 @@
 			<recharge>1/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Drowned Blade">
 		<name>Drowned Blade</name>
 		<size>M</size>
 		<type>undead</type>
@@ -556,7 +556,7 @@
 			<attack>Rusted Longsword|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Drowned Master">
 		<name>Drowned Master</name>
 		<size>M</size>
 		<type>undead</type>
@@ -623,7 +623,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Fathomer">
 		<name>Fathomer</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -680,7 +680,7 @@
 			<attack>Dagger|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Coral Snake">
 		<name>Giant Coral Snake</name>
 		<size>L</size>
 		<type>beast</type>
@@ -711,7 +711,7 @@
 			<attack>Bite|5|2d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Sea Eel">
 		<name>Giant Sea Eel</name>
 		<size>L</size>
 		<type>beast</type>
@@ -746,7 +746,7 @@
 			<attack>Bite|4|2d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Harpy Matriarch">
 		<name>Harpy Matriarch</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -804,7 +804,7 @@
 			<recharge>1/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Juvenile Kraken">
 		<name>Juvenile Kraken</name>
 		<size>H</size>
 		<type>monstrosity (titan)</type>
@@ -878,7 +878,7 @@
 			<attack>Poison Damage||2d10</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Koalinth">
 		<name>Koalinth</name>
 		<size>M</size>
 		<type>humanoid (goblinoid)</type>
@@ -919,7 +919,7 @@
 			<attack>Trident (2H)|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Koalinth Sergeant">
 		<name>Koalinth Sergeant</name>
 		<size>M</size>
 		<type>humanoid (goblinoid)</type>
@@ -974,7 +974,7 @@
 			<recharge>2/Day</recharge>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Kraken Priest">
 		<name>Kraken Priest</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1050,7 +1050,7 @@
 			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Kysh">
 		<name>Kysh</name>
 		<size>M</size>
 		<type>humanoid (triton)</type>
@@ -1107,7 +1107,7 @@
 			<attack>Spear (2H)|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Living Iron Statue">
 		<name>Living Iron Statue</name>
 		<size>M</size>
 		<type>construct</type>
@@ -1157,7 +1157,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lizardfolk Commoner">
 		<name>Lizardfolk Commoner</name>
 		<size>M</size>
 		<type>humanoid (lizardfolk)</type>
@@ -1192,7 +1192,7 @@
 			<attack>Bite|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lizardfolk Render">
 		<name>Lizardfolk Render</name>
 		<size>L</size>
 		<type>humanoid (lizardfolk)</type>
@@ -1245,7 +1245,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lizardfolk Scaleshield">
 		<name>Lizardfolk Scaleshield</name>
 		<size>M</size>
 		<type>humanoid (lizardfolk)</type>
@@ -1298,7 +1298,7 @@
 			<text>If an ally within 5 feet of the scaleshield is hit by an attack, the scaleshield can reduce that attack's damage by half.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Lizardfolk Subchief">
 		<name>Lizardfolk Subchief</name>
 		<size>M</size>
 		<type>humanoid (lizardfolk)</type>
@@ -1352,7 +1352,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Locathah">
 		<name>Locathah</name>
 		<size>M</size>
 		<type>humanoid (locathah)</type>
@@ -1396,7 +1396,7 @@
 			<attack>Spear (2H)|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Locathah Hunter">
 		<name>Locathah Hunter</name>
 		<size>M</size>
 		<type>humanoid (locathah)</type>
@@ -1444,7 +1444,7 @@
 			<attack>Club|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Maw Demon">
 		<name>Maw Demon</name>
 		<size>M</size>
 		<type>fiend (demon)</type>
@@ -1479,7 +1479,7 @@
 			<attack>Bite|4|2d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Maw of Sekolah">
 		<name>Maw of Sekolah</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -1541,7 +1541,7 @@
 			<attack>Feed||2d6</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Merfolk Salvager">
 		<name>Merfolk Salvager</name>
 		<size>M</size>
 		<type>humanoid (merfolk)</type>
@@ -1586,7 +1586,7 @@
 			<recharge>2/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Minotaur Living Crystal Statue">
 		<name>Minotaur Living Crystal Statue</name>
 		<size>L</size>
 		<type>construct</type>
@@ -1635,7 +1635,7 @@
 			<attack>Flying Shards||2d10</attack>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Monstrous Peryton">
 		<name>Monstrous Peryton</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1707,7 +1707,7 @@
 			<attack>Gore|9|2d6+5+2d8</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Mr. Dory">
 		<name>Mr. Dory</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -1788,7 +1788,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Oceanus">
 		<name>Oceanus</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -1833,7 +1833,7 @@
 			<attack>Light Crossbow|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pirate Bosun">
 		<name>Pirate Bosun</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1877,7 +1877,7 @@
 			<attack>Hook|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pirate Captain">
 		<name>Pirate Captain</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1931,7 +1931,7 @@
 			<recharge>2/day</recharge>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Pirate Deck Wizard">
 		<name>Pirate Deck Wizard</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1978,7 +1978,7 @@
 			<attack>Quarterstaff|2|1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pirate First Mate">
 		<name>Pirate First Mate</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -2018,7 +2018,7 @@
 			<attack>Longsword (2H)|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rip Tide Priest">
 		<name>Rip Tide Priest</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -2061,7 +2061,7 @@
 			<attack>Quarterstaff|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin Blademaster">
 		<name>Sahuagin Blademaster</name>
 		<size>M</size>
 		<type>humanoid (sahuagun)</type>
@@ -2118,7 +2118,7 @@
 			<attack>Claws|6|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin Champion">
 		<name>Sahuagin Champion</name>
 		<size>M</size>
 		<type>humanoid (sahuagin)</type>
@@ -2176,7 +2176,7 @@
 			<attack>Claws|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin Coral Smasher">
 		<name>Sahuagin Coral Smasher</name>
 		<size>M</size>
 		<type>humanoid (sahuagin)</type>
@@ -2237,7 +2237,7 @@
 			<attack>Claws|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin Deep Diver">
 		<name>Sahuagin Deep Diver</name>
 		<size>M</size>
 		<type>humanoid (sahuagin)</type>
@@ -2306,7 +2306,7 @@
 			<text>The deep diver pulses magical light from its lure. Any creature within 30 feet of the deep diver that can see the light must succeed on a DC 11 Wisdom saving throw or be charmed until the end of its next turn. A creature charmed in this way is incapacitated as it stares at the light.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin Hatchling Swarm">
 		<name>Sahuagin Hatchling Swarm</name>
 		<size>L</size>
 		<type>swarm of tiny beasts</type>
@@ -2354,7 +2354,7 @@
 			<attack>Bites (under 1/2 hp)|6|2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin High Priestess">
 		<name>Sahuagin High Priestess</name>
 		<size>M</size>
 		<type>humanoid (sahuagin)</type>
@@ -2425,7 +2425,7 @@
 			<attack>Claws|5|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sahuagin Wave Shaper">
 		<name>Sahuagin Wave Shaper</name>
 		<size>M</size>
 		<type>humanoid (sahuagin)</type>
@@ -2500,7 +2500,7 @@
 			<attack>Whirlpool||2d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sunbalet">
 		<name>Sunbalet</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -2543,7 +2543,7 @@
 			<attack>Dagger|3|1d4+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sea Lion">
 		<name>Sea Lion</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2587,7 +2587,7 @@
 			<attack>Claws|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Shell Shark">
 		<name>Shell Shark</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -2634,7 +2634,7 @@
 			<attack>Bite|5|2d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skeletal Alchemist">
 		<name>Skeletal Alchemist</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2678,7 +2678,7 @@
 			<attack>Lob Acid|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skeletal Juggernaut">
 		<name>Skeletal Juggernaut</name>
 		<size>L</size>
 		<type>undead</type>
@@ -2727,7 +2727,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skeletal Swarm">
 		<name>Skeletal Swarm</name>
 		<size>L</size>
 		<type>swarm of medium undead</type>
@@ -2767,7 +2767,7 @@
 			<attack>Slash (under 1/2hp)|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skum">
 		<name>Skum</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -2824,7 +2824,7 @@
 			<attack>Mind-Breaking Touch|7|4d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Storm Giant Quintessent">
 		<name>Storm Giant Quintessent</name>
 		<size>H</size>
 		<type>giant (storm giant)</type>
@@ -2881,7 +2881,7 @@
 			<text>The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Swarm of Rot Grubs">
 		<name>Swarm of Rot Grubs</name>
 		<size>M</size>
 		<type>swarm of tiny beasts</type>
@@ -2918,7 +2918,7 @@
 			<attack>Piercing||1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Thousand Teeth">
 		<name>Thousand Teeth</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -2980,7 +2980,7 @@
 			<attack>Bite|7|2d10+4</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Vampiric Jade Statue">
 		<name>Vampiric Jade Statue</name>
 		<size>L</size>
 		<type>construct</type>

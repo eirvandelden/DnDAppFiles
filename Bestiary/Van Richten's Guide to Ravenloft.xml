@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <compendium version="5" source="VRGR">
-    <monster>
+    <monster name="Bodytaker Plant">
         <name>Bodytaker Plant</name>
         <size>H</size>
         <type>plant</type>
@@ -54,7 +54,7 @@
             <attack>Entrapping Pod|7|4d8+4</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Boneless">
         <name>Boneless</name>
         <size>M</size>
         <type>undead</type>
@@ -102,7 +102,7 @@
             <attack>Crushing Embrace||1d4+3</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Carrion Stalker">
         <name>Carrion Stalker</name>
         <size>T</size>
         <type>monstrosity</type>
@@ -146,7 +146,7 @@
             <recharge>1/Day</recharge>
         </action>
     </monster>
-    <monster>
+    <monster name="Carrionette">
         <name>Carrionette</name>
         <size>S</size>
         <type>construct</type>
@@ -191,7 +191,7 @@
             <text>  If the carrionette's body is destroyed, both the carrionette and the target die. A protection from evil and good spell cast on the controlled body drives the carrionette out and returns the consciousness of both creatures to their original bodies. The swap is also undone if the controlled body takes damage from the carrionette's Silver Needle.</text>
         </action>
     </monster>
-    <monster>
+    <monster name="Death's Head">
         <name>Death's Head</name>
         <size>T</size>
         <type>undead</type>
@@ -240,7 +240,7 @@
             <attack>Petrifying Bite|3|1d4+1</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Dullahan">
         <name>Dullahan</name>
         <size>M</size>
         <type>undead</type>
@@ -321,7 +321,7 @@
             <attack>Headless Wail (Costs 2 Actions)||3d10</attack>
         </legendary>
     </monster>
-    <monster>
+    <monster name="Elise">
         <name>Elise</name>
         <size>M</size>
         <type>construct</type>
@@ -372,7 +372,7 @@
             <attack>Slam|7|2d8+4</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Gallows Speaker">
         <name>Gallows Speaker</name>
         <size>M</size>
         <type>undead</type>
@@ -422,7 +422,7 @@
             <attack>Suffering Echoes||3d12+3d8</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Greater Star Spawn Emissary">
         <name>Greater Star Spawn Emissary</name>
         <size>H</size>
         <type>aberration</type>
@@ -491,7 +491,7 @@
             <attack>Mind Cloud||5d12</attack>
         </legendary>
     </monster>
-    <monster>
+    <monster name="Gremishka">
         <name>Gremishka</name>
         <size>T</size>
         <type>Monstrosity</type>
@@ -531,7 +531,7 @@
             <recharge>1/Day</recharge>
         </reaction>
     </monster>
-    <monster>
+    <monster name="Inquisitor of the Mind Fire">
         <name>Inquisitor of the Mind Fire</name>
         <size>M</size>
         <type>humanoid</type>
@@ -593,7 +593,7 @@
             <recharge>D5</recharge>
         </action>
     </monster>
-    <monster>
+    <monster name="Inquisitor of the Sword">
         <name>Inquisitor of the Sword</name>
         <size>M</size>
         <type>humanoid</type>
@@ -657,7 +657,7 @@
             <text>The inquisitor teleports up to 60 feet to an unoccupied space it can see.</text>
         </action>
     </monster>
-    <monster>
+    <monster name="Inquisitor of the Tome">
         <name>Inquisitor of the Tome</name>
         <size>M</size>
         <type>humanoid</type>
@@ -724,7 +724,7 @@
             <text>In response to being hit by an attack roll, the inquisitor increases its AC by 4 against the attack. If this causes the attack to miss, the attacker is hit by the attack instead.</text>
         </reaction>
     </monster>
-    <monster>
+    <monster name="Isolde">
         <name>Isolde</name>
         <size>M</size>
         <type>fey (elf)</type>
@@ -803,7 +803,7 @@
             <text>One humanoid Isolde can see within 30 feet of it must succeed on a DC 14 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys Isolde's spoken commands. If the target suffers any harm from Isolde or another creature or receives a suicidal command from Isolde, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to Isolde's Fiendish Charm for the next 24 hours.</text>
         </action>
     </monster>
-    <monster>
+    <monster name="Jiangshi">
         <name>Jiangshi</name>
         <size>M</size>
         <type>undead</type>
@@ -858,7 +858,7 @@
             <text>The jiangshi polymorphs into a Beast, a Humanoid, or an Undead that is Medium or Small or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying is absorbed or borne by the new form (the jiangshi's choice). It reverts to its true form if it dies.</text>
         </action>
     </monster>
-    <monster>
+    <monster name="Lesser Star Spawn Emissary">
         <name>Lesser Star Spawn Emissary</name>
         <size>M</size>
         <type>aberration</type>
@@ -928,7 +928,7 @@
             <attack>Psychic Lash||8d8</attack>
         </legendary>
     </monster>
-    <monster>
+    <monster name="Loup Garou">
         <name>Loup Garou</name>
         <size>M</size>
         <type>monstrosity (shapechanger)</type>
@@ -1003,7 +1003,7 @@
             <text>The loup garou changes into hybrid or dire wolf form and then makes one Bite attack.</text>
         </legendary>
     </monster>
-    <monster>
+    <monster name="Necrichor">
         <name>Necrichor</name>
         <size>M</size>
         <type>undead</type>
@@ -1067,7 +1067,7 @@
             <recharge>D6</recharge>
         </action>
     </monster>
-    <monster>
+    <monster name="Nosferatu">
         <name>Nosferatu</name>
         <size>M</size>
         <type>undead</type>
@@ -1132,7 +1132,7 @@
             <recharge>D5</recharge>
         </action>
     </monster>
-    <monster>
+    <monster name="Podling">
         <name>Podling</name>
         <size>M</size>
         <type>plant</type>
@@ -1171,7 +1171,7 @@
             <attack>Slam|4|1d6+2</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Priest of Osybus">
         <name>Priest of Osybus</name>
         <size>M</size>
         <type>humanoid</type>
@@ -1239,7 +1239,7 @@
             <attack>Necrotic Bolt|7|3d8+4</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Relentless Juggernaut">
         <name>Relentless Juggernaut</name>
         <size>L</size>
         <type>fiend</type>
@@ -1317,7 +1317,7 @@
             <text>The juggernaut recharges Deadly Shaping and uses it.</text>
         </legendary>
     </monster>
-    <monster>
+    <monster name="Relentless Slasher">
         <name>Relentless Slasher</name>
         <size>M</size>
         <type>fiend</type>
@@ -1372,7 +1372,7 @@
             <text>The slasher makes one Slasher's Knife attack. After the attack hits or misses, the slasher can teleport up to 30 feet to an unoccupied space it can see.</text>
         </legendary>
     </monster>
-    <monster>
+    <monster name="Strigoi">
         <name>Strigoi</name>
         <size>M</size>
         <type>monstrosity</type>
@@ -1422,7 +1422,7 @@
             <recharge>1/Day</recharge>
         </action>
     </monster>
-    <monster>
+    <monster name="Swarm of Gremishkas">
         <name>Swarm of Gremishkas</name>
         <size>M</size>
         <type>monstrosity</type>
@@ -1466,7 +1466,7 @@
             <text>In response to a spell attack roll missing the swarm, the swarm causes that spell to hit another creature of its choice within 30 feet of it that it can see.</text>
         </reaction>
     </monster>
-    <monster>
+    <monster name="Swarm of Maggots">
         <name>Swarm of Maggots</name>
         <size>M</size>
         <type>swarm of tiny beasts</type>
@@ -1509,7 +1509,7 @@
             <attack>Disease 3-4||2d4</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Swarm of Scarabs">
         <name>Swarm of Scarabs</name>
         <size>M</size>
         <type>beast</type>
@@ -1554,7 +1554,7 @@
             <attack>Piercing Damage||1d6</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Swarm of Zombie Limbs">
         <name>Swarm of Zombie Limbs</name>
         <size>M</size>
         <type>undead</type>
@@ -1603,7 +1603,7 @@
             <attack>Grasping Limbs|4|2d6</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="The Bagman">
         <name>The Bagman</name>
         <size>L</size>
         <type>giant</type>
@@ -1663,7 +1663,7 @@
             <attack>Claw|7|2d6+4</attack>
         </action>
     </monster>
-    <monster>
+    <monster name="Unspeakable Horror">
         <name>Unspeakable Horror</name>
         <size>H</size>
         <type>monstrosity</type>
@@ -1754,7 +1754,7 @@
             <recharge>D5</recharge>
         </action>
     </monster>
-    <monster>
+    <monster name="Vampiric Mind Flayer">
         <name>Vampiric Mind Flayer</name>
         <size>M</size>
         <type>undead</type>
@@ -1816,7 +1816,7 @@
             <recharge>D5</recharge>
         </action>
     </monster>
-    <monster>
+    <monster name="Zombie Clot">
         <name>Zombie Clot</name>
         <size>H</size>
         <type>undead</type>
@@ -1872,7 +1872,7 @@
             <recharge>D5</recharge>
         </action>
     </monster>
-    <monster>
+    <monster name="Zombie Plague Spreader">
         <name>Zombie Plague Spreader</name>
         <size>M</size>
         <type>undead</type>

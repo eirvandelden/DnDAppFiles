@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Tal'dorei Campaign Setting-->
 <compendium version="5" HB="HB" source="TCS">
-	<monster>
+	<monster name="Plainscow">
 		<name>Plainscow</name>
 		<size>L</size>
 		<type>beast</type>
@@ -36,7 +36,7 @@
 			<attack>Hooves|6|2d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ashari Firetamer">
 		<name>Ashari Firetamer</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -92,7 +92,7 @@
 			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ashari Stoneguard">
 		<name>Ashari Stoneguard</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -147,7 +147,7 @@
 			<text>When the stoneguard is attacked, it may gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks until the end of the attacker's turn.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Ashari Waverider">
 		<name>Ashari Waverider</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -205,7 +205,7 @@
 			<attack>Harpoon|5|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ashari Skydancer">
 		<name>Ashari Skydancer</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -269,7 +269,7 @@
 			<text>When the skydancer takes falling damage, it may reduce the damage by half.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Clasp Cutthroat">
 		<name>Clasp Cutthroat</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -322,7 +322,7 @@
 			<text>When an attacker that the cutthroat can see hits it with an attack, the cutthroat takes half damage instead.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Clasp Enforcer">
 		<name>Clasp Enforcer</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -366,7 +366,7 @@
 			<attack>Warhammer|6|1d10+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Cyclops Stormcaller">
 		<name>Cyclops Stormcaller</name>
 		<size>L</size>
 		<type>giant</type>
@@ -444,7 +444,7 @@
 			<attack>Ice Claws|7|3d6+3+1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Goliath Stormborn">
 		<name>Goliath Stormborn</name>
 		<size>M</size>
 		<type>humanoid (goliath)</type>
@@ -508,7 +508,7 @@
 			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Goliath Brawler">
 		<name>Goliath Brawler</name>
 		<size>M</size>
 		<type>humanoid (goliath)</type>
@@ -556,7 +556,7 @@
 			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Kraghammer Goat-Knight">
 		<name>Kraghammer Goat-Knight</name>
 		<size>M</size>
 		<type>humanoid (dwarf)</type>
@@ -611,7 +611,7 @@
 			<attack>Warhammer (2H)|6|1d10+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Goat-Knight Steed">
 		<name>Goat-Knight Steed</name>
 		<size>L</size>
 		<type>celestial</type>
@@ -659,7 +659,7 @@
 			<attack>Ram|8|2d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ravager Stabby-Stabber">
 		<name>Ravager Stabby-Stabber</name>
 		<size>S</size>
 		<type>humanoid (goblinoid)</type>
@@ -703,7 +703,7 @@
 			<attack>Dagger|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ravager Slaughter Lord">
 		<name>Ravager Slaughter Lord</name>
 		<size>L</size>
 		<type>humanoid (orc)</type>
@@ -787,7 +787,7 @@
 			<attack>Spear (2H)|10|2d8+6+1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Remnant Cultist">
 		<name>Remnant Cultist</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -845,7 +845,7 @@
 			<attack>Necrotic Damage||1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Remnant Chosen">
 		<name>Remnant Chosen</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="WDH">
 	<!--Waterdeep: Dragon Heist-->
-	<monster>
+	<monster name="Ahmaergo">
 		<name>Ahmaergo</name>
 		<size>M</size>
 		<type>humanoid (dwarf)</type>
@@ -56,7 +56,7 @@
 			<attack>Heavy Crossbow|6|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ammalia Cassalanter">
 		<name>Ammalia Cassalanter</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -103,7 +103,7 @@
 			<attack>Quarterstaff (2H)|2|1d8-1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Apprentice Wizard">
 		<name>Apprentice Wizard</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -145,7 +145,7 @@
 			<attack>Dagger|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bard">
 		<name>Bard</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -203,7 +203,7 @@
 			<attack>Shortbow|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Barnibus Blastwind">
 		<name>Barnibus Blastwind</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -252,7 +252,7 @@
 			<attack>Dagger|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Black Viper">
 		<name>Black Viper</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -309,7 +309,7 @@
 			<text>The Black Viper halves the damage that she takes from an attack that hits her. She must be able to see the attacker.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Griffon Cavalry Rider">
 		<name>Griffon Cavalry Rider</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -355,7 +355,7 @@
 			<text>The rider wears a magic ring with which is can cast the feather fall spell on itself as a reaction to falling. After the spell is cast, the ring becomes nonmagical</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Davil Starsong">
 		<name>Davil Starsong</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -406,7 +406,7 @@
 			<attack>Dagger|5|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Istrid Horn">
 		<name>Istrid Horn</name>
 		<size>M</size>
 		<type>humanoid (dwarf)</type>
@@ -465,7 +465,7 @@
 			<recharge>3/DAY</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skeemo Weirdbottle">
 		<name>Skeemo Weirdbottle</name>
 		<size>S</size>
 		<type>humanoid (gnome)</type>
@@ -515,7 +515,7 @@
 			<attack>Dagger|5|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Tasklyn Yafeera">
 		<name>Tasklyn Yafeera</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -567,7 +567,7 @@
 			<attack>Shortbow (under 1/2 hp)|6|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ziraj the Hunter">
 		<name>Ziraj the Hunter</name>
 		<size>M</size>
 		<type>humanoid (half-orc)</type>
@@ -624,7 +624,7 @@
 			<recharge>SHORT</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Drow Gunslinger">
 		<name>Drow Gunslinger</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -693,7 +693,7 @@
 			<attack>Poisonous Pistol|6|1d10+4+2d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Durnan">
 		<name>Durnan</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -746,7 +746,7 @@
 			<attack>Double Crossbow|6|2d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gazer">
 		<name>Gazer</name>
 		<size>T</size>
 		<type>aberration</type>
@@ -800,7 +800,7 @@
 			<attack>Frost Ray||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hlam">
 		<name>Hlam</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -901,7 +901,7 @@
 			<text>Hlam becomes invisible until the end of his next turn. The effect ends if Hlam attacks or casts a spell.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Hrabbaz">
 		<name>Hrabbaz</name>
 		<size>M</size>
 		<type>humanoid (half-orc)</type>
@@ -947,7 +947,7 @@
 			<attack>Morningstar (under 1/2 hp)|8|1d8+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Jalester Silvermane">
 		<name>Jalester Silvermane</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1002,7 +1002,7 @@
 			<text>When a creature that Jalester can see misses him with a melee attack, he can use his reaction to make a melee weapon attack against that creature. On a hit, the target takes an extra 4 damage from the weapon.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Jarlaxle Baenre">
 		<name>Jarlaxle Baenre</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -1108,7 +1108,7 @@
 			<attack>Flying Dagger|11|1d4+6</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Laeral Silverhand">
 		<name>Laeral Silverhand</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1193,7 +1193,7 @@
 			<attack>Fire Damage||4d12</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Manshoon">
 		<name>Manshoon</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1258,7 +1258,7 @@
 			<attack>Staff of Power (2H)|7|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Martial Arts Adept">
 		<name>Martial Arts Adept</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1310,7 +1310,7 @@
 			<attack>Deflect Missile||1d10+3</attack>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Meloon Wardragon">
 		<name>Meloon Wardragon</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1359,7 +1359,7 @@
 			<attack>Azuredge|9|1d12+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Mirt">
 		<name>Mirt</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1418,7 +1418,7 @@
 			<attack>+1 Dagger (ranged)|9|1d4+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Nimblewright">
 		<name>Nimblewright</name>
 		<size>M</size>
 		<type>construct</type>
@@ -1478,7 +1478,7 @@
 			<text>The nimblewright adds 2 to its AC against one melee attack that would hit it. To do so, the nimblewright must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Remallia Haventree">
 		<name>Remallia Haventree</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -1539,7 +1539,7 @@
 			<attack>Dagger|6|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Swashbuckler">
 		<name>Swashbuckler</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -1587,7 +1587,7 @@
 			<attack>Rapier|6|1d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Vajra Safahr">
 		<name>Vajra Safahr</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1648,7 +1648,7 @@
 			<attack>Force damage||1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Victoro Cassalanter">
 		<name>Victoro Cassalanter</name>
 		<size>M</size>
 		<type>humanoid (half-elf)</type>
@@ -1718,7 +1718,7 @@
 			<text>Victoro summons a barbed devil. The devil appears in an unoccupied space within 30 feet of Victoro, acts as Victoro's ally, and can't summon other devils. It remains for 1 minute, until it or Victoro dies, or dismisses it as an action</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Volothamp 'Volo' Geddarm">
 		<name>Volothamp "Volo" Geddarm</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -1760,7 +1760,7 @@
 			<attack>Dagger|3|1d4+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Walking Statue of Waterdeep">
 		<name>Walking Statue of Waterdeep</name>
 		<size>G</size>
 		<type>construct</type>

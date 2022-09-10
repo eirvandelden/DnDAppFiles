@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <compendium version="5" source="HftT">
-	<monster>
+	<monster name="Demogorgon">
 		<name>Demogorgon</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -52,7 +52,7 @@
 			<attack>Claw|5|2d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Thessalhydra">
 		<name>Thessalhydra</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -114,7 +114,7 @@
 	</monster>
 
 	<!-- repeated monsters -->
-	<monster>
+	<monster name="Bugbear">
 		<name>Bugbear</name>
 		<size>M</size>
 		<type>humanoid (goblinoid)</type>
@@ -155,7 +155,7 @@
 			<attack>Ranged|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Cultist">
 		<name>Cultist</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -184,7 +184,7 @@
 			<attack>Scimitar|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Doppelganger">
 		<name>Doppelganger</name>
 		<size>M</size>
 		<type>monstrosity (shapechanger)</type>
@@ -232,7 +232,7 @@
 			<text>The doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Evil Mage">
 		<name>Evil Mage</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -269,7 +269,7 @@
 		<spells>Light, Mage Hand, Shocking Grasp, Charm Person, Magic Missile, Hold Person, Misty Step</spells>
 		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Flameskull">
 		<name>Flameskull</name>
 		<size>T</size>
 		<type>undead</type>
@@ -326,7 +326,7 @@
 		<spells>Mage Hand, Magic Missile, Shield, Blur, Flaming Sphere, Fireball</spells>
 		<slots>3,2,1,0,0,0,0,0,0</slots>
 	</monster>
-	<monster>
+	<monster name="Ghoul">
 		<name>Ghoul</name>
 		<size>M</size>
 		<type>undead</type>
@@ -357,7 +357,7 @@
 			<attack>Claws|4|2d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Spider">
 		<name>Giant Spider</name>
 		<size>L</size>
 		<type>beast</type>
@@ -401,7 +401,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Goblin">
 		<name>Goblin</name>
 		<size>S</size>
 		<type>humanoid (goblinoid)</type>
@@ -436,7 +436,7 @@
 			<attack>Shortbow|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hobgoblin">
 		<name>Hobgoblin</name>
 		<size>M</size>
 		<type>humanoid (goblinoid)</type>
@@ -472,7 +472,7 @@
 			<attack>Longbow|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ochre Jelly">
 		<name>Ochre Jelly</name>
 		<size>L</size>
 		<type>ooze</type>
@@ -511,7 +511,7 @@
 			<text>When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jellies if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly's, rounded down. New jellies are one size smaller than the original jelly.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Ogre">
 		<name>Ogre</name>
 		<size>L</size>
 		<type>giant</type>
@@ -541,7 +541,7 @@
 			<attack>Javelin|6|2d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Orc">
 		<name>Orc</name>
 		<size>M</size>
 		<type>humanoid (orc)</type>
@@ -576,7 +576,7 @@
 			<attack>Javelin|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Owlbear">
 		<name>Owlbear</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -614,7 +614,7 @@
 			<attack>Claws|7|2d8+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skeleton">
 		<name>Skeleton</name>
 		<size>M</size>
 		<type>undead</type>
@@ -646,7 +646,7 @@
 			<attack>Shortbow|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Stirge">
 		<name>Stirge</name>
 		<size>T</size>
 		<type>beast</type>
@@ -672,7 +672,7 @@
 			<attack>Blood Loss||1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Troglodyte">
 		<name>Troglodyte</name>
 		<size>M</size>
 		<type>humanoid (troglodyte)</type>
@@ -719,7 +719,7 @@
 			<attack>Claw|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Twig Blight">
 		<name>Twig Blight</name>
 		<size>S</size>
 		<type>plant</type>
@@ -751,7 +751,7 @@
 			<attack>Claws|3|1d4+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Wolf">
 		<name>Wolf</name>
 		<size>M</size>
 		<type>beast</type>
@@ -783,7 +783,7 @@
 			<attack>Bite|4|2d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Young Green Dragon">
 		<name>Young Green Dragon</name>
 		<size>L</size>
 		<type>dragon</type>
@@ -831,7 +831,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Zombie">
 		<name>Zombie</name>
 		<size>M</size>
 		<type>undead</type>

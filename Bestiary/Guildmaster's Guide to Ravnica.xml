@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="GGR">
-	<monster>
+	<monster name="Battleforce Angel">
 		<name>Battleforce Angel</name>
 		<size>M</size>
 		<type>celestial</type>
@@ -48,7 +48,7 @@
             <attack>Bonus||1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Firemane Angel">
 		<name>Firemane Angel</name>
 		<size>M</size>
 		<type>celestial</type>
@@ -122,7 +122,7 @@
 		</action>
 		<spells>Compelled Duel, Guiding Bolt, Daylight, Fireball</spells>
 	</monster>
-	<monster>
+	<monster name="Deathpact Angel">
 		<name>Deathpact Angel</name>
 		<size>M</size>
 		<type>celestial</type>
@@ -200,7 +200,7 @@
 		</action>
 		<spells>Command, Detect Evil and Good, Charm Person, Darkness, Suggestion, Raise Dead</spells>
 	</monster>
-	<monster>
+	<monster name="Archon of the Triumvirate">
 		<name>Archon of the Triumvirate</name>
 		<size>M</size>
 		<type>celestial</type>
@@ -268,7 +268,7 @@
 		</legendary>
 		<spells>Calm Emotions, Command, Compelled Duel</spells>
 	</monster>
-	<monster>
+	<monster name="Arclight Phoenix">
 		<name>Arclight Phoenix</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -323,7 +323,7 @@
 			<attack>Arclight Touch|10|6d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Conclave Dryad">
 		<name>Conclave Dryad</name>
 		<size>M</size>
 		<type>fey</type>
@@ -419,7 +419,7 @@
 		<spellAbility>Charisma</spellAbility>
 		<spells>Druidcraft, Dispel Magic, Entangle, Plant Growth, Spike Growth, Moonbeam, Grasping Vine, Wall of Thorns</spells>
 	</monster>
-	<monster>
+	<monster name="Cackler">
 		<name>Cackler</name>
 		<size>S</size>
 		<type>fiend (demon)</type>
@@ -478,7 +478,7 @@
 			<attack>Spiked Chain|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Master of Cruelties">
 		<name>Master of Cruelties</name>
 		<size>L</size>
 		<type>fiend (demon)</type>
@@ -544,7 +544,7 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sire of Insanities">
 		<name>Sire of Insanities</name>
 		<size>H</size>
 		<type>fiend (demon)</type>
@@ -611,7 +611,7 @@
 			<attack>Claws|10|1d8+6+2d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Devkarin Lich">
 		<name>Devkarin Lich</name>
 		<size>M</size>
 		<type>undead</type>
@@ -690,7 +690,7 @@
 			<attack>Disrupt Life||6d6</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Felidar">
 		<name>Felidar</name>
 		<size>L</size>
 		<type>celestial</type>
@@ -745,7 +745,7 @@
 			<attack>Claws|7|3d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Winged Felidar">
 		<name>Winged Felidar</name>
 		<size>L</size>
 		<type>celestial</type>
@@ -800,7 +800,7 @@
 			<attack>Claws|7|3d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bloodfray Giant">
 		<name>Bloodfray Giant</name>
 		<size>L</size>
 		<type>giant</type>
@@ -840,7 +840,7 @@
 			<attack>Chain|9|3d6+6</attack>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Guardian Giant">
 		<name>Guardian Giant</name>
 		<size>H</size>
 		<type>giant</type>
@@ -883,7 +883,7 @@
 			<text>When an attacker the giant can see makes an attack roll against a creature within 10 feet of the giant, the giant can impose disadvantage on the attack roll.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Orzhov Giant">
 		<name>Orzhov Giant</name>
 		<size>L</size>
 		<type>giant</type>
@@ -928,7 +928,7 @@
 			<attack>Rock|9|4d10+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sunder Shaman">
 		<name>Sunder Shaman</name>
 		<size>H</size>
 		<type>giant</type>
@@ -981,7 +981,7 @@
 			<attack>Rock|10|4d10+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Flying Horror">
 		<name>Flying Horror</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -1025,7 +1025,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Shadow Horror">
 		<name>Shadow Horror</name>
 		<size>L</size>
 		<type>aberration</type>
@@ -1088,7 +1088,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skittering Horror">
 		<name>Skittering Horror</name>
 		<size>H</size>
 		<type>aberration</type>
@@ -1140,7 +1140,7 @@
 			<text>The horror targets one creature it can see within 30 feet of it. If the target can see or hear the horror, the target must make a DC 17 Wisdom saving throw. On a failed saving throw, the target becomes paralyzed until the end of its next turn. If a creature's saving throw is successful, the creature is immune to the horror's Maddening Presence for the next 24 hours.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Indentured Spirit">
 		<name>Indentured Spirit</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1176,7 +1176,7 @@
 			<attack>Withering Touch|3|3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Blistercoil Weird">
 		<name>Blistercoil Weird</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -1228,7 +1228,7 @@
 			<attack>Slam (Large+)|5|2d8+3+4d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Fluxcharger">
 		<name>Fluxcharger</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -1275,7 +1275,7 @@
 			<attack>Force Damage||1d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Galvanice Weird">
 		<name>Galvanice Weird</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -1311,7 +1311,7 @@
 			<attack>Slam|4|1d6+2+2d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Category 1 Krasis">
 		<name>Category 1 Krasis</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -1448,7 +1448,7 @@
 			<attack>Claws|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Category 2 Krasis">
 		<name>Category 2 Krasis</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -1585,7 +1585,7 @@
 			<attack>Claws|7|2d12+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Category 3 Krasis">
 		<name>Category 3 Krasis</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -1727,7 +1727,7 @@
 			<attack>Tail|11|6d8+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Kraul Warrior">
 		<name>Kraul Warrior</name>
 		<size>M</size>
 		<type>humanoid (kraul)</type>
@@ -1770,7 +1770,7 @@
 			<attack>Spear (2H)|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Winged Kraul Warrior">
 		<name>Winged Kraul Warrior</name>
 		<size>M</size>
 		<type>humanoid (kraul)</type>
@@ -1814,7 +1814,7 @@
 			<attack>Spear (2H)|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Kraul Death Priest">
 		<name>Kraul Death Priest</name>
 		<size>M</size>
 		<type>humanoid (kraul)</type>
@@ -1897,7 +1897,7 @@
 			<attack>Quarterstaff (2H)|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Nightveil Specter">
 		<name>Nightveil Specter</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1947,7 +1947,7 @@
 			<recharge>3/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gloamwing">
 		<name>Gloamwing</name>
 		<size>L</size>
 		<type>undead</type>
@@ -1999,7 +1999,7 @@
 			<attack>Claws|8|3d6+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Nivix Cyclops">
 		<name>Nivix Cyclops</name>
 		<size>L</size>
 		<type>giant</type>
@@ -2042,7 +2042,7 @@
 			<text>Immediately after a creature casts a spell of 1st level or higher within 120 feet of the cyclops, the cyclops can move up to twice its speed without provoking opportunity attacks. It can then make one slam attack against a target of its choice.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Hybrid Brute">
 		<name>Hybrid Brute</name>
 		<size>M</size>
 		<type>humanoid (simic hybrid)</type>
@@ -2081,7 +2081,7 @@
 			<attack>Claw|6|1d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hybrid Flier">
 		<name>Hybrid Flier</name>
 		<size>M</size>
 		<type>humanoid (simic hybrid)</type>
@@ -2121,7 +2121,7 @@
 			<attack>Spit Acid|5|4d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hybrid Poisoner">
 		<name>Hybrid Poisoner</name>
 		<size>M</size>
 		<type>humanoid (simic hybrid)</type>
@@ -2162,7 +2162,7 @@
 			<attack>Extra Damage||1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hybrid Shocker">
 		<name>Hybrid Shocker</name>
 		<size>M</size>
 		<type>humanoid (simic hybrid)</type>
@@ -2211,7 +2211,7 @@
 			<attack>Tentacles|4|1d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hybrid Spy">
 		<name>Hybrid Spy</name>
 		<size>M</size>
 		<type>humanoid (simic hybrid)</type>
@@ -2254,7 +2254,7 @@
 			<attack>Shortsword|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skyjek Roc">
 		<name>Skyjek Roc</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -2298,7 +2298,7 @@
 			<attack>Talons|7|2d4+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Skyswimmer">
 		<name>Skyswimmer</name>
 		<size>G</size>
 		<type>monstrosity</type>
@@ -2345,7 +2345,7 @@
 			<attack>Slam|11|2d12+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Servitor Thrull">
 		<name>Servitor Thrull</name>
 		<size>S</size>
 		<type>construct</type>
@@ -2380,7 +2380,7 @@
 			<text>When a creature within 5 feet of the thrull is hit by an attack, the thrull swaps places with that creature and is hit instead.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Winged Thrull">
 		<name>Winged Thrull</name>
 		<size>S</size>
 		<type>construct</type>
@@ -2420,7 +2420,7 @@
 			<text>When a creature within 5 feet of the thrull is hit by an attack, the thrull swaps places with that creature and is hit instead.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Undercity Medusa">
 		<name>Undercity Medusa</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -2488,7 +2488,7 @@
 			<text>The medusa fixes its gaze on one creature within 60 feet of it that it can see and that can see its eyes. The target must make a DC 14 Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by a greaterrestoration spell or similar magic.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Blood Drinker Vampire">
 		<name>Blood Drinker Vampire</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2538,7 +2538,7 @@
 			<text>The vampire adds 3 to its AC against one melee attack that would hit it. To do so, the vampire must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Mind Drinker Vampire">
 		<name>Mind Drinker Vampire</name>
 		<size>M</size>
 		<type>undead</type>
@@ -2627,7 +2627,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Wurm">
 		<name>Wurm</name>
 		<size>H</size>
 		<type>monstrosity</type>
@@ -2673,7 +2673,7 @@
 		</action>
 	</monster>
 	<!--Guild NPC's -->
-	<monster>
+	<monster name="Soldier">
 		<name>Soldier</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -2713,7 +2713,7 @@
 			<attack>Longsword (2H)|3|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Isperia">
 		<name>Isperia</name>
 		<size>G</size>
 		<type>monstrosity</type>
@@ -2802,7 +2802,7 @@
 			<text>Isperia uses Supreme Legal Authority.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Lawmage">
 		<name>Lawmage</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -2848,7 +2848,7 @@
 			<attack>Quarterstaff (2H)|4|1d8+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Precognitive Mage">
 		<name>Precognitive Mage</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -2912,7 +2912,7 @@
 			<recharge>3/Day</recharge>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Aurelia">
 		<name>Aurelia</name>
 		<size>M</size>
 		<type>celestial (angel)</type>
@@ -2990,7 +2990,7 @@
 			<text>Aurelia targets up to five creatures she can see within 30 feet of her. Each target must succeed on a DC 25 Wisdom saving throw or be frightened of her until the end of her next turn. Any target within 5 feet of Aurelia has disadvantage on the saving throw.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Firefist">
 		<name>Firefist</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3045,7 +3045,7 @@
 			<recharge>Short</recharge>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Frontline Medic">
 		<name>Frontline Medic</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3088,7 +3088,7 @@
 			<attack>Spear (2H)|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Reckoner">
 		<name>Reckoner</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3142,7 +3142,7 @@
 			<recharge>D5</recharge>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Lazav">
 		<name>Lazav</name>
 		<size>M</size>
 		<type>monstrosity (shapechanger)</type>
@@ -3238,7 +3238,7 @@
 			<attack>Shifting Nightmare||4d8</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Mind Mage">
 		<name>Mind Mage</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3315,7 +3315,7 @@
 			<attack>Dagger|5|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Thought Spy">
 		<name>Thought Spy</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3380,7 +3380,7 @@
 			<attack>Rapier|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Jarad Vod Savo">
 		<name>Jarad Vod Savo</name>
 		<size>M</size>
 		<type>undead</type>
@@ -3477,7 +3477,7 @@
 			<attack>Disrupt Life||10d6</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Golgari Shaman">
 		<name>Golgari Shaman</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -3538,7 +3538,7 @@
 			<attack>Feed on Death||1d10</attack>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Borborygmos">
 		<name>Borborygmos</name>
 		<size>H</size>
 		<type>giant</type>
@@ -3612,7 +3612,7 @@
 			<text>Borborygmos moves up to half his speed and can move through the space of any creature smaller than Huge. The first time Borborygmos enters a creature's space during this move, the creature must make a DC 21 Dexterity saving throw. If the saving throw succeeds, the creature is pushed 5 feet away from Borborygmos. If the saving throw fails, that creature is knocked prone, and Borborygmos can make a stomp attack against it.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Anarach">
 		<name>Anarach</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3652,7 +3652,7 @@
 			<attack>Spiked Club (2H)|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Druid of the Old Ways">
 		<name>Druid of the Old Ways</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3708,7 +3708,7 @@
 			<attack>Quarterstaff (2H)|3|1d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rubblebelt Stalker">
 		<name>Rubblebelt Stalker</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3759,7 +3759,7 @@
 			<attack>Shortsword|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Niv-Mizzet">
 		<name>Niv-Mizzet</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -3864,7 +3864,7 @@
 			<text>Niv-Mizzet regains a spell slot of 3rd level or lower.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Comsotronic Blastseeker">
 		<name>Comsotronic Blastseeker</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -3931,7 +3931,7 @@
 			<attack>Warhammer (1H)|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Counterflux Blastseeker">
 		<name>Counterflux Blastseeker</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4002,7 +4002,7 @@
 			<attack>Rapier|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Galvanic Blastseeker">
 		<name>Galvanic Blastseeker</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4073,7 +4073,7 @@
 			<attack>Spear (2H)|3|1d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Scorchbringer Guard">
 		<name>Scorchbringer Guard</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4115,7 +4115,7 @@
 			<attack>Fire Damage||2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Obzedat Ghost">
 		<name>Obzedat Ghost</name>
 		<size>M</size>
 		<type>undead</type>
@@ -4201,7 +4201,7 @@
 			<attack>Servants||1d6</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Rakdos">
 		<name>Rakdos</name>
 		<size>H</size>
 		<type>fiend (demon)</type>
@@ -4282,7 +4282,7 @@
 			<attack>Claw|15|2d8+8</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Blood Witch">
 		<name>Blood Witch</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4365,7 +4365,7 @@
 			<attack>Shortsword|6|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rakdos Lampooner">
 		<name>Rakdos Lampooner</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4407,7 +4407,7 @@
 			<attack>Club|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rakdos Performer (Blade Juggler)">
 		<name>Rakdos Performer (Blade Juggler)</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4446,7 +4446,7 @@
 			<attack>Dagger|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rakdos Performer (Fire Eater)">
 		<name>Rakdos Performer (Fire Eater)</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4491,7 +4491,7 @@
 			<recharge>D4</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rakdos Performer (High-Wire Acrobat)">
 		<name>Rakdos Performer (High-Wire Acrobat)</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4530,7 +4530,7 @@
 			<attack>Barbed Pole|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Trostani">
 		<name>Trostani</name>
 		<size>L</size>
 		<type>fey</type>
@@ -4663,7 +4663,7 @@
 			<text>Trostani animates one or two trees she can see within 120 feet of her, causing them to uproot themselves and become awakened trees (see the Monster Manual for their stat blocks) for 1 minute or until Trostani uses a bonus action to end the effect. These trees understand Druidic and obey Trostani's spoken commands, but can't speak. If she issues no commands to them, the trees do nothing but follow her and take the Dodge action.</text>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Horncaller">
 		<name>Horncaller</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
@@ -4723,7 +4723,7 @@
 			<text>The horncaller chooses one beast it can see within 30 feet of it. If the beast can hear the horncaller, the beast uses its reaction to make one melee attack against a target that the horncaller can see.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Zegana">
 		<name>Zegana</name>
 		<size>M</size>
 		<type>humanoid (merfolk)</type>
@@ -4813,7 +4813,7 @@
 			<attack>Deluge||4d8</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Biomancer">
 		<name>Biomancer</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>

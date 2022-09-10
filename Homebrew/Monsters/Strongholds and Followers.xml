@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" HB="HB" source="SaF">
 	<!--Strongholds and Followers-->
-	<monster>
+	<monster name="White Tusk Orc">
 		<name>White Tusk Orc</name>
 		<size>M</size>
 		<type>humanoid (orc)</type>
@@ -46,7 +46,7 @@
 			<attack>Javelin|5|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="White Tusk Juggernaut">
 		<name>White Tusk Juggernaut</name>
 		<size>L</size>
 		<type>humanoid (orc)</type>
@@ -98,7 +98,7 @@
 			<text>When a creature within 5 feet of the orc is attacked by a creature the orc can see and the orc is wielding a shield, the orc can impose disadvantage on that attack roll.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="White Tusk Bloodrager">
 		<name>White Tusk Bloodrager</name>
 		<size>M</size>
 		<type>humanoid (orc)</type>
@@ -148,7 +148,7 @@
 			<attack>Falchion|6|2d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="White Tusk Warspeaker">
 		<name>White Tusk Warspeaker</name>
 		<size>M</size>
 		<type>humanoid (orc)</type>
@@ -210,7 +210,7 @@
 			<attack>Spiked Club|5|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="White Tusk Shaman">
 		<name>White Tusk Shaman</name>
 		<size>M</size>
 		<type>humanoid (orc, shapechanger)</type>
@@ -263,7 +263,7 @@
 			<attack>Blood-Searing Spear|5|1d6+3+2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Oregg Steeltwister">
 		<name>Oregg Steeltwister</name>
 		<size>M</size>
 		<type>humanoid (orc)</type>
@@ -332,7 +332,7 @@
 			<attack>Poison Spray||2d12</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bonebreaker Dorokor">
 		<name>Bonebreaker Dorokor</name>
 		<size>M</size>
 		<type>humanoid (orc)</type>
@@ -393,7 +393,7 @@
 			<text>As a reaction, when a minion dies, issue a command to your other minions. Those who can hear you gain a reaction they can use to immediately take another movement</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Sir Pelliton">
 		<name>Sir Pelliton</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -473,7 +473,7 @@
 			<text>As a reaction, when a minion dies, issue a command to your other minions. Those who can hear you gain a reaction they can use to immediately take another movement.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Faldric the Archer">
 		<name>Faldric the Archer</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -521,7 +521,7 @@
 			<text>When a creature Faldric can see enters a space adjacent to Sir Pelliton, Faldric may use his reaction to make a longbow attack against that creature. If this attack is successful, the target is also knocked prone.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Pinna">
 		<name>Pinna</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -564,7 +564,7 @@
 			<attack>Dagger|2|1d4+0</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lesser Marilith">
 		<name>Lesser Marilith</name>
 		<size>M</size>
 		<type>fiend (demon)</type>
@@ -616,7 +616,7 @@
 			<text>The lesser marilith can add 5 to its AC against one melee attack that would hit it. To do so, the lesser marilith must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Lesser Balor">
 		<name>Lesser Balor</name>
 		<size>L</size>
 		<type>fiend (demon)</type>
@@ -675,7 +675,7 @@
 			<attack>Whip|9|2d6+5+2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lesser Erinyes">
 		<name>Lesser Erinyes</name>
 		<size>M</size>
 		<type>fiend (devil)</type>
@@ -728,7 +728,7 @@
 			<text>The lesser erinyes can add 4 to its AC against one melee attack that would hit it. To do so, the lesser erinyes must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 	</monster>
-	<monster>
+	<monster name="Princip">
 		<name>Princip</name>
 		<size>M</size>
 		<type>celestial</type>
@@ -801,7 +801,7 @@
 			<text>The princip selects an ally. A golden crown appears over the ally's head. While the crown remains, the ally cannot be compelled to act in a manner contrary to their will and may choose one stat to raise to 24. Each time the ally takes damage while the crown is on them, they must make a constitution saving throw or lose the crown. The DC equals 10 or half the damage taken, whichever number is higher.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Authority">
 		<name>Authority</name>
 		<size>M</size>
 		<type>celestial</type>
@@ -849,7 +849,7 @@
 			<attack>Brightsword (Evil)|7|3d6+4+2d8+2d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Virtue">
 		<name>Virtue</name>
 		<size>M</size>
 		<type>celestial</type>
@@ -904,7 +904,7 @@
 			<text>While the Virtue sings, any extraplanar evil creatures have disadvantage on saving throws against spells that would send them to another plane.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Domininion">
 		<name>Domininion</name>
 		<size>L</size>
 		<type>celestial</type>
@@ -951,7 +951,7 @@
 			<attack>Ray of Salvation|7|3d6+2d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Throne">
 		<name>Throne</name>
 		<size>L</size>
 		<type>celestial</type>
@@ -999,7 +999,7 @@
 			<attack>Radiant Burn||3d8+2d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Searph">
 		<name>Searph</name>
 		<size>L</size>
 		<type>celestial</type>
@@ -1066,7 +1066,7 @@
 			<attack>Omega|8|2d8+4+2d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Baron Malgas">
 		<name>Baron Malgas</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -1118,7 +1118,7 @@
 			<text>Baron Malgas chooses a target he can see within 30 feet. The target must succeed on a DC 13 Wisdom saving throw or watch as their dominant hand melts into a runny, fleshy lump. It drops whatever weapon it was carrying, cannot hold a weapon in that hand, and cannot cast spells that require somatic components. At the end of each of its turns, the target repeats this saving throw, ending the effect on itself on a success. Casting mending on the affected hand also ends the effect. If the target succeeds on a saving throw, the creature becomes immune to the baron's Melt Flesh for the next 24 hours.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Korsoth Vatikan">
 		<name>Korsoth Vatikan</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -1170,7 +1170,7 @@
 			<attack>Shortsword|7|1d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="The Queen of Bones">
 		<name>The Queen of Bones</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -1233,7 +1233,7 @@
 			<attack>Ossuary||4d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lord Rall">
 		<name>Lord Rall</name>
 		<size>M</size>
 		<type>aberration</type>
@@ -1306,7 +1306,7 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Uursovk">
 		<name>Uursovk</name>
 		<size>L</size>
 		<type>aberration</type>
@@ -1366,7 +1366,7 @@
 			<text>Uursovk targets two adjacent creatures, who must each make a DC 16 Constitution saving throw. If both fail, they meld into one gestalt entity, shedding any armor they were wearing. The gestalt entity is Medium and has hit points equal to the sum of their hit points, has ability scores equal to the higher of each score, and inherits any conditions of the targets. The new entity is treated as an individual in combat, but can take any action that either original target could take. At the end of each round, the two targets can make DC 16 Constitution saving throws to revert to their original forms (still sans armor), but both targets must succeed in order to end the effect. Otherwise, the effect ends after 1 hour.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Maladar Dictum">
 		<name>Maladar Dictum</name>
 		<size>H</size>
 		<type>aberration</type>
@@ -1432,7 +1432,7 @@
 			<attack>Roll||1d12</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Mantis Knight">
 		<name>Mantis Knight</name>
 		<size>M</size>
 		<type>fey</type>
@@ -1491,7 +1491,7 @@
 			<attack>Rapier|7|1d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Monarchon">
 		<name>Monarchon</name>
 		<size>M</size>
 		<type>fey</type>
@@ -1558,7 +1558,7 @@
 			<text>The Monarchon spreads her wings and their false eyes pulsate with a rainbow of colors, targeting one creature she can see within 30 feet. If the target can see the Monarchon, the target must succeed on a DC 15 Wisdom saving throw against this magic or be charmed until the end of the Monarchon's next turn. The charmed target is stunned. If the target's saving throw is successful, the target is immune to the Monarchon's gaze for 24 hours.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Orchid Count">
 		<name>Orchid Count</name>
 		<size>M</size>
 		<type>fey</type>
@@ -1647,7 +1647,7 @@
 			<attack>Longbow (adv)|7|2d6+4+2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Oleanader Dragon">
 		<name>Oleanader Dragon</name>
 		<size>L</size>
 		<type>dragon</type>
@@ -1701,7 +1701,7 @@
 			<recharge>1/day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ash Marshal">
 		<name>Ash Marshal</name>
 		<size>M</size>
 		<type>fey</type>
@@ -1774,7 +1774,7 @@
 			<attack>Ashsword|9|1d8+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sidereal Vizier">
 		<name>Sidereal Vizier</name>
 		<size>M</size>
 		<type>fey</type>
@@ -1847,7 +1847,7 @@
 			<attack>Longsword|7|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Fire Mote">
 		<name>Fire Mote</name>
 		<size>S</size>
 		<type>elemental</type>
@@ -1890,7 +1890,7 @@
 			<attack>Touch|6|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Source of Earth">
 		<name>Source of Earth</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -1934,7 +1934,7 @@
 			<recharge>1/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pillar of Water">
 		<name>Pillar of Water</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -1975,7 +1975,7 @@
 			<text>As a bonus action, the pillar disappears, depositing any suspended creatures on the ground, prone. On its summoner's next turn, it appears again anywhere within 60 feet of the summoner.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Knight of Air">
 		<name>Knight of Air</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -2033,7 +2033,7 @@
 		<slots>0,0,0,0,0,0,0,0,0</slots>
 		<spells>Mage Hand, Invisibility, Misty Step, Gust of Wind, Wind Wall, Gaseous Form</spells>
 	</monster>
-	<monster>
+	<monster name="Storm Magistrate">
 		<name>Storm Magistrate</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -2080,7 +2080,7 @@
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 		<spells>Enhance Ability, Light, Guidance, Sacred Flame, Spare the Dying, Bane, Bless, Healing Word, Shield of Faith, Aid, Lesser Restoration, Magic Weapon, Prayer of Healing, Hold Person, Beacon of Hope, Magic Circle, Dispel Magic, Revivify, Spirit Guardians, Mass Healing Word, Banishment, Freedom of Movement, Guardian of Faith, Stoneskin, Flame Strike, Mass Cure Wounds, Hold Monster</spells>
 	</monster>
-	<monster>
+	<monster name="High Templar of Dust">
 		<name>High Templar of Dust</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -2136,7 +2136,7 @@
 			<attack>Fire||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ancient Emerald Dragon">
 		<name>Ancient Emerald Dragon</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -2348,7 +2348,7 @@
 			<text>Intelligent creatures who sleep within 12 miles of an emerald dragon's lair dream of unending depths, tidal waves, starfish and crustaceans, or a calm sea under solid white sky with constellations under the waters.</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Adult Emerald Dragon">
 		<name>Adult Emerald Dragon</name>
 		<size>H</size>
 		<type>dragon</type>
@@ -2548,7 +2548,7 @@
 			<attack>Psionic Shift||2d6+5</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Young Emerald Dragon">
 		<name>Young Emerald Dragon</name>
 		<size>L</size>
 		<type>dragon</type>
@@ -2725,7 +2725,7 @@
 			<attack>Claw|6|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Emerald Wyrmling">
 		<name>Emerald Wyrmling</name>
 		<size>M</size>
 		<type>dragon</type>
@@ -2894,7 +2894,7 @@
 			<attack>Claw|6|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ancient Ruby Dragon">
 		<name>Ancient Ruby Dragon</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -3105,7 +3105,7 @@
 			<text>Intelligent creatures who sleep within 12 miles of a ruby dragon's lair dream of people they know transforming into other people, of places they've been dissolving to reveal barren wastelands.</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Adult Ruby Dragon">
 		<name>Adult Ruby Dragon</name>
 		<size>H</size>
 		<type>dragon</type>
@@ -3305,7 +3305,7 @@
 			<attack>Psionic Shift||2d6+5</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Young Ruby Dragon">
 		<name>Young Ruby Dragon</name>
 		<size>L</size>
 		<type>dragon</type>
@@ -3482,7 +3482,7 @@
 			<attack>Claw|7|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ruby Wyrmling">
 		<name>Ruby Wyrmling</name>
 		<size>M</size>
 		<type>dragon</type>
@@ -3650,7 +3650,7 @@
 			<attack>Bite|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ancient Sapphire Dragon">
 		<name>Ancient Sapphire Dragon</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -3861,7 +3861,7 @@
 			<text>Intelligent creatures who sleep within 12 miles of a sapphire dragon's lair dream of the past and future. They know the things they see in these dreams are real events that have, or will, occur.</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Adult Sapphie Dragon">
 		<name>Adult Sapphie Dragon</name>
 		<size>H</size>
 		<type>dragon</type>
@@ -4061,7 +4061,7 @@
 			<attack>Psionic Shift||2d6+6</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Young Sapphire Dragon">
 		<name>Young Sapphire Dragon</name>
 		<size>L</size>
 		<type>dragon</type>
@@ -4238,7 +4238,7 @@
 			<attack>Claw|8|2d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sapphire Wyrmling">
 		<name>Sapphire Wyrmling</name>
 		<size>M</size>
 		<type>dragon</type>
@@ -4406,7 +4406,7 @@
 			<attack>Bite|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ancient Topaz Dragon">
 		<name>Ancient Topaz Dragon</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -4617,7 +4617,7 @@
 			<text>Intelligent creatures who sleep within 12 miles of a topaz dragon's lair dream of ancient lore they never studied, and in these dreams they hold conversations with sages speaking languages the dreamer does not know, but in the dream can speak and understand.</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Adult Topaz Dragon">
 		<name>Adult Topaz Dragon</name>
 		<size>H</size>
 		<type>dragon</type>
@@ -4817,7 +4817,7 @@
 			<attack>Psionic Shift||2d6+4</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Young Topaz Dragon">
 		<name>Young Topaz Dragon</name>
 		<size>L</size>
 		<type>dragon</type>
@@ -4994,7 +4994,7 @@
 			<attack>Claw|5|2d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Topaz Wyrmling">
 		<name>Topaz Wyrmling</name>
 		<size>M</size>
 		<type>dragon</type>
@@ -5162,7 +5162,7 @@
 			<attack>Bite|3|1d10+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ancient Amethyst Dragon">
 		<name>Ancient Amethyst Dragon</name>
 		<size>G</size>
 		<type>dragon</type>
@@ -5374,7 +5374,7 @@
 			<text>Intelligent creatures who sleep within 12 miles of an amethyst dragon's lair dream of an opulent party with a charming host to whom they willingly and happily reveal their deepest secrets.</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Adult Amethyst Dragon">
 		<name>Adult Amethyst Dragon</name>
 		<size>H</size>
 		<type>dragon</type>
@@ -5575,7 +5575,7 @@
 			<attack>Psionic Shift||2d6+5</attack>
 		</legendary>
 	</monster>
-	<monster>
+	<monster name="Young Amethyst Dragon">
 		<name>Young Amethyst Dragon</name>
 		<size>L</size>
 		<type>dragon</type>
@@ -5753,7 +5753,7 @@
 			<attack>Claw|7|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Amethyst Wyrmling">
 		<name>Amethyst Wyrmling</name>
 		<size>M</size>
 		<type>dragon</type>
@@ -5922,7 +5922,7 @@
 			<attack>Bite|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Space">
 		<name>Space</name>
 		<size>M</size>
 		<type>construct</type>
@@ -5969,7 +5969,7 @@
 			<attack>Slam|6|2d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Death">
 		<name>Death</name>
 		<size>M</size>
 		<type>construct</type>
@@ -6034,7 +6034,7 @@
 			<attack>Death to Undeath||6d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Change">
 		<name>Change</name>
 		<size>M</size>
 		<type>construct</type>
@@ -6081,7 +6081,7 @@
 			<attack>Javelin|5|2d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Fate">
 		<name>Fate</name>
 		<size>M</size>
 		<type>construct</type>
@@ -6134,7 +6134,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Time">
 		<name>Time</name>
 		<size>L</size>
 		<type>construct</type>
@@ -6191,7 +6191,7 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Nature">
 		<name>Nature</name>
 		<size>L</size>
 		<type>construct</type>
@@ -6251,7 +6251,7 @@
 			<attack>Slam|9|2d6+5+4d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="The Phoenix">
 		<name>The Phoenix</name>
 		<size>H</size>
 		<type>celestial</type>
@@ -6315,7 +6315,7 @@
 			<recharge>D4</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Machine Lieutenant">
 		<name>Machine Lieutenant</name>
 		<size>M</size>
 		<type>construct</type>
@@ -6359,7 +6359,7 @@
 			<attack>Longsword (2H)|6|1d10+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lady Czorgan">
 		<name>Lady Czorgan</name>
 		<size>M</size>
 		<type>undead</type>
