@@ -199,7 +199,7 @@
     </action>
     <action>
       <name>Cone of Cold (Recharges after a Short or Long Rest)</name>
-      <text>Auril causes a magical blast of cold air to erupt from her hand. Each creature in a 60-foot cone must make a 21 Constitution saving throw, taking 36 (8d8) cold damage on a failed save, or half as much damage on a successful one.</text>
+      <text>Auril causes a magical blast of cold air to erupt from her hand. Each creature in a 60-foot cone must make a DC 21 Constitution saving throw, taking 36 (8d8) cold damage on a failed save, or half as much damage on a successful one.</text>
       <attack>Cone of Cold||8d8</attack>
     </action>
     <action>
@@ -208,7 +208,7 @@
     </action>
     <action>
       <name>Ice Stasis (Recharge 5-6)</name>
-      <text>Auril magically creates a gem-sized ice crystal that hovers in a space within 5 feet of her. Auril then targets a creature she can see within 60 feet of the crystal. The target must succeed on a 21 Charisma saving throw or become trapped in the crystal, which is immovable. If the saving throw succeeds, the crystal shatters and nothing else happens. A creature trapped in the crystal is stunned, has total cover against attacks and other effects outside the crystal, and takes 21 (6d6) cold damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, freeing itself on a success. The creature is also freed if the crystal is destroyed, which is a Tiny object with AC 18, 9 hit points, and immunity to all damage except fire damage. The freed creature appears in an unoccupied space of its choice within 30 feet of the shattered crystal.</text>
+      <text>Auril magically creates a gem-sized ice crystal that hovers in a space within 5 feet of her. Auril then targets a creature she can see within 60 feet of the crystal. The target must succeed on a DC 21 Charisma saving throw or become trapped in the crystal, which is immovable. If the saving throw succeeds, the crystal shatters and nothing else happens. A creature trapped in the crystal is stunned, has total cover against attacks and other effects outside the crystal, and takes 21 (6d6) cold damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, freeing itself on a success. The creature is also freed if the crystal is destroyed, which is a Tiny object with AC 18, 9 hit points, and immunity to all damage except fire damage. The freed creature appears in an unoccupied space of its choice within 30 feet of the shattered crystal.</text>
       <attack>Ice Stasis||6d6</attack>
     </action>
     <legendary>
@@ -222,7 +222,7 @@
     </legendary>
     <legendary>
       <name>Splinter (Costs 3 Actions)</name>
-      <text>Auril uses Create Ice Mephit or causes one to ice mephit she can see within 60 feet of her to explode and die. A mephit that dies in this way does not use its Death Burst. Instead, each creature within 10 feet of the exploding mephit must succeed on a 21 Dexterity saving throw, taking 13 (3d8) piercing damage on a failed saving throw, and half as much damage on a successful one.</text>
+      <text>Auril uses Create Ice Mephit or causes one to ice mephit she can see within 60 feet of her to explode and die. A mephit that dies in this way does not use its Death Burst. Instead, each creature within 10 feet of the exploding mephit must succeed on a DC 21 Dexterity saving throw, taking 13 (3d8) piercing damage on a failed saving throw, and half as much damage on a successful one.</text>
       <attack>Splinter||3d8</attack>
     </legendary>
   </monster>
@@ -298,7 +298,7 @@
     </legendary>
     <legendary>
       <name>Blinding Gleam (Costs 2 Actions)</name>
-      <text>Auril's form flares with a blue light. Each creature that can see Auril and is within 10 feet of her must succeed on a 17 Wisdom saving throw or be blinded by Auril's magical gleam for 1 minute. The blinded creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+      <text>Auril's form flares with a blue light. Each creature that can see Auril and is within 10 feet of her must succeed on a DC 17 Wisdom saving throw or be blinded by Auril's magical gleam for 1 minute. The blinded creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
     </legendary>
   </monster>
   <monster>
@@ -359,7 +359,7 @@
     </action>
     <reaction>
       <name>Banishing Rebuke (Recharges after a Long Rest)</name>
-      <text>When Avarice is damaged by a creature that she can see within 60 feet of her, she can banish that creature to a frigid extradimensional prison for 1 minute. While there, the creature is incapacitated and takes 5 (1d10) cold damage at the start of each of its turns. At the end of each of its turns, the creature can make a 14 Charisma saving throw, escaping the prison on a success and reappearing in the space it left or in the nearest unoccupied space if that space is occupied. A creature that dies in the prison is trapped there indefinitely.</text>
+      <text>When Avarice is damaged by a creature that she can see within 60 feet of her, she can banish that creature to a frigid extradimensional prison for 1 minute. While there, the creature is incapacitated and takes 5 (1d10) cold damage at the start of each of its turns. At the end of each of its turns, the creature can make a DC 14 Charisma saving throw, escaping the prison on a success and reappearing in the space it left or in the nearest unoccupied space if that space is occupied. A creature that dies in the prison is trapped there indefinitely.</text>
       <attack>Banishing Rebuke||1d10</attack>
     </reaction>
   </monster>
@@ -390,7 +390,7 @@
     <cr>3</cr>
     <trait>
       <name>Charge</name>
-      <text>If the moose moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a 14 Strength saving throw or be knocked prone.</text>
+      <text>If the moose moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
       <attack>||2d8</attack>
     </trait>
     <trait>
@@ -560,7 +560,7 @@
     </action>
     <action>
       <name>Mind Blast (Recharge 5-6)</name>
-      <text>The brain magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a 14 Intelligence saving throw or take 17 (3d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+      <text>The brain magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 14 Intelligence saving throw or take 17 (3d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
       <attack>Mind Blast||3d8+4</attack>
     </action>
   </monster>
@@ -603,12 +603,12 @@
     </action>
     <action>
       <name>Chardalyn Flail</name>
-      <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a 13 Constitution saving throw or be poisoned until the end of its next turn.</text>
+      <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.</text>
       <attack>Chardalyn Flail|5|1d8+3</attack>
     </action>
     <action>
       <name>Chardalyn Javelin</name>
-      <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must succeed on a 13 Constitution saving throw or be poisoned until the end of its next turn.</text>
+      <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.</text>
       <attack>Chardalyn Javelin|5|1d6+3</attack>
     </action>
   </monster>
@@ -674,11 +674,11 @@
     </action>
     <action>
       <name>Malevolent Presence</name>
-      <text>Any creature with an Intelligence of 4 or more that is within 30 feet of the dragon must succeed on a 16 Wisdom saving throw or be charmed by it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Malevolent Presence for the next 24 hours. A creature charmed in this way fixates on another creature or object that the dragon mentally chooses and must, on each of its turns, move as close as it can to that target and use its action to make a melee attack against it. If the dragon doesn't choose a target, the charmed creature can act normally on its turn.</text>
+      <text>Any creature with an Intelligence of 4 or more that is within 30 feet of the dragon must succeed on a DC 16 Wisdom saving throw or be charmed by it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Malevolent Presence for the next 24 hours. A creature charmed in this way fixates on another creature or object that the dragon mentally chooses and must, on each of its turns, move as close as it can to that target and use its action to make a melee attack against it. If the dragon doesn't choose a target, the charmed creature can act normally on its turn.</text>
     </action>
     <action>
       <name>Radiant Breath (Recharge 5-6)</name>
-      <text>The dragon exhales a ray of radiant energy in a 120-foot line that is 5 feet wide. Each creature in that line must make a 16 Dexterity saving throw, taking 31 (7d8) radiant damage on a failed save, or half as much damage on a successful one.</text>
+      <text>The dragon exhales a ray of radiant energy in a 120-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 31 (7d8) radiant damage on a failed save, or half as much damage on a successful one.</text>
       <attack>Radiant Breath||7d8</attack>
     </action>
   </monster>
@@ -976,7 +976,7 @@
     <cr>5</cr>
     <trait>
       <name>Blinding Light</name>
-      <text>The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the walker can target one creature in its bright light that it can see and force it to succeed on a 14 Constitution saving throw or be blinded until the start of the walker's next turn.</text>
+      <text>The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the walker can target one creature in its bright light that it can see and force it to succeed on a DC 14 Constitution saving throw or be blinded until the start of the walker's next turn.</text>
     </trait>
     <trait>
       <name>Icy Doom</name>
@@ -1098,7 +1098,7 @@
     </action>
     <action>
       <name>Acid Splash (Cantrip)</name>
-      <text>Dzaan hurls a bubble of acid at one creature he can see within 60 feet of it, or at two such creatures that are within 5 feet of each other. A target must succeed on a 13 Dexterity saving throw or take 7 (2d6) acid damage.</text>
+      <text>Dzaan hurls a bubble of acid at one creature he can see within 60 feet of it, or at two such creatures that are within 5 feet of each other. A target must succeed on a DC 13 Dexterity saving throw or take 7 (2d6) acid damage.</text>
       <attack>Acid Splash||2d6</attack>
     </action>
     <action>
@@ -1149,7 +1149,7 @@
     </action>
     <action>
       <name>Acid Splash (Cantrip)</name>
-      <text>The simulacrum hurls a bubble of acid at one creature it can see within 60 feet of it, or at two such creatures that are within 5 feet of each other. A target must succeed on a 13 Dexterity saving throw or take 7 (2d6) acid damage.</text>
+      <text>The simulacrum hurls a bubble of acid at one creature it can see within 60 feet of it, or at two such creatures that are within 5 feet of each other. A target must succeed on a DC 13 Dexterity saving throw or take 7 (2d6) acid damage.</text>
       <attack>Acid Splash||2d6</attack>
     </action>
     <action>
@@ -1320,7 +1320,7 @@
     </action>
     <action>
       <name>Freezing Stare</name>
-      <text>The skeleton targets one creature it can see within 60 feet of it. The target must succeed on a 13 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn.</text>
+      <text>The skeleton targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn.</text>
       <attack>Freezing Stare||10d6</attack>
     </action>
   </monster>
@@ -1372,7 +1372,7 @@
     </action>
     <action>
       <name>Static Discharge (Recharge 5-6)</name>
-      <text>The magen discharges a lightning bolt in a 60-foot line that is 5 feet wide. Each creature in that line must make a 14 Dexterity saving throw (with disadvantage if the creature is wearing armor made of metal), taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+      <text>The magen discharges a lightning bolt in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw (with disadvantage if the creature is wearing armor made of metal), taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
       <attack>Static Discharge||4d10</attack>
     </action>
   </monster>
@@ -1491,11 +1491,11 @@
     </action>
     <action>
       <name>Frightful Cackle (Hyena or Vampire Form Only)</name>
-      <text>The vampire emits a bone-chilling cackle. Each creature of the vampire's choice that is within 120 feet of the vampire and can hear its cackle must succeed on a 15 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the vampire's Frightful Cackle for the next 24 hours.</text>
+      <text>The vampire emits a bone-chilling cackle. Each creature of the vampire's choice that is within 120 feet of the vampire and can hear its cackle must succeed on a DC 15 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the vampire's Frightful Cackle for the next 24 hours.</text>
     </action>
     <action>
       <name>Sickening Gaze (Hyena or Vampire Form Only)</name>
-      <text>The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a 15 Constitution saving throw against this magic or be poisoned for 24 hours. A creature whose saving throw is successful is immune to this vampire's Sickening Gaze for 24 hours.</text>
+      <text>The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a DC 15 Constitution saving throw against this magic or be poisoned for 24 hours. A creature whose saving throw is successful is immune to this vampire's Sickening Gaze for 24 hours.</text>
     </action>
   </monster>
   <monster>
@@ -1537,7 +1537,7 @@
     </trait>
     <action>
       <name>Tentacles</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape 9) and must succeed on a 15 Intelligence saving throw or be stunned until this grapple ends.</text>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 9) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</text>
       <attack>Tentacles|7|2d10+4</attack>
     </action>
     <action>
@@ -1552,7 +1552,7 @@
     </action>
     <action>
       <name>Mind Blast (Recharge 5-6)</name>
-      <text>The ceremorph magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+      <text>The ceremorph magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
       <attack>Mind Blast||4d8+4</attack>
     </action>
   </monster>
@@ -1594,7 +1594,7 @@
     </trait>
     <action>
       <name>Tentacles</name>
-      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 5 (2d4) psychic damage. If the target is Medium or smaller, it is grappled (escape 7) and must succeed on a 7 Intelligence saving throw or be stunned until this grapple ends.</text>
+      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 5 (2d4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 7) and must succeed on a DC 7 Intelligence saving throw or be stunned until this grapple ends.</text>
       <attack>Tentacles|0|2d4</attack>
     </action>
     <action>
@@ -1604,7 +1604,7 @@
     </action>
     <action>
       <name>Mind Tickle (Recharge 5-6)</name>
-      <text>The squidling magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a 7 Intelligence saving throw or take 2 (1d4) psychic damage and be stunned until the end of its next turn.</text>
+      <text>The squidling magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a DC 7 Intelligence saving throw or take 2 (1d4) psychic damage and be stunned until the end of its next turn.</text>
       <attack>Mind Tickle||1d4</attack>
     </action>
   </monster>
@@ -1708,7 +1708,7 @@
     </action>
     <action>
       <name>Bite (Bear or Hybrid Form Only)</name>
-      <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16 (2d10 + 5) piercing damage. If the target is a humanoid, it must succeed on a 15 Constitution saving throw or be cursed with werebear lycanthropy, as described in the Monster Manual.</text>
+      <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16 (2d10 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 15 Constitution saving throw or be cursed with werebear lycanthropy, as described in the Monster Manual.</text>
       <attack>Bite|8|2d10+5</attack>
     </action>
     <action>
@@ -1770,7 +1770,7 @@
     </trait>
     <action>
       <name>Poison Spray (Cantrip)</name>
-      <text>Grandolpha extends her hand toward a creature she can see within 10 feet of her and projects a puff of noxious gas from her palm. The creature must succeed on a 13 Constitution saving throw or take 13 (2d12) poison damage.</text>
+      <text>Grandolpha extends her hand toward a creature she can see within 10 feet of her and projects a puff of noxious gas from her palm. The creature must succeed on a DC 13 Constitution saving throw or take 13 (2d12) poison damage.</text>
       <attack>Poison Spray||2d12</attack>
     </action>
   </monster>
@@ -1805,7 +1805,8 @@
     </trait>
     <trait>
       <name>Menacing Blows (1/Turn)</name>
-      <text>Gunvald deals an extra 6 (1d12) damage when he hits a target with a weapon attack. If the target is a creature, it must succeed on a 14 Wisdom saving throw or be frightened until the start of Gunvald's next turn.</text>
+      <text>Gunvald deals an extra 6 (1d12) damage when he hits a target with a weapon attack. If the target is a creature, it must succeed on a DC 14 Wisdom saving throw or be frightened until the start of Gunvald's next turn.</text>
+      <attack>Extra Damage||1d12</attack>
     </trait>
     <trait>
       <name>Second Wind (Recharges after a Short or Long Rest)</name>
@@ -1964,7 +1965,7 @@
     </action>
     <action>
       <name>Shield Bash</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a 15 Strength saving throw or be knocked prone.</text>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
       <attack>Shield Bash|7|2d4+4</attack>
     </action>
     <reaction>
@@ -2011,7 +2012,7 @@
     </trait>
     <action>
       <name>Psychic Lash</name>
-      <text>The magen's eyes glow silver as it targets one creature that it can see within 60 feet of it. The target must succeed on a 12 Wisdom saving throw or take 11 (2d10) psychic damage.</text>
+      <text>The magen's eyes glow silver as it targets one creature that it can see within 60 feet of it. The target must succeed on a DC 12 Wisdom saving throw or take 11 (2d10) psychic damage.</text>
       <attack>Psychic Lash||2d10</attack>
     </action>
     <action>
@@ -2106,7 +2107,7 @@
     </action>
     <action>
       <name>Claw</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 9 (2d8) cold damage. If the target takes any of the cold damage, the target must succeed on a 15 Constitution saving throw or have disadvantage on its attack rolls until the end of its next turn.</text>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 9 (2d8) cold damage. If the target takes any of the cold damage, the target must succeed on a DC 15 Constitution saving throw or have disadvantage on its attack rolls until the end of its next turn.</text>
       <attack>Claw|7|2d6+4+2d8</attack>
     </action>
   </monster>
@@ -2564,7 +2565,7 @@
     </action>
     <action>
       <name>Grasping Hand</name>
-      <text>The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target must succeed on a 15 Dexterity saving throw or be grappled (escape 15). Until the grapple ends, the target takes 15 (2d6 + 8) bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use Force Fist until the grapple ends.</text>
+      <text>The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be grappled (escape DC 15). Until the grapple ends, the target takes 15 (2d6 + 8) bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use Force Fist until the grapple ends.</text>
       <attack>Grasping Hand||2d6+8</attack>
     </action>
   </monster>
@@ -2647,7 +2648,7 @@
     </trait>
     <trait>
       <name>Extradimensional Chamber</name>
-      <text>When the living spell enters another creature's space (or vice versa) for the first time on a turn, the other creature must succeed on a 10 Dexterity saving throw or be pulled into the living spell's extradimensional space, an unfurnished stone chamber 30 feet in every dimension. A creature too big to fit in this space succeeds on the saving throw automatically. Creatures in the chamber never run out of breathable air. Magic that enables transit between planes, such as plane shift, can be used to escape the chamber, which has no exits otherwise. Creatures trapped inside the extradimensional chamber can't see, target, or deal damage to the living spell; however, they can damage the room around them. Each 5-foot-square section of ceiling, wall, and floor in the chamber has AC 17, 50 hit points, immunity to poison and psychic damage, and immunity to bludgeoning, piercing, and slashing damage that is nonmagical. If any section is reduced to 0 hit points, the living spell and its chamber are destroyed (see "Planar Destruction" below).</text>
+      <text>When the living spell enters another creature's space (or vice versa) for the first time on a turn, the other creature must succeed on a DC 10 Dexterity saving throw or be pulled into the living spell's extradimensional space, an unfurnished stone chamber 30 feet in every dimension. A creature too big to fit in this space succeeds on the saving throw automatically. Creatures in the chamber never run out of breathable air. Magic that enables transit between planes, such as plane shift, can be used to escape the chamber, which has no exits otherwise. Creatures trapped inside the extradimensional chamber can't see, target, or deal damage to the living spell; however, they can damage the room around them. Each 5-foot-square section of ceiling, wall, and floor in the chamber has AC 17, 50 hit points, immunity to poison and psychic damage, and immunity to bludgeoning, piercing, and slashing damage that is nonmagical. If any section is reduced to 0 hit points, the living spell and its chamber are destroyed (see "Planar Destruction" below).</text>
     </trait>
     <trait>
       <name>Magic Resistance</name>
@@ -2702,11 +2703,11 @@
     </action>
     <action>
       <name>Horrifying Visage</name>
-      <text>Each non-undead creature within 60 feet of the banshee that can see her must succeed on a 13 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Horrifying Visage for the next 24 hours.</text>
+      <text>Each non-undead creature within 60 feet of the banshee that can see her must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Horrifying Visage for the next 24 hours.</text>
     </action>
     <action>
       <name>Wail (1/Day)</name>
-      <text>The banshee releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 (3d6) psychic damage.</text>
+      <text>The banshee releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a DC 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 (3d6) psychic damage.</text>
       <attack>Wail||3d6</attack>
     </action>
   </monster>
@@ -2780,7 +2781,7 @@
     <cr>1/8</cr>
     <trait>
       <name>Charge</name>
-      <text>If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage. If the target is a creature, it must succeed on a 12 Strength saving throw or be knocked prone.</text>
+      <text>If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</text>
     </trait>
     <trait>
       <name>Sure-Footed</name>
@@ -2847,12 +2848,12 @@
     </action>
     <action>
       <name>Horrifying Visage</name>
-      <text>Each non-undead creature within 60 feet of the ghost that can see it must succeed on a 14 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 × 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If the target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed by a greater restoration spell, but only if it is cast within 24 hours.</text>
+      <text>Each non-undead creature within 60 feet of the ghost that can see it must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 * 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If the target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed by a greater restoration spell, but only if it is cast within 24 hours.</text>
       <attack>Horrifying Visage||1d4</attack>
     </action>
     <action>
       <name>Possession (Recharge 6)</name>
-      <text>One humanoid that the ghost can see within 5 feet of it must succeed on a 14 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.</text>
+      <text>One humanoid that the ghost can see within 5 feet of it must succeed on a DC 14 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.</text>
     </action>
   </monster>
   <monster>
@@ -2942,7 +2943,7 @@
     </action>
     <action>
       <name>Shield Bash</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a 15 Strength saving throw or be knocked prone.</text>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
       <attack>Shield Bash|7|2d4+4</attack>
     </action>
     <reaction>
@@ -2995,7 +2996,7 @@
     </action>
     <action>
       <name>Shield Bash</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a 15 Strength saving throw or be knocked prone.</text>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
       <attack>Shield Bash|7|2d4+4</attack>
     </action>
     <reaction>
@@ -3404,7 +3405,7 @@
     </action>
     <action>
       <name>Bite</name>
-      <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 21 (3d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a 14 Dexterity saving throw or be swallowed by the whale. A swallowed creature has total cover against attacks and other effects outside the whale, and it takes 3 (1d6) acid damage at the start of each of the whale's turns. If the whale takes 30 damage or more on a single turn from a creature inside it, the whale must succeed on a 16 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the whale. If the whale dies, a swallowed creature can escape from the corpse by using 20 feet of movement, exiting prone.</text>
+      <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 21 (3d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 14 Dexterity saving throw or be swallowed by the whale. A swallowed creature has total cover against attacks and other effects outside the whale, and it takes 3 (1d6) acid damage at the start of each of the whale's turns. If the whale takes 30 damage or more on a single turn from a creature inside it, the whale must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the whale. If the whale dies, a swallowed creature can escape from the corpse by using 20 feet of movement, exiting prone.</text>
       <attack>Bite|11|3d8+8</attack>
 	  <attack>Acid||1d6</attack>
     </action>
@@ -3446,7 +3447,7 @@
     </trait>
     <trait>
       <name>Adhesive (Object Form Only)</name>
-      <text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape 16). Ability checks made to escape this grapple have disadvantage.</text>
+      <text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 16). Ability checks made to escape this grapple have disadvantage.</text>
     </trait>
     <trait>
       <name>False Appearance (Object Form Only)</name>
@@ -3476,7 +3477,7 @@
     </action>
     <action>
       <name>Spit Acid (Recharge 5-6)</name>
-      <text>The mimic spits acid at one creature it can see within 30 feet of it. The target must make a 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on failed save, or half as much damage on a successful one.</text>
+      <text>The mimic spits acid at one creature it can see within 30 feet of it. The target must make a DC 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on failed save, or half as much damage on a successful one.</text>
       <attack>Spit Acid||9d6+1</attack>
     </action>
   </monster>
@@ -3733,7 +3734,7 @@
     </action>
     <action>
       <name>Sling</name>
-      <text>Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 9 (3d4 + 2) bludgeoning damage. If the target is a creature, it must succeed on a 15 Constitution saving throw or be stunned until the end of its next turn.</text>
+      <text>Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 9 (3d4 + 2) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the end of its next turn.</text>
       <attack>Sling|5|3d4+2</attack>
     </action>
   </monster>
@@ -3878,7 +3879,7 @@
     </action>
     <reaction>
       <name>Hellish Rebuke (2/Day)</name>
-      <text>When Xardorok is damaged by a creature within 60 feet of him that he can see, the creature that damaged him is engulfed in hellish flames and must make a 15 Dexterity saving throw, taking 16 (3d10) fire damage on a failed save, or half as much damage on a successful one.</text>
+      <text>When Xardorok is damaged by a creature within 60 feet of him that he can see, the creature that damaged him is engulfed in hellish flames and must make a DC 15 Dexterity saving throw, taking 16 (3d10) fire damage on a failed save, or half as much damage on a successful one.</text>
       <attack>Hellish Rebuke||3d10</attack>
     </reaction>
   </monster>
