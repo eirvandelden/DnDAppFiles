@@ -33,7 +33,7 @@
 		<time>1 minute</time>
 		<range>Touch</range>
 		<components>v,s</components>
-		<duration> 8 hour</duration>
+		<duration>8 hour</duration>
 		<classes>Wizard (Chronurgy)</classes>
 		<text>You touch a willing creature. For the duration, the target can add 1d8 to its initiative rolls.</text>
 		<roll>1d8</roll>
@@ -56,7 +56,7 @@
 		<level>4</level>
 		<school>Ev</school>
 		<time>1 action</time>
-		<range>120  feet</range>
+		<range>120 feet</range>
 		<components>v,s,m (a black marble)</components>
 		<duration>Instantaneous</duration>
 		<classes>Wizard (Graviturgy)</classes>
@@ -70,7 +70,7 @@
 		<time>1 action</time>
 		<range>Touch</range>
 		<components>v,s,m (gold dust worth at least 25 gp, which the spell consumes)</components>
-		<duration> 1 hour</duration>
+		<duration>1 hour</duration>
 		<classes>Wizard (Graviturgy)</classes>
 		<text>You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.</text>
 		<text>	If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet.</text>
@@ -82,7 +82,7 @@
 		<time>1 action</time>
 		<range>60 feet</range>
 		<components>v,s</components>
-		<duration> 1 round</duration>
+		<duration>1 round</duration>
 		<classes>Wizard (Graviturgy)</classes>
 		<text>The gravity in a 10-foot-radius sphere centered on a point you can see within range increases for a moment. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes 2d8 force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.</text>
 		<text>	Until the start of your next turn, any object that isn't being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move.</text>
@@ -133,6 +133,10 @@
 		<text>3-5     Rending Rift. The target must make a Dexterity saving throw, taking 8d12 force damage on a failed save, or half as much damage on a successful one.</text>
 		<text>6-8     Wormhole. The target is teleported, along with everything it is wearing and carrying, up to 30 feet to an unoccupied space of your choice that you can see. The target also takes 10d12 force damage and is knocked prone.</text>
 		<text>9-10    Chill of the Dark Void. The target takes 10d12 cold damage, and it is blinded until the end of the turn.</text>
+		<roll>1d10</roll>
+		<roll>6d12</roll>
+		<roll>8d12</roll>
+		<roll>10d12</roll>
 	</spell>
 	<spell> 
 		<name>Sapping Sting</name>
@@ -158,7 +162,7 @@
 		<time>1 reaction</time>
 		<range>120 feet</range>
 		<components>v,s</components>
-		<duration> 1 round</duration>
+		<duration>1 round</duration>
 		<classes>Wizard (Chronurgy)</classes>
 		<text>You target the triggering creature, which must succeed on a Wisdom saving throw or vanish, being thrown to another point in time and causing the attack to miss or the spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember you casting the spell or being affected by it.</text>
 	</spell>
@@ -178,7 +182,7 @@
 		<level>9</level>
 		<school>N</school>
 		<time>1 action</time>
-		<range>90  feet</range>
+		<range>90 feet</range>
 		<components>v,s,m (an hourglass filled with diamond dust worth at least 5,000 gp, which the spell consumes)</components>
 		<duration>Instantaneous</duration>
 		<classes>Wizard (Chronurgy)</classes>

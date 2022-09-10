@@ -57,6 +57,7 @@
 		<text>95-96    A ball of speckled brown fur that appears to be alive</text>
 		<text>97-98    A complicated crystal board game that you don't know how to play</text>
 		<text>99-00    A large glass rectangle that displays a storm of black and white patterns when you press a button on its underside</text>
+		<roll>1d100</roll>
 		<text/>
 		<text>Source: Lost Laboratory of Kwalish</text>
 	</item>
@@ -98,7 +99,7 @@
 		<text>Balance. Your mind suffers a wrenching alteration, causing your alignment to change for the duration of the adventure. Lawful becomes chaotic, good becomes evil, and vice versa. If you are true neutral or unaligned, this card has no effect on you.</text>
 		<text>Comet. If you single-handedly defeat the next hostile monster or group of monsters you encounter, you have advantage on ability checks made using one skill of your choice for the duration of the adventure. Otherwise, this card has no effect.</text>
 		<text>Donjon. You are instantly teleported to and confined within the prison of the Monastery of the Distressed Body (area M6). Everything you were wearing and carrying stays behind in the space you occupied when you disappeared. You draw no more cards.</text>
-		<text>Euryale. The card's medusa-like visage curses you. You take a −1 penalty on saving throws for the duration of the adventure.</text>
+		<text>Euryale. The card's medusa-like visage curses you. You take a -1 penalty on saving throws for the duration of the adventure.</text>
 		<text>The Fates. Reality's fabric unravels and spins anew, allowing you to avoid or erase one event as if it never happened. You can use the card's magic as soon as you draw the card or at any other point during the adventure.</text>
 		<text>Flames. The Grand Master of the Monastery of the Distressed Body becomes your enemy. The bone devil seeks your ruin, savoring your suffering before attempting to slay you. If the Grand Master has already been defeated, you gain the enmity of Garret Levistusson's patron—a similarly powerful devil.</text>
 		<text>Fool. For the duration of the adventure, you lose proficiency with one skill or gain disadvantage on all checks made with one skill (with the skill and the penalty determined by the DM). Discard this card and draw from the deck again, counting both draws as one of your declared draws.</text>
@@ -109,6 +110,7 @@
 		<text>Key. A common or uncommon magic weapon with which you are proficient, or a spell scroll featuring a spell of a level you can cast, appears in your hands. The DM chooses the weapon or spell, which you possess for the duration of this adventure.</text>
 		<text>Knight. You gain the service of any of the NPCs in the "Hirelings" section not currently with the party, who appears in a space you choose within 30 feet of you. The NPC serves you loyally for the duration of the adventure, believing that the fates have drawn them to you. You control this character.</text>
 		<text>Moon. You are granted the ability to cast any spell of 5th level or lower, and can use that ability 1d3 times for the duration of the adventure.</text>
+		<roll>1d3</roll>
 		<text>Rogue. An NPC of the DM's choice becomes secretly hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Any enchantment spell cast on the NPC at 6th level or higher can end the NPC's hostility toward you.</text>
 		<text>Ruin. All forms of wealth that you carry or own, other than magic items, are lost to you. This wealth can be recovered either in the treasury of the Monastery of the Distressed Body (area M10) or Kwalish's lab in Daoine Gloine (area O7), whichever comes later in the adventure.</text>
 		<text>Skull. You summon an avatar of death—a mechanical skeleton (use bone naga statistics) clad in a tattered black robe. It appears in a space of the DM's choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own avatar of death. A creature slain by an avatar of death can't be restored to life.</text>
@@ -171,9 +173,11 @@
 		<text>Requires Attunement</text>
 		<text>An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</text>
 		<text>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</text>
+		<roll>1d3</roll>
 		<text>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</text>
 		<text>You gain proficiency in the History skill, or a +1 bonus to checks with that skill if already proficient, while this polished, steely sphere orbits your head.</text>
 		<text/>
+		<modifier category="skill">History+PROF</modifier>
 		<text>Source: Lost Laboratory of Kwalish</text>
 	</item>
 	<item>
@@ -185,6 +189,7 @@
 		<text>Requires Attunement</text>
 		<text>An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</text>
 		<text>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</text>
+		<roll>1d3</roll>
 		<text>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</text>
 		<text>You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.</text>
 		<text/>
@@ -199,8 +204,10 @@
 		<text>Requires Attunement</text>
 		<text>An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</text>
 		<text>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</text>
+		<roll>1d3</roll>
 		<text>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</text>
 		<text>You gain proficiency in the Nature skill, or a +1 bonus to checks with that skill if already proficient, while this burnished, brassy stone orbits your head.</text>
+		<modifier category="skill">Nature+PROF</modifier>
 		<text/>
 		<text>Source: Lost Laboratory of Kwalish</text>
 	</item>
@@ -213,8 +220,10 @@
 		<text>Requires Attunement</text>
 		<text>An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</text>
 		<text>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</text>
+		<roll>1d3</roll>
 		<text>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</text>
 		<text>You gain proficiency in the Religion skill, or a +1 bonus to checks with that skill if already proficient, while this tiny golden gem orbits your head.</text>
+		<modifier category="skill">Religion+PROF</modifier>
 		<text/>
 		<text>Source: Lost Laboratory of Kwalish</text>
 	</item>
@@ -227,6 +236,7 @@
 		<text>Requires Attunement</text>
 		<text>An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</text>
 		<text>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</text>
+		<roll>1d3</roll>
 		<text>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</text>
 		<text>You gain a +1 bonus to Intelligence saving throws while this silvery gem orbits your head.</text>
 		<text/>
@@ -242,6 +252,7 @@
 		<text>Requires Attunement</text>
 		<text>An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</text>
 		<text>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</text>
+		<roll>1d3</roll>
 		<text>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</text>
 		<text>You gain a +1 bonus to Intelligence checks while this faceted sphere orbits your head.</text>
 		<text/>
@@ -263,6 +274,7 @@
 		<text>Curse. This armor is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the armor. In addition, while you wear the cursed armor, you gain the following properties:</text>
 		<text>	• Aversion to Fire. If you take fire damage, you have disadvantage on attack rolls and ability checks until the end of your next turn.</text>
 		<text>	• Berserk. Whenever a critical hit is made against you, roll a d6. On a 6, the armor causes you to go berserk. On each of your turns while berserk, you attack the nearest creature you can see. If no creature is near enough to move to and attack, you attack an object, with preference for an object smaller than yourself. Once the armor causes you to go berserk, it cannot be removed. You continue to attack until you are incapacitated or until another creature is able to calm you with appropriate magic (such as a calm emotions spell) or a successful DC 15 Charisma (Persuasion) check.</text>
+		<roll>1d6</roll>
 		<text/>
 		<text>Source: Lost Laboratory of Kwalish</text>
         <modifier category="bonus">ac +1</modifier>
@@ -288,10 +300,13 @@
 		<roll>2d6+5</roll>
 		<text>	• Activate boosters to gain a flying speed of 15 feet for 1 minute (1 charge or 5 hit points).</text>
 		<text>	• Fire arm-mounted laser: Ranged Weapon Attack: +8 to hit, range 120 feet, one target. Hit: 2d6 radiant damage (1 charge or 5 hit points).</text>
+		<roll>1d20+8</roll>
+		<roll>2d6</roll>
 		<text>	• Translate any writing you can see in any nonmagical language, to a total of one thousand words over 1 minute (1 charge or 5 hit points).</text>
 		<text>	• Fill the armor with air, allowing you to breathe normally in any environment for up to 1 hour (1 charge or 5 hit points).</text>
 		<text>	• Gain darkvision to a range of 60 feet for up to 1 hour (1 charge or 5 hit points).</text>
 		<text>The armor can accept only one energy cell at a time. It is found with one energy cell attached, containing 2d10 charges.</text>
+		<roll>2d10</roll>
 		<text></text>
 		<text>Powered Armor Options.</text>
 		<text>  Depending on where and how it appears in the adventure, you might wish to modify the features of Kwalish's legendary powered armor.</text>
@@ -321,6 +336,7 @@
 		<text>Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon. Whenever you attack a creature with this weapon and roll a 1 on the attack roll, you must succeed on a DC 15 Constitution saving throw or be restrained and forced to make additional saves against being petrified, as above.</text>
 		<text></text>
 		<text>Special. If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Two-Handed. This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it.</text>
 	</item>
@@ -433,7 +449,7 @@
 		<rarity>Rare</rarity>
 		<text>Rarity: Rare</text>
 		<text>Requires Attunement</text>
-		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
+		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (-1 to -3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
 		<text>	Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon.</text>
 		<text></text>
 		<text>Special. If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.</text>
@@ -451,7 +467,7 @@
 		<rarity>Rare</rarity>
 		<text>Rarity: Rare</text>
 		<text>Requires Attunement</text>
-		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
+		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (-1 to -3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
 		<text>	Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon.</text>
 		<text></text>
 		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
@@ -470,7 +486,7 @@
 		<rarity>Rare</rarity>
 		<text>Rarity: Rare</text>
 		<text>Requires Attunement</text>
-		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
+		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (-1 to -3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
 		<text>	Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon.</text>
 		<text></text>
 		<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property — the damage when the weapon is used with two hands to make a melee attack.</text>
@@ -486,7 +502,7 @@
 		<rarity>Rare</rarity>
 		<text>Rarity: Rare</text>
 		<text>Requires Attunement</text>
-		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
+		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (-1 to -3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
 		<text>	Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon.</text>
 		<text></text>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
@@ -502,7 +518,7 @@
 		<rarity>Rare</rarity>
 		<text>Rarity: Rare</text>
 		<text>Requires Attunement</text>
-		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
+		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (-1 to -3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
 		<text>	Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon.</text>
 		<text></text>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
@@ -520,7 +536,7 @@
 		<rarity>Rare</rarity>
 		<text>Rarity: Rare</text>
 		<text>Requires Attunement</text>
-		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
+		<text>Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (-1 to -3) to your death saving throws. You can change this magical bonus each day at dawn.</text>
 		<text>	Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon.</text>
 		<text></text>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>

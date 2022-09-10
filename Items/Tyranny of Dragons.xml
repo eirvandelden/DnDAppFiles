@@ -40,6 +40,7 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 		<roll>1d6</roll>
+		<roll>2d6</roll>
 	</item>
 	<item>
 		<name>Green Dragon Mask</name>
@@ -151,6 +152,7 @@
 		<text>Legendary Resistance: (1/Day) If you fail a saving throw, you can choose to succeed instead.</text>
 		<text/>
 		<text>Dragon Fire: If you deal fire damage to a creature or flammable object, it starts burning. At the start of each of its turns, a creature burning in this way takes 1d6 fire damage. A creature that can reach the burning target can use an action to extinguish the fire.</text>
+		<roll>1d6</roll>
 		<text/>
 		<text>Source: Rise of Tiamat Online Supplement, page 4</text>
 	</item>
@@ -188,6 +190,7 @@
 		<text>Legendary Resistance: (1/Day) If you fail a saving throw, you can choose to succeed instead.</text>
 		<text/>
 		<text>Winter's Fury: While your current hit points are equal to or less than half your hit point maximum, you deal an extra 1d8 cold damage with your melee attacks.</text>
+		<roll>1d8</roll>
 		<text/>
 		<text>Source: Rise of Tiamat Online Supplement, page 4</text>
 	</item>
@@ -210,6 +213,9 @@
 		<text/>
 		<text>This wand looks and feels like an icicle. You must be attuned to the want to use it.</text>
 		<text>The wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: ray of frost (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), sleet storm (3 charges; spell save DC 15), or ice storm (4 charges; spell save DC 15). No components are required. The wand regains 1d6 + 1 expended charges each day at dawn. If you expend the wand's last charge, roll a d20. On a 20, the wand melts away, forever destroyed.</text>
+		<roll>1d6+1</roll>
+		<roll>1d20+5</roll>
+		<roll>1d20</roll>
 		<text/>
 		<text>Source: Hoard of the Dragon Queen, page 94</text>
 	</item>

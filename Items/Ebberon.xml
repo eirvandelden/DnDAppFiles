@@ -12,6 +12,7 @@
 		<dmgType>S</dmgType>
 		<property>S,2H</property>
 		<text>Special. If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Two-Handed. This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it.</text>
 		<text />
@@ -29,7 +30,8 @@
 		<text>	While attached, the prosthetic provides these benefits:</text>
 		<text>	The prosthetic is a fully capable part of your body.</text>
 		<text>	You can take an action to remove the prosthetic, and it removes itself if your attunement to it ends. It can't be removed against your will.</text>
-		<text>	The prosthetic is a magic melee weapon with which you're proficient. It deals ld8 force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the prosthetic detaches and flies at the target of the attack, then immediately returns to you and reattaches. </text>
+		<text>	The prosthetic is a magic melee weapon with which you're proficient. It deals 1d8 force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the prosthetic detaches and flies at the target of the attack, then immediately returns to you and reattaches.</text>
+		<roll>1d8</roll>
 	</item>
 	<item>
 		<name>Belashyrra's Beholder Crown</name>
@@ -69,6 +71,7 @@
 		<text>	Sentience. A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see "Random Properties" below).</text>
 		<text>	Life Support. Whenever you end your turn with 0 hit points, the docent can make a Wisdom (Medicine) check with a +6 bonus. If this check succeeds, the docent stabilizes you.</text>
 		<text>	Random Properties. A docent has the following properties: Languages. The docent knows Common, Giant, and 1d4 additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses. Skills. The docent has a +7 bonus to one of the following skills (roll a d4): (1) Arcana, (2) History, (3) Investigation, or (4) Nature. Spells. The docent knows one of the following spells and can cast it at will, requiring no components (roll a d6): (1-2) detect evil and good or (3-6) detect magic. The docent decides when to cast the spell.</text>
+		<roll>1d4</roll>
 		<text>	Personality. A docent is designed to advise and assist the warforged it's attached to. One of the simple functions of a docent is to serve as a translator. The docent's properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you.</text>
 		<text />
 		<text>Source: Ebberon: Rising from the Last War</text>
@@ -78,13 +81,14 @@
 		<type>M</type>
 		<magic>1</magic>
 		<weight>3</weight>
-		<dmg1>1d4</dmg1>
+		<dmg1>1d4+1d6</dmg1>
 		<dmgType>S</dmgType>
 		<rarity>very rare</rarity>
 		<text>Rarity: very rare</text>
 		<text>Requires Attunement</text>
 		<text>This long, whip-like strand of tough muscle bears a sharp stinger at one end. To attune to this symbiotic weapon, you wrap the whip around your wrist for the entire attunement period, during which time the whip painfully embeds its tendrils into your arm.</text>
 		<text>	You gain a +2 bonus to attack and damage rolls made with this magic whip, but attack rolls made against aberrations with this weapon have disadvantage. A creature hit by this weapon takes an extra 1d6 psychic damage. When you roll a 20 on the d20 for an attack roll with this weapon, the target is stunned until the end of its next turn.</text>
+		<roll>1d6</roll>
 		<text>	As a bonus action, you can sheathe the whip by causing it to retract into your arm, or draw the whip out of your arm again.</text>
 		<text>	Symbiotic Nature The whip can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the whip ends, and it detaches from you.</text>
 		<text />
@@ -101,6 +105,7 @@
 		<text>Requires Attunement</text>
 		<text>To attune to this symbiont, you must hold it against the skin behind your ear for the entire attunement period, whereupon it burrows into your head and bonds to your skull. While the earworm is inside you, you can speak, read, and write Deep Speech.</text>
 		<text>	Spells. The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): detect thoughts (2 charges) or dissonant whispers (1 charge). Each time you use the earworm to cast the detect thoughts spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr. The earworm regains 1d4 expended charges daily at dawn.</text>
+		<roll>1d4</roll>
 		<text>	Symbiotic Nature. The earworm can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the earworm ends, and it exits your body.</text>
 		<text />
 		<text>Source: Ebberon: Rising from the Last War</text>
@@ -287,6 +292,7 @@
 		<text>	Resistant. While attuned to Kyrzin's ooze, you have resistance to poison and acid damage, and you're immune to the poisoned condition.</text>
 		<text>	Amorphous. As an action, you can speak a command word and cause your body to assume the amorphous qualities of an ooze. For the next minute, you (along with any equipment you're wearing or carrying) can move through a space as narrow as 1 inch wide without squeezing. Once you use this property, it can't be used again until the next dawn.</text>
 		<text>	Acid Breath. As an action, you can exhale acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 36 (8d8) acid damage on a failed save, or half as much damage on a successful one. Once you use this property, it can't be used again until the next dawn.</text>
+		<roll>8d8</roll>
 		<text>	Symbiotic Nature. The ooze can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the ooze ends, as it seeps out of you. If you die while the ooze is inside you, it bursts out and engulfs you, turning your corpse into a black pudding allied with the daelkyr.</text>
 		<text />
 		<text>Source: Ebberon: Rising from the Last War</text>
@@ -488,6 +494,7 @@
 		<text>Requires Attunement</text>
 		<text>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.</text>
 		<text>	If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Fernian basalt: Fire damage</text>
 	</item>
@@ -501,6 +508,7 @@
 		<text>Requires Attunement</text>
 		<text>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.</text>
 		<text>	If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Irian quartz: Radiant damage</text>
 	</item>
@@ -514,6 +522,7 @@
 		<text>Requires Attunement</text>
 		<text>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.</text>
 		<text>	If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Kythrian skarn: Acid or poison damage</text>
 	</item>
@@ -527,6 +536,7 @@
 		<text>Requires Attunement</text>
 		<text>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.</text>
 		<text>	If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Lamannian flint: Lightning or thunder damage</text>
 	</item>
@@ -540,6 +550,7 @@
 		<text>Requires Attunement</text>
 		<text>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.</text>
 		<text>	If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Mabaran obsidian: Necrotic damage</text>
 	</item>
@@ -553,6 +564,7 @@
 		<text>Requires Attunement</text>
 		<text>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.</text>
 		<text>	If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Quori celestine, Xorian marble: Psychic damage</text>
 	</item>
@@ -566,6 +578,7 @@
 		<text>Requires Attunement</text>
 		<text>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.</text>
 		<text>	If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Risian shale: Cold damage</text>
 	</item>
@@ -579,6 +592,7 @@
 		<text>Requires Attunement</text>
 		<text>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.</text>
 		<text>	If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</text>
+		<roll>1d4</roll>
 		<text />
 		<text>Shavaran chert: Force damage</text>
 	</item>
@@ -672,7 +686,7 @@
 		<text>Requires Attunement by a warforged</text>
 		<text>A wand sheath clamps onto your arm and imparts the following benefits:</text>
 		<text />
-		<text> The wand sheath can't be removed from you while you're attuned to it. You can insert a wand into the sheath as an action. The sheath can hold only one wand at a time. You can retract or extend a wand from the sheath as a bonus action. While the wand is extended, you can use it as if you were holding it, but your hand remains free.</text>
+		<text>The wand sheath can't be removed from you while you're attuned to it. You can insert a wand into the sheath as an action. The sheath can hold only one wand at a time. You can retract or extend a wand from the sheath as a bonus action. While the wand is extended, you can use it as if you were holding it, but your hand remains free.</text>
 		<text />
 		<text>If a sheathed wand requires attunement, you must attune to the wand before you can use it. However, the wand sheath and the attached wand count as a single magic item with regard to the number of magic items you can attune to. If you remove the wand from the sheath, your attunement to the wand ends.</text>
 		<text />
@@ -709,7 +723,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Type: Eldritch machine</text>
-		<text>A dimensional seal is a massive stone slab covered with a complex pattern of runes and sigils. The seal projects an invisible field in a 2-mile radius. This field blocks all forms of conjuration magic and any other effect that involves teleportation or planar travel. Dimensional seals are usually found in the Eldeen Reaches and the Shadow Marches-reminders of the conflict between the Gatekeepers and the daelkyr. The techniques used to create these seals have been long lost. It's said that as a whole, the dimensional seals keep the daelkyr bound in Khyber and prevent Xoriat from becoming coterminous with Eberron. If enough of these seals are destroyed, there could be dire consequences for the world. </text>
+		<text>A dimensional seal is a massive stone slab covered with a complex pattern of runes and sigils. The seal projects an invisible field in a 2-mile radius. This field blocks all forms of conjuration magic and any other effect that involves teleportation or planar travel. Dimensional seals are usually found in the Eldeen Reaches and the Shadow Marches-reminders of the conflict between the Gatekeepers and the daelkyr. The techniques used to create these seals have been long lost. It's said that as a whole, the dimensional seals keep the daelkyr bound in Khyber and prevent Xoriat from becoming coterminous with Eberron. If enough of these seals are destroyed, there could be dire consequences for the world.</text>
 	</item>
 	<item>
 		<name>Mabaran Resonator</name>
@@ -719,7 +733,7 @@
 		<rarity>Legendary</rarity>
 		<text>Rarity: Legendary</text>
 		<text>Type: Eldritch Machine</text>
-		<text>This dread device draws on the power of Mabar, infusing the dead with the malign energy of the Endless Night. While it is active, any humanoid that dies within 2 miles of the resonator reanimates 1 minute later as a zombie (see the Monster Manual for its stat block) under the control of the creature controlling the device. </text>
+		<text>This dread device draws on the power of Mabar, infusing the dead with the malign energy of the Endless Night. While it is active, any humanoid that dies within 2 miles of the resonator reanimates 1 minute later as a zombie (see the Monster Manual for its stat block) under the control of the creature controlling the device.</text>
 	</item>
 	<item>
 		<name>Master's Call</name>
@@ -767,7 +781,7 @@
 		<property />
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Club)</name>
@@ -780,7 +794,7 @@
 		<property>L</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
 	</item>
@@ -795,7 +809,7 @@
 		<property>F,L</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
 		<text />
@@ -810,7 +824,7 @@
 		<dmg1>1d8</dmg1>
 		<dmgType>B</dmgType>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Handaxe)</name>
@@ -823,7 +837,7 @@
 		<property>L</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
 	</item>
@@ -838,7 +852,7 @@
 		<property />
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Lance)</name>
@@ -851,7 +865,7 @@
 		<property>R,S</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Reach: This weapon adds 5 feet to your reach when you attack with it.</text>
 		<text />
@@ -868,7 +882,7 @@
 		<property>L</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
 	</item>
@@ -884,7 +898,7 @@
 		<property />
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Mace)</name>
@@ -895,7 +909,7 @@
 		<dmg1>1d6</dmg1>
 		<dmgType>B</dmgType>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Morningstar)</name>
@@ -906,7 +920,7 @@
 		<dmg1>1d8</dmg1>
 		<dmgType>P</dmgType>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Quarterstaff)</name>
@@ -920,7 +934,7 @@
 		<property />
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Rapier)</name>
@@ -933,7 +947,7 @@
 		<property>F</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
 	</item>
@@ -948,7 +962,7 @@
 		<property>F,L</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
 		<text />
@@ -965,7 +979,7 @@
 		<property>F,L</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
 		<text />
@@ -982,7 +996,7 @@
 		<property>L</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
 	</item>
@@ -998,7 +1012,7 @@
 		<property>T</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Trident)</name>
@@ -1012,7 +1026,7 @@
 		<property>T</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(War Pick)</name>
@@ -1023,7 +1037,7 @@
 		<dmg1>1d8</dmg1>
 		<dmgType>P</dmgType>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Warhammer)</name>
@@ -1037,7 +1051,7 @@
 		<property />
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 	</item>
 	<item>
 		<name>Armblade(Whip)</name>
@@ -1050,7 +1064,7 @@
 		<property>F,R</property>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
 		<text />
@@ -1067,7 +1081,7 @@
 		<dmgType>P</dmgType>
 		<text>Requires attunement by a warforged</text>
 		<text>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</text>
-		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes. </text>
+		<text>	As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.</text>
 		<text/>
 		<text>A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing.</text>
 		<text>	Thrown. If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
