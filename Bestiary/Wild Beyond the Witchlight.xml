@@ -814,7 +814,7 @@
 	<trait>
 		<name>Salt Osmosis</name>
 		<text>Whenever the snail starts its turn in contact with a pound or more of salt, it takes 1d4 necrotic damage. Using an action to sprinkle a pound of salt on the snail deals 1d4 necrotic damage to it immediately and another 1d4 necrotic damage to it at the start of its next turn (after which the salt rubs off), provided the snail has not withdrawn into its shell.</text>
-		<attack>Roll||1d4</attack>
+		<attack>Necrotic Damage||1d4</attack>
 	</trait>
 	<action>
 		<name>Slam</name>
@@ -1973,9 +1973,10 @@
 	<action>
 		<name>Staff Spell</name>
 		<text>While holding his staff of power, Ringlerun can expend 1 or more of its charges to cast one of the following spells from it (spell save DC 14, +8 to hit with spell attacks): cone of cold (8d8 cold damage; 5 charges), fireball (10d6 fire damage; 5 charges), globe of invulnerability (6 charges), hold monster (5 charges), levitate (2 charges), lightning bolt (10d6 lightning damage; 5 charges), magic missile (1 charge), ray of enfeeblement (1 charge), or wall of force (5 charges).</text>
-		<attack>Cone of Cold|8|8d8</attack>
-		<attack>Fireball|8|10d6</attack>
-		<attack>Lightning Bolt|8|10d6</attack>
+		<attack>Spell Attack|8|</attack>
+		<attack>Cone of Cold||8d8</attack>
+		<attack>Fireball||10d6</attack>
+		<attack>Lightning Bolt||10d6</attack>
 	</action>
 </monster>
 <monster name="Selenelion Twin">
@@ -2215,6 +2216,7 @@
 		<name>Bonus Action: Alter Size</name>
 		<text>Skabatha magically shrinks herself to Tiny size (between 4 and 8 inches tall) or returns to her normal size. If Skabatha lacks the room to return to her normal size, she attains the maximum size possible in the space available. Anything she is wearing or carrying changes size along with her.</text>
 		<text>	As a Tiny creature, Skabatha deals 2 (1d4) poison damage when she hits with a Claw attack. She has advantage on Dexterity (Stealth) checks, and disadvantage on Strength checks and Strength saving throws. Her statistics otherwise remain unchanged.</text>
+		<attack>Tiny Attack|7|1d4</attack>
 	</action>
 </monster>
 <monster name="Skylla">
