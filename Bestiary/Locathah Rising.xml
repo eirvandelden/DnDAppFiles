@@ -43,7 +43,7 @@
             <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
             <attack>Hours/Decrease||1d4</attack>
             <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <attack>Nerotic Damage||4d8</attack>
+            <attack>Necrotic Damage||4d8</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -352,7 +352,7 @@
     <monster name="Sahuagin Blademaster">
         <name>Sahuagin Blademaster</name>
         <size>M</size>
-        <type>humanoid (sahuagun)</type>
+        <type>humanoid (sahuagin)</type>
         <description>Source: Locathah Rising</description>
         <alignment>lawful evil</alignment>
         <ac>20 (plate armor and shield)</ac>

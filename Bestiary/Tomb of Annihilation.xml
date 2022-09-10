@@ -42,7 +42,7 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spellsave DC 23, +15 to hit with spell attacks). Acererak has the following wizard spells prepared:</text>
+			<text>Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Acererak has the following wizard spells prepared:</text>
 			<text></text>
 			<text>Cantrips (at will): mage hand, ray of frost, shocking grasp</text>
 			<text>1st level (at will): ray of sickness, shield</text>
@@ -676,7 +676,7 @@
 		</trait>
 		<trait>
 			<name>Magic Resistance Aura</name>
-			<text>While holding his holy avenger, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on savingthrows against spells and other magical effects.</text>
+			<text>While holding his holy avenger, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on saving throws against spells and other magical effects.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -878,7 +878,7 @@
 			<text>The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a d6:</text>
 			<text>1-2. If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, if has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting ability of the caster.</text>
 			<text>3-4. No additional effect.</text>
-			<text>5-6. The snail's shell comverts some of the spell's energy into a burst of destructive force. Each creature within 30 feet of the snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one.</text>
+			<text>5-6. The snail's shell converts some of the spell's energy into a burst of destructive force. Each creature within 30 feet of the snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one.</text>
 			<attack>Antimagic Shell||1d6</attack>
 		</trait>
 		<trait>
@@ -985,7 +985,7 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage, and the target is swallowed ifit is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns.</text>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns.</text>
 			<text>	The froghemoth's gullet can hold up to two creatures at a time. If the froghemoth takes 20 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
 			<attack>Bite|10|3d10+6</attack>
 			<attack>Acid Damage||3d6</attack>
@@ -1230,7 +1230,7 @@
 		<skill>Athletics +2, Perception +2, Stealth +5, Survival +2</skill>
 		<resist/>
 		<vulnerable/>
-		<immune>posion</immune>
+		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses/>
 		<passive>12</passive>
@@ -1451,7 +1451,7 @@
 		</action>
 		<action>
 			<name>Snakes</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or halfas much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Snakes|5|1d6+3</attack>
 			<attack>Poison||6d6</attack>
 		</action>
@@ -1567,11 +1567,11 @@
 			<text>1. Acid. The kobold hurls a flask of acid. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: 7 (2d6) acid damage.</text>
 			<text>2. Alchemist's Fire. The kobold throws a flask of alchemist's fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: 2 (1d4) fire damage at the start of each of the target's turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</text>
 			<text>3. Basket of Centipedes. The kobold throws a small basket into a 5-foot-square space within 20 feet of it. A swarm of insects (centipedes) with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm's turns, there's a 50 percent chance that the swarm disperses.</text>
-			<text>4. Green Slime Pot. The kobold throws a clay pot full ofgreen slime at the target, and It breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: The target is covered in a patch ofgreen slime (see chapter 5 of the Dungeon Master's Guide). Miss; A patch of green slime covers a randomly determined 5-foot-square section ofwall or floor within 5feet of the target.</text>
+			<text>4. Green Slime Pot. The kobold throws a clay pot full of green slime at the target, and It breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: The target is covered in a patch of green slime (see chapter 5 of the Dungeon Master's Guide). Miss; A patch of green slime covers a randomly determined 5-foot-square section of wall or floor within 5feet of the target.</text>
 			<text>5. Rot Grub Pot. The kobold throws a clay pot into a 5-foot-square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.</text>
 			<text>6. Scorpion on a Stick. The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<text>7. Skunk in a Cage. The kobold releases a skunk into an unoccupied space with in 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn't need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can't do so again until it finishes a short or long rest.</text>
-			<text>8. Wasp Nest in a Bag. The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end ofeach of the swarm's turns, there's a 50 percent chance that the swarm disperses.</text>
+			<text>8. Wasp Nest in a Bag. The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there's a 50 percent chance that the swarm disperses.</text>
 			<attack>Weapon||1d8</attack>
 			<attack>Acid|4|2d6</attack>
 			<attack>Alchemist's Fire|4|1d4</attack>
@@ -2005,7 +2005,7 @@
 		</action>
 		<action>
 			<name>Psychic Crush (Recharge 5-6)</name>
-			<text>The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itselfon a success.</text>
+			<text>The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Psychic Crush||5d6</attack>
 			<recharge>D5</recharge>
 		</action>
@@ -2266,7 +2266,7 @@
 		</trait>
 		<trait>
 			<name>Regeneration</name>
-			<text>The vegepygmy regains 5 hit points at the start of its turn. Ifit takes cold, fire, or necrotic damage, this trait doesn't function at the start of the vegepygmy's next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+			<text>The vegepygmy regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the vegepygmy's next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2285,7 +2285,7 @@
 		</action>
 		<action>
 			<name>Spores (1/Day)</name>
-			<text>A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn't a plant must succeed on a DC 12 Constitution saving throw or be poisoned. While poisoned in this way, a target takes 9 (2d8) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itselfon a success</text>
+			<text>A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn't a plant must succeed on a DC 12 Constitution saving throw or be poisoned. While poisoned in this way, a target takes 9 (2d8) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success</text>
 			<attack>Spores||2d8</attack>
 			<recharge>1/Day</recharge>
 		</action>
@@ -2321,7 +2321,7 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Atlack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Bite|4|1d6+2</attack>
 		</action>
 		<action>
@@ -2459,12 +2459,12 @@
 		</trait>
 		<action>
 			<name>Touch</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 13 (3d8) psychic damage. If the target is a humanoid that drops to 0 hit points as a result of this damage, it dies and is implanted with a yellow musk creeper bulb. Unless the bulb is destroyed, the corpse animates as a yellow musk zombie after being dead for 24 hours. The bulb is destroyed if the creature is raised from the dead before it can transform into a yellow musk zombie, or ifthe corpse is targeted by a remove curse spell or similar magic before it animates.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 13 (3d8) psychic damage. If the target is a humanoid that drops to 0 hit points as a result of this damage, it dies and is implanted with a yellow musk creeper bulb. Unless the bulb is destroyed, the corpse animates as a yellow musk zombie after being dead for 24 hours. The bulb is destroyed if the creature is raised from the dead before it can transform into a yellow musk zombie, or if the corpse is targeted by a remove curse spell or similar magic before it animates.</text>
 			<attack>Touch|3|3d8</attack>
 		</action>
 		<action>
 			<name>Yellow Musk (3/Day)</name>
-			<text>The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target mustsucceed ona DC 11 Wisdom saving throw or be charmed by the creeper for 1 minute. A creature charmed in this way does nothing on its turn except move as close as it can to the creeper. A creature charmed by the creeper can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target must succeed ona DC 11 Wisdom saving throw or be charmed by the creeper for 1 minute. A creature charmed in this way does nothing on its turn except move as close as it can to the creeper. A creature charmed by the creeper can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<recharge>3/Day</recharge>
 		</action>
 	</monster>
@@ -2686,7 +2686,7 @@
 			<name>Breath Weapon (Recharge 5-6)</name>
 			<text>Zindar uses one of the following options:</text>
 			<text>Fire Breath. Zindar exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<text>Weakening Breath. Zindar exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. Acreature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>Weakening Breath. Zindar exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Fire Breath||4d10</attack>
 			<recharge>D5</recharge>
 		</action>
