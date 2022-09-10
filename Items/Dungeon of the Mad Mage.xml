@@ -35,8 +35,9 @@
 		<text>The longsword, Tearulai, is a sentient, neutral good sword of sharpness with an emerald-colored blade and precious gemstones embedded in its hilt and pommel. The sword's magical properties are suppressed until it is removed from Valdemar's skull.</text>
 		<text>	Evil creatures can't attune to Tearulai; any evil creature that tries to do so takes 20 psychic damage. The weapon's emerald blade can't be damaged or dulled, and the sword can't be teleported anywhere without its wielder while the two are attuned to one another.</text>
 		<text>	Spells. The sword has 6 charges and regains 1d4 + 2 expended charges daily at dawn. A creature attuned to the sword can use an action and expend 1 or more charges to cast one of the following spells from it without material components: fly (2 charges), polymorph (3 charges), or transport via plants (4 charges).</text>
+		<roll>1d4+2</roll>
 		<text>	Sentience. The sword has an Intelligence of 17, a Wisdom of 12, and a Charisma of 20. It has hearing and truesight out to a range of 120 feet. It communicates telepathically with its attuned wielder and can speak, read, and understand Common, Draconic, Elvish, and Sylvan. In addition, the sword can ascertain the true value of any gemstone brought within 5 feet of it.</text>
-		<text>	Personality. Tearulai admires great beauty, music, fine art, and poetry. Vain, the weapon strives to improve its appearance. It craves gemstones and seeks out bet- ter ones with which to adorn itself. Most of all, it longs to return to the forests around Myth Drannor, where it was created. If its wielder's goals run counter to its own, Tearulai attempts to take control of its wielder and escape Undermountain, whereupon it can use its transport via plants spell to return whence it came.</text>
+		<text>	Personality. Tearulai admires great beauty, music, fine art, and poetry. Vain, the weapon strives to improve its appearance. It craves gemstones and seeks out better ones with which to adorn itself. Most of all, it longs to return to the forests around Myth Drannor, where it was created. If its wielder's goals run counter to its own, Tearulai attempts to take control of its wielder and escape Undermountain, whereupon it can use its transport via plants spell to return whence it came.</text>
 		<text>	When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.</text>
 		<text>When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.</text>
 		<text>In addition, you can speak the sword's command to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.</text>
@@ -87,7 +88,9 @@
 		<text>Rarity: Rare</text>
 		<text>Each professor orb takes the form of a smooth, solid, 5-pound sphere of smoky gray quartz about the size of a grapefruit. Close examination reveals two or more pinpricks of silver light deep inside the sphere.</text>
 		<text>	A professor orb is sentient and has the personality of a scholar. Its alignment is determined by rolling on the alignment table in the "Sentient Magic Items" section in chapter 7 of the Dungeon Master's Guide. Regardless of its disposition, the orb has an Intelligence of 18, and Wisdom and Charisma scores determined by rolling 3d6 for each ability. The orb speaks, reads, and understands four languages, and can see and hear normally out to a range of 60 feet. Unlike most sentient items, the orb has no will of its own and can't initiate a conflict with the creature in possession of it.</text>
+		<roll>3d6</roll>
 		<text>	A professor orb has extensive knowledge of four narrow academic subjects. When making an Intelligence check to recall lore from any of its areas of expertise, the orb has a +9 bonus to its roll (including its Intelligence modifier).</text>
+		<roll>1d20+9</roll>
 		<text>	In addition to the knowledge it possesses, a professor orb can cast the mage hand cantrip at will. It uses the spell only to transport itself. Its spellcasting ability is Intelligence.</text>
 	</item>
 	<item>
@@ -106,6 +109,10 @@
 		<text>7-8    The dodecahedron casts shocking grasp (+5 to hit) on the next creature that touches it.</text>
 		<text>9-10   The dodecahedron casts darkness on itself. The effect has a duration of 10 minutes.</text>
 		<text>11-12  The next creature to touch the dodecahedron gains 1d10 temporary hit points that last for 1 hou r.</text>
+		<roll>1d10</roll>
+		<roll>1d12</roll>
+		<roll>9d8</roll>
+		<roll>1d20+5</roll>
 	</item>
 	<item>
 		<name>Orb of Gonging</name>
@@ -128,6 +135,8 @@
 		<weight/>
 		<rarity/>
 		<text>Ranged Weapon Attack: +4 to hit, range 60/240 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 17 (5d6) fire damage, and the target catches fire. While on fire, the target takes 1d6 fire damage at the start of each of its turns. A creature can end this damage by immersing itself in water or by using an action to make a successful DC 10 Dexterity check to extinguish the flames.</text>
+		<roll>1d6+5d6</roll>
+		<roll>1d20+4</roll>
 	</item>
 	<item>
 		<name>Helm of the Scavenger</name>
@@ -171,6 +180,7 @@
 		<text>While holding the shield, you benefit from the following properties.</text>
 		<text>Winter's Friend. You are immune to cold damage.</text>
 		<text>Deadly Rebuke. Immediately after a creature hits you with a melee attack, you can use your reaction to deal 3d6 necrotic damage to that creature.</text>
+		<roll>3d6</roll>
 		<text>Bane. You can cast the bane spell from the shield (save DC 17). The spell does not require concentration and lasts for 1 minute. Once you cast the spell from the shield, you can't do so again until you finish a short or long rest.</text>
 		<text>Gift of Vengeance. You can transfer the shield's magic to a nonmagical weapon by tracing the uven rune on the weapon with one finger. The transfer takes 8 hours of work that requires the two items to be within 5 feet of each other. At the end, the shield is destroyed, and the rune is etched or burned into the chosen weapon. This weapon becomes a rare magic item that requires attunement. It has the properties of a +1 weapon. The bonus increases to +3 when the weapon is used against one of the following creature types, chosen by you at the time of the magic weapon's creation: aberrations, celestials, constructs, dragons, elementals, fey, fiends, giants, or undead.</text>
 		<modifier category="bonus">melee attacks +1</modifier>

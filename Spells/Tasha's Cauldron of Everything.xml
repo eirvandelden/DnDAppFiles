@@ -55,8 +55,11 @@
 		<classes>Artificer, Sorcerer, Warlock, Wizard</classes>
 		<text>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.</text>
 		<text>    This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8).</text>
+		<roll>1d8</roll>
 		<roll>1d8+SPELL</roll>
+		<roll>2d8</roll>
 		<roll>2d8+SPELL</roll>
+		<roll>3d8</roll>
 		<roll>3d8+SPELL</roll>
 	</spell>
 	<spell>
@@ -267,6 +270,14 @@
 		<text>A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4 acid damage at start of each of its turns.</text>
 		<text>    At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d4 for each slot level above 1st.</text>
 		<roll>2d4</roll>
+		<roll>3d4</roll>
+		<roll>4d4</roll>
+		<roll>5d4</roll>
+		<roll>6d4</roll>
+		<roll>7d4</roll>
+		<roll>8d4</roll>
+		<roll>9d4</roll>
+		<roll>10d4</roll>
 	</spell>
 	<spell>
 		<name>Tasha's Mind Whip</name>

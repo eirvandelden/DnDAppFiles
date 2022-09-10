@@ -32,12 +32,22 @@
         <trait>
             <name>Innate Spellcasting (Psionics)</name>
             <text>The alhoon's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:</text>
+            <text></text>
             <text>At will: detect thoughts, levitate</text>
             <text>1/day each: dominate monster, plane shift (self only)</text>
         </trait>
         <trait>
+          <name>Dominate Monster</name>
+          <recharge>1/day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift (self only)</name>
+          <recharge>1/day</recharge>
+        </trait>
+        <trait>
             <name>Spellcasting</name>
             <text>The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:</text>
+            <text></text>
             <text>Cantrips (at will): chill touch, dancing lights, mage hand, prestidigitation, shocking grasp</text>
             <text>1st level (4 slots): detect magic, disguise self, magic missile, shield</text>
             <text>2nd level (3 slots): invisibility, mirror image, scorching ray</text>
@@ -45,6 +55,7 @@
             <text>4th level (3 slots): confusion, Evard's black tentacles, phantasmal killer</text>
             <text>5th level (2 slots): modify memory, wall of force</text>
             <text>6th level (1 slot): disintegrate, globe of invulnerability</text>
+        	<attack>Spell Attack|8|</attack>
         </trait>
         <trait>
             <name>Turn Resistance</name>
@@ -58,7 +69,8 @@
         <action>
             <name>Mind Blast (Recharge 5-6)</name>
             <text>The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Mind Blast| |4d8+4</attack>
+            <attack>Mind Blast||4d8+4</attack>
+            <recharge>D5</recharge>
         </action>
         <spells>Detect Thoughts, Levitate, Dominate Monster, Plane Shift, Chill Touch, Dancing Lights, Mage Hand, Prestidigitation, Shocking Grasp, Detect Magic, Disguise Self, Magic Missile, Shield, Invisibility, Mirror Image, Scorching Ray, Counterspell, Fly, Lightning Bolt, Confusion, Evard's Black Tentacles, Phantasmal Killer, Modify Memory, Wall of Force, Disintegrate, Globe of Invulnerability</spells>
         <slots>4,3,3,3,2,1,0,0,0</slots>
@@ -91,8 +103,10 @@
         <trait>
             <name>Spellcasting</name>
             <text>The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:</text>
+            <text></text>
             <text>Cantrips (at will): fire bolt, mending, prestidigitation</text>
             <text>1st level (2 slots): burning hands, disguise self, shield, friendship, charm person</text>
+        	<attack>Spell Attack|4|</attack>
         </trait>
         <action>
             <name>Dagger</name>
@@ -268,7 +282,8 @@
         <action>
             <name>Mind Blast (1/Day)</name>
             <text>Celest magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Mind Blast| |4d8+4</attack>
+            <attack>Mind Blast||4d8+4</attack>
+            <recharge>1/DAY</recharge>
         </action>
         <action>
             <name>Club</name>
@@ -307,7 +322,7 @@
         </trait>
         <trait>
             <name>Pounce</name>
-            <text>If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, the kamadan can make two attacks- one with its bite and one with its snakes-against it as a bonus action.</text>
+            <text>If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, the kamadan can make two attacks-one with its bite and one with its snakes-against it as a bonus action.</text>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -325,13 +340,14 @@
         </action>
         <action>
             <name>Snakes</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or halfas much damage on a successful one.</text>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Snakes|5|1d6+3</attack>
             <attack>Poison||6d6</attack>
         </action>
         <action>
             <name>Sleep Breath (Recharges after a Short or Long Rest)</name>
             <text>The kamadan exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if it takes damage or someone uses an action to wake it.</text>
+            <recharge>SHORT</recharge>
         </action>
     </monster>
     <monster>
@@ -379,7 +395,7 @@
         <description>Source: Volo's Guide to Monsters</description>
         <alignment>any alignment</alignment>
         <ac>16 (studded leather armor)</ac>
-        <hp>83 (13d8+26)</hp>
+        <hp>84 (13d8+26)</hp>
         <speed>30 ft.</speed>
         <str>11</str>
         <dex>18</dex>
@@ -408,7 +424,7 @@
         <trait>
             <name>Sneak Attack (1/Turn)</name>
             <text>The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.</text>
-            <attack>Sneak Attack| |4d6</attack>
+            <attack>Sneak Attack||4d6</attack>
         </trait>
         <action>
             <name>Multiattack</name>
@@ -430,14 +446,4 @@
         </reaction>
         <spells />
     </monster>
-    Mez Kara apprentice + friendship and charm person
-    Gregor Forskog bandit captain
-    Tooth, Cat Keeper, bandit
-    Gnator Gnimmcap, commoner?
-    Tonk Hammertoes, commoner?
-    Celest Weirding, commoner + mind blast
-    Cawkrin Jones, master thief
-    Kamadan
-    Formorian
-    Quinn Quinn, Kobold
 </compendium>

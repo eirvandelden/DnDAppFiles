@@ -128,11 +128,29 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The oblex's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>3/day each: charm person (as 5th-level spell), color spray, detect thoughts, hold person (as 3rd-level spell)</text>
+		</trait>
+		<trait>
+			<name>Charm Person (as 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person (as 3rd-level spell)</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Sulfurous Impersonation</name>
 			<text>As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 1d4 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. For all practical purposes, the simulacrum is the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed.</text>
+			<attack>Creatures||1d4+1</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -159,6 +177,13 @@
 			<text>• Attack rolls against the creature have advantage.</text>
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<attack>Psychic Damage||4d8</attack>
+			<attack>Reduction||1d4</attack>
+			<attack>Reduction||1d6</attack>
+			<attack>Reduction||1d8</attack>
+			<attack>Reduction||1d10</attack>
+			<attack>Reduction||1d12</attack>
+			<attack>Reduction||1d20</attack>
 		</action>
 		<spells>Charm Person, Color Spray, Detect Thoughts, Hold Person</spells>
 		<slots/>
@@ -212,6 +237,7 @@
 			<text/>
 			<text>• Attack rolls against the creature have advantage.</text>
 			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -302,6 +328,7 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The allip can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<action>
 			<name>Maddening Touch</name>
@@ -311,6 +338,7 @@
 		<action>
 			<name>Whispers of Madness</name>
 			<text>The allip chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and undead are immune to this effect.</text>
+			<attack>Psychic Damage||1d8+3</attack>
 		</action>
 		<action>
 			<name>Howling Babble (Recharge 6)</name>
@@ -322,6 +350,8 @@
 			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
 			<text/>
 			<text>• Attack rolls against the creature have advantage.</text>
+			<attack>Howling Babble||2d8+3</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -357,10 +387,28 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The amnizu's innate spellcasting ability is Intelligence (spell save 19, +11 to hit with spell attacks). The amnizu can innately cast the following spells, requiring no material components:</text>
+			<text>The amnizu's innate spellcasting ability is Intelligence (spell save DC 19, +11 to hit with spell attacks). The amnizu can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: charm person, command</text>
 			<text>3/day each: dominate person, fireball</text>
 			<text>1/day each: dominate monster, feeblemind</text>
+			<attack>Spell Attack|11|</attack>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -388,6 +436,7 @@
 			<text>• A blinded creature can't see and automatically fails any ability check that requires sight.</text>
 			<text/>
 			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
+			<attack>Poison Mind||4d12</attack>
 		</action>
 		<action>
 			<name>Forgetfulness (Recharge 6)</name>
@@ -399,15 +448,18 @@
 			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
 			<text/>
 			<text>• Attack rolls against the creature have advantage.</text>
+			<recharge>D6</recharge>
 		</action>
 		<action>
 			<name>Variant: Summon Devil (1/Day)</name>
 			<text>The amnizu summons 2d4 bearded devils or 1d4 barbed devils. A summoned devil appears in an unoccupied space within 60 feet of the amnizu, acts as an ally of the amnizu, and can't summon other devils. It remains for 1 minute, until the amnizu dies, or until its summoner dismisses it as an action.</text>
+			<attack>Bearded Devils||2d4</attack>
+			<attack>Barbed Devils||1d4</attack>
+			<recharge>1/Day</recharge>
 		</action>
 		<reaction>
 			<name>Instinctive Charm</name>
 			<text>When a creature within 60 feet of the amnizu makes an attack roll against it, and another creature is within the attack's range, the attacker must make a DC 19 Wisdom saving throw. On a failed save, the attacker must target the creature that is closest to it, not including the amnizu or itself. If multiple creatures are closest, the attacker chooses which one to target. If the saving throw is successful, the attacker is immune to the amnizu's Instinctive Charm for 24 hours.</text>
-			<attack/>
 		</reaction>
 		<spells>Charm Person, Command, Dominate Person, Fireball, Dominate Monster, Feeblemind</spells>
 		<slots/>
@@ -467,6 +519,8 @@
 		<action>
 			<name>Lightning Lance (Recharge 5-6)</name>
 			<text>The armanite looses a bolt of lightning in a line 60 feet long and 10 feet wide. Each creature in the line must make a DC 15 Dexterity saving throw, taking 27 (6d8) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D5</recharge>
+			<attack>Lightning Lance||6d8</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -515,6 +569,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the astral dreadnought fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Weapons</name>
@@ -553,6 +608,7 @@
 		<legendary>
 			<name>Psychic Projection (Costs 3 Actions)</name>
 			<text>Each creature within 60 feet of the astral dreadnought must make a DC 19 Wisdom saving throw, taking 15 (2d10 + 4) psychic damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Psychic Damage||2d10+4</attack>
 		</legendary>
 		<spells/>
 		<slots/>
@@ -595,13 +651,35 @@
 		<trait>
 			<name>Fey Step (Recharge 4-6)</name>
 			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
+			<recharge>D4</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The eladrin's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: calm emotions, sleep</text>
 			<text>3/day each: cure wounds (as a 5th-level spell), lesser restoration</text>
 			<text>1/day each: greater restoration, heal, raise dead</text>
+		</trait>
+		<trait>
+			<name>Cure Wounds (as a 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lesser Restoration</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Restoration</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Raise Dead</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -610,7 +688,8 @@
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands, plus 18 (4d8) psychic damage.</text>
-			<attack>Longsword|5|1d8+1</attack>
+			<attack>Longsword|5|1d8+1+4d8</attack>
+			<attack>Longsword (2H)|5|1d10+1+4d8</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -620,7 +699,6 @@
 		<reaction>
 			<name>Foster Peace</name>
 			<text>If a creature charmed by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker.</text>
-			<attack/>
 		</reaction>
 		<spells>Calm Emotions, Sleep, Cure Wounds, Lesser Restoration, Greater Restoration, Heal, Raise Dead</spells>
 		<slots>0</slots>
@@ -662,13 +740,44 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Bael's innate spellcasting ability is Charisma (spell save DC 21, +13 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self (can become Medium when changing his appearance), animate dead, charm person, detect magic, inflict wounds (as an 8th-level spell), invisibility (self only), major image</text>
 			<text>3/day each: counterspell, dispel magic, fly, suggestion, wall of fire</text>
 			<text>1/day each: dominate monster, symbol (stunning only)</text>
+			<attack>Spell Attack|13|</attack>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Fire</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (stunning only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Bael fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -750,6 +859,7 @@
 		<trait>
 			<name>Legendary Resistance (2/Day)</name>
 			<text>If the balhannoth fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -846,9 +956,34 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: detect magic</text>
 			<text>3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone</text>
-			<text>1/day each: teleport</text>
+			<text>1/day: teleport</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Beast</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hunter's Mark</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Maze</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Stone</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Labyrinthine Recall</name>
@@ -857,6 +992,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Baphomet fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -965,12 +1101,18 @@
 			<text>• Attack rolls against the creature have advantage.</text>
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The berbalang's innate spellcasting ability is Intelligence (spell save DC 13). The berbalang can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: speak with dead</text>
-			<text>1/day each: plane shift (self only)</text>
+			<text>1/day: plane shift (self only)</text>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1047,6 +1189,7 @@
 		<action>
 			<name>Creeping Darkness (Recharge 6)</name>
 			<text>The abishai casts darkness at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action.</text>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -1091,6 +1234,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The abishai is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The abishai has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): friends, mage hand, message, minor illusion, shocking grasp</text>
 			<text>1st level (4 slots): chromatic orb, disguise self, expeditious retreat, magic missile, charm person, thunderwave</text>
 			<text>2nd level (3 slots): darkness, mirror image, misty step</text>
@@ -1099,6 +1243,7 @@
 			<text>5th level (2 slots): cone of cold, wall of force</text>
 			<text>6th level (1 slot): chain lightning</text>
 			<text>7th level (1 slot): teleport</text>
+			<attack>Spell Attack|12|</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1108,6 +1253,7 @@
 			<name>Quarterstaff</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if used with two hands.</text>
 			<attack>Quarterstaff|8|1d6+2</attack>
+			<attack>Quarterstaff (2H)|8|1d8+2</attack>
 		</action>
 		<action>
 			<name>Bite</name>
@@ -1149,6 +1295,7 @@
 		<trait>
 			<name>Rejuvenation</name>
 			<text>While its master lives, a destroyed boneclaw gains a new body in 1d10 hours, with all its hit points. The new body appears within 1 mile of the boneclaw's master.</text>
+			<attack>Days||1d10</attack>
 		</trait>
 		<trait>
 			<name>Shadow Stealth</name>
@@ -1174,11 +1321,11 @@
 			<name>Shadow Jump</name>
 			<text>If the boneclaw is in dim light or darkness, each creature of the boneclaw's choice within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 34 (5d12 + 2) necrotic damage.</text>
 			<text>The boneclaw then magically teleports up to 60 feet to an unoccupied space it can see. It can bring one creature it's grappling, teleporting that creature to an unoccupied space it can see within 5 feet of its destination. The destination spaces of this teleportation must be in dim light or darkness.</text>
+			<attack>Necrotic Damage||5d12+2</attack>
 		</action>
 		<reaction>
 			<name>Deadly Reach</name>
 			<text>In response to a visible enemy moving into its reach, the boneclaw makes one claw attack against that enemy. If the attack hits, the boneclaw can make a second claw attack against the target.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -1270,6 +1417,91 @@
 			<text>9 — Rusty Gears. The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
 			<text/>
 			<text>10 — Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
+			<attack>||1d10</attack>
+		</trait>
+		<trait>
+			<name>Enhancement: Camouflaged</name>
+			<text>The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sensors</name>
+			<text>The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Improved Armor</name>
+			<text>The clockwork's AC increases by 2.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Increased Speed</name>
+			<text>The clockwork's speed increases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Reinforced Construction</name>
+			<text>The clockwork has resistance to force, lightning, and thunder damage.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Self-Repairing</name>
+			<text>If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sturdy Frame</name>
+			<text>The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Suction</name>
+			<text>The clockwork gains a climbing speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Vocal Resonator</name>
+			<text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Water Propulsion</name>
+			<text>The clockwork gains a swimming speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Faulty Sensors</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Flawed Targeting</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Ground Fault</name>
+			<text>The clockwork has vulnerability to lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Imprinting Loop</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Leaking Lubricant</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Limited Steering</name>
+			<text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Overactive Sense of Self-Preservation</name>
+			<text>If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Overheats</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Rusty Gears</name>
+			<text>The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Weak Armor</name>
+			<text>The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 		</trait>
 		<action>
 			<name>Bite</name>
@@ -1279,6 +1511,8 @@
 		<action>
 			<name>Lightning Flare (Recharges after a Short or Long Rest)</name>
 			<text>Each creature in contact with the ground within 15 feet of the bronze scout must make a DC 13 Dexterity saving throw, taking 14 (4d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>Short</recharge>
+			<attack>Lightning Flare||4d6</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -1327,6 +1561,7 @@
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
 			<attack>Barbed Tail|4|1d12+2</attack>
+			<attack>Hit Point Decrease||1d8</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -1367,6 +1602,8 @@
 		<trait>
 			<name>Summon Specters (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, the cadaver collector calls up the enslaved spirits of those it has slain; 1d6 specters (without Sunlight Sensitivity) arise in unoccupied spaces within 15 feet of the cadaver collector. The specters act right after the cadaver collector on the same initiative count and fight until they're destroyed. They disappear when the cadaver collector is destroyed.</text>
+			<recharge>Short</recharge>
+			<attack>Specters||1d5</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1389,6 +1626,7 @@
 			<text>• Attack rolls against the creature have advantage.</text>
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<recharge>D5</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -1498,6 +1736,7 @@
 		<trait>
 			<name>Aberrant Quickness (Recharge after a Short or Long Rest)</name>
 			<text>The choker can take an extra action on its turn.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<trait>
 			<name>Spider Climb</name>
@@ -1562,6 +1801,7 @@
 			<text>• The corpse flower digests one humanoid corpse in its body and instantly regains 11 (2d10) hit points. Nothing of the digested body remains. Any equipment on the corpse is expelled from the corpse flower in its space.</text>
 			<text/>
 			<text>• The corpse flower animates one dead humanoid in its body, turning it into a zombie. The zombie appears in an unoccupied space within 5 feet of the corpse flower and acts immediately after it in the initiative order. The zombie acts as an ally of the corpse flower but isn't under its control, and the flower's stench clings to it (see the Stench of Death trait).</text>
+			<attack>Hit Points||2d10</attack>
 		</trait>
 		<trait>
 			<name>Spider Climb</name>
@@ -1582,6 +1822,7 @@
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage, and the target must succeed on a DC 14 Constitution saving throw or take 14 (4d6) poison damage.</text>
 			<attack>Tentacle|5|2d6+2</attack>
+			<attack>Poison||4d6</attack>
 		</action>
 		<action>
 			<name>Harvest the Dead</name>
@@ -1622,6 +1863,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The deathlock's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: detect magic, disguise self, mage armor.</text>
 		</trait>
 		<trait>
@@ -1629,7 +1871,8 @@
 			<text>The deathlock is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
 			<text/>
 			<text>Cantrips (at will): chill touch, eldritch blast, mage hand</text>
-			<text>1st–3rd level (2 3rd-level slots): arms of Hadar, dispel magic, hold person, hunger of Hadar, invisibility, spider climb</text>
+			<text>1st-3rd level (2 3rd-level slots): arms of Hadar, dispel magic, hold person, hunger of Hadar, invisibility, spider climb</text>
+			<attack>Spell Attack|5|</attack>
 		</trait>
 		<trait>
 			<name>Turn Resistance</name>
@@ -1643,7 +1886,7 @@
 			<text/>
 			<text>Fiend patron: blindness/deafness, burning hands, command, fireball, hellish rebuke, scorching ray</text>
 			<text/>
-			<text>Great Old One patron: armor of Agathys, detect thoughts, dissonant whispers, hunger of Hadar, Tasha's tasha's hideous laughter, phantasmal force</text>
+			<text>Great Old One patron: armor of Agathys, detect thoughts, dissonant whispers, hunger of Hadar, Tasha's hideous laughter, phantasmal force</text>
 		</trait>
 		<action>
 			<name>Deathly Claw</name>
@@ -1685,6 +1928,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The deathlock's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: detect magic, disguise self, mage armor.</text>
 		</trait>
 		<trait>
@@ -1692,7 +1936,8 @@
 			<text>The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
 			<text/>
 			<text>Cantrips (at will): chill touch, mage hand, minor illusion, poison spray</text>
-			<text>1st–5th level (2 5th-level slots): arms of Hadar, blight, counterspell, crown of madness, darkness, dimension door, dispel magic, fly, hold monster, invisibility</text>
+			<text>1st-5th level (2 5th-level slots): arms of Hadar, blight, counterspell, crown of madness, darkness, dimension door, dispel magic, fly, hold monster, invisibility</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<trait>
 			<name>Turn Resistance</name>
@@ -1706,7 +1951,7 @@
 			<text/>
 			<text>Fiend patron: blindness/deafness, burning hands, command, fire shield, fireball, flame strike, hellish rebuke, scorching ray, stinking cloud, wall of fire</text>
 			<text/>
-			<text>Great Old One patron: clairvoyance, detect thoughts, dissonant whispers, dominate person, Evard's black tentacles, hunger of Hadar, phantasmal force, sending, Tasha's tasha's hideous laughter, telekinesis</text>
+			<text>Great Old One patron: clairvoyance, detect thoughts, dissonant whispers, dominate person, Evard's black tentacles, hunger of Hadar, phantasmal force, sending, Tasha's hideous laughter, telekinesis</text>
 		</trait>
 		<action>
 			<name>Deathly Claw</name>
@@ -1760,8 +2005,21 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The wight's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no verbal or material components:</text>
+			<text></text>
 			<text>At will: detect magic, disguise self, mage armor</text>
-			<text>1/day each:fear, hold person, misty step</text>
+			<text>1/day each: fear, hold person, misty step</text>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -1792,7 +2050,7 @@
 		<description>Source: Mordenkainen's Tome of Foes</description>
 		<alignment>chaotic evil</alignment>
 		<ac>22 (natural armor)</ac>
-		<hp>496 (34d12+272)</hp>
+		<hp>493 (34d12+272)</hp>
 		<speed>50 ft., swim 50 ft.</speed>
 		<str>29</str>
 		<dex>14</dex>
@@ -1813,13 +2071,35 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Demogorgon's spellcasting ability is Charisma (spell save DC 23). Demogorgon can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: detect magic, major image</text>
 			<text>3/day each: dispel magic, fear, telekinesis</text>
 			<text>1/day each: feeblemind, project image</text>
 		</trait>
 		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Project Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Demogorgon fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -1840,7 +2120,7 @@
 		<action>
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 35 (4d12+9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
-			<attack>Tentacle|17|4d6+10</attack>
+			<attack>Tentacle|17|4d6+9</attack>
 		</action>
 		<action>
 			<name>Gaze</name>
@@ -1981,6 +2261,7 @@
 			<text>1st level (4 slots): burning hands, chromatic orb, sleep</text>
 			<text>2nd level (3 slots): invisibility, spider climb</text>
 			<text>3rd level (2 slots): blink, lightning bolt</text>
+			<attack>Spell Attack|4|</attack>
 		</trait>
 		<action>
 			<name>Hooked Shortspear</name>
@@ -1993,7 +2274,7 @@
 			<attack>Crossbow|4|1d8+2</attack>
 		</action>
 		<spells>Acid Splash, Light, Mage Hand, Message, Ray of Frost, Burning Hands, Chromatic Orb, Sleep, Invisibility, Spider Climb, Blink, Lightning Bolt</spells>
-		<slots>4, 3, 2</slots>
+		<slots>4,3,2</slots>
 	</monster>
 	<monster>
 		<name>Dhergoloth</name>
@@ -2023,8 +2304,13 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dhergoloth's innate spellcasting ability is Charisma (spell save DC 10). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: darkness, fear</text>
-			<text>3/day each: sleep</text>
+			<text>3/day: sleep</text>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2046,6 +2332,7 @@
 		<action>
 			<name>Flailing Claws (Recharge 5-6)</name>
 			<text>The dhergoloth moves up to its walking speed in a straight line and targets each creature within 5 feet of it during its movement. Each target must succeed on a DC 14 Dexterity saving throw or take 22 (3d12 + 3) slashing damage.</text>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Teleport</name>
@@ -2104,6 +2391,8 @@
 		<action>
 			<name>Whirlwind of Claws (Recharge 5-6)</name>
 			<text>Each creature within 10 feet of the troll must make a DC 19 Dexterity saving throw, taking 44 (8d10) slashing damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D5</recharge>
+			<attack>Whirlwind of Claws||8d10</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -2136,6 +2425,7 @@
 		<trait>
 			<name>Change Shape (Recharges after a Short or Long Rest)</name>
 			<text>The drow can use a bonus action to magically polymorph into a giant spider, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. It can speak and cast spells while in giant spider form. Any equipment it is wearing or carrying in humanoid form melds into the giant spider form. It can't activate, use, wield, or otherwise benefit from any of its equipment. It reverts to its humanoid form if it dies.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<trait>
 			<name>Fey Ancestry</name>
@@ -2144,16 +2434,34 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The drow's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The drow is a 16th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
 			<text>Cantrips (at will): chill touch, eldritch blast, mage hand, poison spray</text>
-			<text>1st–5th level (3 5th-level slots): conjure animals (spiders only), crown of madness, dimension door, dispel magic, fear, fly, giant insect, hold monster, insect plague, invisibility, vampiric touch, web, witch bolt</text>
+			<text>1st-5th level (3 5th-level slots): conjure animals (spiders only), crown of madness, dimension door, dispel magic, fear, fly, giant insect, hold monster, insect plague, invisibility, vampiric touch, web, witch bolt</text>
 			<text/>
-			<text>1/day each: dominate monster, etherealness, eyebite</text>
+			<text>1/day: dominate monster, etherealness, eyebite</text>
+			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Dominate Monster, Etherealness, Eyebite</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spider Climb</name>
@@ -2192,6 +2500,7 @@
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
 			<attack>Bite|7|2d8+3</attack>
+			<attack>Poison Damage||4d12</attack>
 		</action>
 		<action>
 			<name>Web (Giant Spider Form Only; Recharge 5-6)</name>
@@ -2204,6 +2513,7 @@
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
 			<attack>Web|8|</attack>
+			<recharge>D5</recharge>
 		</action>
 		<spells>Dancing Lights, Darkness, Faerie Fire, Levitate, Chill Touch, Eldritch Blast, Mage Hand, Poison Spray, Conjure Animals, Crown of Madness, Dimension Door, Dispel Magic, Fear, Fly, Giant Insect, Hold Monster, Insect Plague, Invisibility, Vampiric Touch, Web, Witch Bolt, Dominate Monster, Etherealness, Eyebite</spells>
 		<slots>0,0,0,0,3</slots>
@@ -2240,13 +2550,26 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The drow's innate spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
 		</trait>
 		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The drow is a 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). It has the following wizard spells prepared:</text>
-			<text/>
+			<text></text>
 			<text>Cantrips (at will): mage hand, message, poison spray, shocking grasp, ray of frost</text>
 			<text>1st level (4 slots): burning hands, mage armor, magic missile, shield</text>
 			<text>2nd level (3 slots): gust of wind, invisibility, misty step, shatter</text>
@@ -2254,6 +2577,7 @@
 			<text>4th level (3 slots): dimension door, Otiluke's resilient sphere</text>
 			<text>5th level (2 slots): cone of cold</text>
 			<text>6th level (1 slot): chain lightning</text>
+			<attack>Spell Attack|10|</attack>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -2330,8 +2654,21 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The drow's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -2373,7 +2710,6 @@
 		<reaction>
 			<name>Parry</name>
 			<text>The drow adds 3 to his AC against one melee attack that would hit him. To do so, the drow must see the attacker and be wielding a melee weapon.</text>
-			<attack/>
 		</reaction>
 		<spells>Dancing Lights, Darkness, Faerie Fire, Levitate</spells>
 		<slots>0</slots>
@@ -2414,8 +2750,37 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The drow's innate spellcasting ability is Charisma (spell save DC 18). She can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dancing lights, detect magic</text>
 			<text>1/day each: clairvoyance, darkness, detect thoughts, dispel magic, faerie fire, levitate (self only), suggestion</text>
+		</trait>
+		<trait>
+			<name>Clairvoyance</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2424,6 +2789,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The drow is a 12th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). She has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): guidance, message, poison spray, resistance, thaumaturgy</text>
 			<text>1st level (4 slots): bane, cure wounds, inflict wounds</text>
 			<text>2nd level (3 slots): blindness/deafness, silence, spiritual weapon</text>
@@ -2431,6 +2797,7 @@
 			<text>4th level (3 slots): banishment, divination, freedom of movement</text>
 			<text>5th level (2 slots): contagion, dispel evil and good, insect plague</text>
 			<text>6th level (1 slot): harm, true seeing</text>
+			<attack>Spell Attack|10|</attack>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -2448,6 +2815,9 @@
 		<action>
 			<name>Variant: Summon Demon (1/Day)</name>
 			<text>The drow attempts to magically summon a yochlol, with a 50 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Psychic Damage||1d10</attack>
 		</action>
 		<spells>Dancing Lights, Detect Magic, Clairvoyance, Darkness, Detect Thoughts, Dispel Magic, Faerie Fire, Levitate, Suggestion, Guidance, Message, Poison Spray, Resistance, Thaumaturgy, Bane, Cure Wounds, Inflict Wounds, Blindness/Deafness, Silence, Spiritual Weapon, Bestow Curse, Magic Circle, Banishment, Divination, Freedom of Movement, Contagion, Dispel Evil and Good, Insect Plague, Harm, True Seeing</spells>
 		<slots>4,3,3,3,2,1</slots>
@@ -2484,12 +2854,42 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The drow's innate spellcasting ability is Charisma (spell save DC 20). She can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dancing lights, detect magic</text>
 			<text>1/day each: clairvoyance, darkness, detect thoughts, dispel magic, faerie fire, levitate (self only), suggestion</text>
 		</trait>
 		<trait>
+			<name>Clairvoyance</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Lolth's Fickle Favor</name>
 			<text>As a bonus action, the matron can bestow the Spider Queen's blessing on one ally she can see within 30 feet of her. The ally takes 7 (2d6) psychic damage but has advantage on the next attack roll it makes until the end of its next turn.</text>
+			<attack>Psychic Damage||2d6</attack>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2498,6 +2898,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The drow is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 19, +11 to hit with spell attacks). The drow has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): guidance, mending, resistance, sacred flame, thaumaturgy</text>
 			<text>1st level (4 slots): bane, command, cure wounds, guiding bolt</text>
 			<text>2nd level (3 slots): hold person, silence, spiritual weapon</text>
@@ -2508,6 +2909,7 @@
 			<text>7th level (2 slots): divine word, plane shift</text>
 			<text>8th level (1 slot): holy aura</text>
 			<text>9th level (1 slot): gate</text>
+			<attack>Spell Attack|11|</attack>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -2525,7 +2927,8 @@
 			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
 			<text/>
 			<text>• The creature can't willingly move closer to the source of its fear.</text>
-			<attack>Demon Staff|10|1d6+4</attack>
+			<attack>Demon Staff|10|1d6+4+4d6</attack>
+			<attack>Demon Staff (2H)|10|1d8+4+4d6</attack>
 		</action>
 		<action>
 			<name>Tentacle Rod</name>
@@ -2535,6 +2938,7 @@
 		<action>
 			<name>Summon Servant (1/Day)</name>
 			<text>The drow magically summons a retriever or a yochlol. The summoned creature appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -2549,7 +2953,7 @@
 			<text>An allied demon within 30 feet of the drow uses its reaction to make one attack against a target of the drow's choice that she can see.</text>
 		</legendary>
 		<legendary>
-			<name>Cast a Spell (Costs 1–3 Actions)</name>
+			<name>Cast a Spell (Costs 1-3 Actions)</name>
 			<text>The drow expends a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that she has prepared. Doing so costs 1 legendary action per level of the spell.</text>
 		</legendary>
 		<spells>Dancing Lights, Detect Magic, Clairvoyance, Darkness, Detect Thoughts, Dispel Magic, Faerie Fire, Levitate, Suggestion, Guidance, Mending, Resistance, Sacred Flame, Thaumaturgy, Bane, Command, Cure Wounds, Guiding Bolt, Hold Person, Silence, Spiritual Weapon, Bestow Curse, Spirit Guardians, Banishment, Death Ward, Freedom of Movement, Guardian of Faith, Contagion, Flame Strike, Geas, Mass Cure Wounds, Blade Barrier, Harm, Divine Word, Plane Shift, Holy Aura, Gate</spells>
@@ -2587,8 +2991,21 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The drow's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dancing lights</text>
 			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Faerie Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Shadow Step</name>
@@ -2601,11 +3018,12 @@
 		<action>
 			<name>Multiattack</name>
 			<text>The drow makes two attacks with its shadow sword. If either attack hits and the target is within 10 feet of a 5-foot cube of darkness created by the shadow sword on a previous turn, the drow can dismiss that darkness and cause the target to take 21 (6d6) necrotic damage. The drow can dismiss darkness in this way no more than once per turn.</text>
+			<attack>Necrotic Damage||6d6</attack>
 		</action>
 		<action>
 			<name>Shadow Sword</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage plus 10 (3d6) necrotic damage and 10 (3d6) poison damage. The drow can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute.</text>
-			<attack>Shadow Sword|9|1d6+5+3d6</attack>
+			<attack>Shadow Sword|9|1d6+5+3d6+3d6</attack>
 		</action>
 		<action>
 			<name>Hand Crossbow</name>
@@ -2629,6 +3047,9 @@
 		<action>
 			<name>Variant: Summon Shadow Demon (1/Day)</name>
 			<text>The drow attempts to magically summon a shadow demon with a 50 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Psychic Damage||1d10</attack>
 		</action>
 		<spells>Dancing Lights, Darkness, Faerie Fire, Levitate</spells>
 		<slots>0</slots>
@@ -2661,8 +3082,21 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The duergar despot's innate spellcasting ability is Intelligence (spell save DC 12). It can cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: mage hand, minor illusion</text>
 			<text>1/day each: counterspell, misty step, stinking cloud</text>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Stinking Cloud</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2671,6 +3105,7 @@
 		<trait>
 			<name>Psychic Engine</name>
 			<text>When the duergar despot suffers a critical hit or is reduced to 0 hit points, psychic energy erupts from its frame to deal 14 (4d6) psychic damage to each creature within 5 feet of it.</text>
+			<attack>Psychic Damage||4d6</attack>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -2696,10 +3131,12 @@
 			<name>Stomping Foot</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage, or 18 (3d8 + 5) to a prone target.</text>
 			<attack>Stomping Foot|9|1d8+5</attack>
+			<attack>Stomping Foot(Prone)|9|3d8+5</attack>
 		</action>
 		<action>
 			<name>Flame Jet</name>
 			<text>The duergar spews flames in a line 100 feet long and 5 feet wide. Each creature in the line must make a DC 16 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Flame Jet||4d8</attack>
 		</action>
 		<spells>Mage Hand, Minor Illusion, Counterspell, Misty Step, Stinking Cloud</spells>
 		<slots>0</slots>
@@ -2732,6 +3169,7 @@
 		<trait>
 			<name>Engine of Pain</name>
 			<text>Once per turn, a creature that attacks the hammerer can target the duergar trapped in it. The attacker has disadvantage on the attack roll. On a hit, the attack deals an extra 5 (1d10) damage to the hammerer, and the hammerer can respond by using its Multiattack with its reaction.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Siege Monster</name>
@@ -2761,7 +3199,7 @@
 		<description>Source: Mordenkainen's Tome of Foes</description>
 		<alignment>lawful evil</alignment>
 		<ac>16 (scale mail, shield)</ac>
-		<hp>26 (4d8+4)</hp>
+		<hp>22 (4d8+4)</hp>
 		<speed>25 ft.</speed>
 		<str>14</str>
 		<dex>11</dex>
@@ -2798,12 +3236,13 @@
 		<action>
 			<name>Enlarge (Recharges on a Short or Long Rest)</name>
 			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+			<recharge>SHORT</recharge>
 		</action>
 		<action>
 			<name>War Pick</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage, or 11 (2d8+2) piercing damage while enlarged.</text>
 			<attack>War Pick|4|1d8+2</attack>
-			<attack>Enalrged|4|2d8+2</attack>
+			<attack>Enlarged|4|2d8+2</attack>
 		</action>
 		<action>
 			<name>Javelin</name>
@@ -2824,6 +3263,7 @@
 			<text>• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</text>
 			<text/>
 			<text>• Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</text>
+			<recharge>SHORT</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -2868,7 +3308,8 @@
 		<action>
 			<name>Mind-Poison Dagger</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage and 10 (3d6) psychic damage, or 1 piercing damage and 14 (4d6) psychic damage while reduced.</text>
-			<attack>Mind-Poison Dagger|5|1d4+3</attack>
+			<attack>Mind-Poison Dagger|5|1d4+3+3d6</attack>
+			<attack>Mind-Poison Dagger(Reduced)|5|1+4d6</attack>
 		</action>
 		<action>
 			<name>Invisibility (Recharge 4-6)</name>
@@ -2878,6 +3319,7 @@
 			<text>• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</text>
 			<text/>
 			<text>• Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</text>
+			<recharge>D4</recharge>
 		</action>
 		<action>
 			<name>Mind Mastery</name>
@@ -2886,6 +3328,7 @@
 		<action>
 			<name>Reduce (Recharges after a Short or Long Rest)</name>
 			<text>For 1 minute, the duergar magically decreases in size, along with anything it is wearing or carrying. While reduced, the duergar is Tiny, reduces its weapon damage to 1, and makes attacks, checks, and saving throws with disadvantage if they use Strength. It gains a +5 bonus to all Dexterity (Stealth) checks and a +5 bonus to its AC. It can also take a bonus action on each of its turns to take the Hide action.</text>
+			<recharge>Short</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -2918,6 +3361,7 @@
 		<trait>
 			<name>Engine of Pain</name>
 			<text>Once per turn, a creature that attacks the screamer can target the duergar trapped in it. The attacker has disadvantage on the attack roll. On a hit, the attack deals an extra 11 (2d10) damage to the screamer, and the screamer can respond by using its Multiattack with its reaction.</text>
+			<attack>Damage||2d10</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2938,6 +3382,7 @@
 			<text>• The creature has disadvantage on attack rolls.</text>
 			<text/>
 			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+			<attack>Sonic Scream||2d6</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -2978,12 +3423,22 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The duergar's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: blade ward, true strike</text>
 			<text>1/day each: jump, hunter's mark</text>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hunter's Mark</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Enlarge (Recharges on a Short or Long Rest)</name>
 			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+			<recharge>Short</recharge>
 		</action>
 		<action>
 			<name>Create Soulblade</name>
@@ -3003,6 +3458,7 @@
 			<text>• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</text>
 			<text/>
 			<text>• Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</text>
+			<recharge>Short</recharge>
 		</action>
 		<spells>Blade Ward, True Strike, Jump, Hunter's Mark</spells>
 		<slots/>
@@ -3047,12 +3503,13 @@
 		<action>
 			<name>Enlarge (Recharges on a Short or Long Rest)</name>
 			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+			<recharge>Short</recharge>
 		</action>
 		<action>
 			<name>King's Knife (Shortsword)</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage, or 11 (2d6+4) piercing damage while enlarged.</text>
 			<attack>King's Knife|6|1d6+4</attack>
-			<attack>Enalrged|6|2d6+4</attack>
+			<attack>Enlarged|6|2d6+4</attack>
 		</action>
 		<action>
 			<name>Javelin</name>
@@ -3068,6 +3525,7 @@
 			<text>• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</text>
 			<text/>
 			<text>• Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</text>
+			<recharge>Short</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -3112,12 +3570,14 @@
 		<action>
 			<name>Psychic-Attuned Hammer</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage, or 15 (2d10 + 4) bludgeoning damage while enlarged, plus 5 (1d10) psychic damage.</text>
-			<attack>Psychic-Attuned Hammer|7|1d10+4</attack>
+			<attack>Psychic-Attuned Hammer|7|1d10+4+1d10</attack>
+			<attack>Psychic-Attuned Hammer (Enlarged)|7|2d10+4+1d10</attack>
 		</action>
 		<action>
 			<name>Javelin</name>
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while enlarged.</text>
 			<attack>Javelin|7|1d6+4</attack>
+			<attack>Javelin (Enlarged)|7|2d6+4</attack>
 		</action>
 		<action>
 			<name>Call to Attack</name>
@@ -3126,6 +3586,7 @@
 		<action>
 			<name>Enlarge (Recharges after a Short or Long Rest)</name>
 			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+			<recharge>Short</recharge>
 		</action>
 		<action>
 			<name>Invisibility (Recharge 4-6)</name>
@@ -3135,11 +3596,12 @@
 			<text>• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</text>
 			<text/>
 			<text>• Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</text>
+			<recharge>D4</recharge>
 		</action>
 		<reaction>
 			<name>Scouring Instruction</name>
 			<text>When an ally that the duergar can see makes a d20 roll, the duergar can roll a d6 and the ally can add the number rolled to the d20 roll by taking 3 (1d6) psychic damage. A creature immune to psychic damage can't be affected by Scouring Instruction.</text>
-			<attack/>
+			<attack>Psychic Damage||1d6</attack>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -3151,7 +3613,7 @@
 		<description>Source: Mordenkainen's Tome of Foes</description>
 		<alignment>lawful evil</alignment>
 		<ac>18 (platemail)</ac>
-		<hp>26 (4d8+4)</hp>
+		<hp>22 (4d8+4)</hp>
 		<speed>25 ft.</speed>
 		<str>16</str>
 		<dex>11</dex>
@@ -3180,17 +3642,19 @@
 		<action>
 			<name>Enlarge (Recharges on a Short or Long Rest)</name>
 			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+			<recharge>Short</recharge>
 		</action>
 		<action>
 			<name>Fire Lance</name>
 			<text>Melee Weapon Attack: +5 to hit (with disadvantage if the target is within 5 feet of the duergar), reach 10 ft., one target. Hit: 9 (1d12+3) piercing damage plus 3 (1d6) fire damage, or 16 (2d12+3) piercing damage plus 3 (1d6) fire damage while enlarged.</text>
-			<attack>Fire Lance|5|1d12+3</attack>
-			<attack>Enlarged|5|2d12+3</attack>
+			<attack>Fire Lance|5|1d12+3+1d6</attack>
+			<attack>Enlarged|5|2d12+3+1d6</attack>
 		</action>
 		<action>
 			<name>Fire Spray (Recharge 5-6)</name>
 			<text>From its fire lance, the duergar shoots a 15-foot cone of fire or a line of fire 30 feet long and 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Fire Spray| |3d6</attack>
+			<attack>Fire Spray||3d6</attack>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Invisibility (Recharges on a Short or Long Rest)</name>
@@ -3200,6 +3664,7 @@
 			<text>• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</text>
 			<text/>
 			<text>• Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</text>
+			<recharge>Short</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -3232,12 +3697,22 @@
 		<trait>
 			<name>Incoporeal Movement</name>
 			<text>The dybbuk can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dybbuk's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dimension door</text>
 			<text>3/day each: fear, phantasmal force</text>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Force</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -3256,12 +3731,14 @@
 			<name>Tendril</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) necrotic damage. If the target is a creature, its hit point maximum is also reduced by 3 (1d6). This reduction lasts until the target finishes a short or long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
 			<attack>Tendril|6|2d8+4</attack>
+			<attack>Hit Points Reduction||1d6</attack>
 		</action>
 		<action>
 			<name>Possess Corpse (Recharge 6)</name>
 			<text>The dybbuk disappears into an intact corpse it can see within 5 feet of it. The corpse must be Large or smaller and be that of a beast or a humanoid. The dybbuk is now effectively the possessed creature. Its type becomes undead, though it now looks alive, and it gains a number of temporary hit points equal to the corpse's hit point maximum in life.</text>
 			<text>While possessing the corpse, the dybbuk retains its hit points, alignment, Intelligence, Wisdom, Charisma, telepathy, and immunity to poison damage, exhaustion, and being charmed and frightened. It otherwise uses the possessed target's game statistics, gaining access to its knowledge and proficiencies but not its class features, if any.</text>
 			<text>The possession lasts until the temporary hit points are lost (at which point the body becomes a corpse once more) or the dybbuk ends its possession using a bonus action. When the possession ends, the dybbuk reappears in an unoccupied space within 5 feet of the corpse.</text>
+			<recharge>D6</recharge>
 		</action>
 		<spells>Dimension Door, Fear, Phantasmal Force</spells>
 		<slots/>
@@ -3315,6 +3792,7 @@
 			<text/>
 			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
 			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -3326,7 +3804,7 @@
 		<description>Source: Mordenkainen's Tome of Foes</description>
 		<alignment>any alignment</alignment>
 		<ac>9</ac>
-		<hp>63 (18d8_18)</hp>
+		<hp>63 (18d8-18)</hp>
 		<speed>0 ft., fly 40 ft. (hover)</speed>
 		<str>7</str>
 		<dex>8</dex>
@@ -3351,10 +3829,12 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The eidolon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object other than a sacred statue.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Sacred Animation (Recharge 5-6)</name>
 			<text>When the eidolon moves into a space occupied by a sacred statue, the eidolon can disappear, causing the statue to become a creature under the eidolon's control. The eidolon uses the sacred statue's statistics in place of its own.</text>
+			<recharge>D5</recharge>
 		</trait>
 		<trait>
 			<name>Turn Resistance</name>
@@ -3419,12 +3899,46 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The oblex's innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: charm person (as 5th-level spell), detect thoughts, hold person</text>
 			<text>3/day each: confusion, dimension door, dominate person, fear, hallucinatory terrain, hold monster, hypnotic pattern, telekinesis</text>
 		</trait>
 		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Monster</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hypnotic Pattern</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Sulfurous Impersonation</name>
 			<text>As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. For all practical purposes, the simulacrum is the oblex, meaning the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed.</text>
+			<attack>Creatures||2d6+1</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -3451,6 +3965,13 @@
 			<text>• Attack rolls against the creature have advantage.</text>
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<attack>Psychic Damage||8d10</attack>
+			<attack>Reduction||1d4</attack>
+			<attack>Reduction||1d6</attack>
+			<attack>Reduction||1d8</attack>
+			<attack>Reduction||1d10</attack>
+			<attack>Reduction||1d12</attack>
+			<attack>Reduction||1d20</attack>
 		</action>
 		<spells>Charm Person, Detect Thoughts, Hold Person, Confusion, Dimension Door, Dominate Person, Fear, Hallucinatory Terrain, Hold Monster, Hypnotic Pattern, Telekinesis</spells>
 		<slots/>
@@ -3491,11 +4012,13 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the tempest fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Living Storm</name>
 			<text>The tempest is always at the center of a storm 1d6 + 4 miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing.</text>
 			<text>In addition, strong winds swirl in the area covered by the storm. The winds impose disadvantage on ranged attack rolls. The winds extinguish open flames and disperse fog.</text>
+			<attack>Miles||1d6+4</attack>
 		</trait>
 		<trait>
 			<name>Siege Monster</name>
@@ -3520,6 +4043,8 @@
 			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
 			<text/>
 			<text>• Attack rolls against the creature have advantage.</text>
+			<recharge>D6</recharge>
+			<attack>Lightning Storm||6d8</attack>
 		</action>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -3532,10 +4057,13 @@
 		<legendary>
 			<name>Lightning Strike (Costs 2 Actions)</name>
 			<text>The tempest can cause a bolt of lightning to strike a point on the ground anywhere under its storm. Each creature within 5 feet of that point must make a DC 20 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Lightning Strike||3d10</attack>
 		</legendary>
 		<legendary>
 			<name>Screaming Gale (Costs 3 Actions)</name>
 			<text>The tempest releases a blast of thunder and wind in a line that is 1 mile long and 20 feet wide. Objects in that area take 22 (4d10) thunder damage. Each creature there must succeed on a DC 21 Dexterity saving throw or take 22 (4d10) thunder damage and be flung up to 60 feet in a direction away from the line. If a thrown target collides with an immovable object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown before impact. If the target would collide with another creature instead, that other creature must succeed on a DC 19 Dexterity saving throw or take the same damage and be knocked prone.</text>
+			<attack>Thunder Damage||4d10</attack>
+			<attack>Damage per 10 feet||1d6</attack>
 		</legendary>
 		<spells/>
 		<slots/>
@@ -3590,6 +4118,7 @@
 			<name>Fiery Strikes (Recharge 6)</name>
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
 			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -3622,13 +4151,47 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasmal force</text>
 			<text>3/day each: confusion, dream, mislead, programmed illusion, seeming</text>
 			<text>1/day each: mirage arcane, modify memory, project image</text>
 		</trait>
 		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dream</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mislead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Programmed Illusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Seeming</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirage Arcane</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Modify Memory</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Project Image</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Fraz-Urb'luu fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -3665,6 +4228,7 @@
 			<text>• Fraz-Urb'luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the simulacrum spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on the next initiative count 20.</text>
 			<text/>
 			<text>• Fraz-Urb'luu creates a wave of anguish. Each creature he can see within the lair must succeed on a DC 23 Wisdom saving throw or take 33 (6d10) psychic damage.</text>
+			<attack>Psychic Damage||6d10</attack>
 		</action>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -3723,11 +4287,13 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 9 (1d8 + 5) piercing damage and 5 (1d10) cold damage.</text>
-			<attack>Bite|9|1d8+5</attack>
+			<attack>Bite|9|1d8+5+1d10</attack>
 		</action>
 		<action>
 			<name>Freezing Breath (Recharge 6)</name>
 			<text>The salamander exhales chill wind in a 60-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 44 (8d10) cold damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D6</recharge>
+			<attack>Cold Damage||8d10</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -3760,12 +4326,22 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Geryon's innate spellcasting ability is Charisma (spell save DC 21). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self (can become Medium when changing his appearance), detect magic, geas, ice storm, invisibility (self only), locate object, suggestion, wall of ice</text>
 			<text>1/day each: divine word, symbol (pain only)</text>
 		</trait>
 		<trait>
+			<name>Divine Word</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (pain only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Geryon fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -3801,6 +4377,7 @@
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
 			<attack>Claws|16|4d6+9</attack>
+			<attack>Grappled||6d8</attack>
 		</action>
 		<action>
 			<name>Stinger</name>
@@ -3809,6 +4386,7 @@
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
 			<attack>Stinger|16|2d4+9</attack>
+			<attack>Poison||2d12</attack>
 		</action>
 		<action>
 			<name>Teleport</name>
@@ -3830,10 +4408,13 @@
 			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<attack>Cold Damage||8d6</attack>
 		</action>
 		<action>
 			<name>Variant: Sound the Horn (1/Day)</name>
 			<text>Geryon blows his horn, which causes 5d4 minotaurs to appear in unoccupied spaces of his choice within 600 feet of him. The minotaurs roll initiative when they appear. They remain until they die or Geryon uses an action to dismiss any or all of them.</text>
+			<recharge>1/Day</recharge>
+			<attack>Minotaurs||5d4</attack>
 		</action>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -3889,6 +4470,7 @@
 			<text>• The creature has disadvantage on attack rolls.</text>
 			<text/>
 			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+			<attack>Bludgeoning Damage||2d6</attack>
 		</trait>
 		<trait>
 			<name>Firearms Knowledge</name>
@@ -3902,10 +4484,11 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
 			<attack>Longsword|6|1d8+4</attack>
+			<attack>Longsword (2H)|6|1d10+4</attack>
 		</action>
 		<action>
 			<name>Musket</name>
-			<text>Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit: 7 (1d12 + 2) piercing damage.</text>
+			<text>Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit: 8 (1d12 + 2) piercing damage.</text>
 			<attack>Musket|4|1d12+2</attack>
 		</action>
 		<action>
@@ -3916,6 +4499,8 @@
 		<action>
 			<name>Fragmentation Grenade (1/day)</name>
 			<text>The giff throws a grenade up to 60 feet. Each creature within 20 feet of the grenade's detonation must make a DC 15 Dexterity saving throw, taking 17 (5d6) piercing damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>1/day</recharge>
+			<attack>Fragmentation Grenade||5d6</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -3948,18 +4533,41 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The githyanki's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: jump, misty step, nondetection (self only)</text>
 			<text>1/day each: plane shift, telekinesis</text>
 		</trait>
 		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The githyanki is an 8th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The githyanki has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): blade ward, light, message, true strike</text>
 			<text>1st level (4 slots): expeditious retreat, magic missile, sleep, thunderwave</text>
 			<text>2nd level (3 slots): blur, invisibility, levitate</text>
 			<text>3rd level (3 slots): counterspell, fireball, haste</text>
 			<text>4th level (2 slots): dimension door</text>
+			<attack>Spell Attack|7|</attack>
 		</trait>
 		<trait>
 			<name>War Magic</name>
@@ -3973,6 +4581,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands, plus 18 (4d8) psychic damage.</text>
 			<attack>Longsword|7|1d8+3</attack>
+			<attack>Longsword (2H)|7|1d10+3</attack>
 		</action>
 		<spells>Mage Hand, Jump, Misty Step, Nondetection, Plane Shift, Telekinesis, Blade Ward, Light, Message, True Strike, Expeditious Retreat, Magic Missile, Sleep, Thunderwave, Blur, Invisibility, Levitate, Counterspell, Fireball, Haste, Dimension Door</spells>
 		<slots>4,3,3,2</slots>
@@ -4005,9 +4614,34 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The githyanki's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: blur, jump, misty step, nondetection (self only)</text>
 			<text>1/day each: plane shift, telekinesis</text>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Rally the Troops</name>
@@ -4025,7 +4659,6 @@
 		<reaction>
 			<name>Parry</name>
 			<text>The githyanki adds 4 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon.</text>
-			<attack/>
 		</reaction>
 		<spells>Mage Hand, Blur, Jump, Misty Step, Nondetection, Plane Shift, Telekinesis</spells>
 		<slots/>
@@ -4058,9 +4691,42 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The githyanki's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: jump, levitate (self only), misty step, nondetection (self only)</text>
 			<text>1/day each: Bigby's hand, mass suggestion, plane shift, telekinesis</text>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Levitate (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Nondetection (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Bigby's Hand</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -4074,7 +4740,6 @@
 		<reaction>
 			<name>Parry</name>
 			<text>The githyanki adds 5 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon.</text>
-			<attack/>
 		</reaction>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -4091,6 +4756,7 @@
 		<legendary>
 			<name>Teleport</name>
 			<text>The githyanki magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it. It also becomes insubstantial until the start of its next turn. While insubstantial, it can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes 16 (3d10) force damage and is moved to the nearest unoccupied space.</text>
+			<attack>Force Damage||3d10</attack>
 		</legendary>
 		<spells/>
 		<slots/>
@@ -4123,9 +4789,46 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The anarch's innate spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: feather fall, jump, see invisibility, shield, telekinesis</text>
 			<text>1/day each: globe of invulnerability, plane shift, teleportation circle, wall of force</text>
+		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>See Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Globe of Invulnerability</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleportation Circle</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Force</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Psychic Defense</name>
@@ -4144,6 +4847,7 @@
 			<name>Temporal Strike (Recharge 6)</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage plus 52 (8d12) psychic damage. The target must succeed on a DC 16 Wisdom saving throw or move 1 round forward in time. A target moved forward in time vanishes for the duration. When the effect ends, the target reappears in the space it left or in an unoccupied space nearest to that space if it's occupied.</text>
 			<attack>Temporal Strike|8|2d8+4+8d12</attack>
+			<recharge>D6</recharge>
 		</action>
 		<action>
 			<name>Lair Actions</name>
@@ -4202,9 +4906,46 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The githzerai's innate spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: blur, expeditious retreat, feather fall, jump, see invisibility, shield</text>
 			<text>1/day each: haste, plane shift, teleport</text>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Expeditious Retreat</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Feather Fall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Jump</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>See Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Haste</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Psychic Defense</name>
@@ -4223,6 +4964,7 @@
 			<name>Temporal Strike (Recharge 6)</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage plus 52 (8d12) psychic damage. The target must succeed on a DC 16 Wisdom saving throw or move 1 round forward in time. A target moved forward in time vanishes for the duration. When the effect ends, the target reappears in the space it left or in an unoccupied space nearest to that space if it's occupied.</text>
 			<attack>Temporal Strike|8|2d8+4+8d12</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells>Mage Hand, Blur, Expeditious Retreat, Feather Fall, Jump, See Invisibility, Shield, Haste, Plane Shift, Teleport</spells>
 		<slots/>
@@ -4263,14 +5005,37 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The gloom weaver's innate spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: arcane eye, mage armor, speak with dead</text>
 			<text>1/day each: arcane gate, bane, compulsion, confusion, true seeing</text>
+			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Arcane Gate</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Bane</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Compulsion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>True Seeing</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The gloom weaver is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
-			<text>Cantrips (at will): chill touch (3d8 damage), eldritch blast (3 beams, +4 bonus to each damage roll), minor illusion, prestidigitation 1st_</text>
-			<text>5th level (3 5th-level slots): armor of Agathys, blight, darkness, dream, invisibility, fear, hypnotic pattern, major image, contact other plane, vampiric touch, witch bolt</text>
+			<text>Cantrips (at will): chill touch (3d8 damage), eldritch blast (3 beams, +4 bonus to each damage roll), minor illusion, prestidigitation</text>
+			<text>1st-5th level (3 5th-level slots): armor of Agathys, blight, darkness, dream, invisibility, fear, hypnotic pattern, major image, contact other plane, vampiric touch, witch bolt</text>
+			<attack>Spell Attack|8|</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -4279,12 +5044,13 @@
 		<action>
 			<name>Shadow Spear</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands, plus 26 (4d12) necrotic damage.</text>
-			<attack>Shadow Spear|8|1d6+4</attack>
+			<attack>Shadow Spear|8|1d6+4+4d12</attack>
+			<attack>Shadow Spear (2H)|8|1d8+4+4d12</attack>
 		</action>
 		<reaction>
 			<name>Misty Escape (Recharges after a Short or Long Rest)</name>
 			<text>When the gloom weaver takes damage, it turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks or casts a spell.</text>
-			<attack/>
+			<recharge>Short</recharge>
 		</reaction>
 		<spells>Arcane Eye, Mage Armor, Speak with Dead, Arcane Gate, Bane, Compulsion, Confusion, True Seeing, Chill Touch, Eldritch Blast, Minor Illusion, Prestidigitation, Armor of Agathys, Blight, Darkness, Dream, Invisibility, Fear, Hypnotic Pattern, Major Image, Contact Other Plane, Vampiric Touch, Witch Bolt</spells>
 		<slots>0,0,0,0,3</slots>
@@ -4333,12 +5099,11 @@
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) slashing damage, plus 7 (2d6) bludgeoning damage if the target is prone.</text>
-			<attack>Claws|8|2d8+4</attack>
+			<attack>Claws|8|2d8+4+2d6</attack>
 		</action>
 		<reaction>
 			<name>Bloody Rampage</name>
 			<text>When the gray render takes damage, it makes one attack with its claws against a random creature within its reach, other than its master.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -4375,13 +5140,47 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: charm person, crown of madness, detect magic, dispel magic, dissonant whispers</text>
 			<text>3/day each: counterspell, darkness, dominate person, sanctuary, telekinesis, teleport</text>
 			<text>1/day each: dominate monster, greater invisibility</text>
 		</trait>
 		<trait>
+			<name>Counterspell</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Invisibility</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Graz'zt fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4468,9 +5267,34 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The abishai's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self, major image</text>
 			<text>3/day each: charm person, detect thoughts, fear</text>
 			<text>1/day each: confusion, dominate person, mass suggestion</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4488,6 +5312,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.</text>
 			<attack>Longsword|6|1d8+1</attack>
+			<attack>Longsword (2H)|6|1d10+1</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -4496,6 +5321,7 @@
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
 			<attack>Claws|8|2d8+3</attack>
+			<attack>Poison Damage||2d8+3</attack>
 		</action>
 		<spells>Alter Self, Major Image, Charm Person, Detect Thoughts, Fear, Confusion, Dominate Person, Mass Suggestion</spells>
 		<slots/>
@@ -4555,20 +5381,27 @@
 			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<attack>Flesh-Crushing Stride||8d6</attack>
 		</action>
 		<action>
-			<name>Hellfire Weapons</name>
-			<text>The hellfire engine uses one of the following options: Bonemelt Sprayer. The hellfire engine spews acidic flame in a 60-foot cone. Each creature in the cone must make a DC 20 Dexterity saving throw, taking 11 (2d10) fire damage plus 18 (4d8) acid damage on a failed save, or half as much damage on a successful one. Creatures that fail the saving throw are drenched in burning acid and take 5 (1d10) fire damage plus 9 (2d8) acid damage at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel.</text>
+			<name>Bonemelt Sprayer</name>
+			<text>The hellfire engine spews acidic flame in a 60-foot cone. Each creature in the cone must make a DC 20 Dexterity saving throw, taking 11 (2d10) fire damage plus 18 (4d8) acid damage on a failed save, or half as much damage on a successful one. Creatures that fail the saving throw are drenched in burning acid and take 5 (1d10) fire damage plus 9 (2d8) acid damage at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel.</text>
+			<attack>Bonemelt Sprayer||2d10+4d8</attack>
+			<attack>End of Turn Damage||1d10+2d8</attack>
 		</action>
 		<action>
 			<name>Lightning Flail</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 15 ft., one creature. Hit: 18 (3d8 + 5) bludgeoning damage plus 22 (5d8) lightning damage. Up to three other creatures of the hellfire engine's choice that it can see within 30 feet of the target must each make a DC 20 Dexterity saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Lightning Flail|11|3d8+5+5d8</attack>
+			<attack>Extra Creatures||5d8</attack>
+
 		</action>
 		<action>
 			<name>Thunder Cannon</name>
 			<text>The hellfire engine targets a point within 120 feet of it that it can see. Each creature within 30 feet of that point must make a DC 20 Dexterity saving throw, taking 27 (5d10) bludgeoning damage plus 13 (2d12) thunder damage on a failed save, or half as much damage on a successful one.</text>
 			<text>If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in 1d4 hours. If the creature isn't revived before then, only a wish spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect.</text>
+			<attack>THunder Cannon||5d10+2d12</attack>
+			<attack>Hours||1d4</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -4610,10 +5443,12 @@
 			<name>Rending Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage, plus 22 (4d10) psychic damage if the target is frightened. This attack ignores damage resistance.</text>
 			<attack>Rending Bite|6|2d6+3</attack>
+			<attack>Frightened||4d10</attack>
 		</action>
 		<action>
 			<name>Mind-Breaking Howl (Recharge 6)</name>
 			<text>The howler emits a keening howl in a 60-foot cone. Each creature in that area that isn't deafened must succeed on a DC 16 Wisdom saving throw or be frightened until the end of the howler's next turn. While a creature is frightened in this way, its speed is halved, and it is incapacitated. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours.</text>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -4650,13 +5485,27 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Hutijin's innate spellcasting ability is Charisma (spell save DC 22). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self (can become Medium when changing his appearance), animate dead, detect magic, hold monster, invisibility (self only), lightning bolt, suggestion, wall of fire</text>
-			<text>3/day each: dispel magic</text>
+			<text>3/day: dispel magic</text>
 			<text>1/day each: heal, symbol (hopelessness only)</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (hopelessness only)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Hutijin fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4681,6 +5530,7 @@
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
 			<attack>Bite|15|2d6+8</attack>
+			<attack>Poison Damage||3d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -4704,7 +5554,7 @@
 		<reaction>
 			<name>Fearful Voice (Recharge 5-6)</name>
 			<text>In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil must succeed on a DC 22 Wisdom saving throw or become frightened of him for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to Hutijin's Fearful Voice for 24 hours.</text>
-			<attack/>
+			<recharge>D5</recharge>
 		</reaction>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -4717,6 +5567,7 @@
 		<legendary>
 			<name>Lightning Storm (Costs 2 Actions)</name>
 			<text>Hutijin releases lightning in a 20-foot radius. All other creatures in that area must each make a DC 22 Dexterity saving throw, taking 18 (4d8) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Lightning Storm||4d8</attack>
 		</legendary>
 		<legendary>
 			<name>Teleport</name>
@@ -4757,8 +5608,29 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The hydroloth's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: darkness, detect magic, dispel magic, invisibility (self only), water walk</text>
 			<text>3/day each: control water, crown of madness, fear, phantasmal killer, suggestion</text>
+		</trait>
+		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Crown of Madness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Killer</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4793,6 +5665,8 @@
 		<action>
 			<name>Steal Memory (1/Day)</name>
 			<text>The hydroloth targets one creature it can see within 60 feet of it. The target takes 4d6 psychic damage, and it must make a DC 16 Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A greater restoration or remove curse spell cast on the target ends this effect early.</text>
+			<recharge>1/Day</recharge>
+			<attack>Psychic Damage||4d6</attack>
 		</action>
 		<action>
 			<name>Teleport</name>
@@ -4884,6 +5758,91 @@
 			<text>9 — Rusty Gears. The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
 			<text/>
 			<text>10 — Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
+			<attack>Changes||1d10</attack>
+		</trait>
+		<trait>
+			<name>Enhancement: Camouflaged</name>
+			<text>The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sensors</name>
+			<text>The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Improved Armor</name>
+			<text>The clockwork's AC increases by 2.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Increased Speed</name>
+			<text>The clockwork's speed increases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Reinforced Construction</name>
+			<text>The clockwork has resistance to force, lightning, and thunder damage.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Self-Repairing</name>
+			<text>If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sturdy Frame</name>
+			<text>The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Suction</name>
+			<text>The clockwork gains a climbing speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Vocal Resonator</name>
+			<text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Water Propulsion</name>
+			<text>The clockwork gains a swimming speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Faulty Sensors</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Flawed Targeting</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Ground Fault</name>
+			<text>The clockwork has vulnerability to lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Imprinting Loop</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Leaking Lubricant</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Limited Steering</name>
+			<text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Overactive Sense of Self-Preservation</name>
+			<text>If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Overheats</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Rusty Gears</name>
+			<text>The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Weak Armor</name>
+			<text>The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 		</trait>
 		<action>
 			<name>Bite</name>
@@ -4904,6 +5863,7 @@
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
 			<attack>Bite|5|1d6+3</attack>
+			<attack>Poison Damage||3d8</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -4940,12 +5900,27 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Juiblex's spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: acid splash (17th level), detect magic</text>
 			<text>3/day each: blight, contagion, gaseous form</text>
+			<attack>Spell Attack|10|</attack>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Contagion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Juiblex fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4976,6 +5951,7 @@
 			<name>Eject Slime (Recharge 5-6)</name>
 			<text>Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a DC 21 Dexterity saving throw. On a failure, the target takes 55 (10d10) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent -1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent -1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to -5, the object is destroyed.</text>
 			<attack>Eject Slime||10d10</attack>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Lair Actions</name>
@@ -5003,6 +5979,7 @@
 			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<attack>Fire Damage||4d10</attack>
 		</action>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -5079,6 +6056,8 @@
 		<action>
 			<name>Acid Spray (Recharge 5-6)</name>
 			<text>The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D5</recharge>
+			<attack>Acid Damage||4d10</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -5111,6 +6090,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the leviathan fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Partial Freeze</name>
@@ -5144,6 +6124,9 @@
 			<text>When the wall appears, all other creatures within its area must each make a DC 24 Strength saving throw. A creature takes 33 (6d10) bludgeoning damage on failed save, or half as much damage on a successful one.</text>
 			<text>At the start of each of the leviathan's turns after the wall appears, the wall, along with any other creatures in it, moves 50 feet away from the leviathan. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a DC 24 Strength saving throw or take 27 (5d10) bludgeoning damage. A creature takes this damage no more than once on a turn. At the end of each turn the wall moves, the wall's height is reduced by 50 feet, and the damage creatures take from the wall on subsequent rounds is reduced by 1d10. When the wall reaches 0 feet in height, the effect ends.</text>
 			<text>A creature caught in the wall can move by swimming. Because of the force of the wave, though, the creature must make a successful DC 24 Strength (Athletics) check to swim at all during that turn.</text>
+			<recharge>D6</recharge>
+			<attack>Tidal Wave||6d10</attack>
+			<attack>Wall||5d10</attack>
 		</action>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -5201,6 +6184,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the marut fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -5224,6 +6208,7 @@
 			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
 			<text/>
 			<text>• Attack rolls against the creature have advantage.</text>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Justify</name>
@@ -5261,6 +6246,7 @@
 		<trait>
 			<name>Assume Form</name>
 			<text>The maurezhi can assume the appearance of any Medium humanoid it has eaten. It remains in this form for 1d6 days, during which time the form gradually decays until, when the effect ends, the form sloughs from the demon's body.</text>
+			<attack>Days||1d6</attack>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -5274,6 +6260,7 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) piercing damage. If the target is a humanoid, its Charisma score is reduced by 1d4. This reduction lasts until the target finishes a short or long rest. The target dies if this reduces its Charisma to 0. It rises 24 hours later as a ghoul, unless it has been revived or its corpse has been destroyed.</text>
 			<attack>Bite|6|2d10+3</attack>
+			<attack>Charisma Reduction||1d4</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -5292,6 +6279,7 @@
 		<action>
 			<name>Raise Ghoul (Recharge 5-6)</name>
 			<text>The maurezhi targets one dead ghoul or ghast it can see within 30 feet of it. The target is revived with all its hit points.</text>
+			<recharge>D5</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -5330,16 +6318,18 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target of the meazel's size or smaller. Hit: 6 (1d6 + 3) bludgeoning damage, and the target is grappled (escape DC 13 with disadvantage). Until the grapple ends, the target takes 10 (2d6 + 3) bludgeoning damage at the start of each of the meazel's turns.</text>
 			<text>The meazel can't make weapon attacks while grappling a creature in this way.</text>
 			<attack>Garrote|5|1d6+3</attack>
+			<attack>Start of Turn||2d6+3</attack>
 		</action>
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, plus 3 (1d6) necrotic damage.</text>
-			<attack>Shortsword|5|1d6+3</attack>
+			<attack>Shortsword|5|1d6+3+1d6</attack>
 		</action>
 		<action>
 			<name>Shadow Teleport (Recharge 5-6)</name>
 			<text>The meazel, any equipment it is wearing or carrying, and any creature it is grappling teleport to an unoccupied space within 500 feet of it, provided that the starting space and the destination are in dim light or darkness. The destination must be a place the meazel has seen before, but it need not be within line of sight. If the destination space is occupied, the teleportation leads to the nearest unoccupied space.</text>
 			<text>Any other creature the meazel teleports becomes cursed by shadow for 1 hour. Until this curse ends, every undead and every creature native to the Shadowfell within 300 feet of the cursed creature can sense it, which prevents that creature from hiding from them.</text>
+			<recharge>D5</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -5394,7 +6384,6 @@
 		<reaction>
 			<name>Loyal Bodyguard</name>
 			<text>When another fiend within 5 feet of the merregon is hit by an attack, the merregon causes itself to be hit instead.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -5427,9 +6416,18 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The merrenoloth's innate spellcasting ability is Intelligence (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: charm person, darkness, detect magic, dispel magic, gust of wind</text>
-			<text>3/day each: control water</text>
-			<text>1/day each: control weather</text>
+			<text>3/day: control water</text>
+			<text>1/day: control weather</text>
+		</trait>
+		<trait>
+			<name>Control Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -5477,6 +6475,7 @@
 			<text>• The creature has disadvantage on attack rolls.</text>
 			<text/>
 			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+			<attack>Regain||4d10</attack>
 		</action>
 		<spells>Charm Person, Darkness, Detect Magic, Dispel Magic, Gust of Wind, Control Water, Control Weather</spells>
 		<slots/>
@@ -5509,12 +6508,22 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Moloch's innate spellcasting ability is Charisma (spell save DC 21). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self (can become Medium when changing his appearance), animate dead, burning hands (as a 7th-level spell), confusion, detect magic, fly, geas, major image, stinking cloud, suggestion, wall of fire</text>
 			<text>1/day each: flame strike, symbol (stunning only)</text>
 		</trait>
 		<trait>
+			<name>Flame Strike</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (stunning only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Moloch fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -5555,6 +6564,8 @@
 			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
 			<text/>
 			<text>• The creature can't willingly move closer to the source of its fear.</text>
+			<recharge>D5</recharge>
+			<attack>Breath of Depair||5d10</attack>
 		</action>
 		<action>
 			<name>Teleport</name>
@@ -5607,13 +6618,23 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The molydeus's innate spellcasting ability is Charisma (spell save DC 22). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dispel magic, polymorph, telekinesis, teleport</text>
-			<text>3/day each: lightning bolt</text>
-			<text>1/day each: imprisonment</text>
+			<text>3/day: lightning bolt</text>
+			<text>1/day: imprisonment</text>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Imprisonment</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the molydeus fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -5631,6 +6652,7 @@
 			<name>Demonic Weapon</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) slashing damage. If the target has at least one head and the molydeus rolled a 20 on the attack roll, the target is decapitated and dies if it can't survive without that head. A target is immune to this effect if it takes none of the damage, has legendary actions, or is Huge or larger. Such a creature takes an extra 6d8 slashing damage from the hit.</text>
 			<attack>Demonic Weapon|16|2d10+9</attack>
+			<attack>Extra Damage||6d8</attack>
 		</action>
 		<action>
 			<name>Wolf Bite</name>
@@ -5645,6 +6667,10 @@
 		<action>
 			<name>Variant: Summon Demon (1/Day)</name>
 			<text>As an action, the molydeus has a 50 percent chance of summoning its choice of 1d6 babaus, 1d4 chasmes, or one marilith. A summoned demon appears in an unoccupied space within 60 feet of the molydeus, acts as an ally of the molydeus, and can't summon other demons. It remains for 1 minute, until it or the molydeus dies, or until the molydeus dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Babaus||1d6</attack>
+			<attack>Chasmes||1d4</attack>
 		</action>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -5697,6 +6723,7 @@
 		<trait>
 			<name>Devour Soul</name>
 			<text>A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice (d8s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 (1d6) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a wish spell.</text>
+			<attack>Extra Damage||1d6</attack>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -5723,6 +6750,7 @@
 		<action>
 			<name>Soul-Stealing Gaze</name>
 			<text>The nabassu targets one creature it can see within 30 feet of it. If the target can see the nabassu and isn't a construct or an undead, it must succeed on a DC 16 Charisma saving throw or reduce its hit point maximum by 13 (2d12) and give the nabassu an equal number of temporary hit points. This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0, and if the target is a humanoid, it immediately rises as a ghoul under the nabassu's control.</text>
+			<attack>Hit Point Reduction||2d12</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -5773,10 +6801,12 @@
 			<text>• Attack rolls against the creature have advantage.</text>
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<recharge>D6</recharge>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The nagpa is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). A nagpa has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): chill touch, fire bolt, mage hand, message, minor illusion</text>
 			<text>1st level (4 slots): charm person, detect magic, protection from evil and good, witch bolt</text>
 			<text>2nd level (3 slots): hold person, ray of enfeeblement, suggestion</text>
@@ -5786,6 +6816,7 @@
 			<text>6th level (1 slot): circle of death, disintegrate</text>
 			<text>7th level (1 slot): etherealness, prismatic spray</text>
 			<text>8th level (1 slot): feeblemind</text>
+			<attack>Spell Attack|12|</attack>
 		</trait>
 		<action>
 			<name>Staff</name>
@@ -5840,6 +6871,7 @@
 			<name>Hellfire Lance</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 11 (1d12 + 5) piercing damage plus 16 (3d10) fire damage. If this damage kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in 1d4 hours. If the creature isn't revived before then, only a wish spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect.</text>
 			<attack>Hellfire Lance|10|1d12+5+3d10</attack>
+			<attack>Hours||1d4</attack>
 		</action>
 		<action>
 			<name>Infernal Command</name>
@@ -5857,6 +6889,7 @@
 		<action>
 			<name>Healing (1/Day)</name>
 			<text>The narzugon, or one creature it touches, regains up to 100 hit points.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -5893,6 +6926,7 @@
 		<trait>
 			<name>Annihilating Aura</name>
 			<text>Any creature that starts its turn within 30 feet of the nightwalker must succeed on a DC 21 Constitution saving throw or take 14 (4d6) necrotic damage and grant the nightwalker advantage on attack rolls against it until the start of the creature's next turn. Undead are immune to this aura.</text>
+			<attack>Necrotic Damage||4d6</attack>
 		</trait>
 		<trait>
 			<name>Life Eater</name>
@@ -5924,6 +6958,8 @@
 			<text>• Attack rolls against the creature have advantage.</text>
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<recharge>D6</recharge>
+			<attack>Finger of Doom||4d12</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -5956,6 +6992,7 @@
 		<trait>
 			<name>Cloud of Vermin</name>
 			<text>Any creature, other than a devil, that starts its turn within 20 feet of the nupperibo must make a DC 11 Constitution saving throw. A creature within the areas of two or more nupperibos makes the saving throw with disadvantage. On a failure, the creature takes 2 (1d4) piercing damage.</text>
+			<attack>Cloud of Vermin||1d4</attack>
 		</trait>
 		<trait>
 			<name>Hunger-Driven</name>
@@ -6052,6 +7089,91 @@
 			<text>9 — Rusty Gears. The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
 			<text/>
 			<text>10 — Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
+			<attack>Changes||1d10</attack>
+		</trait>
+		<trait>
+			<name>Enhancement: Camouflaged</name>
+			<text>The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sensors</name>
+			<text>The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Improved Armor</name>
+			<text>The clockwork's AC increases by 2.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Increased Speed</name>
+			<text>The clockwork's speed increases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Reinforced Construction</name>
+			<text>The clockwork has resistance to force, lightning, and thunder damage.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Self-Repairing</name>
+			<text>If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sturdy Frame</name>
+			<text>The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Suction</name>
+			<text>The clockwork gains a climbing speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Vocal Resonator</name>
+			<text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Water Propulsion</name>
+			<text>The clockwork gains a swimming speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Faulty Sensors</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Flawed Targeting</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Ground Fault</name>
+			<text>The clockwork has vulnerability to lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Imprinting Loop</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Leaking Lubricant</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Limited Steering</name>
+			<text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Overactive Sense of Self-Preservation</name>
+			<text>If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Overheats</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Rusty Gears</name>
+			<text>The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Weak Armor</name>
+			<text>The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -6073,10 +7195,13 @@
 			<text/>
 			<text>• The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave spell.</text>
 			<attack>Harpoon|7|1d10+4</attack>
+			<attack>Slashing Damage||1d10</attack>
 		</action>
 		<action>
 			<name>Explosive Bolt (Recharge 5-6)</name>
 			<text>The oaken bolter launches an explosive charge at a point within 120 feet. Each creature within 20 feet of that point must make a DC 15 Dexterity saving throw, taking 17 (5d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D5</recharge>
+			<attack>Explosive Bolt||5d6</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -6163,6 +7288,7 @@
 		<action>
 			<name>Block the Path</name>
 			<text>Until the start of the ogre's next turn, attack rolls against the ogre have disadvantage, it has advantage on the attack roll it makes for an opportunity attack, and that attack deals an extra 16 (3d10) bludgeoning damage on a hit. Also, each enemy that tries to move out of the ogre's reach without teleporting must succeed on a DC 14 Strength saving throw or have its speed reduced to 0 until the start of the ogre's next turn.</text>
+			<attack>Extra Damage||3d10</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -6245,6 +7371,7 @@
 			<text>• The creature has disadvantage on attack rolls.</text>
 			<text/>
 			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+			<attack>Chain Sweep||1d8+4</attack>
 		</action>
 		<action>
 			<name>Chain Smash (Recharge 6)</name>
@@ -6261,6 +7388,7 @@
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
 			<attack>Chain Smash|6|2d8+4</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -6335,12 +7463,32 @@
 			<text/>
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
+			<recharge>D5</recharge>
+			<attack>Necrotic Damage||4d6</attack>
+			<attack>Hit Point Reduction||1d6</attack>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The oinoloth's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: darkness, detect magic, dispel magic, invisibility (self only)</text>
 			<text>1/day each: feeblemind, globe of invulnerability, wall of fire, wall of ice</text>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Globe of Invulnerability</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Fire</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Ice</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -6367,17 +7515,19 @@
 			<text>Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.</text>
 			<text/>
 			<text>Level — Effect:</text>
-			<text>1 —Disadvantage on ability checks</text>
-			<text>2 —Speed halved</text>
-			<text>3 —Disadvantage on attack rolls and saving throws</text>
-			<text>4 —Hit point maximum halved</text>
-			<text>5 —Speed reduced to 0</text>
-			<text>6 —Death</text>
+			<text>1 — Disadvantage on ability checks</text>
+			<text>2 — Speed halved</text>
+			<text>3 — Disadvantage on attack rolls and saving throws</text>
+			<text>4 — Hit point maximum halved</text>
+			<text>5 — Speed reduced to 0</text>
+			<text>6 — Death</text>
 			<text/>
 			<text>If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.</text>
 			<text>A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.</text>
 			<text>An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.</text>
 			<text>Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink.</text>
+			<recharge>D6</recharge>
+			<attack>Hit Point Reduction||2d6</attack>
 		</action>
 		<action>
 			<name>Teleport</name>
@@ -6431,17 +7581,33 @@
 			<name>Wand of Orcus</name>
 			<text>The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast animate dead, blight, or speak with dead. Alternatively, he can expend or 1 or more of the wand's charges to cast one of the following spells from it: circle of death (1 charge), finger of death (1 charge), or power word kill (2 charges). The wand regains 1d4+3 charges daily at dawn.</text>
 			<text>While holding the wand, Orcus can use an action to conjure undead creatures whose combined average hit points don't exceed 500. These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn.</text>
+			<attack>Charges||1d4+3</attack>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Orcus's spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: chill touch (17th level), detect magic</text>
 			<text>3/day each: create undead, dispel magic</text>
 			<text>1/day: time stop</text>
+			<attack>Spell Attack|15|</attack>
+		</trait>
+		<trait>
+			<name>Create Undead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Time Stop</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Orcus fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -6551,20 +7717,25 @@
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
 			<attack>Infernal Dagger|10|2d4+6</attack>
+			<attack>Poison Damage||4d10</attack>
 		</action>
 		<action>
 			<name>Infernal Crossbow</name>
 			<text>Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 14 (2d10 + 3) piercing damage, plus one of the following effects:</text>
 			<text/>
 			<text>1. Acid. The target must make a DC 17 Constitution saving throw, taking an additional 17 (5d6) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Acid||5d6</attack>
 			<text/>
 			<text>2. Blindness (1/Day). The target takes 5 (1d10) radiant damage. In addition, the target and all other creatures within 20 feet of it must each make a successful DC 17 Dexterity saving throw or be blinded until the end of the orthon's next turn.</text>
+			<attack>Radiant||1d10</attack>
 			<text/>
 			<text>3. Concussion. The target and each creature within 20 feet of it must make a DC 17 Constitution saving throw, taking 13 (2d12) thunder damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Thunder||2d12</attack>
 			<text/>
 			<text>4. Entanglement. The target must make a successful DC 17 Dexterity saving throw or be restrained for 1 hour by strands of sticky webbing. A restrained creature can escape by using an action to make a successful DC 17 Dexterity or Strength check. Any creature other than an orthon that touches the restrained creature must make a successful DC 17 Dexterity saving throw or become similarly restrained.</text>
 			<text/>
 			<text>5. Paralysis (1/Day). The target takes 22 (4d10) lightning damage and must make a successful DC 17 Constitution saving throw or be paralyzed for 1 minute. The paralyzed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Lightning||4d10</attack>
 			<text/>
 			<text>6. Tracking. For the next 24 hours, the orthon knows the direction and distance to the target, as long as it's on the same plane of existence. If the target is on a different plane, the orthon knows which one, but not the exact location there.</text>
 			<text/>
@@ -6593,7 +7764,7 @@
 		<reaction>
 			<name>Explosive Retribution</name>
 			<text>When it is reduced to 15 hit points or fewer, the orthon causes itself to explode. All other creatures within 30 feet of it must each make a DC 17 Dexterity saving throw, taking 9 (2d8) fire damage plus 9 (2d8) thunder damage on a failed save, or half as much damage on a successful one. This explosion destroys the orthon, its infernal dagger, and its brass crossbow.</text>
-			<attack/>
+			<attack>Explosive Retribution||2d8+2d8</attack>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -6627,10 +7798,14 @@
 			<name>Fiery Death and Rebirth</name>
 			<text>When the phoenix dies, it explodes. Each creature within 60-feet of it must make a DC 20 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't worn or carried.</text>
 			<text>The explosion destroys the phoenix's body and leaves behind an egg-shaped cinder that weighs 5 pounds. The cinder is blazing hot, dealing 21 (6d6) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after 1d6 days, it hatches a new phoenix.</text>
+			<attack>Death Damage||4d10</attack>
+			<attack>Cinder Damage||6d6</attack>
+			<attack>Days||1d6</attack>
 		</trait>
 		<trait>
 			<name>Fire Form</name>
 			<text>The phoenix can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage. With a touch, the phoenix can also ignite flammable objects that aren't worn or carried (no action required).</text>
+			<attack>Fire Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Flyby</name>
@@ -6643,6 +7818,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the phoenix fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Siege Monster</name>
@@ -6656,6 +7832,7 @@
 			<name>Beak</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 15 (2d6 + 8) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
 			<attack>Beak|13|2d6+8</attack>
+			<attack>Fire Damage||1d10</attack>
 		</action>
 		<action>
 			<name>Fiery Talons</name>
@@ -6734,7 +7911,7 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 22 (5d10 + 6) piercing damage plus 38 (7d10) fire damage.</text>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 33 (5d10 + 6) piercing damage plus 38 (7d10) fire damage.</text>
 			<attack>Bite|12|5d10+6+7d10</attack>
 		</action>
 		<action>
@@ -6796,6 +7973,14 @@
 			<text>The retriever's innate spellcasting ability is Wisdom (spell save DC 13). The retriever can innately cast the following spells, requiring no material components.</text>
 			<text>3/day each: plane shift (only self and up to one incapacitated creature, which is considered willing for the spell), web</text>
 		</trait>
+		<trait>
+			<name>Plane Shift (only self and up to one incapacitated creature, which is considered willing for the spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Web</name>
+			<recharge>3/day</recharge>
+		</trait>
 		<action>
 			<name>Multiattack</name>
 			<text>The retriever makes two foreleg attacks and uses its force or paralyzing beam once, if available.</text>
@@ -6808,6 +7993,7 @@
 		<action>
 			<name>Force Beam</name>
 			<text>The retriever targets one creature it can see within 60 feet of it. The target must make a DC 16 Dexterity saving throw, taking 27 (5d10) force damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Damage||5d10</attack>
 		</action>
 		<action>
 			<name>Paralyzing Beam (Recharge 5-6)</name>
@@ -6822,6 +8008,7 @@
 			<text>• Attack rolls against the creature have advantage.</text>
 			<text/>
 			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<recharge>D5</recharge>
 		</action>
 		<spells>Plane Shift, Web</spells>
 		<slots/>
@@ -6854,6 +8041,7 @@
 		<trait>
 			<name>Rancid Degeneration</name>
 			<text>At the end of each of the troll's turns, each creature within 5 feet of it takes 11 (2d10) necrotic damage, unless the troll has taken acid or fire damage since the end of its last turn.</text>
+			<attack>Necrotic Damage||2d10</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -7046,6 +8234,7 @@
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
 			<attack>Spiked Chain|6|2d6+3</attack>
+			<attack>Necrotic Damage||4d10</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -7078,16 +8267,23 @@
 		<trait>
 			<name>Contamination</name>
 			<text>The sibriex emits an aura of corruption 30 feet in every direction. Plants that aren't creatures wither in the aura, and the ground in it is difficult terrain for other creatures. Any creature that starts its turn in the aura must succeed on a DC 20 Constitution saving throw or take 14 (4d6) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours.</text>
+			<attack>Poison Damage||4d6</attack>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The sibriex's innate spellcasting ability is Charisma (spell save DC 21). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: charm person, command, dispel magic, hold monster</text>
-			<text>3/day each: feeblemind</text>
+			<text>3/day: feeblemind</text>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the sibriex fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -7110,6 +8306,7 @@
 		<action>
 			<name>Squirt Bile</name>
 			<text>The sibriex targets one creature it can see within 120 feet of it. The target must succeed on a DC 20 Dexterity saving throw or take 35 (10d6) acid damage.</text>
+			<attack>Acid Damage||10d6</attack>
 		</action>
 		<action>
 			<name>Warp Creature</name>
@@ -7119,12 +8316,12 @@
 			<text>Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.</text>
 			<text/>
 			<text>Level — Effect:</text>
-			<text>1 —Disadvantage on ability checks</text>
-			<text>2 —Speed halved</text>
-			<text>3 —Disadvantage on attack rolls and saving throws</text>
-			<text>4 —Hit point maximum halved</text>
-			<text>5 —Speed reduced to 0</text>
-			<text>6 —Death</text>
+			<text>1 — Disadvantage on ability checks</text>
+			<text>2 — Speed halved</text>
+			<text>3 — Disadvantage on attack rolls and saving throws</text>
+			<text>4 — Hit point maximum halved</text>
+			<text>5 — Speed reduced to 0</text>
+			<text>6 — Death</text>
 			<text/>
 			<text>If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.</text>
 			<text>A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.</text>
@@ -7141,48 +8338,49 @@
 			<text/>
 			<text>d100 — Effect:</text>
 			<text/>
-			<text>01–05 — The color of the target's hair, eyes, and skin becomes blue, red, yellow, or patterned.</text>
+			<text>01-05 — The color of the target's hair, eyes, and skin becomes blue, red, yellow, or patterned.</text>
 			<text/>
-			<text>06–10 — The target's eyes push out of its head at the end of stalks.</text>
+			<text>06-10 — The target's eyes push out of its head at the end of stalks.</text>
 			<text/>
-			<text>11–15 — The target's hands grow claws, which can be used as daggers.</text>
+			<text>11-15 — The target's hands grow claws, which can be used as daggers.</text>
 			<text/>
-			<text>16–20 — One of the target's legs grows longer than the other, reducing its walking speed by 10 feet.</text>
+			<text>16-20 — One of the target's legs grows longer than the other, reducing its walking speed by 10 feet.</text>
 			<text/>
-			<text>21–25 — The target's eyes become beacons, filling a 15-foot cone with dim light when they are open.</text>
+			<text>21-25 — The target's eyes become beacons, filling a 15-foot cone with dim light when they are open.</text>
 			<text/>
-			<text>26–30 — A pair of wings, either feathered or leathery, sprout from the target's back, granting it a flying speed of 30 feet.</text>
+			<text>26-30 — A pair of wings, either feathered or leathery, sprout from the target's back, granting it a flying speed of 30 feet.</text>
 			<text/>
-			<text>31–35 — The target's ears tear free from its head and scurry away; the target is deafened.</text>
+			<text>31-35 — The target's ears tear free from its head and scurry away; the target is deafened.</text>
 			<text/>
-			<text>36–40 — Two of the target's teeth turn into tusks.</text>
+			<text>36-40 — Two of the target's teeth turn into tusks.</text>
 			<text/>
-			<text>41–45 — The target's skin becomes scabby, granting it a +1 bonus to AC but reducing its Charisma by 2 (to a minimum of 1).</text>
+			<text>41-45 — The target's skin becomes scabby, granting it a +1 bonus to AC but reducing its Charisma by 2 (to a minimum of 1).</text>
 			<text/>
-			<text>46–50 — The target's arms and legs switch places, preventing the target from moving unless it crawls.</text>
+			<text>46-50 — The target's arms and legs switch places, preventing the target from moving unless it crawls.</text>
 			<text/>
-			<text>51–55 — The target's arms become tentacles with fingers on the ends, increasing its reach by 5 feet.</text>
+			<text>51-55 — The target's arms become tentacles with fingers on the ends, increasing its reach by 5 feet.</text>
 			<text/>
-			<text>56–60 — The target's legs grow incredibly long and springy, increasing its walking speed by 10 feet.</text>
+			<text>56-60 — The target's legs grow incredibly long and springy, increasing its walking speed by 10 feet.</text>
 			<text/>
-			<text>61–65 — The target grows a whiplike tail, which it can use as a whip.</text>
+			<text>61-65 — The target grows a whiplike tail, which it can use as a whip.</text>
 			<text/>
-			<text>66–70 — The target's eyes turn black, and it gains darkvision out to a range of 120 feet.</text>
+			<text>66-70 — The target's eyes turn black, and it gains darkvision out to a range of 120 feet.</text>
 			<text/>
-			<text>71–75 — The target swells, tripling its weight.</text>
+			<text>71-75 — The target swells, tripling its weight.</text>
 			<text/>
-			<text>76–80 — The target becomes thin and skeletal, halving its weight.</text>
+			<text>76-80 — The target becomes thin and skeletal, halving its weight.</text>
 			<text/>
-			<text>81–85 — The target's head doubles in size.</text>
+			<text>81-85 — The target's head doubles in size.</text>
 			<text/>
-			<text>86–90 — The target's ears become wings, giving it a flying speed of 5 feet.</text>
+			<text>86-90 — The target's ears become wings, giving it a flying speed of 5 feet.</text>
 			<text/>
-			<text>91–95 — The target's body becomes unusually brittle, causing the target to have vulnerability to bludgeoning, piercing, and slashing damage.</text>
+			<text>91-95 — The target's body becomes unusually brittle, causing the target to have vulnerability to bludgeoning, piercing, and slashing damage.</text>
 			<text/>
-			<text>96–00 — The target grows another head, causing it to have advantage on saving throws against being charmed, frightened, or stunned.</text>
+			<text>96-00 — The target grows another head, causing it to have advantage on saving throws against being charmed, frightened, or stunned.</text>
 			<text/>
 			<text>Deafened:</text>
 			<text>• A deafened creature can't hear and automatically fails any ability check that requires hearing.</text>
+			<attack>Effect||1d100</attack>
 		</action>
 		<spells>Charm Person, Command, Dispel Magic, Hold Monster, Feeblemind</spells>
 		<slots/>
@@ -7235,6 +8433,7 @@
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage. If the skulk has advantage on the attack roll, the target also takes 7 (2d6) necrotic damage.</text>
 			<attack>Claws|6|1d4+4</attack>
+			<attack>Advantage|6|1d4+4+2d6</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -7271,10 +8470,12 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the skull lord fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Master of the Grave</name>
 			<text>While within 30 feet of the skull lord, any undead ally of the skull lord makes saving throws with advantage, and that ally regains 1d6 hit points whenever it starts its turn there.</text>
+			<attack>Hit Points||1d6</attack>
 		</trait>
 		<trait>
 			<name>Evasion</name>
@@ -7291,6 +8492,7 @@
 			<text>5th level (2 slots): cloudkill, cone of cold</text>
 			<text>6th level (1 slot): eyebite</text>
 			<text>7th level (1 slot): finger of death</text>
+			<attack>Spell Attack|10|</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -7356,8 +8558,34 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The soul monger's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: chill touch (3d8 damage), poison spray (3d12 damage)</text>
 			<text>1/day each: bestow curse, chain lightning, finger of death, gaseous form, phantasmal killer, seeming</text>
+			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Bestow Curse</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Chain Lightning</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Killer</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Seeming</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -7388,17 +8616,19 @@
 			<text>Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.</text>
 			<text/>
 			<text>Level — Effect:</text>
-			<text>1 —Disadvantage on ability checks</text>
-			<text>2 —Speed halved</text>
-			<text>3 —Disadvantage on attack rolls and saving throws</text>
-			<text>4 —Hit point maximum halved</text>
-			<text>5 —Speed reduced to 0</text>
-			<text>6 —Death</text>
+			<text>1 — Disadvantage on ability checks</text>
+			<text>2 — Speed halved</text>
+			<text>3 — Disadvantage on attack rolls and saving throws</text>
+			<text>4 — Hit point maximum halved</text>
+			<text>5 — Speed reduced to 0</text>
+			<text>6 — Death</text>
 			<text/>
 			<text>If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.</text>
 			<text>A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.</text>
 			<text>An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.</text>
 			<text>Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink.</text>
+			<recharge>D4</recharge>
+			<attack>Psychic Damage||10d8</attack>
 		</action>
 		<spells>Chill Touch, Poison Spray, Bestow Curse, Chain Lightning, Finger of Death, Gaseous Form, Phantasmal Killer, Seeming</spells>
 		<slots/>
@@ -7431,6 +8661,7 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The troll can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Regeneration</name>
@@ -7488,13 +8719,35 @@
 		<trait>
 			<name>Fey Step (Recharge 4-6)</name>
 			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
+			<recharge>D4</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The eladrin's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
-			<text>At will: charm person, Tasha's tasha's hideous laughter</text>
+			<text></text>
+			<text>At will: charm person, Tasha's hideous laughter</text>
 			<text>3/day each: confusion, enthrall, suggestion</text>
 			<text>1/day each: hallucinatory terrain, Otto's irresistible dance</text>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Enthrall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Otto's Irresistible Dance</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Joyful Presence</name>
@@ -7518,6 +8771,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands, plus 4 (1d8) psychic damage.</text>
 			<attack>Longsword|6|1d8+2</attack>
+			<attack>Longsword (2H)|6|1d10+2</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -7603,6 +8857,7 @@
 			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
 			<text/>
 			<text>• Attack rolls against the creature have advantage.</text>
+			<attack>Psychic Damage||2d8</attack>
 		</action>
 		<action>
 			<name>Slam</name>
@@ -7619,6 +8874,7 @@
 			<text>• The creature has disadvantage on attack rolls.</text>
 			<text/>
 			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+			<recharge>D5</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -7651,9 +8907,19 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The larva mage's innate spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: eldritch blast (3 beams, +3 bonus to each damage roll), minor illusion</text>
-			<text>3/day each: dominate monster</text>
-			<text>1/day each: circle of death</text>
+			<text>3/day: dominate monster</text>
+			<text>1/day: circle of death</text>
+			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Dominate Monster</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Circle of Death</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Return to Worms</name>
@@ -7682,11 +8948,12 @@
 			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<recharge>D6</recharge>
+			<attack>Necrotic Damage||5d8</attack>
 		</action>
 		<reaction>
 			<name>Feed on Weakness</name>
 			<text>When a creature within 20 feet of the larva mage fails a saving throw, the larva mage gains 10 temporary hit points.</text>
-			<attack/>
 		</reaction>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -7703,6 +8970,7 @@
 		<legendary>
 			<name>Feed (Costs 3 Actions)</name>
 			<text>Each creature restrained by the larva mage's Plague of Worms takes 13 (3d8) necrotic damage, and the larva mage gains 6 temporary hit points.</text>
+			<attack>Necrotic Damage||3d8</attack>
 		</legendary>
 		<spells>Eldritch Blast, Minor Illusion, Dominate Monster, Circle of Death</spells>
 		<slots/>
@@ -7748,10 +9016,12 @@
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage. If the attack roll has advantage, the target also takes 7 (2d6) psychic damage.</text>
 			<attack>Claw|7|1d8+4</attack>
+			<attack>Claw (Advantage)|7|1d8+4+2d6</attack>
 		</action>
 		<action>
-			<name>Flurry of Claws (Recharge 4_6)</name>
+			<name>Flurry of Claws (Recharge 4-6)</name>
 			<text>The mangler makes six claw attacks against one target. Either before or after these attacks, it can move up to its speed as a bonus action without provoking opportunity attacks.</text>
+			<recharge>D4</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -7784,6 +9054,7 @@
 		<trait>
 			<name>Out-of-Phase Movement</name>
 			<text>The seer can move through other creatures and objects as if they were difficult terrain. Each creature it moves through takes 5 (1d10) psychic damage; no creature can take this damage more than once per turn. The seer takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -7795,7 +9066,8 @@
 			<text/>
 			<text>Incapacitated:</text>
 			<text>• An incapacitated creature can't take actions or reactions.</text>
-			<attack>Comet Staff|11|1d6+6</attack>
+			<attack>Comet Staff|11|1d6+6+4d8</attack>
+			<attack>Comet Staff (2H)|11|1d8+6+4d8</attack>
 		</action>
 		<action>
 			<name>Psychic Orb</name>
@@ -7805,11 +9077,12 @@
 		<action>
 			<name>Collapse Distance (Recharge 6)</name>
 			<text>The seer warps space around a creature it can see within 30 feet of it. That creature must make a DC 19 Wisdom saving throw. On a failed save, the target, along with any equipment it is wearing or carrying, is magically teleported up to 60 feet to an unoccupied space the seer can see, and all other creatures within 10 feet of the target's original space each takes 39 (6d12) psychic damage. On a successful save, the target takes 19 (3d12) psychic damage.</text>
+			<recharge>D6</recharge>
+			<attack>Collapse Distance||6d12</attack>
 		</action>
 		<reaction>
 			<name>Bend Space</name>
 			<text>When the seer would be hit by an attack, it teleports, exchanging positions with another star spawn it can see within 60 feet of it. The other star spawn is hit by the attack instead.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -7851,7 +9124,7 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8+3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Bite|5|1d8+3</attack>
-			<attack>Acid| |2d8</attack>
+			<attack>Acid||2d8</attack>
 		</action>
 		<action>
 			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled)</name>
@@ -7903,9 +9176,9 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d8+2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8+2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Bite|4|1d8+2</attack>
-			<attack>Acid| |1d8</attack>
+			<attack>Acid||1d8</attack>
 		</action>
 		<action>
 			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled)</name>
@@ -7954,7 +9227,16 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The steel predator's innate spellcasting ability is Wisdom. The steel predator can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>3/day each: dimension door (self only), plane shift (self only)</text>
+		</trait>
+		<trait>
+			<name>Dimension Door (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plane Shift (self only)</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -7988,6 +9270,8 @@
 			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
 			<text/>
 			<text>• Attack rolls against the creature have advantage.</text>
+			<recharge>D5</recharge>
+			<attack>Reaction||5d10</attack>
 		</action>
 		<spells>Dimension Door, Plane Shift</spells>
 		<slots>0</slots>
@@ -7999,7 +9283,7 @@
 		<description>Source: Mordenkainen's Tome of Foes</description>
 		<alignment>lawful evil</alignment>
 		<ac>17 (natural armor)</ac>
-		<hp>19 (3d8+4)</hp>
+		<hp>17 (3d8+4)</hp>
 		<speed>10 ft.</speed>
 		<str>16</str>
 		<dex>5</dex>
@@ -8053,6 +9337,7 @@
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
 			<attack>Petrifying Claws|5|1d10+3</attack>
+			<attack>Petrifying Claws (Advantage)|5|2d10+3</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -8144,6 +9429,91 @@
 			<text>9 — Rusty Gears. The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
 			<text/>
 			<text>10 — Weak Armor. The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
+			<attack>Change||1d10</attack>
+		</trait>
+		<trait>
+			<name>Enhancement: Camouflaged</name>
+			<text>The clockwork gains proficiency in Stealth if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sensors</name>
+			<text>The range of the clockwork's darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn't already have it.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Improved Armor</name>
+			<text>The clockwork's AC increases by 2.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Increased Speed</name>
+			<text>The clockwork's speed increases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Reinforced Construction</name>
+			<text>The clockwork has resistance to force, lightning, and thunder damage.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Self-Repairing</name>
+			<text>If the clockwork starts its turn with at least 1 hit point, it regains 5 hit points. If it takes lightning damage, this ability doesn't function at the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Sturdy Frame</name>
+			<text>The clockwork's hit point maximum increases by an amount equal to its number of Hit Dice.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Suction</name>
+			<text>The clockwork gains a climbing speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Vocal Resonator</name>
+			<text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator's choice).</text>
+		</trait>
+		<trait>
+			<name>Enhancement: Water Propulsion</name>
+			<text>The clockwork gains a swimming speed of 30 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Faulty Sensors</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is blinded until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Flawed Targeting</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Ground Fault</name>
+			<text>The clockwork has vulnerability to lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Imprinting Loop</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Leaking Lubricant</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork gains 1 level of exhaustion that it isn't immune to.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Limited Steering</name>
+			<text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Overactive Sense of Self-Preservation</name>
+			<text>If the clockwork has half its hit points or fewer at the start of its turn in combat, roll a d6. If you roll a 1, it retreats from combat. If retreat isn't possible, it continues fighting.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Overheats</name>
+			<text>Roll a d6 at the start of the clockwork's turn. If you roll a 1, the clockwork is incapacitated until the end of its turn.</text>
+			<attack>||1d6</attack>
+		</trait>
+		<trait>
+			<name>Malfunction: Rusty Gears</name>
+			<text>The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Malfunction: Weak Armor</name>
+			<text>The clockwork isn't immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't adamantine.</text>
 		</trait>
 		<action>
 			<name>Slam</name>
@@ -8201,6 +9571,7 @@
 		<trait>
 			<name>Fey Step (Recharge 4-6)</name>
 			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
+			<recharge>D4</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -8213,7 +9584,8 @@
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands, plus 4 (1d8) fire damage.</text>
-			<attack>Longsword|8|2d8+4</attack>
+			<attack>Longsword|8|2d8+4+1d8</attack>
+			<attack>Longsword (2H)|8|2d10+4+1d8</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -8223,7 +9595,6 @@
 		<reaction>
 			<name>Parry</name>
 			<text>The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -8260,6 +9631,7 @@
 		<trait>
 			<name>Martial Fury</name>
 			<text>As a bonus action, the sword wraith can make one weapon attack, which deals an extra 9 (2d8) necrotic damage on a hit. If it does so, attack rolls against it have advantage until the start of its next turn.</text>
+			<attack>Necrotic Damage||2d8</attack>
 		</trait>
 		<trait>
 			<name>Turning Defiance</name>
@@ -8273,6 +9645,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
 			<attack>Longsword|7|1d8+4</attack>
+			<attack>Longsword (2H)|7|1d10+4</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -8282,6 +9655,8 @@
 		<action>
 			<name>Call to Honor (1/Day)</name>
 			<text>To use this action, the sword wraith must have taken damage during the current combat. If the sword wraith can use this action, it gives itself advantage on attack rolls until the end of its next turn, and 1d4 + 1 sword wraith warriors appear in unoccupied spaces within 30 feet of it. The warriors last until they drop to 0 hit points, and they take their turns immediately after the commander's turn on the same initiative count.</text>
+			<recharge>1/Day</recharge>
+			<attack>Sword Wraiths||1d4+1</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -8323,6 +9698,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
 			<attack>Longsword|6|1d8+4</attack>
+			<attack>Longsword (2H)|6|1d10+4</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -8365,6 +9741,7 @@
 			<name>Rising Anger</name>
 			<text>If another creature deals damage to the Angry, the Angry's attack rolls have advantage until the end of its next turn, and the first time it hits with a hook attack on its next turn, the attack's target takes an extra 19 (3d12) psychic damage.</text>
 			<text>On its turn, the Angry has disadvantage on attack rolls if no other creature has dealt damage to it since the end of its last turn.</text>
+			<attack>Psychic Damage||3d12</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -8415,6 +9792,7 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 13 (3d8) necrotic damage.</text>
 			<attack>Bite|8|1d8+4+3d8</attack>
+			<attack>Extra (Life Hunger)||4d10</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -8466,6 +9844,7 @@
 		<trait>
 			<name>Psychic Leech</name>
 			<text>At the start of each of the Lonely's turns, each creature within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage.</text>
+			<attack>Psychic Damage||3d6</attack>
 		</trait>
 		<trait>
 			<name>Thrives on Company</name>
@@ -8490,6 +9869,7 @@
 		<action>
 			<name>Sorrowful Embrace</name>
 			<text>Each creature grappled by the Lonely must make a DC 15 Wisdom saving throw. A creature takes 18 (4d8) psychic damage on a failed save, or half as much damage on a successful one. In either case, the Lonely pulls each creature grappled by it up to 30 feet straight toward it.</text>
+			<attack>Sorrowful Embrace||4d8</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -8543,11 +9923,13 @@
 			<text>• The condition ends if the grappler is incapacitated.</text>
 			<text/>
 			<text>• The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave spell.</text>
+			<attack>Embrace||4d10+3</attack>
+			<attack>Psychic Damage||6d8</attack>
 		</action>
 		<reaction>
 			<name>Tightening Embrace</name>
 			<text>If the Lost takes damage while it has a creature grappled, that creature takes 18 (4d8) psychic damage.</text>
-			<attack/>
+			<attack>Psychic Damage||4d8</attack>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -8559,7 +9941,7 @@
 		<description>Source: Mordenkainen's Tome of Foes</description>
 		<alignment>neutral evil</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>10 (4d6_4)</hp>
+		<hp>10 (4d6-4)</hp>
 		<speed>40 ft.</speed>
 		<str>7</str>
 		<dex>12</dex>
@@ -8618,13 +10000,31 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Titivilus's innate spellcasting ability is Charisma (spell save DC 21). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self, animate dead, bestow curse, confusion, major image, modify memory, nondetection, sending, suggestion</text>
 			<text>3/day each: greater invisibility (self only), mislead</text>
 			<text>1/day each: feeblemind, symbol (discord or sleep only)</text>
 		</trait>
 		<trait>
+			<name>Greater Invisibility (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mislead</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Feeblemind</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Symbol (discord or sleep only)</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Titivilus fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -8649,7 +10049,8 @@
 		<action>
 			<name>Silver Sword</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 16 (3d10) necrotic damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage it takes.</text>
-			<attack>Silver Sword|9|1d8+4</attack>
+			<attack>Silver Sword|9|1d8+4+3d10</attack>
+			<attack>Silver Sword (2H)|9|1d10+4+3d10</attack>
 		</action>
 		<action>
 			<name>Frightful Word</name>
@@ -8730,6 +10131,7 @@
 			<name>Quarterstaff</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used with two hands.</text>
 			<attack>Quarterstaff|4|1d6+2</attack>
+			<attack>Quarterstaff (2H)|4|1d8+2</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -8782,9 +10184,11 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The tortle is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): druidcraft, guidance, produce flame</text>
 			<text>1st level (4 slots): animal friendship, cure wounds, speak with animals, thunderwave</text>
 			<text>2nd level (3 slots): darkvision, hold person</text>
+			<attack>Spell Attack|4|</attack>
 		</trait>
 		<action>
 			<name>Claws</name>
@@ -8795,6 +10199,7 @@
 			<name>Quarterstaff</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used with two hands.</text>
 			<attack>Quarterstaff|4|1d6+2</attack>
+			<attack>Quarterstaff (2H)|4|1d8+2</attack>
 		</action>
 		<action>
 			<name>Shell Defense</name>
@@ -8845,11 +10250,11 @@
 		</trait>
 		<trait>
 			<name>Forbiddance</name>
-			<text>The vampiric mist can 't enter a residence without an invitation from one of the occupants.</text>
+			<text>The vampiric mist can't enter a residence without an invitation from one of the occupants.</text>
 		</trait>
 		<trait>
 			<name>Misty Form</name>
-			<text>The vampiric mist can occupy another creature's space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than l extra foot. The mist can 't manipulate objects in any way that requires hands; it can apply simple force only.</text>
+			<text>The vampiric mist can occupy another creature's space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than l extra foot. The mist can't manipulate objects in any way that requires hands; it can apply simple force only.</text>
 		</trait>
 		<trait>
 			<name>Sunlight Hypersensitivity</name>
@@ -8859,6 +10264,7 @@
 			<name>Blood Drain</name>
 			<text>One creature in the vampiric mist's space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6 + 3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount.</text>
 			<text>This reduction to the target's hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0.</text>
+			<attack>Blood Drain||2d6+3</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -8895,6 +10301,7 @@
 		<trait>
 			<name>Poison Splash</name>
 			<text>When the troll takes damage of any type but psychic, each creature within 5 feet of the troll takes 9 (2d8) poison damage.</text>
+			<attack>Poison Splash||2d8</attack>
 		</trait>
 		<trait>
 			<name>Regeneration</name>
@@ -8923,6 +10330,9 @@
 			<text/>
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
+			<recharge>D6</recharge>
+			<attack>Slashing Damage||2d6</attack>
+			<attack>Poison Damage||4d8</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -8964,6 +10374,9 @@
 			<text/>
 			<text>Poisoned:</text>
 			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
+			<attack>Poison Damage||4d6</attack>
+			<attack>Poison Damage(End)||4d8</attack>
+			<attack>Temporary Hit Points||2d10</attack>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -8990,6 +10403,7 @@
 		<action>
 			<name>Grasping Spout</name>
 			<text>The wastrilith magically launches a spout of water at one creature it can see within 60 feet of it. The target must make a DC 17 Strength saving throw, and it has disadvantage if it's underwater. On a failed save, it takes 22 (4d8 + 4) acid damage and is pulled up to 60 feet toward the wastrilith. On a successful save, it takes half as much damage and isn't pulled.</text>
+			<attack>Acid Damage||4d8+4</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -9036,6 +10450,7 @@
 			<name>Freezing Strikes (Recharge 6)</name>
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
 			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
@@ -9089,6 +10504,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
 			<attack>Longsword|6|1d8+3</attack>
+			<attack>Longsword (2H)|6|1d10+3</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -9103,7 +10519,6 @@
 		<reaction>
 			<name>Vicious Reprisal</name>
 			<text>In response to taking damage, the abishai makes a bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking opportunity attacks.</text>
-			<attack/>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -9136,12 +10551,22 @@
 		<trait>
 			<name>Fey Step (Recharge 4-6)</name>
 			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
+			<recharge>D4</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The eladrin's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: fog cloud, gust of wind</text>
 			<text>1/day each: cone of cold, ice storm</text>
+		</trait>
+		<trait>
+			<name>Cone of Cold</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -9161,6 +10586,7 @@
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) slashing damage, or 5 (1d10) slashing damage if used with two hands.</text>
 			<attack>Longsword|4|1d8</attack>
+			<attack>Longsword (2H)|4|1d10</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -9170,7 +10596,7 @@
 		<reaction>
 			<name>Frigid Rebuke</name>
 			<text>When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to succeed on a DC 16 Constitution saving throw or take 11 (2d10) cold damage.</text>
-			<attack/>
+			<attack>Cold Damage||2d10</attack>
 		</reaction>
 		<spells>Fog Cloud, Gust of Wind, Cone of Cold, Ice Storm</spells>
 		<slots>0</slots>
@@ -9203,8 +10629,13 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The yagnoloth's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: darkness, detect magic, dispel magic, invisibility (self only), suggestion</text>
-			<text>3/day each: lightning bolt</text>
+			<text>3/day: lightning bolt</text>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -9237,11 +10668,13 @@
 		</action>
 		<action>
 			<name>Life Leech</name>
-			<text>The yagnoloth touches one incapacitated creature within 15 feet of it. The target takes 36 (7d8 + 4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a DC 16 Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0.</text>
+			<text>The yagnoloth touches one incapacitated creature within 15 feet of it. The target takes 35 (7d8 + 4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a DC 16 Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0.</text>
+			<attack>Life Leech||7d8+4</attack>
 		</action>
 		<action>
 			<name>Battlefield Cunning (Recharge 4-6)</name>
 			<text>Up to two allied yugoloths within 60 feet of the yagnoloth that can hear it can use their reactions to make one melee attack each.</text>
+			<recharge>D4</recharge>
 		</action>
 		<action>
 			<name>Teleport</name>
@@ -9278,13 +10711,32 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Yeenoghu's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: detect magic, spiritual weapon (8th-level spell, 4d8+2 force damage on a hit, appears as a flail)</text>
 			<text>3/day each: dispel magic, fear, invisibility</text>
 			<text>1/day: teleport</text>
+			<attack>Spell Attack|9|</attack>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Yeenoghu fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -9318,7 +10770,7 @@
 		<action>
 			<name>Flail</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 22 (2d12+9) bludgeoning damage.</text>
-			<attack>Flail|16|4d10+9</attack>
+			<attack>Flail|16|2d12+9</attack>
 		</action>
 		<action>
 			<name>Bite</name>
@@ -9330,6 +10782,7 @@
 			<text>On initiative count 20 (losing initiative ties), Yeenoghu can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:</text>
 			<text/>
 			<text>• Yeenoghu causes an iron spike — 5 feet tall and 1 inch in diameter — to burst from the ground at a point he can see within 100 feet of him. Any creature in the space where the spike emerges must make a DC 24 Dexterity saving throw. On a failed save, the creature takes 27 (6d8) piercing damage and is restrained by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the restrained condition.</text>
+			<attack>Piercing Damage||6d8</attack>
 			<text/>
 			<text>• Each gnoll or hyena that Yeenoghu can see can use its reaction to move up to its speed.</text>
 			<text/>
@@ -9439,10 +10892,12 @@
 			<text>• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</text>
 			<text/>
 			<text>• The creature has disadvantage on Dexterity saving throws.</text>
+			<attack>Bludgeoning Damage||5d6</attack>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the zaratan fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Weapons</name>
@@ -9468,7 +10923,7 @@
 		</action>
 		<action>
 			<name>Spit Rock</name>
-			<text>Ranged Weapon Attack: +17 to hit, range 120 ft./240 ft., one target. Hit: 31 (6d8 + 10) bludgeoning damage.</text>
+			<text>Ranged Weapon Attack: +17 to hit, range 120 ft./240 ft., one target. Hit: 37 (6d8 + 10) bludgeoning damage.</text>
 			<attack>Spit Rock|17|6d8+10</attack>
 		</action>
 		<action>
@@ -9481,6 +10936,8 @@
 			<text>• The creature has disadvantage on attack rolls.</text>
 			<text/>
 			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+			<recharge>D5</recharge>
+			<attack>Bludgeoning Damage||6d10</attack>
 		</action>
 		<legendary>
 			<name>Legendary Actions (3/Turn)</name>
@@ -9505,6 +10962,7 @@
 		<legendary>
 			<name>Revitalize (Costs 2 Actions)</name>
 			<text>The zaratan can use this option only if it is retracted in its shell. It regains 52 (5d20) hit points. The next time it takes a legendary action, it must take its Emerge action.</text>
+			<attack>Hit Points||5d20</attack>
 		</legendary>
 		<legendary>
 			<name>Emerge (Costs 2 Actions)</name>
@@ -9549,12 +11007,26 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Zariel's innate spellcasting ability is Charisma (spell save DC 26). She can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self (can become Medium when changing her appearance), detect evil and good, fireball, invisibility (self only), wall of fire</text>
 			<text>3/day each: blade barrier, dispel evil and good, finger of death</text>
 		</trait>
 		<trait>
+			<name>Blade Barrier</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Zariel fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -9571,7 +11043,8 @@
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) slashing damage, or 19 (2d10 + 8) slashing damage if used with two hands, plus 36 (8d8) fire damage.</text>
-			<attack>Longsword|16|2d8+8</attack>
+			<attack>Longsword|16|2d8+8+8d8</attack>
+			<attack>Longsword (2H)|16|2d10+8+8d8</attack>
 		</action>
 		<action>
 			<name>Javelin</name>
@@ -9618,6 +11091,7 @@
 		<legendary>
 			<name>Immolating Gaze (Costs 2 Actions)</name>
 			<text>Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to combust. The target must succeed on a DC 26 Wisdom saving throw or take 22 (4d10) fire damage.</text>
+			<attack>Fire Damage||4d10</attack>
 		</legendary>
 		<legendary>
 			<name>Teleport</name>
@@ -9654,13 +11128,39 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: detect magic, locate animals or plants, ray of sickness</text>
 			<text>3/day each: dispel magic, ensnaring strike, entangle, plant growth</text>
-			<text>1/day: etherealness, teleport</text>
+			<text>1/day each: etherealness, teleport</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ensnaring Strike</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Etherealness</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Teleport</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Zuggtmoy fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -9682,6 +11182,7 @@
 		<action>
 			<name>Infestation Spores (3/Day)</name>
 			<text>Zuggtmoy releases spores that burst out in cloud fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 19 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+			<recharge>3/Day</recharge>
 		</action>
 		<action>
 			<name>Mind Control Spores (Recharge 5-6)</name>
@@ -9691,6 +11192,7 @@
 			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
 			<text/>
 			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Lair Actions</name>
@@ -9698,7 +11200,7 @@
 			<text/>
 			<text>• Zuggtmoy causes four gas spores or violet fungi (see the Monster Manual) to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour.</text>
 			<text/>
-			<text>• Up to four plant creatures that are friendly to Zuggt_moy and that Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack.</text>
+			<text>• Up to four plant creatures that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack.</text>
 			<text/>
 			<text>• Zuggtmoy uses either her Infestation Spores or her Mind Control Spores, centered on a mushroom or other fungus within her lair, instead of on herself.</text>
 		</action>

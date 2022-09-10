@@ -63,17 +63,20 @@
 		<cr>7</cr>
 		<trait>
 			<name>Flameform</name>
-			<text>As a bonus action, the firetamer can transform into a  re elemental. While in this form, the firetamer cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the firetamer is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in flameform for up to 5 hours, and can enter  flameform twice, regaining expended uses after completing a short or long rest.</text>
+			<text>As a bonus action, the firetamer can transform into a fire elemental. While in this form, the firetamer cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the firetamer is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in flameform for up to 5 hours, and can enter flameform twice, regaining expended uses after completing a short or long rest.</text>
+			<attack>Hit Points||1d8</attack>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The firetamer is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): druidcraft, mending, produce flame</text>
 			<text>1st level (4 slots): cure wounds, faerie fire, longstrider, jump</text>
 			<text>2nd level (3 slots): flame blade, heat metal, lesser restoration</text>
 			<text>3rd level (3 slots): daylight, dispel magic, protection from energy</text>
 			<text>4th level (3 slots): blight, freedom of movement, wall of fire</text>
 			<text>5th level (1 slot): conjure elemental</text>
+			<attack>Spell Attack|8|</attack>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>4,3,3,3,1</slots>
@@ -86,6 +89,7 @@
 		<action>
 			<name>Flamecharm (Recharges after a Short or Long Rest)</name>
 			<text>The firetamer can cast dominate monster (save DC 16) on a fire elemental or other fire elemental creature. If the elemental has 150 or more hit points, it has advantage on the saving throw.</text>
+			<recharge>Short</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -116,9 +120,11 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The stoneguard is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): druidcraft, resistance</text>
 			<text>1st level (4 slots): goodberry, speak with animals, thunderwave</text>
 			<text>2nd level (2 slots): hold person, spike growth</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>4,2,0,0,0,0,0,0,0</slots>
@@ -169,6 +175,7 @@
 		<trait>
 			<name>Fishform</name>
 			<text>As a bonus action, the waverider can transform into a hunter shark or giant octopus. While in this form, the waverider cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the waverider is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in fishform for up to 3 hours, and can enter fishform twice, regaining expended uses after completing a short or long rest.</text>
+			<attack>Hit Points||1d8</attack>
 		</trait>
 		<trait>
 			<name>Healing Tides</name>
@@ -181,11 +188,13 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The waverider is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): druidcraft, poison spray, resistance</text>
 			<text>1st level (4 slots): cure wounds, create or destroy water, healing word</text>
 			<text>2nd level (3 slots): animal messenger, enhance ability, lesser restoration</text>
 			<text>3rd level (3 slots): conjure animals (aquatic beasts only), water walk, water breathing</text>
 			<text>4th level (1 slots): control water</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>4,3,3,1,0,0,0,0,0</slots>
@@ -236,9 +245,11 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The skydancer is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): guidance, shillelagh</text>
 			<text>1st level (4 slots): fog cloud, entangle, jump</text>
 			<text>2nd level (2 slots): gust of wind, skywrite</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>4,2,0,0,0,0,0,0,0</slots>
@@ -290,7 +301,7 @@
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>The cutthroat deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the cutthroat that isn't incapacitated and the cutthroat doesn't have disadvantage on the attack roll.</text>
-			<roll>4d6</roll>
+			<attack>Extra Damage||4d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -343,6 +354,7 @@
 		<trait>
 			<name>Second Wind (Recharges after a Short or Long Rest)</name>
 			<text>As a bonus action, the enforcer can regain 12 hit points.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -394,9 +406,30 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The cyclops's innate spellcasting ability is Charisma (spell save DC 17). The cyclops can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At-will: ray of frost (3d8), water walk</text>
 			<text>3/day each: ice storm, sleet storm, wind wall</text>
 			<text>1/day each: control weather, storm of vengeance</text>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleet Storm</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Wind Wall</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Storm of Vengeance</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
@@ -407,7 +440,7 @@
 		</action>
 		<action>
 			<name>Ice Claws</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (3d6 +3) slashing damage plus 3 (1d6) cold damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (3d6+3) slashing damage plus 3 (1d6) cold damage.</text>
 			<attack>Ice Claws|7|3d6+3+1d6</attack>
 		</action>
 	</monster>
@@ -443,8 +476,17 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The stormborn's innate spellcasting ability is Charisma (spell save DC 9). The stormborn can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>3/day: lightning bolt</text>
 			<text>1/day: call lightning</text>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Call Lightning</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
@@ -457,11 +499,13 @@
 			<name>Greataxe</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage plus 7 (2d6) lightning damage. Miss: 3 (1d6) lightning damage.</text>
 			<attack>Greataxe|6|1d12+4+2d6</attack>
+			<attack>Miss||1d6</attack>
 		</action>
 		<reaction>
 			<name>Endurance</name>
 			<text>When the stormborn takes damage, it may reduce the damage by 10 (1d12 + 4). It cannot use this trait again until it completes a short or long rest.</text>
 			<attack>Endurance||1d12+4</attack>
+			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -509,6 +553,7 @@
 			<name>Endurance</name>
 			<text>When the stormborn takes damage, it may reduce the damage by 8 (1d12 + 2). It cannot use this trait again until it completes a short or long rest.</text>
 			<attack>Endurance||1d12+2</attack>
+			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -547,8 +592,10 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The goat-knight is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). The goat-knight has the following paladin spells prepared:</text>
+			<text></text>
 			<text>1st level (4 slots): bless, cure wounds, protection from evil and good, sanctuary, shield of faith</text>
 			<text>2nd level (2 slots): branding smite, lesser restoration, locate object, zone of truth</text>
+			<attack>Spell Attack|8|</attack>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>4,2,0,0,0,0,0,0,0</slots>
@@ -592,7 +639,7 @@
 		<trait>
 			<name>Charge</name>
 			<text>If the goat-knight steed moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes a extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
-			<roll>2d4</roll>
+			<attack>Bludgeoning||2d4</attack>
 		</trait>
 		<trait>
 			<name>Sure-Footed</name>
@@ -688,13 +735,35 @@
 		<trait>
 			<name>Blessings of the Ruiner</name>
 			<text>The Slaughter Lord has been showered with a cocktail of divine blessings, and can call upon them at any time. Its innate spellcasting ability is Wisdom (spell save DC 15). The Slaughter Lord can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: thaumaturgy</text>
 			<text>3/day each: flame strike, spirit guardians</text>
 			<text>1/day each: control weather, divine word, fire storm</text>
 		</trait>
 		<trait>
+			<name>Flame Strike</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Spirit Guardians</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Control Weather</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Divine Word</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fire Storm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
 			<name>Legendary Resistance (2/Day)</name>
 			<text>If the Slaughter Lord fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>2/Day</recharge>
 		</trait>
 		<trait>
 			<name>Unarmored Defense</name>
@@ -746,6 +815,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The remnant cultist is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The cultist has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): chill touch, message, minor illusion, prestidigitation, ray of frost</text>
 			<text>1st level (4 slots): detect magic, Tasha's hideous laughter, mage armor, shield</text>
 			<text>2nd level (3 slots): detect thoughts, suggestion</text>
@@ -753,11 +823,12 @@
 			<text>4th level (3 slots): greater invisibility, phantasmal killer</text>
 			<text>5th level (2 slot): dream, mislead</text>
 			<text>6th level (1 slot): circle of death</text>
+			<attack>Spell Attack|8|</attack>
 		</trait>
 		<trait>
 			<name>Unknowable Secrets</name>
 			<text>Any attempt to form a mental link with the remnant cultist, scry the cultist, or cast speak with dead on a cultist instantly fails, and the creature that initiated the attempt takes 6d6 psychic damage.</text>
-			<roll>6d6</roll>
+			<attack>Psychic Damage||6d6</attack>
 		</trait>
 		<trait>
 			<name>One-Eyed</name>
@@ -771,6 +842,7 @@
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage. Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.</text>
 			<text>	Once per turn, the cultist may choose to wound its target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time the cultist wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.</text>
 			<attack>Dagger of Wounding|7|1d4+3</attack>
+			<attack>Necrotic Damage||1d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -809,6 +881,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The Chosen is an 18th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). The Chosen has the following sorcerer spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): chill touch, dancing lights, mage hand, message, shocking grasp</text>
 			<text>1st level (4 slots): charm person, expeditious retreat, mage armor*, shield</text>
 			<text>2nd level (3 slots): blindness/deafness, darkness, detect thoughts</text>
@@ -820,6 +893,7 @@
 			<text>8th level (1 slot): power word stun</text>
 			<text>9th level (1 slot): power word kill</text>
 			<text>*The Chosen typically casts these spells on itself before combat.</text>
+			<attack>Spell Attack|9|</attack>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>4,3,3,3,3,1,1,1,1</slots>

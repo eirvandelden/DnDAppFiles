@@ -45,6 +45,7 @@
 		<action>
 			<name>Battlefield Inspiration</name>
 			<text>The angel chooses up to three creatures it can see within 30 feet of it. Until the end of the angel's next turn, each target can add a d4 to its attack rolls and saving throws.</text>
+            <attack>Bonus||1d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -79,8 +80,26 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The angel's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The angel can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>3/day each: compelled duel, guiding bolt (as a 5th-level spell)</text>
 			<text>1/day each: daylight, fireball (as a 6th-level spell)</text>
+			<attack>Spell Attack|10|</attack>
+		</trait>
+		<trait>
+			<name>Compelled Duel</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Guiding Bolt (as a 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Daylight</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball (as a 6th-level spell)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -89,6 +108,7 @@
 		<trait>
 			<name>Relentless (Recharges after a Short or Long Rest)</name>
 			<text>If the angel takes 21 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
+			<recharge>SHORT</recharge>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -96,7 +116,7 @@
 		</action>
 		<action>
 			<name>Longsword</name>
-			<text>Melee Weapon Attack: +10 to hit, reach S ft., one target. Hit: 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used with two hands, plus 22 (Sd8) fire or radiant damage (angel's choice).</text>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used with two hands, plus 22 (5d8) fire or radiant damage (angel's choice).</text>
 			<attack>Longsword (1H)|10|1d8+6+5d8</attack>
 			<attack>Longsword (2H)|10|1d10+6+5d8</attack>
 		</action>
@@ -130,6 +150,7 @@
 		<trait>
 			<name>Exploitation of the Debtors</name>
 			<text>As a bonus action, the angel targets a creature charmed by it that it can see within 30 feet of it. The angel deals 11 (2d10) necrotic damage to the target, and the angel gains temporary hit points equal to the damage dealt.</text>
+			<attack>Necrotic Damage||2d10</attack>
 		</trait>
 		<trait>
 			<name>Flyby</name>
@@ -138,9 +159,27 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The angel's innate spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). The angel can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: command (as a 2nd-level spell), detect evil and good</text>
 			<text>3/day each: charm person (as a 5th-level spell), darkness, suggestion</text>
 			<text>1/day: raise dead</text>
+			<attack>Spell Attack|11|</attack>
+		</trait>
+		<trait>
+			<name>Charm Person (as a 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Darkness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Raise Dead</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -193,12 +232,14 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The archon's innate spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The archon can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: calm emotions, command, compelled duel</text>
+			<attack>Spell Attack|10|</attack>
 		</trait>
 		<trait>
 			<name>Mount</name>
 			<text>If the archon isn't mounted, it can use a bonus action to magically teleport onto the creature serving as its mount, provided the archon and its mount are on the same plane of existence. When it teleports, the archon appears astride the mount along with any equipment it is wearing or carrying.</text>
-			<text>	While mounted and not incapacitated, the archon can't be surprised, and both it and its mount gain advantage on Dexter· ity saving throws. If the archon is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well.</text>
+			<text>	While mounted and not incapacitated, the archon can't be surprised, and both it and its mount gain advantage on Dexterity saving throws. If the archon is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -206,12 +247,12 @@
 		</action>
 		<action>
 			<name>Hammer of Justice</name>
-			<text>Melee Weapon Attack: +10 to hit, reach S ft., one target. Hit: 12 (2d6 +5) bludgeoning damage plus 18 (4d8) force damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 18 (4d8) force damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.</text>
 			<attack>Hammer of Justice|10|2d6+5+4d8</attack>
 		</action>
 		<action>
 			<name>Pacifying Presence</name>
-			<text>Each creature of the archon's choice that the archon can see within 120 feet of it must succeed on a DC 18 Wisdom saving throw, or else the target drops any weapons it is holding, ends its concentration on any spells or other effects, and becomes charmed by the archon for 1 minute. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Ifa creature's saving throw is successful or the effect ends for it, the creature is immune to the archon's Pacifying Presence for the next 24 hours.</text>
+			<text>Each creature of the archon's choice that the archon can see within 120 feet of it must succeed on a DC 18 Wisdom saving throw, or else the target drops any weapons it is holding, ends its concentration on any spells or other effects, and becomes charmed by the archon for 1 minute. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the archon's Pacifying Presence for the next 24 hours.</text>
 		</action>
 		<legendary>
 			<name>Rejoin Mount</name>
@@ -259,7 +300,7 @@
 		<trait>
 			<name>Grounded Lightning</name>
 			<text>The first time on a turn that the arclight phoenix touches the ground, it takes 11 (2d10) force damage.</text>
-			<roll>2d10</roll>
+			<attack>Force Damage||2d10</attack>
 		</trait>
 		<trait>
 			<name>Illumination</name>
@@ -268,18 +309,18 @@
 		<trait>
 			<name>Lightning Form</name>
 			<text>The arclight phoenix can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 9 (2d8) lightning damage. In addition, the arclight phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 9 (2d8) lightning damage.</text>
-			<roll>2d8</roll>
+			<attack>Lightning Damage||2d8</attack>
 		</trait>
 		<trait>
 			<name>Crackling Death</name>
 			<text>When the arclight phoenix dies, it explodes. Each creature within 30 feet of it must make a DC 18 Dexterity saving throw, taking 36 (8d8) lightning damage on a failed save, or half as much damage on a successful one. The explosion destroys the phoenix but leaves behind a Tiny, warm egg with a mizzium shell.</text>
 			<text>	The egg contains the embryo of a new arclight phoenix. It hatches when it is in the area of a spell that deals lightning damage, or if a creature touches the egg and expends spell slots whose combined levels equal 13 or more. When it hatches, the egg releases a new arclight phoenix that appears in the egg's space.</text>
+			<attack>Lightning Damage||8d8</attack>
 		</trait>
 		<action>
 			<name>Arclight Touch</name>
-			<text>Melee Weapon Attack: +10 to hit, reach S ft., one target. Hit: 27 (6d8) lightning damage, and lightning jumps from the target to one creature of the phoenix's choice that it can see within 30 feet of the target. That second creature must succeed on a DC 18 Dexterity saving throw or take 27 (6d8) lightning damage.</text>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 27 (6d8) lightning damage, and lightning jumps from the target to one creature of the phoenix's choice that it can see within 30 feet of the target. That second creature must succeed on a DC 18 Dexterity saving throw or take 27 (6d8) lightning damage.</text>
 			<attack>Arclight Touch|10|6d8</attack>
-			<attack>Arclight Touch(second)||6d8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -310,9 +351,38 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dryad's innate spellcasting ability is Charisma (spell save DC 17). The dryad can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: druidcraft</text>
 			<text>3/day each: dispel magic, entangle, plant growth, spike growth</text>
 			<text>1/day each: moonbeam, grasping vine, wall of thorns</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Spike Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Moonbeam</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Grasping Vine</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Thorns</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -339,10 +409,12 @@
 		<action>
 			<name>Summon Mount (1/Day)</name>
 			<text>The dryad magically summons a mount, which appears in an unoccupied space within 60 feet of the dryad. The mount remains for 8 hours, until it or the dryad dies, or until the dryad dismisses it as an action. The mount uses the stat block of an elk (see the Monster Manual) with these changes: it is a plant instead ofa beast, it has an Intelligence of6, and it understands Sylvan but can't speak. While within 1 mile of the mount, the dryad can communicate with it telepathically.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<action>
 			<name>Suppress Magic (Recharge 5-6)</name>
 			<text>The dryad targets one magic item it can see within 120 feet of it. If the magic item isn't an artifact, its magical properties are suppressed for 10 minutes, until the dryad is incapacitated or dies, or until the dryad uses a bonus action to end the effect.</text>
+			<recharge>D5</recharge>
 		</action>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Druidcraft, Dispel Magic, Entangle, Plant Growth, Spike Growth, Moonbeam, Grasping Vine, Wall of Thorns</spells>
@@ -377,12 +449,19 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The cackler's innate spellcasting ability is Charisma (spell save DC 11, +3 to hit with spell attacks). The cackler can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: fire bolt</text>
 			<text>1/day: Tasha's hideous laughter</text>
+			<attack>Spell Attack|3|</attack>
+		</trait>
+		<trait>
+			<name>Tasha's Hideous Laughter</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Last Laugh</name>
 			<text>When the cackler dies, it releases a dying laugh that scars the minds of other nearby creatures. Each creature within 10 feet of the cackler must succeed on a DC 11 Wisdom saving throw or take 2 (1d4) psychic damage.</text>
+			<attack>Last Laugh||1d4</attack>
 		</trait>
 		<trait>
 			<name>Mimicry</name>
@@ -435,8 +514,13 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The master's innate spellcasting ability is Charisma (spell save DC 17). The master can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: charm person (as a 3rd-level spell), crown of madness</text>
 			<text>1/day: dominate person</text>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Charm Person, Crown of Madness, Dominate Person</spells>
@@ -457,6 +541,7 @@
 		<action>
 			<name>Captivating Presence (Recharge 6)</name>
 			<text>Each creature within 120 feet of the master must succeed on a DC 17 Wisdom saving throw or be charmed by the master for 1 hour. While charmed in this way, a creature's speed is 0. If the charmed creature takes damage, it can repeat the saving throw, ending the effect on itself on a success. A target that succeeds on the saving throw is immune to the Captivating Presence of all masters of cruelties for the next 24 hours.</text>
+			<recharge>D6</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -492,8 +577,18 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The sire's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The sire can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: clairvoyance, crown of madness, major image, suggestion</text>
-			<text>1/day: confusion, mass suggestion</text>
+			<text>1/day each: confusion, mass suggestion</text>
+			<attack>Spell Attack|10|</attack>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Clairvoyance, Crown of Madness, Major Image, Suggestion, Confusion, Mass Suggestion</spells>
@@ -544,6 +639,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If the lich fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Regeneration</name>
@@ -552,6 +648,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The lich is a 14th-level Golgari spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The lich has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): acid splash, chill touch, mage hand, poison spray, prestidigitation</text>
 			<text>1st level (4 slots): chromatic orb, magic missile, ray of sickness</text>
 			<text>2nd level (3 slots): Melf's acid arrow, ray of enfeeblement, spider climb, web</text>
@@ -560,6 +657,7 @@
 			<text>5th level (2 slots): cloudkill, insect plague</text>
 			<text>6th level (1 slot): circle of death, create undead</text>
 			<text>7th level (1 slot): finger of death</text>
+			<attack>Spell Attack|9|</attack>
 		</trait>
 		<slots>4,3,3,3,2,1,1,0,0</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -813,6 +911,7 @@
 			<name>Focus</name>
 			<text>As a bonus action, the giant can target a creature it can see within 30 feet of it and make that creature its focus. The target remains the giant's focus for 1 minute, or until either the target or the giant drops to 0 hit points.</text>
 			<text>	When the giant makes an attack roll against its focus, it adds a d4 to its attack roll. If the giant attacks a different target while it has a focus, it subtracts a d4 from its attack roll.</text>
+            <attack>Bonus/Reduction||1d4</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -917,12 +1016,13 @@
 		</trait>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +7 to hit, reach S ft., one target. Hit: 8 (1d6 + 5) slashing damage plus 14 (4d6) psychic damage.</text>
-			<attack>Claws|7|1d6+5</attack>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage plus 14 (4d6) psychic damage.</text>
+			<attack>Claws|7|1d6+5+4d6</attack>
 		</action>
 		<action>
 			<name>Frightening Screech (Recharge 5-6)</name>
 			<text>The horror screeches. Each creature within 30 feet of it that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened of it for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Ifa creature's saving throw is successful or the effect ends for it, the creature is immune to the horror's Frightening Screech for the next 24 hours.</text>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -953,7 +1053,7 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The horror can move through other creatures and objects as if they were difficult terrain. It takes 5(1d10) force damage if it ends its turn inside an object.</text>
-			<roll>1d10</roll>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Shadow Stealth</name>
@@ -985,6 +1085,7 @@
 			<name>Lashing Shadows (Recharge 5-6)</name>
 			<text>Each creature within 60 feet of the horror, except other horrors, must succeed on a DC 16 Dexterity saving throw or take 27 (6d8) necrotic damage.</text>
 			<attack>Lashing Shadows||6d8</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1067,6 +1168,7 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d1O) force damage if it ends its turn inside an object.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<action>
 			<name>Withering Touch</name>
@@ -1075,7 +1177,7 @@
 		</action>
 	</monster>
 	<monster>
-		<name>Blisercoil Weird</name>
+		<name>Blistercoil Weird</name>
 		<size>M</size>
 		<type>elemental</type>
 		<description>Source: Guildmaster's Guide to Ravnica</description>
@@ -1103,14 +1205,17 @@
 			<name>Feed on Fire</name>
 			<text>If the weird takes fire damage from a spell or other magical effect, its size increases by one category. If there isn't enough room for the weird to increase in size, it attains the maximum size possible in the space available. While the weird is Large or bigger, it makes Strength checks and saving throws with advantage.</text>
 			<text>	If the weird starts its turn at Gargantuan size, the weird releases energy in an explosion. Each creature within 30 feet of the weird must make a DC 12 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in the area that aren't being worn or carried. The weird's size then becomes Medium.</text>
+			<attack>Damage||8d6</attack>
 		</trait>
 		<trait>
 			<name>Form of Fire and Water</name>
 			<text>The weird can move through a space as narrow as 1 inch wide without squeezing. In addition, the weird can enter a hostile creature's space and stop there. The first time the weird enters another creature's space on a turn, that creature takes 5(1d10) fire damage and catches fire; until someone takes an action to douse the fire, the burning creature takes 5(1d10) fire damage at the start of each of its turns.</text>
+			<attack>Fire Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Heated Body</name>
 			<text>A creature that touches the weird or hits it with a melee attack while within 5 feet of it takes 5(1d10) fire damage.</text>
+			<attack>Fire Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Illumination</name>
@@ -1118,7 +1223,7 @@
 		</trait>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +5 to hit, reach S ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 11 (2d8 + 3) bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 12 (2d8 + 3) bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger.</text>
 			<attack>Slam|5|1d8+3+2d6</attack>
 			<attack>Slam (Large+)|5|2d8+3+4d6</attack>
 		</action>
@@ -1151,6 +1256,7 @@
 		<trait>
 			<name>Amplify Lightning</name>
 			<text>Whenever a spell that deals lightning damage includes one or more fluxchargers in its area, the spell deals an extra 9 (2d8) lightning damage.</text>
+			<attack>Extra Damage||2d8</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1159,14 +1265,14 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 10 (3d6) fire damage.</text>
-			<attack>Slam|7|2d8+3+3d6</attack>
+			<attack>Slam|7|2d8+4+3d6</attack>
 		</action>
 		<action>
 			<name>Arc Lightning</name>
-			<text>Melee Weapon Attack: +5 to hit, reach S ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 11 (2d8 + 3) bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger.</text>
+			<text>Ranged Spell Attack: +7 to hit, range 30 ft., one target. Hit: 16 (3d10) lightning damage, and lightning jumps from the target to one creature of the fluxcharger's choice that it can see within 30 feet of the target. That second creature must succeed on a DC 15 Dexterity saving throw or take 13 (3d8) lightning damage. Hit or Miss: The fluxcharger takes 5 (1d10) force damage after resolving the attack.</text>
 			<attack>Arc Lightning|7|3d10</attack>
-			<attack>Arc Lightning(second)||3d8</attack>
-			<attack>Arc Lightning(self)||1d10</attack>
+			<attack>Arc Lightning(2nd creature)||3d8</attack>
+			<attack>Force Damage||1d10</attack>
 		</action>
 	</monster>
 	<monster>
@@ -1197,6 +1303,7 @@
 		<trait>
 			<name>Death Burst</name>
 			<text>When the galvanice weird dies, it explodes in a burst of ice and lightning. Each creature within 10 feet of the exploding weird must make a DC 13 Dexterity saving throw, taking 7 (2d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Lightning Damage||2d6</attack>
 		</trait>
 		<action>
 			<name>Slam</name>
@@ -1257,6 +1364,74 @@
 			<text>6    Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
 			<text>7    Leaping Legs. With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
 			<text>8    Stabilizing Legs. The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+			<attack>Major/Minor Adaptation||1d8</attack>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Acidic Skin</name>
+			<text>Any creature that touches the krasis or hits it with a melee attack while within 5 feet of it takes 2 (1d4) acid damage (category 1), 4 (1d8) acid damage (category 2), or 6 (1d12) acid damage (category 3).</text>
+			<attack>Acidic Skin||1d4</attack>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Armored Hide</name>
+			<text>The krasis has better natural armor afforded by a shell or thick scales, increasing its Armor Class by 4.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Bioluminescent Markings</name>
+			<text>The krasis has glowing patterns on its skin that take the shape of defensive runes, granting it advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Flight</name>
+			<text>The krasis has wings and gains a flying speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Crabber</name>
+			<text>When the krasis hits a creature with its claws, the target is grappled (escape DC 13 for category 1, DC 15 for category 2, and DC 19 for category 3) by a specialized grasping appendage on the krasis. It can have only one creature grappled in this way at a time.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Hypnotic Display (Recharge 5-6)</name>
+			<text>As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours.</text>
+			<recharge>D5</recharge>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Venomous Sting</name>
+			<text>When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be poisoned for 1 minute. If the krasis is a category 2 or 3, the creature is paralyzed while poisoned in this way. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Regeneration</name>
+			<text>The krasis regains hit points (2 for a category 1, 5 for a category 2, and 10 for a category 3) at the start of each of its turns if it has at least 1 hit point.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Amorphous Structure</name>
+			<text>The krasis can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Aquatic</name>
+			<text>The krasis gains a swimming speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Climbing Speed</name>
+			<text>The krasis gains a climbing speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Cryptic Skin</name>
+			<text>The krasis can change color to match its surroundings. It has advantage on Dexterity (Stealth) checks made to hide.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Heightened Awareness</name>
+			<text>The krasis can't be surprised, as a result of having sensitive barbels like a catfish, stereoscopic vision like a chameleon, a tongue like a snake, eye stalks like a lobster, or an array of several eyes.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Ink Cloud (Recharges after a Short or Long Rest)</name>
+			<text>While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
+			<recharge>SHORT</recharge>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Leaping Legs</name>
+			<text>With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Stabilizing Legs</name>
+			<text>The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1280,7 +1455,7 @@
 		<description>Source: Guildmaster's Guide to Ravnica</description>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>136 (16dl0 + 48)</hp>
+		<hp>136 (16d10 + 48)</hp>
 		<speed>40 ft.</speed>
 		<str>18</str>
 		<dex>14</dex>
@@ -1326,6 +1501,74 @@
 			<text>6    Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
 			<text>7    Leaping Legs. With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
 			<text>8    Stabilizing Legs. The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+			<attack>Major/Minor Adaptation||1d8</attack>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Acidic Skin</name>
+			<text>Any creature that touches the krasis or hits it with a melee attack while within 5 feet of it takes 2 (1d4) acid damage (category 1), 4 (1d8) acid damage (category 2), or 6 (1d12) acid damage (category 3).</text>
+			<attack>Acidic Skin||1d8</attack>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Armored Hide</name>
+			<text>The krasis has better natural armor afforded by a shell or thick scales, increasing its Armor Class by 4.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Bioluminescent Markings</name>
+			<text>The krasis has glowing patterns on its skin that take the shape of defensive runes, granting it advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Flight</name>
+			<text>The krasis has wings and gains a flying speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Crabber</name>
+			<text>When the krasis hits a creature with its claws, the target is grappled (escape DC 13 for category 1, DC 15 for category 2, and DC 19 for category 3) by a specialized grasping appendage on the krasis. It can have only one creature grappled in this way at a time.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Hypnotic Display (Recharge 5-6)</name>
+			<text>As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours.</text>
+			<recharge>D5</recharge>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Venomous Sting</name>
+			<text>When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be poisoned for 1 minute. If the krasis is a category 2 or 3, the creature is paralyzed while poisoned in this way. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Regeneration</name>
+			<text>The krasis regains hit points (2 for a category 1, 5 for a category 2, and 10 for a category 3) at the start of each of its turns if it has at least 1 hit point.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Amorphous Structure</name>
+			<text>The krasis can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Aquatic</name>
+			<text>The krasis gains a swimming speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Climbing Speed</name>
+			<text>The krasis gains a climbing speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Cryptic Skin</name>
+			<text>The krasis can change color to match its surroundings. It has advantage on Dexterity (Stealth) checks made to hide.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Heightened Awareness</name>
+			<text>The krasis can't be surprised, as a result of having sensitive barbels like a catfish, stereoscopic vision like a chameleon, a tongue like a snake, eye stalks like a lobster, or an array of several eyes.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Ink Cloud (Recharges after a Short or Long Rest)</name>
+			<text>While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
+			<recharge>SHORT</recharge>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Leaping Legs</name>
+			<text>With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Stabilizing Legs</name>
+			<text>The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1395,6 +1638,74 @@
 			<text>6    Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
 			<text>7    Leaping Legs. With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
 			<text>8    Stabilizing Legs. The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+			<attack>Major/Minor Adaptation||1d8</attack>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Acidic Skin</name>
+			<text>Any creature that touches the krasis or hits it with a melee attack while within 5 feet of it takes 2 (1d4) acid damage (category 1), 4 (1d8) acid damage (category 2), or 6 (1d12) acid damage (category 3).</text>
+			<attack>Acidic Skin||1d12</attack>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Armored Hide</name>
+			<text>The krasis has better natural armor afforded by a shell or thick scales, increasing its Armor Class by 4.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Bioluminescent Markings</name>
+			<text>The krasis has glowing patterns on its skin that take the shape of defensive runes, granting it advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Flight</name>
+			<text>The krasis has wings and gains a flying speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Crabber</name>
+			<text>When the krasis hits a creature with its claws, the target is grappled (escape DC 13 for category 1, DC 15 for category 2, and DC 19 for category 3) by a specialized grasping appendage on the krasis. It can have only one creature grappled in this way at a time.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Hypnotic Display (Recharge 5-6)</name>
+			<text>As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours.</text>
+			<recharge>D5</recharge>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Venomous Sting</name>
+			<text>When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be poisoned for 1 minute. If the krasis is a category 2 or 3, the creature is paralyzed while poisoned in this way. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Major Adaptation: Regeneration</name>
+			<text>The krasis regains hit points (2 for a category 1, 5 for a category 2, and 10 for a category 3) at the start of each of its turns if it has at least 1 hit point.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Amorphous Structure</name>
+			<text>The krasis can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Aquatic</name>
+			<text>The krasis gains a swimming speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Climbing Speed</name>
+			<text>The krasis gains a climbing speed equal to its walking speed.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Cryptic Skin</name>
+			<text>The krasis can change color to match its surroundings. It has advantage on Dexterity (Stealth) checks made to hide.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Heightened Awareness</name>
+			<text>The krasis can't be surprised, as a result of having sensitive barbels like a catfish, stereoscopic vision like a chameleon, a tongue like a snake, eye stalks like a lobster, or an array of several eyes.</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Ink Cloud (Recharges after a Short or Long Rest)</name>
+			<text>While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
+			<recharge>SHORT</recharge>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Leaping Legs</name>
+			<text>With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
+		</trait>
+		<trait>
+			<name>Minor Adaptation: Stabilizing Legs</name>
+			<text>The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1446,7 +1757,7 @@
 		</trait>
 		<trait>
 			<name>Pack Tactics</name>
-			<text>The kraul has advantage on an attack roll against a creature if at least one ofthe kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+			<text>The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
 		</trait>
 		<trait>
 			<name>Spider Climb</name>
@@ -1490,7 +1801,7 @@
 		</trait>
 		<trait>
 			<name>Pack Tactics</name>
-			<text>The kraul has advantage on an attack roll against a creature if at least one ofthe kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+			<text>The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
 		</trait>
 		<trait>
 			<name>Spider Climb</name>
@@ -1530,7 +1841,7 @@
 		<cr>4</cr>
 		<trait>
 			<name>Feed on Death</name>
-			<text>When a creature within 30 feet of the kraul drops to 0 hit points, the kraul or another creature of its choice within 30 feet o f it gains 5 (1d10) temporary hit points, provided the kraul isn't incapacitated.</text>
+			<text>When a creature within 30 feet of the kraul drops to 0 hit points, the kraul or another creature of its choice within 30 feet of it gains 5 (1d10) temporary hit points, provided the kraul isn't incapacitated.</text>
 		</trait>
 		<trait>
 			<name>Hive Mind</name>
@@ -1538,16 +1849,38 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The kraul's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kraul can innately cast the following spells, requiring no mate- rial components:</text>
+			<text>The kraul's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kraul can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: chill touch, poison spray</text>
 			<text>3/day each: ray of enfeeblement, ray of sickness</text>
 			<text>1/day each: animate dead, blight, vampiric touch</text>
+			<attack>Spell Attack|4|</attack>
+		</trait>
+		<trait>
+			<name>Ray of Enfeeblement</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Ray of Sickness</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Animate Dead</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Blight</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Vampiric Touch</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Chill Touch, Poison Spray, Ray of Enfeeblement, Ray of Sickness, Animate Dead, Blight, Vampiric Touch</spells>
 		<trait>
 			<name>Pack Tactics</name>
-			<text>The kraul has advantage on an attack roll against a creature if at least one ofthe kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+			<text>The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
 		</trait>
 		<trait>
 			<name>Spider Climb</name>
@@ -1591,7 +1924,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Mount</name>
-			<text>If the specter isn't mounted, it can use a bonus action to magically teleport onto its gloamwing mount, provided the specte r and the gloamwing are on the same plane of existence. When it teleports, the specter appears astride the gloamwing along with any equipment it is wearing or carrying.</text>
+			<text>If the specter isn't mounted, it can use a bonus action to magically teleport onto its gloamwing mount, provided the specter and the gloamwing are on the same plane of existence. When it teleports, the specter appears astride the gloamwing along with any equipment it is wearing or carrying.</text>
 			<text>	While mounted and not incapacitated, the specter can't be surprised, and both it and its mount gain advantage on Dexterity saving throws.</text>
 		</trait>
 		<action>
@@ -1606,10 +1939,12 @@
 		<action>
 			<name>Mind Twist (Recharge 5-6)</name>
 			<text>The specter magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Wisdom saving throw or take 22 (5d8) psychic damage and be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Reap Memory (3/Day)</name>
 			<text>The specter touches one incapacitated creature and chooses 1 hour from among the past 24. Unless the creature succeeds on a DC 15 Intelligence saving throw, the creature loses all memory of that hour. The creature regains the memory only if the specter dies within the next 24 hours.</text>
+			<recharge>3/Day</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -1704,7 +2039,7 @@
 		</action>
 		<reaction>
 			<name>Spell Vitalization</name>
-			<text>Immediately after a creature casts a spell of 1st level or higher within 120 feet ofthe cyclops, the cyclops can move up to twice its speed without provoking opportunity attacks. It can then make one slam attack against a target of its choice.</text>
+			<text>Immediately after a creature casts a spell of 1st level or higher within 120 feet of the cyclops, the cyclops can move up to twice its speed without provoking opportunity attacks. It can then make one slam attack against a target of its choice.</text>
 		</reaction>
 	</monster>
 	<monster>
@@ -1818,12 +2153,13 @@
 		<trait>
 			<name>Poisonous Skin</name>
 			<text>Any creature that touches the hybrid or hits it with a melee attack while within 5 feet of it takes 3 (1d6) poison damage.</text>
-			<roll>1d6</roll>
+			<attack>Poisonous Skin||1d6</attack>
 		</trait>
 		<action>
 			<name>Toxic Touch</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. At the end of each ofthe poisoned target's turns, it must repeat the save, taking 3 (1d6) poison damage on a failed save, or ending the effect on itselfon a successful one.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. At the end of each of the poisoned target's turns, it must repeat the save, taking 3 (1d6) poison damage on a failed save, or ending the effect on itself on a successful one.</text>
 			<attack>Toxic Touch|6|2d6</attack>
+			<attack>Extra Damage||1d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -1854,7 +2190,7 @@
 		<trait>
 			<name>Electrified Body</name>
 			<text>Any creature that touches the hybrid or hits it with a melee attack while within 5 feet of it takes 5 (1d10) lightning damage.</text>
-			<roll>1d10</roll>
+			<attack>Lightning Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Illumination</name>
@@ -1867,12 +2203,12 @@
 		<action>
 			<name>Shocking Touch</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d8) lightning damage.</text>
-			<roll>Shocking Touch|4|2d8</roll>
+			<attack>Shocking Touch|4|2d8</attack>
 		</action>
 		<action>
 			<name>Tentacles</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 15 ft., one creature. Hit: The target is grappled (escape DC 11), and the hybrid pulls the target up to 15 feet straight toward it. Until this grapple ends, the target takes 5 (1d10) lightning damage at the start of each of its turns, and the hybrid shocker can't use its tentacles on another creature.</text>
-			<attack>Tentacles|4|</attack>
+			<attack>Tentacles|4|1d10</attack>
 		</action>
 	</monster>
 	<monster>
@@ -1997,10 +2333,11 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage. Ifthe target is a Large or smaller creature, it must succeed on a DC 19 Dexterity saving throw or be swallowed by the skyswimmer.</text>
+			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 19 Dexterity saving throw or be swallowed by the skyswimmer.</text>
 			<text>A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the skyswimmer, and it takes 21 (6d6) acid damage at the start ofeach of the skyswimmer's turns.</text>
 			<text>	If the skyswimmer takes 30 damage or more on a single turn from the swallowed creature, the skyswimmer must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within l0 feet of the skyswimmer. If the skyswimmer dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.</text>
 			<attack>Bite|7|3d10+6</attack>
+			<attack>Acid Damage||6d6</attack>
 		</action>
 		<action>
 			<name>Slam</name>
@@ -2111,7 +2448,20 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The medusa's innate spellcasting ability is Intelligence (spell save DC 14). The medusa can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>1/day each: expeditious retreat, fog cloud, misty step</text>
+		</trait>
+		<trait>
+			<name>Expeditious Retreat</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Misty Step</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Expeditious Retreat, Fog Cloud, Misty Step</spells>
@@ -2122,7 +2472,7 @@
 		<trait>
 			<name>Surprise Attack</name>
 			<text>During the first round of combat, the medusa has advantage on attack rolls against any creature that is surprised, and it deals an extra 10 (3d6) damage each time it hits such a creature with an attack.</text>
-			<roll>3d6</roll>
+			<attack>Surprise Attack||3d6</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -2146,7 +2496,7 @@
 		<alignment>lawful evil</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>90 (12d8 + 36)</hp>
-		<speed>40 ft., Ay 40 ft. (hover)</speed>
+		<speed>40 ft., fly 40 ft. (hover)</speed>
 		<str>16</str>
 		<dex>18</dex>
 		<con>17</con>
@@ -2169,13 +2519,13 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +7 to hit, reach S ft., one willing creature, or a creature that is grappled by the vampire, incapac· itated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the target is humanoid, it must succeed on a DC 15 Charisma saving throw or be charmed by the vampire for 1 minute. While charmed in this way, the target is infatuated with the vampire.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapac· itated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the target is humanoid, it must succeed on a DC 15 Charisma saving throw or be charmed by the vampire for 1 minute. While charmed in this way, the target is infatuated with the vampire.</text>
 			<text>	The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
 			<attack>Bite|7|1d6+4+2d6</attack>
 		</action>
 		<action>
 			<name>Rapier</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (ld8 + 4) piercing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
 			<attack>Rapier|7|1d8+4</attack>
 		</action>
 		<action>
@@ -2216,9 +2566,34 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The vampire's innate spellcasting ability is Intelligence (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: message</text>
 			<text>3/day each: charm person, hold person, mirror image, sleep</text>
 			<text>1/day each: gaseous form, major image</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Major Image</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Message, Charm Person, Hold Person, Mirror Image, Sleep, Gaseous Form, Major Image</spells>
@@ -2249,6 +2624,7 @@
 			<name>Mind Siphon (Recharge 5-6)</name>
 			<text>The vampire targets a creature it can see within 30 feet of it. The target must make a DC 14 Intelligence saving throw, with disadvantage if the vampire has previously consumed the target's blood. On a failed save, the target takes 28 (8d6) psychic damage, and the vampire discerns the target's surface emotions and thoughts. On a successful save, the target takes half as much damage, and the vampire discerns the target's general emotional state but not its thoughts.</text>
 			<attack>Mind Siphon||8d6</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
 	<monster>
@@ -2279,6 +2655,7 @@
 		<trait>
 			<name>Earth Tremors</name>
 			<text>The wurm creates earth tremors as it moves overland or underground. Any creature that comes within 30 feet of the moving wurm for the first time on a turn must succeed on a DC 20 Dexterity saving throw or take 10 (3d6) bludgeoning damage and fall prone. Any structure or object anchored to the ground that comes within 30 feet of the moving wurm for the first time on a turn takes 10 (3d6) force damage.</text>
+			<attack>Damage||3d6</attack>
 		</trait>
 		<trait>
 			<name>Siege Monster</name>
@@ -2372,6 +2749,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Isperia fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2380,6 +2758,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Isperia is a 15th-level Azorius spellcaster. Her spellcasting ability is Wisdom (spell save DC 23, +14 to hit with spell attacks). Isperia has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): guidance, light, resistance, sacred flame, thaumaturgy</text>
 			<text>1st level (4 slots): command, detect evil and good, ensnaring strike, sanctuary, shield of faith</text>
 			<text>2nd level (3 slots): arcane lock, augury, calm emotions, hold person, silence, zone oftruth</text>
@@ -2389,6 +2768,7 @@
 			<text>6th level (1 slot): word of recall</text>
 			<text>7th level (1 slot): divine word</text>
 			<text>8th level (1 slot): antimagic field</text>
+			<attack>Spell Attack|14|</attack>
 		</trait>
 		<slots>4,3,3,3,2,1,1,1,0</slots>
 		<spellAbility>Wisdom</spellAbility>
@@ -2399,7 +2779,7 @@
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) slashing damage. If the target is a creature, it must succeed on a DC 23 Wisdom saving throw or take 14 (4d6) psychic damage after each attack it makes against lsperia before the start ofher next turn.</text>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) slashing damage. If the target is a creature, it must succeed on a DC 23 Wisdom saving throw or take 14 (4d6) psychic damage after each attack it makes against Isperia before the start ofher next turn.</text>
 			<attack>Claw|12|2d10+5</attack>
 			<attack>Claw (psychic dmg)||4d6</attack>
 		</action>
@@ -2450,11 +2830,13 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The lawmage is an 8th-level Azorius spellcaster. Its spellcasting ability is Intelligence (spellsave DC 14, +6 to hit with spell attacks). The lawmage has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): fire bolt, friends, light, message</text>
 			<text>1st level (4 slots): alarm, expeditious retreat, shield</text>
 			<text>2nd level (3 slots): arcane lock, detect thoughts, hold person</text>
 			<text>3rd level (3 slots): clairvoyance, dispel magic, slow</text>
 			<text>4th level (2 slots): locate creature, stoneskin</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<slots>4,3,3,2,0,0,0,0,0</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -2494,8 +2876,21 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The mage's innate spellcasting ability is Intelligence (spell save DC 14). It can cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>3/day: detect thoughts, mage armor</text>
 			<text>1/day each: clairvoyance, locate object</text>
+		</trait>
+		<trait>
+			<name>Detect Thoughts, Mage Armor</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Clairvoyance</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Locate Object</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Detect Thoughts, Mage Armor, Clairvoyance, Locate Object</spells>
@@ -2509,10 +2904,12 @@
 			<name>Glimpse the Temporal Flood (Recharge 5-6)</name>
 			<text>The mage targets one creature within 120 feet of it that it can see. The target takes 18 (4d8) psychic damage, and it must succeed on a DC 14 Intelligence saving throw or be stunned until the end of its next turn.</text>
 			<attack>Glipmse the Temporal Flood||4d8</attack>
+			<recharge>D5</recharge>
 		</action>
 		<reaction>
 			<name>Precognitive Insight (3/Day)</name>
 			<text>When the mage or a creature it can see makes an attack roll, a saving throw, or an ability check, the mage can cause the roll to be made with advantage or disadvantage.</text>
+			<recharge>3/Day</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -2523,7 +2920,7 @@
 		<alignment>lawful good</alignment>
 		<ac>22 (natural armor)</ac>
 		<hp>287 (25d8 + 175)</hp>
-		<speed>50ft., fly 150 ft.</speed>
+		<speed>50 ft., fly 150 ft.</speed>
 		<str>26</str>
 		<dex>24</dex>
 		<con>25</con>
@@ -2543,6 +2940,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Aurelia fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2560,12 +2958,14 @@
 		</action>
 		<action>
 			<name>Leadership</name>
-			<text>Aurelia utters a few inspiring words to one creature she can see within 30 feet of her. Ifthe creature can hear her, it can add a d10 to one attack roll or saving throw it makes before the start of Aurelia's next turn.</text>
+			<text>Aurelia utters a few inspiring words to one creature she can see within 30 feet of her. If the creature can hear her, it can add a d10 to one attack roll or saving throw it makes before the start of Aurelia's next turn.</text>
 		</action>
 		<action>
 			<name>Warleader's Helix (Recharge 5-6)</name>
 			<text>Ranged Spell Attack: +17 to hit, range 60 ft., one creature. Hit: 54 (12d8) radiant damage, and Aurelia can choose another creature she can see within 10 feet of the target. The second creature regains 27 (6d8) hit points.</text>
-			<attack>Warleader's Helix|17|12d8+6d8</attack>
+			<attack>Warleader's Helix|17|12d8</attack>
+			<attack>Second||6d8</attack>
+			<recharge>D5</recharge>
 		</action>
 		<reaction>
 			<name>Parry</name>
@@ -2618,12 +3018,14 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The firefist is a 9th-level Boros spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): fire bolt, light, sacred flame, spare the dying</text>
 			<text>1st level (4 slots): guiding bolt, healing word, heroism, shield of faith</text>
 			<text>2nd level (3 slots): lesser restoration, scorching ray</text>
 			<text>3rd level (3 slots): blinding smite, crusader's mantle, revivify</text>
 			<text>4th level (3 slots): banishment, wall of fire</text>
 			<text>5th level (1 slot): flame strike</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 		<spellAbility>Wisdom</spellAbility>
@@ -2640,6 +3042,7 @@
 		<reaction>
 			<name>Guided Attack (Recharges after a Short or Long Rest)</name>
 			<text>When the firefist or one creature it can see within 30 feet of it makes an attack roll, the firefist grants a +10 bonus to that roll.</text>
+			<recharge>Short</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -2670,6 +3073,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The medic is a 3rd-level Boros spellcaster. Its spellcasting ability is Wisdom (spell save DC 11). The medic has the following cleric spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): mending, resistance, spore the dying</text>
 			<text>1st level (4 slots): cure wounds, sanctuary</text>
 			<text>2nd level (2 slots): aid, lesser restoration</text>
@@ -2679,7 +3083,7 @@
 		<spells>Mending, Resistance, Spare the Dying, Cure Wounds, Sanctuary, Aid, Lesser Restoration</spells>
 		<action>
 			<name>Spear</name>
-			<text>Melee or Ranged Weapon Attack: +4 to hit, reach S ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
 			<attack>Spear (1H)|4|1d6+2</attack>
 			<attack>Spear (2H)|4|1d8+2</attack>
 		</action>
@@ -2716,10 +3120,12 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The reckoner is a 5th-level Boros spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The reckoner has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): blade ward, light, message, shocking grasp</text>
 			<text>1st level (4 slots): guiding bolt, shield, thunderwave, witch bolt</text>
 			<text>2nd level (3 slots): blur, levitate</text>
 			<text>3rd level (2 slots): lightning bolt</text>
+			<attack>Spell Attack|4|</attack>
 		</trait>
 		<slots>4,3,2,0,0,0,0,0,0</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -2733,6 +3139,7 @@
 		<reaction>
 			<name>Lightning Backlash (Recharge 5-6)</name>
 			<text>When a creature hits the reckoner with an attack, the attacker takes lightning damage equal to half the damage dealt by the attack.</text>
+			<recharge>D5</recharge>
 		</reaction>
 	</monster>
 	<monster>
@@ -2767,15 +3174,37 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Lazav's innate spellcasting ability is Intelligence (spell save DC 20). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: detect thoughts, encode thoughts (see chapter 2), freedom of movement, vicious mockery (4d4 psychic damage)</text>
 			<text>3/day each: blur, confusion, mirror image</text>
 			<text>1/day each: modify memory, Rary's telepathic bond</text>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mirror Image</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Modify Memory</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Rary's Telepathic Bond</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Detect Thoughts, Encode Thoughts, Freedom of Movement, Vicious Mockery, Blur, Confusion, Mirror Image, Modify Memory, Rary's Telepathic Bond</spells>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Lazav fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Shapechanger Savant</name>
@@ -2841,9 +3270,42 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The mage's spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: encode thoughts (see chapter 2), friends</text>
 			<text>3/day each: charm person, detect thoughts, mage armor, sleep, suggestion</text>
 			<text>1/day each: dominate person, mass suggestion, modify memory</text>
+		</trait>
+		<trait>
+			<name>Charm Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Armor</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Modify Memory</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Encode Thoughts, Friends, Charm Person, Detect Thoughts, Mage Armor, Sleep, Suggestion, Dominate Person, Mass Suggestion, Modify Memory</spells>
@@ -2885,8 +3347,21 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The thought spy's innate spellcasting ability is Intelligence (spell save DC 13). The thought spy can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: charm person, disguise self, encode thoughts (see chapter 2)</text>
 			<text>1/day each: blur, detect thoughts, gaseous form</text>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Gaseous Form</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Charm Person, Disguise Self, Encode Thoughts, Blur, Detect Thoughts, Gaseous Form</spells>
@@ -2912,7 +3387,7 @@
 		<description>Source: Guildmaster's Guide to Ravnica</description>
 		<alignment>neutral evil</alignment>
 		<ac>17 (natural armor)</ac>
-		<hp> 180 (24d8 + 72)</hp>
+		<hp>180 (24d8 + 72)</hp>
 		<speed>30 ft.</speed>
 		<str>14</str>
 		<dex>16</dex>
@@ -2933,6 +3408,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Jarad fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -2945,14 +3421,16 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Jarad is a 14th-level Golgari spellcaster. His spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spellattacks). Jarad has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): acid splash, chill touch, mage hand, poison spray, prestidigitation</text>
-			<text>1st level (4 slots): entangle, ray ofsickness, sleep</text>
+			<text>1st level (4 slots): entangle, ray of sickness, sleep</text>
 			<text>2nd level (3 slots): Melf's acid arrow, ray of enfeeblement, spider climb, web</text>
 			<text>3rd level (3 slots): animate dead, plant growth, vampiric touch</text>
 			<text>4th level (3 slots): blight, giant insect, grasping vine</text>
 			<text>5th level (2 slots): cloudkill, insect plague</text>
 			<text>6th level (1 slot): circle of death, create undead</text>
 			<text>7th level (1 slot): finger of death, forcecage</text>
+			<attack>Spell Attack|12|</attack>
 		</trait>
 		<slots>4,3,3,3,2,1,1,0,0</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -2960,7 +3438,7 @@
 		<trait>
 			<name>Spore Infusion</name>
 			<text>Jarad is surrounded by a cloud of spores. As a bonus action, he can cause the spores to deal 11 (2d10) poison damage to a creature he can see within 10 feet of him.</text>
-			<roll>2d10</roll>
+			<attack>Poison Damage||2d10</attack>
 		</trait>
 		<trait>
 			<name>Turn Resistance</name>
@@ -2972,11 +3450,11 @@
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>Jarad makes two attacks: one with his Noxious Touch and one with his Staff of Svogthir. He can cast a spell with a casting time of1 action in place ofone ofthese attacks.</text>
+			<text>Jarad makes two attacks: one with his Noxious Touch and one with his Staff of Svogthir. He can cast a spell with a casting time of 1 action in place of one of these attacks.</text>
 		</action>
 		<action>
 			<name>Noxious Touch</name>
-			<text>Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 28 (8d6) poison damage, and the target must succeed on a DC 20 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+			<text>Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 28 (8d6) poison damage, and the target must succeed on a DC 20 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Noxious Touch|12|8d6</attack>
 		</action>
 		<action>
@@ -3031,11 +3509,13 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The shaman is an 8th-level Golgari spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The shaman has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): poison spray, shillelagh, thorn whip</text>
-			<text>1st level (4 slots): cure wounds, entangle, ray ofsickness</text>
+			<text>1st level (4 slots): cure wounds, entangle, ray of sickness</text>
 			<text>2nd level (3 slots): pass without trace, ray of enfeeblement, spike growth</text>
 			<text>3rd level (3 slots): animate dead, dispel magic, plant growth</text>
 			<text>4th level (2 slots): blight, giant insect</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<slots>4,3,3,2,0,0,0,0,0</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -3049,7 +3529,8 @@
 		<action>
 			<name>Fungal Rot</name>
 			<text>Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage, and the target must make a DC 14 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Fungal Rot|9|2d8</attack>
+			<attack>Fungal Rot|6|2d8</attack>
+			<attack>Poison Damage||4d8</attack>
 		</action>
 		<reaction>
 			<name>Feed on Death</name>
@@ -3085,6 +3566,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Borborygmos fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Poor Depth Perception</name>
@@ -3206,6 +3688,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The druid is a 12th-level Gruul spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): druidcraft, produce flame, resistance, thorn whip</text>
 			<text>1st level (4 slots): cure wounds, faerie fire, thunderwave</text>
 			<text>2nd level (3 slots): beast sense, flame blade, pass without trace</text>
@@ -3213,6 +3696,7 @@
 			<text>4th level (3 slots): dominate beast, freedom of movement, wall of fire</text>
 			<text>5th level (2 slots): commune with nature, conjure elemental, scrying</text>
 			<text>6th level (1 slot): transport via plants, wall of thorns</text>
+			<attack>Spell Attack|8|</attack>
 		</trait>
 		<slots>4,3,3,3,2,1,0,0,0</slots>
 		<spellAbility>Wisdom</spellAbility>
@@ -3303,6 +3787,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Niv-Mizzet fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Locus of the Firemind</name>
@@ -3318,7 +3803,8 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Niv-Mizzet is a 20th-level lzzet spellcaster. His spellcasting ability is Intelligence (spell save DC 26, +18 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text>Niv-Mizzet is a 20th-level Izzet spellcaster. His spellcasting ability is Intelligence (spell save DC 26, +18 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): fire bolt, light, prestidigitation, ray of frost, shocking grasp</text>
 			<text>1st level (4 slots): detect magic, magic missile, shield, thunderwave, unseen servant</text>
 			<text>2nd level (3 slots): blur, enlarge/reduce, flaming sphere, scorching ray</text>
@@ -3329,6 +3815,7 @@
 			<text>7th level (1 slot): project image, reverse gravity, teleport</text>
 			<text>8th level (1 slot): control weather, maze, power word stun</text>
 			<text>9th level (1 slot): prismatic wall</text>
+			<attack>Spell Attack|18|</attack>
 		</trait>
 		<slots>4,3,3,3,2,1,1,1,1</slots>
 		<spellAbility>Intelligence</spellAbility>
@@ -3356,6 +3843,7 @@
 			<name>Fire Breath (Recharge 5-6)</name>
 			<text>Niv-Mizzet exhales fire in a 90-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Fire Breath||26d6</attack>
+			<recharge>D5</recharge>
 		</action>
 		<action>
 			<name>Cantrip</name>
@@ -3369,7 +3857,7 @@
 		<action>
 			<name>Wing Attack (Costs 2 Actions)</name>
 			<text>Niv-Mizzet beats his wings. Each creature within 15 feet of him must succeed on a DC 25 Dexterity saving throw or take 14 (2d4 + 9) bludgeoning damage and be knocked prone. Niv-Mizzet can then fly up to half his flying speed.</text>
-			<attack>Fire Breath||26d6</attack>
+			<attack>Wing Attack||2d4+9</attack>
 		</action>
 		<action>
 			<name>Dracogenius (Costs 3 Actions)</name>
@@ -3404,18 +3892,37 @@
 		<trait>
 			<name>Empowered Spell (3/Day)</name>
 			<text>When the blastseeker rolls damage for a spell, it can reroll up to four dice of damage. It must use the new dice.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The blastseeker's innate spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The blastseeker can innately cast the following spells, requiring no components other than its Izzet gear, which doesn't function for others:</text>
 			<text>3/day each: scorching ray, shield, thunderwave</text>
 			<text>2/day: fireball</text>
+			<attack>Spell Attack|6|</attack>
+		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Thunderwave</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fireball</name>
+			<recharge>2/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Scorching Ray, Shield, Thunderwave, Fireball</spells>
 		<trait>
 			<name>Tides of Chaos (1/Day)</name>
 			<text>The blastseeker makes one attack roll, ability check, or saving throw with advantage.</text>
+			<recharge>1/Day</recharge>
 		</trait>
 		<action>
 			<name>Warhammer</name>
@@ -3454,12 +3961,38 @@
 			<text>The blastseeker can create an additional effect immediately after casting a spell. Roll a d6 to determine the effect:</text>
 			<text>1-3. The blastseeker creates a 15-foot-radius invisible sphere centered on itself that lasts until the end of its next turn. Creatures in the sphere have disadvantage on saving throws against spells and other magical effects.</text>
 			<text>4-6. The blastseeker creates a 15-foot-radius invisible sphere centered on itself that lasts until the end of its next turn. Creatures in the sphere have advantage on saving throws against spells and other magical effects.</text>
+			<recharge>D5</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The blastseeker's innate spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The blastseeker can innately cast the following spells, requiring no components other than its Izzet gear, which doesn't function for others:</text>
 			<text>3/day each: enlarge/reduce, mage armor (self only), scorching ray</text>
 			<text>1/day each: counterspell, dispel magic, protection from energy</text>
+			<attack>Spell Attack|6|</attack>
+		</trait>
+		<trait>
+			<name>Enlarge/Reduce</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Mage Armor (self only)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Counterspell</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Protection from Energy</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Enlarge/Reduce, Mage Armor, Scorching Ray, Counterspell, Dispel Magic, Protection from Energy</spells>
@@ -3496,10 +4029,12 @@
 		<cr>5</cr>
 		<trait>
 			<name>Galvanic Overcast (Recharge 5-6)</name>
-			<text>When the blastseeker casts lightning bolt or thunderwave, it can roll a die. On an odd num- ber, the blastseeker takes 9 (2d8) force damage. On an even number, the spell also deals 9 (2d8) lightning damage to each target that fails its saving throw.</text>
+			<text>When the blastseeker casts lightning bolt or thunderwave, it can roll a die. On an odd number, the blastseeker takes 9 (2d8) force damage. On an even number, the spell also deals 9 (2d8) lightning damage to each target that fails its saving throw.</text>
+			<recharge>D5</recharge>
+			<attack>Damage||2d8</attack>
 		</trait>
 		<trait>
-			<name>Heart ofthe Storm</name>
+			<name>Heart of the Storm</name>
 			<text>When the blastseeker casts lightning bolt or thunderwave, all other creatures within 10 feet of the blastseeker each take 3 lightning damage.</text>
 		</trait>
 		<trait>
@@ -3507,10 +4042,27 @@
 			<text>The blastseeker's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The blastseeker can innately cast the following spells, requiring no components other than its Izzet gear, which doesn't function for others:</text>
 			<text>3/day each: levitate, lightning bolt, thunderwave</text>
 			<text>1/day: stoneskin</text>
+			<attack>Spell Attack|7|</attack>
+		</trait>
+		<trait>
+			<name>Levitate</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lightning Bolt</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Thunderwave</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Stoneskin</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Gust-Propelled Leap</name>
-			<text>The blastseeker can use a bonus action to fly up to 10 feet without provok ing opportunity attacks.</text>
+			<text>The blastseeker can use a bonus action to fly up to 10 feet without provoking opportunity attacks.</text>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Levitate, Lightning Bolt, Thunderwave, Stoneskin</spells>
@@ -3548,7 +4100,8 @@
 		<cr>1/2</cr>
 		<trait>
 			<name>Explosive Tank</name>
-			<text>When the guard dies, or if it rolls a 1 when checking whether its Scorchbringer action recharges, the tank on its back explodes in a 10-foot radius sphere. Each creature in that area must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or halfas much damage on a successful one. The explosion ignites flammable objects that aren't being worn or carried, and it destroys the scorchbringer.</text>
+			<text>When the guard dies, or if it rolls a 1 when checking whether its Scorchbringer action recharges, the tank on its back explodes in a 10-foot radius sphere. Each creature in that area must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects that aren't being worn or carried, and it destroys the scorchbringer.</text>
+			<attack>Fire Damage||2d6</attack>
 		</trait>
 		<action>
 			<name>Light Hammer</name>
@@ -3558,6 +4111,8 @@
 		<action>
 			<name>Scorchbringer (Recharge 4-6)</name>
 			<text>The guard's scorchbringer spouts a stream of flame in a line that is 30 feet long and 5 feet wide. Each creature in the line must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D4</recharge>
+			<attack>Fire Damage||2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -3581,7 +4136,7 @@
 		<immune/>
 		<conditionImmune>charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
 		<vulnerable/>
-		<senses> darkvision 60 ft.</senses>
+		<senses>darkvision 60 ft.</senses>
 		<passive>18</passive>
 		<languages>Common</languages>
 		<cr>8</cr>
@@ -3589,10 +4144,11 @@
 			<name>Council of Five</name>
 			<text>The ghost has a trait based on who it is, as shown below:</text>
 			<text>Enezesku: Enfeebling Ray. Enezesku's Innate Spellcasting trait includes ray of enfeeblement, which he can cast at will.</text>
-			<text>Fautomni: Undead Fortitude. If damage reduces Fautomni to 0 hit points, he must make a Constitution saving throw with a DC of 5 +the damage taken, unless the damage is radiant or from a critical hit. On a success, Fautomni drops to 1 hit point instead.</text>
+			<text>Fautomni: Undead Fortitude. If damage reduces Fautomni to 0 hit points, he must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, Fautomni drops to 1 hit point instead.</text>
 			<text>Karlov: Unnatural Vigor. When Karlov regains hit points, he has advantage on attack rolls he makes on his next turn.</text>
 			<text>Vuliev: Teleportation. Vuliev's Innate Spellcasting trait includes misty step, which he can cast at will.</text>
 			<text>Xii Xaxosz: Lingering Spite. When Xii Xaxosz is reduced to 0 hit points, his incorporeal form explodes in a burst of necrotic energy. Each creature within 5 feet of him must make a DC 16 Constitution saving throw, taking 14 (4d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Xii Xaxosz||4d6</attack>
 		</trait>
 		<trait>
 			<name>Ethereal Sight</name>
@@ -3601,18 +4157,30 @@
 		<trait>
 			<name>Incorporeal Movement</name>
 			<text>The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+			<attack>Damage||1d10</attack>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The ghost's innate spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
 			<text>At will: chill touch (at 5th level, and the ghost regains hit points equal to half the amount of damage the target takes)</text>
 			<text>1/day each: sanctuary, spirit guardians (at 4th level)</text>
+			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Spirit Guardians (at 4th level)</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Chill Touch, Sanctuary, Spirit Guardians, Ray of Enfeeblement, Misty Step</spells>
 		<trait>
 			<name>Legendary Resistance (1/Day)</name>
 			<text>If the ghost fails a saving throw, it can choose to succeed instead.</text>
+			<recharge>1/Day</recharge>
 		</trait>
 		<action>
 			<name>Life Drain</name>
@@ -3630,6 +4198,7 @@
 		<legendary>
 			<name>Indentured Spirits (Costs 3 Actions)</name>
 			<text>The Obzedat ghosts conjure 1d6 indentured spirits (described in this chapter) within 60 feet of one of them.</text>
+			<attack>Servants||1d6</attack>
 		</legendary>
 	</monster>
 	<monster>
@@ -3674,6 +4243,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Rakdos fails a saving throw, he can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -3699,7 +4269,7 @@
 		</action>
 		<legendary>
 			<name>Sadistic Revelry</name>
-			<text>Each creature within 60 feet o f Rakdos that is his ally or is charmed by him must use its reaction to move up to half its speed toward the creature closest to it that it can see, provided it isn't already within Sfeet ofthat creature. It then must make one melee attack against that creature if it is able to do so.</text>
+			<text>Each creature within 60 feet of Rakdos that is his ally or is charmed by him must use its reaction to move up to half its speed toward the creature closest to it that it can see, provided it isn't already within 5 feet of that creature. It then must make one melee attack against that creature if it is able to do so.</text>
 		</legendary>
 		<legendary>
 			<name>Scythe (Costs 2 Actions)</name>
@@ -3739,7 +4309,7 @@
 		<cr>7</cr>
 		<trait>
 			<name>Blood Witch Dance</name>
-			<text>The witch can use a bonus action to control the movement ofone creature cursed by its hex spell that it can see within 30 feet ofit. The creature must succeed on a DC 15 Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice.</text>
+			<text>The witch can use a bonus action to control the movement of one creature cursed by its hex spell that it can see within 30 feet of it. The creature must succeed on a DC 15 Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice.</text>
 		</trait>
 		<trait>
 			<name>Devil's Sight</name>
@@ -3748,9 +4318,35 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The witch's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The witch can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: alter self, detect magic, eldritch blast (at 11th level).false life, levitate (self only), mage armor (self only)</text>
 			<text>1/day each: circle of death, enthrall, suggestion</text>
 			<text>3/day each: hellish rebuke, hex, scorching ray (at 3rd level)</text>
+			<attack>Spell Attack|7|</attack>
+		</trait>
+		<trait>
+			<name>Circle of Death</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Enthrall</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Hellish Rebuke</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hex</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Scorching Ray (at 3rd level)</name>
+			<recharge>3/day</recharge>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Alter Self, Detect Magic, Eldritch Blast, False Life, Levitate, Mage Armor, Circle of Death, Enthrall, Suggestion, Hellish Rebuke, Hex, Scorching Ray</spells>
@@ -3800,6 +4396,7 @@
 			<text>Cantrips (at will): dancing lights, minor illusion, vicious mockery</text>
 			<text>1st level (4 slots): bane, dissonant whispers, silent image, Tasha's hideous laughter, thunderwave</text>
 			<text>2nd level (3 slots): crown of madness, enthrall, suggestion</text>
+			<attack>Spell Attack|6|</attack>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>4,3,0,0,0,0,0,0,0</slots>
@@ -3837,7 +4434,7 @@
 		<cr>1</cr>
 		<trait>
 			<name>Nimble</name>
-			<text>The performer can take the Disengage action as a bonus action on each ofits turns.</text>
+			<text>The performer can take the Disengage action as a bonus action on each of its turns.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -3876,7 +4473,7 @@
 		<cr>1</cr>
 		<trait>
 			<name>Nimble</name>
-			<text>The performer can take the Disengage action as a bonus action on each ofits turns.</text>
+			<text>The performer can take the Disengage action as a bonus action on each of its turns.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -3891,10 +4488,11 @@
 			<name>Spew Flame (Recharge 4-6)</name>
 			<text>The fire eater exhales flames. Each creature in a 15-foot cone must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Spew Flame||2d8</attack>
+			<recharge>D4</recharge>
 		</action>
 	</monster>
 	<monster>
-		<name>Rakdos Performer (Blade Juggler)</name>
+		<name>Rakdos Performer (High-Wire Acrobat)</name>
 		<size>M</size>
 		<type>humanoid (any race)</type>
 		<description>Source: Guildmaster's Guide to Ravnica</description>
@@ -3920,7 +4518,7 @@
 		<cr>1</cr>
 		<trait>
 			<name>Nimble</name>
-			<text>The performer can take the Disengage action as a bonus action on each ofits turns.</text>
+			<text>The performer can take the Disengage action as a bonus action on each of its turns.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -3960,15 +4558,53 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Trostani's innate spellcasting ability is Wisdom (spell save DC 24). She can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>At will: dispel magic, druidcraft</text>
 			<text>3/day each: bless, conjure animals, giant insect, moonbeam, plant growth, spike growth, suggestion</text>
 			<text>1/day each: conjure fey, mass cure wounds</text>
+		</trait>
+		<trait>
+			<name>Bless</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Animals</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Giant Insect</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Moonbeam</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Spike Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Suggestion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Fey</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Cure Wounds</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Dispel Magic, Druidcraft, Bless, Conjure Animals, Giant Insect, Moonbeam, Plant Growth, Spike Growth, Suggestion, Conjure Fey, Mass Cure Wounds</spells>
 		<trait>
 			<name>Legendary Resistance (3/day)</name>
 			<text>If Trostani fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4004,6 +4640,7 @@
 			<name>Wrath of Mat'Selesnya (Recharge 5-6)</name>
 			<text>Trostani conjures a momentary whirl of branches and vines at a point she can see within 60 feet of her. Each creature in a 30-foot cube on that point must make a DC 24 Dexterity saving throw, taking 21 (6d6) bludgeoning damage and 21 (6d6) slashing damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Wrath of Mat'Selesnya||6d6+6d6</attack>
+			<recharge>D5</recharge>
 		</action>
 		<legendary>
 			<name>Voice of Harmony</name>
@@ -4054,7 +4691,16 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The horncaller's innate spellcasting ability is Wisdom (spell save DC 14). The horncaller can innately cast the following spells, requiring no material components:</text>
+			<text></text>
 			<text>1/day each: bless, conjure animals</text>
+		</trait>
+		<trait>
+			<name>Bless</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Conjure Animals</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Bless, Conjure Animals</spells>
@@ -4068,7 +4714,7 @@
 		</action>
 		<action>
 			<name>Staff</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) bludgeoning damage if used with two hands.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) bludgeoning damage if used with two hands.</text>
 			<attack>Staff (1H)|3|1d6+1</attack>
 			<attack>Staff (2H)|3|1d8+1</attack>
 		</action>
@@ -4109,6 +4755,7 @@
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
 			<text>If Zegana fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>3/Day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4117,15 +4764,17 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Zegana is a 15th-level Simic spellcaster. Her spell· casting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). She has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): acid splash, druidcraft, ray of frost, shape water</text>
 			<text>1st level (4 slots): color spray, expeditious retreat, fog cloud, shield</text>
 			<text>2nd level (3 slots): enlarge/reduce, gust of wind</text>
 			<text>3rd level (3 slots): counterspell, fly, slow</text>
 			<text>4th level (3 slots): control water, ice storm, polymorph</text>
 			<text>5th level (2 slots): conjure elemental, creation</text>
-			<text>6th level (1 slot): move earth, wall ofice</text>
+			<text>6th level (1 slot): move earth, wall of ice</text>
 			<text>7th level (1 slot): prismatic spray, teleport</text>
 			<text>8th level (1 slot): control weather, dominate monster</text>
+			<attack>Spell Attack|10|</attack>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Acid Splash, Druidcraft, Ray of Frost, Shape Water, Color Spray, Expeditious Retreat, Fog Cloud, Shield, Enlarge/Reduce, Gust of Wind, Counterspell, Fly, Slow, Control Water, Ice Storm, Polymorph, Conjure Elemental, Creation, Move Earth, Wall of Ice, Prismatic Spray, Teleport, Control Weather, Dominate Monster</spells>
@@ -4141,6 +4790,7 @@
 			<name>Deluge (Recharge 4-6)</name>
 			<text>Zegana conjures a wave of water that crashes down on an area within 120 feet of her. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 18 (4d8) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water spreads out across the ground, extinguishing unprotected flames it comes in contact with, and then vanishes.</text>
 			<attack>Deluge||4d8</attack>
+			<recharge>D4</recharge>
 		</action>
 		<legendary>
 			<name>Adaptive Skin</name>
@@ -4191,7 +4841,7 @@
 		<trait>
 			<name>Bolstering Presence</name>
 			<text>The biomancer magically emanates life-giving energy within 30 feet of itself. Any ally of the biomancer that starts its turn there regains 5 (1d10) hit points.</text>
-			<roll>1d10</roll>
+			<attack>Hit Points||1d10</attack>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4200,6 +4850,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The biomancer is a 16th-level Simic spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The biomancer has the following wizard spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): acid splash, light, mending, poison spray, shocking grasp</text>
 			<text>1st level (4 slots): detect magic, grease, shield</text>
 			<text>2nd level (3 slots): alter self, darkvision, enlarge/reduce, hold person</text>
@@ -4209,6 +4860,7 @@
 			<text>6th level (1 slot): move earth, wall ofice</text>
 			<text>7th level (1 slot): prismatic spray</text>
 			<text>8th level (1 slot): control weather</text>
+			<attack>Spell Attack|9|</attack>
 		</trait>
 		<slots>4,3,3,3,2,1,1,1,0</slots>
 		<spellAbility>Intelligence</spellAbility>
