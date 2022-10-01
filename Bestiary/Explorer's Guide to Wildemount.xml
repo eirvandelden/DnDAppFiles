@@ -776,7 +776,8 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 30 (5d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 21 (6d6) fire damage at the start of each of the worm's turns.</text>
 			<text>	If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
-			<attack>Bite|13|5d8+8+6d6</attack>
+			<attack>Bite|13|5d8+8</attack>
+			<attack>Fire Damage||6d6</attack>
 		</action>
 	</monster>
 	<monster name="Damaged Flesh Golem">
@@ -2355,8 +2356,9 @@
 		<action>
 			<name>Bites</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer. The target must make a DC 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Bites|6|2d6+4d6</attack>
-			<attack>Bites (under half hp)|6|1d6+4d6</attack>
+			<attack>Bites|6|2d6</attack>
+			<attack>Bites (under half hp)|6|1d6</attack>
+			<attack>Poison||4d6</attack>
 		</action>
 	</monster>
 	<monster name="Swavain Basilisk">
@@ -2551,7 +2553,7 @@
 		<action>
 			<name>Pincer</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage plus 3 lightning damage.</text>
-			<attack>Pincer|2|1d4</attack>
+			<attack>Pincer|2|1d4+3</attack>
 		</action>
 	</monster>
 	<monster name="Yinra Emberwind">
