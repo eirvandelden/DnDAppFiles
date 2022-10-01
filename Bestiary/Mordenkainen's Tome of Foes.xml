@@ -34,109 +34,177 @@
 		<spells/>
 		<slots/>
 	</monster>
-	<monster name="Adult Kruthik">
-		<name>Adult Kruthik</name>
+	<monster name="Abishai, Black">
+		<name>Abishai, Black</name>
 		<size>M</size>
-		<type>monstrosity</type>
+		<type>fiend (devil)</type>
 		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>unaligned</alignment>
-		<ac>18 (natural armor)</ac>
-		<hp>39 (6d8+12)</hp>
-		<speed>40 ft., burrow 20 ft., climb 40 ft.</speed>
-		<str>15</str>
-		<dex>16</dex>
-		<con>15</con>
-		<int>7</int>
-		<wis>12</wis>
-		<cha>8</cha>
-		<save/>
-		<skill/>
-		<resist/>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>58 (9d8+18)</hp>
+		<speed>30 ft., fly 40 ft.</speed>
+		<str>14</str>
+		<dex>17</dex>
+		<con>14</con>
+		<int>13</int>
+		<wis>16</wis>
+		<cha>11</cha>
+		<save>Dex +6, Wis +6</save>
+		<skill>Perception +6, Stealth +6</skill>
+		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
 		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
-		<passive>11</passive>
-		<languages>Kruthik</languages>
-		<cr>2</cr>
+		<immune>acid, fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>16</passive>
+		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
+		<cr>7</cr>
 		<trait>
-			<name>Keen Smell</name>
-			<text>The kruthik has advantage on Wisdom (Perception) checks that rely on smell.</text>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
 		</trait>
 		<trait>
-			<name>Pack Tactics</name>
-			<text>The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+			<name>Magic Resistance</name>
+			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
 		<trait>
-			<name>Tunneler</name>
-			<text>The kruthik can burrow through solid rock at half its burrowing speed and leaves a 5-foot-diameter tunnel in its wake.</text>
+			<name>Magic Weapons</name>
+			<text>The abishai's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Shadow Stealth</name>
+			<text>While in dim light or darkness, the abishai can take the Hide action as a bonus action.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The kruthik makes two stab attacks or two spike attacks.</text>
+			<text>The abishai makes three attacks: two with its scimitar and one with its bite.</text>
 		</action>
 		<action>
-			<name>Stab</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
-			<attack>Stab|5|1d6+3</attack>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Scimitar|6|1d6+3</attack>
 		</action>
 		<action>
-			<name>Spike</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-			<attack>Spike|5|1d4+3</attack>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 9 (2d8) acid damage.</text>
+			<attack>Bite|6|1d10+3+2d8</attack>
+		</action>
+		<action>
+			<name>Creeping Darkness (Recharge 6)</name>
+			<text>The abishai casts darkness at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action.</text>
+			<recharge>D6</recharge>
 		</action>
 		<spells/>
 		<slots/>
 	</monster>
-	<monster name="Adult Oblex">
-		<name>Adult Oblex</name>
+	<monster name="Abishai, Blue">
+		<name>Abishai, Blue</name>
 		<size>M</size>
-		<type>ooze</type>
+		<type>fiend (devil)</type>
 		<description>Source: Mordenkainen's Tome of Foes</description>
 		<alignment>lawful evil</alignment>
-		<ac>14</ac>
-		<hp>75 (10d8+30)</hp>
-		<speed>20 ft.</speed>
-		<str>8</str>
-		<dex>19</dex>
-		<con>16</con>
-		<int>19</int>
-		<wis>12</wis>
-		<cha>15</cha>
-		<save>Int +7, Cha +5</save>
-		<skill>Deception +5, Perception +4, plus one of the following Arcana +7, History +7, Nature +7, or Religion +7</skill>
-		<resist/>
+		<ac>19 (natural armor)</ac>
+		<hp>195 (26d8+78)</hp>
+		<speed>30 ft., fly 50 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>17</con>
+		<int>22</int>
+		<wis>23</wis>
+		<cha>18</cha>
+		<save>Int +12, Wis +12</save>
+		<skill>Arcana +12</skill>
+		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
 		<vulnerable/>
-		<immune/>
-		<conditionImmune>blinded, charmed, deafened, exhaustion, prone</conditionImmune>
-		<senses>blindsight 60 ft. (blind beyond this distance)</senses>
-		<passive>14</passive>
-		<languages>Common plus two more languages</languages>
-		<cr>5</cr>
+		<immune>fire, lightning, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>16</passive>
+		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
+		<cr>17</cr>
 		<trait>
-			<name>Ooze Nature</name>
-			<text>An oblex doesn't require sleep.</text>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
 		</trait>
 		<trait>
-			<name>Amorphous</name>
-			<text>The oblex can move through a space as narrow as 1 inch wide without squeezing.</text>
+			<name>Magic Resistance</name>
+			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
 		<trait>
-			<name>Aversion to Fire</name>
-			<text>If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</text>
+			<name>Magic Weapons</name>
+			<text>The abishai's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The abishai is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The abishai has the following wizard spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): friends, mage hand, message, minor illusion, shocking grasp</text>
+			<text>1st level (4 slots): chromatic orb, disguise self, expeditious retreat, magic missile, charm person, thunderwave</text>
+			<text>2nd level (3 slots): darkness, mirror image, misty step</text>
+			<text>3rd level (3 slots): dispel magic, fear, lightning bolt</text>
+			<text>4th level (3 slots): dimension door, greater invisibility, ice storm</text>
+			<text>5th level (2 slots): cone of cold, wall of force</text>
+			<text>6th level (1 slot): chain lightning</text>
+			<text>7th level (1 slot): teleport</text>
+			<attack>Spell Attack|12|</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The abishai makes two attacks: one with its quarterstaff and one with its bite.</text>
+		</action>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if used with two hands.</text>
+			<attack>Quarterstaff|8|1d6+2</attack>
+			<attack>Quarterstaff (2H)|8|1d8+2</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d10 + 2) piercing damage plus 14 (4d6) lightning damage.</text>
+			<attack>Bite|8|2d10+2+4d6</attack>
+		</action>
+		<spells>Friends, Mage Hand, Message, Minor Illusion, Shocking Grasp, Chromatic Orb, Disguise Self, Expeditious Retreat, Magic Missile, Charm Person, Thunderwave, Darkness, Mirror Image, Misty Step, Dispel Magic, Fear, Lightning Bolt, Dimension Door, Greater Invisibility, Ice Storm, Cone of Cold, Wall of Force, Chain Lightning, Teleport</spells>
+		<slots>4,3,3,3,2,1,1</slots>
+	</monster>
+	<monster name="Abishai, Green">
+		<name>Abishai, Green</name>
+		<size>M</size>
+		<type>fiend (devil)</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>lawful evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>187 (25d8+75)</hp>
+		<speed>30 ft., fly 40 ft.</speed>
+		<str>12</str>
+		<dex>17</dex>
+		<con>16</con>
+		<int>17</int>
+		<wis>12</wis>
+		<cha>19</cha>
+		<save>Int +8, Cha +9</save>
+		<skill>Deception + 9, Insight +6, Perception +6, Persuasion +9</skill>
+		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+		<vulnerable/>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>16</passive>
+		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
+		<cr>15</cr>
+		<trait>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The oblex's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:</text>
+			<text>The abishai's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:</text>
 			<text></text>
-			<text>3/day each: charm person (as 5th-level spell), color spray, detect thoughts, hold person (as 3rd-level spell)</text>
+			<text>At will: alter self, major image</text>
+			<text>3/day each: charm person, detect thoughts, fear</text>
+			<text>1/day each: confusion, dominate person, mass suggestion</text>
 		</trait>
 		<trait>
-			<name>Charm Person (as 5th-level spell)</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Color Spray</name>
+			<name>Charm Person</name>
 			<recharge>3/day</recharge>
 		</trait>
 		<trait>
@@ -144,101 +212,197 @@
 			<recharge>3/day</recharge>
 		</trait>
 		<trait>
-			<name>Hold Person (as 3rd-level spell)</name>
+			<name>Fear</name>
 			<recharge>3/day</recharge>
 		</trait>
 		<trait>
-			<name>Sulfurous Impersonation</name>
-			<text>As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 1d4 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. For all practical purposes, the simulacrum is the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed.</text>
-			<attack>Creatures||1d4+1</attack>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
 		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The oblex makes one pseudopod attack and uses Eat Memories.</text>
-		</action>
-		<action>
-			<name>Pseudopod</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 5 (2d4) psychic damage.</text>
-			<attack>Pseudopod|7|1d6+4+2d4</attack>
-		</action>
-		<action>
-			<name>Eat Memories</name>
-			<text>The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 15 Wisdom saving throw or take 18 (4d8) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.</text>
-			<text>While memory drained, the target must roll a d4 and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.</text>
-			<text>When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies.</text>
-			<text/>
-			<text>Unconscious:</text>
-			<text>• An unconscious creature is incapacitated, meaning it can't take actions or reactions, can't move or speak, and is unaware of its surroundings.</text>
-			<text/>
-			<text>• The creature drops whatever it's holding and falls prone.</text>
-			<text/>
-			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
-			<text/>
-			<text>• Attack rolls against the creature have advantage.</text>
-			<text/>
-			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
-			<attack>Psychic Damage||4d8</attack>
-			<attack>Reduction||1d4</attack>
-			<attack>Reduction||1d6</attack>
-			<attack>Reduction||1d8</attack>
-			<attack>Reduction||1d10</attack>
-			<attack>Reduction||1d12</attack>
-			<attack>Reduction||1d20</attack>
-		</action>
-		<spells>Charm Person, Color Spray, Detect Thoughts, Hold Person</spells>
-		<slots/>
-	</monster>
-	<monster name="Air Elemental Myrmidon">
-		<name>Air Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>117 (18d8+36)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>14</con>
-		<int>9</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<save/>
-		<skill/>
-		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable/>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Auran, one language of its creator's choice</languages>
-		<cr>7</cr>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Mass Suggestion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
 		<trait>
 			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
+			<text>The abishai's weapon attacks are magical.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The myrmidon makes three flail attacks.</text>
+			<text>The abishai makes two attacks, one with its claws and one with its longsword, or it casts one spell from its Innate Spellcasting trait and makes one claw attack.</text>
 		</action>
 		<action>
-			<name>Flail</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage.</text>
-			<attack>Flail|7|1d8+4</attack>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.</text>
+			<attack>Longsword|6|1d8+1</attack>
+			<attack>Longsword (2H)|6|1d10+1</attack>
 		</action>
 		<action>
-			<name>Lightning Strike (Recharge 6)</name>
-			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or take 11 (2d10) poison damage and become poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<text/>
-			<text>Stunned:</text>
-			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
-			<text/>
-			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
-			<text/>
-			<text>• Attack rolls against the creature have advantage.</text>
-			<attack>Lightning Strike|7|1d8+4+4d8</attack>
-			<recharge>D6</recharge>
+			<text>Poisoned:</text>
+			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
+			<attack>Claws|8|2d8+3</attack>
+			<attack>Poison Damage||2d8+3</attack>
 		</action>
+		<spells>Alter Self, Major Image, Charm Person, Detect Thoughts, Fear, Confusion, Dominate Person, Mass Suggestion</spells>
+		<slots/>
+	</monster>
+	<monster name="Abishai, Red">
+		<name>Abishai, Red</name>
+		<size>M</size>
+		<type>fiend (devil)</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>lawful evil</alignment>
+		<ac>22 (natural armor)</ac>
+		<hp>255 (30d8+120)</hp>
+		<speed>30 ft., fly 50 ft.</speed>
+		<str>23</str>
+		<dex>16</dex>
+		<con>19</con>
+		<int>14</int>
+		<wis>15</wis>
+		<cha>19</cha>
+		<save>Str +12, Con +10, Wis +8</save>
+		<skill>Intimidation +10, Perception +8</skill>
+		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+		<vulnerable/>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>18</passive>
+		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
+		<cr>19</cr>
+		<trait>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The abishai's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The abishai can use its Frightful Presence. It also makes three attacks: one with its morningstar, one with its claw, and one with its bite.</text>
+		</action>
+		<action>
+			<name>Morningstar</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) piercing damage.</text>
+			<attack>Morningstar|12|1d8+6</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.</text>
+			<attack>Claw|12|2d10+6</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 33 (5d10 + 6) piercing damage plus 38 (7d10) fire damage.</text>
+			<attack>Bite|12|5d10+6+7d10</attack>
+		</action>
+		<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of the abishai's choice that is within 120 feet and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened of it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours.</text>
+			<text/>
+			<text>Frightened:</text>
+			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
+			<text/>
+			<text>• The creature can't willingly move closer to the source of its fear.</text>
+		</action>
+		<action>
+			<name>Incite Fanaticism</name>
+			<text>The abishai chooses up to four of its allies within 60 feet of it that can see it. For 1 minute, each of those allies makes attack rolls with advantage and can't be frightened.</text>
+		</action>
+		<action>
+			<name>Power of the Dragon Queen</name>
+			<text>The abishai targets one dragon it can see within 120 feet of it. The dragon must make a DC 18 Charisma saving throw. A chromatic dragon makes this save with disadvantage. On a successful save, the target is immune to the abishai's Power of the Dragon Queen for 1 hour. On a failed save, the target is charmed by the abishai for 1 hour. While charmed in this way, the target regards the abishai as a trusted friend to be heeded and protected. This effect ends if the abishai or its companions deal damage to the target.</text>
+			<text/>
+			<text>Charmed:</text>
+			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
+			<text/>
+			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
+		</action>
+		<spells/>
+		<slots/>
+	</monster>
+	<monster name="Abishai, White">
+		<name>Abishai, White</name>
+		<size>M</size>
+		<type>fiend (devil)</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>68 (8d8+32)</hp>
+		<speed>30 ft., fly 40 ft.</speed>
+		<str>16</str>
+		<dex>11</dex>
+		<con>18</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>13</cha>
+		<save>Str +6, Con +7</save>
+		<skill/>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+		<vulnerable/>
+		<immune>cold, fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>11</passive>
+		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The abishai's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Reckless</name>
+			<text>At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The abishai makes two attacks: one with its longsword and one with its claw.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
+			<attack>Longsword|6|1d8+3</attack>
+			<attack>Longsword (2H)|6|1d10+3</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage.</text>
+			<attack>Claw|6|1d10+3</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (1d6) cold damage.</text>
+			<attack>Bite|6|1d4+3+1d6</attack>
+		</action>
+		<reaction>
+			<name>Vicious Reprisal</name>
+			<text>In response to taking damage, the abishai makes a bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking opportunity attacks.</text>
+		</reaction>
 		<spells/>
 		<slots/>
 	</monster>
@@ -612,96 +776,6 @@
 		</legendary>
 		<spells/>
 		<slots/>
-	</monster>
-	<monster name="Autumn Eladrin">
-		<name>Autumn Eladrin</name>
-		<size>M</size>
-		<type>fey (elf)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>19 (natural armor)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>30 ft.</speed>
-		<str>12</str>
-		<dex>16</dex>
-		<con>16</con>
-		<int>14</int>
-		<wis>17</wis>
-		<cha>18</cha>
-		<save/>
-		<skill>Insight +7, Medicine +7</skill>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses>darkvision 60 ft.</senses>
-		<passive>13</passive>
-		<languages>Common, Elvish, Sylvan</languages>
-		<cr>10</cr>
-		<trait>
-			<name>Enchanting Presence</name>
-			<text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.</text>
-			<text>Whenever the eladrin deals damage to the charmed creature, the creature can repeat the saving throw, ending the effect on itself on a success.</text>
-			<text/>
-			<text>Charmed:</text>
-			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
-			<text/>
-			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
-		</trait>
-		<trait>
-			<name>Fey Step (Recharge 4-6)</name>
-			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
-			<recharge>D4</recharge>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The eladrin's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
-			<text></text>
-			<text>At will: calm emotions, sleep</text>
-			<text>3/day each: cure wounds (as a 5th-level spell), lesser restoration</text>
-			<text>1/day each: greater restoration, heal, raise dead</text>
-		</trait>
-		<trait>
-			<name>Cure Wounds (as a 5th-level spell)</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Lesser Restoration</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Greater Restoration</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Heal</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Raise Dead</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<action>
-			<name>Longsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands, plus 18 (4d8) psychic damage.</text>
-			<attack>Longsword|5|1d8+1+4d8</attack>
-			<attack>Longsword (2H)|5|1d10+1+4d8</attack>
-		</action>
-		<action>
-			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 18 (4d8) psychic damage.</text>
-			<attack>Longbow|7|1d8+3+4d8</attack>
-		</action>
-		<reaction>
-			<name>Foster Peace</name>
-			<text>If a creature charmed by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker.</text>
-		</reaction>
-		<spells>Calm Emotions, Sleep, Cure Wounds, Lesser Restoration, Greater Restoration, Heal, Raise Dead</spells>
-		<slots>0</slots>
 	</monster>
 	<monster name="Bael">
 		<name>Bael</name>
@@ -1130,138 +1204,6 @@
 		</action>
 		<spells>Speak with Dead, Plane Shift</spells>
 		<slots>0</slots>
-	</monster>
-	<monster name="Black Abishai">
-		<name>Black Abishai</name>
-		<size>M</size>
-		<type>fiend (devil)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>lawful evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>58 (9d8+18)</hp>
-		<speed>30 ft., fly 40 ft.</speed>
-		<str>14</str>
-		<dex>17</dex>
-		<con>14</con>
-		<int>13</int>
-		<wis>16</wis>
-		<cha>11</cha>
-		<save>Dex +6, Wis +6</save>
-		<skill>Perception +6, Stealth +6</skill>
-		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-		<vulnerable/>
-		<immune>acid, fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 120 ft.</senses>
-		<passive>16</passive>
-		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Devil's Sight</name>
-			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The abishai's weapon attacks are magical.</text>
-		</trait>
-		<trait>
-			<name>Shadow Stealth</name>
-			<text>While in dim light or darkness, the abishai can take the Hide action as a bonus action.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The abishai makes three attacks: two with its scimitar and one with its bite.</text>
-		</action>
-		<action>
-			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-			<attack>Scimitar|6|1d6+3</attack>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 9 (2d8) acid damage.</text>
-			<attack>Bite|6|1d10+3+2d8</attack>
-		</action>
-		<action>
-			<name>Creeping Darkness (Recharge 6)</name>
-			<text>The abishai casts darkness at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action.</text>
-			<recharge>D6</recharge>
-		</action>
-		<spells/>
-		<slots/>
-	</monster>
-	<monster name="Blue Abishai">
-		<name>Blue Abishai</name>
-		<size>M</size>
-		<type>fiend (devil)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>lawful evil</alignment>
-		<ac>19 (natural armor)</ac>
-		<hp>195 (26d8+78)</hp>
-		<speed>30 ft., fly 50 ft.</speed>
-		<str>15</str>
-		<dex>14</dex>
-		<con>17</con>
-		<int>22</int>
-		<wis>23</wis>
-		<cha>18</cha>
-		<save>Int +12, Wis +12</save>
-		<skill>Arcana +12</skill>
-		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-		<vulnerable/>
-		<immune>fire, lightning, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 120 ft.</senses>
-		<passive>16</passive>
-		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
-		<cr>17</cr>
-		<trait>
-			<name>Devil's Sight</name>
-			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The abishai's weapon attacks are magical.</text>
-		</trait>
-		<trait>
-			<name>Spellcasting</name>
-			<text>The abishai is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The abishai has the following wizard spells prepared:</text>
-			<text></text>
-			<text>Cantrips (at will): friends, mage hand, message, minor illusion, shocking grasp</text>
-			<text>1st level (4 slots): chromatic orb, disguise self, expeditious retreat, magic missile, charm person, thunderwave</text>
-			<text>2nd level (3 slots): darkness, mirror image, misty step</text>
-			<text>3rd level (3 slots): dispel magic, fear, lightning bolt</text>
-			<text>4th level (3 slots): dimension door, greater invisibility, ice storm</text>
-			<text>5th level (2 slots): cone of cold, wall of force</text>
-			<text>6th level (1 slot): chain lightning</text>
-			<text>7th level (1 slot): teleport</text>
-			<attack>Spell Attack|12|</attack>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The abishai makes two attacks: one with its quarterstaff and one with its bite.</text>
-		</action>
-		<action>
-			<name>Quarterstaff</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if used with two hands.</text>
-			<attack>Quarterstaff|8|1d6+2</attack>
-			<attack>Quarterstaff (2H)|8|1d8+2</attack>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d10 + 2) piercing damage plus 14 (4d6) lightning damage.</text>
-			<attack>Bite|8|2d10+2+4d6</attack>
-		</action>
-		<spells>Friends, Mage Hand, Message, Minor Illusion, Shocking Grasp, Chromatic Orb, Disguise Self, Expeditious Retreat, Magic Missile, Charm Person, Thunderwave, Darkness, Mirror Image, Misty Step, Dispel Magic, Fear, Lightning Bolt, Dimension Door, Greater Invisibility, Ice Storm, Cone of Cold, Wall of Force, Chain Lightning, Teleport</spells>
-		<slots>4,3,3,3,2,1,1</slots>
 	</monster>
 	<monster name="Boneclaw">
 		<name>Boneclaw</name>
@@ -3743,60 +3685,6 @@
 		<spells>Dimension Door, Fear, Phantasmal Force</spells>
 		<slots/>
 	</monster>
-	<monster name="Earth Elemental Myrmidon">
-		<name>Earth Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>30 ft.</speed>
-		<str>18</str>
-		<dex>10</dex>
-		<con>17</con>
-		<int>8</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<save/>
-		<skill/>
-		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable/>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Terran, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes two maul attacks.</text>
-		</action>
-		<action>
-			<name>Maul</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage.</text>
-			<attack>Maul|7|2d6+4</attack>
-		</action>
-		<action>
-			<name>Thunderous Strike (Recharge 6)</name>
-			<text>The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
-			<text/>
-			<text>Prone:</text>
-			<text>• A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</text>
-			<text/>
-			<text>• The creature has disadvantage on attack rolls.</text>
-			<text/>
-			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
-			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
-			<recharge>D6</recharge>
-		</action>
-		<spells/>
-		<slots/>
-	</monster>
 	<monster name="Eidolon">
 		<name>Eidolon</name>
 		<size>M</size>
@@ -3859,122 +3747,328 @@
 		<spells/>
 		<slots/>
 	</monster>
-	<monster name="Elder Oblex">
-		<name>Elder Oblex</name>
-		<size>H</size>
-		<type>ooze</type>
+	<monster name="Eladrin, Autumn">
+		<name>Eladrin, Autumn</name>
+		<size>M</size>
+		<type>fey (elf)</type>
 		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>lawful evil</alignment>
-		<ac>16</ac>
-		<hp>115 (10d12+50)</hp>
-		<speed>20 ft.</speed>
-		<str>15</str>
+		<alignment>chaotic neutral</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>30 ft.</speed>
+		<str>12</str>
 		<dex>16</dex>
-		<con>21</con>
-		<int>22</int>
-		<wis>13</wis>
+		<con>16</con>
+		<int>14</int>
+		<wis>17</wis>
 		<cha>18</cha>
-		<save>Int +10, Cha +8</save>
-		<skill>Arcana +10, Deception +8, History +10, Nature +10, Perception +5, Religion +10</skill>
-		<resist/>
+		<save/>
+		<skill>Insight +7, Medicine +7</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
 		<vulnerable/>
 		<immune/>
-		<conditionImmune>blinded, charmed, deafened, exhaustion, prone</conditionImmune>
-		<senses>blindsight 60 ft. (blind beyond this distance)</senses>
-		<passive>15</passive>
-		<languages>Common plus six more</languages>
+		<conditionImmune/>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Elvish, Sylvan</languages>
 		<cr>10</cr>
 		<trait>
-			<name>Ooze Nature</name>
-			<text>An oblex doesn't require sleep.</text>
+			<name>Enchanting Presence</name>
+			<text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.</text>
+			<text>Whenever the eladrin deals damage to the charmed creature, the creature can repeat the saving throw, ending the effect on itself on a success.</text>
+			<text/>
+			<text>Charmed:</text>
+			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
+			<text/>
+			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
 		</trait>
 		<trait>
-			<name>Amorphous</name>
-			<text>The oblex can move through a space as narrow as 1 inch wide without squeezing.</text>
-		</trait>
-		<trait>
-			<name>Aversion to Fire</name>
-			<text>If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</text>
+			<name>Fey Step (Recharge 4-6)</name>
+			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
+			<recharge>D4</recharge>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The oblex's innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no material components:</text>
+			<text>The eladrin's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
 			<text></text>
-			<text>At will: charm person (as 5th-level spell), detect thoughts, hold person</text>
-			<text>3/day each: confusion, dimension door, dominate person, fear, hallucinatory terrain, hold monster, hypnotic pattern, telekinesis</text>
+			<text>At will: calm emotions, sleep</text>
+			<text>3/day each: cure wounds (as a 5th-level spell), lesser restoration</text>
+			<text>1/day each: greater restoration, heal, raise dead</text>
+		</trait>
+		<trait>
+			<name>Cure Wounds (as a 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lesser Restoration</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Restoration</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Heal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Raise Dead</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands, plus 18 (4d8) psychic damage.</text>
+			<attack>Longsword|5|1d8+1+4d8</attack>
+			<attack>Longsword (2H)|5|1d10+1+4d8</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 18 (4d8) psychic damage.</text>
+			<attack>Longbow|7|1d8+3+4d8</attack>
+		</action>
+		<reaction>
+			<name>Foster Peace</name>
+			<text>If a creature charmed by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker.</text>
+		</reaction>
+		<spells>Calm Emotions, Sleep, Cure Wounds, Lesser Restoration, Greater Restoration, Heal, Raise Dead</spells>
+		<slots>0</slots>
+	</monster>
+	<monster name="Eladrin, Spring">
+		<name>Eladrin, Spring</name>
+		<size>M</size>
+		<type>fey (elf)</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>18</int>
+		<wis>11</wis>
+		<cha>18</cha>
+		<save/>
+		<skill>Deception +8, Persuasion +8</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Fey Step (Recharge 4-6)</name>
+			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
+			<recharge>D4</recharge>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The eladrin's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: charm person, Tasha's hideous laughter</text>
+			<text>3/day each: confusion, enthrall, suggestion</text>
+			<text>1/day each: hallucinatory terrain, Otto's irresistible dance</text>
 		</trait>
 		<trait>
 			<name>Confusion</name>
 			<recharge>3/day</recharge>
 		</trait>
 		<trait>
-			<name>Dimension Door</name>
+			<name>Enthrall</name>
 			<recharge>3/day</recharge>
 		</trait>
 		<trait>
-			<name>Dominate Person</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Fear</name>
+			<name>Suggestion</name>
 			<recharge>3/day</recharge>
 		</trait>
 		<trait>
 			<name>Hallucinatory Terrain</name>
-			<recharge>3/day</recharge>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
-			<name>Hold Monster</name>
-			<recharge>3/day</recharge>
+			<name>Otto's Irresistible Dance</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
-			<name>Hypnotic Pattern</name>
-			<recharge>3/day</recharge>
+			<name>Joyful Presence</name>
+			<text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.</text>
+			<text>Whenever the eladrin deals damage to the charmed creature, it can repeat the saving throw, ending the effect on itself on a success.</text>
+			<text/>
+			<text>Charmed:</text>
+			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
+			<text/>
+			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
 		</trait>
 		<trait>
-			<name>Telekinesis</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Sulfurous Impersonation</name>
-			<text>As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. For all practical purposes, the simulacrum is the oblex, meaning the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed.</text>
-			<attack>Creatures||2d6+1</attack>
+			<name>Magic Resistance</name>
+			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The elder oblex makes two pseudopod attacks and uses Eat Memories.</text>
+			<text>The eladrin makes two weapon attacks. The eladrin can cast one spell in place of one of these attacks.</text>
 		</action>
 		<action>
-			<name>Pseudopod</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (4d6 + 3) bludgeoning damage plus 7 (2d6) psychic damage.</text>
-			<attack>Pseudopod|7|4d6+3+2d6</attack>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands, plus 4 (1d8) psychic damage.</text>
+			<attack>Longsword|6|1d8+2</attack>
+			<attack>Longsword (2H)|6|1d10+2</attack>
 		</action>
 		<action>
-			<name>Eat Memories</name>
-			<text>The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 18 Wisdom saving throw or take 44 (8d10) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.</text>
-			<text>While memory drained, the target must roll a d4 and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.</text>
-			<text>When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except any saving throw proficiencies.</text>
-			<text/>
-			<text>Unconscious:</text>
-			<text>• An unconscious creature is incapacitated, meaning it can't take actions or reactions, can't move or speak, and is unaware of its surroundings.</text>
-			<text/>
-			<text>• The creature drops whatever it's holding and falls prone.</text>
-			<text/>
-			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
-			<text/>
-			<text>• Attack rolls against the creature have advantage.</text>
-			<text/>
-			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
-			<attack>Psychic Damage||8d10</attack>
-			<attack>Reduction||1d4</attack>
-			<attack>Reduction||1d6</attack>
-			<attack>Reduction||1d8</attack>
-			<attack>Reduction||1d10</attack>
-			<attack>Reduction||1d12</attack>
-			<attack>Reduction||1d20</attack>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) psychic damage.</text>
+			<attack>Longbow|7|1d8+3+1d8</attack>
 		</action>
-		<spells>Charm Person, Detect Thoughts, Hold Person, Confusion, Dimension Door, Dominate Person, Fear, Hallucinatory Terrain, Hold Monster, Hypnotic Pattern, Telekinesis</spells>
+		<spells>Charm Person, Tasha's Hideous Laughter, Confusion, Enthrall, Suggestion, Hallucinatory Terrain, Otto's Irresistible Dance</spells>
+		<slots>0</slots>
+	</monster>
+	<monster name="Eladrin, Summer">
+		<name>Eladrin, Summer</name>
+		<size>M</size>
+		<type>fey (elf)</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>50 ft.</speed>
+		<str>19</str>
+		<dex>21</dex>
+		<con>16</con>
+		<int>14</int>
+		<wis>12</wis>
+		<cha>18</cha>
+		<save/>
+		<skill>Athletics +8, Intimidation +8</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Fearsome Presence</name>
+			<text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes frightened of the eladrin for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours.</text>
+			<text/>
+			<text>Frightened:</text>
+			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
+			<text/>
+			<text>• The creature can't willingly move closer to the source of its fear.</text>
+		</trait>
+		<trait>
+			<name>Fey Step (Recharge 4-6)</name>
+			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
+			<recharge>D4</recharge>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The eladrin makes two weapon attacks.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands, plus 4 (1d8) fire damage.</text>
+			<attack>Longsword|8|2d8+4+1d8</attack>
+			<attack>Longsword (2H)|8|2d10+4+1d8</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 4 (1d8) fire damage.</text>
+			<attack>Longbow|9|2d8+5+1d8</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+		<spells/>
 		<slots/>
+	</monster>
+	<monster name="Eladrin, Winter">
+		<name>Eladrin, Winter</name>
+		<size>M</size>
+		<type>fey (elf)</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>10</dex>
+		<con>16</con>
+		<int>18</int>
+		<wis>17</wis>
+		<cha>13</cha>
+		<save/>
+		<skill/>
+		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Fey Step (Recharge 4-6)</name>
+			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
+			<recharge>D4</recharge>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The eladrin's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: fog cloud, gust of wind</text>
+			<text>1/day each: cone of cold, ice storm</text>
+		</trait>
+		<trait>
+			<name>Cone of Cold</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Ice Storm</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Sorrowful Presence</name>
+			<text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 13 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. While charmed in this way, the creature has disadvantage on ability checks and saving throws. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.</text>
+			<text>Whenever the eladrin deals damage to the charmed creature, it can repeat the saving throw, ending the effect on itself on a success.</text>
+			<text/>
+			<text>Charmed:</text>
+			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
+			<text/>
+			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
+		</trait>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) slashing damage, or 5 (1d10) slashing damage if used with two hands.</text>
+			<attack>Longsword|4|1d8</attack>
+			<attack>Longsword (2H)|4|1d10</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 4 (1d8) piercing damage.</text>
+			<attack>Longbow|4|1d8</attack>
+		</action>
+		<reaction>
+			<name>Frigid Rebuke</name>
+			<text>When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to succeed on a DC 16 Constitution saving throw or take 11 (2d10) cold damage.</text>
+			<attack>Cold Damage||2d10</attack>
+		</reaction>
+		<spells>Fog Cloud, Gust of Wind, Cone of Cold, Ice Storm</spells>
+		<slots>0</slots>
 	</monster>
 	<monster name="Elder Tempest">
 		<name>Elder Tempest</name>
@@ -4068,8 +4162,116 @@
 		<spells/>
 		<slots/>
 	</monster>
-	<monster name="Fire Elemental Myrmidon">
-		<name>Fire Elemental Myrmidon</name>
+	<monster name="Elemental Myrmidon, Air">
+		<name>Elemental Myrmidon, Air</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<save/>
+		<skill/>
+		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable/>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Auran, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three flail attacks.</text>
+		</action>
+		<action>
+			<name>Flail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage.</text>
+			<attack>Flail|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Lightning Strike (Recharge 6)</name>
+			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
+			<text/>
+			<text>Stunned:</text>
+			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
+			<text/>
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text/>
+			<text>• Attack rolls against the creature have advantage.</text>
+			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+			<recharge>D6</recharge>
+		</action>
+		<spells/>
+		<slots/>
+	</monster>
+	<monster name="Elemental Myrmidon, Earth">
+		<name>Elemental Myrmidon, Earth</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>8</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<save/>
+		<skill/>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable/>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Terran, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes two maul attacks.</text>
+		</action>
+		<action>
+			<name>Maul</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage.</text>
+			<attack>Maul|7|2d6+4</attack>
+		</action>
+		<action>
+			<name>Thunderous Strike (Recharge 6)</name>
+			<text>The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<text/>
+			<text>Prone:</text>
+			<text>• A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</text>
+			<text/>
+			<text>• The creature has disadvantage on attack rolls.</text>
+			<text/>
+			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
+			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
+			<recharge>D6</recharge>
+		</action>
+		<spells/>
+		<slots/>
+	</monster>
+	<monster name="Elemental Myrmidon, Fire">
+		<name>Elemental Myrmidon, Fire</name>
 		<size>M</size>
 		<type>elemental</type>
 		<description>Source: Mordenkainen's Tome of Foes</description>
@@ -4118,6 +4320,53 @@
 			<name>Fiery Strikes (Recharge 6)</name>
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
 			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
+			<recharge>D6</recharge>
+		</action>
+		<spells/>
+		<slots/>
+	</monster>
+	<monster name="Elemental Myrmidon, Water">
+		<name>Elemental Myrmidon, Water</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>40 ft., swim 40 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>8</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<save/>
+		<skill/>
+		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable/>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three trident attacks.</text>
+		</action>
+		<action>
+			<name>Trident</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Trident|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Freezing Strikes (Recharge 6)</name>
+			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
+			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
 			<recharge>D6</recharge>
 		</action>
 		<spells/>
@@ -5235,97 +5484,6 @@
 		<spells>Charm Person, Crown of Madness, Detect Magic, Dispel Magic, Dissonant Whispers, Counterspell, Darkness, Dominate Person, Sanctuary, Telekinesis, Teleport, Dominate Monster, Greater Invisibility</spells>
 		<slots/>
 	</monster>
-	<monster name="Green Abishai">
-		<name>Green Abishai</name>
-		<size>M</size>
-		<type>fiend (devil)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>lawful evil</alignment>
-		<ac>18 (natural armor)</ac>
-		<hp>187 (25d8+75)</hp>
-		<speed>30 ft., fly 40 ft.</speed>
-		<str>12</str>
-		<dex>17</dex>
-		<con>16</con>
-		<int>17</int>
-		<wis>12</wis>
-		<cha>19</cha>
-		<save>Int +8, Cha +9</save>
-		<skill>Deception + 9, Insight +6, Perception +6, Persuasion +9</skill>
-		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-		<vulnerable/>
-		<immune>fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 120 ft.</senses>
-		<passive>16</passive>
-		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
-		<cr>15</cr>
-		<trait>
-			<name>Devil's Sight</name>
-			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The abishai's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:</text>
-			<text></text>
-			<text>At will: alter self, major image</text>
-			<text>3/day each: charm person, detect thoughts, fear</text>
-			<text>1/day each: confusion, dominate person, mass suggestion</text>
-		</trait>
-		<trait>
-			<name>Charm Person</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Detect Thoughts</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Fear</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Confusion</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Dominate Person</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Mass Suggestion</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The abishai's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The abishai makes two attacks, one with its claws and one with its longsword, or it casts one spell from its Innate Spellcasting trait and makes one claw attack.</text>
-		</action>
-		<action>
-			<name>Longsword</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.</text>
-			<attack>Longsword|6|1d8+1</attack>
-			<attack>Longsword (2H)|6|1d10+1</attack>
-		</action>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or take 11 (2d10) poison damage and become poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<text/>
-			<text>Poisoned:</text>
-			<text>• A poisoned creature has disadvantage on attack rolls and ability checks.</text>
-			<attack>Claws|8|2d8+3</attack>
-			<attack>Poison Damage||2d8+3</attack>
-		</action>
-		<spells>Alter Self, Major Image, Charm Person, Detect Thoughts, Fear, Confusion, Dominate Person, Mass Suggestion</spells>
-		<slots/>
-	</monster>
 	<monster name="Hellfire Engine">
 		<name>Hellfire Engine</name>
 		<size>H</size>
@@ -6058,6 +6216,93 @@
 			<text>The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<recharge>D5</recharge>
 			<attack>Acid Damage||4d10</attack>
+		</action>
+		<spells/>
+		<slots/>
+	</monster>
+	<monster name="Kruthik, Adult">
+		<name>Kruthik, Adult</name>
+		<size>M</size>
+		<type>monstrosity</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>unaligned</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>39 (6d8+12)</hp>
+		<speed>40 ft., burrow 20 ft., climb 40 ft.</speed>
+		<str>15</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>7</int>
+		<wis>12</wis>
+		<cha>8</cha>
+		<save/>
+		<skill/>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Kruthik</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Keen Smell</name>
+			<text>The kruthik has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Tunneler</name>
+			<text>The kruthik can burrow through solid rock at half its burrowing speed and leaves a 5-foot-diameter tunnel in its wake.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The kruthik makes two stab attacks or two spike attacks.</text>
+		</action>
+		<action>
+			<name>Stab</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Stab|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Spike</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Spike|5|1d4+3</attack>
+		</action>
+		<spells/>
+		<slots/>
+	</monster>
+	<monster name="Kruthik, Young">
+		<name>Kruthik, Young</name>
+		<size>S</size>
+		<type>monstrosity</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>9 (2d6+2)</hp>
+		<speed>30 ft., burrow 10 ft., climb 30 ft.</speed>
+		<str>13</str>
+		<dex>16</dex>
+		<con>13</con>
+		<int>4</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<save/>
+		<skill/>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses>darkvision 30 ft., tremorsense 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Kruthik</languages>
+		<cr>1/8</cr>
+		<action>
+			<name>Stab</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Stab|5|1d4+3</attack>
 		</action>
 		<spells/>
 		<slots/>
@@ -7206,6 +7451,223 @@
 		<spells/>
 		<slots/>
 	</monster>
+	<monster name="Oblex, Adult">
+		<name>Oblex, Adult</name>
+		<size>M</size>
+		<type>ooze</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>lawful evil</alignment>
+		<ac>14</ac>
+		<hp>75 (10d8+30)</hp>
+		<speed>20 ft.</speed>
+		<str>8</str>
+		<dex>19</dex>
+		<con>16</con>
+		<int>19</int>
+		<wis>12</wis>
+		<cha>15</cha>
+		<save>Int +7, Cha +5</save>
+		<skill>Deception +5, Perception +4, plus one of the following Arcana +7, History +7, Nature +7, or Religion +7</skill>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune>blinded, charmed, deafened, exhaustion, prone</conditionImmune>
+		<senses>blindsight 60 ft. (blind beyond this distance)</senses>
+		<passive>14</passive>
+		<languages>Common plus two more languages</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Ooze Nature</name>
+			<text>An oblex doesn't require sleep.</text>
+		</trait>
+		<trait>
+			<name>Amorphous</name>
+			<text>The oblex can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Aversion to Fire</name>
+			<text>If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The oblex's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
+			<text>3/day each: charm person (as 5th-level spell), color spray, detect thoughts, hold person (as 3rd-level spell)</text>
+		</trait>
+		<trait>
+			<name>Charm Person (as 5th-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Color Spray</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Person (as 3rd-level spell)</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sulfurous Impersonation</name>
+			<text>As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 1d4 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. For all practical purposes, the simulacrum is the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed.</text>
+			<attack>Creatures||1d4+1</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The oblex makes one pseudopod attack and uses Eat Memories.</text>
+		</action>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 5 (2d4) psychic damage.</text>
+			<attack>Pseudopod|7|1d6+4+2d4</attack>
+		</action>
+		<action>
+			<name>Eat Memories</name>
+			<text>The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 15 Wisdom saving throw or take 18 (4d8) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.</text>
+			<text>While memory drained, the target must roll a d4 and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.</text>
+			<text>When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies.</text>
+			<text/>
+			<text>Unconscious:</text>
+			<text>• An unconscious creature is incapacitated, meaning it can't take actions or reactions, can't move or speak, and is unaware of its surroundings.</text>
+			<text/>
+			<text>• The creature drops whatever it's holding and falls prone.</text>
+			<text/>
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text/>
+			<text>• Attack rolls against the creature have advantage.</text>
+			<text/>
+			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<attack>Psychic Damage||4d8</attack>
+			<attack>Reduction||1d4</attack>
+			<attack>Reduction||1d6</attack>
+			<attack>Reduction||1d8</attack>
+			<attack>Reduction||1d10</attack>
+			<attack>Reduction||1d12</attack>
+			<attack>Reduction||1d20</attack>
+		</action>
+		<spells>Charm Person, Color Spray, Detect Thoughts, Hold Person</spells>
+		<slots/>
+	</monster>
+	<monster name="Oblex, Elder">
+		<name>Oblex, Elder</name>
+		<size>H</size>
+		<type>ooze</type>
+		<description>Source: Mordenkainen's Tome of Foes</description>
+		<alignment>lawful evil</alignment>
+		<ac>16</ac>
+		<hp>115 (10d12+50)</hp>
+		<speed>20 ft.</speed>
+		<str>15</str>
+		<dex>16</dex>
+		<con>21</con>
+		<int>22</int>
+		<wis>13</wis>
+		<cha>18</cha>
+		<save>Int +10, Cha +8</save>
+		<skill>Arcana +10, Deception +8, History +10, Nature +10, Perception +5, Religion +10</skill>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune>blinded, charmed, deafened, exhaustion, prone</conditionImmune>
+		<senses>blindsight 60 ft. (blind beyond this distance)</senses>
+		<passive>15</passive>
+		<languages>Common plus six more</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Ooze Nature</name>
+			<text>An oblex doesn't require sleep.</text>
+		</trait>
+		<trait>
+			<name>Amorphous</name>
+			<text>The oblex can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Aversion to Fire</name>
+			<text>If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The oblex's innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: charm person (as 5th-level spell), detect thoughts, hold person</text>
+			<text>3/day each: confusion, dimension door, dominate person, fear, hallucinatory terrain, hold monster, hypnotic pattern, telekinesis</text>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dimension Door</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dominate Person</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Fear</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hallucinatory Terrain</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hold Monster</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Hypnotic Pattern</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Telekinesis</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sulfurous Impersonation</name>
+			<text>As a bonus action, the oblex can extrude a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. For all practical purposes, the simulacrum is the oblex, meaning the oblex occupies its space and the simulacrum's space simultaneously. The slimy tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex's main body and the simulacrum. The simulacrum disappears if the tether is severed.</text>
+			<attack>Creatures||2d6+1</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elder oblex makes two pseudopod attacks and uses Eat Memories.</text>
+		</action>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (4d6 + 3) bludgeoning damage plus 7 (2d6) psychic damage.</text>
+			<attack>Pseudopod|7|4d6+3+2d6</attack>
+		</action>
+		<action>
+			<name>Eat Memories</name>
+			<text>The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 18 Wisdom saving throw or take 44 (8d10) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.</text>
+			<text>While memory drained, the target must roll a d4 and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.</text>
+			<text>When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except any saving throw proficiencies.</text>
+			<text/>
+			<text>Unconscious:</text>
+			<text>• An unconscious creature is incapacitated, meaning it can't take actions or reactions, can't move or speak, and is unaware of its surroundings.</text>
+			<text/>
+			<text>• The creature drops whatever it's holding and falls prone.</text>
+			<text/>
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text/>
+			<text>• Attack rolls against the creature have advantage.</text>
+			<text/>
+			<text>• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</text>
+			<attack>Psychic Damage||8d10</attack>
+			<attack>Reduction||1d4</attack>
+			<attack>Reduction||1d6</attack>
+			<attack>Reduction||1d8</attack>
+			<attack>Reduction||1d10</attack>
+			<attack>Reduction||1d12</attack>
+			<attack>Reduction||1d20</attack>
+		</action>
+		<spells>Charm Person, Detect Thoughts, Hold Person, Confusion, Dimension Door, Dominate Person, Fear, Hallucinatory Terrain, Hold Monster, Hypnotic Pattern, Telekinesis</spells>
+		<slots/>
+	</monster>
 	<monster name="Oblex Spawn">
 		<name>Oblex Spawn</name>
 		<size>T</size>
@@ -7855,87 +8317,6 @@
 			<name>Swoop (Costs 2 Actions)</name>
 			<text>The phoenix moves up to its speed and attacks with its fiery talons.</text>
 		</legendary>
-		<spells/>
-		<slots/>
-	</monster>
-	<monster name="Red Abishai">
-		<name>Red Abishai</name>
-		<size>M</size>
-		<type>fiend (devil)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>lawful evil</alignment>
-		<ac>22 (natural armor)</ac>
-		<hp>255 (30d8+120)</hp>
-		<speed>30 ft., fly 50 ft.</speed>
-		<str>23</str>
-		<dex>16</dex>
-		<con>19</con>
-		<int>14</int>
-		<wis>15</wis>
-		<cha>19</cha>
-		<save>Str +12, Con +10, Wis +8</save>
-		<skill>Intimidation +10, Perception +8</skill>
-		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-		<vulnerable/>
-		<immune>fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 120 ft.</senses>
-		<passive>18</passive>
-		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
-		<cr>19</cr>
-		<trait>
-			<name>Devil's Sight</name>
-			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The abishai's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The abishai can use its Frightful Presence. It also makes three attacks: one with its morningstar, one with its claw, and one with its bite.</text>
-		</action>
-		<action>
-			<name>Morningstar</name>
-			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) piercing damage.</text>
-			<attack>Morningstar|12|1d8+6</attack>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.</text>
-			<attack>Claw|12|2d10+6</attack>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 33 (5d10 + 6) piercing damage plus 38 (7d10) fire damage.</text>
-			<attack>Bite|12|5d10+6+7d10</attack>
-		</action>
-		<action>
-			<name>Frightful Presence</name>
-			<text>Each creature of the abishai's choice that is within 120 feet and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened of it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours.</text>
-			<text/>
-			<text>Frightened:</text>
-			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
-			<text/>
-			<text>• The creature can't willingly move closer to the source of its fear.</text>
-		</action>
-		<action>
-			<name>Incite Fanaticism</name>
-			<text>The abishai chooses up to four of its allies within 60 feet of it that can see it. For 1 minute, each of those allies makes attack rolls with advantage and can't be frightened.</text>
-		</action>
-		<action>
-			<name>Power of the Dragon Queen</name>
-			<text>The abishai targets one dragon it can see within 120 feet of it. The dragon must make a DC 18 Charisma saving throw. A chromatic dragon makes this save with disadvantage. On a successful save, the target is immune to the abishai's Power of the Dragon Queen for 1 hour. On a failed save, the target is charmed by the abishai for 1 hour. While charmed in this way, the target regards the abishai as a trusted friend to be heeded and protected. This effect ends if the abishai or its companions deal damage to the target.</text>
-			<text/>
-			<text>Charmed:</text>
-			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
-			<text/>
-			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
-		</action>
 		<spells/>
 		<slots/>
 	</monster>
@@ -8691,96 +9072,6 @@
 		<spells/>
 		<slots/>
 	</monster>
-	<monster name="Spring Eladrin">
-		<name>Spring Eladrin</name>
-		<size>M</size>
-		<type>fey (elf)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>19 (natural armor)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>30 ft.</speed>
-		<str>14</str>
-		<dex>16</dex>
-		<con>16</con>
-		<int>18</int>
-		<wis>11</wis>
-		<cha>18</cha>
-		<save/>
-		<skill>Deception +8, Persuasion +8</skill>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Common, Elvish, Sylvan</languages>
-		<cr>10</cr>
-		<trait>
-			<name>Fey Step (Recharge 4-6)</name>
-			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
-			<recharge>D4</recharge>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The eladrin's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
-			<text></text>
-			<text>At will: charm person, Tasha's hideous laughter</text>
-			<text>3/day each: confusion, enthrall, suggestion</text>
-			<text>1/day each: hallucinatory terrain, Otto's irresistible dance</text>
-		</trait>
-		<trait>
-			<name>Confusion</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Enthrall</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Suggestion</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Hallucinatory Terrain</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Otto's Irresistible Dance</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Joyful Presence</name>
-			<text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.</text>
-			<text>Whenever the eladrin deals damage to the charmed creature, it can repeat the saving throw, ending the effect on itself on a success.</text>
-			<text/>
-			<text>Charmed:</text>
-			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
-			<text/>
-			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The eladrin makes two weapon attacks. The eladrin can cast one spell in place of one of these attacks.</text>
-		</action>
-		<action>
-			<name>Longsword</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands, plus 4 (1d8) psychic damage.</text>
-			<attack>Longsword|6|1d8+2</attack>
-			<attack>Longsword (2H)|6|1d10+2</attack>
-		</action>
-		<action>
-			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) psychic damage.</text>
-			<attack>Longbow|7|1d8+3+1d8</attack>
-		</action>
-		<spells>Charm Person, Tasha's Hideous Laughter, Confusion, Enthrall, Suggestion, Hallucinatory Terrain, Otto's Irresistible Dance</spells>
-		<slots>0</slots>
-	</monster>
 	<monster name="Star Spawn Grue">
 		<name>Star Spawn Grue</name>
 		<size>S</size>
@@ -9530,71 +9821,6 @@
 		<reaction>
 			<name>Intercept Attack</name>
 			<text>In response to another creature within 5 feet of it being hit by an attack roll, the stone defender gives that creature a +5 bonus to its AC against that attack, potentially causing a miss. To use this ability, the stone defender must be able to see the creature and the attacker.</text>
-		</reaction>
-		<spells/>
-		<slots/>
-	</monster>
-	<monster name="Summer Eladrin">
-		<name>Summer Eladrin</name>
-		<size>M</size>
-		<type>fey (elf)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>19 (natural armor)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>50 ft.</speed>
-		<str>19</str>
-		<dex>21</dex>
-		<con>16</con>
-		<int>14</int>
-		<wis>12</wis>
-		<cha>18</cha>
-		<save/>
-		<skill>Athletics +8, Intimidation +8</skill>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses>darkvision 60 ft.</senses>
-		<passive>9</passive>
-		<languages>Common, Elvish, Sylvan</languages>
-		<cr>10</cr>
-		<trait>
-			<name>Fearsome Presence</name>
-			<text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes frightened of the eladrin for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours.</text>
-			<text/>
-			<text>Frightened:</text>
-			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
-			<text/>
-			<text>• The creature can't willingly move closer to the source of its fear.</text>
-		</trait>
-		<trait>
-			<name>Fey Step (Recharge 4-6)</name>
-			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
-			<recharge>D4</recharge>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The eladrin makes two weapon attacks.</text>
-		</action>
-		<action>
-			<name>Longsword</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands, plus 4 (1d8) fire damage.</text>
-			<attack>Longsword|8|2d8+4+1d8</attack>
-			<attack>Longsword (2H)|8|2d10+4+1d8</attack>
-		</action>
-		<action>
-			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 4 (1d8) fire damage.</text>
-			<attack>Longbow|9|2d8+5+1d8</attack>
-		</action>
-		<reaction>
-			<name>Parry</name>
-			<text>The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 		<spells/>
 		<slots/>
@@ -10408,199 +10634,6 @@
 		<spells/>
 		<slots/>
 	</monster>
-	<monster name="Water Elemental Myrmidon">
-		<name>Water Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>40 ft., swim 40 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>15</con>
-		<int>8</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<save/>
-		<skill/>
-		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable/>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Aquan, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes three trident attacks.</text>
-		</action>
-		<action>
-			<name>Trident</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
-			<attack>Trident|7|1d6+4</attack>
-		</action>
-		<action>
-			<name>Freezing Strikes (Recharge 6)</name>
-			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
-			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
-			<recharge>D6</recharge>
-		</action>
-		<spells/>
-		<slots/>
-	</monster>
-	<monster name="White Abishai">
-		<name>White Abishai</name>
-		<size>M</size>
-		<type>fiend (devil)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>lawful evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>68 (8d8+32)</hp>
-		<speed>30 ft., fly 40 ft.</speed>
-		<str>16</str>
-		<dex>11</dex>
-		<con>18</con>
-		<int>11</int>
-		<wis>12</wis>
-		<cha>13</cha>
-		<save>Str +6, Con +7</save>
-		<skill/>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-		<vulnerable/>
-		<immune>cold, fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 120 ft.</senses>
-		<passive>11</passive>
-		<languages>Draconic, Infernal, telepathy 120 ft.</languages>
-		<cr>6</cr>
-		<trait>
-			<name>Devil's Sight</name>
-			<text>Magical darkness doesn't impede the abishai's darkvision.</text>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The abishai's weapon attacks are magical.</text>
-		</trait>
-		<trait>
-			<name>Reckless</name>
-			<text>At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The abishai makes two attacks: one with its longsword and one with its claw.</text>
-		</action>
-		<action>
-			<name>Longsword</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
-			<attack>Longsword|6|1d8+3</attack>
-			<attack>Longsword (2H)|6|1d10+3</attack>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage.</text>
-			<attack>Claw|6|1d10+3</attack>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (1d6) cold damage.</text>
-			<attack>Bite|6|1d4+3+1d6</attack>
-		</action>
-		<reaction>
-			<name>Vicious Reprisal</name>
-			<text>In response to taking damage, the abishai makes a bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking opportunity attacks.</text>
-		</reaction>
-		<spells/>
-		<slots/>
-	</monster>
-	<monster name="Winter Eladrin">
-		<name>Winter Eladrin</name>
-		<size>M</size>
-		<type>fey (elf)</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>19 (natural armor)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>30 ft.</speed>
-		<str>11</str>
-		<dex>10</dex>
-		<con>16</con>
-		<int>18</int>
-		<wis>17</wis>
-		<cha>13</cha>
-		<save/>
-		<skill/>
-		<resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses>darkvision 60 ft.</senses>
-		<passive>13</passive>
-		<languages>Common, Elvish, Sylvan</languages>
-		<cr>10</cr>
-		<trait>
-			<name>Fey Step (Recharge 4-6)</name>
-			<text>As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see.</text>
-			<recharge>D4</recharge>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The eladrin's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no material components:</text>
-			<text></text>
-			<text>At will: fog cloud, gust of wind</text>
-			<text>1/day each: cone of cold, ice storm</text>
-		</trait>
-		<trait>
-			<name>Cone of Cold</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Ice Storm</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Sorrowful Presence</name>
-			<text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 13 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. While charmed in this way, the creature has disadvantage on ability checks and saving throws. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.</text>
-			<text>Whenever the eladrin deals damage to the charmed creature, it can repeat the saving throw, ending the effect on itself on a success.</text>
-			<text/>
-			<text>Charmed:</text>
-			<text>• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</text>
-			<text/>
-			<text>• The charmer has advantage on any ability check to interact socially with the creature.</text>
-		</trait>
-		<action>
-			<name>Longsword</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) slashing damage, or 5 (1d10) slashing damage if used with two hands.</text>
-			<attack>Longsword|4|1d8</attack>
-			<attack>Longsword (2H)|4|1d10</attack>
-		</action>
-		<action>
-			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 4 (1d8) piercing damage.</text>
-			<attack>Longbow|4|1d8</attack>
-		</action>
-		<reaction>
-			<name>Frigid Rebuke</name>
-			<text>When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to succeed on a DC 16 Constitution saving throw or take 11 (2d10) cold damage.</text>
-			<attack>Cold Damage||2d10</attack>
-		</reaction>
-		<spells>Fog Cloud, Gust of Wind, Cone of Cold, Ice Storm</spells>
-		<slots>0</slots>
-	</monster>
 	<monster name="Yagnoloth">
 		<name>Yagnoloth</name>
 		<size>L</size>
@@ -10814,39 +10847,6 @@
 			<attack>Bite|16|4d10+9</attack>
 		</legendary>
 		<spells>Detect Magic, Spiritual Weapon, Dispel Magic, Fear, Invisibility, Teleport</spells>
-		<slots/>
-	</monster>
-	<monster name="Young Kruthik">
-		<name>Young Kruthik</name>
-		<size>S</size>
-		<type>monstrosity</type>
-		<description>Source: Mordenkainen's Tome of Foes</description>
-		<alignment>unaligned</alignment>
-		<ac>16 (natural armor)</ac>
-		<hp>9 (2d6+2)</hp>
-		<speed>30 ft., burrow 10 ft., climb 30 ft.</speed>
-		<str>13</str>
-		<dex>16</dex>
-		<con>13</con>
-		<int>4</int>
-		<wis>10</wis>
-		<cha>6</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses>darkvision 30 ft., tremorsense 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Kruthik</languages>
-		<cr>1/8</cr>
-		<action>
-			<name>Stab</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-			<attack>Stab|5|1d4+3</attack>
-		</action>
-		<spells/>
 		<slots/>
 	</monster>
 	<monster name="Zaratan">

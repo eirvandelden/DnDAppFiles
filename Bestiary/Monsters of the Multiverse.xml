@@ -1,174 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="MPMM">
-    <monster name="Abjurer Wizard">
-        <name>Abjurer Wizard</name>
+    <monster name="Abishai, Black">
+        <name>Abishai, Black</name>
         <size>M</size>
-        <type>humanoid</type>
+        <type>fiend (devil)</type>
         <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>12</ac>
-        <hp>104 (16d8 + 32)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
-        <dex>14</dex>
+        <alignment>lawful evil</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>58 (9d8 + 18)</hp>
+        <speed>30 ft., fly 40 ft.</speed>
+        <str>14</str>
+        <dex>17</dex>
         <con>14</con>
-        <int>18</int>
-        <wis>12</wis>
+        <int>13</int>
+        <wis>16</wis>
         <cha>11</cha>
-        <save>Int +8, Wis +5</save>
-        <skill>Arcana +8, History +8</skill>
+        <save>Dex +6, Wis +6</save>
+        <skill>Perception +6, Stealth +6</skill>
         <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>any four languages</languages>
-        <cr>9</cr>
+        <resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+        <immune>acid,fire,poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>16</passive>
+        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Devil's Sight</name>
+            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The abishai makes one Bite attack and two Scimitar attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 9 (2d8) acid damage.</text>
+            <attack>Bite|6|1d10+3+2d8</attack>
+        </action>
+        <action>
+            <name>Scimitar</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage.</text>
+            <attack>Scimitar|6|1d6+3</attack>
+        </action>
+        <action>
+            <name>Creeping Darkness (Recharge 6)</name>
+            <text>The abishai casts darkness at a point within 120 feet of it, requiring no spell components or concentration. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action.</text>
+            <recharge>D6</recharge>
+        </action>
+        <action>
+            <name>Bonus Action: Shadow Stealth</name>
+            <text>While in dim light or darkness, the abishai takes the Hide action.</text>
+        </action>
+    </monster>
+    <monster name="Abishai, Blue">
+        <name>Abishai, Blue</name>
+        <size>M</size>
+        <type>fiend (devil,wizard)</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>lawful evil</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>202 (27d8 + 81)</hp>
+        <speed>30 ft., fly 50 ft.</speed>
+        <str>15</str>
+        <dex>14</dex>
+        <con>17</con>
+        <int>22</int>
+        <wis>23</wis>
+        <cha>18</cha>
+        <save>Int +12, Wis +12</save>
+        <skill>Arcana +12</skill>
+        <vulnerable></vulnerable>
+        <resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+        <immune>fire,lightning,poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>16</passive>
+        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
+        <cr>17</cr>
         <trait>
             <name>Spellcasting</name>
-            <text>The abjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 16):</text>
-            <text>At will: dancing lights, mage hand, message, prestidigitation</text>
-            <text>2/Day each: dispel magic, lightning bolt, mage armor</text>
-            <text>1/Day each: arcane lock, banishment, globe of invulnerability, invisibility, wall of force</text>
+            <text>The abishai casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 20):</text>
+            <text>At will: disguise self, mage hand, minor illusion</text>
+            <text>2/Day each: charm person, dispel magic, greater invisibility, wall of force</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Mage Hand,Message,Prestidigitation,Dispel Magic,Lightning Bolt,Mage Armor,Arcane Lock,Banishment,Globe of Invulnerability,Invisibility,Wall of Force</spells>
+        <spells>Disguise Self,Mage Hand,Minor Illusion,Charm Person,Dispel Magic,Greater Invisibility,Wall of Force</spells>
+        <trait>
+            <name>Charm Person</name>
+            <recharge>2/Day</recharge>
+        </trait>
         <trait>
             <name>Dispel Magic</name>
             <recharge>2/Day</recharge>
         </trait>
         <trait>
-            <name>Lightning Bolt</name>
+            <name>Greater Invisibility</name>
             <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Arcane Lock</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Banishment</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Globe of Invulnerability</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Invisibility</name>
-            <recharge>1/Day</recharge>
         </trait>
         <trait>
             <name>Wall of Force</name>
-            <recharge>1/Day</recharge>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Devil's Sight</name>
+            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
         </trait>
         <action>
             <name>Multiattack</name>
-            <text>The abjurer makes three Arcane Burst attacks.</text>
+            <text>The abishai makes three Bite or Lightning Strike attacks.</text>
         </action>
         <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +8 to hit, reach 5 ft. or range 120 ft., one target. Hit: 20 (3d10 + 4) force damage.</text>
-            <attack>Arcane Burst|8|3d10+4</attack>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d10 + 2) piercing damage plus 14 (4d6) lightning damage.</text>
+            <attack>Bite|8|2d10+2+4d6</attack>
         </action>
         <action>
-            <name>Force Blast</name>
-            <text>Each creature in a 20-foot cube originating from the abjurer must make a DC 16 Constitution saving throw. On a failed save, a creature takes 36 (8d8) force damage and is pushed up to 10 feet away from the abjurer. On a successful save, a creature takes half as much damage and isn't pushed.</text>
-            <attack>Force Blast||8d8</attack>
-        </action>
-        <reaction>
-            <name>Arcane Ward (Recharge 4-6)</name>
-            <text>When the abjurer or a creature it can see within 30 feet of it takes damage, the abjurer magically creates a protective barrier around itself or the other creature. The barrier reduces the damage to the protected creature by 26 (4d10 + 4), to a minimum of 0, and then vanishes.</text>
-            <attack>Arcane Ward||4d10+4</attack>
-            <recharge>D4</recharge>
-        </reaction>
-    </monster>
-    <monster name="Adult Kruthik">
-        <name>Adult Kruthik</name>
-        <size>M</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>unaligned</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>39 (6d8 + 12)</hp>
-        <speed>40 ft., burrow 20 ft., climb 40 ft.</speed>
-        <str>15</str>
-        <dex>16</dex>
-        <con>15</con>
-        <int>7</int>
-        <wis>12</wis>
-        <cha>8</cha>
-        <save></save>
-        <skill>Perception +5</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft., tremorsense 60 ft.</senses>
-        <passive>15</passive>
-        <languages>Kruthik</languages>
-        <cr>2</cr>
-        <trait>
-            <name>Pack Tactics</name>
-            <text>The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
-        </trait>
-        <trait>
-            <name>Tunneler</name>
-            <text>The kruthik can burrow through solid rock at half its burrowing speed and leaves a 5-foot-diameter tunnel in its wake.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The kruthik makes two Stab or Spike attacks.</text>
+            <name>Lightning Strike</name>
+            <text>Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit: 36 (8d8) lightning damage.</text>
+            <attack>Lightning Strike|12|8d8</attack>
         </action>
         <action>
-            <name>Stab</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
-            <attack>Stab|5|1d6+3</attack>
-        </action>
-        <action>
-            <name>Spike</name>
-            <text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-            <attack>Spike|5|1d4+3</attack>
+            <name>Bonus Action: Teleport</name>
+            <text>The abishai teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space that it can see.</text>
         </action>
     </monster>
-    <monster name="Adult Oblex">
-        <name>Adult Oblex</name>
+    <monster name="Abishai, Green">
+        <name>Abishai, Green</name>
         <size>M</size>
-        <type>ooze</type>
+        <type>fiend (devil)</type>
         <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
         <alignment>lawful evil</alignment>
-        <ac>14</ac>
-        <hp>75 (10d8 + 30)</hp>
-        <speed>20 ft.</speed>
-        <str>8</str>
-        <dex>19</dex>
+        <ac>18 (natural armor)</ac>
+        <hp>195 (26d8 + 78)</hp>
+        <speed>30 ft., fly 40 ft.</speed>
+        <str>12</str>
+        <dex>17</dex>
         <con>16</con>
-        <int>19</int>
+        <int>17</int>
         <wis>12</wis>
-        <cha>15</cha>
-        <save>Int +7, Cha +5</save>
-        <skill>Deception +5, Perception +4, plus one of the following: Arcana +7, History +7, Nature +7, Religion +7</skill>
+        <cha>19</cha>
+        <save>Int +8, Cha +9</save>
+        <skill>Deception +9, Insight +6, Perception +6, Persuasion +9</skill>
         <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune>blinded,charmed,deafened,exhaustion,prone</conditionImmune>
-        <senses>blindsight 60 ft. (blind beyond this distance)</senses>
-        <passive>14</passive>
-        <languages>Common plus two more languages</languages>
-        <cr>5</cr>
+        <resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+        <immune>fire,poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>16</passive>
+        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
+        <cr>15</cr>
         <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
-            <text>3/Day each: charm person (as 5th-level spell), detect thoughts, hypnotic pattern</text>
+            <name>Spellcasting</name>
+            <text>The abishai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):</text>
+            <text>At will: alter self, major image</text>
+            <text>3/Day each: charm person, detect thoughts, fear</text>
+            <text>1/Day each: confusion, dominate person, mass suggestion</text>
         </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Charm Person,Detect Thoughts,Hypnotic Pattern</spells>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Alter Self,Major Image,Charm Person,Detect Thoughts,Fear,Confusion,Dominate Person,Mass Suggestion</spells>
         <trait>
-            <name>Charm Person (As 5th-Level Spell)</name>
+            <name>Charm Person</name>
             <recharge>3/Day</recharge>
         </trait>
         <trait>
@@ -176,83 +176,161 @@
             <recharge>3/Day</recharge>
         </trait>
         <trait>
-            <name>Hypnotic Pattern</name>
+            <name>Fear</name>
             <recharge>3/Day</recharge>
         </trait>
         <trait>
-            <name>Amorphous</name>
-            <text>The oblex can move through a space as narrow as 1 inch wide without squeezing.</text>
+            <name>Confusion</name>
+            <recharge>1/Day</recharge>
         </trait>
         <trait>
-            <name>Aversion to Fire</name>
-            <text>If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</text>
+            <name>Dominate Person</name>
+            <recharge>1/Day</recharge>
         </trait>
         <trait>
-            <name>Unusual Nature</name>
-            <text>The oblex doesn't require sleep.</text>
+            <name>Mass Suggestion</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Devil's Sight</name>
+            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
         </trait>
         <action>
             <name>Multiattack</name>
-            <text>The oblex makes two pseudopod attacks, and it uses Eat Memories.</text>
+            <text>The abishai makes two Fiendish Claw attacks, or it makes one Fiendish Claw attack and uses Spellcasting.</text>
         </action>
         <action>
-            <name>Pseudopod</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (2d6 + 4) bludgeoning damage plus 7 (2d6) psychic damage.</text>
-            <attack>Pseudopod|7|2d6+4+2d6</attack>
-        </action>
-        <action>
-            <name>Eat Memories</name>
-            <text>The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 15 Wisdom saving throw or take 18 (4d8) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.</text>
-            <text>	While memory drained, the target must roll a d4 and subtract the number rolled from its ability checks and attack rolls. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.</text>
-            <text>	The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies.</text>
-            <attack>Eat Memories||4d8</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Sulfurous Impersonation</name>
-            <text>The oblex extrudes a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 1d4 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. The simulacrum is an extension of the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex and the simulacrum. The simulacrum disappears if the tether is severed.</text>
-            <attack>Sulfurous Impersonation||1d4+1</attack>
+            <name>Fiendish Claw</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) force damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or take 16 (3d10) poison damage and become poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Fiendish Claw|8|2d8+3</attack>
+            <attack>Poison Damage||3d10</attack>
         </action>
     </monster>
-    <monster name="Air Elemental Myrmidon">
-        <name>Air Elemental Myrmidon</name>
+    <monster name="Abishai, Red">
+        <name>Abishai, Red</name>
         <size>M</size>
-        <type>elemental</type>
+        <type>fiend (devil)</type>
         <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>neutral</alignment>
-        <ac>18 (plate armor)</ac>
-        <hp>117 (18d8 + 36)</hp>
-        <speed>30 ft., fly 30 ft. (hover)</speed>
-        <str>18</str>
-        <dex>14</dex>
-        <con>14</con>
-        <int>9</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <save></save>
-        <skill></skill>
+        <alignment>lawful evil</alignment>
+        <ac>22 (natural armor)</ac>
+        <hp>289 (34d8 + 136)</hp>
+        <speed>30 ft., fly 50 ft.</speed>
+        <str>23</str>
+        <dex>16</dex>
+        <con>19</con>
+        <int>14</int>
+        <wis>15</wis>
+        <cha>19</cha>
+        <save>Str +12, Con +10, Wis +8</save>
+        <skill>Intimidation +10, Perception +8</skill>
         <vulnerable></vulnerable>
-        <resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-        <immune>poison</immune>
-        <conditionImmune>paralyzed,petrified,poisoned,prone</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Auran,one language of its creator's choice</languages>
-        <cr>7</cr>
+        <resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+        <immune>fire,poison</immune>
+        <conditionImmune>frightened,poisoned</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>18</passive>
+        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
+        <cr>19</cr>
+        <trait>
+            <name>Devil's Sight</name>
+            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
         <action>
             <name>Multiattack</name>
-            <text>The myrmidon makes three Flail attacks.</text>
+            <text>The abishai makes one Bite attack and one Claw attack, and it can use Frightful Presence or Incite Fanaticism.</text>
         </action>
         <action>
-            <name>Flail</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) force damage.</text>
-            <attack>Flail|7|1d8+4</attack>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage plus 38 (7d10) fire damage.</text>
+            <attack>Bite|12|3d10+6+7d10</attack>
         </action>
         <action>
-            <name>Lightning Strike (Recharge 6)</name>
-            <text>The myrmidon makes one Flail attack. On a hit, the target takes an extra 18 (4d8) lightning damage, and the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
-            <attack>Lightning Strike||4d8</attack>
-            <recharge>D6</recharge>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) force damage plus 11 (2d10) fire damage.</text>
+            <attack>Claw|12|2d10+6+2d10</attack>
         </action>
+        <action>
+            <name>Frightful Presence</name>
+            <text>Each creature of the abishai's choice that is within 120 feet and aware of the abishai must succeed on a DC 18 Wisdom saving throw or become frightened of it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours.</text>
+        </action>
+        <action>
+            <name>Incite Fanaticism</name>
+            <text>The abishai chooses up to four other creatures within 60 feet of it that can see it. Until the start of the abishai's next turn, each of those creatures makes attack rolls with advantage and can't be frightened.</text>
+        </action>
+        <action>
+            <name>Power of the Dragon Queen</name>
+            <text>The abishai targets one Dragon it can see within 120 feet of it. The Dragon must make a DC 18 Charisma saving throw. A chromatic dragon makes this save with disadvantage. On a successful save, the target is immune to the abishai's Power of the Dragon Queen for 1 hour. On a failed save, the target is charmed by the abishai for 1 hour. While charmed in this way, the target regards the abishai as a trusted friend to be heeded and protected. This effect ends if the abishai or its companions deal damage to the target.</text>
+        </action>
+    </monster>
+    <monster name="Abishai, White">
+        <name>Abishai, White</name>
+        <size>M</size>
+        <type>fiend (devil)</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>lawful evil</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>68 (8d8 + 32)</hp>
+        <speed>30 ft., fly 40 ft.</speed>
+        <str>16</str>
+        <dex>11</dex>
+        <con>18</con>
+        <int>11</int>
+        <wis>12</wis>
+        <cha>13</cha>
+        <save>Str +6, Con +7</save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+        <immune>cold,fire,poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>11</passive>
+        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
+        <cr>6</cr>
+        <trait>
+            <name>Devil's Sight</name>
+            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <trait>
+            <name>Reckless</name>
+            <text>At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The abishai makes one Bite attack, one Claw attack, and one Longsword attack.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (1d6) cold damage.</text>
+            <attack>Bite|6|1d4+3+1d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage.</text>
+            <attack>Claw|6|1d10+3</attack>
+        </action>
+        <action>
+            <name>Longsword</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) force damage, or 8 (1d10 + 3) force damage if used with two hands.</text>
+            <attack>Longsword|6|1d8+3</attack>
+            <attack>Longsword (2H)|6|1d10+3</attack>
+        </action>
+        <reaction>
+            <name>Vicious Reprisal</name>
+            <text>In response to taking damage, the abishai makes one Bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking opportunity attack.</text>
+        </reaction>
     </monster>
     <monster name="Alhoon">
         <name>Alhoon</name>
@@ -536,51 +614,6 @@
             <text>When a creature within 60 feet of the amnizu makes an attack roll against it, and another creature is within the attack's range, the attacker must make a DC 19 Wisdom saving throw. On a failed save, the attacker must target the creature that is closest to it, not including the amnizu or itself. If multiple creatures are closest, the attacker chooses which one to target. If the saving throw is successful, the attacker is immune to the amnizu's Instinctive Charm for 24 hours.</text>
         </reaction>
     </monster>
-    <monster name="Angry Sorrowsworn">
-        <name>Angry Sorrowsworn</name>
-        <size>M</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>neutral evil</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>255 (30d8 + 120)</hp>
-        <speed>30 ft.</speed>
-        <str>17</str>
-        <dex>10</dex>
-        <con>19</con>
-        <int>8</int>
-        <wis>13</wis>
-        <cha>6</cha>
-        <save></save>
-        <skill>Perception +11</skill>
-        <vulnerable></vulnerable>
-        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>21</passive>
-        <languages>Common</languages>
-        <cr>13</cr>
-        <trait>
-            <name>Two Heads</name>
-            <text>The sorrowsworn has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.</text>
-        </trait>
-        <trait>
-            <name>Rising Anger</name>
-            <text>If another creature deals damage to the sorrowsworn, the sorrowsworn's attack rolls have advantage until the end of its next turn, and the first time it hits with a Hook attack on its next turn, the attack's target takes an extra 19 (3d12) psychic damage.</text>
-            <text>	On its turn, the sorrowsworn has disadvantage on attack rolls if no other creature has dealt damage to it since the end of its last turn.</text>
-            <attack>Psychic Damage||3d12</attack>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The sorrowsworn makes two Hook attacks.</text>
-        </action>
-        <action>
-            <name>Hook</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d12 + 3) piercing damage.</text>
-            <attack>Hook|8|2d12+3</attack>
-        </action>
-    </monster>
     <monster name="Annis Hag">
         <name>Annis Hag</name>
         <size>L</size>
@@ -639,57 +672,6 @@
             <name>Crushing Hug</name>
             <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 36 (9d6 + 5) bludgeoning damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6 + 5) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way.</text>
             <attack>Crushing Hug|8|9d6+5</attack>
-        </action>
-    </monster>
-    <monster name="Apprentice Wizard">
-        <name>Apprentice Wizard</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>10</ac>
-        <hp>13 (3d8)</hp>
-        <speed>30 ft.</speed>
-        <str>10</str>
-        <dex>10</dex>
-        <con>10</con>
-        <int>14</int>
-        <wis>10</wis>
-        <cha>11</cha>
-        <save></save>
-        <skill>Arcana +4, History +4</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>10</passive>
-        <languages>any one language (usually Common)</languages>
-        <cr>1/4</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The apprentice casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 12)</text>
-            <text>At will: mage hand, prestidigitation</text>
-            <text>1/Day each: burning hands, disguise self, mage armor</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Mage Hand,Prestidigitation,Burning Hands,Disguise Self,Mage Armor</spells>
-        <trait>
-            <name>Burning Hands</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Disguise Self</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 120 ft., one target. Hit: 7 (1d10 + 2) force damage.</text>
-            <attack>Arcane Burst|4|1d10+2</attack>
         </action>
     </monster>
     <monster name="Archdruid">
@@ -982,90 +964,6 @@
             <attack>Gore|7|2d8+5</attack>
             <attack>Extra Damage||2d8</attack>
         </action>
-    </monster>
-    <monster name="Autumn Eladrin">
-        <name>Autumn Eladrin</name>
-        <size>M</size>
-        <type>fey (elf)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>165 (22d8 + 66)</hp>
-        <speed>30 ft.</speed>
-        <str>12</str>
-        <dex>16</dex>
-        <con>16</con>
-        <int>14</int>
-        <wis>17</wis>
-        <cha>18</cha>
-        <save></save>
-        <skill>Insight +7, Medicine +7</skill>
-        <vulnerable></vulnerable>
-        <resist>psychic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>13</passive>
-        <languages>Common,Elvish,Sylvan</languages>
-        <cr>10</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):</text>
-            <text>At will: hold person</text>
-            <text>2/Day each: cure wounds (as a 5th-level spell), lesser restoration</text>
-            <text>1/Day each: greater restoration, revivify</text>
-        </trait>
-        <spellAbility>Charisma</spellAbility>
-        <spells>Hold Person,Cure Wounds,Lesser Restoration,Greater Restoration,Revivify</spells>
-        <trait>
-            <name>Cure Wounds (As a 5th-Level Spell)</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Lesser Restoration</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Greater Restoration</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Revivify</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Enchanting Presence</name>
-            <text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.</text>
-            <text>	Whenever the eladrin deals damage to the charmed creature, the charmed creature can repeat the saving throw, ending the effect on itself on a success.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The eladrin makes two Longsword or Longbow attacks. It can replace one attack with a use of Spellcasting.</text>
-        </action>
-        <action>
-            <name>Longsword</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands, plus 22 (5d8) psychic damage.</text>
-            <attack>Longsword|5|1d8+1+5d8</attack>
-            <attack>Longsword (2H)|5|1d10+1+5d8</attack>
-        </action>
-        <action>
-            <name>Longbow</name>
-            <text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage.</text>
-            <attack>Longbow|7|1d8+3+5d8</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Fey Step (Recharge 4-6)</name>
-            <text>The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
-            <recharge>D4</recharge>
-        </action>
-        <reaction>
-            <name>Foster Peace</name>
-            <text>If a creature charmed by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker.</text>
-        </reaction>
     </monster>
     <monster name="Babau">
         <name>Babau</name>
@@ -1708,63 +1606,6 @@
             <text>The hag feeds on the corpse of one enemy within reach that died within the past minute. Each creature of the hag's choice that is within 60 feet and able to see the feeding must succeed on a DC 15 Wisdom saving throw or be frightened of the hag for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Horrific Feast for the next 24 hours.</text>
         </action>
     </monster>
-    <monster name="Black Abishai">
-        <name>Black Abishai</name>
-        <size>M</size>
-        <type>fiend (devil)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>lawful evil</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>58 (9d8 + 18)</hp>
-        <speed>30 ft., fly 40 ft.</speed>
-        <str>14</str>
-        <dex>17</dex>
-        <con>14</con>
-        <int>13</int>
-        <wis>16</wis>
-        <cha>11</cha>
-        <save>Dex +6, Wis +6</save>
-        <skill>Perception +6, Stealth +6</skill>
-        <vulnerable></vulnerable>
-        <resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-        <immune>acid,fire,poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>16</passive>
-        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
-        <cr>7</cr>
-        <trait>
-            <name>Devil's Sight</name>
-            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The abishai makes one Bite attack and two Scimitar attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 9 (2d8) acid damage.</text>
-            <attack>Bite|6|1d10+3+2d8</attack>
-        </action>
-        <action>
-            <name>Scimitar</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage.</text>
-            <attack>Scimitar|6|1d6+3</attack>
-        </action>
-        <action>
-            <name>Creeping Darkness (Recharge 6)</name>
-            <text>The abishai casts darkness at a point within 120 feet of it, requiring no spell components or concentration. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action.</text>
-            <recharge>D6</recharge>
-        </action>
-        <action>
-            <name>Bonus Action: Shadow Stealth</name>
-            <text>While in dim light or darkness, the abishai takes the Hide action.</text>
-        </action>
-    </monster>
     <monster name="Blackguard">
         <name>Blackguard</name>
         <size>M</size>
@@ -1839,82 +1680,6 @@
         <action>
             <name>Bonus Action: Shove</name>
             <text>The target is pushed up to 10 feet away and knocked prone.</text>
-        </action>
-    </monster>
-    <monster name="Blue Abishai">
-        <name>Blue Abishai</name>
-        <size>M</size>
-        <type>fiend (devil,wizard)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>lawful evil</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>202 (27d8 + 81)</hp>
-        <speed>30 ft., fly 50 ft.</speed>
-        <str>15</str>
-        <dex>14</dex>
-        <con>17</con>
-        <int>22</int>
-        <wis>23</wis>
-        <cha>18</cha>
-        <save>Int +12, Wis +12</save>
-        <skill>Arcana +12</skill>
-        <vulnerable></vulnerable>
-        <resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-        <immune>fire,lightning,poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>16</passive>
-        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
-        <cr>17</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The abishai casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 20):</text>
-            <text>At will: disguise self, mage hand, minor illusion</text>
-            <text>2/Day each: charm person, dispel magic, greater invisibility, wall of force</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Disguise Self,Mage Hand,Minor Illusion,Charm Person,Dispel Magic,Greater Invisibility,Wall of Force</spells>
-        <trait>
-            <name>Charm Person</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Dispel Magic</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Greater Invisibility</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Wall of Force</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Devil's Sight</name>
-            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The abishai makes three Bite or Lightning Strike attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d10 + 2) piercing damage plus 14 (4d6) lightning damage.</text>
-            <attack>Bite|8|2d10+2+4d6</attack>
-        </action>
-        <action>
-            <name>Lightning Strike</name>
-            <text>Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit: 36 (8d8) lightning damage.</text>
-            <attack>Lightning Strike|12|8d8</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Teleport</name>
-            <text>The abishai teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space that it can see.</text>
         </action>
     </monster>
     <monster name="Bodak">
@@ -2872,84 +2637,6 @@
             <name>Bonus Action: Cloud Step (Recharge 4-6)</name>
             <text>The giant teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.</text>
             <recharge>D4</recharge>
-        </action>
-    </monster>
-    <monster name="Conjurer Wizard">
-        <name>Conjurer Wizard</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>12</ac>
-        <hp>58 (13d8)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
-        <dex>14</dex>
-        <con>11</con>
-        <int>17</int>
-        <wis>12</wis>
-        <cha>11</cha>
-        <save>Int +6, Wis +4</save>
-        <skill>Arcana +6, History +6</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>any four languages</languages>
-        <cr>6</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The conjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):</text>
-            <text>At will: dancing lights, mage hand, prestidigitation</text>
-            <text>2/Day each: fireball, mage armor, unseen servant</text>
-            <text>1/Day each: fly, stinking cloud, web</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Mage Hand,Prestidigitation,Fireball,Mage Armor,Unseen Servant,Fly,Stinking Cloud,Web</spells>
-        <trait>
-            <name>Fireball</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Unseen Servant</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Fly</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Stinking Cloud</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Web</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The conjurer makes three Arcane Burst attacks.</text>
-        </action>
-        <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +8 to hit, reach 5 ft. or range 120 ft., one target. Hit: 19 (3d10 + 3) force damage.</text>
-            <attack>Arcane Burst|8|3d10+3</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Benign Transportation (Recharge 4-6)</name>
-            <text>The conjurer teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places.</text>
-            <recharge>D4</recharge>
-        </action>
-        <action>
-            <name>Bonus Action: Summon Elemental (1/Day)</name>
-            <text>The conjurer magically summons an air elemental, an earth elemental, a fire elemental, or a water elemental. The elemental appears in an unoccupied space within 60 feet of the conjurer, whom it obeys. It takes its turn immediately after the conjurer. It lasts for 1 hour, until it or the conjurer dies, or until the conjurer dismisses it as a bonus action.</text>
-            <recharge>1/Day</recharge>
         </action>
     </monster>
     <monster name="Corpse Flower">
@@ -3933,98 +3620,6 @@
             <attack>Whirlwind of Claws||8d10</attack>
             <recharge>D5</recharge>
         </action>
-    </monster>
-    <monster name="Diviner Wizard">
-        <name>Diviner Wizard</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>12</ac>
-        <hp>90 (20d8)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
-        <dex>14</dex>
-        <con>11</con>
-        <int>18</int>
-        <wis>12</wis>
-        <cha>11</cha>
-        <save>Int +7, Wis +4</save>
-        <skill>Arcana +7, History +7</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>any four languages</languages>
-        <cr>8</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The diviner casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 15):</text>
-            <text>At will: mage hand, message, prestidigitation</text>
-            <text>2/Day each: arcane eye, detect magic, detect thoughts, fly, lightning bolt, locate object, mage armor, Rary's telepathic bond</text>
-            <text>1/Day each: true seeing</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Mage Hand,Message,Prestidigitation,Arcane Eye,Detect Magic,Detect Thoughts,Fly,Lightning Bolt,Locate Object,Mage Armor,Rary's Telepathic Bond,True Seeing</spells>
-        <trait>
-            <name>Arcane Eye</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Detect Magic</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Detect Thoughts</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Fly</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Lightning Bolt</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Locate Object</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Rary's Telepathic Bond</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>True Seeing</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The diviner makes three Arcane Burst attacks.</text>
-        </action>
-        <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 20 (3d10 + 4) radiant damage.</text>
-            <attack>Arcane Burst|7|3d10+4</attack>
-        </action>
-        <action>
-            <name>Overwhelming Revelation (Recharge 5-6)</name>
-            <text>The diviner magically creates a burst of illumination in a 10-foot-radius sphere centered on a point within 120 feet of it. Each creature in that area must make a DC 15 Wisdom saving throw. On a failed save, a creature takes 45 (10d8) psychic damage and is stunned until the end of the diviner's next turn. On a successful save, the creature takes half as much damage and isn't stunned.</text>
-            <attack>Overwhelming Revelation||10d8</attack>
-            <recharge>D5</recharge>
-        </action>
-        <reaction>
-            <name>Portent (3/Day)</name>
-            <text>When the diviner or a creature it can see makes an attack roll, a saving throw, or an ability check, the diviner rolls a d20 and chooses whether to use that roll in place of the d20 rolled for the attack roll, saving throw, or ability check. </text>
-            <recharge>3/Day</recharge>
-            <attack>Portent||</attack>
-        </reaction>
     </monster>
     <monster name="Dolphin">
         <name>Dolphin</name>
@@ -5336,47 +4931,6 @@
             <text>While Possess Corpse is active, the dybbuk makes the corpse do something unnatural, such as vomit blood, twist its head all the way around, or cause a quadruped to move as a biped. Any Beast or Humanoid that sees this behavior must succeed on a DC 12 Wisdom saving throw or become frightened of the dybbuk for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this ability is immune to Control Corpse for 24 hours.</text>
         </action>
     </monster>
-    <monster name="Earth Elemental Myrmidon">
-        <name>Earth Elemental Myrmidon</name>
-        <size>M</size>
-        <type>elemental</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>neutral</alignment>
-        <ac>18 (plate armor)</ac>
-        <hp>127 (17d8 + 51)</hp>
-        <speed>30 ft.</speed>
-        <str>18</str>
-        <dex>10</dex>
-        <con>17</con>
-        <int>8</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <save></save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-        <immune>poison</immune>
-        <conditionImmune>paralyzed,petrified,poisoned,prone</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Terran,one language of its creator's choice</languages>
-        <cr>7</cr>
-        <action>
-            <name>Multiattack</name>
-            <text>The myrmidon makes two Maul attacks.</text>
-        </action>
-        <action>
-            <name>Maul</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) force damage.</text>
-            <attack>Maul|7|2d6+4</attack>
-        </action>
-        <action>
-            <name>Thunderous Strike (Recharge 6)</name>
-            <text>The myrmidon makes one Maul attack. On a hit, the target takes an extra 22 (4d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
-            <attack>Maul|7|2d6+4+4d10</attack>
-            <recharge>D6</recharge>
-        </action>
-    </monster>
     <monster name="Eidolon">
         <name>Eidolon</name>
         <size>M</size>
@@ -5424,6 +4978,286 @@
             <name>Divine Dread</name>
             <text>Each creature within 60 feet of the eidolon that can see it must succeed on a DC 15 Wisdom saving throw or be frightened of it for 1 minute. While frightened in this way, the creature must take the Dash action and move away from the eidolon by the safest available route at the start of each of its turns, unless there is nowhere for it to move, in which case the creature also becomes stunned until it can move again. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to any eidolon's Divine Dread for the next 24 hours.</text>
         </action>
+    </monster>
+    <monster name="Eladrin, Autumn">
+        <name>Eladrin, Autumn</name>
+        <size>M</size>
+        <type>fey (elf)</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>165 (22d8 + 66)</hp>
+        <speed>30 ft.</speed>
+        <str>12</str>
+        <dex>16</dex>
+        <con>16</con>
+        <int>14</int>
+        <wis>17</wis>
+        <cha>18</cha>
+        <save></save>
+        <skill>Insight +7, Medicine +7</skill>
+        <vulnerable></vulnerable>
+        <resist>psychic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>13</passive>
+        <languages>Common,Elvish,Sylvan</languages>
+        <cr>10</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):</text>
+            <text>At will: hold person</text>
+            <text>2/Day each: cure wounds (as a 5th-level spell), lesser restoration</text>
+            <text>1/Day each: greater restoration, revivify</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Hold Person,Cure Wounds,Lesser Restoration,Greater Restoration,Revivify</spells>
+        <trait>
+            <name>Cure Wounds (As a 5th-Level Spell)</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Lesser Restoration</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Greater Restoration</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Revivify</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Enchanting Presence</name>
+            <text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.</text>
+            <text>	Whenever the eladrin deals damage to the charmed creature, the charmed creature can repeat the saving throw, ending the effect on itself on a success.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The eladrin makes two Longsword or Longbow attacks. It can replace one attack with a use of Spellcasting.</text>
+        </action>
+        <action>
+            <name>Longsword</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands, plus 22 (5d8) psychic damage.</text>
+            <attack>Longsword|5|1d8+1+5d8</attack>
+            <attack>Longsword (2H)|5|1d10+1+5d8</attack>
+        </action>
+        <action>
+            <name>Longbow</name>
+            <text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage.</text>
+            <attack>Longbow|7|1d8+3+5d8</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Fey Step (Recharge 4-6)</name>
+            <text>The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
+            <recharge>D4</recharge>
+        </action>
+        <reaction>
+            <name>Foster Peace</name>
+            <text>If a creature charmed by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker.</text>
+        </reaction>
+    </monster>
+    <monster name="Eladrin, Spring">
+        <name>Eladrin, Spring</name>
+        <size>M</size>
+        <type>fey (elf)</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>165 (22d8 + 66)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>16</dex>
+        <con>16</con>
+        <int>18</int>
+        <wis>11</wis>
+        <cha>18</cha>
+        <save></save>
+        <skill>Deception +8, Persuasion +8</skill>
+        <vulnerable></vulnerable>
+        <resist>psychic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Common,Elvish,Sylvan</languages>
+        <cr>10</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):</text>
+            <text>At will: Tasha's hideous laughter</text>
+            <text>1/Day each: major image, suggestion</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Tasha's Hideous Laughter,Major Image,Suggestion</spells>
+        <trait>
+            <name>Major Image</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Suggestion</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Joyful Presence</name>
+            <text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.</text>
+            <text>	Whenever the eladrin deals damage to the charmed creature, the charmed creature can repeat the saving throw, ending the effect on itself on a success.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The eladrin makes two Longsword or Longbow attacks. It can replace one attack with a use of Spellcasting.</text>
+        </action>
+        <action>
+            <name>Longsword</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands, plus 22 (5d8) psychic damage.</text>
+            <attack>Longsword|6|1d8+2+5d8</attack>
+            <attack>Longsword (2H)|6|1d10+2+5d8</attack>
+        </action>
+        <action>
+            <name>Longbow</name>
+            <text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage.</text>
+            <attack>Longbow|7|1d8+3+5d8</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Fey Step (Recharge 4-6)</name>
+            <text>The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
+            <recharge>D4</recharge>
+        </action>
+    </monster>
+    <monster name="Eladrin, Summer">
+        <name>Eladrin, Summer</name>
+        <size>M</size>
+        <type>fey (elf)</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>165 (22d8 + 66)</hp>
+        <speed>50 ft.</speed>
+        <str>19</str>
+        <dex>21</dex>
+        <con>16</con>
+        <int>14</int>
+        <wis>12</wis>
+        <cha>18</cha>
+        <save></save>
+        <skill>Athletics +8, Intimidation +8</skill>
+        <vulnerable></vulnerable>
+        <resist>fire</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>9</passive>
+        <languages>Common,Elvish,Sylvan</languages>
+        <cr>10</cr>
+        <trait>
+            <name>Fearsome Presence</name>
+            <text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes frightened of the eladrin for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The eladrin makes two Longsword or Longbow attacks.</text>
+        </action>
+        <action>
+            <name>Longsword</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands, plus 9 (2d8) fire damage.</text>
+            <attack>Longsword|8|2d8+4+2d8</attack>
+            <attack>Longsword (2H)|8|2d10+4+2d8</attack>
+        </action>
+        <action>
+            <name>Longbow</name>
+            <text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 9 (2d8) fire damage.</text>
+            <attack>Longbow|9|2d8+5+2d8</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Fey Step (Recharge 4-6)</name>
+            <text>The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
+            <recharge>D4</recharge>
+        </action>
+        <reaction>
+            <name>Parry</name>
+            <text>The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon.</text>
+        </reaction>
+    </monster>
+    <monster name="Eladrin, Winter">
+        <name>Eladrin, Winter</name>
+        <size>M</size>
+        <type>fey (elf)</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>165 (22d8 + 66)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>16</dex>
+        <con>16</con>
+        <int>18</int>
+        <wis>17</wis>
+        <cha>13</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>cold</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>13</passive>
+        <languages>Common,Elvish,Sylvan</languages>
+        <cr>10</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The eladrin casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 16):</text>
+            <text>At will: fog cloud, gust of wind, sleet storm</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Fog Cloud,Gust of Wind,Sleet Storm</spells>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <trait>
+            <name>Sorrowful Presence</name>
+            <text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 13 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. While charmed in this way, the creature has disadvantage on ability checks and saving throws. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.</text>
+            <text>	Whenever the eladrin deals damage to the charmed creature, the charmed creature can repeat the saving throw, ending the effect on itself on a success.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The eladrin makes two Longsword or Longbow attacks. It can replace one attack with a use of Spellcasting.</text>
+        </action>
+        <action>
+            <name>Longsword</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) slashing damage, or 5 (1d10) slashing damage if used with two hands, plus 13 (3d8) cold damage.</text>
+            <attack>Longsword|4|1d8+3d8</attack>
+            <attack>Longsword (2H)|4|1d10+3d8</attack>
+        </action>
+        <action>
+            <name>Longbow</name>
+            <text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 13 (3d8) cold damage.</text>
+            <attack>Longbow|7|1d8+3+3d8</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Fey Step (Recharge 4-6)</name>
+            <text>The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
+            <recharge>D4</recharge>
+        </action>
+        <reaction>
+            <name>Frigid Rebuke</name>
+            <text>When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to make a DC 16 Constitution saving throw. On a failed save, the creature takes 11 (2d10) cold damage.</text>
+            <attack>Frigid Rebuke||2d10</attack>
+        </reaction>
     </monster>
     <monster name="Elder Brain">
         <name>Elder Brain</name>
@@ -5536,89 +5370,6 @@
             <text>The elder brain makes one Tentacle attack.</text>
         </legendary>
     </monster>
-    <monster name="Elder Oblex">
-        <name>Elder Oblex</name>
-        <size>H</size>
-        <type>ooze</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>lawful evil</alignment>
-        <ac>16</ac>
-        <hp>115 (10d12 + 50)</hp>
-        <speed>20 ft.</speed>
-        <str>15</str>
-        <dex>16</dex>
-        <con>21</con>
-        <int>22</int>
-        <wis>13</wis>
-        <cha>18</cha>
-        <save>Int +10, Cha +8</save>
-        <skill>Arcana +10, Deception +8, History +10, Nature +10, Perception +5, Religion +10</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune>blinded,charmed,deafened,exhaustion,prone</conditionImmune>
-        <senses>blindsight 60 ft. (blind beyond this distance)</senses>
-        <passive>15</passive>
-        <languages>Common plus six more languages</languages>
-        <cr>10</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 18):</text>
-            <text>At will: charm person (as 5th-level spell), detect thoughts</text>
-            <text>3/Day each: dimension door, dominate person, hypnotic pattern, telekinesis</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Charm Person,Detect Thoughts,Dimension Door,Dominate Person,Hypnotic Pattern,Telekinesis</spells>
-        <trait>
-            <name>Dimension Door</name>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Dominate Person</name>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Hypnotic Pattern</name>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Telekinesis</name>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Amorphous</name>
-            <text>The oblex can move through a space as narrow as 1 inch wide without squeezing.</text>
-        </trait>
-        <trait>
-            <name>Aversion to Fire</name>
-            <text>If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</text>
-        </trait>
-        <trait>
-            <name>Unusual Nature</name>
-            <text>The oblex doesn't require sleep.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The elder oblex makes two Pseudopod attacks, and it uses Eat Memories.</text>
-        </action>
-        <action>
-            <name>Pseudopod</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (4d6 + 3) bludgeoning damage plus 14 (4d6) psychic damage.</text>
-            <attack>Pseudopod|7|4d6+3+4d6</attack>
-        </action>
-        <action>
-            <name>Eat Memories</name>
-            <text>The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 18 Wisdom saving throw or take 44 (8d10) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.</text>
-            <text>	While memory drained, the target must roll a d4 and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.</text>
-            <text>	The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies.</text>
-            <attack>Eat Memories||8d10</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Sulfurous Impersonation</name>
-            <text>The oblex extrudes a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. The simulacrum is an extension of the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex and the simulacrum. The simulacrum disappears if the tether is severed.</text>
-            <attack>Sulfurous Impersonation||2d6+1</attack>
-        </action>
-    </monster>
     <monster name="Elder Tempest">
         <name>Elder Tempest</name>
         <size>G</size>
@@ -5697,190 +5448,90 @@
             <attack>Damage per 10 ft.||1d6</attack>
         </legendary>
     </monster>
-    <monster name="Enchanter Wizard">
-        <name>Enchanter Wizard</name>
+    <monster name="Elemental Myrmidon, Air">
+        <name>Elemental Myrmidon, Air</name>
         <size>M</size>
-        <type>humanoid</type>
+        <type>elemental</type>
         <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>12</ac>
-        <hp>49 (11d8)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
+        <alignment>neutral</alignment>
+        <ac>18 (plate armor)</ac>
+        <hp>117 (18d8 + 36)</hp>
+        <speed>30 ft., fly 30 ft. (hover)</speed>
+        <str>18</str>
         <dex>14</dex>
-        <con>11</con>
-        <int>17</int>
-        <wis>12</wis>
-        <cha>11</cha>
-        <save>Int +6, Wis +4</save>
-        <skill>Arcana +6, History +6</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>any four languages</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The enchanter casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):</text>
-            <text>At will: friends, mage hand, message</text>
-            <text>2/Day each: charm person, mage armor, hold person, invisibility, suggestion, tongues</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Friends,Mage Hand,Message,Charm Person,Mage Armor,Hold Person,Invisibility,Suggestion,Tongues</spells>
-        <trait>
-            <name>Charm Person</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Hold Person</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Invisibility</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Suggestion</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Tongues</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The enchanter makes three Arcane Burst attacks.</text>
-        </action>
-        <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120 ft., one target. Hit: 19 (3d10 + 3) psychic damage.</text>
-            <attack>Arcane Burst|6|3d10+3</attack>
-        </action>
-        <reaction>
-            <name>Instinctive Charm (Recharge 4-6)</name>
-            <text>When a visible creature within 30 feet of the enchanter makes an attack roll against it, the enchanter forces the attacker to make a DC 14 Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than the enchanter or itself. If multiple eligible creatures are closest, the attacker chooses which one to target.</text>
-            <recharge>D4</recharge>
-        </reaction>
-    </monster>
-    <monster name="Evoker Wizard">
-        <name>Evoker Wizard</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>12</ac>
-        <hp>121 (22d8 + 22)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
-        <dex>14</dex>
-        <con>12</con>
-        <int>17</int>
-        <wis>12</wis>
-        <cha>11</cha>
-        <save>Int +7, Wis +5</save>
-        <skill>Arcana +7, History +7</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>any four languages</languages>
-        <cr>9</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The evoker casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 15):</text>
-            <text>At will: light, mage hand, message, prestidigitation</text>
-            <text>2/Day each: ice storm, lightning bolt, mage armor</text>
-            <text>1/Day each: wall of ice</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Light,Mage Hand,Message,Prestidigitation,Ice Storm,Lightning Bolt,Mage Armor,Wall of Ice</spells>
-        <trait>
-            <name>Ice Storm</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Lightning Bolt</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Wall of Ice</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The evoker makes three Arcane Burst attacks.</text>
-        </action>
-        <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 25 (4d10 + 3) force damage.</text>
-            <attack>Arcane Burst|7|4d10+3</attack>
-        </action>
-        <action>
-            <name>Sculpted Explosion (Recharge 4-6)</name>
-            <text>The evoker unleashes a magical explosion of a particular damage type: cold, fire, lightning, or thunder. The magic erupts in a 20-foot-radius sphere centered on a point within 150 feet of the evoker. Each creature in that area must make a DC 15 Dexterity saving throw. The evoker can select up to three creatures it can see in the area to ignore the spell, as the evoker sculpts the spell's energy around them. On a failed save, a creature takes 40 (9d8) damage of the chosen type and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</text>
-            <attack>Sculpted Explosion||9d8</attack>
-            <recharge>D4</recharge>
-        </action>
-    </monster>
-    <monster name="Female Steeder">
-        <name>Female Steeder</name>
-        <size>L</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>unaligned</alignment>
-        <ac>14 (natural armor)</ac>
-        <hp>30 (4d10 + 8)</hp>
-        <speed>30 ft., climb 30 ft.</speed>
-        <str>15</str>
-        <dex>16</dex>
         <con>14</con>
-        <int>2</int>
+        <int>9</int>
         <wis>10</wis>
-        <cha>3</cha>
+        <cha>10</cha>
         <save></save>
-        <skill>Stealth +7, Perception +4</skill>
+        <skill></skill>
         <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>14</passive>
-        <languages>—</languages>
-        <cr>1</cr>
-        <trait>
-            <name>Extraordinary Leap</name>
-            <text>The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to move 3 feet.</text>
-        </trait>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
+        <resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+        <immune>poison</immune>
+        <conditionImmune>paralyzed,petrified,poisoned,prone</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Auran,one language of its creator's choice</languages>
+        <cr>7</cr>
         <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 9 (2d8) poison damage.</text>
-            <attack>Bite|5|1d8+3+2d8</attack>
+            <name>Multiattack</name>
+            <text>The myrmidon makes three Flail attacks.</text>
         </action>
         <action>
-            <name>Sticky Leg</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck to the steeder's leg and grappled (escape DC 12). The steeder can have only one creature grappled at a time.</text>
-            <attack>Sticky Leg|5|</attack>
+            <name>Flail</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) force damage.</text>
+            <attack>Flail|7|1d8+4</attack>
+        </action>
+        <action>
+            <name>Lightning Strike (Recharge 6)</name>
+            <text>The myrmidon makes one Flail attack. On a hit, the target takes an extra 18 (4d8) lightning damage, and the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
+            <attack>Lightning Strike||4d8</attack>
+            <recharge>D6</recharge>
         </action>
     </monster>
-    <monster name="Fire Elemental Myrmidon">
-        <name>Fire Elemental Myrmidon</name>
+    <monster name="Elemental Myrmidon, Earth">
+        <name>Elemental Myrmidon, Earth</name>
+        <size>M</size>
+        <type>elemental</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>neutral</alignment>
+        <ac>18 (plate armor)</ac>
+        <hp>127 (17d8 + 51)</hp>
+        <speed>30 ft.</speed>
+        <str>18</str>
+        <dex>10</dex>
+        <con>17</con>
+        <int>8</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+        <immune>poison</immune>
+        <conditionImmune>paralyzed,petrified,poisoned,prone</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Terran,one language of its creator's choice</languages>
+        <cr>7</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>The myrmidon makes two Maul attacks.</text>
+        </action>
+        <action>
+            <name>Maul</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) force damage.</text>
+            <attack>Maul|7|2d6+4</attack>
+        </action>
+        <action>
+            <name>Thunderous Strike (Recharge 6)</name>
+            <text>The myrmidon makes one Maul attack. On a hit, the target takes an extra 22 (4d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+            <attack>Maul|7|2d6+4+4d10</attack>
+            <recharge>D6</recharge>
+        </action>
+    </monster>
+    <monster name="Elemental Myrmidon, Fire">
+        <name>Elemental Myrmidon, Fire</name>
         <size>M</size>
         <type>elemental</type>
         <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
@@ -5926,6 +5577,48 @@
             <name>Fiery Strikes (Recharge 6)</name>
             <text>The myrmidon uses Multiattack. Each attack that hits deals an extra 7 (2d6) fire damage.</text>
             <attack>Fiery Strikes||2d6</attack>
+            <recharge>D6</recharge>
+        </action>
+    </monster>
+    <monster name="Elemental Myrmidon, Water">
+        <name>Elemental Myrmidon, Water</name>
+        <size>M</size>
+        <type>elemental</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>neutral</alignment>
+        <ac>18 (plate armor)</ac>
+        <hp>127 (17d8 + 51)</hp>
+        <speed>40 ft., swim 40 ft.</speed>
+        <str>18</str>
+        <dex>14</dex>
+        <con>15</con>
+        <int>8</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>acid; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+        <immune>poison</immune>
+        <conditionImmune>paralyzed,petrified,poisoned,prone</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Aquan,one language of its creator's choice</languages>
+        <cr>7</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>The myrmidon makes three Trident attacks.</text>
+        </action>
+        <action>
+            <name>Trident</name>
+            <text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) force damage, or 8 (1d8 + 4) force damage if used with two hands to make a melee attack.</text>
+            <attack>Trident|7|1d6+4</attack>
+            <attack>Trident (2H)|7|1d8+4</attack>
+        </action>
+        <action>
+            <name>Freezing Strikes (Recharge 6)</name>
+            <text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the myrmidon's next turn.</text>
+            <attack>Freezing Strikes||1d10</attack>
             <recharge>D6</recharge>
         </action>
     </monster>
@@ -7469,83 +7162,6 @@
             <text>One creature charmed by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs.</text>
         </legendary>
     </monster>
-    <monster name="Green Abishai">
-        <name>Green Abishai</name>
-        <size>M</size>
-        <type>fiend (devil)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>lawful evil</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>195 (26d8 + 78)</hp>
-        <speed>30 ft., fly 40 ft.</speed>
-        <str>12</str>
-        <dex>17</dex>
-        <con>16</con>
-        <int>17</int>
-        <wis>12</wis>
-        <cha>19</cha>
-        <save>Int +8, Cha +9</save>
-        <skill>Deception +9, Insight +6, Perception +6, Persuasion +9</skill>
-        <vulnerable></vulnerable>
-        <resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-        <immune>fire,poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>16</passive>
-        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
-        <cr>15</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The abishai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):</text>
-            <text>At will: alter self, major image</text>
-            <text>3/Day each: charm person, detect thoughts, fear</text>
-            <text>1/Day each: confusion, dominate person, mass suggestion</text>
-        </trait>
-        <spellAbility>Charisma</spellAbility>
-        <spells>Alter Self,Major Image,Charm Person,Detect Thoughts,Fear,Confusion,Dominate Person,Mass Suggestion</spells>
-        <trait>
-            <name>Charm Person</name>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Detect Thoughts</name>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Fear</name>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Confusion</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Dominate Person</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mass Suggestion</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Devil's Sight</name>
-            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The abishai makes two Fiendish Claw attacks, or it makes one Fiendish Claw attack and uses Spellcasting.</text>
-        </action>
-        <action>
-            <name>Fiendish Claw</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) force damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or take 16 (3d10) poison damage and become poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Fiendish Claw|8|2d8+3</attack>
-            <attack>Poison Damage||3d10</attack>
-        </action>
-    </monster>
     <monster name="Grung">
         <name>Grung</name>
         <size>S</size>
@@ -8038,51 +7654,6 @@
             <recharge>D4</recharge>
         </action>
     </monster>
-    <monster name="Hungry Sorrowsworn">
-        <name>Hungry Sorrowsworn</name>
-        <size>M</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>neutral evil</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>225 (30d8 + 90)</hp>
-        <speed>30 ft.</speed>
-        <str>19</str>
-        <dex>10</dex>
-        <con>17</con>
-        <int>6</int>
-        <wis>11</wis>
-        <cha>6</cha>
-        <save></save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Common</languages>
-        <cr>11</cr>
-        <trait>
-            <name>Life Hunger</name>
-            <text>If a creature within 60 feet of the sorrowsworn regains hit points, the sorrowsworn gains two benefits until the end of its next turn: it has advantage on attack rolls, and its Bite deals an extra 22 (4d10) necrotic damage on a hit.</text>
-            <attack>Life Hunger||4d10</attack>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The sorrowsworn makes one Bite attack and one Claw attack.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 13 (3d8) necrotic damage.</text>
-            <attack>Bite|8|1d8+4+3d8</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) slashing damage. If the target is Medium or smaller, it is grappled (escape DC 16), and it is restrained until the grapple ends. While grappling a creature, the sorrowsworn can't make a Claw attack.</text>
-            <attack>Claw|8|4d6+4</attack>
-        </action>
-    </monster>
     <monster name="Hutijin">
         <name>Hutijin</name>
         <size>L</size>
@@ -8273,78 +7844,6 @@
         <action>
             <name>Teleport</name>
             <text>The hydroloth teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.</text>
-        </action>
-    </monster>
-    <monster name="Illusionist Wizard">
-        <name>Illusionist Wizard</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>12</ac>
-        <hp>44 (8d8 + 8)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
-        <dex>14</dex>
-        <con>13</con>
-        <int>16</int>
-        <wis>11</wis>
-        <cha>12</cha>
-        <save>Int +5, Wis +2</save>
-        <skill>Arcana +5, History +5</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>10</passive>
-        <languages>any four languages</languages>
-        <cr>3</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The illusionist casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 13):</text>
-            <text>At will: dancing lights, mage hand, minor illusion</text>
-            <text>2/Day each: disguise self, invisibility, mage armor, major image, phantasmal force, phantom steed</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Mage Hand,Minor Illusion,Disguise Self,Invisibility,Mage Armor,Major Image,Phantasmal Force,Phantom Steed</spells>
-        <trait>
-            <name>Disguise Self</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Invisibility</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Major Image</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Phantasmal Force</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Phantom Steed</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The illusionist makes two Arcane Burst attacks.</text>
-        </action>
-        <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 120 ft., one target. Hit: 14 (2d10 + 3) psychic damage.</text>
-            <attack>Arcane Burst|5|2d10+3</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Displacement (Recharge 5-6)</name>
-            <text>The illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect lasts for 1 minute, and it ends early if the illusionist takes damage, if it is incapacitated, or if its speed becomes 0.</text>
-            <recharge>D5</recharge>
         </action>
     </monster>
     <monster name="Juiblex">
@@ -8931,6 +8430,93 @@
             <recharge>D5</recharge>
         </action>
     </monster>
+    <monster name="Kruthik, Adult">
+        <name>Kruthik, Adult</name>
+        <size>M</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>unaligned</alignment>
+        <ac>18 (natural armor)</ac>
+        <hp>39 (6d8 + 12)</hp>
+        <speed>40 ft., burrow 20 ft., climb 40 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>15</con>
+        <int>7</int>
+        <wis>12</wis>
+        <cha>8</cha>
+        <save></save>
+        <skill>Perception +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+        <passive>15</passive>
+        <languages>Kruthik</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+        </trait>
+        <trait>
+            <name>Tunneler</name>
+            <text>The kruthik can burrow through solid rock at half its burrowing speed and leaves a 5-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The kruthik makes two Stab or Spike attacks.</text>
+        </action>
+        <action>
+            <name>Stab</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+            <attack>Stab|5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Spike</name>
+            <text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+            <attack>Spike|5|1d4+3</attack>
+        </action>
+    </monster>
+    <monster name="Kruthik, Young">
+        <name>Kruthik, Young</name>
+        <size>S</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>unaligned</alignment>
+        <ac>16 (natural armor)</ac>
+        <hp>9 (2d6 + 2)</hp>
+        <speed>30 ft., burrow 10 ft., climb 30 ft.</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>13</con>
+        <int>4</int>
+        <wis>10</wis>
+        <cha>6</cha>
+        <save></save>
+        <skill>Perception +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 30 ft., tremorsense 60 ft.</senses>
+        <passive>14</passive>
+        <languages>Kruthik</languages>
+        <cr>1/8</cr>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+        </trait>
+        <trait>
+            <name>Tunneler</name>
+            <text>The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2½-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <action>
+            <name>Stab</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+            <attack>Stab|5|1d4+3</attack>
+        </action>
+    </monster>
     <monster name="Leucrotta">
         <name>Leucrotta</name>
         <size>L</size>
@@ -9053,146 +8639,6 @@
             <name>Slam (Costs 2 Actions)</name>
             <text>The leviathan makes one Slam attack.</text>
         </legendary>
-    </monster>
-    <monster name="Lonely Sorrowsworn">
-        <name>Lonely Sorrowsworn</name>
-        <size>M</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>neutral evil</alignment>
-        <ac>16 (natural armor)</ac>
-        <hp>112 (15d8 + 45)</hp>
-        <speed>30 ft.</speed>
-        <str>16</str>
-        <dex>12</dex>
-        <con>17</con>
-        <int>6</int>
-        <wis>11</wis>
-        <cha>6</cha>
-        <save></save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Common</languages>
-        <cr>9</cr>
-        <trait>
-            <name>Psychic Leech</name>
-            <text>At the start of each of the sorrowsworn's turns, each creature within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage.</text>
-            <attack>Psychic Leech||3d6</attack>
-        </trait>
-        <trait>
-            <name>Thrives on Company</name>
-            <text>The sorrowsworn has advantage on attack rolls while it is within 30 feet of at least two other creatures. It otherwise has disadvantage on attack rolls.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The sorrowsworn makes one Harpoon Arm attack, and it uses Sorrowful Embrace.</text>
-        </action>
-        <action>
-            <name>Harpoon Arm</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 60 ft., one target. Hit: 21 (4d8 + 3) piercing damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. The sorrowsworn has two harpoon arms and can grapple up to two creatures at once.</text>
-            <attack>Harpoon Arm|7|4d8+3</attack>
-        </action>
-        <action>
-            <name>Sorrowful Embrace</name>
-            <text>Each creature grappled by the sorrowsworn must make a DC 15 Wisdom saving throw, taking 18 (4d8) psychic damage on a failed save, or half as much damage on a successful one. In either case, the sorrowsworn pulls each of those creatures up to 30 feet straight toward it.</text>
-            <attack>Sorrowful Embrace||4d8</attack>
-        </action>
-    </monster>
-    <monster name="Lost Sorrowsworn">
-        <name>Lost Sorrowsworn</name>
-        <size>M</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>neutral evil</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>78 (12d8 + 24)</hp>
-        <speed>30 ft.</speed>
-        <str>17</str>
-        <dex>12</dex>
-        <con>15</con>
-        <int>6</int>
-        <wis>7</wis>
-        <cha>5</cha>
-        <save></save>
-        <skill>Athletics +6</skill>
-        <vulnerable></vulnerable>
-        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>8</passive>
-        <languages>Common</languages>
-        <cr>7</cr>
-        <action>
-            <name>Multiattack</name>
-            <text>The sorrowsworn makes two Arm Spike attacks.</text>
-        </action>
-        <action>
-            <name>Arm Spike</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage.</text>
-            <attack>Arm Spike|6|2d10+3</attack>
-        </action>
-        <action>
-            <name>Embrace (Recharge 4-6)</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 25 (4d10 + 3) piercing damage, and the target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is frightened, and it takes 27 (6d8) psychic damage at the end of each of its turns. The sorrowsworn can grapple only one creature at a time.</text>
-            <attack>Embrace|6|4d10+3</attack>
-            <attack>Psychic Damage||6d8</attack>
-            <recharge>D4</recharge>
-        </action>
-        <reaction>
-            <name>Tightening Embrace</name>
-            <text>If the sorrowsworn takes damage, the creature grappled by Embrace takes 18 (4d8) psychic damage.</text>
-            <attack>Tightening Embrace||4d8</attack>
-        </reaction>
-    </monster>
-    <monster name="Male Steeder">
-        <name>Male Steeder</name>
-        <size>M</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>unaligned</alignment>
-        <ac>12 (natural armor)</ac>
-        <hp>13 (2d8 + 4)</hp>
-        <speed>30 ft., climb 30 ft.</speed>
-        <str>15</str>
-        <dex>12</dex>
-        <con>14</con>
-        <int>2</int>
-        <wis>10</wis>
-        <cha>3</cha>
-        <save></save>
-        <skill>Stealth +5, Perception +4</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>14</passive>
-        <languages>—</languages>
-        <cr>1/4</cr>
-        <trait>
-            <name>Extraordinary Leap</name>
-            <text>The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to jump 3 feet.</text>
-        </trait>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage.</text>
-            <attack>Bite|4|1d8+2+1d8</attack>
-        </action>
-        <action>
-            <name>Sticky Leg</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck to the steeder's leg and grappled (escape DC 12). The steeder can have only one creature grappled at a time.</text>
-            <attack>Sticky Leg|4|</attack>
-        </action>
     </monster>
     <monster name="Martial Arts Adept">
         <name>Martial Arts Adept</name>
@@ -10208,80 +9654,6 @@
             <recharge>1/Day</recharge>
         </action>
     </monster>
-    <monster name="Necromancer Wizard">
-        <name>Necromancer Wizard</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>12</ac>
-        <hp>110 (20d8 + 20)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
-        <dex>14</dex>
-        <con>12</con>
-        <int>17</int>
-        <wis>12</wis>
-        <cha>11</cha>
-        <save>Int +7, Wis +5</save>
-        <skill>Arcana +7, History +7</skill>
-        <vulnerable></vulnerable>
-        <resist>necrotic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>any four languages</languages>
-        <cr>9</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The necromancer casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 15):</text>
-            <text>At will: dancing lights, mage hand, prestidigitation</text>
-            <text>2/Day each: bestow curse, dimension door, mage armor, web</text>
-            <text>1/Day each: circle of death</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Mage Hand,Prestidigitation,Bestow Curse,Dimension Door,Mage Armor,Web,Circle of Death</spells>
-        <trait>
-            <name>Bestow Curse</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Dimension Door</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Web</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Circle of Death</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The necromancer makes three Arcane Burst attacks.</text>
-        </action>
-        <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 25 (4d10 + 3) necrotic damage.</text>
-            <attack>Arcane Burst|7|4d10+3</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Summon Undead (1/Day)</name>
-            <text>The necromancer magically summons five skeleton or zombie. The summoned creatures appear in unoccupied spaces within 60 feet of the necromancer, whom they obey. They take their turns immediately after the necromancer. Each lasts for 1 hour, until it or the necromancer dies, or until the necromancer dismisses it as a bonus action.</text>
-            <recharge>1/Day</recharge>
-        </action>
-        <reaction>
-            <name>Grim Harvest (1/Turn)</name>
-            <text>When the necromancer kills a creature with necrotic damage, the necromancer regains 9 (2d8) hit points. </text>
-            <attack>Grim Harvest||2d8</attack>
-        </reaction>
-    </monster>
     <monster name="Neogi">
         <name>Neogi</name>
         <size>S</size>
@@ -10662,7 +10034,7 @@
         <trait>
             <name>Cloud of Vermin</name>
             <text>Any creature, other than a devil, that starts its turn within 20 feet of one or more nupperibos must succeed on a DC 11 Constitution saving throw or take 5 (2d4) acid damage. A creature within the areas of two or more nupperibos makes the saving throw with disadvantage.</text>
-            <attack>Acid Damagee||2d4</attack>
+            <attack>Acid Damage||2d4</attack>
         </trait>
         <trait>
             <name>Driven Tracker</name>
@@ -10715,6 +10087,167 @@
             <name>Pseudopod</name>
             <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) psychic damage.</text>
             <attack>Pseudopod|5|1d4+3+1d4</attack>
+        </action>
+    </monster>
+    <monster name="Oblex, Adult">
+        <name>Oblex, Adult</name>
+        <size>M</size>
+        <type>ooze</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>lawful evil</alignment>
+        <ac>14</ac>
+        <hp>75 (10d8 + 30)</hp>
+        <speed>20 ft.</speed>
+        <str>8</str>
+        <dex>19</dex>
+        <con>16</con>
+        <int>19</int>
+        <wis>12</wis>
+        <cha>15</cha>
+        <save>Int +7, Cha +5</save>
+        <skill>Deception +5, Perception +4, plus one of the following: Arcana +7, History +7, Nature +7, Religion +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>blinded,charmed,deafened,exhaustion,prone</conditionImmune>
+        <senses>blindsight 60 ft. (blind beyond this distance)</senses>
+        <passive>14</passive>
+        <languages>Common plus two more languages</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
+            <text>3/Day each: charm person (as 5th-level spell), detect thoughts, hypnotic pattern</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Charm Person,Detect Thoughts,Hypnotic Pattern</spells>
+        <trait>
+            <name>Charm Person (As 5th-Level Spell)</name>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Detect Thoughts</name>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Hypnotic Pattern</name>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Amorphous</name>
+            <text>The oblex can move through a space as narrow as 1 inch wide without squeezing.</text>
+        </trait>
+        <trait>
+            <name>Aversion to Fire</name>
+            <text>If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The oblex doesn't require sleep.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The oblex makes two pseudopod attacks, and it uses Eat Memories.</text>
+        </action>
+        <action>
+            <name>Pseudopod</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (2d6 + 4) bludgeoning damage plus 7 (2d6) psychic damage.</text>
+            <attack>Pseudopod|7|2d6+4+2d6</attack>
+        </action>
+        <action>
+            <name>Eat Memories</name>
+            <text>The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 15 Wisdom saving throw or take 18 (4d8) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.</text>
+            <text>	While memory drained, the target must roll a d4 and subtract the number rolled from its ability checks and attack rolls. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.</text>
+            <text>	The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies.</text>
+            <attack>Eat Memories||4d8</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Sulfurous Impersonation</name>
+            <text>The oblex extrudes a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 1d4 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. The simulacrum is an extension of the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex and the simulacrum. The simulacrum disappears if the tether is severed.</text>
+            <attack>Sulfurous Impersonation||1d4+1</attack>
+        </action>
+    </monster>
+    <monster name="Oblex, Elder">
+        <name>Oblex, Elder</name>
+        <size>H</size>
+        <type>ooze</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>lawful evil</alignment>
+        <ac>16</ac>
+        <hp>115 (10d12 + 50)</hp>
+        <speed>20 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>21</con>
+        <int>22</int>
+        <wis>13</wis>
+        <cha>18</cha>
+        <save>Int +10, Cha +8</save>
+        <skill>Arcana +10, Deception +8, History +10, Nature +10, Perception +5, Religion +10</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>blinded,charmed,deafened,exhaustion,prone</conditionImmune>
+        <senses>blindsight 60 ft. (blind beyond this distance)</senses>
+        <passive>15</passive>
+        <languages>Common plus six more languages</languages>
+        <cr>10</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 18):</text>
+            <text>At will: charm person (as 5th-level spell), detect thoughts</text>
+            <text>3/Day each: dimension door, dominate person, hypnotic pattern, telekinesis</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Charm Person,Detect Thoughts,Dimension Door,Dominate Person,Hypnotic Pattern,Telekinesis</spells>
+        <trait>
+            <name>Dimension Door</name>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Dominate Person</name>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Hypnotic Pattern</name>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Telekinesis</name>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Amorphous</name>
+            <text>The oblex can move through a space as narrow as 1 inch wide without squeezing.</text>
+        </trait>
+        <trait>
+            <name>Aversion to Fire</name>
+            <text>If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The oblex doesn't require sleep.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The elder oblex makes two Pseudopod attacks, and it uses Eat Memories.</text>
+        </action>
+        <action>
+            <name>Pseudopod</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (4d6 + 3) bludgeoning damage plus 14 (4d6) psychic damage.</text>
+            <attack>Pseudopod|7|4d6+3+4d6</attack>
+        </action>
+        <action>
+            <name>Eat Memories</name>
+            <text>The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 18 Wisdom saving throw or take 44 (8d10) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.</text>
+            <text>	While memory drained, the target must roll a d4 and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.</text>
+            <text>	The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies.</text>
+            <attack>Eat Memories||8d10</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Sulfurous Impersonation</name>
+            <text>The oblex extrudes a piece of itself that assumes the appearance of one Medium or smaller creature whose memories it has stolen. This simulacrum appears, feels, and sounds exactly like the creature it impersonates, though it smells faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures, each one tethered to its body by a strand of slime that can extend up to 120 feet away. The simulacrum is an extension of the oblex, meaning that the oblex occupies its space and the simulacrum's space simultaneously. The tether is immune to damage, but it is severed if there is no opening at least 1 inch wide between the oblex and the simulacrum. The simulacrum disappears if the tether is severed.</text>
+            <attack>Sulfurous Impersonation||2d6+1</attack>
         </action>
     </monster>
     <monster name="Ogre Battering Ram">
@@ -11307,66 +10840,6 @@
             <name>Dagger</name>
             <text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4 + 6) piercing damage.</text>
             <attack>Dagger|8|1d4+6</attack>
-        </action>
-    </monster>
-    <monster name="Red Abishai">
-        <name>Red Abishai</name>
-        <size>M</size>
-        <type>fiend (devil)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>lawful evil</alignment>
-        <ac>22 (natural armor)</ac>
-        <hp>289 (34d8 + 136)</hp>
-        <speed>30 ft., fly 50 ft.</speed>
-        <str>23</str>
-        <dex>16</dex>
-        <con>19</con>
-        <int>14</int>
-        <wis>15</wis>
-        <cha>19</cha>
-        <save>Str +12, Con +10, Wis +8</save>
-        <skill>Intimidation +10, Perception +8</skill>
-        <vulnerable></vulnerable>
-        <resist>cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-        <immune>fire,poison</immune>
-        <conditionImmune>frightened,poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>18</passive>
-        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
-        <cr>19</cr>
-        <trait>
-            <name>Devil's Sight</name>
-            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The abishai makes one Bite attack and one Claw attack, and it can use Frightful Presence or Incite Fanaticism.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage plus 38 (7d10) fire damage.</text>
-            <attack>Bite|12|3d10+6+7d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) force damage plus 11 (2d10) fire damage.</text>
-            <attack>Claw|12|2d10+6+2d10</attack>
-        </action>
-        <action>
-            <name>Frightful Presence</name>
-            <text>Each creature of the abishai's choice that is within 120 feet and aware of the abishai must succeed on a DC 18 Wisdom saving throw or become frightened of it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours.</text>
-        </action>
-        <action>
-            <name>Incite Fanaticism</name>
-            <text>The abishai chooses up to four other creatures within 60 feet of it that can see it. Until the start of the abishai's next turn, each of those creatures makes attack rolls with advantage and can't be frightened.</text>
-        </action>
-        <action>
-            <name>Power of the Dragon Queen</name>
-            <text>The abishai targets one Dragon it can see within 120 feet of it. The Dragon must make a DC 18 Charisma saving throw. A chromatic dragon makes this save with disadvantage. On a successful save, the target is immune to the abishai's Power of the Dragon Queen for 1 hour. On a failed save, the target is charmed by the abishai for 1 hour. While charmed in this way, the target regards the abishai as a trusted friend to be heeded and protected. This effect ends if the abishai or its companions deal damage to the target.</text>
         </action>
     </monster>
     <monster name="Redcap">
@@ -12288,6 +11761,228 @@
             <text>If underwater, the slithering tracker takes the Hide action, and it makes the Dexterity (Stealth) check with advantage.</text>
         </action>
     </monster>
+    <monster name="Sorrowsworn, Angry">
+        <name>Sorrowsworn, Angry</name>
+        <size>M</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>neutral evil</alignment>
+        <ac>18 (natural armor)</ac>
+        <hp>255 (30d8 + 120)</hp>
+        <speed>30 ft.</speed>
+        <str>17</str>
+        <dex>10</dex>
+        <con>19</con>
+        <int>8</int>
+        <wis>13</wis>
+        <cha>6</cha>
+        <save></save>
+        <skill>Perception +11</skill>
+        <vulnerable></vulnerable>
+        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>21</passive>
+        <languages>Common</languages>
+        <cr>13</cr>
+        <trait>
+            <name>Two Heads</name>
+            <text>The sorrowsworn has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.</text>
+        </trait>
+        <trait>
+            <name>Rising Anger</name>
+            <text>If another creature deals damage to the sorrowsworn, the sorrowsworn's attack rolls have advantage until the end of its next turn, and the first time it hits with a Hook attack on its next turn, the attack's target takes an extra 19 (3d12) psychic damage.</text>
+            <text>	On its turn, the sorrowsworn has disadvantage on attack rolls if no other creature has dealt damage to it since the end of its last turn.</text>
+            <attack>Psychic Damage||3d12</attack>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The sorrowsworn makes two Hook attacks.</text>
+        </action>
+        <action>
+            <name>Hook</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d12 + 3) piercing damage.</text>
+            <attack>Hook|8|2d12+3</attack>
+        </action>
+    </monster>
+    <monster name="Sorrowsworn, Hungry">
+        <name>Sorrowsworn, Hungry</name>
+        <size>M</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>neutral evil</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>225 (30d8 + 90)</hp>
+        <speed>30 ft.</speed>
+        <str>19</str>
+        <dex>10</dex>
+        <con>17</con>
+        <int>6</int>
+        <wis>11</wis>
+        <cha>6</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Common</languages>
+        <cr>11</cr>
+        <trait>
+            <name>Life Hunger</name>
+            <text>If a creature within 60 feet of the sorrowsworn regains hit points, the sorrowsworn gains two benefits until the end of its next turn: it has advantage on attack rolls, and its Bite deals an extra 22 (4d10) necrotic damage on a hit.</text>
+            <attack>Life Hunger||4d10</attack>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The sorrowsworn makes one Bite attack and one Claw attack.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 13 (3d8) necrotic damage.</text>
+            <attack>Bite|8|1d8+4+3d8</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) slashing damage. If the target is Medium or smaller, it is grappled (escape DC 16), and it is restrained until the grapple ends. While grappling a creature, the sorrowsworn can't make a Claw attack.</text>
+            <attack>Claw|8|4d6+4</attack>
+        </action>
+    </monster>
+    <monster name="Sorrowsworn, Lonely">
+        <name>Sorrowsworn, Lonely</name>
+        <size>M</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>neutral evil</alignment>
+        <ac>16 (natural armor)</ac>
+        <hp>112 (15d8 + 45)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>12</dex>
+        <con>17</con>
+        <int>6</int>
+        <wis>11</wis>
+        <cha>6</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Common</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Psychic Leech</name>
+            <text>At the start of each of the sorrowsworn's turns, each creature within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage.</text>
+            <attack>Psychic Leech||3d6</attack>
+        </trait>
+        <trait>
+            <name>Thrives on Company</name>
+            <text>The sorrowsworn has advantage on attack rolls while it is within 30 feet of at least two other creatures. It otherwise has disadvantage on attack rolls.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The sorrowsworn makes one Harpoon Arm attack, and it uses Sorrowful Embrace.</text>
+        </action>
+        <action>
+            <name>Harpoon Arm</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 60 ft., one target. Hit: 21 (4d8 + 3) piercing damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. The sorrowsworn has two harpoon arms and can grapple up to two creatures at once.</text>
+            <attack>Harpoon Arm|7|4d8+3</attack>
+        </action>
+        <action>
+            <name>Sorrowful Embrace</name>
+            <text>Each creature grappled by the sorrowsworn must make a DC 15 Wisdom saving throw, taking 18 (4d8) psychic damage on a failed save, or half as much damage on a successful one. In either case, the sorrowsworn pulls each of those creatures up to 30 feet straight toward it.</text>
+            <attack>Sorrowful Embrace||4d8</attack>
+        </action>
+    </monster>
+    <monster name="Sorrowsworn, Lost">
+        <name>Sorrowsworn, Lost</name>
+        <size>M</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>neutral evil</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>78 (12d8 + 24)</hp>
+        <speed>30 ft.</speed>
+        <str>17</str>
+        <dex>12</dex>
+        <con>15</con>
+        <int>6</int>
+        <wis>7</wis>
+        <cha>5</cha>
+        <save></save>
+        <skill>Athletics +6</skill>
+        <vulnerable></vulnerable>
+        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>8</passive>
+        <languages>Common</languages>
+        <cr>7</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>The sorrowsworn makes two Arm Spike attacks.</text>
+        </action>
+        <action>
+            <name>Arm Spike</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage.</text>
+            <attack>Arm Spike|6|2d10+3</attack>
+        </action>
+        <action>
+            <name>Embrace (Recharge 4-6)</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 25 (4d10 + 3) piercing damage, and the target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is frightened, and it takes 27 (6d8) psychic damage at the end of each of its turns. The sorrowsworn can grapple only one creature at a time.</text>
+            <attack>Embrace|6|4d10+3</attack>
+            <attack>Psychic Damage||6d8</attack>
+            <recharge>D4</recharge>
+        </action>
+        <reaction>
+            <name>Tightening Embrace</name>
+            <text>If the sorrowsworn takes damage, the creature grappled by Embrace takes 18 (4d8) psychic damage.</text>
+            <attack>Tightening Embrace||4d8</attack>
+        </reaction>
+    </monster>
+    <monster name="Sorrowsworn, Wretched">
+        <name>Sorrowsworn, Wretched</name>
+        <size>S</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>neutral evil</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>10 (4d6 - 4)</hp>
+        <speed>40 ft.</speed>
+        <str>7</str>
+        <dex>12</dex>
+        <con>9</con>
+        <int>5</int>
+        <wis>6</wis>
+        <cha>5</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>8</passive>
+        <languages>—</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Wretched Pack Tactics</name>
+            <text>The sorrowsworn has advantage on an attack roll against a creature if at least one of the sorrowsworn's allies is within 5 feet of the creature and the ally isn't incapacitated. The sorrowsworn otherwise has disadvantage on attack rolls.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10 + 1) piercing damage, and the sorrowsworn attaches to the target. While attached, the sorrowsworn can't attack, and at the start of each of the sorrowsworn's turns, the target takes 6 (1d10 + 1) necrotic damage.</text>
+            <text>	The attached sorrowsworn moves with the target whenever the target moves, requiring none of the sorrowsworn's movement. The sorrowsworn can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach the sorrowsworn.</text>
+            <attack>Bite|3|1d10+1</attack>
+        </action>
+    </monster>
     <monster name="Spawn of Kyuss">
         <name>Spawn of Kyuss</name>
         <size>M</size>
@@ -12387,77 +12082,6 @@
             <name>Claws</name>
             <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 19 (3d10 + 3) psychic damage.</text>
             <attack>Claws|7|3d10+3</attack>
-        </action>
-    </monster>
-    <monster name="Spring Eladrin">
-        <name>Spring Eladrin</name>
-        <size>M</size>
-        <type>fey (elf)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>165 (22d8 + 66)</hp>
-        <speed>30 ft.</speed>
-        <str>14</str>
-        <dex>16</dex>
-        <con>16</con>
-        <int>18</int>
-        <wis>11</wis>
-        <cha>18</cha>
-        <save></save>
-        <skill>Deception +8, Persuasion +8</skill>
-        <vulnerable></vulnerable>
-        <resist>psychic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Common,Elvish,Sylvan</languages>
-        <cr>10</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):</text>
-            <text>At will: Tasha's hideous laughter</text>
-            <text>1/Day each: major image, suggestion</text>
-        </trait>
-        <spellAbility>Charisma</spellAbility>
-        <spells>Tasha's Hideous Laughter,Major Image,Suggestion</spells>
-        <trait>
-            <name>Major Image</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Suggestion</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Joyful Presence</name>
-            <text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.</text>
-            <text>	Whenever the eladrin deals damage to the charmed creature, the charmed creature can repeat the saving throw, ending the effect on itself on a success.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The eladrin makes two Longsword or Longbow attacks. It can replace one attack with a use of Spellcasting.</text>
-        </action>
-        <action>
-            <name>Longsword</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands, plus 22 (5d8) psychic damage.</text>
-            <attack>Longsword|6|1d8+2+5d8</attack>
-            <attack>Longsword (2H)|6|1d10+2+5d8</attack>
-        </action>
-        <action>
-            <name>Longbow</name>
-            <text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage.</text>
-            <attack>Longbow|7|1d8+3+5d8</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Fey Step (Recharge 4-6)</name>
-            <text>The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
-            <recharge>D4</recharge>
         </action>
     </monster>
     <monster name="Star Spawn Grue">
@@ -12725,6 +12349,94 @@
             <name>Bend Space</name>
             <text>When the seer would be hit by an attack roll, it teleports, along with any equipment it is wearing or carrying, exchanging positions with another star spawn it can see within 60 feet of it. The other star spawn is hit by the attack instead.</text>
         </reaction>
+    </monster>
+    <monster name="Steeder, Female">
+        <name>Steeder, Female</name>
+        <size>L</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>unaligned</alignment>
+        <ac>14 (natural armor)</ac>
+        <hp>30 (4d10 + 8)</hp>
+        <speed>30 ft., climb 30 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <save></save>
+        <skill>Stealth +7, Perception +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>14</passive>
+        <languages>—</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Extraordinary Leap</name>
+            <text>The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to move 3 feet.</text>
+        </trait>
+        <trait>
+            <name>Spider Climb</name>
+            <text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 9 (2d8) poison damage.</text>
+            <attack>Bite|5|1d8+3+2d8</attack>
+        </action>
+        <action>
+            <name>Sticky Leg</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck to the steeder's leg and grappled (escape DC 12). The steeder can have only one creature grappled at a time.</text>
+            <attack>Sticky Leg|5|</attack>
+        </action>
+    </monster>
+    <monster name="Steeder, Male">
+        <name>Steeder, Male</name>
+        <size>M</size>
+        <type>monstrosity</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>unaligned</alignment>
+        <ac>12 (natural armor)</ac>
+        <hp>13 (2d8 + 4)</hp>
+        <speed>30 ft., climb 30 ft.</speed>
+        <str>15</str>
+        <dex>12</dex>
+        <con>14</con>
+        <int>2</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <save></save>
+        <skill>Stealth +5, Perception +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>14</passive>
+        <languages>—</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Extraordinary Leap</name>
+            <text>The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to jump 3 feet.</text>
+        </trait>
+        <trait>
+            <name>Spider Climb</name>
+            <text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage.</text>
+            <attack>Bite|4|1d8+2+1d8</attack>
+        </action>
+        <action>
+            <name>Sticky Leg</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck to the steeder's leg and grappled (escape DC 12). The steeder can have only one creature grappled at a time.</text>
+            <attack>Sticky Leg|4|</attack>
+        </action>
     </monster>
     <monster name="Steel Predator">
         <name>Steel Predator</name>
@@ -13014,64 +12726,6 @@
             <name>One with the Storm (Costs 3 Actions)</name>
             <text>The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm.</text>
         </legendary>
-    </monster>
-    <monster name="Summer Eladrin">
-        <name>Summer Eladrin</name>
-        <size>M</size>
-        <type>fey (elf)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>165 (22d8 + 66)</hp>
-        <speed>50 ft.</speed>
-        <str>19</str>
-        <dex>21</dex>
-        <con>16</con>
-        <int>14</int>
-        <wis>12</wis>
-        <cha>18</cha>
-        <save></save>
-        <skill>Athletics +8, Intimidation +8</skill>
-        <vulnerable></vulnerable>
-        <resist>fire</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>9</passive>
-        <languages>Common,Elvish,Sylvan</languages>
-        <cr>10</cr>
-        <trait>
-            <name>Fearsome Presence</name>
-            <text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes frightened of the eladrin for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The eladrin makes two Longsword or Longbow attacks.</text>
-        </action>
-        <action>
-            <name>Longsword</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands, plus 9 (2d8) fire damage.</text>
-            <attack>Longsword|8|2d8+4+2d8</attack>
-            <attack>Longsword (2H)|8|2d10+4+2d8</attack>
-        </action>
-        <action>
-            <name>Longbow</name>
-            <text>Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 9 (2d8) fire damage.</text>
-            <attack>Longbow|9|2d8+5+2d8</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Fey Step (Recharge 4-6)</name>
-            <text>The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
-            <recharge>D4</recharge>
-        </action>
-        <reaction>
-            <name>Parry</name>
-            <text>The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon.</text>
-        </reaction>
     </monster>
     <monster name="Swarm of Cranium Rats">
         <name>Swarm of Cranium Rats</name>
@@ -13677,91 +13331,6 @@
         <action>
             <name>Shell Defense</name>
             <text>The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge.</text>
-        </action>
-    </monster>
-    <monster name="Transmuter Wizard">
-        <name>Transmuter Wizard</name>
-        <size>M</size>
-        <type>humanoid</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>any alignment</alignment>
-        <ac>12</ac>
-        <hp>49 (11d8)</hp>
-        <speed>30 ft.</speed>
-        <str>9</str>
-        <dex>14</dex>
-        <con>11</con>
-        <int>17</int>
-        <wis>12</wis>
-        <cha>11</cha>
-        <save>Int +6, Wis +4</save>
-        <skill>Arcana +6, History +6</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>any four languages</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The transmuter casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):</text>
-            <text>At will: light, message, prestidigitation</text>
-            <text>2/Day each: fireball, hold person, knock, mage armor, polymorph, slow</text>
-            <text>1/Day each: telekinesis</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Light,Message,Prestidigitation,Fireball,Hold Person,Knock,Mage Armor,Polymorph,Slow,Telekinesis</spells>
-        <trait>
-            <name>Fireball</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Hold Person</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Knock</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Mage Armor</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Polymorph</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Slow</name>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Telekinesis</name>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Transmuter's Stone</name>
-            <text>The transmuter carries a magic stone it crafted. The stone grants it one of the following benefits while bearing the stone; the transmuter chooses the benefit at the end of each long rest:</text>
-            <text>Darkvision. The transmuter has darkvision out to a range of 60 feet.</text>
-            <text>Resilience. The transmuter has proficiency in Constitution saving throws. </text>
-            <text>Resistance. Resistance. The transmuter has resistance to acid, cold, fire, lightning, or thunder damage (transmuter's choice whenever choosing this benefit).</text>
-            <text>Speed. The transmuter's walking speed is increased by 10 feet.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The transmuter makes three Arcane Burst attacks.</text>
-        </action>
-        <action>
-            <name>Arcane Burst</name>
-            <text>Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120 ft., one target. Hit: 19 (3d10 + 3) acid damage.</text>
-            <attack>Arcane Burst|6|3d10+3</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Transmute (Recharge 4-6)</name>
-            <text>The transmuter casts alter self or changes the benefit of Transmuter's Stone if bearing the stone.</text>
-            <recharge>D4</recharge>
         </action>
     </monster>
     <monster name="Trapper">
@@ -14597,176 +14166,682 @@
             <text>If the wastrilith is underwater, it causes all water within 60 feet of it to be difficult terrain for other creatures until the start of its next turn.</text>
         </action>
     </monster>
-    <monster name="Water Elemental Myrmidon">
-        <name>Water Elemental Myrmidon</name>
+    <monster name="Wizard, Abjurer">
+        <name>Wizard, Abjurer</name>
         <size>M</size>
-        <type>elemental</type>
+        <type>humanoid</type>
         <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>neutral</alignment>
-        <ac>18 (plate armor)</ac>
-        <hp>127 (17d8 + 51)</hp>
-        <speed>40 ft., swim 40 ft.</speed>
-        <str>18</str>
-        <dex>14</dex>
-        <con>15</con>
-        <int>8</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <save></save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist>acid; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-        <immune>poison</immune>
-        <conditionImmune>paralyzed,petrified,poisoned,prone</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Aquan,one language of its creator's choice</languages>
-        <cr>7</cr>
-        <action>
-            <name>Multiattack</name>
-            <text>The myrmidon makes three Trident attacks.</text>
-        </action>
-        <action>
-            <name>Trident</name>
-            <text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) force damage, or 8 (1d8 + 4) force damage if used with two hands to make a melee attack.</text>
-            <attack>Trident|7|1d6+4</attack>
-            <attack>Trident (2H)|7|1d8+4</attack>
-        </action>
-        <action>
-            <name>Freezing Strikes (Recharge 6)</name>
-            <text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the myrmidon's next turn.</text>
-            <attack>Freezing Strikes||1d10</attack>
-            <recharge>D6</recharge>
-        </action>
-    </monster>
-    <monster name="White Abishai">
-        <name>White Abishai</name>
-        <size>M</size>
-        <type>fiend (devil)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>lawful evil</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>68 (8d8 + 32)</hp>
-        <speed>30 ft., fly 40 ft.</speed>
-        <str>16</str>
-        <dex>11</dex>
-        <con>18</con>
-        <int>11</int>
-        <wis>12</wis>
-        <cha>13</cha>
-        <save>Str +6, Con +7</save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist>bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-        <immune>cold,fire,poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>11</passive>
-        <languages>Draconic,Infernal,telepathy 120 ft.</languages>
-        <cr>6</cr>
-        <trait>
-            <name>Devil's Sight</name>
-            <text>Magical darkness doesn't impede the abishai's darkvision.</text>
-        </trait>
-        <trait>
-            <name>Magic Resistance</name>
-            <text>The abishai has advantage on saving throws against spells and other magical effects.</text>
-        </trait>
-        <trait>
-            <name>Reckless</name>
-            <text>At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The abishai makes one Bite attack, one Claw attack, and one Longsword attack.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (1d6) cold damage.</text>
-            <attack>Bite|6|1d4+3+1d6</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage.</text>
-            <attack>Claw|6|1d10+3</attack>
-        </action>
-        <action>
-            <name>Longsword</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) force damage, or 8 (1d10 + 3) force damage if used with two hands.</text>
-            <attack>Longsword|6|1d8+3</attack>
-            <attack>Longsword (2H)|6|1d10+3</attack>
-        </action>
-        <reaction>
-            <name>Vicious Reprisal</name>
-            <text>In response to taking damage, the abishai makes one Bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking opportunity attack.</text>
-        </reaction>
-    </monster>
-    <monster name="Winter Eladrin">
-        <name>Winter Eladrin</name>
-        <size>M</size>
-        <type>fey (elf)</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>165 (22d8 + 66)</hp>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>104 (16d8 + 32)</hp>
         <speed>30 ft.</speed>
-        <str>11</str>
-        <dex>16</dex>
-        <con>16</con>
+        <str>9</str>
+        <dex>14</dex>
+        <con>14</con>
         <int>18</int>
-        <wis>17</wis>
-        <cha>13</cha>
-        <save></save>
-        <skill></skill>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +8, Wis +5</save>
+        <skill>Arcana +8, History +8</skill>
         <vulnerable></vulnerable>
-        <resist>cold</resist>
+        <resist></resist>
         <immune></immune>
         <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>13</passive>
-        <languages>Common,Elvish,Sylvan</languages>
-        <cr>10</cr>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>9</cr>
         <trait>
             <name>Spellcasting</name>
-            <text>The eladrin casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 16):</text>
-            <text>At will: fog cloud, gust of wind, sleet storm</text>
+            <text>The abjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 16):</text>
+            <text>At will: dancing lights, mage hand, message, prestidigitation</text>
+            <text>2/Day each: dispel magic, lightning bolt, mage armor</text>
+            <text>1/Day each: arcane lock, banishment, globe of invulnerability, invisibility, wall of force</text>
         </trait>
         <spellAbility>Intelligence</spellAbility>
-        <spells>Fog Cloud,Gust of Wind,Sleet Storm</spells>
+        <spells>Dancing Lights,Mage Hand,Message,Prestidigitation,Dispel Magic,Lightning Bolt,Mage Armor,Arcane Lock,Banishment,Globe of Invulnerability,Invisibility,Wall of Force</spells>
         <trait>
-            <name>Magic Resistance</name>
-            <text>The eladrin has advantage on saving throws against spells and other magical effects.</text>
+            <name>Dispel Magic</name>
+            <recharge>2/Day</recharge>
         </trait>
         <trait>
-            <name>Sorrowful Presence</name>
-            <text>Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 13 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. While charmed in this way, the creature has disadvantage on ability checks and saving throws. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.</text>
-            <text>	Whenever the eladrin deals damage to the charmed creature, the charmed creature can repeat the saving throw, ending the effect on itself on a success.</text>
+            <name>Lightning Bolt</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Arcane Lock</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Banishment</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Globe of Invulnerability</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Force</name>
+            <recharge>1/Day</recharge>
         </trait>
         <action>
             <name>Multiattack</name>
-            <text>The eladrin makes two Longsword or Longbow attacks. It can replace one attack with a use of Spellcasting.</text>
+            <text>The abjurer makes three Arcane Burst attacks.</text>
         </action>
         <action>
-            <name>Longsword</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) slashing damage, or 5 (1d10) slashing damage if used with two hands, plus 13 (3d8) cold damage.</text>
-            <attack>Longsword|4|1d8+3d8</attack>
-            <attack>Longsword (2H)|4|1d10+3d8</attack>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +8 to hit, reach 5 ft. or range 120 ft., one target. Hit: 20 (3d10 + 4) force damage.</text>
+            <attack>Arcane Burst|8|3d10+4</attack>
         </action>
         <action>
-            <name>Longbow</name>
-            <text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 13 (3d8) cold damage.</text>
-            <attack>Longbow|7|1d8+3+3d8</attack>
-        </action>
-        <action>
-            <name>Bonus Action: Fey Step (Recharge 4-6)</name>
-            <text>The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see.</text>
-            <recharge>D4</recharge>
+            <name>Force Blast</name>
+            <text>Each creature in a 20-foot cube originating from the abjurer must make a DC 16 Constitution saving throw. On a failed save, a creature takes 36 (8d8) force damage and is pushed up to 10 feet away from the abjurer. On a successful save, a creature takes half as much damage and isn't pushed.</text>
+            <attack>Force Blast||8d8</attack>
         </action>
         <reaction>
-            <name>Frigid Rebuke</name>
-            <text>When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to make a DC 16 Constitution saving throw. On a failed save, the creature takes 11 (2d10) cold damage.</text>
-            <attack>Frigid Rebuke||2d10</attack>
+            <name>Arcane Ward (Recharge 4-6)</name>
+            <text>When the abjurer or a creature it can see within 30 feet of it takes damage, the abjurer magically creates a protective barrier around itself or the other creature. The barrier reduces the damage to the protected creature by 26 (4d10 + 4), to a minimum of 0, and then vanishes.</text>
+            <attack>Arcane Ward||4d10+4</attack>
+            <recharge>D4</recharge>
         </reaction>
+    </monster>
+    <monster name="Wizard, Apprentice">
+        <name>Wizard, Apprentice</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>any alignment</alignment>
+        <ac>10</ac>
+        <hp>13 (3d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>10</dex>
+        <con>10</con>
+        <int>14</int>
+        <wis>10</wis>
+        <cha>11</cha>
+        <save></save>
+        <skill>Arcana +4, History +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>10</passive>
+        <languages>any one language (usually Common)</languages>
+        <cr>1/4</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The apprentice casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 12)</text>
+            <text>At will: mage hand, prestidigitation</text>
+            <text>1/Day each: burning hands, disguise self, mage armor</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Mage Hand,Prestidigitation,Burning Hands,Disguise Self,Mage Armor</spells>
+        <trait>
+            <name>Burning Hands</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Disguise Self</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 120 ft., one target. Hit: 7 (1d10 + 2) force damage.</text>
+            <attack>Arcane Burst|4|1d10+2</attack>
+        </action>
+    </monster>
+    <monster name="Wizard, Conjurer">
+        <name>Wizard, Conjurer</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>58 (13d8)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +6, Wis +4</save>
+        <skill>Arcana +6, History +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>6</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The conjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):</text>
+            <text>At will: dancing lights, mage hand, prestidigitation</text>
+            <text>2/Day each: fireball, mage armor, unseen servant</text>
+            <text>1/Day each: fly, stinking cloud, web</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Mage Hand,Prestidigitation,Fireball,Mage Armor,Unseen Servant,Fly,Stinking Cloud,Web</spells>
+        <trait>
+            <name>Fireball</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unseen Servant</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Fly</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Stinking Cloud</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Web</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The conjurer makes three Arcane Burst attacks.</text>
+        </action>
+        <action>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +8 to hit, reach 5 ft. or range 120 ft., one target. Hit: 19 (3d10 + 3) force damage.</text>
+            <attack>Arcane Burst|8|3d10+3</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Benign Transportation (Recharge 4-6)</name>
+            <text>The conjurer teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places.</text>
+            <recharge>D4</recharge>
+        </action>
+        <action>
+            <name>Bonus Action: Summon Elemental (1/Day)</name>
+            <text>The conjurer magically summons an air elemental, an earth elemental, a fire elemental, or a water elemental. The elemental appears in an unoccupied space within 60 feet of the conjurer, whom it obeys. It takes its turn immediately after the conjurer. It lasts for 1 hour, until it or the conjurer dies, or until the conjurer dismisses it as a bonus action.</text>
+            <recharge>1/Day</recharge>
+        </action>
+    </monster>
+    <monster name="Wizard, Diviner">
+        <name>Wizard, Diviner</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>90 (20d8)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>18</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +7, Wis +4</save>
+        <skill>Arcana +7, History +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The diviner casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 15):</text>
+            <text>At will: mage hand, message, prestidigitation</text>
+            <text>2/Day each: arcane eye, detect magic, detect thoughts, fly, lightning bolt, locate object, mage armor, Rary's telepathic bond</text>
+            <text>1/Day each: true seeing</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Mage Hand,Message,Prestidigitation,Arcane Eye,Detect Magic,Detect Thoughts,Fly,Lightning Bolt,Locate Object,Mage Armor,Rary's Telepathic Bond,True Seeing</spells>
+        <trait>
+            <name>Arcane Eye</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Detect Magic</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Detect Thoughts</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Fly</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Lightning Bolt</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Locate Object</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Rary's Telepathic Bond</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>True Seeing</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The diviner makes three Arcane Burst attacks.</text>
+        </action>
+        <action>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 20 (3d10 + 4) radiant damage.</text>
+            <attack>Arcane Burst|7|3d10+4</attack>
+        </action>
+        <action>
+            <name>Overwhelming Revelation (Recharge 5-6)</name>
+            <text>The diviner magically creates a burst of illumination in a 10-foot-radius sphere centered on a point within 120 feet of it. Each creature in that area must make a DC 15 Wisdom saving throw. On a failed save, a creature takes 45 (10d8) psychic damage and is stunned until the end of the diviner's next turn. On a successful save, the creature takes half as much damage and isn't stunned.</text>
+            <attack>Overwhelming Revelation||10d8</attack>
+            <recharge>D5</recharge>
+        </action>
+        <reaction>
+            <name>Portent (3/Day)</name>
+            <text>When the diviner or a creature it can see makes an attack roll, a saving throw, or an ability check, the diviner rolls a d20 and chooses whether to use that roll in place of the d20 rolled for the attack roll, saving throw, or ability check. </text>
+            <recharge>3/Day</recharge>
+            <attack>Portent||</attack>
+        </reaction>
+    </monster>
+    <monster name="Wizard, Enchanter">
+        <name>Wizard, Enchanter</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>49 (11d8)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +6, Wis +4</save>
+        <skill>Arcana +6, History +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The enchanter casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):</text>
+            <text>At will: friends, mage hand, message</text>
+            <text>2/Day each: charm person, mage armor, hold person, invisibility, suggestion, tongues</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Friends,Mage Hand,Message,Charm Person,Mage Armor,Hold Person,Invisibility,Suggestion,Tongues</spells>
+        <trait>
+            <name>Charm Person</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Hold Person</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Suggestion</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Tongues</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The enchanter makes three Arcane Burst attacks.</text>
+        </action>
+        <action>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120 ft., one target. Hit: 19 (3d10 + 3) psychic damage.</text>
+            <attack>Arcane Burst|6|3d10+3</attack>
+        </action>
+        <reaction>
+            <name>Instinctive Charm (Recharge 4-6)</name>
+            <text>When a visible creature within 30 feet of the enchanter makes an attack roll against it, the enchanter forces the attacker to make a DC 14 Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than the enchanter or itself. If multiple eligible creatures are closest, the attacker chooses which one to target.</text>
+            <recharge>D4</recharge>
+        </reaction>
+    </monster>
+    <monster name="Wizard, Evoker">
+        <name>Wizard, Evoker</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>121 (22d8 + 22)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +7, Wis +5</save>
+        <skill>Arcana +7, History +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The evoker casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 15):</text>
+            <text>At will: light, mage hand, message, prestidigitation</text>
+            <text>2/Day each: ice storm, lightning bolt, mage armor</text>
+            <text>1/Day each: wall of ice</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Light,Mage Hand,Message,Prestidigitation,Ice Storm,Lightning Bolt,Mage Armor,Wall of Ice</spells>
+        <trait>
+            <name>Ice Storm</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Lightning Bolt</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Wall of Ice</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The evoker makes three Arcane Burst attacks.</text>
+        </action>
+        <action>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 25 (4d10 + 3) force damage.</text>
+            <attack>Arcane Burst|7|4d10+3</attack>
+        </action>
+        <action>
+            <name>Sculpted Explosion (Recharge 4-6)</name>
+            <text>The evoker unleashes a magical explosion of a particular damage type: cold, fire, lightning, or thunder. The magic erupts in a 20-foot-radius sphere centered on a point within 150 feet of the evoker. Each creature in that area must make a DC 15 Dexterity saving throw. The evoker can select up to three creatures it can see in the area to ignore the spell, as the evoker sculpts the spell's energy around them. On a failed save, a creature takes 40 (9d8) damage of the chosen type and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</text>
+            <attack>Sculpted Explosion||9d8</attack>
+            <recharge>D4</recharge>
+        </action>
+    </monster>
+    <monster name="Wizard, Illusionist">
+        <name>Wizard, Illusionist</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>44 (8d8 + 8)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>13</con>
+        <int>16</int>
+        <wis>11</wis>
+        <cha>12</cha>
+        <save>Int +5, Wis +2</save>
+        <skill>Arcana +5, History +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>10</passive>
+        <languages>any four languages</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The illusionist casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 13):</text>
+            <text>At will: dancing lights, mage hand, minor illusion</text>
+            <text>2/Day each: disguise self, invisibility, mage armor, major image, phantasmal force, phantom steed</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Mage Hand,Minor Illusion,Disguise Self,Invisibility,Mage Armor,Major Image,Phantasmal Force,Phantom Steed</spells>
+        <trait>
+            <name>Disguise Self</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Major Image</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Phantasmal Force</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Phantom Steed</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The illusionist makes two Arcane Burst attacks.</text>
+        </action>
+        <action>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 120 ft., one target. Hit: 14 (2d10 + 3) psychic damage.</text>
+            <attack>Arcane Burst|5|2d10+3</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Displacement (Recharge 5-6)</name>
+            <text>The illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect lasts for 1 minute, and it ends early if the illusionist takes damage, if it is incapacitated, or if its speed becomes 0.</text>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster name="Wizard, Necromancer">
+        <name>Wizard, Necromancer</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>110 (20d8 + 20)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +7, Wis +5</save>
+        <skill>Arcana +7, History +7</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The necromancer casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 15):</text>
+            <text>At will: dancing lights, mage hand, prestidigitation</text>
+            <text>2/Day each: bestow curse, dimension door, mage armor, web</text>
+            <text>1/Day each: circle of death</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Mage Hand,Prestidigitation,Bestow Curse,Dimension Door,Mage Armor,Web,Circle of Death</spells>
+        <trait>
+            <name>Bestow Curse</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Dimension Door</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Web</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Circle of Death</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The necromancer makes three Arcane Burst attacks.</text>
+        </action>
+        <action>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120 ft., one target. Hit: 25 (4d10 + 3) necrotic damage.</text>
+            <attack>Arcane Burst|7|4d10+3</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Summon Undead (1/Day)</name>
+            <text>The necromancer magically summons five skeleton or zombie. The summoned creatures appear in unoccupied spaces within 60 feet of the necromancer, whom they obey. They take their turns immediately after the necromancer. Each lasts for 1 hour, until it or the necromancer dies, or until the necromancer dismisses it as a bonus action.</text>
+            <recharge>1/Day</recharge>
+        </action>
+        <reaction>
+            <name>Grim Harvest (1/Turn)</name>
+            <text>When the necromancer kills a creature with necrotic damage, the necromancer regains 9 (2d8) hit points. </text>
+            <attack>Grim Harvest||2d8</attack>
+        </reaction>
+    </monster>
+    <monster name="Wizard, Transmuter">
+        <name>Wizard, Transmuter</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>49 (11d8)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +6, Wis +4</save>
+        <skill>Arcana +6, History +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The transmuter casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):</text>
+            <text>At will: light, message, prestidigitation</text>
+            <text>2/Day each: fireball, hold person, knock, mage armor, polymorph, slow</text>
+            <text>1/Day each: telekinesis</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Light,Message,Prestidigitation,Fireball,Hold Person,Knock,Mage Armor,Polymorph,Slow,Telekinesis</spells>
+        <trait>
+            <name>Fireball</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Hold Person</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Knock</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Polymorph</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Slow</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Telekinesis</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Transmuter's Stone</name>
+            <text>The transmuter carries a magic stone it crafted. The stone grants it one of the following benefits while bearing the stone; the transmuter chooses the benefit at the end of each long rest:</text>
+            <text>Darkvision. The transmuter has darkvision out to a range of 60 feet.</text>
+            <text>Resilience. The transmuter has proficiency in Constitution saving throws. </text>
+            <text>Resistance. Resistance. The transmuter has resistance to acid, cold, fire, lightning, or thunder damage (transmuter's choice whenever choosing this benefit).</text>
+            <text>Speed. The transmuter's walking speed is increased by 10 feet.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The transmuter makes three Arcane Burst attacks.</text>
+        </action>
+        <action>
+            <name>Arcane Burst</name>
+            <text>Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120 ft., one target. Hit: 19 (3d10 + 3) acid damage.</text>
+            <attack>Arcane Burst|6|3d10+3</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Transmute (Recharge 4-6)</name>
+            <text>The transmuter casts alter self or changes the benefit of Transmuter's Stone if bearing the stone.</text>
+            <recharge>D4</recharge>
+        </action>
     </monster>
     <monster name="Wood Woad">
         <name>Wood Woad</name>
@@ -14813,42 +14888,6 @@
             <name>Club</name>
             <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. +14 (4d4 + 4) force damage.</text>
             <attack>Club|7|4d4+4</attack>
-        </action>
-    </monster>
-    <monster name="Wretched Sorrowsworn">
-        <name>Wretched Sorrowsworn</name>
-        <size>S</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>neutral evil</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>10 (4d6 - 4)</hp>
-        <speed>40 ft.</speed>
-        <str>7</str>
-        <dex>12</dex>
-        <con>9</con>
-        <int>5</int>
-        <wis>6</wis>
-        <cha>5</cha>
-        <save></save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist>bludgeoning, piercing, and slashing while in dim light or darkness</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>8</passive>
-        <languages>—</languages>
-        <cr>1/4</cr>
-        <trait>
-            <name>Wretched Pack Tactics</name>
-            <text>The sorrowsworn has advantage on an attack roll against a creature if at least one of the sorrowsworn's allies is within 5 feet of the creature and the ally isn't incapacitated. The sorrowsworn otherwise has disadvantage on attack rolls.</text>
-        </trait>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10 + 1) piercing damage, and the sorrowsworn attaches to the target. While attached, the sorrowsworn can't attack, and at the start of each of the sorrowsworn's turns, the target takes 6 (1d10 + 1) necrotic damage.</text>
-            <text>	The attached sorrowsworn moves with the target whenever the target moves, requiring none of the sorrowsworn's movement. The sorrowsworn can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach the sorrowsworn.</text>
-            <attack>Bite|3|1d10+1</attack>
         </action>
     </monster>
     <monster name="Xvart">
@@ -15169,45 +15208,6 @@
         <action>
             <name>Baleful Baying</name>
             <text>The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened of the hound until the end of the hound's next turn or until the hound is incapacitated. A frightened target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours.</text>
-        </action>
-    </monster>
-    <monster name="Young Kruthik">
-        <name>Young Kruthik</name>
-        <size>S</size>
-        <type>monstrosity</type>
-        <description>Source: Mordenkainen Presents: Monsters of the Multiverse</description>
-        <alignment>unaligned</alignment>
-        <ac>16 (natural armor)</ac>
-        <hp>9 (2d6 + 2)</hp>
-        <speed>30 ft., burrow 10 ft., climb 30 ft.</speed>
-        <str>13</str>
-        <dex>16</dex>
-        <con>13</con>
-        <int>4</int>
-        <wis>10</wis>
-        <cha>6</cha>
-        <save></save>
-        <skill>Perception +4</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 30 ft., tremorsense 60 ft.</senses>
-        <passive>14</passive>
-        <languages>Kruthik</languages>
-        <cr>1/8</cr>
-        <trait>
-            <name>Pack Tactics</name>
-            <text>The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
-        </trait>
-        <trait>
-            <name>Tunneler</name>
-            <text>The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2½-foot-diameter tunnel in its wake.</text>
-        </trait>
-        <action>
-            <name>Stab</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-            <attack>Stab|5|1d4+3</attack>
         </action>
     </monster>
     <monster name="Yuan-ti Anathema">
