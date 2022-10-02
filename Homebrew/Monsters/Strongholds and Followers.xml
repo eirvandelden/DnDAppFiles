@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" HB="HB" source="SaF">
-	<monster name="Amethyst Dragon, Adult">
-		<name>Amethyst Dragon, Adult</name>
+	<monster name="Amethyst Dragon, Adult (SaF)">
+		<name>Amethyst Dragon, Adult (SaF)</name>
 		<size>H</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -201,8 +201,8 @@
 			<attack>Psionic Shift||2d6+5</attack>
 		</legendary>
 	</monster>
-	<monster name="Amethyst Dragon, Ancient">
-		<name>Amethyst Dragon, Ancient</name>
+	<monster name="Amethyst Dragon, Ancient (SaF)">
+		<name>Amethyst Dragon, Ancient (SaF)</name>
 		<size>G</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -413,8 +413,177 @@
 			<text>Intelligent creatures who sleep within 12 miles of an amethyst dragon's lair dream of an opulent party with a charming host to whom they willingly and happily reveal their deepest secrets.</text>
 		</trait>
 	</monster>
-	<monster name="Amethyst Dragon, Young">
-		<name>Amethyst Dragon, Young</name>
+	<monster name="Amethyst Dragon, Wyrmling (SaF)">
+		<name>Amethyst Dragon, Wyrmling (SaF)</name>
+		<size>M</size>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>36 (8d8 + 0)</hp>
+		<speed>30 ft., fly 60 ft. (hover)</speed>
+		<str>14</str>
+		<dex>14</dex>
+		<con>11</con>
+		<int>14</int>
+		<wis>13</wis>
+		<cha>13</cha>
+		<save>Dex +4, Int +4, Wis +3, Cha +3</save>
+		<skill>Insight +3, Perception +3</skill>
+		<vulnerable>psychic</vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>15</passive>
+		<languages>Common, Draconic</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Psionics</name>
+			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
+			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
+			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
+			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
+			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
+			<text>Charges: 8</text>
+			<text>Recharge: 1d4</text>
+			<text>Fracture: 7</text>
+			<attack>Recharge||1d4</attack>
+		</trait>
+		<trait>
+			<name>Manifestations</name>
+			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
+			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
+			<text></text>
+			<text>Amplify</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
+			<text></text>
+			<text>Another World</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 20</text>
+			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
+			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
+			<text></text>
+			<text>Believe</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 10</text>
+			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
+			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
+			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
+			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
+			<text>  Wonder: The target spends a round doing nothing.</text>
+			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
+			<text></text>
+			<text>Distance</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 1 per target</text>
+			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
+			<text></text>
+			<text>Elsewhere</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 per feet</text>
+			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
+			<text></text>
+			<text>Flay</text>
+			<text>Casting Time: 1 bonus action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self (60-foot cone)</text>
+			<text>Charges: 2 per d6 of damage</text>
+			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
+			<text></text>
+			<text>Forget</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
+			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
+			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
+			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
+			<text></text>
+			<text>Mindscape</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
+			<text></text>
+			<text>The Real</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 hour</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
+			<text></text>
+			<text>Reflection</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 minute</text>
+			<text>Range: Self</text>
+			<text>Charges: 10 + reflection rank</text>
+			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
+			<text></text>
+			<text>Sympathy</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 charges per d8</text>
+			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
+			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
+			<text></text>
+			<text>Weight</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
+			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
+			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
+			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Auras</name>
+			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
+		</trait>
+		<trait>
+			<name>Crystal Hide</name>
+			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
+		</trait>
+		<trait>
+			<name>Sympathetic Vibrations</name>
+			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
+		</trait>
+		<trait>
+			<name>Mindspeech</name>
+			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
+		</trait>
+		<trait>
+			<name>Matrix Mind</name>
+			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
+		</trait>
+		<trait>
+			<name>Feedback Aura</name>
+			<text>Each time the dragon takes damage, all creatures within 30 feet must succeed on a DC 12 Intelligence saving throw or else take 3 (1d6) psychic damage.</text>
+			<attack>Roll||1d6</attack>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
+			<attack>Bite|4|1d10+2</attack>
+		</action>
+	</monster>
+	<monster name="Amethyst Dragon, Young (SaF)">
+		<name>Amethyst Dragon, Young (SaF)</name>
 		<size>L</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -589,175 +758,6 @@
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
 			<attack>Claw|7|2d6+3</attack>
-		</action>
-	</monster>
-	<monster name="Amethyst Wyrmling">
-		<name>Amethyst Wyrmling</name>
-		<size>M</size>
-		<type>dragon</type>
-		<description>Source: Strongholds and Followers</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>17 (natural armor)</ac>
-		<hp>36 (8d8 + 0)</hp>
-		<speed>30 ft., fly 60 ft. (hover)</speed>
-		<str>14</str>
-		<dex>14</dex>
-		<con>11</con>
-		<int>14</int>
-		<wis>13</wis>
-		<cha>13</cha>
-		<save>Dex +4, Int +4, Wis +3, Cha +3</save>
-		<skill>Insight +3, Perception +3</skill>
-		<vulnerable>psychic</vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
-		<passive>15</passive>
-		<languages>Common, Draconic</languages>
-		<cr>3</cr>
-		<trait>
-			<name>Psionics</name>
-			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
-			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
-			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
-			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
-			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
-			<text>Charges: 8</text>
-			<text>Recharge: 1d4</text>
-			<text>Fracture: 7</text>
-			<attack>Recharge||1d4</attack>
-		</trait>
-		<trait>
-			<name>Manifestations</name>
-			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
-			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
-			<text></text>
-			<text>Amplify</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
-			<text></text>
-			<text>Another World</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 20</text>
-			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
-			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
-			<text></text>
-			<text>Believe</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 10</text>
-			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
-			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
-			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
-			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
-			<text>  Wonder: The target spends a round doing nothing.</text>
-			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
-			<text></text>
-			<text>Distance</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 1 per target</text>
-			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
-			<text></text>
-			<text>Elsewhere</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 per feet</text>
-			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
-			<text></text>
-			<text>Flay</text>
-			<text>Casting Time: 1 bonus action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self (60-foot cone)</text>
-			<text>Charges: 2 per d6 of damage</text>
-			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
-			<text></text>
-			<text>Forget</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
-			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
-			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
-			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
-			<text></text>
-			<text>Mindscape</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
-			<text></text>
-			<text>The Real</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 hour</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
-			<text></text>
-			<text>Reflection</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 minute</text>
-			<text>Range: Self</text>
-			<text>Charges: 10 + reflection rank</text>
-			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
-			<text></text>
-			<text>Sympathy</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 charges per d8</text>
-			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
-			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
-			<text></text>
-			<text>Weight</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
-			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
-			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
-			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
-		</trait>
-		<trait>
-			<name>Auras</name>
-			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
-		</trait>
-		<trait>
-			<name>Crystal Hide</name>
-			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
-		</trait>
-		<trait>
-			<name>Sympathetic Vibrations</name>
-			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
-		</trait>
-		<trait>
-			<name>Mindspeech</name>
-			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
-		</trait>
-		<trait>
-			<name>Matrix Mind</name>
-			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
-		</trait>
-		<trait>
-			<name>Feedback Aura</name>
-			<text>Each time the dragon takes damage, all creatures within 30 feet must succeed on a DC 12 Intelligence saving throw or else take 3 (1d6) psychic damage.</text>
-			<attack>Roll||1d6</attack>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
-			<attack>Bite|4|1d10+2</attack>
 		</action>
 	</monster>
 	<monster name="Ash Marshal">
@@ -1153,8 +1153,8 @@
 			<attack>Ray of Salvation|7|3d6+2d8</attack>
 		</action>
 	</monster>
-	<monster name="Emerald Dragon, Adult">
-		<name>Emerald Dragon, Adult</name>
+	<monster name="Emerald Dragon, Adult (SaF)">
+		<name>Emerald Dragon, Adult (SaF)</name>
 		<size>H</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -1353,8 +1353,8 @@
 			<attack>Psionic Shift||2d6+5</attack>
 		</legendary>
 	</monster>
-	<monster name="Emerald Dragon, Ancient">
-		<name>Emerald Dragon, Ancient</name>
+	<monster name="Emerald Dragon, Ancient (SaF)">
+		<name>Emerald Dragon, Ancient (SaF)</name>
 		<size>G</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -1565,8 +1565,177 @@
 			<text>Intelligent creatures who sleep within 12 miles of an emerald dragon's lair dream of unending depths, tidal waves, starfish and crustaceans, or a calm sea under solid white sky with constellations under the waters.</text>
 		</trait>
 	</monster>
-	<monster name="Emerald Dragon, Young">
-		<name>Emerald Dragon, Young</name>
+	<monster name="Emerald Dragon, Wyrmling (SaF)">
+		<name>Emerald Dragon, Wyrmling (SaF)</name>
+		<size>M</size>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>31 (7d8 + 0)</hp>
+		<speed>30 ft., fly 60 ft. (hover), swim 30 ft.</speed>
+		<str>13</str>
+		<dex>14</dex>
+		<con>11</con>
+		<int>14</int>
+		<wis>12</wis>
+		<cha>12</cha>
+		<save>Dex +4, Int +4, Wis +3, Cha +3</save>
+		<skill>Insight +3, Perception +3</skill>
+		<vulnerable>psychic</vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>15</passive>
+		<languages>Common, Draconic</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Psionics</name>
+			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
+			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
+			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
+			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
+			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
+			<text>Charges: 7</text>
+			<text>Recharge: 1d4</text>
+			<text>Fracture: 6</text>
+			<attack>Recharge||1d4</attack>
+		</trait>
+		<trait>
+			<name>Manifestations</name>
+			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
+			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
+			<text></text>
+			<text>Amplify</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
+			<text></text>
+			<text>Another World</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 20</text>
+			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
+			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
+			<text></text>
+			<text>Believe</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 10</text>
+			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
+			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
+			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
+			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
+			<text>  Wonder: The target spends a round doing nothing.</text>
+			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
+			<text></text>
+			<text>Distance</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 1 per target</text>
+			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
+			<text></text>
+			<text>Elsewhere</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 per feet</text>
+			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
+			<text></text>
+			<text>Flay</text>
+			<text>Casting Time: 1 bonus action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self (60-foot cone)</text>
+			<text>Charges: 2 per d6 of damage</text>
+			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
+			<text></text>
+			<text>Forget</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
+			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
+			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
+			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
+			<text></text>
+			<text>Mindscape</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
+			<text></text>
+			<text>The Real</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 hour</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
+			<text></text>
+			<text>Reflection</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 minute</text>
+			<text>Range: Self</text>
+			<text>Charges: 10 + reflection rank</text>
+			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
+			<text></text>
+			<text>Sympathy</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 charges per d8</text>
+			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
+			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
+			<text></text>
+			<text>Weight</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
+			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
+			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
+			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Auras</name>
+			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
+		</trait>
+		<trait>
+			<name>Crystal Hide</name>
+			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
+		</trait>
+		<trait>
+			<name>Sympathetic Vibrations</name>
+			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
+		</trait>
+		<trait>
+			<name>Mindspeech</name>
+			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
+		</trait>
+		<trait>
+			<name>Matrix Mind</name>
+			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage.</text>
+			<attack>Bite|6|2d10+3</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
+			<attack>Claw|6|2d6+3</attack>
+		</action>
+	</monster>
+	<monster name="Emerald Dragon, Young (SaF)">
+		<name>Emerald Dragon, Young (SaF)</name>
 		<size>L</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -1731,175 +1900,6 @@
 			<name>Multiattack</name>
 			<text>The dragon makes three attacks: one with its bite and two with its claws.</text>
 		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage.</text>
-			<attack>Bite|6|2d10+3</attack>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
-			<attack>Claw|6|2d6+3</attack>
-		</action>
-	</monster>
-	<monster name="Emerald Wyrmling">
-		<name>Emerald Wyrmling</name>
-		<size>M</size>
-		<type>dragon</type>
-		<description>Source: Strongholds and Followers</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>17 (natural armor)</ac>
-		<hp>31 (7d8 + 0)</hp>
-		<speed>30 ft., fly 60 ft. (hover), swim 30 ft.</speed>
-		<str>13</str>
-		<dex>14</dex>
-		<con>11</con>
-		<int>14</int>
-		<wis>12</wis>
-		<cha>12</cha>
-		<save>Dex +4, Int +4, Wis +3, Cha +3</save>
-		<skill>Insight +3, Perception +3</skill>
-		<vulnerable>psychic</vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
-		<passive>15</passive>
-		<languages>Common, Draconic</languages>
-		<cr>3</cr>
-		<trait>
-			<name>Psionics</name>
-			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
-			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
-			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
-			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
-			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
-			<text>Charges: 7</text>
-			<text>Recharge: 1d4</text>
-			<text>Fracture: 6</text>
-			<attack>Recharge||1d4</attack>
-		</trait>
-		<trait>
-			<name>Manifestations</name>
-			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
-			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
-			<text></text>
-			<text>Amplify</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
-			<text></text>
-			<text>Another World</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 20</text>
-			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
-			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
-			<text></text>
-			<text>Believe</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 10</text>
-			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
-			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
-			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
-			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
-			<text>  Wonder: The target spends a round doing nothing.</text>
-			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
-			<text></text>
-			<text>Distance</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 1 per target</text>
-			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
-			<text></text>
-			<text>Elsewhere</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 per feet</text>
-			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
-			<text></text>
-			<text>Flay</text>
-			<text>Casting Time: 1 bonus action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self (60-foot cone)</text>
-			<text>Charges: 2 per d6 of damage</text>
-			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
-			<text></text>
-			<text>Forget</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
-			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
-			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
-			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
-			<text></text>
-			<text>Mindscape</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
-			<text></text>
-			<text>The Real</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 hour</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
-			<text></text>
-			<text>Reflection</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 minute</text>
-			<text>Range: Self</text>
-			<text>Charges: 10 + reflection rank</text>
-			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
-			<text></text>
-			<text>Sympathy</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 charges per d8</text>
-			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
-			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
-			<text></text>
-			<text>Weight</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
-			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
-			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
-			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
-		</trait>
-		<trait>
-			<name>Auras</name>
-			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
-		</trait>
-		<trait>
-			<name>Crystal Hide</name>
-			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
-		</trait>
-		<trait>
-			<name>Sympathetic Vibrations</name>
-			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
-		</trait>
-		<trait>
-			<name>Mindspeech</name>
-			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
-		</trait>
-		<trait>
-			<name>Matrix Mind</name>
-			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
-		</trait>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage.</text>
@@ -3186,8 +3186,8 @@
 			<text>The princip selects an ally. A golden crown appears over the ally's head. While the crown remains, the ally cannot be compelled to act in a manner contrary to their will and may choose one stat to raise to 24. Each time the ally takes damage while the crown is on them, they must make a constitution saving throw or lose the crown. The DC equals 10 or half the damage taken, whichever number is higher.</text>
 		</action>
 	</monster>
-	<monster name="Ruby Dragon, Adult">
-		<name>Ruby Dragon, Adult</name>
+	<monster name="Ruby Dragon, Adult (SaF)">
+		<name>Ruby Dragon, Adult (SaF)</name>
 		<size>H</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -3386,8 +3386,8 @@
 			<attack>Psionic Shift||2d6+5</attack>
 		</legendary>
 	</monster>
-	<monster name="Ruby Dragon, Ancient">
-		<name>Ruby Dragon, Ancient</name>
+	<monster name="Ruby Dragon, Ancient (SaF)">
+		<name>Ruby Dragon, Ancient (SaF)</name>
 		<size>G</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -3597,8 +3597,176 @@
 			<text>Intelligent creatures who sleep within 12 miles of a ruby dragon's lair dream of people they know transforming into other people, of places they've been dissolving to reveal barren wastelands.</text>
 		</trait>
 	</monster>
-	<monster name="Ruby Dragon, Young">
-		<name>Ruby Dragon, Young</name>
+	<monster name="Ruby Dragon, Wyrmling (SaF)">
+		<name>Ruby Dragon, Wyrmling (SaF)</name>
+		<size>M</size>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
+		<alignment>lawful neutral</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>49 (9d8 + 9)</hp>
+		<speed>30 ft., fly 60 ft. (hover)</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>15</int>
+		<wis>14</wis>
+		<cha>14</cha>
+		<save>Dex +4, Int +4, Wis +4, Cha +4</save>
+		<skill>Insight +4, Perception +4</skill>
+		<vulnerable>psychic</vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>16</passive>
+		<languages>Common, Draconic</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Psionics</name>
+			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
+			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
+			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
+			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
+			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
+			<text>Charges: 9</text>
+			<text>Recharge: 1d4</text>
+			<text>Fracture: 8</text>
+			<attack>Recharge||1d4</attack>
+		</trait>
+		<trait>
+			<name>Manifestations</name>
+			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
+			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
+			<text></text>
+			<text>Amplify</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
+			<text></text>
+			<text>Another World</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 20</text>
+			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
+			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
+			<text></text>
+			<text>Believe</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 10</text>
+			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
+			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
+			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
+			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
+			<text>  Wonder: The target spends a round doing nothing.</text>
+			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
+			<text></text>
+			<text>Distance</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 1 per target</text>
+			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
+			<text></text>
+			<text>Elsewhere</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 per feet</text>
+			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
+			<text></text>
+			<text>Flay</text>
+			<text>Casting Time: 1 bonus action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self (60-foot cone)</text>
+			<text>Charges: 2 per d6 of damage</text>
+			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
+			<text></text>
+			<text>Forget</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
+			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
+			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
+			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
+			<text></text>
+			<text>Mindscape</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
+			<text></text>
+			<text>The Real</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 hour</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
+			<text></text>
+			<text>Reflection</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 minute</text>
+			<text>Range: Self</text>
+			<text>Charges: 10 + reflection rank</text>
+			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
+			<text></text>
+			<text>Sympathy</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 charges per d8</text>
+			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
+			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
+			<text></text>
+			<text>Weight</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
+			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
+			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
+			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Auras</name>
+			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
+		</trait>
+		<trait>
+			<name>Crystal Hide</name>
+			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
+		</trait>
+		<trait>
+			<name>Sympathetic Vibrations</name>
+			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
+		</trait>
+		<trait>
+			<name>Mindspeech</name>
+			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
+		</trait>
+		<trait>
+			<name>Matrix Mind</name>
+			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
+		</trait>
+		<trait>
+			<name>Amplification Aura</name>
+			<text>Allies' spells cast within 30 feet have their saving throw DC increased by 1.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
+			<attack>Bite|4|1d10+2</attack>
+		</action>
+	</monster>
+	<monster name="Ruby Dragon, Young (SaF)">
+		<name>Ruby Dragon, Young (SaF)</name>
 		<size>L</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -3774,176 +3942,8 @@
 			<attack>Claw|7|2d6+3</attack>
 		</action>
 	</monster>
-	<monster name="Ruby Wyrmling">
-		<name>Ruby Wyrmling</name>
-		<size>M</size>
-		<type>dragon</type>
-		<description>Source: Strongholds and Followers</description>
-		<alignment>lawful neutral</alignment>
-		<ac>17 (natural armor)</ac>
-		<hp>49 (9d8 + 9)</hp>
-		<speed>30 ft., fly 60 ft. (hover)</speed>
-		<str>15</str>
-		<dex>14</dex>
-		<con>12</con>
-		<int>15</int>
-		<wis>14</wis>
-		<cha>14</cha>
-		<save>Dex +4, Int +4, Wis +4, Cha +4</save>
-		<skill>Insight +4, Perception +4</skill>
-		<vulnerable>psychic</vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
-		<passive>16</passive>
-		<languages>Common, Draconic</languages>
-		<cr>3</cr>
-		<trait>
-			<name>Psionics</name>
-			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
-			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
-			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
-			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
-			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
-			<text>Charges: 9</text>
-			<text>Recharge: 1d4</text>
-			<text>Fracture: 8</text>
-			<attack>Recharge||1d4</attack>
-		</trait>
-		<trait>
-			<name>Manifestations</name>
-			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
-			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
-			<text></text>
-			<text>Amplify</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
-			<text></text>
-			<text>Another World</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 20</text>
-			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
-			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
-			<text></text>
-			<text>Believe</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 10</text>
-			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
-			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
-			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
-			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
-			<text>  Wonder: The target spends a round doing nothing.</text>
-			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
-			<text></text>
-			<text>Distance</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 1 per target</text>
-			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
-			<text></text>
-			<text>Elsewhere</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 per feet</text>
-			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
-			<text></text>
-			<text>Flay</text>
-			<text>Casting Time: 1 bonus action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self (60-foot cone)</text>
-			<text>Charges: 2 per d6 of damage</text>
-			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
-			<text></text>
-			<text>Forget</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
-			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
-			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
-			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
-			<text></text>
-			<text>Mindscape</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
-			<text></text>
-			<text>The Real</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 hour</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
-			<text></text>
-			<text>Reflection</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 minute</text>
-			<text>Range: Self</text>
-			<text>Charges: 10 + reflection rank</text>
-			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
-			<text></text>
-			<text>Sympathy</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 charges per d8</text>
-			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
-			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
-			<text></text>
-			<text>Weight</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
-			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
-			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
-			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
-		</trait>
-		<trait>
-			<name>Auras</name>
-			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
-		</trait>
-		<trait>
-			<name>Crystal Hide</name>
-			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
-		</trait>
-		<trait>
-			<name>Sympathetic Vibrations</name>
-			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
-		</trait>
-		<trait>
-			<name>Mindspeech</name>
-			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
-		</trait>
-		<trait>
-			<name>Matrix Mind</name>
-			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
-		</trait>
-		<trait>
-			<name>Amplification Aura</name>
-			<text>Allies' spells cast within 30 feet have their saving throw DC increased by 1.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
-			<attack>Bite|4|1d10+2</attack>
-		</action>
-	</monster>
-	<monster name="Sapphie Dragon, Adult">
-		<name>Sapphie Dragon, Adult</name>
+	<monster name="Sapphie Dragon, Adult (SaF)">
+		<name>Sapphie Dragon, Adult (SaF)</name>
 		<size>H</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -4142,8 +4142,8 @@
 			<attack>Psionic Shift||2d6+6</attack>
 		</legendary>
 	</monster>
-	<monster name="Sapphire Dragon, Ancient">
-		<name>Sapphire Dragon, Ancient</name>
+	<monster name="Sapphire Dragon, Ancient (SaF)">
+		<name>Sapphire Dragon, Ancient (SaF)</name>
 		<size>G</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -4353,8 +4353,176 @@
 			<text>Intelligent creatures who sleep within 12 miles of a sapphire dragon's lair dream of the past and future. They know the things they see in these dreams are real events that have, or will, occur.</text>
 		</trait>
 	</monster>
-	<monster name="Sapphire Dragon, Young">
-		<name>Sapphire Dragon, Young</name>
+	<monster name="Sapphire Dragon, Wyrmling (SaF)">
+		<name>Sapphire Dragon, Wyrmling (SaF)</name>
+		<size>M</size>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
+		<alignment>neutral</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>55 (10d8 + 10)</hp>
+		<speed>30 ft., fly 60 ft. (hover)</speed>
+		<str>15</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>16</int>
+		<wis>14</wis>
+		<cha>15</cha>
+		<save>Dex +4, Int +4, Wis +4, Cha +4</save>
+		<skill>Insight +4, Perception +4</skill>
+		<vulnerable>psychic</vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>16</passive>
+		<languages>Common, Draconic</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Psionics</name>
+			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
+			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
+			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
+			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
+			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
+			<text>Charges: 10</text>
+			<text>Recharge: 1d4</text>
+			<text>Fracture: 9</text>
+			<attack>Recharge||1d4</attack>
+		</trait>
+		<trait>
+			<name>Manifestations</name>
+			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
+			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
+			<text></text>
+			<text>Amplify</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
+			<text></text>
+			<text>Another World</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 20</text>
+			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
+			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
+			<text></text>
+			<text>Believe</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 10</text>
+			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
+			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
+			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
+			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
+			<text>  Wonder: The target spends a round doing nothing.</text>
+			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
+			<text></text>
+			<text>Distance</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 1 per target</text>
+			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
+			<text></text>
+			<text>Elsewhere</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 per feet</text>
+			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
+			<text></text>
+			<text>Flay</text>
+			<text>Casting Time: 1 bonus action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self (60-foot cone)</text>
+			<text>Charges: 2 per d6 of damage</text>
+			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
+			<text></text>
+			<text>Forget</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
+			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
+			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
+			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
+			<text></text>
+			<text>Mindscape</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
+			<text></text>
+			<text>The Real</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 hour</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
+			<text></text>
+			<text>Reflection</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 minute</text>
+			<text>Range: Self</text>
+			<text>Charges: 10 + reflection rank</text>
+			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
+			<text></text>
+			<text>Sympathy</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 charges per d8</text>
+			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
+			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
+			<text></text>
+			<text>Weight</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
+			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
+			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
+			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Auras</name>
+			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
+		</trait>
+		<trait>
+			<name>Crystal Hide</name>
+			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
+		</trait>
+		<trait>
+			<name>Sympathetic Vibrations</name>
+			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
+		</trait>
+		<trait>
+			<name>Mindspeech</name>
+			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
+		</trait>
+		<trait>
+			<name>Matrix Mind</name>
+			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
+		</trait>
+		<trait>
+			<name>Awe Aura</name>
+			<text>All creatures within 30 feet must make a DC 13 Charisma saving throw in order to attack this dragon. On a failed save, the attacking creature's turn ends immediately. On a success, that creature is immune to the Awe Aura of all gemstone dragons for 1 week.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
+			<attack>Bite|4|1d10+2</attack>
+		</action>
+	</monster>
+	<monster name="Sapphire Dragon, Young (SaF)">
+		<name>Sapphire Dragon, Young (SaF)</name>
 		<size>L</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -4528,174 +4696,6 @@
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
 			<attack>Claw|8|2d6+4</attack>
-		</action>
-	</monster>
-	<monster name="Sapphire Wyrmling">
-		<name>Sapphire Wyrmling</name>
-		<size>M</size>
-		<type>dragon</type>
-		<description>Source: Strongholds and Followers</description>
-		<alignment>neutral</alignment>
-		<ac>18 (natural armor)</ac>
-		<hp>55 (10d8 + 10)</hp>
-		<speed>30 ft., fly 60 ft. (hover)</speed>
-		<str>15</str>
-		<dex>15</dex>
-		<con>12</con>
-		<int>16</int>
-		<wis>14</wis>
-		<cha>15</cha>
-		<save>Dex +4, Int +4, Wis +4, Cha +4</save>
-		<skill>Insight +4, Perception +4</skill>
-		<vulnerable>psychic</vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
-		<passive>16</passive>
-		<languages>Common, Draconic</languages>
-		<cr>4</cr>
-		<trait>
-			<name>Psionics</name>
-			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
-			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
-			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
-			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
-			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
-			<text>Charges: 10</text>
-			<text>Recharge: 1d4</text>
-			<text>Fracture: 9</text>
-			<attack>Recharge||1d4</attack>
-		</trait>
-		<trait>
-			<name>Manifestations</name>
-			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
-			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
-			<text></text>
-			<text>Amplify</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
-			<text></text>
-			<text>Another World</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 20</text>
-			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
-			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
-			<text></text>
-			<text>Believe</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 10</text>
-			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
-			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
-			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
-			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
-			<text>  Wonder: The target spends a round doing nothing.</text>
-			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
-			<text></text>
-			<text>Distance</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 1 per target</text>
-			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
-			<text></text>
-			<text>Elsewhere</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 per feet</text>
-			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
-			<text></text>
-			<text>Flay</text>
-			<text>Casting Time: 1 bonus action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self (60-foot cone)</text>
-			<text>Charges: 2 per d6 of damage</text>
-			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
-			<text></text>
-			<text>Forget</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
-			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
-			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
-			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
-			<text></text>
-			<text>Mindscape</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
-			<text></text>
-			<text>The Real</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 hour</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
-			<text></text>
-			<text>Reflection</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 minute</text>
-			<text>Range: Self</text>
-			<text>Charges: 10 + reflection rank</text>
-			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
-			<text></text>
-			<text>Sympathy</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 charges per d8</text>
-			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
-			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
-			<text></text>
-			<text>Weight</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
-			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
-			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
-			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
-		</trait>
-		<trait>
-			<name>Auras</name>
-			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
-		</trait>
-		<trait>
-			<name>Crystal Hide</name>
-			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
-		</trait>
-		<trait>
-			<name>Sympathetic Vibrations</name>
-			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
-		</trait>
-		<trait>
-			<name>Mindspeech</name>
-			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
-		</trait>
-		<trait>
-			<name>Matrix Mind</name>
-			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
-		</trait>
-		<trait>
-			<name>Awe Aura</name>
-			<text>All creatures within 30 feet must make a DC 13 Charisma saving throw in order to attack this dragon. On a failed save, the attacking creature's turn ends immediately. On a success, that creature is immune to the Awe Aura of all gemstone dragons for 1 week.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
-			<attack>Bite|4|1d10+2</attack>
 		</action>
 	</monster>
 	<monster name="Searph">
@@ -5288,8 +5288,8 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster name="Topaz Dragon, Adult">
-		<name>Topaz Dragon, Adult</name>
+	<monster name="Topaz Dragon, Adult (SaF)">
+		<name>Topaz Dragon, Adult (SaF)</name>
 		<size>H</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -5488,8 +5488,8 @@
 			<attack>Psionic Shift||2d6+4</attack>
 		</legendary>
 	</monster>
-	<monster name="Topaz Dragon, Ancient">
-		<name>Topaz Dragon, Ancient</name>
+	<monster name="Topaz Dragon, Ancient (SaF)">
+		<name>Topaz Dragon, Ancient (SaF)</name>
 		<size>G</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -5699,8 +5699,176 @@
 			<text>Intelligent creatures who sleep within 12 miles of a topaz dragon's lair dream of ancient lore they never studied, and in these dreams they hold conversations with sages speaking languages the dreamer does not know, but in the dream can speak and understand.</text>
 		</trait>
 	</monster>
-	<monster name="Topaz Dragon, Young">
-		<name>Topaz Dragon, Young</name>
+	<monster name="Topaz Dragon, Wyrmling (SaF)">
+		<name>Topaz Dragon, Wyrmling (SaF)</name>
+		<size>M</size>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
+		<alignment>neutral good</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>27 (6d8 + 0)</hp>
+		<speed>30 ft., fly 60 ft. (hover)</speed>
+		<str>12</str>
+		<dex>13</dex>
+		<con>10</con>
+		<int>13</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<save>Dex +3, Int +3, Wis +2, Cha +3</save>
+		<skill>Arcana +3, Insight +2, Perception +2, Religion +3</skill>
+		<vulnerable>psychic</vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Draconic, telepathy 60 ft.</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Psionics</name>
+			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
+			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
+			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
+			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
+			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
+			<text>Charges: 6</text>
+			<text>Recharge: 1d4</text>
+			<text>Fracture: 5</text>
+			<attack>Recharge||1d4</attack>
+		</trait>
+		<trait>
+			<name>Manifestations</name>
+			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
+			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
+			<text></text>
+			<text>Amplify</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
+			<text></text>
+			<text>Another World</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 20</text>
+			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
+			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
+			<text></text>
+			<text>Believe</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 10</text>
+			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
+			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
+			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
+			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
+			<text>  Wonder: The target spends a round doing nothing.</text>
+			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
+			<text></text>
+			<text>Distance</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 1 per target</text>
+			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
+			<text></text>
+			<text>Elsewhere</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 per feet</text>
+			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
+			<text></text>
+			<text>Flay</text>
+			<text>Casting Time: 1 bonus action</text>
+			<text>Duration: 1 round</text>
+			<text>Range: Self (60-foot cone)</text>
+			<text>Charges: 2 per d6 of damage</text>
+			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
+			<text></text>
+			<text>Forget</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Special</text>
+			<text>Range: 60 ft</text>
+			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
+			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
+			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
+			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
+			<text></text>
+			<text>Mindscape</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
+			<text></text>
+			<text>The Real</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: Concentration, up to 1 hour</text>
+			<text>Range: Self</text>
+			<text>Charges: 4</text>
+			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
+			<text></text>
+			<text>Reflection</text>
+			<text>Casting Time: 1 action</text>
+			<text>Duration: 1 minute</text>
+			<text>Range: Self</text>
+			<text>Charges: 10 + reflection rank</text>
+			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
+			<text></text>
+			<text>Sympathy</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Instantaneous</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 2 charges per d8</text>
+			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
+			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
+			<text></text>
+			<text>Weight</text>
+			<text>Casting Time: 1 reaction</text>
+			<text>Duration: Concentration, up to 1 minute</text>
+			<text>Range: 30 ft</text>
+			<text>Charges: 3 + 1 charge per round</text>
+			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
+			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
+			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
+			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Auras</name>
+			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
+		</trait>
+		<trait>
+			<name>Crystal Hide</name>
+			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
+		</trait>
+		<trait>
+			<name>Sympathetic Vibrations</name>
+			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
+		</trait>
+		<trait>
+			<name>Mindspeech</name>
+			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
+		</trait>
+		<trait>
+			<name>Matrix Mind</name>
+			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
+		</trait>
+		<trait>
+			<name>Uplift Aura</name>
+			<text>All allies within 30 feet gain +1 on Intelligence tests, skill checks, and saving throws.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10 + 1) piercing damage.</text>
+			<attack>Bite|3|1d10+1</attack>
+		</action>
+	</monster>
+	<monster name="Topaz Dragon, Young (SaF)">
+		<name>Topaz Dragon, Young (SaF)</name>
 		<size>L</size>
 		<type>dragon</type>
 		<description>Source: Strongholds and Followers</description>
@@ -5874,174 +6042,6 @@
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</text>
 			<attack>Claw|5|2d6+2</attack>
-		</action>
-	</monster>
-	<monster name="Topaz Wyrmling">
-		<name>Topaz Wyrmling</name>
-		<size>M</size>
-		<type>dragon</type>
-		<description>Source: Strongholds and Followers</description>
-		<alignment>neutral good</alignment>
-		<ac>16 (natural armor)</ac>
-		<hp>27 (6d8 + 0)</hp>
-		<speed>30 ft., fly 60 ft. (hover)</speed>
-		<str>12</str>
-		<dex>13</dex>
-		<con>10</con>
-		<int>13</int>
-		<wis>11</wis>
-		<cha>12</cha>
-		<save>Dex +3, Int +3, Wis +2, Cha +3</save>
-		<skill>Arcana +3, Insight +2, Perception +2, Religion +3</skill>
-		<vulnerable>psychic</vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
-		<passive>14</passive>
-		<languages>Common, Draconic, telepathy 60 ft.</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Psionics</name>
-			<text>The gemstone dragons are silico-organic organisms. When hatched, they are almost entirely organic. As they grow, their crystalline structure grows, as does their psionic power.</text>
-			<text>The crystals that grow on and thread through their bodies form a network of psionic filaments that capture, conduct, amplify, and store charges of psionic energies, which the dragons then convert into manifestations.</text>
-			<text>Each dragon begins with a number of charges based on their age. They can expend these charges to cast any psionic manifestation. Many of these manifestations have a base cost and can be enhanced by expending more charges.</text>
-			<text>Over time, the dragon's crystals conduct more psionic energies into its body, recharging its power. At the end of each round, roll the recharge die and restore that many charges.</text>
-			<text>Each dragon also has a fracture rating. Each time it takes more damage than its fracture rating from a single attack, its crystalline form fractures, diminishing its ability to recharge its power. Roll the recharge die and reduce the dragon's total charges by the result. This damage heals itself upon finishing a long rest.</text>
-			<text>Charges: 6</text>
-			<text>Recharge: 1d4</text>
-			<text>Fracture: 5</text>
-			<attack>Recharge||1d4</attack>
-		</trait>
-		<trait>
-			<name>Manifestations</name>
-			<text>Psionic charges are used to manifest psionic abilities. These manifestations are the primary source of a gemstone dragon's power. All manifestations have a range of 30 feet, unless noted otherwise.</text>
-			<text>The following manifestations are by no means the only ones the dragons have access to. It is known that the most powerful gemstone dragons can alter their form at will in a manner that defies all inspection. But these are the most well-documented and commonly used manifestations available to all psionic creatures.</text>
-			<text></text>
-			<text>Amplify</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon focuses the power of its mind and wreaths its teeth, claws, and tail in glowing psionic force. For the next minute, all of its melee attacks deal an extra 3d8 psychic damage.</text>
-			<text></text>
-			<text>Another World</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 20</text>
-			<text>What if things had been different? Maybe in another world, I am the wizard, and you are the fighter!</text>
-			<text>  Target two enemies. Both must succeed on an Intelligence saving throw or else swap character sheets until they take a short rest.</text>
-			<text></text>
-			<text>Believe</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 10</text>
-			<text>Target one creature. The dragon infects the mind of the target with a new belief. The target must succeed on an Intelligence saving throw or suffer an effect chosen from the list below.</text>
-			<text>  Friends: Until the end of its next turn, the target will not attack enemy combatants, and enemies have advantage on their next attack against this target.</text>
-			<text>  Enemies: On its next action, the target will move to the closest ally and attack it.</text>
-			<text>  Chasm: The target perceives a chasm opening up beneath it. It falls prone and takes 1d8 psychic damage. This belief persists—at the start of each round, the target makes an Intelligence saving throw. On a failed save, it continues feeling as though it is falling into an infinite abyss, taking 1d8 psychic damage.</text>
-			<text>  Wonder: The target spends a round doing nothing.</text>
-			<text>  Disaster: The target feels the world is ending and flees for one round.</text>
-			<text></text>
-			<text>Distance</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 1 per target</text>
-			<text>Space contorts and twists. Choose any number of targets the dragon can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet.</text>
-			<text></text>
-			<text>Elsewhere</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 per feet</text>
-			<text>Pick a target within 30 feet. The target must succeed on an Intelligence saving throw or be teleported 5 feet per 2 charges spent. The destination must be within sight of the dragon and not currently occupied.</text>
-			<text></text>
-			<text>Flay</text>
-			<text>Casting Time: 1 bonus action</text>
-			<text>Duration: 1 round</text>
-			<text>Range: Self (60-foot cone)</text>
-			<text>Charges: 2 per d6 of damage</text>
-			<text>As a bonus action, the dragon blasts pure psionic energy from its eyes, frying the brains of all creatures in a 60-foot cone. Each creature in that area must make an Intelligence saving throw. On a failed save, it takes psychic damage of a d6 per 2 charges spent, or half as much damage on a successful one.</text>
-			<text></text>
-			<text>Forget</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Special</text>
-			<text>Range: 60 ft</text>
-			<text>Charges: 5 + 1 per spell level if a spell is chosen</text>
-			<text>The dragon reaches into an enemy's mind and plucks a critical memory from their cortex, either the knowledge of a spell or of a weapon. This effect lasts until the target finishes a long rest. The dragon can only use this manifestation once every ten minutes on the same target. Saving against the manifestation means the target is immune to Forget for 24 hours.</text>
-			<text>  Spells: Pick a target and choose a spell the target knows. Spend charges equal in number to 5 plus the spell level. The target must make a Wisdom saving throw. On a failed save, the target cannot cast that spell until the effect of this manifestation ends.</text>
-			<text>  Weapons: Pick a target and choose a weapon. Spend 3 extra charges. The target must make a Wisdom saving throw. On a failed save, the target does not gain the benefit of their proficiency bonus with the chosen kind of weapon while the effect lasts. (For example, they might forget how to use a longsword, but still gain their proficiency benefit with shortswords.)</text>
-			<text></text>
-			<text>Mindscape</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The dragon implants a vision of a new landscape in the target's mind, making them blind to their actual surroundings, causing them to move randomly and erratically. Choose a target to make an Intelligence saving throw. On a failed save, this manifestation becomes active. If the target chooses to move while the manifestation is active, it moves 10 feet in a random direction (roll 1d8) instead of the distance and direction it intended.</text>
-			<text></text>
-			<text>The Real</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: Concentration, up to 1 hour</text>
-			<text>Range: Self</text>
-			<text>Charges: 4</text>
-			<text>The dragon sees the real reality. It can tell what is an illusion, and it sees invisible creatures and creatures hidden or disguised by magic. Magical darkness does not affect it, and it can see into the Ethereal Plane.</text>
-			<text></text>
-			<text>Reflection</text>
-			<text>Casting Time: 1 action</text>
-			<text>Duration: 1 minute</text>
-			<text>Range: Self</text>
-			<text>Charges: 10 + reflection rank</text>
-			<text>The dragon reaches through time and plucks an ally from the timescape to come and fight alongside it. Choose a row from the Servitors chart. The cost of manifesting a reflection is 10 charges plus the type of the summoned creature on the table. (For example, summoning the Inexorable of Nature costs 16 charges: 10 plus the Inexorable's type of 6.)</text>
-			<text></text>
-			<text>Sympathy</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Instantaneous</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 2 charges per d8</text>
-			<text>The dragon violently reacts to being hurt, raking its enemy's nervous system with sympathetic psionic vibrations.</text>
-			<text>  As a reaction to taking damage from something the dragon can see within 30 feet, the dragon expends charges to force the damaging creature to make an Intelligence saving throw. On a failed save, the target takes 1d8 psychic damage per 2 charges spent. The maximum damage this can deal equals the damage dealt to the dragon that prompted this manifestation.</text>
-			<text></text>
-			<text>Weight</text>
-			<text>Casting Time: 1 reaction</text>
-			<text>Duration: Concentration, up to 1 minute</text>
-			<text>Range: 30 ft</text>
-			<text>Charges: 3 + 1 charge per round</text>
-			<text>The gemstone dragons know that the weave of the timescape isn't a true force—it's little more than a quirk of geometry. One they can enhance or reverse at their discretion.</text>
-			<text>  Choose a target within range and select either Levitas or Gravitas. The target must succeed on an Intelligence saving throw or suffer the effect described below.</text>
-			<text>  Levitas: The target rises 10 feet per round. A levitating target can repeat the saving throw at the end of each of its turns, until they save. When the target eventually hits the ground, it takes 1d6 damage per 10 feet fallen, with the maximum dice equal to their level (e.g., 5d6 for level 5).</text>
-			<text>  Gravitas: The target's movement is reduced to 10 feet.</text>
-		</trait>
-		<trait>
-			<name>Auras</name>
-			<text>A dragon projects an aura 30 feet around it. The aura persists while the dragon has psionic charges remaining.</text>
-		</trait>
-		<trait>
-			<name>Crystal Hide</name>
-			<text>Normal weapons bounce and spark off the crystals extruding from a gemstone dragon's skin. These dragons are resistant to damage from nonmagical slashing, bludgeoning, and piercing attacks.</text>
-		</trait>
-		<trait>
-			<name>Sympathetic Vibrations</name>
-			<text>All gemstone dragons are vulnerable to psychic damage. The same crystalline structure that makes them hard to damage with normal weapons natively conducts any psionic radiation, causing its latticework to crack and shatter.</text>
-		</trait>
-		<trait>
-			<name>Mindspeech</name>
-			<text>All gemstone dragons develop telepathy as they age. Most acquire it when they are young, but the topaz dragons are born with it.</text>
-		</trait>
-		<trait>
-			<name>Matrix Mind</name>
-			<text>The gemstone dragons can maintain several persistent manifestations simultaneously but doing so requires expending 1 charge per manifestation at the start of each round. Damage disrupts psionic concentration just as it does a spell, but the saving throw is based on Intelligence rather than Constitution.</text>
-		</trait>
-		<trait>
-			<name>Uplift Aura</name>
-			<text>All allies within 30 feet gain +1 on Intelligence tests, skill checks, and saving throws.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10 + 1) piercing damage.</text>
-			<attack>Bite|3|1d10+1</attack>
 		</action>
 	</monster>
 	<monster name="Uursovk">
