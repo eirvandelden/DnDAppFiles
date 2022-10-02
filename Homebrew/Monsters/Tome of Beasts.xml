@@ -25056,6 +25056,41 @@
 			<attack>Wing Attack||2d10+9</attack>
 		</legendary>
 	</monster>
+	<monster name="Wind Dragon, Wyrmling">
+		<name>Wind Dragon, Wyrmling</name>
+		<size>M</size>
+		<type>dragon</type>
+		<description>Source: Tome of Beasts</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>14</ac>
+		<hp>45 (7d8 + 14)</hp>
+		<speed>40 ft., fly 80 ft.</speed>
+		<str>16</str>
+		<dex>19</dex>
+		<con>14</con>
+		<int>12</int>
+		<wis>11</wis>
+		<cha>14</cha>
+		<save>Dex +6, Con +4, Wis +2, Cha +4</save>
+		<skill>Perception +4, Stealth +6</skill>
+		<immune>lightning</immune>
+		<conditionImmune>charmed, exhausted, paralyzed</conditionImmune>
+		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Draconic, Primordial</languages>
+		<cr>1</cr>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.</text>
+			<attack>Bite|6|1d10+4</attack>
+		</action>
+		<action>
+			<name>Breath of Gales (Recharge 5-6)</name>
+			<text>The dragon exhales a blast of wind in a 15-foot cone. Each creature in that cone must make a successful DC 12 Strength saving throw or be pushed 15 feet away from the dragon and knocked prone. Unprotected flames in the cone are extinguished, and sheltered flames (such as those in lanterns) have a 50 percent chance of being extinguished.</text>
+			<recharge>D5</recharge>
+			<attack>Breath of Gales||</attack>
+		</action>
+	</monster>
 	<monster name="Wind Dragon, Young">
 		<name>Wind Dragon, Young</name>
 		<size>L</size>
@@ -25332,41 +25367,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or be afflicted with a helminth infestation (parasitic worms). An afflicted creature can't regain hit points and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the affliction reduces the target's hit point maximum to 0, the victim dies. The affliction lasts until removed by any magic that cures disease.</text>
 			<attack>Helminth Infestation|5|2d6+3d6</attack>
 			<attack>Hit point decrease||3d6</attack>
-		</action>
-	</monster>
-	<monster name="Wyrmling Wind Dragon">
-		<name>Wyrmling Wind Dragon</name>
-		<size>M</size>
-		<type>dragon</type>
-		<description>Source: Tome of Beasts</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>14</ac>
-		<hp>45 (7d8 + 14)</hp>
-		<speed>40 ft., fly 80 ft.</speed>
-		<str>16</str>
-		<dex>19</dex>
-		<con>14</con>
-		<int>12</int>
-		<wis>11</wis>
-		<cha>14</cha>
-		<save>Dex +6, Con +4, Wis +2, Cha +4</save>
-		<skill>Perception +4, Stealth +6</skill>
-		<immune>lightning</immune>
-		<conditionImmune>charmed, exhausted, paralyzed</conditionImmune>
-		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
-		<passive>14</passive>
-		<languages>Draconic, Primordial</languages>
-		<cr>1</cr>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.</text>
-			<attack>Bite|6|1d10+4</attack>
-		</action>
-		<action>
-			<name>Breath of Gales (Recharge 5-6)</name>
-			<text>The dragon exhales a blast of wind in a 15-foot cone. Each creature in that cone must make a successful DC 12 Strength saving throw or be pushed 15 feet away from the dragon and knocked prone. Unprotected flames in the cone are extinguished, and sheltered flames (such as those in lanterns) have a 50 percent chance of being extinguished.</text>
-			<recharge>D5</recharge>
-			<attack>Breath of Gales||</attack>
 		</action>
 	</monster>
 	<monster name="Xanka">
