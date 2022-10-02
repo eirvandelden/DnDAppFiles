@@ -864,6 +864,68 @@
             <text>The loup garou changes into hybrid or dire wolf form and then makes one Bite attack.</text>
         </legendary>
     </monster>
+    <monster name="Mind Flayer, Vampiric">
+        <name>Vampiric Mind Flayer</name>
+        <size>M</size>
+        <type>undead</type>
+        <description>Source: Van Richten's Guide to Ravenloft</description>
+        <alignment></alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>85 (10d8 + 40)</hp>
+        <speed>30 ft., climb 30 ft.</speed>
+        <str>18</str>
+        <dex>18</dex>
+        <con>18</con>
+        <int>5</int>
+        <wis>15</wis>
+        <cha>18</cha>
+        <save>Dex +7,Int +0,Wis +5,Cha +7</save>
+        <skill>Perception +5,Stealth +7</skill>
+        <vulnerable></vulnerable>
+        <resist>necrotic,psychic</resist>
+        <immune></immune>
+        <conditionImmune>charmed,exhaustion,frightened</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>15</passive>
+        <languages>telepathy 120 ft. but can only project emotions</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Spider Climb</name>
+            <text>The mind flayer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <trait>
+            <name>Sunlight Sensitivity</name>
+            <text>While in sunlight, the mind flayer has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The mind flayer doesn't require air, food, or sleep.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The mind flayer makes two Claw attacks or one Claw attack and one Tentacles attack.</text>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 10 (3d6) necrotic damage.</text>
+            <attack>Claw|7|1d8+4+3d6</attack>
+        </action>
+        <action>
+            <name>Tentacles</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and if the target is a creature, it is grappled (escape DC 15).</text>
+            <attack>Tentacles|7|1d6+4</attack>
+        </action>
+        <action>
+            <name>Drink Sapience</name>
+            <text>The mind flayer targets one creature it is grappling. The target must succeed on a DC 15 Wisdom saving throw or take 14 (4d6) psychic damage and gain 1 level of exhaustion. The mind flayer regains a number of hit points equal to the psychic damage dealt. A creature reduced to 0 hit points by the psychic damage dies.</text>
+            <attack>Drink Sapience||4d6</attack>
+        </action>
+        <action>
+            <name>Disrupt Psyche (Recharge 5-6)</name>
+            <text>The mind flayer magically emits psionic energy in a 30-foot-radius sphere centered on itself. Each creature in that area must succeed on a DC 15 Intelligence saving throw or be incapacitated for 1 minute. The incapacitated creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
     <monster name="Necrichor">
         <name>Necrichor</name>
         <size>M</size>
@@ -1751,68 +1813,6 @@
             <name>Hex Blast (Recharge 5-6)</name>
             <text>The horror expels necrotic energy in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 45 (7d12) necrotic damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Hex Blast||7d12</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
-    <monster name="Vampiric Mind Flayer">
-        <name>Vampiric Mind Flayer</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Van Richten's Guide to Ravenloft</description>
-        <alignment></alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>85 (10d8 + 40)</hp>
-        <speed>30 ft., climb 30 ft.</speed>
-        <str>18</str>
-        <dex>18</dex>
-        <con>18</con>
-        <int>5</int>
-        <wis>15</wis>
-        <cha>18</cha>
-        <save>Dex +7,Int +0,Wis +5,Cha +7</save>
-        <skill>Perception +5,Stealth +7</skill>
-        <vulnerable></vulnerable>
-        <resist>necrotic,psychic</resist>
-        <immune></immune>
-        <conditionImmune>charmed,exhaustion,frightened</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>15</passive>
-        <languages>telepathy 120 ft. but can only project emotions</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The mind flayer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
-        <trait>
-            <name>Sunlight Sensitivity</name>
-            <text>While in sunlight, the mind flayer has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
-        </trait>
-        <trait>
-            <name>Unusual Nature</name>
-            <text>The mind flayer doesn't require air, food, or sleep.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The mind flayer makes two Claw attacks or one Claw attack and one Tentacles attack.</text>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 10 (3d6) necrotic damage.</text>
-            <attack>Claw|7|1d8+4+3d6</attack>
-        </action>
-        <action>
-            <name>Tentacles</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and if the target is a creature, it is grappled (escape DC 15).</text>
-            <attack>Tentacles|7|1d6+4</attack>
-        </action>
-        <action>
-            <name>Drink Sapience</name>
-            <text>The mind flayer targets one creature it is grappling. The target must succeed on a DC 15 Wisdom saving throw or take 14 (4d6) psychic damage and gain 1 level of exhaustion. The mind flayer regains a number of hit points equal to the psychic damage dealt. A creature reduced to 0 hit points by the psychic damage dies.</text>
-            <attack>Drink Sapience||4d6</attack>
-        </action>
-        <action>
-            <name>Disrupt Psyche (Recharge 5-6)</name>
-            <text>The mind flayer magically emits psionic energy in a 30-foot-radius sphere centered on itself. Each creature in that area must succeed on a DC 15 Intelligence saving throw or be incapacitated for 1 minute. The incapacitated creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <recharge>D5</recharge>
         </action>
     </monster>
