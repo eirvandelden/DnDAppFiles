@@ -1,41 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Tal'dorei Campaign Setting-->
 <compendium version="5" HB="HB" source="TCS">
-	<monster name="Plainscow">
-		<name>Plainscow</name>
-		<size>L</size>
-		<type>beast</type>
-		<description>Source: Tal'dorei Campaign Setting</description>
-		<alignment>unaligned</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>42 (5d10 + 15)</hp>
-		<speed>40 ft.</speed>
-		<str>18</str>
-		<dex>8</dex>
-		<con>16</con>
-		<int>2</int>
-		<wis>10</wis>
-		<cha>6</cha>
-		<save/>
-		<skill>Insight +2</skill>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
-		<passive>10</passive>
-		<languages>—</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Trampling Charge</name>
-			<text>If the plainscow moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the plainscow can make another attack with its hooves as a bonus action.</text>
-		</trait>
-		<action>
-			<name>Hooves</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
-			<attack>Hooves|6|2d6+4</attack>
-		</action>
-	</monster>
 	<monster name="Ashari Firetamer">
 		<name>Ashari Firetamer</name>
 		<size>M</size>
@@ -51,13 +15,13 @@
 		<int>12</int>
 		<wis>18</wis>
 		<cha>11</cha>
-		<save/>
+		<save></save>
 		<skill>Arcana +5, Nature +9</skill>
 		<resist>fire</resist>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
 		<passive>14</passive>
 		<languages>Common, Druidic, Primordial (Ignan)</languages>
 		<cr>7</cr>
@@ -92,6 +56,70 @@
 			<recharge>Short</recharge>
 		</action>
 	</monster>
+	<monster name="Ashari Skydancer">
+		<name>Ashari Skydancer</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Tal'dorei Campaign Setting</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>14</ac>
+		<hp>63 (14d8)</hp>
+		<speed>30 ft., fly 60 ft. (with skysail)</speed>
+		<str>10</str>
+		<dex>18</dex>
+		<con>10</con>
+		<int>12</int>
+		<wis>16</wis>
+		<cha>11</cha>
+		<save>Dex +7</save>
+		<skill>Acrobatics +7, Perception +6</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>16</passive>
+		<languages>Common, Druidic, Primordial (Auran)</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Evasion</name>
+			<text>If the skydancer is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the skydancer instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<trait>
+			<name>Flyby</name>
+			<text>The skydancer doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+		</trait>
+		<trait>
+			<name>Skysail</name>
+			<text>The skydancer flies with a special ashari weapon called a skysail (see pg. 45). While the skysail's wings are extended, the skydancer can cast levitate at will, and can spend an action to cast fly on itself (no concentration required) for up to 1 minute once per day. This use of fly instantly replenishes when in an area of powerful air elemental magic, such as the Rift of Air in Zephrah.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The skydancer is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, shillelagh</text>
+			<text>1st level (4 slots): fog cloud, entangle, jump</text>
+			<text>2nd level (2 slots): gust of wind, skywrite</text>
+			<attack>Spell Attack|6|</attack>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
+		<spells>Guidance, Shillelagh, Fog Cloud, Entangle, Jump, Gust of Wind, Skywrite</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The skydancer makes two skysail staff attacks.</text>
+		</action>
+		<action>
+			<name>Skysail Staff</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage. If the skydancer makes this attack while flying, the target must make a DC 14 Dexterity saving throw, taking 21 (6d6) lightning damage on a failure or half as much damage on a success.</text>
+			<attack>Skysail Staff|7|1d6+4</attack>
+			<attack>Lightning||6d6</attack>
+		</action>
+		<reaction>
+			<name>Slow Fall</name>
+			<text>When the skydancer takes falling damage, it may reduce the damage by half.</text>
+		</reaction>
+	</monster>
 	<monster name="Ashari Stoneguard">
 		<name>Ashari Stoneguard</name>
 		<size>M</size>
@@ -109,10 +137,10 @@
 		<cha>9</cha>
 		<save>Str +8, Con +9, Wis +6</save>
 		<skill>Athletics +8, Intimidation +3</skill>
-		<resist/>
-		<immune/>
+		<resist></resist>
+		<immune></immune>
 		<conditionImmune>petrified</conditionImmune>
-		<vulnerable/>
+		<vulnerable></vulnerable>
 		<senses>tremorsense 30 ft.</senses>
 		<passive>12</passive>
 		<languages>Common, Druidic, Primordial (Terran)</languages>
@@ -165,10 +193,10 @@
 		<save>Con +4, Wis +6</save>
 		<skill>Athletics +8, Nature +3</skill>
 		<resist>cold</resist>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
 		<passive>13</passive>
 		<languages>Common, Druidic, Primordial (Aquan)</languages>
 		<cr>4</cr>
@@ -205,70 +233,6 @@
 			<attack>Harpoon|5|1d6+2</attack>
 		</action>
 	</monster>
-	<monster name="Ashari Skydancer">
-		<name>Ashari Skydancer</name>
-		<size>M</size>
-		<type>humanoid (any race)</type>
-		<description>Source: Tal'dorei Campaign Setting</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>14</ac>
-		<hp>63 (14d8)</hp>
-		<speed>30 ft., fly 60 ft. (with skysail)</speed>
-		<str>10</str>
-		<dex>18</dex>
-		<con>10</con>
-		<int>12</int>
-		<wis>16</wis>
-		<cha>11</cha>
-		<save>Dex +7</save>
-		<skill>Acrobatics +7, Perception +6</skill>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
-		<passive>16</passive>
-		<languages>Common, Druidic, Primordial (Auran)</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Evasion</name>
-			<text>If the skydancer is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the skydancer instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
-		</trait>
-		<trait>
-			<name>Flyby</name>
-			<text>The skydancer doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
-		</trait>
-		<trait>
-			<name>Skysail</name>
-			<text>The skydancer flies with a special ashari weapon called a skysail (see pg. 45). While the skysail's wings are extended, the skydancer can cast levitate at will, and can spend an action to cast fly on itself (no concentration required) for up to 1 minute once per day. This use of fly instantly replenishes when in an area of powerful air elemental magic, such as the Rift of Air in Zephrah.</text>
-		</trait>
-		<trait>
-			<name>Spellcasting</name>
-			<text>The skydancer is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following druid spells prepared:</text>
-			<text></text>
-			<text>Cantrips (at will): guidance, shillelagh</text>
-			<text>1st level (4 slots): fog cloud, entangle, jump</text>
-			<text>2nd level (2 slots): gust of wind, skywrite</text>
-			<attack>Spell Attack|6|</attack>
-		</trait>
-		<spellAbility>Wisdom</spellAbility>
-		<slots>4,2,0,0,0,0,0,0,0</slots>
-		<spells>Guidance, Shillelagh, Fog Cloud, Entangle, Jump, Gust of Wind, Skywrite</spells>
-		<action>
-			<name>Multiattack</name>
-			<text>The skydancer makes two skysail staff attacks.</text>
-		</action>
-		<action>
-			<name>Skysail Staff</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage. If the skydancer makes this attack while flying, the target must make a DC 14 Dexterity saving throw, taking 21 (6d6) lightning damage on a failure or half as much damage on a success.</text>
-			<attack>Skysail Staff|7|1d6+4</attack>
-			<attack>Lightning||6d6</attack>
-		</action>
-		<reaction>
-			<name>Slow Fall</name>
-			<text>When the skydancer takes falling damage, it may reduce the damage by half.</text>
-		</reaction>
-	</monster>
 	<monster name="Clasp Cutthroat">
 		<name>Clasp Cutthroat</name>
 		<size>M</size>
@@ -286,11 +250,11 @@
 		<cha>9</cha>
 		<save>Dexterity +5</save>
 		<skill>Deception +3, Stealth +7</skill>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>Common, Thieves' Cant</languages>
 		<cr>3</cr>
@@ -337,13 +301,13 @@
 		<int>8</int>
 		<wis>11</wis>
 		<cha>14</cha>
-		<save/>
+		<save></save>
 		<skill>Athletics +6, Intimidation +8</skill>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
 		<passive>10</passive>
 		<languages>Common, Thieves' Cant</languages>
 		<cr>5</cr>
@@ -383,11 +347,11 @@
 		<cha>20</cha>
 		<save>Str +4, Dex +1, Con +5, Int +0, Wis +4, Cha +10</save>
 		<skill>Arcana +6</skill>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
 		<passive>9</passive>
 		<languages>Common, Elven, Giant</languages>
 		<cr>10</cr>
@@ -444,6 +408,102 @@
 			<attack>Ice Claws|7|3d6+3+1d6</attack>
 		</action>
 	</monster>
+	<monster name="Goat-Knight Steed">
+		<name>Goat-Knight Steed</name>
+		<size>L</size>
+		<type>celestial</type>
+		<description>Source: Tal'dorei Campaign Setting</description>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>40 ft.</speed>
+		<str>17</str>
+		<dex>11</dex>
+		<con>12</con>
+		<int>6</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Dwarvish (comprehends, but cannot speak)</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Charge</name>
+			<text>If the goat-knight steed moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes a extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<attack>Bludgeoning||2d4</attack>
+		</trait>
+		<trait>
+			<name>Sure-Footed</name>
+			<text>The goat-knight steed has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		</trait>
+		<trait>
+			<name>Rider and Steed</name>
+			<text>Any spell with a range of Self cast by a goat-knight rider who is mounted on a goat-knight steed also targets the goat-knight steed.</text>
+		</trait>
+		<trait>
+			<name>Divine Provenance</name>
+			<text>When the goat-knight steed drops to 0 hit points it disappears, leaving behind no physical form. A goat knight can also dismiss his steed at any point as an action, causing it to disappear. In either case, the same steed is summoned when the goat-knight casts find steed.</text>
+		</trait>
+		<action>
+			<name>Ram</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+			<attack>Ram|8|2d4+3</attack>
+		</action>
+	</monster>
+	<monster name="Goliath Brawler">
+		<name>Goliath Brawler</name>
+		<size>M</size>
+		<type>humanoid (goliath)</type>
+		<description>Source: Tal'dorei Campaign Setting</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>15</ac>
+		<hp>65 (10d8 + 20)</hp>
+		<speed>40 ft.</speed>
+		<str>17</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>9</int>
+		<wis>16</wis>
+		<cha>7</cha>
+		<save></save>
+		<skill>Acrobatics +4, Athletics +5, Perception +5</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>15</passive>
+		<languages>Common, Giant</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Unarmored Defense</name>
+			<text>While the brawler is wearing no armor and not wielding a shield, its AC equals 10 + its Dexterity modifier + its Wisdom modifier.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The brawler makes three unarmed strikes</text>
+		</action>
+		<action>
+			<name>Unarmed Strike</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the target is a creature, the brawler can choose one of the following additional effects:</text>
+			<text>• Bruise. The target must succeed on a DC 13 Constitution saving throw. On a failure, its speed is reduced by 5 feet until it receives at least 1 point of magical healing. A DC 15 Wisdom (Medicine) check performed as an action can also restore any lost speed.</text>
+			<text>• Disarm. The target must succeed on a DC 13 Strength saving throw or drop one item it is holding. The brawler may choose which item is dropped, and may choose to pick it up.</text>
+			<text>• Suplex. The target must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<attack>Unarmed Strike|5|1d8+3</attack>
+		</action>
+		<reaction>
+			<name>Endurance</name>
+			<text>When the stormborn takes damage, it may reduce the damage by 8 (1d12 + 2). It cannot use this trait again until it completes a short or long rest.</text>
+			<attack>Endurance||1d12+2</attack>
+			<recharge>SHORT</recharge>
+		</reaction>
+	</monster>
 	<monster name="Goliath Stormborn">
 		<name>Goliath Stormborn</name>
 		<size>M</size>
@@ -462,10 +522,10 @@
 		<save>Con +6</save>
 		<skill>Athletics +6, Intimidation +3</skill>
 		<resist>lightning</resist>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
 		<passive>10</passive>
 		<languages>Common, Giant</languages>
 		<cr>4</cr>
@@ -508,54 +568,6 @@
 			<recharge>SHORT</recharge>
 		</reaction>
 	</monster>
-	<monster name="Goliath Brawler">
-		<name>Goliath Brawler</name>
-		<size>M</size>
-		<type>humanoid (goliath)</type>
-		<description>Source: Tal'dorei Campaign Setting</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>15</ac>
-		<hp>65 (10d8 + 20)</hp>
-		<speed>40 ft.</speed>
-		<str>17</str>
-		<dex>14</dex>
-		<con>15</con>
-		<int>9</int>
-		<wis>16</wis>
-		<cha>7</cha>
-		<save/>
-		<skill>Acrobatics +4, Athletics +5, Perception +5</skill>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
-		<passive>15</passive>
-		<languages>Common, Giant</languages>
-		<cr>3</cr>
-		<trait>
-			<name>Unarmored Defense</name>
-			<text>While the brawler is wearing no armor and not wielding a shield, its AC equals 10 + its Dexterity modifier + its Wisdom modifier.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The brawler makes three unarmed strikes</text>
-		</action>
-		<action>
-			<name>Unarmed Strike</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the target is a creature, the brawler can choose one of the following additional effects:</text>
-			<text>• Bruise. The target must succeed on a DC 13 Constitution saving throw. On a failure, its speed is reduced by 5 feet until it receives at least 1 point of magical healing. A DC 15 Wisdom (Medicine) check performed as an action can also restore any lost speed.</text>
-			<text>• Disarm. The target must succeed on a DC 13 Strength saving throw or drop one item it is holding. The brawler may choose which item is dropped, and may choose to pick it up.</text>
-			<text>• Suplex. The target must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
-			<attack>Unarmed Strike|5|1d8+3</attack>
-		</action>
-		<reaction>
-			<name>Endurance</name>
-			<text>When the stormborn takes damage, it may reduce the damage by 8 (1d12 + 2). It cannot use this trait again until it completes a short or long rest.</text>
-			<attack>Endurance||1d12+2</attack>
-			<recharge>SHORT</recharge>
-		</reaction>
-	</monster>
 	<monster name="Kraghammer Goat-Knight">
 		<name>Kraghammer Goat-Knight</name>
 		<size>M</size>
@@ -574,9 +586,9 @@
 		<save>Str +5, Dex +1, Con +4, Int +2, Wis +2, Cha +4</save>
 		<skill>Nature +3, Religion +6</skill>
 		<resist>poison</resist>
-		<immune/>
+		<immune></immune>
 		<conditionImmune>diseases</conditionImmune>
-		<vulnerable/>
+		<vulnerable></vulnerable>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>Common, Dwarvish</languages>
@@ -611,96 +623,39 @@
 			<attack>Warhammer (2H)|6|1d10+3</attack>
 		</action>
 	</monster>
-	<monster name="Goat-Knight Steed">
-		<name>Goat-Knight Steed</name>
+	<monster name="Plainscow">
+		<name>Plainscow</name>
 		<size>L</size>
-		<type>celestial</type>
+		<type>beast</type>
 		<description>Source: Tal'dorei Campaign Setting</description>
 		<alignment>unaligned</alignment>
-		<ac>11 (natural armor)</ac>
-		<hp>19 (3d10 + 3)</hp>
+		<ac>13 (natural armor)</ac>
+		<hp>42 (5d10 + 15)</hp>
 		<speed>40 ft.</speed>
-		<str>17</str>
-		<dex>11</dex>
-		<con>12</con>
-		<int>6</int>
-		<wis>12</wis>
+		<str>18</str>
+		<dex>8</dex>
+		<con>16</con>
+		<int>2</int>
+		<wis>10</wis>
 		<cha>6</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
-		<passive>11</passive>
-		<languages>Dwarvish (comprehends, but cannot speak)</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Charge</name>
-			<text>If the goat-knight steed moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes a extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
-			<attack>Bludgeoning||2d4</attack>
-		</trait>
-		<trait>
-			<name>Sure-Footed</name>
-			<text>The goat-knight steed has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
-		</trait>
-		<trait>
-			<name>Rider and Steed</name>
-			<text>Any spell with a range of Self cast by a goat-knight rider who is mounted on a goat-knight steed also targets the goat-knight steed.</text>
-		</trait>
-		<trait>
-			<name>Divine Provenance</name>
-			<text>When the goat-knight steed drops to 0 hit points it disappears, leaving behind no physical form. A goat knight can also dismiss his steed at any point as an action, causing it to disappear. In either case, the same steed is summoned when the goat-knight casts find steed.</text>
-		</trait>
-		<action>
-			<name>Ram</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
-			<attack>Ram|8|2d4+3</attack>
-		</action>
-	</monster>
-	<monster name="Ravager Stabby-Stabber">
-		<name>Ravager Stabby-Stabber</name>
-		<size>S</size>
-		<type>humanoid (goblinoid)</type>
-		<description>Source: Tal'dorei Campaign Setting</description>
-		<alignment>chaotic evil</alignment>
-		<ac>15 (studded leather)</ac>
-		<hp>36 (8d6 + 8)</hp>
-		<speed>30 ft.</speed>
-		<str>10</str>
-		<dex>16</dex>
-		<con>12</con>
-		<int>10</int>
-		<wis>8</wis>
-		<cha>7</cha>
-		<save>Wis +1</save>
-		<skill/>
-		<resist/>
-		<immune/>
-		<conditionImmune>charmed</conditionImmune>
-		<vulnerable/>
-		<senses>darkvision 60 ft.</senses>
-		<passive>9</passive>
-		<languages>Common, Goblin</languages>
+		<save></save>
+		<skill>Insight +2</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>—</languages>
 		<cr>2</cr>
 		<trait>
-			<name>Nimble Escape</name>
-			<text>The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</text>
-		</trait>
-		<trait>
-			<name>Stabby Frenzy</name>
-			<text>When the goblin hits with a melee attack, it may attack again. It can continue making additional attacks until it does not hit. The goblin cannot move between attacks made with this trait.</text>
+			<name>Trampling Charge</name>
+			<text>If the plainscow moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the plainscow can make another attack with its hooves as a bonus action.</text>
 		</trait>
 		<action>
-			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
-			<attack>Shortsword|5|1d6+3</attack>
-		</action>
-		<action>
-			<name>Dagger</name>
-			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-			<attack>Dagger|5|1d4+3</attack>
+			<name>Hooves</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
+			<attack>Hooves|6|2d6+4</attack>
 		</action>
 	</monster>
 	<monster name="Ravager Slaughter Lord">
@@ -720,10 +675,10 @@
 		<cha>16</cha>
 		<save>Str +10, Con +9, Wis +7</save>
 		<skill>Intimidation +11, Religion +5</skill>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
 		<senses>darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages>Common, Orc</languages>
@@ -787,62 +742,48 @@
 			<attack>Spear (2H)|10|2d8+6+1d6</attack>
 		</action>
 	</monster>
-	<monster name="Remnant Cultist">
-		<name>Remnant Cultist</name>
-		<size>M</size>
-		<type>humanoid (any race)</type>
+	<monster name="Ravager Stabby-Stabber">
+		<name>Ravager Stabby-Stabber</name>
+		<size>S</size>
+		<type>humanoid (goblinoid)</type>
 		<description>Source: Tal'dorei Campaign Setting</description>
-		<alignment>neutral evil</alignment>
-		<ac>13 (16 with mage armor)</ac>
-		<hp>60 (11d8 + 11)</hp>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (studded leather)</ac>
+		<hp>36 (8d6 + 8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str>
 		<dex>16</dex>
 		<con>12</con>
-		<int>18</int>
+		<int>10</int>
 		<wis>8</wis>
-		<cha>8</cha>
-		<save>Wis +3</save>
-		<skill>Deception +7, Stealth +7</skill>
-		<resist>psychic, necrotic</resist>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
+		<cha>7</cha>
+		<save>Wis +1</save>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune>charmed</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
 		<passive>9</passive>
-		<languages>Common, Infernal</languages>
-		<cr>7</cr>
+		<languages>Common, Goblin</languages>
+		<cr>2</cr>
 		<trait>
-			<name>Spellcasting</name>
-			<text>The remnant cultist is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The cultist has the following wizard spells prepared:</text>
-			<text></text>
-			<text>Cantrips (at will): chill touch, message, minor illusion, prestidigitation, ray of frost</text>
-			<text>1st level (4 slots): detect magic, Tasha's hideous laughter, mage armor, shield</text>
-			<text>2nd level (3 slots): detect thoughts, suggestion</text>
-			<text>3rd level (3 slots): counterspell, fear, vampiric touch</text>
-			<text>4th level (3 slots): greater invisibility, phantasmal killer</text>
-			<text>5th level (2 slot): dream, mislead</text>
-			<text>6th level (1 slot): circle of death</text>
-			<attack>Spell Attack|8|</attack>
+			<name>Nimble Escape</name>
+			<text>The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</text>
 		</trait>
 		<trait>
-			<name>Unknowable Secrets</name>
-			<text>Any attempt to form a mental link with the remnant cultist, scry the cultist, or cast speak with dead on a cultist instantly fails, and the creature that initiated the attempt takes 6d6 psychic damage.</text>
-			<attack>Psychic Damage||6d6</attack>
+			<name>Stabby Frenzy</name>
+			<text>When the goblin hits with a melee attack, it may attack again. It can continue making additional attacks until it does not hit. The goblin cannot move between attacks made with this trait.</text>
 		</trait>
-		<trait>
-			<name>One-Eyed</name>
-			<text>The cultist has disadvantage on any attack roll made against a target more than 30 feet away.</text>
-		</trait>
-		<spellAbility>Intelligence</spellAbility>
-		<slots>4,3,3,3,2,1,0,0,0</slots>
-		<spells>Chill Touch, Message, Minor Illusion, Prestidigitation, Ray of Frost, Detect Magic, Tasha's Hideous Laughter, Mage Armor, Shield, Detect Thoughts, Suggestion, Counterspell, Fear, Vampiric Touch, Greater Invisibility, Phantasmal Killer, Dream, Mislead, Circle of Death</spells>
 		<action>
-			<name>Dagger of Wounding</name>
-			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage. Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.</text>
-			<text>	Once per turn, the cultist may choose to wound its target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time the cultist wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.</text>
-			<attack>Dagger of Wounding|7|1d4+3</attack>
-			<attack>Necrotic Damage||1d4</attack>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
 		</action>
 	</monster>
 	<monster name="Remnant Chosen">
@@ -864,8 +805,8 @@
 		<skill>Arcana +11, Deception +9</skill>
 		<resist>damage from spells</resist>
 		<immune>necrotic</immune>
-		<conditionImmune/>
-		<vulnerable/>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
 		<senses>truesight 60 ft.</senses>
 		<passive>13</passive>
 		<languages>Common, Infernal, Abyssal</languages>
@@ -904,4 +845,62 @@
 			<attack>Withered Hand|6|5d6+20</attack>
 		</action>
 	</monster>
-</compendium>
+<monster name="Remnant Cultist">
+		<name>Remnant Cultist</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Tal'dorei Campaign Setting</description>
+		<alignment>neutral evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>60 (11d8 + 11)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>18</int>
+		<wis>8</wis>
+		<cha>8</cha>
+		<save>Wis +3</save>
+		<skill>Deception +7, Stealth +7</skill>
+		<resist>psychic, necrotic</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>9</passive>
+		<languages>Common, Infernal</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The remnant cultist is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The cultist has the following wizard spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): chill touch, message, minor illusion, prestidigitation, ray of frost</text>
+			<text>1st level (4 slots): detect magic, Tasha's hideous laughter, mage armor, shield</text>
+			<text>2nd level (3 slots): detect thoughts, suggestion</text>
+			<text>3rd level (3 slots): counterspell, fear, vampiric touch</text>
+			<text>4th level (3 slots): greater invisibility, phantasmal killer</text>
+			<text>5th level (2 slot): dream, mislead</text>
+			<text>6th level (1 slot): circle of death</text>
+			<attack>Spell Attack|8|</attack>
+		</trait>
+		<trait>
+			<name>Unknowable Secrets</name>
+			<text>Any attempt to form a mental link with the remnant cultist, scry the cultist, or cast speak with dead on a cultist instantly fails, and the creature that initiated the attempt takes 6d6 psychic damage.</text>
+			<attack>Psychic Damage||6d6</attack>
+		</trait>
+		<trait>
+			<name>One-Eyed</name>
+			<text>The cultist has disadvantage on any attack roll made against a target more than 30 feet away.</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
+		<spells>Chill Touch, Message, Minor Illusion, Prestidigitation, Ray of Frost, Detect Magic, Tasha's Hideous Laughter, Mage Armor, Shield, Detect Thoughts, Suggestion, Counterspell, Fear, Vampiric Touch, Greater Invisibility, Phantasmal Killer, Dream, Mislead, Circle of Death</spells>
+		<action>
+			<name>Dagger of Wounding</name>
+			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage. Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.</text>
+			<text>	Once per turn, the cultist may choose to wound its target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time the cultist wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.</text>
+			<attack>Dagger of Wounding|7|1d4+3</attack>
+			<attack>Necrotic Damage||1d4</attack>
+		</action>
+	</monster>
+	</compendium>
