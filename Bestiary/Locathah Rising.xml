@@ -1,545 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="LR">
-    <monster name="Drowned Ascetic">
-        <name>Drowned Ascetic</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>chaotic evil</alignment>
-        <ac>13</ac>
-        <hp>75 (10d8 + 30)</hp>
-        <speed>30 ft.</speed>
-        <str>12</str>
-        <dex>16</dex>
-        <con>16</con>
-        <int>3</int>
-        <wis>9</wis>
-        <cha>5</cha>
-        <save>Dex +5</save>
-        <skill />
-        <vulnerable />
-        <resist />
-        <immune>poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>9</passive>
-        <languages>understands the languages it knew in life but can't speak</languages>
-        <cr>3</cr>
-        <trait>
-            <name>Bottom Treader</name>
-            <text>The drowned ascetic cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
-        </trait>
-        <trait>
-            <name>Bound Together</name>
-            <text>The drowned ascetic shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
-        </trait>
-        <trait>
-            <name>Undead Fortitude</name>
-            <text>If damage reduces the drowned ascetic to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success. the drowned ascetic drops to 1 hit point instead.</text>
-        </trait>
-        <trait>
-            <name>Bluerot</name>
-            <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
-            <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
-            <attack>Hours/Decrease||1d4</attack>
-            <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <attack>Necrotic Damage||4d8</attack>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The drowned ascetic makes three unarmed strikes.</text>
-        </action>
-        <action>
-            <name>Unarmed Strike</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the" Bluerot" sidebar).</text>
-            <attack>Unarmed Strike|5|1d8+3</attack>
-        </action>
-    </monster>
-    <monster name="Drowned Assassin">
-        <name>Drowned Assassin</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>chaotic evil</alignment>
-        <ac>14 (leather armor)</ac>
-        <hp>67 (9d8 + 27)</hp>
-        <speed>30 ft.</speed>
-        <str>15</str>
-        <dex>16</dex>
-        <con>16</con>
-        <int>9</int>
-        <wis>9</wis>
-        <cha>16</cha>
-        <save>Dex +5, Con +5</save>
-        <skill>Intimidation +5, Stealth +5</skill>
-        <vulnerable />
-        <resist />
-        <immune>poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>9</passive>
-        <languages>understands the languages it knew in life but can't speak</languages>
-        <cr>4</cr>
-        <trait>
-            <name>Bottom Treader</name>
-            <text>The drowned assassin cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
-        </trait>
-        <trait>
-            <name>Bound Together</name>
-            <text>The drowned assassin shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
-        </trait>
-        <trait>
-            <name>Undead Fortitude</name>
-            <text>If damage reduces the drowned assassin to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned assassin drops to 1 hit point instead.</text>
-        </trait>
-        <trait>
-            <name>Bluerot</name>
-            <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
-            <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
-            <attack>Hours/Decrease||1d4</attack>
-            <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <attack>Necrotic Damage||4d8</attack>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The drowned assassin makes two hand crossbow attacks or two dagger attacks. It can then take the Dash, Disengage, or Hide action.</text>
-        </action>
-        <action>
-            <name>Hand Crossbow</name>
-            <text>Ranged Weapon Attack: +5 to hit , range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
-            <attack>Hand Crossbow|5|1d6+3+1d6</attack>
-        </action>
-        <action>
-            <name>Dagger</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 9 (2d8)poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
-            <attack>Dagger|5|1d4+3+2d8</attack>
-        </action>
-        <action>
-            <name>Reveal (1/Day)</name>
-            <text>The drowned assassin removes its mask, revealing its rotting face. Each creature of the assassin's choice within 30 feet of it that can see the assassin must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn.</text>
-            <recharge>1/DAY</recharge>
-        </action>
-    </monster>
-    <monster name="Drowned Blade">
-        <name>Drowned Blade</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>chaotic evil</alignment>
-        <ac>10 (leather armor)</ac>
-        <hp>45 (6d8 + 18)</hp>
-        <speed>30 ft.</speed>
-        <str>16</str>
-        <dex>8</dex>
-        <con>16</con>
-        <int>3</int>
-        <wis>9</wis>
-        <cha>5</cha>
-        <save />
-        <skill />
-        <vulnerable />
-        <resist />
-        <immune>poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>9</passive>
-        <languages>understands the languages 1t knew in life but can't speak</languages>
-        <cr>2</cr>
-        <trait>
-            <name>Bottom Treader</name>
-            <text>The drowned blade cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
-        </trait>
-        <trait>
-            <name>Bound Together</name>
-            <text>The drowned blade shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
-        </trait>
-        <trait>
-            <name>Undead Fortitude</name>
-            <text>If damage reduces the drowned blade to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned blade drops to 1 hit point instead.</text>
-        </trait>
-        <trait>
-            <name>Bluerot</name>
-            <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
-            <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
-            <attack>Hours/Decrease||1d4</attack>
-            <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <attack>Necrotic Damage||4d8</attack>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The drowned blade makes two rusted longsword attacks</text>
-        </action>
-        <action>
-            <name>Rusted Longsword</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
-            <attack>Rusted Longsword|5|1d8+3</attack>
-        </action>
-    </monster>
-    <monster name="Drowned Master">
-        <name>Drowned Master</name>
-        <size>M</size>
-        <type>undead</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>chaotic evil</alignment>
-        <ac>14 (natural armor)</ac>
-        <hp>157 (21d8 + 63)</hp>
-        <speed>30 ft.</speed>
-        <str>17</str>
-        <dex>12</dex>
-        <con>16</con>
-        <int>9</int>
-        <wis>14</wis>
-        <cha>12</cha>
-        <save>Con +7, Wis +6</save>
-        <skill>Perception +10</skill>
-        <vulnerable />
-        <resist />
-        <immune>poison</immune>
-        <conditionImmune>poisoned</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>20</passive>
-        <languages>understands the languages it knew in life but can't speak</languages>
-        <cr>9</cr>
-        <trait>
-            <name>Bound Together</name>
-            <text>The drowned blade shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
-        </trait>
-        <trait>
-            <name>Cold Aura</name>
-            <text>At the start of each of the drowned master's turns, each creature within 5 feet of it takes 5 (1d10) cold damage. A creature that touches the drowned master or hits it with a melee attack while within 5 feet of it takes 5 (1d10) cold damage.</text>
-            <attack>Cold Damage||1d10</attack>
-        </trait>
-        <trait>
-            <name>Undead Fortitude</name>
-            <text>If damage reduces the drowned blade to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned blade drops to 1 hit point instead.</text>
-        </trait>
-        <trait>
-            <name>Bluerot</name>
-            <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
-            <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
-            <attack>Hours/Decrease||1d4</attack>
-            <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
-            <attack>Necrotic Damage||4d8</attack>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The drowned master makes two attacks: one with its greatsword and one with its Life-Draining Tentacle.</text>
-        </action>
-        <action>
-            <name>Greatsword</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 14 (4d6) cold damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the" Bluerot" sidebar).</text>
-            <attack>Greatsword|7|2d6+3+4d6</attack>
-        </action>
-        <action>
-            <name>Life-Draining Tentacle</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to 0. This reduction lasts until the target finishes a long rest. On a failed save, the target also contracts bluerot (see the "Bluerot" sidebar).</text>
-            <attack>Life-Draining Tentacle|7|2d6+3</attack>
-        </action>
-        <action>
-            <name>Necrotic Ink (Recharge 5-6)</name>
-            <text>The drowned master discharges foul ink in front of itself in a 30-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw is blinded until the end of its next turn and contracts bluerot (see the "Bluerot" sidebar).</text>
-            <attack>Necrotic Ink||6d8</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
-    <monster name="Giant Shark">
-        <name>Giant Shark</name>
-        <size>H</size>
-        <type>beast</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>unaligned</alignment>
-        <ac>13 (natural armor)</ac>
-        <hp>126 (11d12+55)</hp>
-        <speed>swim 50 ft.</speed>
-        <str>23</str>
-        <dex>11</dex>
-        <con>21</con>
-        <int>1</int>
-        <wis>10</wis>
-        <cha>5</cha>
-        <skill>Perception +3</skill>
-        <senses>blindsight 60 ft.</senses>
-        <passive>13</passive>
-        <cr>5</cr>
-        <trait>
-            <name>Blood Frenzy</name>
-            <text>The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
-        </trait>
-        <trait>
-            <name>Water Breathing</name>
-            <text>The shark can breathe only underwater.</text>
-        </trait>
-        <action>
-            <name>Bite</name>
-            <text>Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.</text>
-            <attack>Bite|9|3d10+6</attack>
-        </action>
-    </monster>
-    <monster name="Kraken Priest">
-        <name>Kraken Priest</name>
-        <size>M</size>
-        <type>humanoid (any race)</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>any evil alignment</alignment>
-        <ac>10</ac>
-        <hp>75 (10d8+30)</hp>
-        <speed>30 ft., swim 30 ft.</speed>
-        <str>12</str>
-        <dex>10</dex>
-        <con>16</con>
-        <int>10</int>
-        <wis>15</wis>
-        <cha>14</cha>
-        <save />
-        <skill>Perception +5</skill>
-        <resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-        <vulnerable />
-        <immune />
-        <conditionImmune />
-        <senses />
-        <passive>15</passive>
-        <languages>any two languages</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Amphibious</name>
-            <text>The priest can breathe air and water.</text>
-        </trait>
-        <trait>
-            <name>Innate Spellcasting</name>
-            <text>The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
-            <text></text>
-            <text>At will: command, create or destroy water</text>
-            <text>3/day each: control water, darkness, water breathing, water walk</text>
-            <text>1/day each: call lightning, Evard's black tentacles</text>
-        	<attack>Spell Attack|5|</attack>
-        </trait>
-        <trait>
-          <name>Control Water</name>
-          <recharge>3/day</recharge>
-        </trait>
-        <trait>
-          <name>Darkness</name>
-          <recharge>3/day</recharge>
-        </trait>
-        <trait>
-          <name>Water Breathing</name>
-          <recharge>3/day</recharge>
-        </trait>
-        <trait>
-          <name>Water Walk</name>
-          <recharge>3/day</recharge>
-        </trait>
-        <trait>
-          <name>Call Lightning</name>
-          <recharge>1/day</recharge>
-        </trait>
-        <trait>
-          <name>Evard's Black Tentacles</name>
-          <recharge>1/day</recharge>
-        </trait>
-        <action>
-            <name>Thunderous Touch</name>
-            <text>Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: 27 (5d10) thunder damage.</text>
-            <attack>Thunderous Touch|5|5d10</attack>
-        </action>
-        <action>
-            <name>Voice of the Kraken (Recharges after a Short or Long Rest)</name>
-            <text>A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <recharge>SHORT</recharge>
-        </action>
-        <spells>Command, Create or Destroy Water, Control Water, Darkness, Water Breathing, Water Walk, Call Lightning, Evard's Black Tentacles</spells>
-    </monster>
-    <monster name="Sahuagin Blademaster">
-        <name>Sahuagin Blademaster</name>
-        <size>M</size>
-        <type>humanoid (sahuagin)</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>lawful evil</alignment>
-        <ac>20 (plate armor and shield)</ac>
-        <hp>97 (15d8 + 30)</hp>
-        <speed>30 ft., swim 40 ft.</speed>
-        <str>16</str>
-        <dex>12</dex>
-        <con>14</con>
-        <int>12</int>
-        <wis>11</wis>
-        <cha>12</cha>
-        <save>Str +6, Con +5</save>
-        <skill>Athletics +6, Intimidation +4</skill>
-        <vulnerable />
-        <resist />
-        <immune />
-        <conditionImmune />
-        <senses>darkvision 120 ft.</senses>
-        <passive>10</passive>
-        <languages>Sahuagin</languages>
-        <cr>6</cr>
-        <trait>
-            <name>Blood Frenzy</name>
-            <text>The blademaster has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
-        </trait>
-        <trait>
-            <name>Limited Amphibiousness</name>
-            <text>The blademaster can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</text>
-        </trait>
-        <trait>
-            <name>Shark Telepathy</name>
-            <text>The blademaster can magically command any shark within 120 feet of it, using a limited telepathy.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The blademaster makes three attacks with its wavecutter blade, or one attack with its bite and two with its claws.</text>
-        </action>
-        <action>
-            <name>Wavecutter Blade</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</text>
-            <attack>Wavecutter Blade|5|2d8+3</attack>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</text>
-            <attack>Bite|6|1d10+3</attack>
-        </action>
-        <action>
-            <name>Claws</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
-            <attack>Claws|6|1d8+3</attack>
-        </action>
-    </monster>
-    <monster name="Sahuagin Hatchling Swarm">
-        <name>Sahuagin Hatchling Swarm</name>
-        <size>L</size>
-        <type>swarm of tiny beasts</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>chaotic evil</alignment>
-        <ac>14</ac>
-        <hp>52 (8d10 + 8)</hp>
-        <speed>0 ft., swim 40 ft.</speed>
-        <str>9</str>
-        <dex>18</dex>
-        <con>12</con>
-        <int>3</int>
-        <wis>10</wis>
-        <cha>3</cha>
-        <save />
-        <skill />
-        <vulnerable />
-        <resist>bludgeoning, piercing, slashing</resist>
-        <immune />
-        <conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>10</passive>
-        <languages>—</languages>
-        <cr>3</cr>
-        <trait>
-            <name>Blood Frenzy</name>
-            <text>The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
-        </trait>
-        <trait>
-            <name>Seething</name>
-            <text>Once it enters combat, the swarm deals 10 slashing damage to itself at the end of its turn if it did not make an attack on that turn. This damage ignores resistance, and it cannot reduce the swarm to 0 hit points.</text>
-        </trait>
-        <trait>
-            <name>Swarm</name>
-            <text>The swarm can occupy another creature's space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can't regain hit points or gain temporary hit points.</text>
-        </trait>
-        <trait>
-            <name>Water Breathing</name>
-            <text>The swarm can breathe only underwater.</text>
-        </trait>
-        <action>
-            <name>Bites</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.</text>
-            <attack>Bites|6|4d6</attack>
-            <attack>Bites (under 1/2hp)|6|2d6</attack>
-        </action>
-    </monster>
-    <monster name="Swarm of Quippers">
-        <name>Swarm of Quippers</name>
-        <size>M</size>
-        <type>swarm of tiny beasts</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>unaligned</alignment>
-        <ac>13</ac>
-        <hp>28 (8d8-8)</hp>
-        <speed>0 ft., swim 40 ft.</speed>
-        <str>13</str>
-        <dex>16</dex>
-        <con>9</con>
-        <int>1</int>
-        <wis>7</wis>
-        <cha>2</cha>
-        <resist>bludgeoning, piercing, slashing</resist>
-        <conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>8</passive>
-        <cr>1</cr>
-        <trait>
-            <name>Blood Frenzy</name>
-            <text>The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
-        </trait>
-        <trait>
-            <name>Swarm</name>
-            <text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points.</text>
-        </trait>
-        <trait>
-            <name>Water Breathing</name>
-            <text>The swarm can breathe only underwater.</text>
-        </trait>
-        <action>
-            <name>Bites</name>
-            <text>Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.</text>
-            <attack>Full|5|4d6</attack>
-            <attack>Half|5|2d6</attack>
-        </action>
-    </monster>
-    <monster name="Water Elemental Myrmidon">
-        <name>Water Elemental Myrmidon</name>
-        <size>M</size>
-        <type>elemental</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>neutral</alignment>
-        <ac>18 (plate)</ac>
-        <hp>127 (17d8+51)</hp>
-        <speed>40 ft., swim 40 ft.</speed>
-        <str>18</str>
-        <dex>14</dex>
-        <con>15</con>
-        <int>8</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <save />
-        <skill />
-        <resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-        <vulnerable />
-        <immune>poison</immune>
-        <conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Aquan, one language of its creator's choice</languages>
-        <cr>7</cr>
-        <trait>
-            <name>Magic Weapons</name>
-            <text>The myrmidon's weapon attacks are magical.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The myrmidon makes three trident attacks.</text>
-        </action>
-        <action>
-            <name>Trident</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
-            <attack>Trident|7|1d6+4</attack>
-        </action>
-        <action>
-            <name>Freezing Strikes (Recharge 6)</name>
-            <text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
-            <attack>Freezing Strikes|7|1d6+4+1d10</attack>
-            <recharge>D6</recharge>
-        </action>
-        <spells />
-        <slots />
-    </monster>
     <monster name="Amble">
         <name>Amble</name>
         <size>M</size>
@@ -619,6 +79,248 @@
             <text>Melee Weapon Attack: +6 to hit (8 to hit with shillelagh), reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
             <attack>Club|6|1d6+2</attack>
             <attack>Shillelagh|6|1d8+4</attack>
+        </action>
+    </monster>
+    <monster name="Drowned Ascetic">
+        <name>Drowned Ascetic</name>
+        <size>M</size>
+        <type>undead</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>chaotic evil</alignment>
+        <ac>13</ac>
+        <hp>75 (10d8 + 30)</hp>
+        <speed>30 ft.</speed>
+        <str>12</str>
+        <dex>16</dex>
+        <con>16</con>
+        <int>3</int>
+        <wis>9</wis>
+        <cha>5</cha>
+        <save>Dex +5</save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>9</passive>
+        <languages>understands the languages it knew in life but can't speak</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Bottom Treader</name>
+            <text>The drowned ascetic cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
+        </trait>
+        <trait>
+            <name>Bound Together</name>
+            <text>The drowned ascetic shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
+        </trait>
+        <trait>
+            <name>Undead Fortitude</name>
+            <text>If damage reduces the drowned ascetic to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success. the drowned ascetic drops to 1 hit point instead.</text>
+        </trait>
+        <trait>
+            <name>Bluerot</name>
+            <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
+            <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+            <attack>Hours/Decrease||1d4</attack>
+            <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
+            <attack>Necrotic Damage||4d8</attack>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The drowned ascetic makes three unarmed strikes.</text>
+        </action>
+        <action>
+            <name>Unarmed Strike</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the" Bluerot" sidebar).</text>
+            <attack>Unarmed Strike|5|1d8+3</attack>
+        </action>
+    </monster>
+    <monster name="Drowned Assassin">
+        <name>Drowned Assassin</name>
+        <size>M</size>
+        <type>undead</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>chaotic evil</alignment>
+        <ac>14 (leather armor)</ac>
+        <hp>67 (9d8 + 27)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>16</con>
+        <int>9</int>
+        <wis>9</wis>
+        <cha>16</cha>
+        <save>Dex +5, Con +5</save>
+        <skill>Intimidation +5, Stealth +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>9</passive>
+        <languages>understands the languages it knew in life but can't speak</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Bottom Treader</name>
+            <text>The drowned assassin cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
+        </trait>
+        <trait>
+            <name>Bound Together</name>
+            <text>The drowned assassin shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
+        </trait>
+        <trait>
+            <name>Undead Fortitude</name>
+            <text>If damage reduces the drowned assassin to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned assassin drops to 1 hit point instead.</text>
+        </trait>
+        <trait>
+            <name>Bluerot</name>
+            <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
+            <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+            <attack>Hours/Decrease||1d4</attack>
+            <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
+            <attack>Necrotic Damage||4d8</attack>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The drowned assassin makes two hand crossbow attacks or two dagger attacks. It can then take the Dash, Disengage, or Hide action.</text>
+        </action>
+        <action>
+            <name>Hand Crossbow</name>
+            <text>Ranged Weapon Attack: +5 to hit , range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
+            <attack>Hand Crossbow|5|1d6+3+1d6</attack>
+        </action>
+        <action>
+            <name>Dagger</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 9 (2d8)poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
+            <attack>Dagger|5|1d4+3+2d8</attack>
+        </action>
+        <action>
+            <name>Reveal (1/Day)</name>
+            <text>The drowned assassin removes its mask, revealing its rotting face. Each creature of the assassin's choice within 30 feet of it that can see the assassin must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn.</text>
+            <recharge>1/DAY</recharge>
+        </action>
+    </monster>
+    <monster name="Drowned Blade">
+        <name>Drowned Blade</name>
+        <size>M</size>
+        <type>undead</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>chaotic evil</alignment>
+        <ac>10 (leather armor)</ac>
+        <hp>45 (6d8 + 18)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>8</dex>
+        <con>16</con>
+        <int>3</int>
+        <wis>9</wis>
+        <cha>5</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>9</passive>
+        <languages>understands the languages 1t knew in life but can't speak</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Bottom Treader</name>
+            <text>The drowned blade cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
+        </trait>
+        <trait>
+            <name>Bound Together</name>
+            <text>The drowned blade shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
+        </trait>
+        <trait>
+            <name>Undead Fortitude</name>
+            <text>If damage reduces the drowned blade to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned blade drops to 1 hit point instead.</text>
+        </trait>
+        <trait>
+            <name>Bluerot</name>
+            <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
+            <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+            <attack>Hours/Decrease||1d4</attack>
+            <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
+            <attack>Necrotic Damage||4d8</attack>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The drowned blade makes two rusted longsword attacks</text>
+        </action>
+        <action>
+            <name>Rusted Longsword</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
+            <attack>Rusted Longsword|5|1d8+3</attack>
+        </action>
+    </monster>
+    <monster name="Drowned Master">
+        <name>Drowned Master</name>
+        <size>M</size>
+        <type>undead</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>chaotic evil</alignment>
+        <ac>14 (natural armor)</ac>
+        <hp>157 (21d8 + 63)</hp>
+        <speed>30 ft.</speed>
+        <str>17</str>
+        <dex>12</dex>
+        <con>16</con>
+        <int>9</int>
+        <wis>14</wis>
+        <cha>12</cha>
+        <save>Con +7, Wis +6</save>
+        <skill>Perception +10</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>20</passive>
+        <languages>understands the languages it knew in life but can't speak</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Bound Together</name>
+            <text>The drowned blade shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
+        </trait>
+        <trait>
+            <name>Cold Aura</name>
+            <text>At the start of each of the drowned master's turns, each creature within 5 feet of it takes 5 (1d10) cold damage. A creature that touches the drowned master or hits it with a melee attack while within 5 feet of it takes 5 (1d10) cold damage.</text>
+            <attack>Cold Damage||1d10</attack>
+        </trait>
+        <trait>
+            <name>Undead Fortitude</name>
+            <text>If damage reduces the drowned blade to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned blade drops to 1 hit point instead.</text>
+        </trait>
+        <trait>
+            <name>Bluerot</name>
+            <text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
+            <text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+            <attack>Hours/Decrease||1d4</attack>
+            <text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
+            <attack>Necrotic Damage||4d8</attack>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The drowned master makes two attacks: one with its greatsword and one with its Life-Draining Tentacle.</text>
+        </action>
+        <action>
+            <name>Greatsword</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 14 (4d6) cold damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the" Bluerot" sidebar).</text>
+            <attack>Greatsword|7|2d6+3+4d6</attack>
+        </action>
+        <action>
+            <name>Life-Draining Tentacle</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to 0. This reduction lasts until the target finishes a long rest. On a failed save, the target also contracts bluerot (see the "Bluerot" sidebar).</text>
+            <attack>Life-Draining Tentacle|7|2d6+3</attack>
+        </action>
+        <action>
+            <name>Necrotic Ink (Recharge 5-6)</name>
+            <text>The drowned master discharges foul ink in front of itself in a 30-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw is blinded until the end of its next turn and contracts bluerot (see the "Bluerot" sidebar).</text>
+            <attack>Necrotic Ink||6d8</attack>
+            <recharge>D5</recharge>
         </action>
     </monster>
     <monster name="Fhenimore">
@@ -796,6 +498,349 @@
             <text>Gar makes one attack with Wave with advantage.</text>
         </legendary>
     </monster>
+    <monster name="Giant Shark">
+        <name>Giant Shark</name>
+        <size>H</size>
+        <type>beast</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>unaligned</alignment>
+        <ac>13 (natural armor)</ac>
+        <hp>126 (11d12+55)</hp>
+        <speed>swim 50 ft.</speed>
+        <str>23</str>
+        <dex>11</dex>
+        <con>21</con>
+        <int>1</int>
+        <wis>10</wis>
+        <cha>5</cha>
+        <skill>Perception +3</skill>
+        <senses>blindsight 60 ft.</senses>
+        <passive>13</passive>
+        <cr>5</cr>
+        <trait>
+            <name>Blood Frenzy</name>
+            <text>The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+        </trait>
+        <trait>
+            <name>Water Breathing</name>
+            <text>The shark can breathe only underwater.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.</text>
+            <attack>Bite|9|3d10+6</attack>
+        </action>
+    </monster>
+    <monster name="Kraken Priest">
+        <name>Kraken Priest</name>
+        <size>M</size>
+        <type>humanoid (any race)</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>any evil alignment</alignment>
+        <ac>10</ac>
+        <hp>75 (10d8+30)</hp>
+        <speed>30 ft., swim 30 ft.</speed>
+        <str>12</str>
+        <dex>10</dex>
+        <con>16</con>
+        <int>10</int>
+        <wis>15</wis>
+        <cha>14</cha>
+        <save></save>
+        <skill>Perception +5</skill>
+        <resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+        <vulnerable></vulnerable>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>15</passive>
+        <languages>any two languages</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Amphibious</name>
+            <text>The priest can breathe air and water.</text>
+        </trait>
+        <trait>
+            <name>Innate Spellcasting</name>
+            <text>The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</text>
+            <text></text>
+            <text>At will: command, create or destroy water</text>
+            <text>3/day each: control water, darkness, water breathing, water walk</text>
+            <text>1/day each: call lightning, Evard's black tentacles</text>
+        	<attack>Spell Attack|5|</attack>
+        </trait>
+        <trait>
+          <name>Control Water</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
+          <name>Darkness</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
+          <name>Water Breathing</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
+          <name>Water Walk</name>
+          <recharge>3/day</recharge>
+        </trait>
+        <trait>
+          <name>Call Lightning</name>
+          <recharge>1/day</recharge>
+        </trait>
+        <trait>
+          <name>Evard's Black Tentacles</name>
+          <recharge>1/day</recharge>
+        </trait>
+        <action>
+            <name>Thunderous Touch</name>
+            <text>Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: 27 (5d10) thunder damage.</text>
+            <attack>Thunderous Touch|5|5d10</attack>
+        </action>
+        <action>
+            <name>Voice of the Kraken (Recharges after a Short or Long Rest)</name>
+            <text>A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <recharge>SHORT</recharge>
+        </action>
+        <spells>Command, Create or Destroy Water, Control Water, Darkness, Water Breathing, Water Walk, Call Lightning, Evard's Black Tentacles</spells>
+    </monster>
+    <monster name="Sahuagin Blademaster">
+        <name>Sahuagin Blademaster</name>
+        <size>M</size>
+        <type>humanoid (sahuagin)</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>lawful evil</alignment>
+        <ac>20 (plate armor and shield)</ac>
+        <hp>97 (15d8 + 30)</hp>
+        <speed>30 ft., swim 40 ft.</speed>
+        <str>16</str>
+        <dex>12</dex>
+        <con>14</con>
+        <int>12</int>
+        <wis>11</wis>
+        <cha>12</cha>
+        <save>Str +6, Con +5</save>
+        <skill>Athletics +6, Intimidation +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>10</passive>
+        <languages>Sahuagin</languages>
+        <cr>6</cr>
+        <trait>
+            <name>Blood Frenzy</name>
+            <text>The blademaster has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+        </trait>
+        <trait>
+            <name>Limited Amphibiousness</name>
+            <text>The blademaster can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</text>
+        </trait>
+        <trait>
+            <name>Shark Telepathy</name>
+            <text>The blademaster can magically command any shark within 120 feet of it, using a limited telepathy.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The blademaster makes three attacks with its wavecutter blade, or one attack with its bite and two with its claws.</text>
+        </action>
+        <action>
+            <name>Wavecutter Blade</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</text>
+            <attack>Wavecutter Blade|5|2d8+3</attack>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</text>
+            <attack>Bite|6|1d10+3</attack>
+        </action>
+        <action>
+            <name>Claws</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
+            <attack>Claws|6|1d8+3</attack>
+        </action>
+    </monster>
+    <monster name="Sahuagin Deep Diver">
+        <name>Sahuagin Deep Diver</name>
+        <size>M</size>
+        <type>humanoid (sahuagin)</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>lawful evil</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>91 (14d8 + 28)</hp>
+        <speed>30 ft., swim 40 ft.</speed>
+        <str>14</str>
+        <dex>16</dex>
+        <con>15</con>
+        <int>12</int>
+        <wis>13</wis>
+        <cha>9</cha>
+        <save>Con +4, Wis +3</save>
+        <skill>Perception +5, Stealth +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>15</passive>
+        <languages>Sahuagin</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Blood Frenzy</name>
+            <text>The deep diver has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+        </trait>
+        <trait>
+            <name>Brine Lurker</name>
+            <text>The deep diver has advantage on Dexterity (Stealth) checks made while submerged in water.</text>
+        </trait>
+        <trait>
+            <name>Limited Amphibiousness</name>
+            <text>The deep diver can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</text>
+        </trait>
+        <trait>
+            <name>Lure</name>
+            <text>The deep diver can cause its lure to light up or darken at will. While the lure is lit, the deep diver sheds bright light in a 30-foot radius centered on itself and dim light for an additional 20 feet.</text>
+        </trait>
+        <trait>
+            <name>Shark Telepathy</name>
+            <text>The deep diver can magically command any shark within 120 feet of it, using a limited telepathy.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The deep diver makes two attacks with its glaive, or one attack with its bite and two with its claws.</text>
+        </action>
+        <action>
+            <name>Glaive</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 13 (2d10 + 2) slashing damage.</text>
+            <attack>Glaive|4|2d10+2</attack>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
+            <attack>Bite|4|1d10+2</attack>
+        </action>
+        <action>
+            <name>Claws</name>
+            <text>Melee Weapon Attack: +4 to hit, reach S ft., one target. Hit: 6 (1d8 + 2) slashing damage.</text>
+            <attack>Claws|4|1d8+2</attack>
+        </action>
+        <action>
+            <name>Light of Sekolah</name>
+            <text>The deep diver pulses magical light from its lure. Any creature within 30 feet of the deep diver that can see the light must succeed on a DC 11 Wisdom saving throw or be charmed until the end of its next turn. A creature charmed in this way is incapacitated as it stares at the light.</text>
+        </action>
+    </monster>
+<monster name="Sahuagin Hatchling Swarm">
+        <name>Sahuagin Hatchling Swarm</name>
+        <size>L</size>
+        <type>swarm of tiny beasts</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>chaotic evil</alignment>
+        <ac>14</ac>
+        <hp>52 (8d10 + 8)</hp>
+        <speed>0 ft., swim 40 ft.</speed>
+        <str>9</str>
+        <dex>18</dex>
+        <con>12</con>
+        <int>3</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>bludgeoning, piercing, slashing</resist>
+        <immune></immune>
+        <conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>10</passive>
+        <languages>—</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Blood Frenzy</name>
+            <text>The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+        </trait>
+        <trait>
+            <name>Seething</name>
+            <text>Once it enters combat, the swarm deals 10 slashing damage to itself at the end of its turn if it did not make an attack on that turn. This damage ignores resistance, and it cannot reduce the swarm to 0 hit points.</text>
+        </trait>
+        <trait>
+            <name>Swarm</name>
+            <text>The swarm can occupy another creature's space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can't regain hit points or gain temporary hit points.</text>
+        </trait>
+        <trait>
+            <name>Water Breathing</name>
+            <text>The swarm can breathe only underwater.</text>
+        </trait>
+        <action>
+            <name>Bites</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.</text>
+            <attack>Bites|6|4d6</attack>
+            <attack>Bites (under 1/2hp)|6|2d6</attack>
+        </action>
+    </monster>
+    <monster name="Sea Lion (Monstrosity)">
+        <name>Sea Lion (Monstrosity)</name>
+        <size>L</size>
+        <type>monstrosity</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>unaligned</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>90 (12d10+24)</hp>
+        <speed>10 ft., swim 40 ft.</speed>
+        <str>17</str>
+        <dex>15</dex>
+        <con>15</con>
+        <int>3</int>
+        <wis>12</wis>
+        <cha>8</cha>
+        <save></save>
+        <skill>Perception +4, Stealth +5</skill>
+        <resist></resist>
+        <vulnerable></vulnerable>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>14</passive>
+        <languages></languages>
+        <cr>5</cr>
+        <trait>
+            <name>Source</name>
+            <text>Tales from the Yawning Portal, page 242</text>
+        </trait>
+        <trait>
+            <name>Amphibious</name>
+            <text>The sea lion can breathe air and water.</text>
+        </trait>
+        <trait>
+            <name>Keen Smell</name>
+            <text>The sea lion has advantage on Wisdom (Perception) checks that rely on smell.</text>
+        </trait>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>The sea lion has advantage on an attack roll against a creature if at least one of the sea lion's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+        </trait>
+        <trait>
+            <name>Swimming Leap</name>
+            <text>With a 10-foot swimming start, the sea lion can long jump out of or across the water up to 25 feet.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The sea lion makes three attacks: one bite attack and two claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</text>
+            <attack>Bite|6|2d8+3</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage</text>
+            <attack>Claw|6|2d8+3</attack>
+        </action>
+        <spells></spells>
+        <slots></slots>
+    </monster>
     <monster name="Shoalar Quanderil">
         <name>Shoalar Quanderil</name>
         <size>M</size>
@@ -854,6 +899,92 @@
             <text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or ranged 20/60 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</text>
             <attack>Dagger|4|1d4+1</attack>
         </action>
+    </monster>
+    <monster name="Swarm of Quippers">
+        <name>Swarm of Quippers</name>
+        <size>M</size>
+        <type>swarm of tiny beasts</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>unaligned</alignment>
+        <ac>13</ac>
+        <hp>28 (8d8-8)</hp>
+        <speed>0 ft., swim 40 ft.</speed>
+        <str>13</str>
+        <dex>16</dex>
+        <con>9</con>
+        <int>1</int>
+        <wis>7</wis>
+        <cha>2</cha>
+        <resist>bludgeoning, piercing, slashing</resist>
+        <conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>8</passive>
+        <cr>1</cr>
+        <trait>
+            <name>Blood Frenzy</name>
+            <text>The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+        </trait>
+        <trait>
+            <name>Swarm</name>
+            <text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points.</text>
+        </trait>
+        <trait>
+            <name>Water Breathing</name>
+            <text>The swarm can breathe only underwater.</text>
+        </trait>
+        <action>
+            <name>Bites</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.</text>
+            <attack>Full|5|4d6</attack>
+            <attack>Half|5|2d6</attack>
+        </action>
+    </monster>
+    <monster name="Water Elemental Myrmidon">
+        <name>Water Elemental Myrmidon</name>
+        <size>M</size>
+        <type>elemental</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>neutral</alignment>
+        <ac>18 (plate)</ac>
+        <hp>127 (17d8+51)</hp>
+        <speed>40 ft., swim 40 ft.</speed>
+        <str>18</str>
+        <dex>14</dex>
+        <con>15</con>
+        <int>8</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <save></save>
+        <skill></skill>
+        <resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+        <vulnerable></vulnerable>
+        <immune>poison</immune>
+        <conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Aquan, one language of its creator's choice</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Magic Weapons</name>
+            <text>The myrmidon's weapon attacks are magical.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The myrmidon makes three trident attacks.</text>
+        </action>
+        <action>
+            <name>Trident</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+            <attack>Trident|7|1d6+4</attack>
+        </action>
+        <action>
+            <name>Freezing Strikes (Recharge 6)</name>
+            <text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
+            <attack>Freezing Strikes|7|1d6+4+1d10</attack>
+            <recharge>D6</recharge>
+        </action>
+        <spells></spells>
+        <slots></slots>
     </monster>
     <monster name="Whymsee">
         <name>Whymsee</name>
@@ -991,135 +1122,4 @@
             <attack>Lightning Strike||4d10</attack>
         </action>
     </monster>
-    <monster name="Sea Lion (Monstrosity)">
-        <name>Sea Lion (Monstrosity)</name>
-        <size>L</size>
-        <type>monstrosity</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>unaligned</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>90 (12d10+24)</hp>
-        <speed>10 ft., swim 40 ft.</speed>
-        <str>17</str>
-        <dex>15</dex>
-        <con>15</con>
-        <int>3</int>
-        <wis>12</wis>
-        <cha>8</cha>
-        <save />
-        <skill>Perception +4, Stealth +5</skill>
-        <resist />
-        <vulnerable />
-        <immune />
-        <conditionImmune />
-        <senses />
-        <passive>14</passive>
-        <languages />
-        <cr>5</cr>
-        <trait>
-            <name>Source</name>
-            <text>Tales from the Yawning Portal, page 242</text>
-        </trait>
-        <trait>
-            <name>Amphibious</name>
-            <text>The sea lion can breathe air and water.</text>
-        </trait>
-        <trait>
-            <name>Keen Smell</name>
-            <text>The sea lion has advantage on Wisdom (Perception) checks that rely on smell.</text>
-        </trait>
-        <trait>
-            <name>Pack Tactics</name>
-            <text>The sea lion has advantage on an attack roll against a creature if at least one of the sea lion's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
-        </trait>
-        <trait>
-            <name>Swimming Leap</name>
-            <text>With a 10-foot swimming start, the sea lion can long jump out of or across the water up to 25 feet.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The sea lion makes three attacks: one bite attack and two claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</text>
-            <attack>Bite|6|2d8+3</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage</text>
-            <attack>Claw|6|2d8+3</attack>
-        </action>
-        <spells />
-        <slots />
-    </monster>
-    <monster name="Sahuagin Deep Diver">
-        <name>Sahuagin Deep Diver</name>
-        <size>M</size>
-        <type>humanoid (sahuagin)</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>lawful evil</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>91 (14d8 + 28)</hp>
-        <speed>30 ft., swim 40 ft.</speed>
-        <str>14</str>
-        <dex>16</dex>
-        <con>15</con>
-        <int>12</int>
-        <wis>13</wis>
-        <cha>9</cha>
-        <save>Con +4, Wis +3</save>
-        <skill>Perception +5, Stealth +5</skill>
-        <vulnerable />
-        <resist />
-        <immune />
-        <conditionImmune />
-        <senses>darkvision 120 ft.</senses>
-        <passive>15</passive>
-        <languages>Sahuagin</languages>
-        <cr>4</cr>
-        <trait>
-            <name>Blood Frenzy</name>
-            <text>The deep diver has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
-        </trait>
-        <trait>
-            <name>Brine Lurker</name>
-            <text>The deep diver has advantage on Dexterity (Stealth) checks made while submerged in water.</text>
-        </trait>
-        <trait>
-            <name>Limited Amphibiousness</name>
-            <text>The deep diver can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</text>
-        </trait>
-        <trait>
-            <name>Lure</name>
-            <text>The deep diver can cause its lure to light up or darken at will. While the lure is lit, the deep diver sheds bright light in a 30-foot radius centered on itself and dim light for an additional 20 feet.</text>
-        </trait>
-        <trait>
-            <name>Shark Telepathy</name>
-            <text>The deep diver can magically command any shark within 120 feet of it, using a limited telepathy.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The deep diver makes two attacks with its glaive, or one attack with its bite and two with its claws.</text>
-        </action>
-        <action>
-            <name>Glaive</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 13 (2d10 + 2) slashing damage.</text>
-            <attack>Glaive|4|2d10+2</attack>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
-            <attack>Bite|4|1d10+2</attack>
-        </action>
-        <action>
-            <name>Claws</name>
-            <text>Melee Weapon Attack: +4 to hit, reach S ft., one target. Hit: 6 (1d8 + 2) slashing damage.</text>
-            <attack>Claws|4|1d8+2</attack>
-        </action>
-        <action>
-            <name>Light of Sekolah</name>
-            <text>The deep diver pulses magical light from its lure. Any creature within 30 feet of the deep diver that can see the light must succeed on a DC 11 Wisdom saving throw or be charmed until the end of its next turn. A creature charmed in this way is incapacitated as it stares at the light.</text>
-        </action>
-    </monster>
-</compendium>
+    </compendium>

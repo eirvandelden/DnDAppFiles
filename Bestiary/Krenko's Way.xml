@@ -40,6 +40,50 @@
 			<attack>Light Crossbow|5|1d8+3</attack>
 		</action>
 	</monster>
+	<monster name="Kraul Warrior">
+		<name>Kraul Warrior</name>
+		<size>M</size>
+		<type>humanoid (kraul)</type>
+		<description>Source: Krenko's Way</description>
+		<alignment>lawful evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>27 (5d8 + 5)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>15</str>
+		<dex>12</dex>
+		<con>13</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Kraul,understands Common but can't speak it</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Hive Mind</name>
+			<text>The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The kraul can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear|4|1d6+2</attack>
+			<attack>Spear (2H)|4|1d8+2</attack>
+		</action>
+	</monster>
 	<monster name="Krenko">
 		<name>Krenko</name>
 		<size>S</size>
@@ -129,50 +173,6 @@
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage.</text>
 			<attack>Slam|6|1d6+4</attack>
-		</action>
-	</monster>
-	<monster name="Kraul Warrior">
-		<name>Kraul Warrior</name>
-		<size>M</size>
-		<type>humanoid (kraul)</type>
-		<description>Source: Krenko's Way</description>
-		<alignment>lawful evil</alignment>
-		<ac>18 (natural armor)</ac>
-		<hp>27 (5d8 + 5)</hp>
-		<speed>30 ft., climb 30 ft.</speed>
-		<str>15</str>
-		<dex>12</dex>
-		<con>13</con>
-		<int>10</int>
-		<wis>11</wis>
-		<cha>8</cha>
-		<save></save>
-		<skill></skill>
-		<vulnerable></vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Kraul,understands Common but can't speak it</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Hive Mind</name>
-			<text>The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul.</text>
-		</trait>
-		<trait>
-			<name>Pack Tactics</name>
-			<text>The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
-		</trait>
-		<trait>
-			<name>Spider Climb</name>
-			<text>The kraul can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-		</trait>
-		<action>
-			<name>Spear</name>
-			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
-			<attack>Spear|4|1d6+2</attack>
-			<attack>Spear (2H)|4|1d8+2</attack>
 		</action>
 	</monster>
 	<monster name="Scorchbringer Guard">

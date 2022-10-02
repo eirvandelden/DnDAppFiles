@@ -20,7 +20,7 @@
 		<resist>cold, lightning</resist>
 		<immune>necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks</immune>
 		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, stunned</conditionImmune>
-		<vulnerable/>
+		<vulnerable></vulnerable>
 		<senses>truesight 120ft.</senses>
 		<passive>22</passive>
 		<languages>Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon</languages>
@@ -117,12 +117,12 @@
 		<int>12</int>
 		<wis>14</wis>
 		<cha>11</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +4, Stealth +3, Survival +4</skill>
 		<resist>poison</resist>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
@@ -152,12 +152,12 @@
 		<int>10</int>
 		<wis>14</wis>
 		<cha>10</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +4, Survival +4</skill>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Common</languages>
@@ -191,12 +191,12 @@
 		<int>2</int>
 		<wis>14</wis>
 		<cha>10</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +4, Stealth +5</skill>
-		<resist/>
-		<immune/>
-		<conditionImmune/>
-		<vulnerable/>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
 		<senses>darkvision 30 ft.</senses>
 		<passive>14</passive>
 		<languages>—</languages>
@@ -209,6 +209,41 @@
 			<name>Horn</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
 			<attack>Horn|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster name="Ankylosaurus Zombie">
+		<name>Ankylosaurus Zombie</name>
+		<size>H</size>
+		<type>undead</type>
+		<description>Source: Tomb of Annihilation</description>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>68 (8d12 + 16)</hp>
+		<speed>20 ft.</speed>
+		<str>19</str>
+		<dex>9</dex>
+		<con>15</con>
+		<int>2</int>
+		<wis>6</wis>
+		<cha>2</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<attack>Tail|6|4d6+4</attack>
 		</action>
 	</monster>
 	<monster name="Artus Cimber">
@@ -228,11 +263,11 @@
 		<cha>18</cha>
 		<save>Dex +5, Cha +7</save>
 		<skill>Deception +7, History +9, Insight +6, Survival +9</skill>
-		<resist/>
+		<resist></resist>
 		<immune>cold (while wearing the Ring of Winter)</immune>
-		<conditionImmune/>
-		<vulnerable/>
-		<senses/>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
 		<passive>13</passive>
 		<languages>Common, Draconic, Dwarvish, Goblin</languages>
 		<cr>7</cr>
@@ -284,12 +319,12 @@
 		<int>1</int>
 		<wis>10</wis>
 		<cha>1</cha>
-		<save/>
-		<skill/>
+		<save></save>
+		<skill></skill>
 		<resist>cold, fire</resist>
-		<immune/>
+		<immune></immune>
 		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
-		<vulnerable/>
+		<vulnerable></vulnerable>
 		<senses>blindsight 30 ft.</senses>
 		<passive>10</passive>
 		<languages>—</languages>
@@ -325,8 +360,8 @@
 		<wis>19</wis>
 		<cha>24</cha>
 		<save>Con +11, Wis +9</save>
-		<skill/>
-		<resist/>
+		<skill></skill>
+		<resist></resist>
 		<immune>cold, necrotic; bludgeoning, piercing, and slashing damage from nonmagical attacks</immune>
 		<conditionImmune>exhaustion, frightened, paralyzed, poisoned, prone</conditionImmune>
 		<vulnerable>radiant</vulnerable>
@@ -398,12 +433,12 @@
 		<int>7</int>
 		<wis>12</wis>
 		<cha>12</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +4, Stealth +6</skill>
 		<resist>cold, fire, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
 		<immune>lightning, poison</immune>
 		<conditionImmune>charmed, frightened, poisoned</conditionImmune>
-		<vulnerable/>
+		<vulnerable></vulnerable>
 		<senses>darkvision 120 ft.</senses>
 		<passive>14</passive>
 		<languages>Abyssal, the languages it knew in life</languages>
@@ -445,12 +480,12 @@
 		<wis>10</wis>
 		<cha>7</cha>
 		<save>Con +6</save>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>10</passive>
 		<languages>—</languages>
 		<cr>5</cr>
@@ -482,11 +517,11 @@
 		<cha>12</cha>
 		<save>Str +9, Con +6</save>
 		<skill>Athletics +9, Intimidation +5, Perception +6</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>16</passive>
 		<languages>any one language (usually Common)</languages>
 		<cr>9</cr>
@@ -532,12 +567,12 @@
 		<int>14</int>
 		<wis>16</wis>
 		<cha>16</cha>
-		<save/>
+		<save></save>
 		<skill>Acrobatics +7, Perception +7, Stealth +7</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>blindsight 60 ft.</senses>
 		<passive>17</passive>
 		<languages>—</languages>
@@ -584,13 +619,13 @@
 		<int>4</int>
 		<wis>12</wis>
 		<cha>6</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +3</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>13</passive>
 		<languages>—</languages>
 		<cr>1</cr>
@@ -628,13 +663,13 @@
 		<int>2</int>
 		<wis>10</wis>
 		<cha>5</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +2</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>—</languages>
 		<cr>1/4</cr>
@@ -661,11 +696,11 @@
 		<cha>18</cha>
 		<save>Wis +6, Cha +7</save>
 		<skill>Athletics +5, Medicine +6</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>13</passive>
 		<languages>understands Common but can't speak</languages>
 		<cr>5</cr>
@@ -708,13 +743,13 @@
 		<int>12</int>
 		<wis>14</wis>
 		<cha>11</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +4</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>14</passive>
 		<languages>Auran, Common</languages>
 		<cr>1</cr>
@@ -749,51 +784,6 @@
 			<attack>Beak|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster name="Firenewt Warrior">
-		<name>Firenewt Warrior</name>
-		<size>M</size>
-		<type>humanoid (firenewt)</type>
-		<description>Source: Tomb of Annihilation</description>
-		<alignment>neutral evil</alignment>
-		<ac>16 (chain shirt, shield)</ac>
-		<hp>22 (4d8 + 4)</hp>
-		<speed>30 ft.</speed>
-		<str>10</str>
-		<dex>13</dex>
-		<con>12</con>
-		<int>7</int>
-		<wis>11</wis>
-		<cha>8</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune>fire</immune>
-		<conditionImmune/>
-		<senses/>
-		<passive>10</passive>
-		<languages>Draconic, Ignan</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Amphibious</name>
-			<text>The firenewt can breathe air and water.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The firenewt makes two attacks with its scimitar</text>
-		</action>
-		<action>
-			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
-			<attack>Scimitar|3|1d6+1</attack>
-		</action>
-		<action>
-			<name>Spit Fire (Recharges after a Short or Long Rest)</name>
-			<text>The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Spit Fire||2d8</attack>
-			<recharge>Short</recharge>
-		</action>
-	</monster>
 	<monster name="Firenewt Warlock of Imix">
 		<name>Firenewt Warlock of Imix</name>
 		<size>M</size>
@@ -809,12 +799,12 @@
 		<int>9</int>
 		<wis>11</wis>
 		<cha>14</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>fire</immune>
-		<conditionImmune/>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 120 ft. (penetrates magical darkness)</senses>
 		<passive>10</passive>
 		<languages>Draconic, Ignan</languages>
@@ -847,6 +837,51 @@
 			<attack>Morningstar|3|1d8+1</attack>
 		</action>
 	</monster>
+	<monster name="Firenewt Warrior">
+		<name>Firenewt Warrior</name>
+		<size>M</size>
+		<type>humanoid (firenewt)</type>
+		<description>Source: Tomb of Annihilation</description>
+		<alignment>neutral evil</alignment>
+		<ac>16 (chain shirt, shield)</ac>
+		<hp>22 (4d8 + 4)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>7</int>
+		<wis>11</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire</immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Draconic, Ignan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The firenewt can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The firenewt makes two attacks with its scimitar</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+		<action>
+			<name>Spit Fire (Recharges after a Short or Long Rest)</name>
+			<text>The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Spit Fire||2d8</attack>
+			<recharge>Short</recharge>
+		</action>
+	</monster>
 	<monster name="Flail Snail">
 		<name>Flail Snail</name>
 		<size>L</size>
@@ -862,10 +897,10 @@
 		<int>3</int>
 		<wis>10</wis>
 		<cha>5</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
@@ -920,13 +955,13 @@
 		<int>5</int>
 		<wis>12</wis>
 		<cha>6</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>11</passive>
 		<languages>—</languages>
 		<cr>0</cr>
@@ -958,9 +993,9 @@
 		<save>Con +9, Wis +5</save>
 		<skill>Perception +9, Stealth +5</skill>
 		<resist>fire, lightning</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>19</passive>
 		<languages>—</languages>
@@ -1012,7 +1047,7 @@
 		<save>Wis +4</save>
 		<skill>Perception +4</skill>
 		<resist>bludgeoning, piercing, and slashing damage from nonmagical attacks not made with adamantine weapons</resist>
-		<vulnerable/>
+		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, petrified, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1053,12 +1088,12 @@
 		<int>2</int>
 		<wis>12</wis>
 		<cha>5</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>11</passive>
 		<languages>—</languages>
@@ -1092,13 +1127,13 @@
 		<int>4</int>
 		<wis>12</wis>
 		<cha>6</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>fire</immune>
-		<conditionImmune/>
-		<senses/>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>11</passive>
 		<languages>—</languages>
 		<cr>1</cr>
@@ -1133,12 +1168,12 @@
 		<int>5</int>
 		<wis>12</wis>
 		<cha>7</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +3, Stealth +S</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages>—</languages>
@@ -1166,6 +1201,54 @@
 			<attack>Claw|6|1d6+4</attack>
 		</action>
 	</monster>
+	<monster name="Girallon Zombie">
+		<name>Girallon Zombie</name>
+		<size>L</size>
+		<type>undead</type>
+		<description>Source: Tomb of Annihilation</description>
+		<alignment>chaotic evil</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>59 (7d10 + 21)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>18</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>3</int>
+		<wis>7</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>—</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the zombie can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The zombie makes five attacks: one with its bite and four with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Bite|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.</text>
+			<attack>Claw|6|1d4+4</attack>
+		</action>
+	</monster>
 	<monster name="Grung">
 		<name>Grung</name>
 		<size>S</size>
@@ -1183,11 +1266,11 @@
 		<cha>10</cha>
 		<save>Dex +4</save>
 		<skill>Athletics +2, Perception +2, Stealth +4, Survival +2</skill>
-		<resist/>
-		<vulnerable/>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
-		<senses/>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>Grung</languages>
 		<cr>1/4</cr>
@@ -1227,11 +1310,11 @@
 		<cha>12</cha>
 		<save>Dex +5</save>
 		<skill>Athletics +2, Perception +2, Stealth +5, Survival +2</skill>
-		<resist/>
-		<vulnerable/>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
-		<senses/>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>Grung</languages>
 		<cr>2</cr>
@@ -1282,11 +1365,11 @@
 		<cha>11</cha>
 		<save>Dex +5</save>
 		<skill>Athletics +2, Perception +4, Stealth +5, Survival +4</skill>
-		<resist/>
-		<vulnerable/>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
-		<senses/>
+		<senses></senses>
 		<passive>14</passive>
 		<languages>Grung</languages>
 		<cr>1</cr>
@@ -1341,13 +1424,13 @@
 		<int>2</int>
 		<wis>10</wis>
 		<cha>5</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +2</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>—</languages>
 		<cr>1/4</cr>
@@ -1372,12 +1455,12 @@
 		<int>2</int>
 		<wis>8</wis>
 		<cha>3</cha>
-		<save/>
+		<save></save>
 		<skill>Athletics +4, Perception +1, Stealth +4</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>11</passive>
 		<languages>—</languages>
@@ -1416,13 +1499,13 @@
 		<int>3</int>
 		<wis>14</wis>
 		<cha>10</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +4, Stealth +7</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>14</passive>
 		<languages>—</languages>
 		<cr>4</cr>
@@ -1460,63 +1543,6 @@
 			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster name="Kobold Scale Sorcerer">
-		<name>Kobold Scale Sorcerer</name>
-		<size>S</size>
-		<type>humanoid (kobold)</type>
-		<description>Source: Tomb of Annihilation</description>
-		<alignment>lawful evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>27 (5d6 + 10)</hp>
-		<speed>30 ft.</speed>
-		<str>7</str>
-		<dex>15</dex>
-		<con>14</con>
-		<int>10</int>
-		<wis>9</wis>
-		<cha>14</cha>
-		<save/>
-		<skill>Arcana +2, Medicine +1</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses>darkvision 60 ft.</senses>
-		<passive>9</passive>
-		<languages>Common, Draconic</languages>
-		<cr>1</cr>
-		<trait>
-			<name>Spellcasting</name>
-			<text>The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:</text>
-			<text></text>
-			<text>Cantrips (at will): fire bolt, mage hand, mending, poison spray</text>
-			<text>1st level (4 slots): charm person, chromatic orb, expeditious retreat</text>
-			<text>2nd level (2 slots): scorching ray</text>
-			<attack>Spell Attack|4|</attack>
-		</trait>
-		<spellAbility>Charisma</spellAbility>
-		<slots>4,2,0,0,0,0,0,0,0</slots>
-		<spells>Fire Bolt, Mage Hand, Mending, Poison Spray, Charm Person, Chromatic Orb, Expeditious Retreat, Scorching Ray</spells>
-		<trait>
-			<name>Sorcery Points</name>
-			<text>The kobold has 3 sorcery points. It regains all its spent sorcery points when it finishes a long rest. It can spend its sorcery points on the following options:</text>
-			<text>Heightened Spell: When it casts a spell that forces a creature to make a saving throw to resist the spell's effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.</text>
-			<text>Subtle Spell: When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components.</text>
-		</trait>
-		<trait>
-			<name>Pack Tactics</name>
-			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
-		</trait>
-		<trait>
-			<name>Sunlight Sensitivity</name>
-			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
-		</trait>
-		<action>
-			<name>Dagger</name>
-			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
-			<attack>Dagger|4|1d4+2</attack>
-		</action>
-	</monster>
 	<monster name="Kobold Inventor">
 		<name>Kobold Inventor</name>
 		<size>S</size>
@@ -1532,12 +1558,12 @@
 		<int>8</int>
 		<wis>7</wis>
 		<cha>8</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +0</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages>Common, Draconic</languages>
@@ -1578,6 +1604,63 @@
 			<attack>Scorpion on a Stick|4|1+1d8</attack>
 		</action>
 	</monster>
+	<monster name="Kobold Scale Sorcerer">
+		<name>Kobold Scale Sorcerer</name>
+		<size>S</size>
+		<type>humanoid (kobold)</type>
+		<description>Source: Tomb of Annihilation</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>27 (5d6 + 10)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>9</wis>
+		<cha>14</cha>
+		<save></save>
+		<skill>Arcana +2, Medicine +1</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): fire bolt, mage hand, mending, poison spray</text>
+			<text>1st level (4 slots): charm person, chromatic orb, expeditious retreat</text>
+			<text>2nd level (2 slots): scorching ray</text>
+			<attack>Spell Attack|4|</attack>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
+		<spells>Fire Bolt, Mage Hand, Mending, Poison Spray, Charm Person, Chromatic Orb, Expeditious Retreat, Scorching Ray</spells>
+		<trait>
+			<name>Sorcery Points</name>
+			<text>The kobold has 3 sorcery points. It regains all its spent sorcery points when it finishes a long rest. It can spend its sorcery points on the following options:</text>
+			<text>Heightened Spell: When it casts a spell that forces a creature to make a saving throw to resist the spell's effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.</text>
+			<text>Subtle Spell: When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+	</monster>
 	<monster name="Liara Portyr">
 		<name>Liara Portyr</name>
 		<size>M</size>
@@ -1595,11 +1678,11 @@
 		<cha>16</cha>
 		<save>Con +4, Wis +4</save>
 		<skill>Athletics +5, Deception +5, Insight +4, Intimidation +5</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>Common, Draconic, Dwarvish</languages>
 		<cr>4</cr>
@@ -1643,11 +1726,11 @@
 		<int>1</int>
 		<wis>10</wis>
 		<cha>2</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
 		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
 		<senses>tremorsense 30 ft.</senses>
 		<passive>10</passive>
@@ -1683,13 +1766,13 @@
 		<int>13</int>
 		<wis>12</wis>
 		<cha>16</cha>
-		<save/>
+		<save></save>
 		<skill>Deception +5, Nature +3, Persuasion +5, Religion +3</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>11</passive>
 		<languages>Auran, Common, telepathy 30 ft.</languages>
 		<cr>1/8</cr>
@@ -1724,13 +1807,13 @@
 		<int>9</int>
 		<wis>10</wis>
 		<cha>11</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +2, Survival +2</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>Common</languages>
 		<cr>1</cr>
@@ -1773,13 +1856,13 @@
 		<int>2</int>
 		<wis>10</wis>
 		<cha>5</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +2</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>—</languages>
 		<cr>2</cr>
@@ -1815,8 +1898,8 @@
 		<cha>21</cha>
 		<save>Con +6, Wis +7</save>
 		<skill>Deception +8, Persuasion +8, Religion +7, Stealth +6</skill>
-		<resist/>
-		<vulnerable/>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1898,13 +1981,13 @@
 		<int>2</int>
 		<wis>11</wis>
 		<cha>5</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>10</passive>
 		<languages>—</languages>
 		<cr>4</cr>
@@ -1929,10 +2012,10 @@
 		<int>2</int>
 		<wis>11</wis>
 		<cha>3</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>poison; bludgeoning, piercing, and slashing damage from nonmagical attacks not made with adamantine weapons</immune>
 		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>blindsight 120 ft.</senses>
@@ -1977,13 +2060,13 @@
 		<int>9</int>
 		<wis>13</wis>
 		<cha>9</cha>
-		<save/>
+		<save></save>
 		<skill>Athletics +6, Perception +3</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>13</passive>
 		<languages>—</languages>
 		<cr>1</cr>
@@ -2024,12 +2107,12 @@
 		<int>13</int>
 		<wis>14</wis>
 		<cha>15</cha>
-		<save/>
+		<save></save>
 		<skill>Athletics +2, Perception +4, Stealth +5, Survival +6</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Common plus any one language</languages>
@@ -2073,12 +2156,12 @@
 		<int>14</int>
 		<wis>12</wis>
 		<cha>16</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +3, Performance +7, Persuasion +5, Stealth +4</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages>Common plus any two languages</languages>
@@ -2122,12 +2205,12 @@
 		<int>2</int>
 		<wis>10</wis>
 		<cha>6</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +4, Stealth +3</skill>
 		<resist>lightning, piercing</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>—</languages>
@@ -2161,11 +2244,11 @@
 		<int>1</int>
 		<wis>10</wis>
 		<cha>1</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
 		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>10</passive>
@@ -2190,6 +2273,55 @@
 			<attack>Poison Damage||2d4</attack>
 		</action>
 	</monster>
+	<monster name="Tyrannosaurus Zombie">
+		<name>Tyrannosaurus Zombie</name>
+		<size>H</size>
+		<type>undead</type>
+		<description>Source: Tomb of Annihilation</description>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>136 (13d12 + 52)</hp>
+		<speed>40 ft.</speed>
+		<str>25</str>
+		<dex>6</dex>
+		<con>19</con>
+		<int>1</int>
+		<wis>3</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>6</passive>
+		<languages>—</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Disgorge Zombie</name>
+			<text>As a bonus action, the tyrannosaurus zombie can disgorge a normal zombie, which appears in an unoccupied space within 10 feet of it. The disgorged zombie acts on its own initiative count. After a zombie is disgorged, roll a d6. On a roll of 1, the tyrannosaurus zombie runs out of zombies to disgorge and loses this trait. If the tyrannosaurus zombie still has this trait when it dies, 1d4 normal zombies erupt from its corpse at the start of its next turn. These zombies act on their own initiative count.</text>
+			<attack>Roll||1d6</attack>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the tyrannosaurus zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The tyrannosaurus zombie makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained and the tyrannosaurus zombie can't bite another target or disgorge zombies.</text>
+			<attack>Bite|10|4d12+7</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage.</text>
+			<attack>Tail|10|3d8+7</attack>
+		</action>
+	</monster>
 	<monster name="Vegepygmy">
 		<name>Vegepygmy</name>
 		<size>S</size>
@@ -2205,12 +2337,12 @@
 		<int>6</int>
 		<wis>11</wis>
 		<cha>7</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +2, Stealth +4</skill>
 		<resist>lightning, piercing</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>Vegepygmy</languages>
@@ -2249,12 +2381,12 @@
 		<int>7</int>
 		<wis>12</wis>
 		<cha>9</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +3, Stealth +4</skill>
 		<resist>lightning, piercing</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages>Vegepygmy</languages>
@@ -2304,13 +2436,13 @@
 		<int>4</int>
 		<wis>12</wis>
 		<cha>6</cha>
-		<save/>
+		<save></save>
 		<skill>Perception +3</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>13</passive>
 		<languages>—</languages>
 		<cr>1/4</cr>
@@ -2346,11 +2478,11 @@
 		<cha>16</cha>
 		<save>Con +2, Wis +2</save>
 		<skill>Animal Handling +4, Arcana +4, Deception +5, History +4, Insight +2, Investigation +4, Perception +2, Performance +7, Persuasion +7, Sleight of Hand +3, Survival +2</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>12</passive>
 		<languages>Common, Dwarvish, Elvish</languages>
 		<cr>1/4</cr>
@@ -2388,11 +2520,11 @@
 		<cha>18</cha>
 		<save>Int +7, Wis +6</save>
 		<skill>Arcana +7, Deception +10, History+7, Insight +6, Survival +6</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>13</passive>
 		<languages>Common, Draconic, Dwarvish, Elvish, Halfling</languages>
 		<cr>7</cr>
@@ -2438,11 +2570,11 @@
 		<int>1</int>
 		<wis>10</wis>
 		<cha>3</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
 		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>10</passive>
@@ -2482,11 +2614,11 @@
 		<int>1</int>
 		<wis>6</wis>
 		<cha>3</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune/>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
 		<conditionImmune>charmed, exhaustion</conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>8</passive>
@@ -2519,8 +2651,8 @@
 		<cha>4</cha>
 		<save>Str +4, Dex +4, Wis +2</save>
 		<skill>Perception +2</skill>
-		<resist/>
-		<vulnerable/>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -2567,8 +2699,8 @@
 		<cha>16</cha>
 		<save>Wis +3, Cha +5</save>
 		<skill>Deception +S, Stealth +4</skill>
-		<resist/>
-		<vulnerable/>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 120 ft. (penetrates magical darkness)</senses>
@@ -2648,9 +2780,9 @@
 		<save>Con +5, Wis +5</save>
 		<skill>Arcana +6, History +9, Insight +5, Investigation +9</skill>
 		<resist>fire</resist>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>Common, Draconic, Dwarvish, Primordial</languages>
@@ -2690,138 +2822,6 @@
 			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster name="Ankylosaurus Zombie">
-		<name>Ankylosaurus Zombie</name>
-		<size>H</size>
-		<type>undead</type>
-		<description>Source: Tomb of Annihilation</description>
-		<alignment>unaligned</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>68 (8d12 + 16)</hp>
-		<speed>20 ft.</speed>
-		<str>19</str>
-		<dex>9</dex>
-		<con>15</con>
-		<int>2</int>
-		<wis>6</wis>
-		<cha>2</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune>poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>8</passive>
-		<languages>—</languages>
-		<cr>3</cr>
-		<trait>
-			<name>Undead Fortitude</name>
-			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
-		</trait>
-		<action>
-			<name>Tail</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
-			<attack>Tail|6|4d6+4</attack>
-		</action>
-	</monster>
-	<monster name="Girallon Zombie">
-		<name>Girallon Zombie</name>
-		<size>L</size>
-		<type>undead</type>
-		<description>Source: Tomb of Annihilation</description>
-		<alignment>chaotic evil</alignment>
-		<ac>11 (natural armor)</ac>
-		<hp>59 (7d10 + 21)</hp>
-		<speed>30 ft., climb 30 ft.</speed>
-		<str>18</str>
-		<dex>12</dex>
-		<con>16</con>
-		<int>3</int>
-		<wis>7</wis>
-		<cha>5</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune>poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>8</passive>
-		<languages>—</languages>
-		<cr>4</cr>
-		<trait>
-			<name>Aggressive</name>
-			<text>As a bonus action, the zombie can move up to its speed toward a hostile creature that it can see.</text>
-		</trait>
-		<trait>
-			<name>Undead Fortitude</name>
-			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The zombie makes five attacks: one with its bite and four with its claws.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
-			<attack>Bite|6|1d6+4</attack>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.</text>
-			<attack>Claw|6|1d4+4</attack>
-		</action>
-	</monster>
-	<monster name="Tyrannosaurus Zombie">
-		<name>Tyrannosaurus Zombie</name>
-		<size>H</size>
-		<type>undead</type>
-		<description>Source: Tomb of Annihilation</description>
-		<alignment>unaligned</alignment>
-		<ac>11 (natural armor)</ac>
-		<hp>136 (13d12 + 52)</hp>
-		<speed>40 ft.</speed>
-		<str>25</str>
-		<dex>6</dex>
-		<con>19</con>
-		<int>1</int>
-		<wis>3</wis>
-		<cha>5</cha>
-		<save/>
-		<skill/>
-		<resist/>
-		<vulnerable/>
-		<immune>poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>6</passive>
-		<languages>—</languages>
-		<cr>8</cr>
-		<trait>
-			<name>Disgorge Zombie</name>
-			<text>As a bonus action, the tyrannosaurus zombie can disgorge a normal zombie, which appears in an unoccupied space within 10 feet of it. The disgorged zombie acts on its own initiative count. After a zombie is disgorged, roll a d6. On a roll of 1, the tyrannosaurus zombie runs out of zombies to disgorge and loses this trait. If the tyrannosaurus zombie still has this trait when it dies, 1d4 normal zombies erupt from its corpse at the start of its next turn. These zombies act on their own initiative count.</text>
-			<attack>Roll||1d6</attack>
-		</trait>
-		<trait>
-			<name>Undead Fortitude</name>
-			<text>If damage reduces the tyrannosaurus zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The tyrannosaurus zombie makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained and the tyrannosaurus zombie can't bite another target or disgorge zombies.</text>
-			<attack>Bite|10|4d12+7</attack>
-		</action>
-		<action>
-			<name>Tail</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage.</text>
-			<attack>Tail|10|3d8+7</attack>
-		</action>
-	</monster>
 	<monster name="Zorbo">
 		<name>Zorbo</name>
 		<size>S</size>
@@ -2837,13 +2837,13 @@
 		<int>3</int>
 		<wis>12</wis>
 		<cha>7</cha>
-		<save/>
+		<save></save>
 		<skill>Athletics +3</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
-		<senses/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>11</passive>
 		<languages>—</languages>
 		<cr>1/2</cr>

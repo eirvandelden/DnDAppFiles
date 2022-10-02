@@ -1,50 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="SCLN">
-	<monster name="Jarhild Stoneforge">
-		<name>Jarhild Stoneforge</name>
-		<size>M</size>
-		<type>humanoid (shield dwarf)</type>
+	<monster name="Bryn Lightfingers">
+		<name>Bryn Lightfingers</name>
+		<size>S</size>
+		<type>humanoid (strongheart halfling)</type>
 		<description>Source: Sword Coast Legendary NPCs</description>
-		<alignment>lawful good</alignment>
-		<ac>17 (scale mail, shield, defense fighting style)</ac>
-		<hp>25 (3d10 + 9)</hp>
+		<alignment>neutral good</alignment>
+		<ac>14 (leather)</ac>
+		<hp>22 (3d10 + 6)</hp>
 		<speed>25 ft.</speed>
-		<str>16</str>
-		<dex>10</dex>
-		<con>16</con>
-		<int>12</int>
-		<wis>13</wis>
-		<cha>10</cha>
-		<save>Str +5, Con +5</save>
+		<str>9</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>14</wis>
+		<cha>12</cha>
+		<save>Str +1, Dex +5</save>
 		<skill></skill>
 		<vulnerable></vulnerable>
 		<resist>poison</resist>
 		<immune></immune>
 		<conditionImmune></conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>11</passive>
-		<languages>Common, Dwarvish</languages>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Common, Draconic, Elvish, Halfling</languages>
 		<cr>2</cr>
 		<trait>
-			<name>Dwarven Resilience</name>
-			<text>Jarhild has advantage on saving throws against poison.</text>
+			<name>Lucky</name>
+			<text>When Bryn rolls a 1 on an attack roll, ability check, or saving throw, she can reroll the die and must use the new roll.</text>
 		</trait>
 		<trait>
-			<name>Improved Critical</name>
-			<text>Jarhild's weapon attacks score a critical hit on a roll of 19 or 20.</text>
+			<name>Brave</name>
+			<text>Bryn has advantage on saving throws against being frightened.</text>
 		</trait>
+		<trait>
+			<name>Stout Resilience</name>
+			<text>Bryn has advantage on saving throws against poison.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Bryn is a 3rd-level spellcaster. Her spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). Bryn has the following ranger spells prepared:</text>
+			<text></text>
+			<text>1st level (3 slots): ensnaring strike, hunter's mark, longstrider</text>
+			<attack>Spell Attack|4|</attack>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>3,0,0,0,0,0,0,0,0</slots>
+		<spells>Ensnaring Strike, Hunter's Mark, Longstrider</spells>
 		<action>
-			<name>Longsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
-			<attack>Longsword|5|1d8+3</attack>
+			<name>Multiattack</name>
+			<text>Bryn makes two attacks: one with her dagger and one with her shortsword.</text>
 		</action>
 		<action>
-			<name>Handaxe</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-			<attack>Handaxe|5|1d6+3</attack>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortbow|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster name="Hommet Shaw">
+<monster name="Hommet Shaw">
 		<name>Hommet Shaw</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -140,6 +163,50 @@
 			<recharge>SHORT</recharge>
 		</action>
 	</monster>
+	<monster name="Jarhild Stoneforge">
+		<name>Jarhild Stoneforge</name>
+		<size>M</size>
+		<type>humanoid (shield dwarf)</type>
+		<description>Source: Sword Coast Legendary NPCs</description>
+		<alignment>lawful good</alignment>
+		<ac>17 (scale mail, shield, defense fighting style)</ac>
+		<hp>25 (3d10 + 9)</hp>
+		<speed>25 ft.</speed>
+		<str>16</str>
+		<dex>10</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>13</wis>
+		<cha>10</cha>
+		<save>Str +5, Con +5</save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist>poison</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Common, Dwarvish</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Dwarven Resilience</name>
+			<text>Jarhild has advantage on saving throws against poison.</text>
+		</trait>
+		<trait>
+			<name>Improved Critical</name>
+			<text>Jarhild's weapon attacks score a critical hit on a roll of 19 or 20.</text>
+		</trait>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
+			<attack>Longsword|5|1d8+3</attack>
+		</action>
+		<action>
+			<name>Handaxe</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Handaxe|5|1d6+3</attack>
+		</action>
+	</monster>
 	<monster name="Larethar Gulgrin">
 		<name>Larethar Gulgrin</name>
 		<size>M</size>
@@ -203,71 +270,4 @@
 			<attack>Light Crossbow|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster name="Bryn Lightfingers">
-		<name>Bryn Lightfingers</name>
-		<size>S</size>
-		<type>humanoid (strongheart halfling)</type>
-		<description>Source: Sword Coast Legendary NPCs</description>
-		<alignment>neutral good</alignment>
-		<ac>14 (leather)</ac>
-		<hp>22 (3d10 + 6)</hp>
-		<speed>25 ft.</speed>
-		<str>9</str>
-		<dex>16</dex>
-		<con>14</con>
-		<int>10</int>
-		<wis>14</wis>
-		<cha>12</cha>
-		<save>Str +1, Dex +5</save>
-		<skill></skill>
-		<vulnerable></vulnerable>
-		<resist>poison</resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
-		<passive>14</passive>
-		<languages>Common, Draconic, Elvish, Halfling</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Lucky</name>
-			<text>When Bryn rolls a 1 on an attack roll, ability check, or saving throw, she can reroll the die and must use the new roll.</text>
-		</trait>
-		<trait>
-			<name>Brave</name>
-			<text>Bryn has advantage on saving throws against being frightened.</text>
-		</trait>
-		<trait>
-			<name>Stout Resilience</name>
-			<text>Bryn has advantage on saving throws against poison.</text>
-		</trait>
-		<trait>
-			<name>Spellcasting</name>
-			<text>Bryn is a 3rd-level spellcaster. Her spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). Bryn has the following ranger spells prepared:</text>
-			<text></text>
-			<text>1st level (3 slots): ensnaring strike, hunter's mark, longstrider</text>
-			<attack>Spell Attack|4|</attack>
-		</trait>
-		<spellAbility>Wisdom</spellAbility>
-		<slots>3,0,0,0,0,0,0,0,0</slots>
-		<spells>Ensnaring Strike, Hunter's Mark, Longstrider</spells>
-		<action>
-			<name>Multiattack</name>
-			<text>Bryn makes two attacks: one with her dagger and one with her shortsword.</text>
-		</action>
-		<action>
-			<name>Dagger</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-			<attack>Dagger|5|1d4+3</attack>
-		</action>
-		<action>
-			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
-			<attack>Shortsword|5|1d6+3</attack>
-		</action>
-		<action>
-			<name>Shortbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
-			<attack>Shortbow|5|1d6+3</attack>
-		</action>
-	</monster>
-</compendium>
+	</compendium>

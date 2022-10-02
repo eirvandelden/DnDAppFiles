@@ -1,5 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="LLK">
+	<monster name="Bandit Captain">
+		<name>Bandit Captain</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any non-lawful alignment</alignment>
+		<ac>15 (studded leather)</ac>
+		<hp>65 (10d8+20)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>14</int>
+		<wis>11</wis>
+		<cha>14</cha>
+		<save>Str +4, Dex +5, Wis +2</save>
+		<skill>Athletics +4, Deception +4</skill>
+		<passive>10</passive>
+		<languages>any two languages</languages>
+		<cr>2</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Scimitar|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+	</monster>
+	<monster name="Berserker">
+		<name>Berserker</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>any chaotic alignment</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>67 (9d8+27)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>17</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Reckless</name>
+			<text>At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
+		</trait>
+		<action>
+			<name>Greataxe</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.</text>
+			<attack>Greataxe|5|1d12+3</attack>
+		</action>
+	</monster>
+	<monster name="Bone Devil">
+		<name>Bone Devil</name>
+		<size>L</size>
+		<type>fiend (devil)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>19 (natural armor)</ac>
+		<hp>142 (15d10+60)</hp>
+		<speed>40 ft., fly 40 ft.</speed>
+		<str>18</str>
+		<dex>16</dex>
+		<con>18</con>
+		<int>13</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<save>Int +5, Wis +6, Cha +7</save>
+		<skill>Deception +7, Insight +6</skill>
+		<resist>cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>9</passive>
+		<languages>Infernal, telepathy 120 ft.</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the devil's darkvision.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The devil has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The devil makes three attacks: two with its claws and one with its sting.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
+			<attack>Claw|8|1d8+4</attack>
+		</action>
+		<action>
+			<name>Sting</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Sting|8|2d8+4+5d6</attack>
+		</action>
+	</monster>
 	<monster name="Brain in a Jar">
 		<name>Brain in a Jar</name>
 		<size>M</size>
@@ -122,336 +236,6 @@
 			<attack>Tentacle Slam|9|2d6+5</attack>
 		</action>
 	</monster>
-	<monster name="Garret Levistusson">
-		<name>Garret Levistusson</name>
-		<size>M</size>
-		<type>humanoid</type>
-		<description>Source: Lost Laboratory of Kwalish</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>44 (8d8 + 8)</hp>
-		<speed>30 ft.</speed>
-		<str>11</str>
-		<dex>14</dex>
-		<con>12</con>
-		<int>11</int>
-		<wis>12</wis>
-		<cha>17</cha>
-		<save></save>
-		<skill>Deception +7,Investigation +4,Performance +5,Persuasion +5</skill>
-		<vulnerable></vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
-		<passive>11</passive>
-		<languages>Abyssal,Common,Infernal,Thieves' cant</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Spellcasting</name>
-			<text>Garret is a 2nd-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He has the following bard spells prepared:</text>
-			<text></text>
-			<text>Cantrips (at will): blade ward, vicious mockery</text>
-			<text>1st Level (3 slots): charm person, detect magic, disguise self, identify, Tasha's hideous laughter</text>
-			<attack>Spell Attack|5|</attack>
-		</trait>
-		<slots>3</slots>
-		<spellAbility>Charisma</spellAbility>
-		<spells>Blade Ward,Vicious Mockery,Charm Person,Detect Magic,Disguise Self,Identify,Tasha's Hideous Laughter</spells>
-		<trait>
-			<name>Special Equipment</name>
-			<text>Garret wears a Ring of Warmth (included in his statistics) and wields a Gambler's Blade longsword.</text>
-		</trait>
-		<trait>
-			<name>Bardic Inspiration (3/Day)</name>
-			<text>As a bonus action, Garret can give one chosen creature (other than him) a d6 inspiration die. The chosen creature must be within 60 feet of Garret and able to hear him. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can use the inspiration die after the roll is made but before the DM says whether it succeeds or fails. Once the inspiration die is rolled, it is lost. A creature can have only one inspiration die at a time.</text>
-			<recharge>3/DAY</recharge>
-            <attack>Inspiration Die||1d6</attack>
-		</trait>
-		<trait>
-			<name>Cunning Action</name>
-			<text>On each of his turns, Garret can use a bonus action to take the Dash, Disengage, or Hide action.</text>
-		</trait>
-		<trait>
-			<name>Sneak Attack (1/Turn)</name>
-			<text>Garret deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't incapacitated and Garret doesn't have disadvantage on the attack roll.</text>
-			<attack>Sneak Attack||2d6</attack>
-		</trait>
-		<action>
-			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-			<attack>Shortsword|4|1d6+2</attack>
-		</action>
-	</monster>
-	<monster name="Mary Greymalkin">
-		<name>Mary Greymalkin</name>
-		<size>M</size>
-		<type>humanoid</type>
-		<description>Source: Lost Laboratory of Kwalish</description>
-		<alignment>neutral</alignment>
-		<ac>12 (Bracers of Defense,Ring of Protection)</ac>
-		<hp>45 (7d8 + 14)</hp>
-		<speed>30 ft.</speed>
-		<str>10</str>
-		<dex>12</dex>
-		<con>10</con>
-		<int>14</int>
-		<wis>14</wis>
-		<cha>15</cha>
-		<save>Wis +4,Cha +4</save>
-		<skill>Arcana +4,Medicine +4,Nature +4,Religion +4</skill>
-		<vulnerable></vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
-		<passive>12</passive>
-		<languages>Abyssal,Celestial,Common,Elvish,Infernal,Sylvan</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Spellcasting</name>
-			<text>Mary is a 5th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:</text>
-			<text>Cantrips (at will): chill touch, eldritch blast, mage hand</text>
-			<text>3rd Level (3 slots): darkness, hex, hypnotic pattern, misty step, phantasmal force, unseen servant</text>
-			<attack>Spell Attack|4|</attack>
-		</trait>
-		<slots>0,0,3</slots>
-		<spellAbility>Charisma</spellAbility>
-		<spells>Chill Touch,Eldritch Blast,Mage Hand,Darkness,Hex,Hypnotic Pattern,Misty Step,Phantasmal Force,Unseen Servant</spells>
-		<trait>
-			<name>Special Equipment</name>
-			<text>Mary wears Bracers of Defense and a Ring of Protection, and carries a Deck of Several Things</text>
-		</trait>
-		<trait>
-			<name>Fey Presence (Recharges after a Short Rest)</name>
-			<text>Mary can cause each creature within 10 feet of her to succeed on a DC 12 Wisdom saving throw or become charmed or frightened by her (Mary's choice) until the end of her next turn.</text>
-			<recharge>SHORT</recharge>
-		</trait>
-		<trait>
-			<name>Fey Ancestry</name>
-			<text>Mary has advantage on saving throws against being charmed, and magic can't put her to sleep.</text>
-		</trait>
-		<action>
-			<name>Quarterstaff</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.</text>
-			<attack>Quarterstaff|2|1d6</attack>
-		</action>
-	</monster>
-	<monster name="Ooze-Folk">
-		<name>Ooze-Folk</name>
-		<size>M</size>
-		<type>ooze</type>
-		<description>Source: Lost Laboratory of Kwalish</description>
-		<alignment>unaligned</alignment>
-		<ac>10 (natural armor)</ac>
-		<hp>19 (2d8 + 10)</hp>
-		<speed>30 ft.</speed>
-		<str>14</str>
-		<dex>3</dex>
-		<con>20</con>
-		<int>1</int>
-		<wis>6</wis>
-		<cha>1</cha>
-		<save></save>
-		<skill></skill>
-		<vulnerable></vulnerable>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune>blinded,charmed,deafened,exhaustion,frightened,prone</conditionImmune>
-		<senses>blindsight 60 ft.</senses>
-		<passive>8</passive>
-		<languages>—</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Transparent</name>
-			<text>Even when an ooze-folk is in plain sight, it takes a DC 12 Wisdom (Perception) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is surprised by the ooze-folk.</text>
-		</trait>
-		<trait>
-			<name>Fragile Bones</name>
-			<text>For each 5 damage it takes, the ooze-folk's walking speed is reduced by 5 feet.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The ooze folk makes one glass longsword attack and one pseudopod attack.</text>
-		</action>
-		<action>
-			<name>Glass Longsword</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) slashing damage. If a 1 is rolled on an attack roll with a glass longsword, it shatters and can no longer be used.</text>
-			<attack>Glass Longsword|4|1d8+2</attack>
-		</action>
-		<action>
-			<name>Pseudopod</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) acid damage.</text>
-			<attack>Pseudopod|4|1d6+2</attack>
-		</action>
-	</monster>
-	<monster name="Gloine Nathair-Nathair">
-		<name>Gloine Nathair-Nathair</name>
-		<size>M</size>
-		<type>undead</type>
-		<description>Source: Lost Laboratory of Kwalish</description>
-		<alignment>lawful evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>127 (17d8 + 51)</hp>
-		<speed>30 ft.</speed>
-		<str>10</str>
-		<dex>15</dex>
-		<con>16</con>
-		<int>12</int>
-		<wis>13</wis>
-		<cha>15</cha>
-		<save></save>
-		<skill>Deception +5,Insight +4,Perception +4,Stealth +5</skill>
-		<vulnerable></vulnerable>
-		<resist></resist>
-		<immune>poison,necrotic</immune>
-		<conditionImmune>exhaustion,poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>14</passive>
-		<languages>Common</languages>
-		<cr>6</cr>
-		<trait>
-			<name>Petrifying Gaze</name>
-			<text>When a creature that can see Gloine's eyes starts its turn within 30 feet of Gloine, Gloine can force it to make a DC 14 Constitution saving throw if Gloine isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to glass and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.</text>
-			<text>	Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Gloine until the start of its next turn, when it can avert its eyes again. If the creature looks at Gloine in the meantime, it must immediately make the save.</text>
-			<text>	If Gloine sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Gloine is, due to its curse, affected by its own gaze.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>Gloine makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow.</text>
-		</action>
-		<action>
-			<name>Snake Hair</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</text>
-			<attack>Snake Hair|5|1d4+2+4d6</attack>
-		</action>
-		<action>
-			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-			<attack>Shortsword|5|1d6+2</attack>
-		</action>
-		<action>
-			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>Longbow|5|1d8+2+2d6</attack>
-		</action>
-	</monster>
-
-	<!-- repeated monsters -->
-	<monster name="Bandit Captain">
-		<name>Bandit Captain</name>
-		<size>M</size>
-		<type>humanoid (any race)</type>
-		<description>Source: Monster Manual</description>
-		<alignment>any non-lawful alignment</alignment>
-		<ac>15 (studded leather)</ac>
-		<hp>65 (10d8+20)</hp>
-		<speed>30 ft.</speed>
-		<str>15</str>
-		<dex>16</dex>
-		<con>14</con>
-		<int>14</int>
-		<wis>11</wis>
-		<cha>14</cha>
-		<save>Str +4, Dex +5, Wis +2</save>
-		<skill>Athletics +4, Deception +4</skill>
-		<passive>10</passive>
-		<languages>any two languages</languages>
-		<cr>2</cr>
-		<action>
-			<name>Multiattack</name>
-			<text>The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.</text>
-		</action>
-		<action>
-			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-			<attack>Scimitar|5|1d6+3</attack>
-		</action>
-		<action>
-			<name>Dagger</name>
-			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-			<attack>Dagger|5|1d4+3</attack>
-		</action>
-		<reaction>
-			<name>Parry</name>
-			<text>The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</text>
-		</reaction>
-	</monster>
-	<monster name="Berserker">
-		<name>Berserker</name>
-		<size>M</size>
-		<type>humanoid (any race)</type>
-		<description>Source: Monster Manual</description>
-		<alignment>any chaotic alignment</alignment>
-		<ac>13 (hide armor)</ac>
-		<hp>67 (9d8+27)</hp>
-		<speed>30 ft.</speed>
-		<str>16</str>
-		<dex>12</dex>
-		<con>17</con>
-		<int>9</int>
-		<wis>11</wis>
-		<cha>9</cha>
-		<passive>10</passive>
-		<languages>any one language (usually Common)</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Reckless</name>
-			<text>At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
-		</trait>
-		<action>
-			<name>Greataxe</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.</text>
-			<attack>Greataxe|5|1d12+3</attack>
-		</action>
-	</monster>
-	<monster name="Bone Devil">
-		<name>Bone Devil</name>
-		<size>L</size>
-		<type>fiend (devil)</type>
-		<description>Source: Monster Manual</description>
-		<alignment>lawful evil</alignment>
-		<ac>19 (natural armor)</ac>
-		<hp>142 (15d10+60)</hp>
-		<speed>40 ft., fly 40 ft.</speed>
-		<str>18</str>
-		<dex>16</dex>
-		<con>18</con>
-		<int>13</int>
-		<wis>14</wis>
-		<cha>16</cha>
-		<save>Int +5, Wis +6, Cha +7</save>
-		<skill>Deception +7, Insight +6</skill>
-		<resist>cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
-		<immune>fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 120 ft.</senses>
-		<passive>9</passive>
-		<languages>Infernal, telepathy 120 ft.</languages>
-		<cr>12</cr>
-		<trait>
-			<name>Devil's Sight</name>
-			<text>Magical darkness doesn't impede the devil's darkvision.</text>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The devil has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The devil makes three attacks: two with its claws and one with its sting.</text>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
-			<attack>Claw|8|1d8+4</attack>
-		</action>
-		<action>
-			<name>Sting</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Sting|8|2d8+4+5d6</attack>
-		</action>
-	</monster>
 	<monster name="Commoner">
 		<name>Commoner</name>
 		<size>M</size>
@@ -566,11 +350,11 @@
 		<cha>11</cha>
 		<save>Int +7, Wis +5</save>
 		<skill>Arcana +7, History +7</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses />
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>11</passive>
 		<languages>any four languages</languages>
 		<cr>9</cr>
@@ -619,9 +403,9 @@
 		<save>Con +9, Wis +5</save>
 		<skill>Perception +9, Stealth +5</skill>
 		<resist>fire, lightning</resist>
-		<vulnerable />
-		<immune />
-		<conditionImmune />
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>19</passive>
 		<languages>—</languages>
@@ -693,6 +477,67 @@
 		<action>
 			<name>Animate Boulders (1/Day)</name>
 			<text>The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell).</text>
+		</action>
+	</monster>
+	<monster name="Garret Levistusson">
+		<name>Garret Levistusson</name>
+		<size>M</size>
+		<type>humanoid</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>44 (8d8 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>11</int>
+		<wis>12</wis>
+		<cha>17</cha>
+		<save></save>
+		<skill>Deception +7,Investigation +4,Performance +5,Persuasion +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Abyssal,Common,Infernal,Thieves' cant</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Garret is a 2nd-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He has the following bard spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): blade ward, vicious mockery</text>
+			<text>1st Level (3 slots): charm person, detect magic, disguise self, identify, Tasha's hideous laughter</text>
+			<attack>Spell Attack|5|</attack>
+		</trait>
+		<slots>3</slots>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Blade Ward,Vicious Mockery,Charm Person,Detect Magic,Disguise Self,Identify,Tasha's Hideous Laughter</spells>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Garret wears a Ring of Warmth (included in his statistics) and wields a Gambler's Blade longsword.</text>
+		</trait>
+		<trait>
+			<name>Bardic Inspiration (3/Day)</name>
+			<text>As a bonus action, Garret can give one chosen creature (other than him) a d6 inspiration die. The chosen creature must be within 60 feet of Garret and able to hear him. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can use the inspiration die after the roll is made but before the DM says whether it succeeds or fails. Once the inspiration die is rolled, it is lost. A creature can have only one inspiration die at a time.</text>
+			<recharge>3/DAY</recharge>
+            <attack>Inspiration Die||1d6</attack>
+		</trait>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of his turns, Garret can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>Garret deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't incapacitated and Garret doesn't have disadvantage on the attack roll.</text>
+			<attack>Sneak Attack||2d6</attack>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
 		</action>
 	</monster>
 	<monster name="Gelatinous Cube">
@@ -780,6 +625,59 @@
 			<text>The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a DC 13 Dexterity saving throw or be blinded until the end of the mouther's next turn.</text>
 		</action>
 	</monster>
+	<monster name="Gloine Nathair-Nathair">
+		<name>Gloine Nathair-Nathair</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>127 (17d8 + 51)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>13</wis>
+		<cha>15</cha>
+		<save></save>
+		<skill>Deception +5,Insight +4,Perception +4,Stealth +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>poison,necrotic</immune>
+		<conditionImmune>exhaustion,poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Petrifying Gaze</name>
+			<text>When a creature that can see Gloine's eyes starts its turn within 30 feet of Gloine, Gloine can force it to make a DC 14 Constitution saving throw if Gloine isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to glass and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.</text>
+			<text>	Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Gloine until the start of its next turn, when it can avert its eyes again. If the creature looks at Gloine in the meantime, it must immediately make the save.</text>
+			<text>	If Gloine sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Gloine is, due to its curse, affected by its own gaze.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Gloine makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow.</text>
+		</action>
+		<action>
+			<name>Snake Hair</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</text>
+			<attack>Snake Hair|5|1d4+2+4d6</attack>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|5|1d6+2</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
+			<attack>Longbow|5|1d8+2+2d6</attack>
+		</action>
+	</monster>
+
+	
 	<monster name="Gynosphinx">
 		<name>Gynosphinx</name>
 		<size>L</size>
@@ -900,13 +798,13 @@
 		<int>11</int>
 		<wis>16</wis>
 		<cha>10</cha>
-		<save />
+		<save></save>
 		<skill>Acrobatics +5, Insight +5, Stealth +5</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses />
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
 		<passive>13</passive>
 		<languages>any one language (usually Common)</languages>
 		<cr>3</cr>
@@ -921,11 +819,11 @@
 		<action>
 			<name>Unarmed Strike</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:</text>
-			<text />
+			<text></text>
 			<text>• The target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept's choice).</text>
-			<text />
+			<text></text>
 			<text>• The target must succeed on a DC 13 Dexterity saving throw or be knocked prone.</text>
-			<text />
+			<text></text>
 			<text>• The target must succeed on a DC 13 Constitution saving throw or be stunned until the end ot'the adept's next turn.</text>
 			<attack>Unarmed Strike|5|1d8+3</attack>
 		</action>
@@ -938,7 +836,61 @@
 			<name>Deflect Missile</name>
 			<text>In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it's small enough to hold in one hand and the adept has a hand free.</text>
 		</reaction>
-		<spells />
+		<spells></spells>
+	</monster>
+	<monster name="Mary Greymalkin">
+		<name>Mary Greymalkin</name>
+		<size>M</size>
+		<type>humanoid</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>neutral</alignment>
+		<ac>12 (Bracers of Defense,Ring of Protection)</ac>
+		<hp>45 (7d8 + 14)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>14</int>
+		<wis>14</wis>
+		<cha>15</cha>
+		<save>Wis +4,Cha +4</save>
+		<skill>Arcana +4,Medicine +4,Nature +4,Religion +4</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Abyssal,Celestial,Common,Elvish,Infernal,Sylvan</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Mary is a 5th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:</text>
+			<text>Cantrips (at will): chill touch, eldritch blast, mage hand</text>
+			<text>3rd Level (3 slots): darkness, hex, hypnotic pattern, misty step, phantasmal force, unseen servant</text>
+			<attack>Spell Attack|4|</attack>
+		</trait>
+		<slots>0,0,3</slots>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Chill Touch,Eldritch Blast,Mage Hand,Darkness,Hex,Hypnotic Pattern,Misty Step,Phantasmal Force,Unseen Servant</spells>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Mary wears Bracers of Defense and a Ring of Protection, and carries a Deck of Several Things</text>
+		</trait>
+		<trait>
+			<name>Fey Presence (Recharges after a Short Rest)</name>
+			<text>Mary can cause each creature within 10 feet of her to succeed on a DC 12 Wisdom saving throw or become charmed or frightened by her (Mary's choice) until the end of her next turn.</text>
+			<recharge>SHORT</recharge>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Mary has advantage on saving throws against being charmed, and magic can't put her to sleep.</text>
+		</trait>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.</text>
+			<attack>Quarterstaff|2|1d6</attack>
+		</action>
 	</monster>
 	<monster name="Medusa">
 		<name>Medusa</name>
@@ -1004,7 +956,7 @@
 		<save>Dex +5, Int +5</save>
 		<skill>History +5, Nature +5, Perception +4, Survival +4</skill>
 		<resist>cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable />
+		<vulnerable></vulnerable>
 		<immune>acid, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>blindsight 60 ft., darkvision 60 ft.</senses>
@@ -1051,31 +1003,31 @@
 		<action>
 			<name>Fear Gaze</name>
 			<text>The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Wisdom saving throw or become frightened of the merrenoloth for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<text />
+			<text></text>
 			<text>Frightened:</text>
 			<text>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</text>
-			<text />
+			<text></text>
 			<text>• The creature can't willingly move closer to the source of its fear.</text>
 		</action>
 		<action>
 			<name>Lair Actions</name>
 			<text>Any ship a merrenoloth is contracted to captain becomes the creature's lair. When fighting on the ship, the merrenoloth can invoke its ability to take lair actions. On initiative count 20 (losing initiative ties), the merrenoloth can take one lair action to cause one of the following effects; it can't use the same effect two rounds in a row:</text>
-			<text />
+			<text></text>
 			<text>• The ship regains 22 (4d10) hit points.</text>
-			<text />
+			<text></text>
 			<text>• A strong wind propels the ship, increasing its speed by 30 feet until initiative count 20 on the next round.</text>
-			<text />
+			<text></text>
 			<text>• The air within 60 feet of the ship is filled with howling wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
-			<text />
+			<text></text>
 			<text>Prone:</text>
 			<text>• A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</text>
-			<text />
+			<text></text>
 			<text>• The creature has disadvantage on attack rolls.</text>
-			<text />
+			<text></text>
 			<text>• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</text>
 		</action>
 		<spells>Charm Person, Darkness, Detect Magic, Dispel Magic, Gust of Wind, Control Water, Control Weather</spells>
-		<slots />
+		<slots></slots>
 	</monster>
 	<monster name="Mind Flayer Arcanist">
 		<name>Mind Flayer Arcanist</name>
@@ -1105,7 +1057,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:</text>
-			<text/>
+			<text></text>
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: dominate monster, plane shift (self only)</text>
 		</trait>
@@ -1185,6 +1137,54 @@
 			<attack>Javelin|2|1d6</attack>
 		</action>
 	</monster>
+	<monster name="Ooze-Folk">
+		<name>Ooze-Folk</name>
+		<size>M</size>
+		<type>ooze</type>
+		<description>Source: Lost Laboratory of Kwalish</description>
+		<alignment>unaligned</alignment>
+		<ac>10 (natural armor)</ac>
+		<hp>19 (2d8 + 10)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>3</dex>
+		<con>20</con>
+		<int>1</int>
+		<wis>6</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune>blinded,charmed,deafened,exhaustion,frightened,prone</conditionImmune>
+		<senses>blindsight 60 ft.</senses>
+		<passive>8</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Transparent</name>
+			<text>Even when an ooze-folk is in plain sight, it takes a DC 12 Wisdom (Perception) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is surprised by the ooze-folk.</text>
+		</trait>
+		<trait>
+			<name>Fragile Bones</name>
+			<text>For each 5 damage it takes, the ooze-folk's walking speed is reduced by 5 feet.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The ooze folk makes one glass longsword attack and one pseudopod attack.</text>
+		</action>
+		<action>
+			<name>Glass Longsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) slashing damage. If a 1 is rolled on an attack roll with a glass longsword, it shatters and can no longer be used.</text>
+			<attack>Glass Longsword|4|1d8+2</attack>
+		</action>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) acid damage.</text>
+			<attack>Pseudopod|4|1d6+2</attack>
+		</action>
+	</monster>
 	<monster name="Quasit">
 		<name>Quasit</name>
 		<size>T</size>
@@ -1249,12 +1249,12 @@
 		<int>10</int>
 		<wis>12</wis>
 		<cha>7</cha>
-		<save />
+		<save></save>
 		<skill>Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>15</passive>
 		<languages>Common, Sylvan</languages>
@@ -1276,7 +1276,7 @@
 			<text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.</text>
 			<attack>Dagger|8|1d4+6</attack>
 		</action>
-		<spells />
+		<spells></spells>
 	</monster>
 	<monster name="Skeleton">
 		<name>Skeleton</name>

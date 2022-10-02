@@ -95,479 +95,38 @@
             <attack>Explosive Crystal||3d8</attack>
         </legendary>
     </monster>
-    <monster name="Crystal Dragon, Adult">
-        <name>Crystal Dragon, Adult</name>
-        <size>H</size>
+    <monster name="Amethyst Dragon, Ancient">
+        <name>Amethyst Dragon, Ancient</name>
+        <size>G</size>
         <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>16 (natural armor)</ac>
-        <hp>172 (15d12 + 75)</hp>
-        <speed>40 ft., burrow 40 ft.,climb 40 ft.,fly 80 ft.</speed>
-        <str>21</str>
-        <dex>12</dex>
-        <con>21</con>
-        <int>18</int>
-        <wis>15</wis>
-        <cha>19</cha>
-        <save>Dex +5,Con +9,Wis +6,Cha +8</save>
-        <skill>Perception +10,Stealth +9,Survival +6</skill>
-        <vulnerable></vulnerable>
-        <resist>cold,radiant</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>20</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>12</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 16):</text>
-            <text>At will: dancing lights, guidance</text>
-            <text>1/Day each: command, divination, hypnotic pattern, lesser restoration</text>
-        </trait>
-        <trait>
-          <name>Command</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Divination</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Hypnotic Pattern</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Lesser Restoration</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Guidance,Command,Divination,Hypnotic Pattern,Lesser Restoration</spells>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 4 (1d8) radiant damage.</text>
-            <attack>Bite|9|2d10+5+1d8</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</text>
-            <attack>Claw|9|1d8+5</attack>
-        </action>
-        <action>
-            <name>Scintillating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a burst of brilliant radiance in a 60-foot cone. Each creature in that area must make a DC DC 17 Constitution saving throw, taking 40 (9d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 15 temporary hit points by absorbing a portion of the radiant energy.</text>
-            <attack>Scintillating Breath||9d8</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The dragon makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The dragon uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Starlight Strike (Costs 3 Actions)</name>
-            <text>The dragon releases a searing beam of starlight at a creature that it can see within 60 feet of it. The target must succeed on a DC DC 17 Dexterity saving throw or take 31 (9d6) radiant damage.</text>
-            <attack>Starlight Strike||9d6</attack>
-        </legendary>
-    </monster>
-    <monster name="Deep Dragon, Adult">
-        <name>Deep Dragon, Adult</name>
-        <size>H</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral evil</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>147 (14d12 + 56)</hp>
-        <speed>40 ft., burrow 30 ft.,fly 80 ft.,swim 40 ft.</speed>
-        <str>20</str>
-        <dex>14</dex>
-        <con>18</con>
-        <int>16</int>
-        <wis>16</wis>
-        <cha>18</cha>
-        <save>Dex +6,Con +8,Wis +7,Cha +8</save>
-        <skill>Perception +7,Persuasion +12,Stealth +10</skill>
-        <vulnerable></vulnerable>
-        <resist>poison,psychic</resist>
-        <immune></immune>
-        <conditionImmune>charmed,frightened,poisoned</conditionImmune>
-        <senses>blindsight 60 ft., darkvision 150 ft.</senses>
-        <passive>17</passive>
-        <languages>Common,Draconic,Undercommon</languages>
-        <cr>11</cr>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 5 (1d10) poison damage.</text>
-            <attack>Bite|9|2d10+5+1d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.</text>
-            <attack>Claw|9|1d6+5</attack>
-        </action>
-        <action>
-            <name>Tail</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 17 Strength saving throw or be knocked prone.</text>
-            <attack>Tail|9|1d8+5</attack>
-        </action>
-        <action>
-            <name>Change Shape</name>
-            <text>The dragon magically transforms into any creature that is Medium or Small, while retaining its game statistics (other than its size). This transformation ends if the dragon is reduced to 0 hit points or uses its action to end it.</text>
-        </action>
-        <action>
-            <name>Nightmare Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a cloud of spores in a 60-foot cone. Each creature in that area must make a DC DC 16 Wisdom saving throw. On a failed save, the creature takes 33 (6d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Nightmare Breath||6d10</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Commanding Spores</name>
-            <text>The dragon releases spores around a creature within 30 feet of it that it can see. The target must succeed on a DC DC 16 Wisdom saving throw or use its reaction to make a melee weapon attack against a random creature within reach. If no creatures are within reach, or the target can't take a reaction, it takes 5 (1d10) psychic damage.</text>
-            <attack>Commanding Spores||1d10</attack>
-        </legendary>
-        <legendary>
-            <name>Tail</name>
-            <text>The dragon makes one Tail attack.</text>
-        </legendary>
-        <legendary>
-            <name>Spore Salvo (Costs 2 Actions)</name>
-            <text>The dragon releases poisonous spores around a creature within 30 feet of it that it can see. The target must succeed on a DC DC 16 Constitution saving throw or take 17 (5d6) poison damage and become poisoned for 1 minute. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Spore Salvo||5d6</attack>
-        </legendary>
-    </monster>
-    <monster name="Emerald Dragon, Adult">
-        <name>Emerald Dragon, Adult</name>
-        <size>H</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>lawful neutral</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>207 (18d12 + 90)</hp>
-        <speed>40 ft., burrow 30 ft.,fly 80 ft.</speed>
-        <str>23</str>
-        <dex>12</dex>
-        <con>21</con>
-        <int>18</int>
-        <wis>16</wis>
-        <cha>18</cha>
-        <save>Dex +6,Con +10,Wis +8,Cha +9</save>
-        <skill>Arcana +9,Deception +9,Perception +13,Stealth +6</skill>
-        <vulnerable></vulnerable>
-        <resist>fire,psychic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>23</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>14</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 17):</text>
-            <text>At will: mage hand (the hand is invisible), minor illusion</text>
-            <text>1/Day each: detect thoughts, dispel magic, invisibility, major image</text>
-        </trait>
-        <trait>
-          <name>Detect Thoughts</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Dispel Magic</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Invisibility</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Major Image</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Mage Hand,Minor Illusion,Detect Thoughts,Dispel Magic,Invisibility,Major Image</spells>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Shift Perception (1/Day)</name>
-            <text>The dragon can cast hallucinatory terrain, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 17).</text>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Tunneler</name>
-            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 15-foot-diameter tunnel in its wake.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 7 (2d6) psychic damage.</text>
-            <attack>Bite|11|2d10+6+2d6</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage.</text>
-            <attack>Claw|11|1d8+6</attack>
-        </action>
-        <action>
-            <name>Disorienting Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a wave of psychic dissonance in a 60-foot cone. Each creature in that area must make a DC DC 18 Intelligence saving throw. On a failed save, the creature takes 42 (12d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d6 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
-            <attack>Disorienting Breath||12d6</attack>
-            <recharge>D5</recharge>
-            <attack>Reduction||1d6</attack>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The dragon makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The dragon uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Emerald Embers (Costs 3 Actions)</name>
-            <text>The dragon creates a dancing mote of green flame around a creature it can see within 60 feet of it. The target must succeed on a DC DC 17 Dexterity saving throw or take 31 (9d6) fire damage.</text>
-            <attack>Emerald Embers||9d6</attack>
-        </legendary>
-    </monster>
-    <monster name="Moonstone Dragon, Adult">
-        <name>Moonstone Dragon, Adult</name>
-        <size>H</size>
-        <type>dragon</type>
         <description>Source: Fizban's Treasury of Dragons</description>
         <alignment>neutral</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>195 (17d12 + 85)</hp>
-        <speed>40 ft., fly 80 ft.</speed>
-        <str>20</str>
-        <dex>18</dex>
-        <con>20</con>
-        <int>22</int>
-        <wis>20</wis>
-        <cha>23</cha>
-        <save>Int +11,Wis +10,Cha +11</save>
-        <skill>Perception +10,Persuasion +11,Stealth +9</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune>charmed</conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>20</passive>
-        <languages>Common,Draconic,Elvish,Gnomish,Sylvan</languages>
-        <cr>15</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC DC 19):</text>
-            <text>At will: faerie fire</text>
-            <text>1/day each: calm emotions, invisibility, revivify</text>
-        </trait>
-        <trait>
-            <name>Calm Emotions</name>
-            <recharge>1/day</recharge>
-        </trait>
-        <trait>
-            <name>Invisibility</name>
-            <recharge>1/day</recharge>
-        </trait>
-        <trait>
-            <name>Revivify</name>
-            <recharge>1/day</recharge>
-        </trait>
-        <spellAbility>Charisma</spellAbility>
-        <spells>Faerie Fire,Calm Emotions,Invisibility,Revivify</spells>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) radiant damage.</text>
-            <attack>Bite|10|2d10+5+2d6</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
-            <attack>Claw|10|2d6+5</attack>
-        </action>
-        <action>
-            <name>Tail</name>
-            <text>Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 18 Strength saving throw or be knocked prone.</text>
-            <attack>Tail|10|1d8+5</attack>
-        </action>
-        <action>
-            <name>Breath Weapon (Recharge 5-6)</name>
-            <text>The dragon uses one of the following breath weapons:</text>
-            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
-            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC 18 Dexterity saving throw, taking 49 (9d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
-            <attack>Moonlight Breath||9d10</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Tail</name>
-            <text>The dragon makes one Tail attack.</text>
-        </legendary>
-        <legendary>
-            <name>Cast a Spell (Costs 2 Actions)</name>
-            <text>The dragon uses Spellcasting.</text>
-        </legendary>
-    </monster>
-    <monster name="Sapphire Dragon, Adult">
-        <name>Sapphire Dragon, Adult</name>
-        <size>H</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>lawful neutral</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>225 (18d12 + 108)</hp>
-        <speed>40 ft., burrow 30 ft.,climb 40 ft.,fly 80 ft.</speed>
-        <str>23</str>
+        <ac>20 (natural armor)</ac>
+        <hp>444 (24d20 + 192)</hp>
+        <speed>40 ft., fly 80 ft. (hover),swim 40 ft.</speed>
+        <str>26</str>
         <dex>14</dex>
-        <con>22</con>
-        <int>18</int>
-        <wis>17</wis>
-        <cha>18</cha>
-        <save>Dex +7,Con +11,Wis +8,Cha +9</save>
-        <skill>History +9,Perception +13,Persuasion +14,Stealth +7</skill>
+        <con>27</con>
+        <int>26</int>
+        <wis>19</wis>
+        <cha>23</cha>
+        <save>Dex +9,Con +15,Wis +11,Cha +13</save>
+        <skill>Arcana +22,Perception +18,Persuasion +13,Stealth +9</skill>
         <vulnerable></vulnerable>
-        <resist>lightning,thunder</resist>
+        <resist>force,psychic</resist>
         <immune></immune>
-        <conditionImmune>frightened</conditionImmune>
+        <conditionImmune>frightened,prone</conditionImmune>
         <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>23</passive>
+        <passive>28</passive>
         <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>15</cr>
+        <cr>23</cr>
         <trait>
             <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):</text>
-            <text>1/Day each: dissonant whispers, hold monster, meld into stone, telekinesis</text>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 23, +15 to hit with spell attacks):</text>
+            <text>1/Day each: blink, control water, dispel magic, freedom of movement, globe of invulnerability, plane shift, protection from evil and good, sending</text>
         </trait>
         <trait>
-          <name>Dissonant Whispers</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Hold Monster</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Meld into Stone</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Telekinesis</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dissonant Whispers,Hold Monster,Meld into Stone,Telekinesis</spells>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
-        <trait>
-            <name>Tunneler</name>
-            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 10-foot-diameter tunnel in its wake.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 5 (1d10) thunder damage.</text>
-            <attack>Bite|11|2d10+6+1d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage.</text>
-            <attack>Claw|11|1d8+6</attack>
-        </action>
-        <action>
-            <name>Debilitating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 60-foot cone. Each creature in that area must make a DC DC 19 Constitution saving throw. On a failed save, the creature takes 44 (8d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
-            <attack>Debilitating Breath||8d10</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The dragon makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The dragon uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Telekinetic Fling (Costs 3 Actions)</name>
-            <text>The dragon chooses one Small or smaller object that isn't being worn or carried that it can see within 60 feet of it, and it magically hurls the object at a creature it can see within 60 feet of the object. The target must succeed on a DC DC 17 Dexterity saving throw or take 31 (9d6) bludgeoning damage.</text>
-            <attack>Telekinetic Fling||9d6</attack>
-        </legendary>
-    </monster>
-    <monster name="Topaz Dragon, Adult">
-        <name>Topaz Dragon, Adult</name>
-        <size>H</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>210 (20d12 + 80)</hp>
-        <speed>40 ft., fly 80 ft.,swim 40 ft.</speed>
-        <str>19</str>
-        <dex>12</dex>
-        <con>19</con>
-        <int>18</int>
-        <wis>17</wis>
-        <cha>18</cha>
-        <save>Dex +6,Con +9,Wis +8,Cha +9</save>
-        <skill>Intimidation +14,Perception +13,Stealth +6</skill>
-        <vulnerable></vulnerable>
-        <resist>cold,necrotic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>23</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>13</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):</text>
-            <text>1/Day each: bane, control water, create or destroy water</text>
-        </trait>
-        <trait>
-          <name>Bane</name>
+          <name>Blink</name>
           <recharge>1/Day</recharge>
         </trait>
         <trait>
@@ -575,19 +134,34 @@
           <recharge>1/Day</recharge>
         </trait>
         <trait>
-          <name>Create or Destroy Water</name>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Freedom of Movement</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Globe of Invulnerability</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Protection from Evil and Good</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Sending</name>
           <recharge>1/Day</recharge>
         </trait>
         <spellAbility>Intelligence</spellAbility>
-        <spells>Bane,Control Water,Create or Destroy Water</spells>
+        <spells>Blink,Control Water,Dispel Magic,Freedom of Movement,Globe of Invulnerability,Plane Shift,Protection from Evil and Good,Sending</spells>
         <trait>
             <name>Amphibious</name>
             <text>The dragon can breathe both air and water.</text>
-        </trait>
-        <trait>
-            <name>Fabricate (1/Day)</name>
-            <text>The dragon can cast fabricate, requiring no spell components and using Intelligence as the spellcasting ability.</text>
-            <recharge>1/Day</recharge>
         </trait>
         <trait>
             <name>Legendary Resistance (3/Day)</name>
@@ -600,32 +174,32 @@
         </action>
         <action>
             <name>Bite</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 3 (1d6) necrotic damage.</text>
-            <attack>Bite|9|2d10+4+1d6</attack>
+            <text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 13 (3d8) force damage.</text>
+            <attack>Bite|15|2d10+8+3d8</attack>
         </action>
         <action>
             <name>Claw</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
-            <attack>Claw|9|1d8+4</attack>
+            <text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</text>
+            <attack>Claw|15|2d6+8</attack>
         </action>
         <action>
-            <name>Desiccating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales yellowish necrotic energy in a 60-foot cone. Each creature in that area must make a DC DC 17 Constitution saving throw. On a failed save, the creature takes 35 (10d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
-            <attack>Desiccating Breath||10d6</attack>
+            <name>Singularity Breath (Recharge 5-6)</name>
+            <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 90-foot cone. Each creature in that area must make a DC DC 23 Strength saving throw. On a failed save, the creature takes 63 (14d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
+            <attack>Singularity Breath||14d8</attack>
             <recharge>D5</recharge>
         </action>
         <legendary>
             <name>Claw</name>
-            <text>The dragon makes one Claw attack.</text>
+            <text>The dragon makes one claw attack.</text>
         </legendary>
         <legendary>
             <name>Psionics (Costs 2 Actions)</name>
             <text>The dragon uses Psychic Step or Spellcasting.</text>
         </legendary>
         <legendary>
-            <name>Essential Reduction (Costs 3 Actions)</name>
-            <text>The dragon targets a creature or an object not being worn or carried that it can see within 60 feet of it. The target must succeed on a DC DC 17 Constitution saving throw or take 28 (8d6) necrotic damage. If this damage reduces the target to 0 hit points, it crumbles to dust.</text>
-            <attack>Essential Reduction||8d6</attack>
+            <name>Explosive Crystal (Costs 3 Actions)</name>
+            <text>The dragon spits an amethyst that that explodes at a point it can see within 60 feet of it. Each creature within a 20-foot-radius sphere centered on that point must succeed on a DC DC 23 Dexterity saving throw or take 18 (4d8) force damage and be knocked prone.</text>
+            <attack>Explosive Crystal||4d8</attack>
         </legendary>
     </monster>
     <monster name="Amethyst Dragon, Wyrmling">
@@ -685,6 +259,79 @@
             <name>Singularity Breath (Recharge 5-6)</name>
             <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 15-foot cone. Each creature in that area must make a DC DC 13 Strength saving throw. On a failed save, the creature takes 22 (5d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
             <attack>Singularity Breath||5d8</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster name="Amethyst Dragon, Young">
+        <name>Amethyst Dragon, Young</name>
+        <size>L</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>18 (natural armor)</ac>
+        <hp>168 (16d10 + 80)</hp>
+        <speed>40 ft., fly 80 ft. (hover),swim 40 ft.</speed>
+        <str>21</str>
+        <dex>12</dex>
+        <con>21</con>
+        <int>18</int>
+        <wis>15</wis>
+        <cha>19</cha>
+        <save>Dex +5,Con +9,Wis +6,Cha +8</save>
+        <skill>Arcana +12,Perception +10,Persuasion +8,Stealth +5</skill>
+        <vulnerable></vulnerable>
+        <resist>force,psychic</resist>
+        <immune></immune>
+        <conditionImmune>frightened,prone</conditionImmune>
+        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
+        <passive>20</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16):</text>
+            <text>1/Day each: blink, dispel magic, protection from evil and good, sending</text>
+        </trait>
+        <trait>
+          <name>Blink</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Protection from Evil and Good</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Sending</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Blink,Dispel Magic,Protection from Evil and Good,Sending</spells>
+        <trait>
+            <name>Amphibious</name>
+            <text>The dragon can breathe both air and water.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 4 (1d8) force damage.</text>
+            <attack>Bite|9|2d10+5+1d8</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</text>
+            <attack>Claw|9|1d8+5</attack>
+        </action>
+        <action>
+            <name>Singularity Breath (Recharge 5-6)</name>
+            <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 30-foot cone. Each creature in that area must make a DC DC 17 Strength saving throw. On a failed save, the creature takes 36 (8d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
+            <attack>Singularity Breath||8d8</attack>
             <recharge>D5</recharge>
         </action>
     </monster>
@@ -795,279 +442,6 @@
             <attack>Psychic Beam||5d10</attack>
         </legendary>
     </monster>
-    <monster name="Amethyst Dragon, Ancient">
-        <name>Amethyst Dragon, Ancient</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>20 (natural armor)</ac>
-        <hp>444 (24d20 + 192)</hp>
-        <speed>40 ft., fly 80 ft. (hover),swim 40 ft.</speed>
-        <str>26</str>
-        <dex>14</dex>
-        <con>27</con>
-        <int>26</int>
-        <wis>19</wis>
-        <cha>23</cha>
-        <save>Dex +9,Con +15,Wis +11,Cha +13</save>
-        <skill>Arcana +22,Perception +18,Persuasion +13,Stealth +9</skill>
-        <vulnerable></vulnerable>
-        <resist>force,psychic</resist>
-        <immune></immune>
-        <conditionImmune>frightened,prone</conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>28</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>23</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 23, +15 to hit with spell attacks):</text>
-            <text>1/Day each: blink, control water, dispel magic, freedom of movement, globe of invulnerability, plane shift, protection from evil and good, sending</text>
-        </trait>
-        <trait>
-          <name>Blink</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Control Water</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Dispel Magic</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Freedom of Movement</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Globe of Invulnerability</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Plane Shift</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Protection from Evil and Good</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Sending</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Blink,Control Water,Dispel Magic,Freedom of Movement,Globe of Invulnerability,Plane Shift,Protection from Evil and Good,Sending</spells>
-        <trait>
-            <name>Amphibious</name>
-            <text>The dragon can breathe both air and water.</text>
-        </trait>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 13 (3d8) force damage.</text>
-            <attack>Bite|15|2d10+8+3d8</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</text>
-            <attack>Claw|15|2d6+8</attack>
-        </action>
-        <action>
-            <name>Singularity Breath (Recharge 5-6)</name>
-            <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 90-foot cone. Each creature in that area must make a DC DC 23 Strength saving throw. On a failed save, the creature takes 63 (14d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
-            <attack>Singularity Breath||14d8</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The dragon makes one claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The dragon uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Explosive Crystal (Costs 3 Actions)</name>
-            <text>The dragon spits an amethyst that that explodes at a point it can see within 60 feet of it. Each creature within a 20-foot-radius sphere centered on that point must succeed on a DC DC 23 Dexterity saving throw or take 18 (4d8) force damage and be knocked prone.</text>
-            <attack>Explosive Crystal||4d8</attack>
-        </legendary>
-    </monster>
-    <monster name="Crystal Dragon, Ancient">
-        <name>Crystal Dragon, Ancient</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>20 (natural armor)</ac>
-        <hp>222 (12d20 + 96)</hp>
-        <speed>40 ft., burrow 40 ft.,climb 40 ft.,fly 80 ft.</speed>
-        <str>25</str>
-        <dex>12</dex>
-        <con>26</con>
-        <int>20</int>
-        <wis>16</wis>
-        <cha>21</cha>
-        <save>Dex +7,Con +14,Wis +9,Cha +11</save>
-        <skill>Perception +15,Stealth +13,Survival +9</skill>
-        <vulnerable></vulnerable>
-        <resist>cold,radiant</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>25</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>19</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 19):</text>
-            <text>At will: dancing lights, guidance</text>
-            <text>1/Day each: command, divination, greater restoration, hypnotic pattern, invisibility</text>
-        </trait>
-        <trait>
-          <name>Command</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Divination</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Greater Restoration</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Hypnotic Pattern</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Invisibility</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Guidance,Command,Divination,Greater Restoration,Hypnotic Pattern,Invisibility</spells>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 9 (2d8) radiant damage.</text>
-            <attack>Bite|13|2d10+7+2d8</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 14 (2d6 + 7) slashing damage.</text>
-            <attack>Claw|13|2d6+7</attack>
-        </action>
-        <action>
-            <name>Scintillating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a burst of brilliant radiance in a 90-foot cone. Each creature in that area must make a DC DC 22 Constitution saving throw, taking 49 (11d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 25 temporary hit points by absorbing a portion of the radiant energy.</text>
-            <attack>Scintillating Breath||11d8</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The dragon makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The dragon uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Starlight Strike (Costs 3 Actions)</name>
-            <text>The dragon releases a searing beam of starlight at a creature that it can see within 60 feet of it. The target must succeed on a DC DC 19 Dexterity saving throw or take 38 (11d6) radiant damage.</text>
-            <attack>Starlight Strike||11d6</attack>
-        </legendary>
-    </monster>
-    <monster name="Deep Dragon, Ancient">
-        <name>Deep Dragon, Ancient</name>
-        <size>G</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral evil</alignment>
-        <ac>20 (natural armor)</ac>
-        <hp>201 (13d20 + 65)</hp>
-        <speed>40 ft., burrow 40 ft.,fly 80 ft.,swim 40 ft.</speed>
-        <str>23</str>
-        <dex>16</dex>
-        <con>20</con>
-        <int>19</int>
-        <wis>18</wis>
-        <cha>21</cha>
-        <save>Dex +9,Con +11,Wis +10,Cha +11</save>
-        <skill>Perception +10,Persuasion +17,Stealth +15</skill>
-        <vulnerable></vulnerable>
-        <resist>poison,psychic</resist>
-        <immune></immune>
-        <conditionImmune>charmed,frightened,poisoned</conditionImmune>
-        <senses>blindsight 60 ft., darkvision 300 ft.</senses>
-        <passive>20</passive>
-        <languages>Common,Draconic,Undercommon</languages>
-        <cr>18</cr>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 11 (2d10) poison damage.</text>
-            <attack>Bite|12|2d10+6+2d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</text>
-            <attack>Claw|12|2d6+6</attack>
-        </action>
-        <action>
-            <name>Tail</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 20 Strength saving throw or be knocked prone.</text>
-            <attack>Tail|12|1d8+6</attack>
-        </action>
-        <action>
-            <name>Change Shape</name>
-            <text>The dragon magically transforms into any creature that is Medium or Small, while retaining its game statistics (other than its size). This transformation ends if the dragon is reduced to 0 hit points or uses its action to end it.</text>
-        </action>
-        <action>
-            <name>Nightmare Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a cloud of spores in a 90-foot cone. Each creature in that area must make a DC DC 19 Wisdom saving throw. On a failed save, the creature takes 49 (9d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Nightmare Breath||9d10</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Commanding Spores</name>
-            <text>The dragon releases spores around a creature within 30 feet of it that it can see. The target must succeed on a DC DC 19 Wisdom saving throw or use its reaction to make a melee weapon attack against a random creature within reach. If no creatures are within reach, or the target can't take a reaction, it takes 11 (2d10) psychic damage.</text>
-            <attack>Commanding Spores||2d10</attack>
-        </legendary>
-        <legendary>
-            <name>Tail</name>
-            <text>The dragon makes one Tail attack.</text>
-        </legendary>
-        <legendary>
-            <name>Spore Salvo (Costs 2 Actions)</name>
-            <text>The dragon releases poisonous spores around a creature within 30 feet of it that it can see. The target must succeed on a DC DC 19 Constitution saving throw or take 28 (8d6) poison damage and become poisoned for 1 minute. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Spore Salvo||8d6</attack>
-        </legendary>
-    </monster>
     <monster name="Ancient Dragon Turtle">
         <name>Ancient Dragon Turtle</name>
         <size>G</size>
@@ -1150,297 +524,6 @@
             <attack>Boiling Aura||9d8</attack>
         </legendary>
     </monster>
-    <monster name="Emerald Dragon, Ancient">
-        <name>Emerald Dragon, Ancient</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>lawful neutral</alignment>
-        <ac>20 (natural armor)</ac>
-        <hp>332 (19d20 + 133)</hp>
-        <speed>40 ft., burrow 30 ft.,fly 80 ft.</speed>
-        <str>25</str>
-        <dex>12</dex>
-        <con>25</con>
-        <int>20</int>
-        <wis>18</wis>
-        <cha>20</cha>
-        <save>Dex +8,Con +14,Wis +11,Cha +12</save>
-        <skill>Arcana +12,Deception +12,Perception +18,Stealth +8</skill>
-        <vulnerable></vulnerable>
-        <resist>fire,psychic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>28</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>21</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 20):</text>
-            <text>At will: mage hand (the hand is invisible), minor illusion</text>
-            <text>1/Day each: detect thoughts, dispel magic, etherealness, major image, mislead</text>
-        </trait>
-        <trait>
-          <name>Detect Thoughts</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Dispel Magic</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Etherealness</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Major Image</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Mislead</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Mage Hand,Minor Illusion,Detect Thoughts,Dispel Magic,Etherealness,Major Image,Mislead</spells>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Tunneler</name>
-            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 20-foot-diameter tunnel in its wake.</text>
-        </trait>
-        <trait>
-            <name>Warp Perception (1/Day)</name>
-            <text>The dragon can cast mirage arcane, requiring no spell components and using Intelligence as the spellcasting ability.</text>
-            <recharge>1/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 10 (3d6) psychic damage.</text>
-            <attack>Bite|14|2d10+7+3d6</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 14 (2d6 + 7) slashing damage.</text>
-            <attack>Claw|14|2d6+7</attack>
-        </action>
-        <action>
-            <name>Disorienting Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a wave of psychic dissonance in a 90-foot cone. Each creature in that area must make a DC DC 22 Intelligence saving throw. On a failed save, the creature takes 56 (16d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d8 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
-            <attack>Disorienting Breath||16d6</attack>
-            <recharge>D5</recharge>
-            <attack>Reduction||1d8</attack>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The dragon makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The dragon uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Emerald Embers (Costs 3 Actions)</name>
-            <text>The dragon creates a dancing mote of green flame around a creature it can see within 60 feet of it. The target must succeed on a DC DC 20 Dexterity saving throw or take 42 (12d6) fire damage.</text>
-            <attack>Emerald Embers||12d6</attack>
-        </legendary>
-    </monster>
-    <monster name="Moonstone Dragon, Ancient">
-        <name>Moonstone Dragon, Ancient</name>
-        <size>G</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>20 (natural armor)</ac>
-        <hp>330 (20d20 + 120)</hp>
-        <speed>40 ft., fly 80 ft.</speed>
-        <str>22</str>
-        <dex>18</dex>
-        <con>23</con>
-        <int>20</int>
-        <wis>22</wis>
-        <cha>26</cha>
-        <save>Int +12,Wis +13,Cha +15</save>
-        <skill>Perception +13,Persuasion +15,Stealth +11</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune>charmed</conditionImmune>
-        <senses>truesight 120 ft.</senses>
-        <passive>23</passive>
-        <languages>all,telepathy 120 ft.</languages>
-        <cr>21</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC DC 23):</text>
-            <text>At will: faerie fire</text>
-            <text>2/day each: calm emotions, dispel magic, invisibility, revivify</text>
-        </trait>
-        <trait>
-            <name>Calm Emotions</name>
-            <recharge>2/day</recharge>
-        </trait>
-        <trait>
-            <name>Dispel Magic</name>
-            <recharge>2/day</recharge>
-        </trait>
-        <trait>
-            <name>Invisibility</name>
-            <recharge>2/day</recharge>
-        </trait>
-        <trait>
-            <name>Revivify</name>
-            <recharge>2/day</recharge>
-        </trait>
-        <spellAbility>Charisma</spellAbility>
-        <spells>Faerie Fire,Calm Emotions,Dispel Magic,Invisibility,Revivify</spells>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 11 (2d10) radiant damage.</text>
-            <attack>Bite|13|2d10+6+2d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</text>
-            <attack>Claw|13|2d6+6</attack>
-        </action>
-        <action>
-            <name>Tail</name>
-            <text>Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 21 Strength saving throw or be knocked prone.</text>
-            <attack>Tail|13|1d8+6</attack>
-        </action>
-        <action>
-            <name>Breath Weapon (Recharge 5-6)</name>
-            <text>The dragon uses one of the following breath weapons:</text>
-            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
-            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 120-foot line that is 10 feet wide. Each creature in that area must make a DC 21 Dexterity saving throw, taking 60 (11d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
-            <recharge>D5</recharge>
-            <attack>Moonlight Weapon||11d10</attack>
-        </action>
-        <legendary>
-            <name>Tail</name>
-            <text>The dragon makes one Tail attack.</text>
-        </legendary>
-        <legendary>
-            <name>Cast a Spell (Costs 2 Actions)</name>
-            <text>The dragon uses Spellcasting.</text>
-        </legendary>
-    </monster>
-    <monster name="Sapphire Dragon, Ancient">
-        <name>Sapphire Dragon, Ancient</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>lawful neutral</alignment>
-        <ac>20 (natural armor)</ac>
-        <hp>370 (20d20 + 160)</hp>
-        <speed>40 ft., burrow 40 ft.,climb 40 ft.,fly 80 ft.</speed>
-        <str>27</str>
-        <dex>14</dex>
-        <con>27</con>
-        <int>21</int>
-        <wis>19</wis>
-        <cha>20</cha>
-        <save>Dex +9,Con +15,Wis +11,Cha +12</save>
-        <skill>History +12,Perception +18,Persuasion +19,Stealth +9</skill>
-        <vulnerable></vulnerable>
-        <resist>lightning,thunder</resist>
-        <immune></immune>
-        <conditionImmune>frightened</conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>28</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>22</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 20):</text>
-            <text>1/Day each: dissonant whispers, hold monster, meld into stone, telekinesis, teleport</text>
-        </trait>
-        <trait>
-          <name>Dissonant Whispers</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Hold Monster</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Meld into Stone</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Telekinesis</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Teleport</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dissonant Whispers,Hold Monster,Meld into Stone,Telekinesis,Teleport</spells>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
-        <trait>
-            <name>Tunneler</name>
-            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 20-foot-diameter tunnel in its wake.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 11 (2d10) thunder damage.</text>
-            <attack>Bite|15|2d10+8+2d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</text>
-            <attack>Claw|15|2d6+8</attack>
-        </action>
-        <action>
-            <name>Debilitating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 90-foot cone. Each creature in that area must make a DC DC 23 Constitution saving throw. On a failed save, the creature takes 55 (10d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
-            <attack>Debilitating Breath||10d10</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The dragon makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The dragon uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Telekinetic Fling (Costs 3 Actions)</name>
-            <text>The dragon chooses one Medium or smaller object that isn't being worn or carried that it can see within 60 feet of it, and it magically hurls the object at a creature it can see within 60 feet of the object. The target must succeed on a DC DC 20 Dexterity saving throw or take 42 (12d6) bludgeoning damage.</text>
-            <attack>Telekinetic Fling||12d6</attack>
-        </legendary>
-    </monster>
     <monster name="Ancient Sea Serpent">
         <name>Ancient Sea Serpent</name>
         <size>G</size>
@@ -1507,102 +590,6 @@
         <legendary>
             <name>Bite (Costs 2 Actions)</name>
             <text>The sea serpent makes one Bite attack</text>
-        </legendary>
-    </monster>
-    <monster name="Topaz Dragon, Ancient">
-        <name>Topaz Dragon, Ancient</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>20 (natural armor)</ac>
-        <hp>280 (17d20 + 102)</hp>
-        <speed>40 ft., fly 80 ft.,swim 40 ft.</speed>
-        <str>23</str>
-        <dex>12</dex>
-        <con>23</con>
-        <int>20</int>
-        <wis>19</wis>
-        <cha>20</cha>
-        <save>Dex +7,Con +12,Wis +10,Cha +11</save>
-        <skill>Intimidation +17,Perception +16,Stealth +7</skill>
-        <vulnerable></vulnerable>
-        <resist>cold,necrotic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
-        <passive>26</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>20</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 19):</text>
-            <text>1/Day each: antilife shell, bane, control water, create or destroy water</text>
-        </trait>
-        <trait>
-          <name>Antilife Shell</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Bane</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Control Water</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Create or Destroy Water</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Antilife Shell,Bane,Control Water,Create or Destroy Water</spells>
-        <trait>
-            <name>Amphibious</name>
-            <text>The dragon can breathe both air and water.</text>
-        </trait>
-        <trait>
-            <name>Fabricate (1/Day)</name>
-            <text>The dragon can cast fabricate, requiring no spell components and using Intelligence as the spellcasting ability.</text>
-            <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 10 (3d6) necrotic damage.</text>
-            <attack>Bite|12|2d10+6+3d6</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</text>
-            <attack>Claw|12|2d6+6</attack>
-        </action>
-        <action>
-            <name>Desiccating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales yellowish necrotic energy in a 90-foot cone. Each creature in that area must make a DC DC 20 Constitution saving throw. On a failed save, the creature takes 49 (14d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
-            <attack>Desiccating Breath||14d6</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The dragon makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The dragon uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Essential Reduction (Costs 3 Actions)</name>
-            <text>The dragon targets a creature or an object not being worn or carried that it can see within 60 feet of it. The target must succeed on a DC DC 19 Constitution saving throw or take 40 (9d8) necrotic damage. If this damage reduces the target to 0 hit points, it crumbles to dust.</text>
-            <attack>Essential Reduction||9d8</attack>
         </legendary>
     </monster>
     <monster name="Animated Breath">
@@ -2193,6 +1180,186 @@
             <attack>Wing Attack||2d6+10</attack>
         </legendary>
     </monster>
+    <monster name="Crystal Dragon, Adult">
+        <name>Crystal Dragon, Adult</name>
+        <size>H</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>16 (natural armor)</ac>
+        <hp>172 (15d12 + 75)</hp>
+        <speed>40 ft., burrow 40 ft.,climb 40 ft.,fly 80 ft.</speed>
+        <str>21</str>
+        <dex>12</dex>
+        <con>21</con>
+        <int>18</int>
+        <wis>15</wis>
+        <cha>19</cha>
+        <save>Dex +5,Con +9,Wis +6,Cha +8</save>
+        <skill>Perception +10,Stealth +9,Survival +6</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,radiant</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>20</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>12</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 16):</text>
+            <text>At will: dancing lights, guidance</text>
+            <text>1/Day each: command, divination, hypnotic pattern, lesser restoration</text>
+        </trait>
+        <trait>
+          <name>Command</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Divination</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hypnotic Pattern</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Lesser Restoration</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Guidance,Command,Divination,Hypnotic Pattern,Lesser Restoration</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 4 (1d8) radiant damage.</text>
+            <attack>Bite|9|2d10+5+1d8</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</text>
+            <attack>Claw|9|1d8+5</attack>
+        </action>
+        <action>
+            <name>Scintillating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a burst of brilliant radiance in a 60-foot cone. Each creature in that area must make a DC DC 17 Constitution saving throw, taking 40 (9d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 15 temporary hit points by absorbing a portion of the radiant energy.</text>
+            <attack>Scintillating Breath||9d8</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The dragon makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The dragon uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Starlight Strike (Costs 3 Actions)</name>
+            <text>The dragon releases a searing beam of starlight at a creature that it can see within 60 feet of it. The target must succeed on a DC DC 17 Dexterity saving throw or take 31 (9d6) radiant damage.</text>
+            <attack>Starlight Strike||9d6</attack>
+        </legendary>
+    </monster>
+    <monster name="Crystal Dragon, Ancient">
+        <name>Crystal Dragon, Ancient</name>
+        <size>G</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>20 (natural armor)</ac>
+        <hp>222 (12d20 + 96)</hp>
+        <speed>40 ft., burrow 40 ft.,climb 40 ft.,fly 80 ft.</speed>
+        <str>25</str>
+        <dex>12</dex>
+        <con>26</con>
+        <int>20</int>
+        <wis>16</wis>
+        <cha>21</cha>
+        <save>Dex +7,Con +14,Wis +9,Cha +11</save>
+        <skill>Perception +15,Stealth +13,Survival +9</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,radiant</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>25</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>19</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 19):</text>
+            <text>At will: dancing lights, guidance</text>
+            <text>1/Day each: command, divination, greater restoration, hypnotic pattern, invisibility</text>
+        </trait>
+        <trait>
+          <name>Command</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Divination</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Greater Restoration</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hypnotic Pattern</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Invisibility</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Guidance,Command,Divination,Greater Restoration,Hypnotic Pattern,Invisibility</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 9 (2d8) radiant damage.</text>
+            <attack>Bite|13|2d10+7+2d8</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 14 (2d6 + 7) slashing damage.</text>
+            <attack>Claw|13|2d6+7</attack>
+        </action>
+        <action>
+            <name>Scintillating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a burst of brilliant radiance in a 90-foot cone. Each creature in that area must make a DC DC 22 Constitution saving throw, taking 49 (11d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 25 temporary hit points by absorbing a portion of the radiant energy.</text>
+            <attack>Scintillating Breath||11d8</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The dragon makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The dragon uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Starlight Strike (Costs 3 Actions)</name>
+            <text>The dragon releases a searing beam of starlight at a creature that it can see within 60 feet of it. The target must succeed on a DC DC 19 Dexterity saving throw or take 38 (11d6) radiant damage.</text>
+            <attack>Starlight Strike||11d6</attack>
+        </legendary>
+    </monster>
     <monster name="Crystal Dragon, Wyrmling">
         <name>Crystal Dragon, Wyrmling</name>
         <size>M</size>
@@ -2234,6 +1401,68 @@
             <name>Scintillating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a burst of brilliant radiance in a 15-foot cone. Each creature in that area must make a DC DC 12 Constitution saving throw, taking 18 (4d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 5 temporary hit points by absorbing a portion of the radiant energy.</text>
             <attack>Scintillating Breath||4d8</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster name="Crystal Dragon, Young">
+        <name>Crystal Dragon, Young</name>
+        <size>L</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>95 (10d10 + 40)</hp>
+        <speed>40 ft., burrow 20 ft.,climb 40 ft.,fly 80 ft.</speed>
+        <str>17</str>
+        <dex>12</dex>
+        <con>18</con>
+        <int>16</int>
+        <wis>14</wis>
+        <cha>17</cha>
+        <save>Dex +4,Con +7,Wis +5,Cha +6</save>
+        <skill>Perception +8,Stealth +7,Survival +5</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,radiant</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
+        <passive>18</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 16):</text>
+            <text>At will: dancing lights, guidance</text>
+            <text>1/Day each: hypnotic pattern, lesser restoration</text>
+        </trait>
+        <trait>
+          <name>Hypnotic Pattern</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Lesser Restoration</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Guidance,Hypnotic Pattern,Lesser Restoration</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage plus 4 (1d8) radiant damage.</text>
+            <attack>Bite|6|2d10+3+1d8</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+            <attack>Claw|6|1d6+3</attack>
+        </action>
+        <action>
+            <name>Scintillating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a burst of brilliant radiance in a 30-foot cone. Each creature in that area must make a DC DC 15 Constitution saving throw, taking 27 (6d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 10 temporary hit points by absorbing a portion of the radiant energy.</text>
+            <attack>Scintillating Breath||6d8</attack>
             <recharge>D5</recharge>
         </action>
     </monster>
@@ -2344,6 +1573,154 @@
             <attack>Psychic Beam||5d10</attack>
         </legendary>
     </monster>
+    <monster name="Deep Dragon, Adult">
+        <name>Deep Dragon, Adult</name>
+        <size>H</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral evil</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>147 (14d12 + 56)</hp>
+        <speed>40 ft., burrow 30 ft.,fly 80 ft.,swim 40 ft.</speed>
+        <str>20</str>
+        <dex>14</dex>
+        <con>18</con>
+        <int>16</int>
+        <wis>16</wis>
+        <cha>18</cha>
+        <save>Dex +6,Con +8,Wis +7,Cha +8</save>
+        <skill>Perception +7,Persuasion +12,Stealth +10</skill>
+        <vulnerable></vulnerable>
+        <resist>poison,psychic</resist>
+        <immune></immune>
+        <conditionImmune>charmed,frightened,poisoned</conditionImmune>
+        <senses>blindsight 60 ft., darkvision 150 ft.</senses>
+        <passive>17</passive>
+        <languages>Common,Draconic,Undercommon</languages>
+        <cr>11</cr>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 5 (1d10) poison damage.</text>
+            <attack>Bite|9|2d10+5+1d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.</text>
+            <attack>Claw|9|1d6+5</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 17 Strength saving throw or be knocked prone.</text>
+            <attack>Tail|9|1d8+5</attack>
+        </action>
+        <action>
+            <name>Change Shape</name>
+            <text>The dragon magically transforms into any creature that is Medium or Small, while retaining its game statistics (other than its size). This transformation ends if the dragon is reduced to 0 hit points or uses its action to end it.</text>
+        </action>
+        <action>
+            <name>Nightmare Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a cloud of spores in a 60-foot cone. Each creature in that area must make a DC DC 16 Wisdom saving throw. On a failed save, the creature takes 33 (6d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Nightmare Breath||6d10</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Commanding Spores</name>
+            <text>The dragon releases spores around a creature within 30 feet of it that it can see. The target must succeed on a DC DC 16 Wisdom saving throw or use its reaction to make a melee weapon attack against a random creature within reach. If no creatures are within reach, or the target can't take a reaction, it takes 5 (1d10) psychic damage.</text>
+            <attack>Commanding Spores||1d10</attack>
+        </legendary>
+        <legendary>
+            <name>Tail</name>
+            <text>The dragon makes one Tail attack.</text>
+        </legendary>
+        <legendary>
+            <name>Spore Salvo (Costs 2 Actions)</name>
+            <text>The dragon releases poisonous spores around a creature within 30 feet of it that it can see. The target must succeed on a DC DC 16 Constitution saving throw or take 17 (5d6) poison damage and become poisoned for 1 minute. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Spore Salvo||5d6</attack>
+        </legendary>
+    </monster>
+    <monster name="Deep Dragon, Ancient">
+        <name>Deep Dragon, Ancient</name>
+        <size>G</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral evil</alignment>
+        <ac>20 (natural armor)</ac>
+        <hp>201 (13d20 + 65)</hp>
+        <speed>40 ft., burrow 40 ft.,fly 80 ft.,swim 40 ft.</speed>
+        <str>23</str>
+        <dex>16</dex>
+        <con>20</con>
+        <int>19</int>
+        <wis>18</wis>
+        <cha>21</cha>
+        <save>Dex +9,Con +11,Wis +10,Cha +11</save>
+        <skill>Perception +10,Persuasion +17,Stealth +15</skill>
+        <vulnerable></vulnerable>
+        <resist>poison,psychic</resist>
+        <immune></immune>
+        <conditionImmune>charmed,frightened,poisoned</conditionImmune>
+        <senses>blindsight 60 ft., darkvision 300 ft.</senses>
+        <passive>20</passive>
+        <languages>Common,Draconic,Undercommon</languages>
+        <cr>18</cr>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 11 (2d10) poison damage.</text>
+            <attack>Bite|12|2d10+6+2d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</text>
+            <attack>Claw|12|2d6+6</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 20 Strength saving throw or be knocked prone.</text>
+            <attack>Tail|12|1d8+6</attack>
+        </action>
+        <action>
+            <name>Change Shape</name>
+            <text>The dragon magically transforms into any creature that is Medium or Small, while retaining its game statistics (other than its size). This transformation ends if the dragon is reduced to 0 hit points or uses its action to end it.</text>
+        </action>
+        <action>
+            <name>Nightmare Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a cloud of spores in a 90-foot cone. Each creature in that area must make a DC DC 19 Wisdom saving throw. On a failed save, the creature takes 49 (9d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Nightmare Breath||9d10</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Commanding Spores</name>
+            <text>The dragon releases spores around a creature within 30 feet of it that it can see. The target must succeed on a DC DC 19 Wisdom saving throw or use its reaction to make a melee weapon attack against a random creature within reach. If no creatures are within reach, or the target can't take a reaction, it takes 11 (2d10) psychic damage.</text>
+            <attack>Commanding Spores||2d10</attack>
+        </legendary>
+        <legendary>
+            <name>Tail</name>
+            <text>The dragon makes one Tail attack.</text>
+        </legendary>
+        <legendary>
+            <name>Spore Salvo (Costs 2 Actions)</name>
+            <text>The dragon releases poisonous spores around a creature within 30 feet of it that it can see. The target must succeed on a DC DC 19 Constitution saving throw or take 28 (8d6) poison damage and become poisoned for 1 minute. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Spore Salvo||8d6</attack>
+        </legendary>
+    </monster>
     <monster name="Deep Dragon, Wyrmling">
         <name>Deep Dragon, Wyrmling</name>
         <size>M</size>
@@ -2378,6 +1755,52 @@
             <name>Nightmare Breath (Recharge 5-6)</name>
             <text>The dragon exhales a cloud of spores in a 15-foot cone. Each creature in that area must make a DC DC 11 Wisdom saving throw. On a failed save, the creature takes 5 (1d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
             <attack>Nightmare Breath||1d10</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster name="Deep Dragon, Young">
+        <name>Deep Dragon, Young</name>
+        <size>L</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral evil</alignment>
+        <ac>16 (natural armor)</ac>
+        <hp>93 (11d10 + 33)</hp>
+        <speed>40 ft., burrow 20 ft.,fly 80 ft.,swim 40 ft.</speed>
+        <str>18</str>
+        <dex>13</dex>
+        <con>16</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <save>Dex +4,Con +6,Wis +5,Cha +6</save>
+        <skill>Perception +5,Persuasion +6,Stealth +7</skill>
+        <vulnerable></vulnerable>
+        <resist>poison,psychic</resist>
+        <immune></immune>
+        <conditionImmune>charmed,frightened,poisoned</conditionImmune>
+        <senses>blindsight 30 ft., darkvision 150 ft.</senses>
+        <passive>15</passive>
+        <languages>Common,Draconic,Undercommon</languages>
+        <cr>5</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) piercing damage plus 3 (1d6) poison damage.</text>
+            <attack>Bite|7|1d10+4+1d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
+            <attack>Claw|7|1d6+4</attack>
+        </action>
+        <action>
+            <name>Nightmare Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a cloud of spores in a 30-foot cone. Each creature in that area must make a DC DC 14 Wisdom saving throw. On a failed save, the creature takes 22 (4d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+            <attack>Nightmare Breath||4d10</attack>
             <recharge>D5</recharge>
         </action>
     </monster>
@@ -3700,6 +3123,206 @@
             <attack>Shatter Concentration||3d12</attack>
         </legendary>
     </monster>
+    <monster name="Emerald Dragon, Adult">
+        <name>Emerald Dragon, Adult</name>
+        <size>H</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>lawful neutral</alignment>
+        <ac>18 (natural armor)</ac>
+        <hp>207 (18d12 + 90)</hp>
+        <speed>40 ft., burrow 30 ft.,fly 80 ft.</speed>
+        <str>23</str>
+        <dex>12</dex>
+        <con>21</con>
+        <int>18</int>
+        <wis>16</wis>
+        <cha>18</cha>
+        <save>Dex +6,Con +10,Wis +8,Cha +9</save>
+        <skill>Arcana +9,Deception +9,Perception +13,Stealth +6</skill>
+        <vulnerable></vulnerable>
+        <resist>fire,psychic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>23</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>14</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 17):</text>
+            <text>At will: mage hand (the hand is invisible), minor illusion</text>
+            <text>1/Day each: detect thoughts, dispel magic, invisibility, major image</text>
+        </trait>
+        <trait>
+          <name>Detect Thoughts</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Invisibility</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Major Image</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Mage Hand,Minor Illusion,Detect Thoughts,Dispel Magic,Invisibility,Major Image</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Shift Perception (1/Day)</name>
+            <text>The dragon can cast hallucinatory terrain, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 17).</text>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Tunneler</name>
+            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 15-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 7 (2d6) psychic damage.</text>
+            <attack>Bite|11|2d10+6+2d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage.</text>
+            <attack>Claw|11|1d8+6</attack>
+        </action>
+        <action>
+            <name>Disorienting Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a wave of psychic dissonance in a 60-foot cone. Each creature in that area must make a DC DC 18 Intelligence saving throw. On a failed save, the creature takes 42 (12d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d6 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
+            <attack>Disorienting Breath||12d6</attack>
+            <recharge>D5</recharge>
+            <attack>Reduction||1d6</attack>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The dragon makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The dragon uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Emerald Embers (Costs 3 Actions)</name>
+            <text>The dragon creates a dancing mote of green flame around a creature it can see within 60 feet of it. The target must succeed on a DC DC 17 Dexterity saving throw or take 31 (9d6) fire damage.</text>
+            <attack>Emerald Embers||9d6</attack>
+        </legendary>
+    </monster>
+    <monster name="Emerald Dragon, Ancient">
+        <name>Emerald Dragon, Ancient</name>
+        <size>G</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>lawful neutral</alignment>
+        <ac>20 (natural armor)</ac>
+        <hp>332 (19d20 + 133)</hp>
+        <speed>40 ft., burrow 30 ft.,fly 80 ft.</speed>
+        <str>25</str>
+        <dex>12</dex>
+        <con>25</con>
+        <int>20</int>
+        <wis>18</wis>
+        <cha>20</cha>
+        <save>Dex +8,Con +14,Wis +11,Cha +12</save>
+        <skill>Arcana +12,Deception +12,Perception +18,Stealth +8</skill>
+        <vulnerable></vulnerable>
+        <resist>fire,psychic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>28</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>21</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 20):</text>
+            <text>At will: mage hand (the hand is invisible), minor illusion</text>
+            <text>1/Day each: detect thoughts, dispel magic, etherealness, major image, mislead</text>
+        </trait>
+        <trait>
+          <name>Detect Thoughts</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Etherealness</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Major Image</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Mislead</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Mage Hand,Minor Illusion,Detect Thoughts,Dispel Magic,Etherealness,Major Image,Mislead</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Tunneler</name>
+            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 20-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <trait>
+            <name>Warp Perception (1/Day)</name>
+            <text>The dragon can cast mirage arcane, requiring no spell components and using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 10 (3d6) psychic damage.</text>
+            <attack>Bite|14|2d10+7+3d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 14 (2d6 + 7) slashing damage.</text>
+            <attack>Claw|14|2d6+7</attack>
+        </action>
+        <action>
+            <name>Disorienting Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a wave of psychic dissonance in a 90-foot cone. Each creature in that area must make a DC DC 22 Intelligence saving throw. On a failed save, the creature takes 56 (16d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d8 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
+            <attack>Disorienting Breath||16d6</attack>
+            <recharge>D5</recharge>
+            <attack>Reduction||1d8</attack>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The dragon makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The dragon uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Emerald Embers (Costs 3 Actions)</name>
+            <text>The dragon creates a dancing mote of green flame around a creature it can see within 60 feet of it. The target must succeed on a DC DC 20 Dexterity saving throw or take 42 (12d6) fire damage.</text>
+            <attack>Emerald Embers||12d6</attack>
+        </legendary>
+    </monster>
     <monster name="Emerald Dragon, Wyrmling">
         <name>Emerald Dragon, Wyrmling</name>
         <size>M</size>
@@ -3747,6 +3370,77 @@
             <attack>Disorienting Breath||5d6</attack>
             <recharge>D5</recharge>
             <attack>Reduction||1d4</attack>
+        </action>
+    </monster>
+    <monster name="Emerald Dragon, Young">
+        <name>Emerald Dragon, Young</name>
+        <size>L</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>lawful neutral</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>142 (15d10 + 60)</hp>
+        <speed>40 ft., burrow 30 ft.,fly 60 ft.</speed>
+        <str>21</str>
+        <dex>12</dex>
+        <con>19</con>
+        <int>16</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <save>Dex +4,Con +7,Wis +5,Cha +6</save>
+        <skill>Arcana +6,Deception +6,Perception +8,Stealth +4</skill>
+        <vulnerable></vulnerable>
+        <resist>fire,psychic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
+        <passive>18</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 14):</text>
+            <text>At will: mage hand (the hand is invisible), minor illusion</text>
+            <text>1/Day each: detect thoughts, invisibility, silent image</text>
+        </trait>
+        <trait>
+          <name>Detect Thoughts</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Invisibility</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Silent Image</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Mage Hand,Minor Illusion,Detect Thoughts,Invisibility,Silent Image</spells>
+        <trait>
+            <name>Tunneler</name>
+            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 10-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 3 (1d6) psychic damage.</text>
+            <attack>Bite|8|2d10+5+1d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.</text>
+            <attack>Claw|8|1d6+5</attack>
+        </action>
+        <action>
+            <name>Disorienting Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a wave of psychic dissonance in a 30-foot cone. Each creature in that area must make a DC DC 15 Intelligence saving throw. On a failed save, the creature takes 31 (9d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d6 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
+            <attack>Disorienting Breath||9d6</attack>
+            <recharge>D5</recharge>
+            <attack>Reduction||1d6</attack>
         </action>
     </monster>
     <monster name="Emerald Greatwyrm">
@@ -4511,6 +4205,182 @@
             <recharge>D5</recharge>
         </action>
     </monster>
+    <monster name="Moonstone Dragon, Adult">
+        <name>Moonstone Dragon, Adult</name>
+        <size>H</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>195 (17d12 + 85)</hp>
+        <speed>40 ft., fly 80 ft.</speed>
+        <str>20</str>
+        <dex>18</dex>
+        <con>20</con>
+        <int>22</int>
+        <wis>20</wis>
+        <cha>23</cha>
+        <save>Int +11,Wis +10,Cha +11</save>
+        <skill>Perception +10,Persuasion +11,Stealth +9</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>charmed</conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>20</passive>
+        <languages>Common,Draconic,Elvish,Gnomish,Sylvan</languages>
+        <cr>15</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC DC 19):</text>
+            <text>At will: faerie fire</text>
+            <text>1/day each: calm emotions, invisibility, revivify</text>
+        </trait>
+        <trait>
+            <name>Calm Emotions</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Revivify</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Faerie Fire,Calm Emotions,Invisibility,Revivify</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) radiant damage.</text>
+            <attack>Bite|10|2d10+5+2d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
+            <attack>Claw|10|2d6+5</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 18 Strength saving throw or be knocked prone.</text>
+            <attack>Tail|10|1d8+5</attack>
+        </action>
+        <action>
+            <name>Breath Weapon (Recharge 5-6)</name>
+            <text>The dragon uses one of the following breath weapons:</text>
+            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
+            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC 18 Dexterity saving throw, taking 49 (9d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Moonlight Breath||9d10</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Tail</name>
+            <text>The dragon makes one Tail attack.</text>
+        </legendary>
+        <legendary>
+            <name>Cast a Spell (Costs 2 Actions)</name>
+            <text>The dragon uses Spellcasting.</text>
+        </legendary>
+    </monster>
+    <monster name="Moonstone Dragon, Ancient">
+        <name>Moonstone Dragon, Ancient</name>
+        <size>G</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>20 (natural armor)</ac>
+        <hp>330 (20d20 + 120)</hp>
+        <speed>40 ft., fly 80 ft.</speed>
+        <str>22</str>
+        <dex>18</dex>
+        <con>23</con>
+        <int>20</int>
+        <wis>22</wis>
+        <cha>26</cha>
+        <save>Int +12,Wis +13,Cha +15</save>
+        <skill>Perception +13,Persuasion +15,Stealth +11</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>charmed</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>23</passive>
+        <languages>all,telepathy 120 ft.</languages>
+        <cr>21</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC DC 23):</text>
+            <text>At will: faerie fire</text>
+            <text>2/day each: calm emotions, dispel magic, invisibility, revivify</text>
+        </trait>
+        <trait>
+            <name>Calm Emotions</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Dispel Magic</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <trait>
+            <name>Revivify</name>
+            <recharge>2/day</recharge>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Faerie Fire,Calm Emotions,Dispel Magic,Invisibility,Revivify</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 11 (2d10) radiant damage.</text>
+            <attack>Bite|13|2d10+6+2d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</text>
+            <attack>Claw|13|2d6+6</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 21 Strength saving throw or be knocked prone.</text>
+            <attack>Tail|13|1d8+6</attack>
+        </action>
+        <action>
+            <name>Breath Weapon (Recharge 5-6)</name>
+            <text>The dragon uses one of the following breath weapons:</text>
+            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
+            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 120-foot line that is 10 feet wide. Each creature in that area must make a DC 21 Dexterity saving throw, taking 60 (11d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <recharge>D5</recharge>
+            <attack>Moonlight Weapon||11d10</attack>
+        </action>
+        <legendary>
+            <name>Tail</name>
+            <text>The dragon makes one Tail attack.</text>
+        </legendary>
+        <legendary>
+            <name>Cast a Spell (Costs 2 Actions)</name>
+            <text>The dragon uses Spellcasting.</text>
+        </legendary>
+    </monster>
     <monster name="Moonstone Dragon, Wyrmling">
         <name>Moonstone Dragon, Wyrmling</name>
         <size>M</size>
@@ -4548,6 +4418,69 @@
             <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 30-foot line that is 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
             <recharge>D5</recharge>
             <attack>Moonlight Breath||4d6</attack>
+        </action>
+    </monster>
+    <monster name="Moonstone Dragon, Young">
+        <name>Moonstone Dragon, Young</name>
+        <size>L</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>18 (natural armor)</ac>
+        <hp>144 (17d10 + 51)</hp>
+        <speed>40 ft., fly 80 ft.</speed>
+        <str>18</str>
+        <dex>16</dex>
+        <con>17</con>
+        <int>18</int>
+        <wis>17</wis>
+        <cha>19</cha>
+        <save>Con +6,Int +7,Wis +6,Cha +7</save>
+        <skill>Perception +6,Persuasion +7,Stealth +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>charmed</conditionImmune>
+        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
+        <passive>16</passive>
+        <languages>Common,Draconic,Sylvan</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC DC 15):</text>
+            <text>1/day each: calm emotions, faerie fire</text>
+        </trait>
+        <trait>
+            <name>Calm Emotions</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <trait>
+            <name>Faerie Fire</name>
+            <recharge>1/day</recharge>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Calm Emotions,Faerie Fire</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 5 (1d10) radiant damage.</text>
+            <attack>Bite|7|2d10+4+1d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
+            <attack>Claw|7|2d6+4</attack>
+        </action>
+        <action>
+            <name>Breath Weapon (Recharge 5-6)</name>
+            <text>The dragon uses one of the following breath weapons:</text>
+            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
+            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 60-foot line that is 5 feet wide. Each creature in that area must make a DC 14 Dexterity saving throw, taking 38 (7d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <recharge>D5</recharge>
+            <attack>Moonlight Breath||7d10</attack>
         </action>
     </monster>
     <monster name="Red Greatwyrm">
@@ -4629,6 +4562,200 @@
             <attack>Arcane Spear||1d8+8</attack>
         </legendary>
     </monster>
+    <monster name="Sapphire Dragon, Adult">
+        <name>Sapphire Dragon, Adult</name>
+        <size>H</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>lawful neutral</alignment>
+        <ac>18 (natural armor)</ac>
+        <hp>225 (18d12 + 108)</hp>
+        <speed>40 ft., burrow 30 ft.,climb 40 ft.,fly 80 ft.</speed>
+        <str>23</str>
+        <dex>14</dex>
+        <con>22</con>
+        <int>18</int>
+        <wis>17</wis>
+        <cha>18</cha>
+        <save>Dex +7,Con +11,Wis +8,Cha +9</save>
+        <skill>History +9,Perception +13,Persuasion +14,Stealth +7</skill>
+        <vulnerable></vulnerable>
+        <resist>lightning,thunder</resist>
+        <immune></immune>
+        <conditionImmune>frightened</conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>23</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>15</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):</text>
+            <text>1/Day each: dissonant whispers, hold monster, meld into stone, telekinesis</text>
+        </trait>
+        <trait>
+          <name>Dissonant Whispers</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hold Monster</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Meld into Stone</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Telekinesis</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dissonant Whispers,Hold Monster,Meld into Stone,Telekinesis</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Spider Climb</name>
+            <text>The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <trait>
+            <name>Tunneler</name>
+            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 10-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 5 (1d10) thunder damage.</text>
+            <attack>Bite|11|2d10+6+1d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage.</text>
+            <attack>Claw|11|1d8+6</attack>
+        </action>
+        <action>
+            <name>Debilitating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 60-foot cone. Each creature in that area must make a DC DC 19 Constitution saving throw. On a failed save, the creature takes 44 (8d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
+            <attack>Debilitating Breath||8d10</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The dragon makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The dragon uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Telekinetic Fling (Costs 3 Actions)</name>
+            <text>The dragon chooses one Small or smaller object that isn't being worn or carried that it can see within 60 feet of it, and it magically hurls the object at a creature it can see within 60 feet of the object. The target must succeed on a DC DC 17 Dexterity saving throw or take 31 (9d6) bludgeoning damage.</text>
+            <attack>Telekinetic Fling||9d6</attack>
+        </legendary>
+    </monster>
+    <monster name="Sapphire Dragon, Ancient">
+        <name>Sapphire Dragon, Ancient</name>
+        <size>G</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>lawful neutral</alignment>
+        <ac>20 (natural armor)</ac>
+        <hp>370 (20d20 + 160)</hp>
+        <speed>40 ft., burrow 40 ft.,climb 40 ft.,fly 80 ft.</speed>
+        <str>27</str>
+        <dex>14</dex>
+        <con>27</con>
+        <int>21</int>
+        <wis>19</wis>
+        <cha>20</cha>
+        <save>Dex +9,Con +15,Wis +11,Cha +12</save>
+        <skill>History +12,Perception +18,Persuasion +19,Stealth +9</skill>
+        <vulnerable></vulnerable>
+        <resist>lightning,thunder</resist>
+        <immune></immune>
+        <conditionImmune>frightened</conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>28</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>22</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 20):</text>
+            <text>1/Day each: dissonant whispers, hold monster, meld into stone, telekinesis, teleport</text>
+        </trait>
+        <trait>
+          <name>Dissonant Whispers</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hold Monster</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Meld into Stone</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Telekinesis</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Teleport</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dissonant Whispers,Hold Monster,Meld into Stone,Telekinesis,Teleport</spells>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Spider Climb</name>
+            <text>The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <trait>
+            <name>Tunneler</name>
+            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 20-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 11 (2d10) thunder damage.</text>
+            <attack>Bite|15|2d10+8+2d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</text>
+            <attack>Claw|15|2d6+8</attack>
+        </action>
+        <action>
+            <name>Debilitating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 90-foot cone. Each creature in that area must make a DC DC 23 Constitution saving throw. On a failed save, the creature takes 55 (10d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
+            <attack>Debilitating Breath||10d10</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The dragon makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The dragon uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Telekinetic Fling (Costs 3 Actions)</name>
+            <text>The dragon chooses one Medium or smaller object that isn't being worn or carried that it can see within 60 feet of it, and it magically hurls the object at a creature it can see within 60 feet of the object. The target must succeed on a DC DC 20 Dexterity saving throw or take 42 (12d6) bludgeoning damage.</text>
+            <attack>Telekinetic Fling||12d6</attack>
+        </legendary>
+    </monster>
     <monster name="Sapphire Dragon, Wyrmling">
         <name>Sapphire Dragon, Wyrmling</name>
         <size>M</size>
@@ -4686,6 +4813,79 @@
             <name>Debilitating Breath (Recharge 5-6)</name>
             <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 15-foot cone. Each creature in that area must make a DC DC 13 Constitution saving throw. On a failed save, the creature takes 22 (4d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
             <attack>Debilitating Breath||4d10</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster name="Sapphire Dragon, Young">
+        <name>Sapphire Dragon, Young</name>
+        <size>L</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>lawful neutral</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>157 (15d10 + 75)</hp>
+        <speed>40 ft., burrow 20 ft.,climb 40 ft.,fly 80 ft.</speed>
+        <str>21</str>
+        <dex>14</dex>
+        <con>20</con>
+        <int>16</int>
+        <wis>15</wis>
+        <cha>16</cha>
+        <save>Dex +6,Con +9,Wis +6,Cha +7</save>
+        <skill>History +7,Perception +10,Persuasion +11,Stealth +6</skill>
+        <vulnerable></vulnerable>
+        <resist>lightning,thunder</resist>
+        <immune></immune>
+        <conditionImmune>frightened</conditionImmune>
+        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
+        <passive>20</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>9</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
+            <text>1/Day each: dissonant whispers, hold person, meld into stone</text>
+        </trait>
+        <trait>
+          <name>Dissonant Whispers</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Hold Person</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Meld into Stone</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dissonant Whispers,Hold Person,Meld into Stone</spells>
+        <trait>
+            <name>Spider Climb</name>
+            <text>The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <trait>
+            <name>Tunneler</name>
+            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 10-foot-diameter tunnel in its wake.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 4 (1d8) thunder damage.</text>
+            <attack>Bite|9|2d10+5+1d8</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.</text>
+            <attack>Claw|9|1d6+5</attack>
+        </action>
+        <action>
+            <name>Debilitating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 30-foot cone. Each creature in that area must make a DC DC 17 Constitution saving throw. On a failed save, the creature takes 33 (6d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
+            <attack>Debilitating Breath||6d10</attack>
             <recharge>D5</recharge>
         </action>
     </monster>
@@ -4916,6 +5116,194 @@
             <attack>Swarm of Bites (half hp or fewer)|5|1d6+3</attack>
         </action>
     </monster>
+    <monster name="Topaz Dragon, Adult">
+        <name>Topaz Dragon, Adult</name>
+        <size>H</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>18 (natural armor)</ac>
+        <hp>210 (20d12 + 80)</hp>
+        <speed>40 ft., fly 80 ft.,swim 40 ft.</speed>
+        <str>19</str>
+        <dex>12</dex>
+        <con>19</con>
+        <int>18</int>
+        <wis>17</wis>
+        <cha>18</cha>
+        <save>Dex +6,Con +9,Wis +8,Cha +9</save>
+        <skill>Intimidation +14,Perception +13,Stealth +6</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,necrotic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>23</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>13</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):</text>
+            <text>1/Day each: bane, control water, create or destroy water</text>
+        </trait>
+        <trait>
+          <name>Bane</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Control Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Create or Destroy Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Bane,Control Water,Create or Destroy Water</spells>
+        <trait>
+            <name>Amphibious</name>
+            <text>The dragon can breathe both air and water.</text>
+        </trait>
+        <trait>
+            <name>Fabricate (1/Day)</name>
+            <text>The dragon can cast fabricate, requiring no spell components and using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 3 (1d6) necrotic damage.</text>
+            <attack>Bite|9|2d10+4+1d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
+            <attack>Claw|9|1d8+4</attack>
+        </action>
+        <action>
+            <name>Desiccating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales yellowish necrotic energy in a 60-foot cone. Each creature in that area must make a DC DC 17 Constitution saving throw. On a failed save, the creature takes 35 (10d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
+            <attack>Desiccating Breath||10d6</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The dragon makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The dragon uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Essential Reduction (Costs 3 Actions)</name>
+            <text>The dragon targets a creature or an object not being worn or carried that it can see within 60 feet of it. The target must succeed on a DC DC 17 Constitution saving throw or take 28 (8d6) necrotic damage. If this damage reduces the target to 0 hit points, it crumbles to dust.</text>
+            <attack>Essential Reduction||8d6</attack>
+        </legendary>
+    </monster>
+    <monster name="Topaz Dragon, Ancient">
+        <name>Topaz Dragon, Ancient</name>
+        <size>G</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>20 (natural armor)</ac>
+        <hp>280 (17d20 + 102)</hp>
+        <speed>40 ft., fly 80 ft.,swim 40 ft.</speed>
+        <str>23</str>
+        <dex>12</dex>
+        <con>23</con>
+        <int>20</int>
+        <wis>19</wis>
+        <cha>20</cha>
+        <save>Dex +7,Con +12,Wis +10,Cha +11</save>
+        <skill>Intimidation +17,Perception +16,Stealth +7</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,necrotic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>26</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>20</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 19):</text>
+            <text>1/Day each: antilife shell, bane, control water, create or destroy water</text>
+        </trait>
+        <trait>
+          <name>Antilife Shell</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Bane</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Control Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Create or Destroy Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Antilife Shell,Bane,Control Water,Create or Destroy Water</spells>
+        <trait>
+            <name>Amphibious</name>
+            <text>The dragon can breathe both air and water.</text>
+        </trait>
+        <trait>
+            <name>Fabricate (1/Day)</name>
+            <text>The dragon can cast fabricate, requiring no spell components and using Intelligence as the spellcasting ability.</text>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 10 (3d6) necrotic damage.</text>
+            <attack>Bite|12|2d10+6+3d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</text>
+            <attack>Claw|12|2d6+6</attack>
+        </action>
+        <action>
+            <name>Desiccating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales yellowish necrotic energy in a 90-foot cone. Each creature in that area must make a DC DC 20 Constitution saving throw. On a failed save, the creature takes 49 (14d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
+            <attack>Desiccating Breath||14d6</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The dragon makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The dragon uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Essential Reduction (Costs 3 Actions)</name>
+            <text>The dragon targets a creature or an object not being worn or carried that it can see within 60 feet of it. The target must succeed on a DC DC 19 Constitution saving throw or take 40 (9d8) necrotic damage. If this damage reduces the target to 0 hit points, it crumbles to dust.</text>
+            <attack>Essential Reduction||9d8</attack>
+        </legendary>
+    </monster>
     <monster name="Topaz Dragon, Wyrmling">
         <name>Topaz Dragon, Wyrmling</name>
         <size>M</size>
@@ -4968,7 +5356,72 @@
             <recharge>D5</recharge>
         </action>
     </monster>
-    <monster name="Topaz Greatwyrm">
+    <monster name="Topaz Dragon, Young">
+        <name>Topaz Dragon, Young</name>
+        <size>L</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>127 (17d10 + 34)</hp>
+        <speed>40 ft., fly 80 ft.,swim 40 ft.</speed>
+        <str>17</str>
+        <dex>12</dex>
+        <con>15</con>
+        <int>16</int>
+        <wis>15</wis>
+        <cha>16</cha>
+        <save>Dex +4,Con +5,Wis +5,Cha +6</save>
+        <skill>Intimidation +9,Perception +8,Stealth +4</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,necrotic</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
+        <passive>18</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 14):</text>
+            <text>1/Day each: bane, create or destroy water</text>
+        </trait>
+        <trait>
+          <name>Bane</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Create or Destroy Water</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Bane,Create or Destroy Water</spells>
+        <trait>
+            <name>Amphibious</name>
+            <text>The dragon can breathe both air and water.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage plus 3 (1d6) necrotic damage.</text>
+            <attack>Bite|6|2d10+3+1d6</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+            <attack>Claw|6|1d6+3</attack>
+        </action>
+        <action>
+            <name>Desiccating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales yellowish necrotic energy in a 30-foot cone. Each creature in that area must make a DC DC 13 Constitution saving throw. On a failed save, the creature takes 28 (8d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
+            <attack>Desiccating Breath||8d6</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+<monster name="Topaz Greatwyrm">
         <name>Topaz Greatwyrm</name>
         <size>G</size>
         <type>dragon (gem)</type>
@@ -5154,187 +5607,6 @@
             <attack>Arcane Spear||1d8+8</attack>
         </legendary>
     </monster>
-    <monster name="Amethyst Dragon, Young">
-        <name>Amethyst Dragon, Young</name>
-        <size>L</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>168 (16d10 + 80)</hp>
-        <speed>40 ft., fly 80 ft. (hover),swim 40 ft.</speed>
-        <str>21</str>
-        <dex>12</dex>
-        <con>21</con>
-        <int>18</int>
-        <wis>15</wis>
-        <cha>19</cha>
-        <save>Dex +5,Con +9,Wis +6,Cha +8</save>
-        <skill>Arcana +12,Perception +10,Persuasion +8,Stealth +5</skill>
-        <vulnerable></vulnerable>
-        <resist>force,psychic</resist>
-        <immune></immune>
-        <conditionImmune>frightened,prone</conditionImmune>
-        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
-        <passive>20</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>9</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16):</text>
-            <text>1/Day each: blink, dispel magic, protection from evil and good, sending</text>
-        </trait>
-        <trait>
-          <name>Blink</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Dispel Magic</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Protection from Evil and Good</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Sending</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Blink,Dispel Magic,Protection from Evil and Good,Sending</spells>
-        <trait>
-            <name>Amphibious</name>
-            <text>The dragon can breathe both air and water.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 4 (1d8) force damage.</text>
-            <attack>Bite|9|2d10+5+1d8</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</text>
-            <attack>Claw|9|1d8+5</attack>
-        </action>
-        <action>
-            <name>Singularity Breath (Recharge 5-6)</name>
-            <text>The dragon creates a shining bead of gravitational force in its mouth, then releases the energy in a 30-foot cone. Each creature in that area must make a DC DC 17 Strength saving throw. On a failed save, the creature takes 36 (8d8) force damage, and its speed becomes 0 until the start of the dragon's next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.</text>
-            <attack>Singularity Breath||8d8</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
-    <monster name="Crystal Dragon, Young">
-        <name>Crystal Dragon, Young</name>
-        <size>L</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>95 (10d10 + 40)</hp>
-        <speed>40 ft., burrow 20 ft.,climb 40 ft.,fly 80 ft.</speed>
-        <str>17</str>
-        <dex>12</dex>
-        <con>18</con>
-        <int>16</int>
-        <wis>14</wis>
-        <cha>17</cha>
-        <save>Dex +4,Con +7,Wis +5,Cha +6</save>
-        <skill>Perception +8,Stealth +7,Survival +5</skill>
-        <vulnerable></vulnerable>
-        <resist>cold,radiant</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
-        <passive>18</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 16):</text>
-            <text>At will: dancing lights, guidance</text>
-            <text>1/Day each: hypnotic pattern, lesser restoration</text>
-        </trait>
-        <trait>
-          <name>Hypnotic Pattern</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Lesser Restoration</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Guidance,Hypnotic Pattern,Lesser Restoration</spells>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage plus 4 (1d8) radiant damage.</text>
-            <attack>Bite|6|2d10+3+1d8</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-            <attack>Claw|6|1d6+3</attack>
-        </action>
-        <action>
-            <name>Scintillating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a burst of brilliant radiance in a 30-foot cone. Each creature in that area must make a DC DC 15 Constitution saving throw, taking 27 (6d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 10 temporary hit points by absorbing a portion of the radiant energy.</text>
-            <attack>Scintillating Breath||6d8</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
-    <monster name="Deep Dragon, Young">
-        <name>Deep Dragon, Young</name>
-        <size>L</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral evil</alignment>
-        <ac>16 (natural armor)</ac>
-        <hp>93 (11d10 + 33)</hp>
-        <speed>40 ft., burrow 20 ft.,fly 80 ft.,swim 40 ft.</speed>
-        <str>18</str>
-        <dex>13</dex>
-        <con>16</con>
-        <int>12</int>
-        <wis>14</wis>
-        <cha>16</cha>
-        <save>Dex +4,Con +6,Wis +5,Cha +6</save>
-        <skill>Perception +5,Persuasion +6,Stealth +7</skill>
-        <vulnerable></vulnerable>
-        <resist>poison,psychic</resist>
-        <immune></immune>
-        <conditionImmune>charmed,frightened,poisoned</conditionImmune>
-        <senses>blindsight 30 ft., darkvision 150 ft.</senses>
-        <passive>15</passive>
-        <languages>Common,Draconic,Undercommon</languages>
-        <cr>5</cr>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) piercing damage plus 3 (1d6) poison damage.</text>
-            <attack>Bite|7|1d10+4+1d6</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
-            <attack>Claw|7|1d6+4</attack>
-        </action>
-        <action>
-            <name>Nightmare Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a cloud of spores in a 30-foot cone. Each creature in that area must make a DC DC 14 Wisdom saving throw. On a failed save, the creature takes 22 (4d10) psychic damage, and it is frightened of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-            <attack>Nightmare Breath||4d10</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
     <monster name="Young Dragon Turtle">
         <name>Young Dragon Turtle</name>
         <size>H</size>
@@ -5382,213 +5654,6 @@
             <name>Steam Breath (Recharge 5-6)</name>
             <text>The dragon turtle exhales steam in a 30-foot cone. Each creature in that area must make a DC DC 16 Constitution saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
             <attack>Steam Breath||12d6</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
-    <monster name="Emerald Dragon, Young">
-        <name>Emerald Dragon, Young</name>
-        <size>L</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>lawful neutral</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>142 (15d10 + 60)</hp>
-        <speed>40 ft., burrow 30 ft.,fly 60 ft.</speed>
-        <str>21</str>
-        <dex>12</dex>
-        <con>19</con>
-        <int>16</int>
-        <wis>14</wis>
-        <cha>16</cha>
-        <save>Dex +4,Con +7,Wis +5,Cha +6</save>
-        <skill>Arcana +6,Deception +6,Perception +8,Stealth +4</skill>
-        <vulnerable></vulnerable>
-        <resist>fire,psychic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
-        <passive>18</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>8</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 14):</text>
-            <text>At will: mage hand (the hand is invisible), minor illusion</text>
-            <text>1/Day each: detect thoughts, invisibility, silent image</text>
-        </trait>
-        <trait>
-          <name>Detect Thoughts</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Invisibility</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Silent Image</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Mage Hand,Minor Illusion,Detect Thoughts,Invisibility,Silent Image</spells>
-        <trait>
-            <name>Tunneler</name>
-            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 10-foot-diameter tunnel in its wake.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 3 (1d6) psychic damage.</text>
-            <attack>Bite|8|2d10+5+1d6</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.</text>
-            <attack>Claw|8|1d6+5</attack>
-        </action>
-        <action>
-            <name>Disorienting Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a wave of psychic dissonance in a 30-foot cone. Each creature in that area must make a DC DC 15 Intelligence saving throw. On a failed save, the creature takes 31 (9d6) psychic damage, and until the end of its next turn, when the creature makes an attack roll or an ability check, it must roll a d6 and reduce the total by the number rolled. On a successful save, the creature takes half as much damage with no additional effects.</text>
-            <attack>Disorienting Breath||9d6</attack>
-            <recharge>D5</recharge>
-            <attack>Reduction||1d6</attack>
-        </action>
-    </monster>
-    <monster name="Moonstone Dragon, Young">
-        <name>Moonstone Dragon, Young</name>
-        <size>L</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>18 (natural armor)</ac>
-        <hp>144 (17d10 + 51)</hp>
-        <speed>40 ft., fly 80 ft.</speed>
-        <str>18</str>
-        <dex>16</dex>
-        <con>17</con>
-        <int>18</int>
-        <wis>17</wis>
-        <cha>19</cha>
-        <save>Con +6,Int +7,Wis +6,Cha +7</save>
-        <skill>Perception +6,Persuasion +7,Stealth +6</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune>charmed</conditionImmune>
-        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
-        <passive>16</passive>
-        <languages>Common,Draconic,Sylvan</languages>
-        <cr>8</cr>
-        <trait>
-            <name>Spellcasting</name>
-            <text>The dragon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC DC 15):</text>
-            <text>1/day each: calm emotions, faerie fire</text>
-        </trait>
-        <trait>
-            <name>Calm Emotions</name>
-            <recharge>1/day</recharge>
-        </trait>
-        <trait>
-            <name>Faerie Fire</name>
-            <recharge>1/day</recharge>
-        </trait>
-        <spellAbility>Charisma</spellAbility>
-        <spells>Calm Emotions,Faerie Fire</spells>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 5 (1d10) radiant damage.</text>
-            <attack>Bite|7|2d10+4+1d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
-            <attack>Claw|7|2d6+4</attack>
-        </action>
-        <action>
-            <name>Breath Weapon (Recharge 5-6)</name>
-            <text>The dragon uses one of the following breath weapons:</text>
-            <text>• Dream Breath. The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
-            <text>• Moonlight Breath. The dragon exhales a beam of moonlight in a 60-foot line that is 5 feet wide. Each creature in that area must make a DC 14 Dexterity saving throw, taking 38 (7d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
-            <recharge>D5</recharge>
-            <attack>Moonlight Breath||7d10</attack>
-        </action>
-    </monster>
-    <monster name="Sapphire Dragon, Young">
-        <name>Sapphire Dragon, Young</name>
-        <size>L</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>lawful neutral</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>157 (15d10 + 75)</hp>
-        <speed>40 ft., burrow 20 ft.,climb 40 ft.,fly 80 ft.</speed>
-        <str>21</str>
-        <dex>14</dex>
-        <con>20</con>
-        <int>16</int>
-        <wis>15</wis>
-        <cha>16</cha>
-        <save>Dex +6,Con +9,Wis +6,Cha +7</save>
-        <skill>History +7,Perception +10,Persuasion +11,Stealth +6</skill>
-        <vulnerable></vulnerable>
-        <resist>lightning,thunder</resist>
-        <immune></immune>
-        <conditionImmune>frightened</conditionImmune>
-        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
-        <passive>20</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>9</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
-            <text>1/Day each: dissonant whispers, hold person, meld into stone</text>
-        </trait>
-        <trait>
-          <name>Dissonant Whispers</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Hold Person</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Meld into Stone</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dissonant Whispers,Hold Person,Meld into Stone</spells>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
-        <trait>
-            <name>Tunneler</name>
-            <text>The dragon can burrow through solid rock at half its burrowing speed and can leave a 10-foot-diameter tunnel in its wake.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 4 (1d8) thunder damage.</text>
-            <attack>Bite|9|2d10+5+1d8</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.</text>
-            <attack>Claw|9|1d6+5</attack>
-        </action>
-        <action>
-            <name>Debilitating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 30-foot cone. Each creature in that area must make a DC DC 17 Constitution saving throw. On a failed save, the creature takes 33 (6d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.</text>
-            <attack>Debilitating Breath||6d10</attack>
             <recharge>D5</recharge>
         </action>
     </monster>
@@ -5647,69 +5712,4 @@
             <recharge>D5</recharge>
         </action>
     </monster>
-    <monster name="Topaz Dragon, Young">
-        <name>Topaz Dragon, Young</name>
-        <size>L</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>127 (17d10 + 34)</hp>
-        <speed>40 ft., fly 80 ft.,swim 40 ft.</speed>
-        <str>17</str>
-        <dex>12</dex>
-        <con>15</con>
-        <int>16</int>
-        <wis>15</wis>
-        <cha>16</cha>
-        <save>Dex +4,Con +5,Wis +5,Cha +6</save>
-        <skill>Intimidation +9,Perception +8,Stealth +4</skill>
-        <vulnerable></vulnerable>
-        <resist>cold,necrotic</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
-        <passive>18</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>7</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 14):</text>
-            <text>1/Day each: bane, create or destroy water</text>
-        </trait>
-        <trait>
-          <name>Bane</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Create or Destroy Water</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Bane,Create or Destroy Water</spells>
-        <trait>
-            <name>Amphibious</name>
-            <text>The dragon can breathe both air and water.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage plus 3 (1d6) necrotic damage.</text>
-            <attack>Bite|6|2d10+3+1d6</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-            <attack>Claw|6|1d6+3</attack>
-        </action>
-        <action>
-            <name>Desiccating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales yellowish necrotic energy in a 30-foot cone. Each creature in that area must make a DC DC 13 Constitution saving throw. On a failed save, the creature takes 28 (8d6) necrotic damage and is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.</text>
-            <attack>Desiccating Breath||8d6</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
-</compendium>
+    </compendium>

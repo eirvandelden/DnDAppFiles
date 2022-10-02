@@ -1,5 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="BGDIA">
+	<monster name="Abyssal Chicken">
+		<name>Abyssal Chicken</name>
+		<size>T</size>
+		<type>Fiend (demon)</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>10 (3d4+3)</hp>
+		<speed>30 ft., fly 30 ft. (bad flier)</speed>
+		<str>6</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>4</int>
+		<wis>9</wis>
+		<cha>5</cha>
+		<resist>cold, fire, lightning</resist>
+		<immune>poison</immune>
+		<conditionImmune>blinded, poisoned</conditionImmune>
+		<senses>blindsight 30 ft. (blind beyond this radius)</senses>
+		<passive>9</passive>
+		<languages>Understands Abyssal, but can't speak</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Bad Flier</name>
+			<text>The abyssal chicken falls at the end of its turn if it's airborne and the only thing holding it aloft is its flying speed</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The abyssal chicken makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) damage.</text>
+			<attack>Bite|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d + 2) damage.</text>
+			<attack>Claws|4|1d6+2</attack>
+		</action>
+		<environment>Any</environment>
+		<description>Source: Baldur's Gate: Descent Into Avernus</description>
+	</monster>
 	<monster name="Amrik Vanthampur">
 		<name>Amrik Vanthampur</name>
 		<type>humanoid (human)</type>
@@ -35,6 +77,107 @@
 			<text>Amrik hurls a smoke bomb up to 20 feet away. The bomb explodes on impact, creating a cloud of black smoke that fills a 10-foot-radius sphere. The area within the cloud is heavily obscured. A strong wind disperses the cloud, which otherwise remains until the end of Amrik's next turn.</text>
 			<recharge>1/DAY</recharge>
 		</action>
+		<description>Source: Baldur's Gate: Descent Into Avernus</description>
+	</monster>
+	<monster name="Archduke Zariel Of Avernus">
+		<name>Archduke Zariel Of Avernus</name>
+		<size>L</size>
+		<type>fiend (devil)</type>
+		<alignment>lawful evil</alignment>
+		<ac>21 (natural armor)</ac>
+		<hp>580 (40d10+360)</hp>
+		<speed>50 ft., fly 150 ft.</speed>
+		<str>27</str>
+		<dex>24</dex>
+		<con>28</con>
+		<int>26</int>
+		<wis>27</wis>
+		<cha>30</cha>
+		<save>Int +16, Wis +16, Cha +18</save>
+		<skill>Intimidation +18, Perception +16</skill>
+		<resist>fire, radiant; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
+		<immune>cold, necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>26</passive>
+		<languages>all, telepathy 120 ft.</languages>
+		<cr>26</cr>
+		<trait>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede Zariel's darkvision.</text>
+		</trait>
+		<trait>
+			<name>Fiery Weapons</name>
+			<text>Zariel's weapon attacks are magical. When she hits with any weapon, the weapon deals an extra 36 (8d8) fire damage (included in the weapon attacks below).</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Zariel's innate spellcasting ability is Charisma (spell save DC 26). She can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: alter self (can become Medium when changing her appearance), detect evil and good, fireball, invisibility (self only), wall of fire</text>
+			<text>3/day each: blade barrier, dispel evil and good, finger of death</text>
+		</trait>
+		<trait>
+			<name>Blade Barrier</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Finger of Death</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Zariel fails a saving throw, she can choose to succeed instead.</text>
+			<recharge>3/DAY</recharge>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Zariel has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>Zariel regains 20 hit points at the start of her turn. If she takes radiant damage, this trait doesn't function at the start of her next turn. Zariel dies only if she starts her turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Zariel attacks twice with her flail and once with Matalotok. She can substitute Horrid Touch for Matalotok.</text>
+		</action>
+		<action>
+			<name>Flail</name>
+			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) piercing damage plus 36 (8d8) fire damage.</text>
+			<attack>Flail|16|2d8+8+8d8</attack>
+		</action>
+		<action>
+			<name>Matalotok (Warhammer)</name>
+			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage, or 19 (2d10 + 8) bludgeoning damage when used with two hands, plus 36 (8d8) fire damage. In addition, the weapon emits a burst of cold that deals 10 (3d6) cold damage to each creature within 30 feet of it.</text>
+			<attack>One Hand|16|2d8+8+8d8</attack>
+			<attack>Two Hand|16|2d10+8+8d8</attack>
+			<attack>Cold||3d6</attack>
+		</action>
+		<action>
+			<name>Horrid Touch (Recharge 5-6)</name>
+			<text>Zariel touches one creature within 10 feet of her. The target must succeed on a DC 26 Constitution saving throw or take 44 (8d10) necrotic damage and be poisoned for 1 minute. While poisoned in this way, the target is also blinded and deafened. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D5</recharge>
+			<attack>Horrid Touch||8d10</attack>
+		</action>
+		<action>
+			<name>Teleport</name>
+			<text>Zariel magically teleports, along with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space she can see.</text>
+		</action>
+		<legendary>
+			<name>Immolating Gaze (Costs 2 Actions)</name>
+			<text>Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to combust. The target must succeed on a DC 26 Wisdom saving throw or take 22 (4d10) fire damage.</text>
+			<attack>Immolating Gaze||4d10</attack>
+		</legendary>
+		<legendary>
+			<name>Teleport</name>
+			<text>Zariel uses her Teleport action.</text>
+		</legendary>
+		<spells>Alter Self, Blade Barrier, Detect Evil and Good, Dispel Evil and Good, Finger of Death, Fireball, Invisibility, Wall of Fire</spells>
 		<description>Source: Baldur's Gate: Descent Into Avernus</description>
 	</monster>
 	<monster name="Arkhan The Cruel">
@@ -464,6 +607,61 @@
 		<spells>Eldritch Blast, Hellish Rebuke</spells>
 		<description>Source: Baldur's Gate: Descent Into Avernus</description>
 	</monster>
+	<monster name="Fiendish Flesh Golem">
+		<name>Fiendish Flesh Golem</name>
+		<size>L</size>
+		<type>construct</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>210 (20d10+100)</hp>
+		<speed>30 ft., fly 30 ft. (hover)</speed>
+		<str>20</str>
+		<dex>9</dex>
+		<con>20</con>
+		<int>7</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<resist>cold, fire</resist>
+		<immune>lightning, poison, bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>understands the languages of its creator but can't speak</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Berserk</name>
+			<text>Whenever the golem starts its turn with 40 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.</text>
+			<text>The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again.</text>
+			<attack>Berserk||1d6</attack>
+		</trait>
+		<trait>
+			<name>Immutable Form</name>
+			<text>The golem is immune to any spell or effect that would alter its form.</text>
+		</trait>
+		<trait>
+			<name>Lightning Absorption</name>
+			<text>Whenever the golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The golem has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The golem's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The golem makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage.</text>
+			<attack>Slam|8|2d10+5</attack>
+		</action>
+		<environment>Any</environment>
+		<description>Source: Baldur's Gate: Descent Into Avernus</description>
+	</monster>
 	<monster name="Fist Of Bane">
 		<name>Fist Of Bane</name>
 		<type>humanoid (human)</type>
@@ -495,6 +693,90 @@
 			<text>Ranged Weapon Attack. +2 to hit, reach 150/600 ft., one target. Hit: 4 (1d8) damage.</text>
 			<attack>Longbow|2|1d8</attack>
 		</action>
+		<description>Source: Baldur's Gate: Descent Into Avernus</description>
+	</monster>
+	<monster name="Gideon Lightward">
+		<name>Gideon Lightward</name>
+		<type>undead</type>
+		<alignment>lawful evil</alignment>
+		<ac>11</ac>
+		<hp>136 (16d8+64)</hp>
+		<speed>25 ft.</speed>
+		<str>18</str>
+		<dex>13</dex>
+		<con>18</con>
+		<int>10</int>
+		<wis>18</wis>
+		<cha>13</cha>
+		<save>Dex +4, Con +7, Wis +7</save>
+		<skill>Insight +7, Religion +6</skill>
+		<vulnerable>Radiant</vulnerable>
+		<resist>Bludgeoning, Piercing, Slashing from nonmagical attacks</resist>
+		<immune>Necrotic, Poison</immune>
+		<conditionImmune>Exhaustion, Paralyzed, Poisoned</conditionImmune>
+		<senses>Darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Regeneration</name>
+			<text>Gideon regains 10 hit points at the start of each of his turns. If he takes radiant damage, this trait doesn't function at the start of his next turn. Gideon is destroyed only if he starts his turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Gideon attacks twice with his fists.</text>
+		</action>
+		<action>
+			<name>Fist</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) damage.</text>
+			<attack>Fist|7|2d6+4</attack>
+		</action>
+		<action>
+			<name>Withering Gaze</name>
+			<text>Gideon targets one creature he can see within 60 feet of him. The target must make a DC 15 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Withering Gaze||4d10</attack>
+		</action>
+	</monster>
+<monster name="Hellwasp">
+		<name>Hellwasp</name>
+		<size>L</size>
+		<type>Fiend</type>
+		<alignment>lawful evil</alignment>
+		<ac>19</ac>
+		<hp>52 (8d10+8)</hp>
+		<speed>10 ft., fly 60 ft. (hover)</speed>
+		<str>18</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>7</cha>
+		<save>Dex +5, Wis +3</save>
+		<vulnerable>cold</vulnerable>
+		<immune>fire</immune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Infernal, telepathy 300 ft. (with other hellwasps only)</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The hellwasp's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The hellwasp's makes two attacks: one with its sting and on wth its sword talons.</text>
+		</action>
+		<action>
+			<name>Sting</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 7 (2d6) fire damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the fact on itself on a success.</text>
+			<attack>Sting|7|1d8+4+2d6</attack>
+		</action>
+		<action>
+			<name>Sword Talons</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Sword Talons|7|2d6+4</attack>
+		</action>
+		<environment>Any</environment>
 		<description>Source: Baldur's Gate: Descent Into Avernus</description>
 	</monster>
 	<monster name="Hollyphant">
@@ -976,6 +1258,48 @@
 		</action>
 		<description>Source: Baldur's Gate: Descent Into Avernus</description>
 	</monster>
+	<monster name="Nine-Fingers Keene">
+		<name>Nine-Fingers Keene</name>
+		<type>humanoid</type>
+		<alignment>neutral</alignment>
+		<ac>15 (Leather Armor)</ac>
+		<hp>84 (13d8+26)</hp>
+		<speed>30 ft.</speed>
+		<str>12</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>13</int>
+		<wis>17</wis>
+		<cha>14</cha>
+		<save>Dex +7, Int +4</save>
+		<skill>Acrobatics +10, Deception +5, Insight +6, Intimidation +5, Perception +6, Sleight of Hand +10, Stealth +10</skill>
+		<passive>16</passive>
+		<languages>Common, thieves' cant</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of her turns in combat, Nine-Fingers can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Dagger Thrower</name>
+			<text>Nine-Fingers adds double her proficiency bonus to the damage she deals on ranged attacks made with daggers (already factored into her attacks).</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Nine-Fingers attacks three times with her daggers.</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 80/320 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 6 piercing damage if it's a ranged attack.</text>
+			<attack>Dagger|7|1d4+4</attack>
+			<attack>Ranged|7|1d4+10</attack>
+		</action>
+		<reaction>
+			<name>Uncanny Dodge</name>
+			<text>Nine-Fingers halves the damage that she takes from an attack that hurts her. She must be able to see the attacker.</text>
+		</reaction>
+		<description>Source: Baldur's Gate: Descent into Avernus</description>
+	</monster>
 	<monster name="Reaper Of Bhaal">
 		<name>Reaper Of Bhaal</name>
 		<type>humanoid (human)</type>
@@ -1240,187 +1564,6 @@
 		</action>
 		<description>Source: Baldur's Gate: Descent into Avernus</description>
 	</monster>
-	<monster name="Abyssal Chicken">
-		<name>Abyssal Chicken</name>
-		<size>T</size>
-		<type>Fiend (demon)</type>
-		<alignment>chaotic evil</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>10 (3d4+3)</hp>
-		<speed>30 ft., fly 30 ft. (bad flier)</speed>
-		<str>6</str>
-		<dex>14</dex>
-		<con>13</con>
-		<int>4</int>
-		<wis>9</wis>
-		<cha>5</cha>
-		<resist>cold, fire, lightning</resist>
-		<immune>poison</immune>
-		<conditionImmune>blinded, poisoned</conditionImmune>
-		<senses>blindsight 30 ft. (blind beyond this radius)</senses>
-		<passive>9</passive>
-		<languages>Understands Abyssal, but can't speak</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Bad Flier</name>
-			<text>The abyssal chicken falls at the end of its turn if it's airborne and the only thing holding it aloft is its flying speed</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The abyssal chicken makes two attacks: one with its bite and one with its claws.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) damage.</text>
-			<attack>Bite|4|1d4+2</attack>
-		</action>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d + 2) damage.</text>
-			<attack>Claws|4|1d6+2</attack>
-		</action>
-		<environment>Any</environment>
-		<description>Source: Baldur's Gate: Descent Into Avernus</description>
-	</monster>
-	<monster name="Fiendish Flesh Golem">
-		<name>Fiendish Flesh Golem</name>
-		<size>L</size>
-		<type>construct</type>
-		<alignment>unaligned</alignment>
-		<ac>12 (natural armor)</ac>
-		<hp>210 (20d10+100)</hp>
-		<speed>30 ft., fly 30 ft. (hover)</speed>
-		<str>20</str>
-		<dex>9</dex>
-		<con>20</con>
-		<int>7</int>
-		<wis>10</wis>
-		<cha>5</cha>
-		<resist>cold, fire</resist>
-		<immune>lightning, poison, bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine</immune>
-		<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>understands the languages of its creator but can't speak</languages>
-		<cr>8</cr>
-		<trait>
-			<name>Berserk</name>
-			<text>Whenever the golem starts its turn with 40 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.</text>
-			<text>The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again.</text>
-			<attack>Berserk||1d6</attack>
-		</trait>
-		<trait>
-			<name>Immutable Form</name>
-			<text>The golem is immune to any spell or effect that would alter its form.</text>
-		</trait>
-		<trait>
-			<name>Lightning Absorption</name>
-			<text>Whenever the golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt.</text>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The golem has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The golem's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The golem makes two slam attacks.</text>
-		</action>
-		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage.</text>
-			<attack>Slam|8|2d10+5</attack>
-		</action>
-		<environment>Any</environment>
-		<description>Source: Baldur's Gate: Descent Into Avernus</description>
-	</monster>
-	<monster name="Hellwasp">
-		<name>Hellwasp</name>
-		<size>L</size>
-		<type>Fiend</type>
-		<alignment>lawful evil</alignment>
-		<ac>19</ac>
-		<hp>52 (8d10+8)</hp>
-		<speed>10 ft., fly 60 ft. (hover)</speed>
-		<str>18</str>
-		<dex>15</dex>
-		<con>12</con>
-		<int>10</int>
-		<wis>10</wis>
-		<cha>7</cha>
-		<save>Dex +5, Wis +3</save>
-		<vulnerable>cold</vulnerable>
-		<immune>fire</immune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Infernal, telepathy 300 ft. (with other hellwasps only)</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The hellwasp's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The hellwasp's makes two attacks: one with its sting and on wth its sword talons.</text>
-		</action>
-		<action>
-			<name>Sting</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 7 (2d6) fire damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the fact on itself on a success.</text>
-			<attack>Sting|7|1d8+4+2d6</attack>
-		</action>
-		<action>
-			<name>Sword Talons</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
-			<attack>Sword Talons|7|2d6+4</attack>
-		</action>
-		<environment>Any</environment>
-		<description>Source: Baldur's Gate: Descent Into Avernus</description>
-	</monster>
-	<monster name="Nine-Fingers Keene">
-		<name>Nine-Fingers Keene</name>
-		<type>humanoid</type>
-		<alignment>neutral</alignment>
-		<ac>15 (Leather Armor)</ac>
-		<hp>84 (13d8+26)</hp>
-		<speed>30 ft.</speed>
-		<str>12</str>
-		<dex>18</dex>
-		<con>14</con>
-		<int>13</int>
-		<wis>17</wis>
-		<cha>14</cha>
-		<save>Dex +7, Int +4</save>
-		<skill>Acrobatics +10, Deception +5, Insight +6, Intimidation +5, Perception +6, Sleight of Hand +10, Stealth +10</skill>
-		<passive>16</passive>
-		<languages>Common, thieves' cant</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Cunning Action</name>
-			<text>On each of her turns in combat, Nine-Fingers can use a bonus action to take the Dash, Disengage, or Hide action.</text>
-		</trait>
-		<trait>
-			<name>Dagger Thrower</name>
-			<text>Nine-Fingers adds double her proficiency bonus to the damage she deals on ranged attacks made with daggers (already factored into her attacks).</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>Nine-Fingers attacks three times with her daggers.</text>
-		</action>
-		<action>
-			<name>Dagger</name>
-			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 80/320 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 6 piercing damage if it's a ranged attack.</text>
-			<attack>Dagger|7|1d4+4</attack>
-			<attack>Ranged|7|1d4+10</attack>
-		</action>
-		<reaction>
-			<name>Uncanny Dodge</name>
-			<text>Nine-Fingers halves the damage that she takes from an attack that hurts her. She must be able to see the attacker.</text>
-		</reaction>
-		<description>Source: Baldur's Gate: Descent into Avernus</description>
-	</monster>
 	<monster name="Ulder Ravengard">
 		<name>Ulder Ravengard</name>
 		<size>M</size>
@@ -1462,147 +1605,4 @@
 		<environment>Any</environment>
 		<description>Source: Baldur's Gate: Descent Into Avernus</description>
 	</monster>
-	<monster name="Archduke Zariel Of Avernus">
-		<name>Archduke Zariel Of Avernus</name>
-		<size>L</size>
-		<type>fiend (devil)</type>
-		<alignment>lawful evil</alignment>
-		<ac>21 (natural armor)</ac>
-		<hp>580 (40d10+360)</hp>
-		<speed>50 ft., fly 150 ft.</speed>
-		<str>27</str>
-		<dex>24</dex>
-		<con>28</con>
-		<int>26</int>
-		<wis>27</wis>
-		<cha>30</cha>
-		<save>Int +16, Wis +16, Cha +18</save>
-		<skill>Intimidation +18, Perception +16</skill>
-		<resist>fire, radiant; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered</resist>
-		<immune>cold, necrotic, poison</immune>
-		<conditionImmune>charmed, exhaustion, frightened, poisoned</conditionImmune>
-		<senses>darkvision 120 ft.</senses>
-		<passive>26</passive>
-		<languages>all, telepathy 120 ft.</languages>
-		<cr>26</cr>
-		<trait>
-			<name>Devil's Sight</name>
-			<text>Magical darkness doesn't impede Zariel's darkvision.</text>
-		</trait>
-		<trait>
-			<name>Fiery Weapons</name>
-			<text>Zariel's weapon attacks are magical. When she hits with any weapon, the weapon deals an extra 36 (8d8) fire damage (included in the weapon attacks below).</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>Zariel's innate spellcasting ability is Charisma (spell save DC 26). She can innately cast the following spells, requiring no material components:</text>
-			<text></text>
-			<text>At will: alter self (can become Medium when changing her appearance), detect evil and good, fireball, invisibility (self only), wall of fire</text>
-			<text>3/day each: blade barrier, dispel evil and good, finger of death</text>
-		</trait>
-		<trait>
-			<name>Blade Barrier</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Dispel Evil and Good</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Finger of Death</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Legendary Resistance (3/Day)</name>
-			<text>If Zariel fails a saving throw, she can choose to succeed instead.</text>
-			<recharge>3/DAY</recharge>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>Zariel has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Regeneration</name>
-			<text>Zariel regains 20 hit points at the start of her turn. If she takes radiant damage, this trait doesn't function at the start of her next turn. Zariel dies only if she starts her turn with 0 hit points and doesn't regenerate.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>Zariel attacks twice with her flail and once with Matalotok. She can substitute Horrid Touch for Matalotok.</text>
-		</action>
-		<action>
-			<name>Flail</name>
-			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) piercing damage plus 36 (8d8) fire damage.</text>
-			<attack>Flail|16|2d8+8+8d8</attack>
-		</action>
-		<action>
-			<name>Matalotok (Warhammer)</name>
-			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage, or 19 (2d10 + 8) bludgeoning damage when used with two hands, plus 36 (8d8) fire damage. In addition, the weapon emits a burst of cold that deals 10 (3d6) cold damage to each creature within 30 feet of it.</text>
-			<attack>One Hand|16|2d8+8+8d8</attack>
-			<attack>Two Hand|16|2d10+8+8d8</attack>
-			<attack>Cold||3d6</attack>
-		</action>
-		<action>
-			<name>Horrid Touch (Recharge 5-6)</name>
-			<text>Zariel touches one creature within 10 feet of her. The target must succeed on a DC 26 Constitution saving throw or take 44 (8d10) necrotic damage and be poisoned for 1 minute. While poisoned in this way, the target is also blinded and deafened. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<recharge>D5</recharge>
-			<attack>Horrid Touch||8d10</attack>
-		</action>
-		<action>
-			<name>Teleport</name>
-			<text>Zariel magically teleports, along with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space she can see.</text>
-		</action>
-		<legendary>
-			<name>Immolating Gaze (Costs 2 Actions)</name>
-			<text>Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to combust. The target must succeed on a DC 26 Wisdom saving throw or take 22 (4d10) fire damage.</text>
-			<attack>Immolating Gaze||4d10</attack>
-		</legendary>
-		<legendary>
-			<name>Teleport</name>
-			<text>Zariel uses her Teleport action.</text>
-		</legendary>
-		<spells>Alter Self, Blade Barrier, Detect Evil and Good, Dispel Evil and Good, Finger of Death, Fireball, Invisibility, Wall of Fire</spells>
-		<description>Source: Baldur's Gate: Descent Into Avernus</description>
-	</monster>
-	<monster name="Gideon Lightward">
-		<name>Gideon Lightward</name>
-		<type>undead</type>
-		<alignment>lawful evil</alignment>
-		<ac>11</ac>
-		<hp>136 (16d8+64)</hp>
-		<speed>25 ft.</speed>
-		<str>18</str>
-		<dex>13</dex>
-		<con>18</con>
-		<int>10</int>
-		<wis>18</wis>
-		<cha>13</cha>
-		<save>Dex +4, Con +7, Wis +7</save>
-		<skill>Insight +7, Religion +6</skill>
-		<vulnerable>Radiant</vulnerable>
-		<resist>Bludgeoning, Piercing, Slashing from nonmagical attacks</resist>
-		<immune>Necrotic, Poison</immune>
-		<conditionImmune>Exhaustion, Paralyzed, Poisoned</conditionImmune>
-		<senses>Darkvision 60 ft.</senses>
-		<passive>14</passive>
-		<languages>Common</languages>
-		<cr>6</cr>
-		<trait>
-			<name>Regeneration</name>
-			<text>Gideon regains 10 hit points at the start of each of his turns. If he takes radiant damage, this trait doesn't function at the start of his next turn. Gideon is destroyed only if he starts his turn with 0 hit points and doesn't regenerate.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>Gideon attacks twice with his fists.</text>
-		</action>
-		<action>
-			<name>Fist</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) damage.</text>
-			<attack>Fist|7|2d6+4</attack>
-		</action>
-		<action>
-			<name>Withering Gaze</name>
-			<text>Gideon targets one creature he can see within 60 feet of him. The target must make a DC 15 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Withering Gaze||4d10</attack>
-		</action>
-	</monster>
-</compendium>
+	</compendium>
