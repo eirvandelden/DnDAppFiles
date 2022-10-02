@@ -1188,102 +1188,6 @@
 			<attack>Warhammer (1H)|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster name="Conclave Dryad">
-		<name>Conclave Dryad</name>
-		<size>M</size>
-		<type>fey</type>
-		<description>Source: Guildmaster's Guide to Ravnica</description>
-		<alignment>lawful good</alignment>
-		<ac>16 (natural armor)</ac>
-		<hp>143 (22d8 + 44)</hp>
-		<speed>30 ft.</speed>
-		<str>12</str>
-		<dex>19</dex>
-		<con>14</con>
-		<int>19</int>
-		<wis>20</wis>
-		<cha>21</cha>
-		<save>Int +8, Wis +9, Cha +9</save>
-		<skill>Arcana +8, Nature +8, Perception +9</skill>
-		<resist></resist>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<vulnerable></vulnerable>
-		<senses>darkvision 60 ft.</senses>
-		<passive>19</passive>
-		<languages>Common, Elvish, Sylvan</languages>
-		<cr>9</cr>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The dryad's innate spellcasting ability is Charisma (spell save DC 17). The dryad can innately cast the following spells, requiring no material components:</text>
-			<text></text>
-			<text>At will: druidcraft</text>
-			<text>3/day each: dispel magic, entangle, plant growth, spike growth</text>
-			<text>1/day each: moonbeam, grasping vine, wall of thorns</text>
-		</trait>
-		<trait>
-			<name>Dispel Magic</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Entangle</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Plant Growth</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Spike Growth</name>
-			<recharge>3/day</recharge>
-		</trait>
-		<trait>
-			<name>Moonbeam</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Grasping Vine</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Wall of Thorns</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The dryad has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<trait>
-			<name>Speak with Beasts and Plants</name>
-			<text>The dryad can communicate with beasts and plants as if they and the dryad shared a language.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The dryad makes three attacks, using its vine staff, its longbow, or both.</text>
-		</action>
-		<action>
-			<name>Vine Staff</name>
-			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Dexterity saving throw or become restrained by twisting vines for 1 minute. A target restrained in this way can use an action to make a DC 17 Strength (Athletics) or Dexterity (Acrobatics) check, ending the effect on itself on a success.</text>
-			<attack>Vine Staff|9|2d5+5</attack>
-		</action>
-		<action>
-			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
-			<attack>Longbow|8|1d8+4</attack>
-		</action>
-		<action>
-			<name>Summon Mount (1/Day)</name>
-			<text>The dryad magically summons a mount, which appears in an unoccupied space within 60 feet of the dryad. The mount remains for 8 hours, until it or the dryad dies, or until the dryad dismisses it as an action. The mount uses the stat block of an elk (see the Monster Manual) with these changes: it is a plant instead ofa beast, it has an Intelligence of6, and it understands Sylvan but can't speak. While within 1 mile of the mount, the dryad can communicate with it telepathically.</text>
-			<recharge>1/Day</recharge>
-		</action>
-		<action>
-			<name>Suppress Magic (Recharge 5-6)</name>
-			<text>The dryad targets one magic item it can see within 120 feet of it. If the magic item isn't an artifact, its magical properties are suppressed for 10 minutes, until the dryad is incapacitated or dies, or until the dryad uses a bonus action to end the effect.</text>
-			<recharge>D5</recharge>
-		</action>
-		<spellAbility>Charisma</spellAbility>
-		<spells>Druidcraft, Dispel Magic, Entangle, Plant Growth, Spike Growth, Moonbeam, Grasping Vine, Wall of Thorns</spells>
-	</monster>
 	<monster name="Counterflux Blastseeker">
 		<name>Counterflux Blastseeker</name>
 		<size>M</size>
@@ -1567,6 +1471,102 @@
 			<attack>Quarterstaff (1H)|3|1d6</attack>
 			<attack>Quarterstaff (2H)|3|1d8</attack>
 		</action>
+	</monster>
+	<monster name="Dryad, Conclave">
+		<name>Dryad, Conclave</name>
+		<size>M</size>
+		<type>fey</type>
+		<description>Source: Guildmaster's Guide to Ravnica</description>
+		<alignment>lawful good</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>143 (22d8 + 44)</hp>
+		<speed>30 ft.</speed>
+		<str>12</str>
+		<dex>19</dex>
+		<con>14</con>
+		<int>19</int>
+		<wis>20</wis>
+		<cha>21</cha>
+		<save>Int +8, Wis +9, Cha +9</save>
+		<skill>Arcana +8, Nature +8, Perception +9</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>19</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The dryad's innate spellcasting ability is Charisma (spell save DC 17). The dryad can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: druidcraft</text>
+			<text>3/day each: dispel magic, entangle, plant growth, spike growth</text>
+			<text>1/day each: moonbeam, grasping vine, wall of thorns</text>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Plant Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Spike Growth</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Moonbeam</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Grasping Vine</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Wall of Thorns</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The dryad has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>The dryad can communicate with beasts and plants as if they and the dryad shared a language.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The dryad makes three attacks, using its vine staff, its longbow, or both.</text>
+		</action>
+		<action>
+			<name>Vine Staff</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Dexterity saving throw or become restrained by twisting vines for 1 minute. A target restrained in this way can use an action to make a DC 17 Strength (Athletics) or Dexterity (Acrobatics) check, ending the effect on itself on a success.</text>
+			<attack>Vine Staff|9|2d5+5</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<attack>Longbow|8|1d8+4</attack>
+		</action>
+		<action>
+			<name>Summon Mount (1/Day)</name>
+			<text>The dryad magically summons a mount, which appears in an unoccupied space within 60 feet of the dryad. The mount remains for 8 hours, until it or the dryad dies, or until the dryad dismisses it as an action. The mount uses the stat block of an elk (see the Monster Manual) with these changes: it is a plant instead ofa beast, it has an Intelligence of6, and it understands Sylvan but can't speak. While within 1 mile of the mount, the dryad can communicate with it telepathically.</text>
+			<recharge>1/Day</recharge>
+		</action>
+		<action>
+			<name>Suppress Magic (Recharge 5-6)</name>
+			<text>The dryad targets one magic item it can see within 120 feet of it. If the magic item isn't an artifact, its magical properties are suppressed for 10 minutes, until the dryad is incapacitated or dies, or until the dryad uses a bonus action to end the effect.</text>
+			<recharge>D5</recharge>
+		</action>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Druidcraft, Dispel Magic, Entangle, Plant Growth, Spike Growth, Moonbeam, Grasping Vine, Wall of Thorns</spells>
 	</monster>
 	<monster name="Felidar">
 		<name>Felidar</name>
