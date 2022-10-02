@@ -11954,6 +11954,44 @@
 			<attack>Sling|4|1d4+2</attack>
 		</action>
 	</monster>
+	<monster name="Kobold, Winged">
+		<name>Kobold, Winged</name>
+		<size>S</size>
+		<type>humanoid (kobold)</type>
+		<description>Source: Monster Manual</description>
+		<alignment>lawful evil</alignment>
+		<ac>13</ac>
+		<hp>7 (3d6-3)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>7</str>
+		<dex>16</dex>
+		<con>9</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+		</action>
+		<action>
+			<name>Dropped Rock</name>
+			<text>Ranged Weapon Attack: +5 to hit, one target directly below the kobold. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Dropped Rock|5|1d6+3</attack>
+		</action>
+	</monster>
 	<monster name="Kraken">
 		<name>Kraken</name>
 		<size>G</size>
@@ -20903,44 +20941,6 @@
 		<action>
 			<name>Invisibility</name>
 			<text>The will-o'-wisp and its light magically become invisible until it attacks or uses its Consume Life, or until its concentration ends (as if concentrating on a spell).</text>
-		</action>
-	</monster>
-	<monster name="Winged Kobold">
-		<name>Winged Kobold</name>
-		<size>S</size>
-		<type>humanoid (kobold)</type>
-		<description>Source: Monster Manual</description>
-		<alignment>lawful evil</alignment>
-		<ac>13</ac>
-		<hp>7 (3d6-3)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>7</str>
-		<dex>16</dex>
-		<con>9</con>
-		<int>8</int>
-		<wis>7</wis>
-		<cha>8</cha>
-		<senses>darkvision 60 ft.</senses>
-		<passive>8</passive>
-		<languages>Common, Draconic</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Sunlight Sensitivity</name>
-			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
-		</trait>
-		<trait>
-			<name>Pack Tactics</name>
-			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
-		</trait>
-		<action>
-			<name>Dagger</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
-			<attack>Dagger|5|1d4+3</attack>
-		</action>
-		<action>
-			<name>Dropped Rock</name>
-			<text>Ranged Weapon Attack: +5 to hit, one target directly below the kobold. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
-			<attack>Dropped Rock|5|1d6+3</attack>
 		</action>
 	</monster>
 	<monster name="Winter Wolf">
