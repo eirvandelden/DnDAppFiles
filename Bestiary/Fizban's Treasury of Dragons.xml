@@ -442,156 +442,6 @@
             <attack>Psychic Beam||5d10</attack>
         </legendary>
     </monster>
-    <monster name="Ancient Dragon Turtle">
-        <name>Ancient Dragon Turtle</name>
-        <size>G</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>22 (natural armor)</ac>
-        <hp>409 (21d20 + 189)</hp>
-        <speed>30 ft., swim 60 ft.</speed>
-        <str>28</str>
-        <dex>12</dex>
-        <con>29</con>
-        <int>14</int>
-        <wis>19</wis>
-        <cha>15</cha>
-        <save>Dex +8,Con +16,Wis +11</save>
-        <skill>Perception +11</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>cold,fire</immune>
-        <conditionImmune>charmed,frightened,poisoned</conditionImmune>
-        <senses>truesight 120 ft.</senses>
-        <passive>21</passive>
-        <languages>Aquan,Draconic</languages>
-        <cr>24</cr>
-        <trait>
-            <name>Amphibious</name>
-            <text>The dragon turtle can breathe air and water</text>
-        </trait>
-        <trait>
-            <name>Blessing of the Sea (Recharges after a Short or Long Rest)</name>
-            <text>If the dragon turtle would be reduced to 0 hit points, its current hit point total instead resets to 350 hit points, and it recharges its Steam Breath. Additionally, the dragon turtle can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 62,000 XP (124,000 XP total) for defeating the dragon turtle after its Blessing of the Sea activates.</text>
-            <recharge>SHORT</recharge>
-        </trait>
-        <trait>
-            <name>Legendary Resistance (3/Day)</name>
-            <text>If the dragon turtle fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>3/Day</recharge>
-        </trait>
-        <trait>
-            <name>Unusual Nature</name>
-            <text>The dragon turtle doesn't require food or drink.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon turtle makes one Bite or Tail attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 15 (1d12 + 9) piercing damage plus 13 (2d12) lightning damage.</text>
-            <attack>Bite|16|1d12+9+2d12</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 18 (2d8 + 9) slashing damage.</text>
-            <attack>Claw|16|2d8+9</attack>
-        </action>
-        <action>
-            <name>Tail</name>
-            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 24 Strength saving throw or be knocked prone.</text>
-            <attack>Tail|16|2d10+9</attack>
-        </action>
-        <action>
-            <name>Steam Breath (Recharge 5-6)</name>
-            <text>The dragon turtle exhales steam in a 90-foot cone. Each creature in that area must make a DC DC 24 Constitution saving throw, taking 67 (15d8) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
-            <attack>Steam Breath||15d8</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Attack</name>
-            <text>The dragon turtle makes one Claw or Tail attack.</text>
-        </legendary>
-        <legendary>
-            <name>Move</name>
-            <text>The dragon turtle moves up to its speed. If the dragon turtle is swimming, this movement doesn't provoke opportunity attacks.</text>
-        </legendary>
-        <legendary>
-            <name>Boiling Aura (Costs 3 Actions)</name>
-            <text>The dragon turtle radiates intense heat. Until the start of the dragon turtle's next turn, whenever a creature starts its turn within 20 feet of the dragon turtle, that creature must succeed on a DC DC 24 Constitution saving throw or take 40 (9d8) fire damage. Being underwater doesn't grant resistance against this damage.</text>
-            <attack>Boiling Aura||9d8</attack>
-        </legendary>
-    </monster>
-    <monster name="Ancient Sea Serpent">
-        <name>Ancient Sea Serpent</name>
-        <size>G</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>17 (natural armor)</ac>
-        <hp>170 (11d20 + 55)</hp>
-        <speed>20 ft., swim 60 ft.</speed>
-        <str>24</str>
-        <dex>15</dex>
-        <con>20</con>
-        <int>13</int>
-        <wis>16</wis>
-        <cha>12</cha>
-        <save>Str +12,Con +10</save>
-        <skill>Perception +8,Stealth +7</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>cold</immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>18</passive>
-        <languages>Common,Draconic</languages>
-        <cr>14</cr>
-        <trait>
-            <name>Legendary Resistance (2/Day)</name>
-            <text>If the sea serpent fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>2/Day</recharge>
-        </trait>
-        <trait>
-            <name>Siege Monster</name>
-            <text>The sea serpent deals double damage to objects and structures.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The sea serpent makes one Bite attack and one Constrict or Tail attack.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 20 (2d12 + 7) piercing damage plus 6 (1d12) cold damage.</text>
-            <attack>Bite|12|2d12+7+1d12</attack>
-        </action>
-        <action>
-            <name>Constrict</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 20 ft., one creature. Hit: 29 (4d10 + 7) bludgeoning damage, and the target is grappled (escape DC DC 20). Until this grapple ends, the target is restrained, and the sea serpent can't constrict another target.</text>
-            <attack>Constrict|12|4d10+7</attack>
-        </action>
-        <action>
-            <name>Tail</name>
-            <text>Melee Weapon Attack: +12 to hit, reach 20 ft., one target. Hit: 13 (1d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 20 Strength saving throw or be pushed up to 30 feet away from the sea serpent and knocked prone.</text>
-            <attack>Tail|12|1d12+7</attack>
-        </action>
-        <action>
-            <name>Rime Breath (Recharge 5-6)</name>
-            <text>The sea serpent exhales a 60-foot cone of cold. Each creature in that area must make a DC DC 18 Constitution saving throw, taking 49 (9d10) cold damage on a failed save, or half as much damage on a successful one.</text>
-            <attack>Rime Breath||9d10</attack>
-            <recharge>D5</recharge>
-        </action>
-        <legendary>
-            <name>Tail</name>
-            <text>The sea serpent makes one Tail attack.</text>
-        </legendary>
-        <legendary>
-            <name>Bite (Costs 2 Actions)</name>
-            <text>The sea serpent makes one Bite attack</text>
-        </legendary>
-    </monster>
     <monster name="Animated Breath">
         <name>Animated Breath</name>
         <size>L</size>
@@ -2490,6 +2340,138 @@
             <name>Steam Breath (Recharge 5-6)</name>
             <text>The dragon turtle exhales steam in a 15-foot cone. Each creature in that area must make a DC DC 12 Constitution saving throw, taking 17 (5d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
             <attack>Steam Breath||5d6</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster name="Dragon Turtle, Ancient">
+        <name>Dragon Turtle, Ancient</name>
+        <size>G</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>22 (natural armor)</ac>
+        <hp>409 (21d20 + 189)</hp>
+        <speed>30 ft., swim 60 ft.</speed>
+        <str>28</str>
+        <dex>12</dex>
+        <con>29</con>
+        <int>14</int>
+        <wis>19</wis>
+        <cha>15</cha>
+        <save>Dex +8,Con +16,Wis +11</save>
+        <skill>Perception +11</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>cold,fire</immune>
+        <conditionImmune>charmed,frightened,poisoned</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>21</passive>
+        <languages>Aquan,Draconic</languages>
+        <cr>24</cr>
+        <trait>
+            <name>Amphibious</name>
+            <text>The dragon turtle can breathe air and water</text>
+        </trait>
+        <trait>
+            <name>Blessing of the Sea (Recharges after a Short or Long Rest)</name>
+            <text>If the dragon turtle would be reduced to 0 hit points, its current hit point total instead resets to 350 hit points, and it recharges its Steam Breath. Additionally, the dragon turtle can now use the options in the "Mythic Actions" section for 1 hour. Award a party an additional 62,000 XP (124,000 XP total) for defeating the dragon turtle after its Blessing of the Sea activates.</text>
+            <recharge>SHORT</recharge>
+        </trait>
+        <trait>
+            <name>Legendary Resistance (3/Day)</name>
+            <text>If the dragon turtle fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>3/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The dragon turtle doesn't require food or drink.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon turtle makes one Bite or Tail attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 15 (1d12 + 9) piercing damage plus 13 (2d12) lightning damage.</text>
+            <attack>Bite|16|1d12+9+2d12</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 18 (2d8 + 9) slashing damage.</text>
+            <attack>Claw|16|2d8+9</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 24 Strength saving throw or be knocked prone.</text>
+            <attack>Tail|16|2d10+9</attack>
+        </action>
+        <action>
+            <name>Steam Breath (Recharge 5-6)</name>
+            <text>The dragon turtle exhales steam in a 90-foot cone. Each creature in that area must make a DC DC 24 Constitution saving throw, taking 67 (15d8) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
+            <attack>Steam Breath||15d8</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Attack</name>
+            <text>The dragon turtle makes one Claw or Tail attack.</text>
+        </legendary>
+        <legendary>
+            <name>Move</name>
+            <text>The dragon turtle moves up to its speed. If the dragon turtle is swimming, this movement doesn't provoke opportunity attacks.</text>
+        </legendary>
+        <legendary>
+            <name>Boiling Aura (Costs 3 Actions)</name>
+            <text>The dragon turtle radiates intense heat. Until the start of the dragon turtle's next turn, whenever a creature starts its turn within 20 feet of the dragon turtle, that creature must succeed on a DC DC 24 Constitution saving throw or take 40 (9d8) fire damage. Being underwater doesn't grant resistance against this damage.</text>
+            <attack>Boiling Aura||9d8</attack>
+        </legendary>
+    </monster>
+    <monster name="Dragon Turtle, Young">
+        <name>Dragon Turtle, Young</name>
+        <size>H</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>19 (natural armor)</ac>
+        <hp>178 (17d12 + 68)</hp>
+        <speed>20 ft., swim 40 ft.</speed>
+        <str>21</str>
+        <dex>10</dex>
+        <con>19</con>
+        <int>10</int>
+        <wis>12</wis>
+        <cha>12</cha>
+        <save>Dex +4,Con +8,Wis +5</save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>fire</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>11</passive>
+        <languages>Aquan,Draconic</languages>
+        <cr>10</cr>
+        <trait>
+            <name>Amphibious</name>
+            <text>The dragon turtle can breathe air and water.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon turtle makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 11 (1d12 + 5) piercing damage plus 6 (1d12) lightning damage.</text>
+            <attack>Bite|9|1d12+5+1d12</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</text>
+            <attack>Claw|9|1d8+5</attack>
+        </action>
+        <action>
+            <name>Steam Breath (Recharge 5-6)</name>
+            <text>The dragon turtle exhales steam in a 30-foot cone. Each creature in that area must make a DC DC 16 Constitution saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
+            <attack>Steam Breath||12d6</attack>
             <recharge>D5</recharge>
         </action>
     </monster>
@@ -4996,6 +4978,129 @@
             <attack>Psychic Beam||5d10</attack>
         </legendary>
     </monster>
+    <monster name="Sea Serpent, Ancient">
+        <name>Sea Serpent, Ancient</name>
+        <size>G</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>170 (11d20 + 55)</hp>
+        <speed>20 ft., swim 60 ft.</speed>
+        <str>24</str>
+        <dex>15</dex>
+        <con>20</con>
+        <int>13</int>
+        <wis>16</wis>
+        <cha>12</cha>
+        <save>Str +12,Con +10</save>
+        <skill>Perception +8,Stealth +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>cold</immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>18</passive>
+        <languages>Common,Draconic</languages>
+        <cr>14</cr>
+        <trait>
+            <name>Legendary Resistance (2/Day)</name>
+            <text>If the sea serpent fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Siege Monster</name>
+            <text>The sea serpent deals double damage to objects and structures.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The sea serpent makes one Bite attack and one Constrict or Tail attack.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 20 (2d12 + 7) piercing damage plus 6 (1d12) cold damage.</text>
+            <attack>Bite|12|2d12+7+1d12</attack>
+        </action>
+        <action>
+            <name>Constrict</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 20 ft., one creature. Hit: 29 (4d10 + 7) bludgeoning damage, and the target is grappled (escape DC DC 20). Until this grapple ends, the target is restrained, and the sea serpent can't constrict another target.</text>
+            <attack>Constrict|12|4d10+7</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 20 ft., one target. Hit: 13 (1d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 20 Strength saving throw or be pushed up to 30 feet away from the sea serpent and knocked prone.</text>
+            <attack>Tail|12|1d12+7</attack>
+        </action>
+        <action>
+            <name>Rime Breath (Recharge 5-6)</name>
+            <text>The sea serpent exhales a 60-foot cone of cold. Each creature in that area must make a DC DC 18 Constitution saving throw, taking 49 (9d10) cold damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Rime Breath||9d10</attack>
+            <recharge>D5</recharge>
+        </action>
+        <legendary>
+            <name>Tail</name>
+            <text>The sea serpent makes one Tail attack.</text>
+        </legendary>
+        <legendary>
+            <name>Bite (Costs 2 Actions)</name>
+            <text>The sea serpent makes one Bite attack</text>
+        </legendary>
+    </monster>
+    <monster name="Sea Serpent, Young">
+        <name>Sea Serpent, Young</name>
+        <size>H</size>
+        <type>dragon</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>16 (natural armor)</ac>
+        <hp>123 (13d12 + 39)</hp>
+        <speed>10 ft., swim 40 ft.</speed>
+        <str>19</str>
+        <dex>12</dex>
+        <con>17</con>
+        <int>11</int>
+        <wis>13</wis>
+        <cha>10</cha>
+        <save>Str +7,Con +6</save>
+        <skill>Perception +4,Stealth +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>cold</immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>14</passive>
+        <languages>Common,Draconic</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Siege Monster</name>
+            <text>The sea serpent deals double damage to objects and structures.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The sea serpent makes one Bite attack and one Constrict or Tail attack.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 5 (1d10) cold damage.</text>
+            <attack>Bite|7|2d10+4+1d10</attack>
+        </action>
+        <action>
+            <name>Constrict</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 20 ft., one creature. Hit: 22 (4d8 + 4) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC DC 15). Until this grapple ends, the target is restrained, and the sea serpent can't constrict another target.</text>
+            <attack>Constrict|7|4d8+4</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 15 Strength saving throw or be pushed up to 20 feet away and knocked prone.</text>
+            <attack>Tail|7|1d10+4</attack>
+        </action>
+        <action>
+            <name>Rime Breath (Recharge 5-6)</name>
+            <text>The sea serpent exhales a 30-foot cone of cold. Each creature in that area must make a DC DC 14 Constitution saving throw, taking 38 (7d10) cold damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Rime Breath||7d10</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
     <monster name="Silver Greatwyrm">
         <name>Silver Greatwyrm</name>
         <size>G</size>
@@ -5606,110 +5711,5 @@
             <text>The greatwyrm creates four spears of magical force. Each spear hits a creature of the greatwyrm's choice it can see within 120 feet of it, dealing 12 (1d8 + 8) force damage to its target, then disappears.</text>
             <attack>Arcane Spear||1d8+8</attack>
         </legendary>
-    </monster>
-    <monster name="Young Dragon Turtle">
-        <name>Young Dragon Turtle</name>
-        <size>H</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>19 (natural armor)</ac>
-        <hp>178 (17d12 + 68)</hp>
-        <speed>20 ft., swim 40 ft.</speed>
-        <str>21</str>
-        <dex>10</dex>
-        <con>19</con>
-        <int>10</int>
-        <wis>12</wis>
-        <cha>12</cha>
-        <save>Dex +4,Con +8,Wis +5</save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist>fire</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>11</passive>
-        <languages>Aquan,Draconic</languages>
-        <cr>10</cr>
-        <trait>
-            <name>Amphibious</name>
-            <text>The dragon turtle can breathe air and water.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon turtle makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 11 (1d12 + 5) piercing damage plus 6 (1d12) lightning damage.</text>
-            <attack>Bite|9|1d12+5+1d12</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</text>
-            <attack>Claw|9|1d8+5</attack>
-        </action>
-        <action>
-            <name>Steam Breath (Recharge 5-6)</name>
-            <text>The dragon turtle exhales steam in a 30-foot cone. Each creature in that area must make a DC DC 16 Constitution saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage.</text>
-            <attack>Steam Breath||12d6</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
-    <monster name="Young Sea Serpent">
-        <name>Young Sea Serpent</name>
-        <size>H</size>
-        <type>dragon</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>16 (natural armor)</ac>
-        <hp>123 (13d12 + 39)</hp>
-        <speed>10 ft., swim 40 ft.</speed>
-        <str>19</str>
-        <dex>12</dex>
-        <con>17</con>
-        <int>11</int>
-        <wis>13</wis>
-        <cha>10</cha>
-        <save>Str +7,Con +6</save>
-        <skill>Perception +4,Stealth +4</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>cold</immune>
-        <conditionImmune></conditionImmune>
-        <senses>darkvision 120 ft.</senses>
-        <passive>14</passive>
-        <languages>Common,Draconic</languages>
-        <cr>8</cr>
-        <trait>
-            <name>Siege Monster</name>
-            <text>The sea serpent deals double damage to objects and structures.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The sea serpent makes one Bite attack and one Constrict or Tail attack.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 5 (1d10) cold damage.</text>
-            <attack>Bite|7|2d10+4+1d10</attack>
-        </action>
-        <action>
-            <name>Constrict</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 20 ft., one creature. Hit: 22 (4d8 + 4) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC DC 15). Until this grapple ends, the target is restrained, and the sea serpent can't constrict another target.</text>
-            <attack>Constrict|7|4d8+4</attack>
-        </action>
-        <action>
-            <name>Tail</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC DC 15 Strength saving throw or be pushed up to 20 feet away and knocked prone.</text>
-            <attack>Tail|7|1d10+4</attack>
-        </action>
-        <action>
-            <name>Rime Breath (Recharge 5-6)</name>
-            <text>The sea serpent exhales a 30-foot cone of cold. Each creature in that area must make a DC DC 14 Constitution saving throw, taking 38 (7d10) cold damage on a failed save, or half as much damage on a successful one.</text>
-            <attack>Rime Breath||7d10</attack>
-            <recharge>D5</recharge>
-        </action>
     </monster>
     </compendium>
