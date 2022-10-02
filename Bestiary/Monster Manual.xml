@@ -5853,60 +5853,6 @@
 			<attack>Javelin|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster name="Dust Mephit">
-		<name>Dust Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>12</ac>
-		<hp>17 (5d6)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>5</str>
-		<dex>14</dex>
-		<con>10</con>
-		<int>9</int>
-		<wis>11</wis>
-		<cha>10</cha>
-		<skill>Perception +2, Stealth +4</skill>
-		<vulnerable>fire</vulnerable>
-		<immune>poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Auran, Terran</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it explodes in a burst of dust. Each creature within 5 ft. of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast sleep, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: sleep</text>
-		</trait>
-		<trait>
-			<name>Sleep</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
-			<attack>Claws|4|1d4+2</attack>
-		</action>
-		<action>
-			<name>Blinding Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of blinding dust. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<recharge>D6</recharge>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-			<recharge>1/Day</recharge>
-			<attack>Mephits||1d4</attack>
-		</action>
-		<spells>Sleep</spells>
-	</monster>
 	<monster name="Eagle">
 		<name>Eagle</name>
 		<size>S</size>
@@ -11576,67 +11522,6 @@
 			<attack>Cold Damage||5d6</attack>
 		</action>
 	</monster>
-	<monster name="Ice Mephit">
-		<name>Ice Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>11</ac>
-		<hp>21 (6d6)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>7</str>
-		<dex>13</dex>
-		<con>10</con>
-		<int>9</int>
-		<wis>11</wis>
-		<cha>12</cha>
-		<skill>Perception +2, Stealth +3</skill>
-		<vulnerable>bludgeoning, fire</vulnerable>
-		<immune>cold, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Aquan, Auran</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Death Burst||1d8</attack>
-		</trait>
-		<trait>
-			<name>False Appearance</name>
-			<text>While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: fog cloud</text>
-		</trait>
- 		<trait>
-			<name>Fog Cloud</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.</text>
-			<attack>Claws|3|1d4+1+1d4</attack>
-		</action>
-		<action>
-			<name>Frost Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one.</text>
-			<recharge>D6</recharge>
-			<attack>Cold Damage||2d4</attack>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-			<recharge>1/Day</recharge>
-			<attack>Chance||1d100</attack>
-			<attack>Mephits||1d4</attack>
-		</action>
-		<spells>Fog Cloud</spells>
-	</monster>
 	<monster name="Imp">
 		<name>Imp</name>
 		<size>T</size>
@@ -12825,67 +12710,6 @@
 		<spells>Fire Bolt, Light, Mage Hand, Prestidigitation, Detect Magic, Mage Armor, Magic Missile, Shield, Misty Step, Suggestion, Counterspell, Fireball, Fly, Greater Invisibility, Ice Storm, Cone of Cold</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
-	<monster name="Magma Mephit">
-		<name>Magma Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>11</ac>
-		<hp>22 (5d6+5)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>8</str>
-		<dex>12</dex>
-		<con>12</con>
-		<int>7</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<skill>Stealth +3</skill>
-		<vulnerable>cold</vulnerable>
-		<immune>fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Ignan, Terran</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it explodes in a burst of lava. Each creature within 5 ft. of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Death Burst||2d6</attack>
-		</trait>
-		<trait>
-			<name>False Appearance</name>
-			<text>While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast heat metal (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: heat metal</text>
-		</trait>
-		<trait>
-			<name>Heat Metal</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.</text>
-			<attack>Claws|3|1d4+1+1d4</attack>
-		</action>
-		<action>
-			<name>Fire Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<recharge>D6</recharge>
-			<attack>Fire Breath||2d6</attack>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-			<recharge>1/Day</recharge>
-			<attack>Percent||1d100</attack>
-			<attack>Mephits||1d4</attack>
-		</action>
-		<spells>Heat Metal</spells>
-	</monster>
 	<monster name="Magmin">
 		<name>Magmin</name>
 		<size>S</size>
@@ -13265,6 +13089,339 @@
 			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
 			<attack>Longbow|5|1d8+2+2d6</attack>
 		</action>
+	</monster>
+	<monster name="Mephit, Dust">
+		<name>Mephit, Dust</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>12</ac>
+		<hp>17 (5d6)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>5</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Perception +2, Stealth +4</skill>
+		<vulnerable>fire</vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Auran, Terran</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a burst of dust. Each creature within 5 ft. of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast sleep, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: sleep</text>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claws|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Blinding Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of blinding dust. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D6</recharge>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Mephits||1d4</attack>
+		</action>
+		<spells>Sleep</spells>
+	</monster>
+	<monster name="Mephit, Ice">
+		<name>Mephit, Ice</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>11</ac>
+		<hp>21 (6d6)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>7</str>
+		<dex>13</dex>
+		<con>10</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<skill>Perception +2, Stealth +3</skill>
+		<vulnerable>bludgeoning, fire</vulnerable>
+		<immune>cold, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Aquan, Auran</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Death Burst||1d8</attack>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: fog cloud</text>
+		</trait>
+ 		<trait>
+			<name>Fog Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.</text>
+			<attack>Claws|3|1d4+1+1d4</attack>
+		</action>
+		<action>
+			<name>Frost Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D6</recharge>
+			<attack>Cold Damage||2d4</attack>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
+		</action>
+		<spells>Fog Cloud</spells>
+	</monster>
+	<monster name="Mephit, Magma">
+		<name>Mephit, Magma</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>11</ac>
+		<hp>22 (5d6+5)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>8</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>7</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<skill>Stealth +3</skill>
+		<vulnerable>cold</vulnerable>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Ignan, Terran</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a burst of lava. Each creature within 5 ft. of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Death Burst||2d6</attack>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast heat metal (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: heat metal</text>
+		</trait>
+		<trait>
+			<name>Heat Metal</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.</text>
+			<attack>Claws|3|1d4+1+1d4</attack>
+		</action>
+		<action>
+			<name>Fire Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D6</recharge>
+			<attack>Fire Breath||2d6</attack>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Percent||1d100</attack>
+			<attack>Mephits||1d4</attack>
+		</action>
+		<spells>Heat Metal</spells>
+	</monster>
+	<monster name="Mephit, Mud">
+		<name>Mephit, Mud</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>11</ac>
+		<hp>27 (6d6+6)</hp>
+		<speed>20 ft., fly 20 ft., swim 20 ft.</speed>
+		<str>8</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>7</cha>
+		<skill>Stealth +3</skill>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan, Terran</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a burst of sticky mud. Each Medium or smaller creature within 5 ft. of it must succeed on a DC 11 Dexterity saving throw or be restrained until the end of the creature's next turn.</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the mephit remains motionless, it is indistinguishable from an ordinary mound of mud.</text>
+		</trait>
+		<action>
+			<name>Fists</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
+			<attack>Fists|3|1d6+1</attack>
+		</action>
+		<action>
+			<name>Mud Breath (Recharge 6)</name>
+			<text>The mephit belches viscid mud onto one creature within 5 ft. of it. If the target is Medium or smaller, it must succeed on a DC 11 Dexterity saving throw or be restrained for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D6</recharge>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
+		</action>
+	</monster>
+	<monster name="Mephit, Smoke">
+		<name>Mephit, Smoke</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>12</ac>
+		<hp>22 (5d6+5)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>6</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<skill>Perception +2, Stealth +4</skill>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Auran, Ignan</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it leaves behind a cloud of smoke that fills a 5-foot-radius sphere centered on its space. The sphere is heavily obscured. Wind disperses the cloud, which otherwise lasts for 1 minute.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast dancing lights, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: dancing lights</text>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claws|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Cinder Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded until the end of the mephit's next turn.</text>
+			<recharge>D6</recharge>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
+		</action>
+		<spells>Dancing Lights</spells>
+	</monster>
+	<monster name="Mephit, Steam">
+		<name>Mephit, Steam</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>10</ac>
+		<hp>21 (6d6)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>5</str>
+		<dex>11</dex>
+		<con>10</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>12</cha>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan, Ignan</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.</text>
+			<attack>Death Burst||1d8</attack>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: blur</text>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
+			<attack>Claws|2|1d4+1d4</attack>
+		</action>
+		<action>
+			<name>Steam Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D6</recharge>
+			<attack>Fire Damage||1d8</attack>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
+		</action>
+		<spells>Blur</spells>
 	</monster>
 	<monster name="Merfolk">
 		<name>Merfolk</name>
@@ -13713,54 +13870,6 @@
 			<name>Javelin</name>
 			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage.</text>
 			<attack>Javelin|2|1d6</attack>
-		</action>
-	</monster>
-	<monster name="Mud Mephit">
-		<name>Mud Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>11</ac>
-		<hp>27 (6d6+6)</hp>
-		<speed>20 ft., fly 20 ft., swim 20 ft.</speed>
-		<str>8</str>
-		<dex>12</dex>
-		<con>12</con>
-		<int>9</int>
-		<wis>11</wis>
-		<cha>7</cha>
-		<skill>Stealth +3</skill>
-		<immune>poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Aquan, Terran</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it explodes in a burst of sticky mud. Each Medium or smaller creature within 5 ft. of it must succeed on a DC 11 Dexterity saving throw or be restrained until the end of the creature's next turn.</text>
-		</trait>
-		<trait>
-			<name>False Appearance</name>
-			<text>While the mephit remains motionless, it is indistinguishable from an ordinary mound of mud.</text>
-		</trait>
-		<action>
-			<name>Fists</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
-			<attack>Fists|3|1d6+1</attack>
-		</action>
-		<action>
-			<name>Mud Breath (Recharge 6)</name>
-			<text>The mephit belches viscid mud onto one creature within 5 ft. of it. If the target is Medium or smaller, it must succeed on a DC 11 Dexterity saving throw or be restrained for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<recharge>D6</recharge>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-			<recharge>1/Day</recharge>
-			<attack>Chance||1d100</attack>
-			<attack>Mephits||1d4</attack>
 		</action>
 	</monster>
 	<monster name="Mule">
@@ -17744,60 +17853,6 @@
 			<attack>Bite|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster name="Smoke Mephit">
-		<name>Smoke Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>12</ac>
-		<hp>22 (5d6+5)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>6</str>
-		<dex>14</dex>
-		<con>12</con>
-		<int>10</int>
-		<wis>10</wis>
-		<cha>11</cha>
-		<skill>Perception +2, Stealth +4</skill>
-		<immune>fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Auran, Ignan</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it leaves behind a cloud of smoke that fills a 5-foot-radius sphere centered on its space. The sphere is heavily obscured. Wind disperses the cloud, which otherwise lasts for 1 minute.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast dancing lights, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: dancing lights</text>
-		</trait>
-		<trait>
-			<name>Dancing Lights</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
-			<attack>Claws|4|1d4+2</attack>
-		</action>
-		<action>
-			<name>Cinder Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded until the end of the mephit's next turn.</text>
-			<recharge>D6</recharge>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-			<recharge>1/Day</recharge>
-			<attack>Chance||1d100</attack>
-			<attack>Mephits||1d4</attack>
-		</action>
-		<spells>Dancing Lights</spells>
-	</monster>
 	<monster name="Solar">
 		<name>Solar</name>
 		<size>L</size>
@@ -18206,61 +18261,6 @@
 			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Hand Crossbow|4|1d6+2</attack>
 		</action>
-	</monster>
-	<monster name="Steam Mephit">
-		<name>Steam Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>10</ac>
-		<hp>21 (6d6)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>5</str>
-		<dex>11</dex>
-		<con>10</con>
-		<int>11</int>
-		<wis>10</wis>
-		<cha>12</cha>
-		<immune>fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Aquan, Ignan</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.</text>
-			<attack>Death Burst||1d8</attack>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: blur</text>
-		</trait>
-		<trait>
-			<name>Blur</name>
-			<recharge>1/day</recharge>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
-			<attack>Claws|2|1d4+1d4</attack>
-		</action>
-		<action>
-			<name>Steam Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<recharge>D6</recharge>
-			<attack>Fire Damage||1d8</attack>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-			<recharge>1/Day</recharge>
-			<attack>Chance||1d100</attack>
-			<attack>Mephits||1d4</attack>
-		</action>
-		<spells>Blur</spells>
 	</monster>
 	<monster name="Stirge">
 		<name>Stirge</name>
