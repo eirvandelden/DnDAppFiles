@@ -274,50 +274,6 @@
 			<attack>Wing Attack||2d6+7</attack>
 		</legendary>
 	</monster>
-	<monster name="Air Elemental">
-		<name>Air Elemental</name>
-		<size>L</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral</alignment>
-		<ac>15</ac>
-		<hp>90 (12d10+24)</hp>
-		<speed>fly 90 ft. (hover)</speed>
-		<str>14</str>
-		<dex>20</dex>
-		<con>14</con>
-		<int>6</int>
-		<wis>10</wis>
-		<cha>6</cha>
-		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Auran</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Air Form</name>
-			<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The elemental makes two slam attacks.</text>
-		</action>
-		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
-			<attack>Slam|8|2d8+5</attack>
-		</action>
-		<action>
-			<name>Whirlwind (Recharge 4-6)</name>
-			<text>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
-			<text>If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.</text>
-			<recharge>D4</recharge>
-			<attack>Whirlwind||3d8+2</attack>
-			<attack>Thrown damage per 10 feet||1d6</attack>
-		</action>
-	</monster>
 	<monster name="Allosaurus">
 		<name>Allosaurus</name>
 		<size>L</size>
@@ -5979,47 +5935,6 @@
 			<attack>Talons|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster name="Earth Elemental">
-		<name>Earth Elemental</name>
-		<size>L</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral</alignment>
-		<ac>17 (natural armor)</ac>
-		<hp>126 (12d10+60)</hp>
-		<speed>30 ft., burrow 30 ft.</speed>
-		<str>20</str>
-		<dex>8</dex>
-		<con>20</con>
-		<int>5</int>
-		<wis>10</wis>
-		<cha>5</cha>
-		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable>thunder</vulnerable>
-		<immune>poison</immune>
-		<conditionImmune>exhaustion, paralyzed, petrified, poisoned, unconscious</conditionImmune>
-		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Terran</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Earth Glide</name>
-			<text>The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.</text>
-		</trait>
-		<trait>
-			<name>Siege Monster</name>
-			<text>The elemental deals double damage to objects and structures.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The elemental makes two slam attacks.</text>
-		</action>
-		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
-			<attack>Slam|8|2d8+5</attack>
-		</action>
-	</monster>
 	<monster name="Efreeti">
 		<name>Efreeti</name>
 		<size>L</size>
@@ -6111,6 +6026,185 @@
 			<attack>Flame|7|5d6</attack>
 		</action>
 		<spells>Detect Magic, Enlarge/Reduce, Tongues, Conjure Elemental, Gaseous Form, Invisibility, Major Image, Plane Shift, Wall of Fire</spells>
+	</monster>
+	<monster name="Elemental, Air">
+		<name>Elemental, Air</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>15</ac>
+		<hp>90 (12d10+24)</hp>
+		<speed>fly 90 ft. (hover)</speed>
+		<str>14</str>
+		<dex>20</dex>
+		<con>14</con>
+		<int>6</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Auran</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Air Form</name>
+			<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elemental makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
+			<attack>Slam|8|2d8+5</attack>
+		</action>
+		<action>
+			<name>Whirlwind (Recharge 4-6)</name>
+			<text>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
+			<text>If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.</text>
+			<recharge>D4</recharge>
+			<attack>Whirlwind||3d8+2</attack>
+			<attack>Thrown damage per 10 feet||1d6</attack>
+		</action>
+	</monster>
+	<monster name="Elemental, Earth">
+		<name>Elemental, Earth</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>126 (12d10+60)</hp>
+		<speed>30 ft., burrow 30 ft.</speed>
+		<str>20</str>
+		<dex>8</dex>
+		<con>20</con>
+		<int>5</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable>thunder</vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, paralyzed, petrified, poisoned, unconscious</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Terran</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Earth Glide</name>
+			<text>The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.</text>
+		</trait>
+		<trait>
+			<name>Siege Monster</name>
+			<text>The elemental deals double damage to objects and structures.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elemental makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
+			<attack>Slam|8|2d8+5</attack>
+		</action>
+	</monster>
+	<monster name="Elemental, Fire">
+		<name>Elemental, Fire</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>13</ac>
+		<hp>102 (12d10+36)</hp>
+		<speed>50 ft.</speed>
+		<str>10</str>
+		<dex>17</dex>
+		<con>16</con>
+		<int>6</int>
+		<wis>10</wis>
+		<cha>7</cha>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>fire, poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Ignan</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Fire Form</name>
+			<text>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 ft. of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</text>
+			<attack>Fire Form||5d10</attack>
+			<attack>Burn Damage||1d10</attack>
+		</trait>
+		<trait>
+			<name>Illumination</name>
+			<text>The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 ft..</text>
+		</trait>
+		<trait>
+			<name>Water Susceptibility</name>
+			<text>For every 5 ft. the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elemental makes two touch attacks.</text>
+		</action>
+		<action>
+			<name>Touch</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
+			<attack>Touch|6|2d6+3</attack>
+			<attack>Burn Damage||1d10</attack>
+		</action>
+	</monster>
+	<monster name="Elemental, Water">
+		<name>Elemental, Water</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>114 (12d10+48)</hp>
+		<speed>30 ft., swim 90 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>18</con>
+		<int>5</int>
+		<wis>10</wis>
+		<cha>8</cha>
+		<resist>acid, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Water Form</name>
+			<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Freeze</name>
+			<text>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 ft. until the end of its next turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elemental makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</text>
+			<attack>Slam|7|2d8+4</attack>
+		</action>
+		<action>
+			<name>Whelm (Recharge 4-6)</name>
+			<text>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.</text>
+			<text>The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding.</text>
+			<recharge>D4</recharge>
+			<attack>Whelm||2d8+4</attack>
+		</action>
 	</monster>
 	<monster name="Elephant">
 		<name>Elephant</name>
@@ -7041,53 +7135,6 @@
 			<attack>Behavior||1d6</attack>
 		</action>
 		<spells>Color Spray, Dancing Lights, Mage Hand, Minor Illusion, Mirror Image</spells>
-	</monster>
-	<monster name="Fire Elemental">
-		<name>Fire Elemental</name>
-		<size>L</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral</alignment>
-		<ac>13</ac>
-		<hp>102 (12d10+36)</hp>
-		<speed>50 ft.</speed>
-		<str>10</str>
-		<dex>17</dex>
-		<con>16</con>
-		<int>6</int>
-		<wis>10</wis>
-		<cha>7</cha>
-		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>fire, poison</immune>
-		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Ignan</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Fire Form</name>
-			<text>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 ft. of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</text>
-			<attack>Fire Form||5d10</attack>
-			<attack>Burn Damage||1d10</attack>
-		</trait>
-		<trait>
-			<name>Illumination</name>
-			<text>The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 ft..</text>
-		</trait>
-		<trait>
-			<name>Water Susceptibility</name>
-			<text>For every 5 ft. the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The elemental makes two touch attacks.</text>
-		</action>
-		<action>
-			<name>Touch</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
-			<attack>Touch|6|2d6+3</attack>
-			<attack>Burn Damage||1d10</attack>
-		</action>
 	</monster>
 	<monster name="Fire Giant">
 		<name>Fire Giant</name>
@@ -20225,53 +20272,6 @@
 			<name>Hooves</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>Hooves|6|2d6+4</attack>
-		</action>
-	</monster>
-	<monster name="Water Elemental">
-		<name>Water Elemental</name>
-		<size>L</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>114 (12d10+48)</hp>
-		<speed>30 ft., swim 90 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>18</con>
-		<int>5</int>
-		<wis>10</wis>
-		<cha>8</cha>
-		<resist>acid, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Aquan</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Water Form</name>
-			<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
-		</trait>
-		<trait>
-			<name>Freeze</name>
-			<text>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 ft. until the end of its next turn.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The elemental makes two slam attacks.</text>
-		</action>
-		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</text>
-			<attack>Slam|7|2d8+4</attack>
-		</action>
-		<action>
-			<name>Whelm (Recharge 4-6)</name>
-			<text>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.</text>
-			<text>The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding.</text>
-			<recharge>D4</recharge>
-			<attack>Whelm||2d8+4</attack>
 		</action>
 	</monster>
 	<monster name="Water Weird">

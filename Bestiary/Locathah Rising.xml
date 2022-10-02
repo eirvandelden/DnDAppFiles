@@ -323,6 +323,53 @@
             <recharge>D5</recharge>
         </action>
     </monster>
+    <monster name="Elemental Myrmidon, Water">
+        <name>Elemental Myrmidon, Water</name>
+        <size>M</size>
+        <type>elemental</type>
+        <description>Source: Locathah Rising</description>
+        <alignment>neutral</alignment>
+        <ac>18 (plate)</ac>
+        <hp>127 (17d8+51)</hp>
+        <speed>40 ft., swim 40 ft.</speed>
+        <str>18</str>
+        <dex>14</dex>
+        <con>15</con>
+        <int>8</int>
+        <wis>10</wis>
+        <cha>10</cha>
+        <save></save>
+        <skill></skill>
+        <resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+        <vulnerable></vulnerable>
+        <immune>poison</immune>
+        <conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>10</passive>
+        <languages>Aquan, one language of its creator's choice</languages>
+        <cr>7</cr>
+        <trait>
+            <name>Magic Weapons</name>
+            <text>The myrmidon's weapon attacks are magical.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The myrmidon makes three trident attacks.</text>
+        </action>
+        <action>
+            <name>Trident</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+            <attack>Trident|7|1d6+4</attack>
+        </action>
+        <action>
+            <name>Freezing Strikes (Recharge 6)</name>
+            <text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
+            <attack>Freezing Strikes|7|1d6+4+1d10</attack>
+            <recharge>D6</recharge>
+        </action>
+        <spells></spells>
+        <slots></slots>
+    </monster>
     <monster name="Fhenimore">
         <name>Fhenimore</name>
         <size>M</size>
@@ -938,53 +985,6 @@
             <attack>Full|5|4d6</attack>
             <attack>Half|5|2d6</attack>
         </action>
-    </monster>
-    <monster name="Water Elemental Myrmidon">
-        <name>Water Elemental Myrmidon</name>
-        <size>M</size>
-        <type>elemental</type>
-        <description>Source: Locathah Rising</description>
-        <alignment>neutral</alignment>
-        <ac>18 (plate)</ac>
-        <hp>127 (17d8+51)</hp>
-        <speed>40 ft., swim 40 ft.</speed>
-        <str>18</str>
-        <dex>14</dex>
-        <con>15</con>
-        <int>8</int>
-        <wis>10</wis>
-        <cha>10</cha>
-        <save></save>
-        <skill></skill>
-        <resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-        <vulnerable></vulnerable>
-        <immune>poison</immune>
-        <conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>10</passive>
-        <languages>Aquan, one language of its creator's choice</languages>
-        <cr>7</cr>
-        <trait>
-            <name>Magic Weapons</name>
-            <text>The myrmidon's weapon attacks are magical.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The myrmidon makes three trident attacks.</text>
-        </action>
-        <action>
-            <name>Trident</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
-            <attack>Trident|7|1d6+4</attack>
-        </action>
-        <action>
-            <name>Freezing Strikes (Recharge 6)</name>
-            <text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
-            <attack>Freezing Strikes|7|1d6+4+1d10</attack>
-            <recharge>D6</recharge>
-        </action>
-        <spells></spells>
-        <slots></slots>
     </monster>
     <monster name="Whymsee">
         <name>Whymsee</name>

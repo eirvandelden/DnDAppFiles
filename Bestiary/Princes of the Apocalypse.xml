@@ -56,48 +56,6 @@
 		<spells>Gust, Mage Hand, Message, Prestidigitation, Ray of Frost, Shocking Grasp, Charm Person, Feather Fall, Mage Armor, Thunderwave, Dust Devil, Gust of Wind, Invisibility, Fly, Gaseous Form, Lightning Bolt, Ice Storm, Storm Sphere, Cloudkill, Seeming, Chain Lightning</spells>
 		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
-	<monster name="Air Elemental Myrmidon">
-		<name>Air Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Princes of the Apocalypse</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>117 (18d8+36)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>14</con>
-		<int>9</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Auran, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes three flail attacks.</text>
-		</action>
-		<action>
-			<name>Flail</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</text>
-			<attack>Flail|7|1d8+4</attack>
-		</action>
-		<action>
-			<name>Lightning Strike (Recharge 6)</name>
-			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
-			<attack>Lightning Strike|7|1d8+4+4d8</attack>
-			<recharge>D6</recharge>
-		</action>
-	</monster>
 	<monster name="Bastian Thermandar">
 		<name>Bastian Thermandar</name>
 		<size>M</size>
@@ -439,8 +397,50 @@
 			<attack>Greataxe|7|2d12+4</attack>
 		</action>
 	</monster>
-	<monster name="Earth Elemental Myrmidon">
-		<name>Earth Elemental Myrmidon</name>
+	<monster name="Elemental Myrmidon, Air">
+		<name>Elemental Myrmidon, Air</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Princes of the Apocalypse</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Auran, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three flail attacks.</text>
+		</action>
+		<action>
+			<name>Flail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</text>
+			<attack>Flail|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Lightning Strike (Recharge 6)</name>
+			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
+			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+			<recharge>D6</recharge>
+		</action>
+	</monster>
+	<monster name="Elemental Myrmidon, Earth">
+		<name>Elemental Myrmidon, Earth</name>
 		<size>M</size>
 		<type>elemental</type>
 		<description>Source: Princes of the Apocalypse</description>
@@ -478,6 +478,98 @@
 			<name>Thunderous Strike (Recharge 6)</name>
 			<text>The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
 			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
+			<recharge>D6</recharge>
+		</action>
+	</monster>
+	<monster name="Elemental Myrmidon, Fire">
+		<name>Elemental Myrmidon, Fire</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Princes of the Apocalypse</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>40 ft.</speed>
+		<str>13</str>
+		<dex>18</dex>
+		<con>15</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>fire, poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Ignan, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Illumination</name>
+			<text>The myrmidon sheds bright light in a 20-foot radius and dim light in a 40-foot radius.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Water Susceptibility</name>
+			<text>For every 5 feet the myrmidon moves in water, it takes 2 (1d4) cold damage.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three scimitar attacks.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
+			<attack>Scimitar|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Fiery Strikes (Recharge 6)</name>
+			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
+			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
+			<recharge>D6</recharge>
+		</action>
+	</monster>
+	<monster name="Elemental Myrmidon, Water">
+		<name>Elemental Myrmidon, Water</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Princes of the Apocalypse</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>40 ft., swim 40 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>8</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three trident attacks.</text>
+		</action>
+		<action>
+			<name>Trident</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Trident|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Freezing Strikes (Recharge 6)</name>
+			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
+			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
 			<recharge>D6</recharge>
 		</action>
 	</monster>
@@ -696,56 +788,6 @@
 		</action>
 		<spells>Gust, Light, Message, Ray of Frost, Expeditious Retreat, Feather Fall</spells>
 		<slots>2,0,0,0,0,0,0,0,0</slots>
-	</monster>
-	<monster name="Fire Elemental Myrmidon">
-		<name>Fire Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Princes of the Apocalypse</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>117 (18d8+36)</hp>
-		<speed>40 ft.</speed>
-		<str>13</str>
-		<dex>18</dex>
-		<con>15</con>
-		<int>9</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>fire, poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Ignan, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Illumination</name>
-			<text>The myrmidon sheds bright light in a 20-foot radius and dim light in a 40-foot radius.</text>
-		</trait>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<trait>
-			<name>Water Susceptibility</name>
-			<text>For every 5 feet the myrmidon moves in water, it takes 2 (1d4) cold damage.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes three scimitar attacks.</text>
-		</action>
-		<action>
-			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
-			<attack>Scimitar|7|1d6+4</attack>
-		</action>
-		<action>
-			<name>Fiery Strikes (Recharge 6)</name>
-			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
-			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
-			<recharge>D6</recharge>
-		</action>
 	</monster>
 	<monster name="Flamewrath">
 		<name>Flamewrath</name>
@@ -1899,48 +1941,6 @@
 		</action>
 		<spells>Chill Touch, Fire Bolt, Friends, Mage Hand, Message, Produce Flame, Thaumaturgy, Burning Hands, Chromatic Orb, Hellish Rebuke, Shield, Darkness, Detect Thoughts, Misty Step, Scorching Ray, Counterspell, Fireball, Hypnotic Pattern, Wall of Fire, Dominate Person</spells>
 		<slots>4,3,3,3,2,0,0,0,0</slots>
-	</monster>
-	<monster name="Water Elemental Myrmidon">
-		<name>Water Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Princes of the Apocalypse</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>40 ft., swim 40 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>15</con>
-		<int>8</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Aquan, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes three trident attacks.</text>
-		</action>
-		<action>
-			<name>Trident</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
-			<attack>Trident|7|1d6+4</attack>
-		</action>
-		<action>
-			<name>Freezing Strikes (Recharge 6)</name>
-			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
-			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
-			<recharge>D6</recharge>
-		</action>
 	</monster>
 	<monster name="Wiggan Nettlebee">
 		<name>Wiggan Nettlebee</name>

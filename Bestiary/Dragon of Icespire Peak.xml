@@ -1,59 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" source="DoIP">
-	<monster name="Air Elemental Myrmidon">
-		<name>Air Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Dragon of Icespire Peak</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>117 (18d8+36)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>14</con>
-		<int>9</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<save></save>
-		<skill></skill>
-		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Auran, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes three flail attacks.</text>
-		</action>
-		<action>
-			<name>Flail</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage.</text>
-			<attack>Flail|7|1d8+4</attack>
-		</action>
-		<action>
-			<name>Lightning Strike (Recharge 6)</name>
-			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
-			<text></text>
-			<text>Stunned:</text>
-			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
-			<text></text>
-			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
-			<text></text>
-			<text>• Attack rolls against the creature have advantage.</text>
-			<attack>Lightning Strike|7|1d8+4+4d8</attack>
-			<recharge>D6</recharge>
-		</action>
-		<spells></spells>
-		<slots></slots>
-	</monster>
 	<monster name="Alkilith">
 		<name>Alkilith</name>
 		<size>M</size>
@@ -1064,6 +1010,60 @@
 			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
 			<text></text>
 			<text>• Attack rolls against the creature have advantage.</text>
+		</action>
+		<spells></spells>
+		<slots></slots>
+	</monster>
+	<monster name="Elemental Myrmidon, Air">
+		<name>Elemental Myrmidon, Air</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill></skill>
+		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Auran, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three flail attacks.</text>
+		</action>
+		<action>
+			<name>Flail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage.</text>
+			<attack>Flail|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Lightning Strike (Recharge 6)</name>
+			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
+			<text></text>
+			<text>Stunned:</text>
+			<text>• A stunned creature is incapacitated, meaning it can't take actions or reactions, can't move, and can speak only falteringly.</text>
+			<text></text>
+			<text>• The creature automatically fails Strength and Dexterity saving throws.</text>
+			<text></text>
+			<text>• Attack rolls against the creature have advantage.</text>
+			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+			<recharge>D6</recharge>
 		</action>
 		<spells></spells>
 		<slots></slots>
