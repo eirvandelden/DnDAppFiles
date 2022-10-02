@@ -16640,6 +16640,36 @@
 			<attack>Acid Damage||6d6</attack>
 		</action>
 	</monster>
+	<monster name="Remorhaz, Young">
+		<name>Remorhaz, Young</name>
+		<size>L</size>
+		<type>monstrosity</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>93 (11d10+33)</hp>
+		<speed>30 ft., burrow 20 ft.</speed>
+		<str>18</str>
+		<dex>13</dex>
+		<con>17</con>
+		<int>3</int>
+		<wis>10</wis>
+		<cha>4</cha>
+		<immune>cold, fire</immune>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>10</passive>
+		<cr>5</cr>
+		<trait>
+			<name>Heated Body</name>
+			<text>A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage.</text>
+			<attack>Heated Body||2d6</attack>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20 (3d10 + 4) piercing damage plus 7 (2d6) fire damage.</text>
+			<attack>Bite|6|3d10+4+2d6</attack>
+		</action>
+	</monster>
 	<monster name="Revenant">
 		<name>Revenant</name>
 		<size>M</size>
@@ -21301,36 +21331,6 @@
 			<attack>Chance||1d100</attack>
 		</action>
 		<spells>Detect Thoughts, Web, Dominate Person</spells>
-	</monster>
-	<monster name="Young Remorhaz">
-		<name>Young Remorhaz</name>
-		<size>L</size>
-		<type>monstrosity</type>
-		<description>Source: Monster Manual</description>
-		<alignment>unaligned</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>93 (11d10+33)</hp>
-		<speed>30 ft., burrow 20 ft.</speed>
-		<str>18</str>
-		<dex>13</dex>
-		<con>17</con>
-		<int>3</int>
-		<wis>10</wis>
-		<cha>4</cha>
-		<immune>cold, fire</immune>
-		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
-		<passive>10</passive>
-		<cr>5</cr>
-		<trait>
-			<name>Heated Body</name>
-			<text>A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage.</text>
-			<attack>Heated Body||2d6</attack>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20 (3d10 + 4) piercing damage plus 7 (2d6) fire damage.</text>
-			<attack>Bite|6|3d10+4+2d6</attack>
-		</action>
 	</monster>
 	<monster name="Yuan-ti Abomination">
 		<name>Yuan-ti Abomination</name>

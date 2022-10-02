@@ -1774,6 +1774,138 @@
       <attack>Poison Spray||2d12</attack>
     </action>
   </monster>
+  <monster name="Griffon (Tiny), Young">
+    <name>Griffon (Tiny), Young</name>
+    <size>T</size>
+    <type>monstrosity</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>12</ac>
+    <hp>5 (1d4 + 3)</hp>
+    <speed>30 ft., fly 40 ft.</speed>
+    <str>2</str>
+    <dex>15</dex>
+    <con>16</con>
+    <int>2</int>
+    <wis>13</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>perception +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>15</passive>
+    <languages>—</languages>
+    <cr>0</cr>
+    <trait>
+      <name>Keen Sight</name>
+      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
+    </action>
+    <action>
+      <name>Beak</name>
+      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+      <attack>Beak|0|1</attack>
+    </action>
+    <action>
+      <name>Claws</name>
+      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+      <attack>Beak|0|1</attack>
+    </action>
+  </monster>
+<monster name="Griffon, Young (Medium)">
+    <name>Griffon, Young (Medium)</name>
+    <size>M</size>
+    <type>monstrosity</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>12</ac>
+    <hp>32 (5d6 + 15)</hp>
+    <speed>30 ft., fly 80 ft.</speed>
+    <str>12</str>
+    <dex>15</dex>
+    <con>16</con>
+    <int>2</int>
+    <wis>13</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>perception +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>15</passive>
+    <languages>—</languages>
+    <cr>1</cr>
+    <trait>
+      <name>Keen Sight</name>
+      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
+    </action>
+    <action>
+      <name>Beak</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+      <attack>Beak|3|1d6+1</attack>
+    </action>
+    <action>
+      <name>Claws</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.</text>
+      <attack>Claws|3|2d4+1</attack>
+    </action>
+  </monster>
+  <monster name="Griffon, Young (Small)">
+    <name>Griffon, Young (Small)</name>
+    <size>S</size>
+    <type>monstrosity</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>12</ac>
+    <hp>13 (2d6 + 6)</hp>
+    <speed>30 ft., fly 80 ft.</speed>
+    <str>8</str>
+    <dex>15</dex>
+    <con>16</con>
+    <int>2</int>
+    <wis>13</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>perception +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>15</passive>
+    <languages>—</languages>
+    <cr>1/4</cr>
+    <trait>
+      <name>Keen Sight</name>
+      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
+    </action>
+    <action>
+      <name>Beak</name>
+      <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</text>
+      <attack>Beak|1|1d4</attack>
+    </action>
+    <action>
+      <name>Claws</name>
+      <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage.</text>
+      <attack>Claws|1|1d4</attack>
+    </action>
+  </monster>
   <monster name="Gunvald Halraggson">
     <name>Gunvald Halraggson</name>
     <size>M</size>
@@ -3922,136 +4054,4 @@
       <attack>Claw|2|1d4+1d4</attack>
     </action>
   </monster>
-  <monster name="Young Griffon (Medium)">
-    <name>Young Griffon (Medium)</name>
-    <size>M</size>
-    <type>monstrosity</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>12</ac>
-    <hp>32 (5d6 + 15)</hp>
-    <speed>30 ft., fly 80 ft.</speed>
-    <str>12</str>
-    <dex>15</dex>
-    <con>16</con>
-    <int>2</int>
-    <wis>13</wis>
-    <cha>8</cha>
-    <save></save>
-    <skill>perception +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>15</passive>
-    <languages>—</languages>
-    <cr>1</cr>
-    <trait>
-      <name>Keen Sight</name>
-      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
-    </action>
-    <action>
-      <name>Beak</name>
-      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
-      <attack>Beak|3|1d6+1</attack>
-    </action>
-    <action>
-      <name>Claws</name>
-      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.</text>
-      <attack>Claws|3|2d4+1</attack>
-    </action>
-  </monster>
-  <monster name="Young Griffon (Small)">
-    <name>Young Griffon (Small)</name>
-    <size>S</size>
-    <type>monstrosity</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>12</ac>
-    <hp>13 (2d6 + 6)</hp>
-    <speed>30 ft., fly 80 ft.</speed>
-    <str>8</str>
-    <dex>15</dex>
-    <con>16</con>
-    <int>2</int>
-    <wis>13</wis>
-    <cha>8</cha>
-    <save></save>
-    <skill>perception +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>15</passive>
-    <languages>—</languages>
-    <cr>1/4</cr>
-    <trait>
-      <name>Keen Sight</name>
-      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
-    </action>
-    <action>
-      <name>Beak</name>
-      <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</text>
-      <attack>Beak|1|1d4</attack>
-    </action>
-    <action>
-      <name>Claws</name>
-      <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage.</text>
-      <attack>Claws|1|1d4</attack>
-    </action>
-  </monster>
-  <monster name="Young Griffon (Tiny)">
-    <name>Young Griffon (Tiny)</name>
-    <size>T</size>
-    <type>monstrosity</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>12</ac>
-    <hp>5 (1d4 + 3)</hp>
-    <speed>30 ft., fly 40 ft.</speed>
-    <str>2</str>
-    <dex>15</dex>
-    <con>16</con>
-    <int>2</int>
-    <wis>13</wis>
-    <cha>8</cha>
-    <save></save>
-    <skill>perception +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>15</passive>
-    <languages>—</languages>
-    <cr>0</cr>
-    <trait>
-      <name>Keen Sight</name>
-      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
-    </action>
-    <action>
-      <name>Beak</name>
-      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
-      <attack>Beak|0|1</attack>
-    </action>
-    <action>
-      <name>Claws</name>
-      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
-      <attack>Beak|0|1</attack>
-    </action>
-  </monster>
-</compendium>
+  </compendium>
