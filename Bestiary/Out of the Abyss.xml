@@ -965,46 +965,6 @@
 			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster name="Female Steeder">
-		<name>Female Steeder</name>
-		<size>L</size>
-		<type>beast</type>
-		<description>Source: Out of the Abyss</description>
-		<alignment>unaligned</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>30 (4d10+8)</hp>
-		<speed>30 ft., climb 30 ft.</speed>
-		<str>15</str>
-		<dex>16</dex>
-		<con>14</con>
-		<int>2</int>
-		<wis>10</wis>
-		<cha>3</cha>
-		<skill>Stealth +7</skill>
-		<senses>darkvision 120 ft.</senses>
-		<passive>10</passive>
-		<languages>-</languages>
-		<cr>1</cr>
-		<trait>
-			<name>Spider Climb</name>
-			<text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-		</trait>
-		<trait>
-			<name>Leap</name>
-			<text>The steeder can expend all its movement on its turn to jump up to 90 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Bite|5|1d8+3</attack>
-			<attack>Acid||2d8</attack>
-		</action>
-		<action>
-			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)</text>
-			<attack>Sticky Leg|5|</attack>
-		</action>
-	</monster>
 	<monster name="Fraz-Urb'luu">
 		<name>Fraz-Urb'luu</name>
 		<size>L</size>
@@ -1510,46 +1470,6 @@
 		</legendary>
 		<spells>Acid Splash, Detect Magic, Blight, Contagion, Gaseous Form</spells>
 	</monster>
-	<monster name="Male Steeder">
-		<name>Male Steeder</name>
-		<size>M</size>
-		<type>beast</type>
-		<description>Source: Out of the Abyss</description>
-		<alignment>unaligned</alignment>
-		<ac>12 (natural armor)</ac>
-		<hp>13 (2d8+4)</hp>
-		<speed>30 ft., climb 30 ft.</speed>
-		<str>15</str>
-		<dex>12</dex>
-		<con>14</con>
-		<int>2</int>
-		<wis>10</wis>
-		<cha>3</cha>
-		<skill>Stealth +5</skill>
-		<senses>darkvision 120 ft.</senses>
-		<passive>10</passive>
-		<languages>-</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Spider Climb</name>
-			<text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-		</trait>
-		<trait>
-			<name>Leap</name>
-			<text>The steeder can expend all its movement on its turn to jump up to 60 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Bite|4|1d8+2</attack>
-			<attack>Acid||1d8</attack>
-		</action>
-		<action>
-			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)</text>
-			<attack>Sticky Leg|4|</attack>
-		</action>
-	</monster>
 	<monster name="Narrak">
 		<name>Narrak</name>
 		<size>S</size>
@@ -1706,6 +1626,86 @@
 			<text>Orcus chooses a point on the ground that he can see within 100 feet of him. A cylinder of swirling necrotic energy 60 feet tall and with a 10-foot radius rises from that point and lasts until the end of Orcus's next turn. Creatures in that area are vulnerable to necrotic damage.</text>
 		</legendary>
 		<spells>Chill Touch, Detect Magic, Create Undead, Dispel Magic, Time Stop</spells>
+	</monster>
+	<monster name="Steeder, Female">
+		<name>Steeder, Female</name>
+		<size>L</size>
+		<type>beast</type>
+		<description>Source: Out of the Abyss</description>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>30 (4d10+8)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>15</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>3</cha>
+		<skill>Stealth +7</skill>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>-</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<name>Leap</name>
+			<text>The steeder can expend all its movement on its turn to jump up to 90 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Bite|5|1d8+3</attack>
+			<attack>Acid||2d8</attack>
+		</action>
+		<action>
+			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)</text>
+			<attack>Sticky Leg|5|</attack>
+		</action>
+	</monster>
+	<monster name="Steeder, Male">
+		<name>Steeder, Male</name>
+		<size>M</size>
+		<type>beast</type>
+		<description>Source: Out of the Abyss</description>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>13 (2d8+4)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>15</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>3</cha>
+		<skill>Stealth +5</skill>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>-</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<name>Leap</name>
+			<text>The steeder can expend all its movement on its turn to jump up to 60 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Bite|4|1d8+2</attack>
+			<attack>Acid||1d8</attack>
+		</action>
+		<action>
+			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)</text>
+			<attack>Sticky Leg|4|</attack>
+		</action>
 	</monster>
 	<monster name="The Pudding King">
 		<name>The Pudding King</name>
