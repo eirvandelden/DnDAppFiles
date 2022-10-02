@@ -2711,6 +2711,71 @@
       <attack>Wail||3d6</attack>
     </action>
   </monster>
+  <monster name="Mimic, Spitting">
+    <name>Mimic, Spitting</name>
+    <size>L</size>
+    <type>monstrosity (shapechanger)</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>neutral</alignment>
+    <ac>14 (natural armor)</ac>
+    <hp>85 (10d10 + 30)</hp>
+    <speed>20 ft.</speed>
+    <str>21</str>
+    <dex>12</dex>
+    <con>17</con>
+    <int>9</int>
+    <wis>15</wis>
+    <cha>10</cha>
+    <save></save>
+    <skill>stealth +7</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune>acid</immune>
+    <conditionImmune>prone</conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>12</passive>
+    <languages>—</languages>
+    <cr>5</cr>
+    <trait>
+      <name>Shapechanger</name>
+      <text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+    </trait>
+    <trait>
+      <name>Adhesive (Object Form Only)</name>
+      <text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 16). Ability checks made to escape this grapple have disadvantage.</text>
+    </trait>
+    <trait>
+      <name>False Appearance (Object Form Only)</name>
+      <text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
+    </trait>
+    <trait>
+      <name>Grappler</name>
+      <text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
+    </trait>
+    <trait>
+      <name>Magic Resistance</name>
+      <text>The mimic has advantage on saving throws against spells and other magical effects.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The mimic attacks three times: twice with its pseudopods and once with its bite.</text>
+    </action>
+    <action>
+      <name>Pseudopods</name>
+      <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
+      <attack>Pseudopods|8|1d10+5</attack>
+    </action>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage plus 7 (2d6) acid damage.</text>
+      <attack>Bite|8|1d10+5+2d6</attack>
+    </action>
+    <action>
+      <name>Spit Acid (Recharge 5-6)</name>
+      <text>The mimic spits acid at one creature it can see within 30 feet of it. The target must make a DC 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on failed save, or half as much damage on a successful one.</text>
+      <attack>Spit Acid||9d6+1</attack>
+    </action>
+  </monster>
   <monster name="Mjenir">
     <name>Mjenir</name>
     <size>M</size>
@@ -3414,71 +3479,6 @@
       <text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 18 (3d6 + 8) bludgeoning damage, or 37 (6d6 + 16) bludgeoning damage if the target is an object.</text>
       <attack>Tail|11|3d6+8</attack>
       <attack>Tail (object)|11|6d6+16</attack>
-    </action>
-  </monster>
-  <monster name="Spitting Mimic">
-    <name>Spitting Mimic</name>
-    <size>L</size>
-    <type>monstrosity (shapechanger)</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>neutral</alignment>
-    <ac>14 (natural armor)</ac>
-    <hp>85 (10d10 + 30)</hp>
-    <speed>20 ft.</speed>
-    <str>21</str>
-    <dex>12</dex>
-    <con>17</con>
-    <int>9</int>
-    <wis>15</wis>
-    <cha>10</cha>
-    <save></save>
-    <skill>stealth +7</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune>acid</immune>
-    <conditionImmune>prone</conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>12</passive>
-    <languages>—</languages>
-    <cr>5</cr>
-    <trait>
-      <name>Shapechanger</name>
-      <text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
-    </trait>
-    <trait>
-      <name>Adhesive (Object Form Only)</name>
-      <text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 16). Ability checks made to escape this grapple have disadvantage.</text>
-    </trait>
-    <trait>
-      <name>False Appearance (Object Form Only)</name>
-      <text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
-    </trait>
-    <trait>
-      <name>Grappler</name>
-      <text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
-    </trait>
-    <trait>
-      <name>Magic Resistance</name>
-      <text>The mimic has advantage on saving throws against spells and other magical effects.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The mimic attacks three times: twice with its pseudopods and once with its bite.</text>
-    </action>
-    <action>
-      <name>Pseudopods</name>
-      <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
-      <attack>Pseudopods|8|1d10+5</attack>
-    </action>
-    <action>
-      <name>Bite</name>
-      <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage plus 7 (2d6) acid damage.</text>
-      <attack>Bite|8|1d10+5+2d6</attack>
-    </action>
-    <action>
-      <name>Spit Acid (Recharge 5-6)</name>
-      <text>The mimic spits acid at one creature it can see within 30 feet of it. The target must make a DC 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on failed save, or half as much damage on a successful one.</text>
-      <attack>Spit Acid||9d6+1</attack>
     </action>
   </monster>
   <monster name="Telepathic Pentacle">

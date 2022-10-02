@@ -6920,59 +6920,6 @@
 			<text>When the dullahan is hit by a melee attack it can move its severed head in front of the attacker's face. The attacker is affected by the dullahan's Baleful Glare immediately. If the creature is averting its eyes this turn, it must still make the save, but does so with advantage.</text>
 		</reaction>
 	</monster>
-	<monster name="Dune Mimic">
-		<name>Dune Mimic</name>
-		<size>H</size>
-		<type>monstrosity (shapechanger)</type>
-		<description>Source: Tome of Beasts</description>
-		<alignment>neutral</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>168 (16d12 + 64)</hp>
-		<speed>10 ft.</speed>
-		<str>20</str>
-		<dex>8</dex>
-		<con>18</con>
-		<int>9</int>
-		<wis>13</wis>
-		<cha>10</cha>
-		<skill>Perception +4</skill>
-		<immune>acid</immune>
-		<conditionImmune>prone</conditionImmune>
-		<senses>darkvision 60 ft., tremorsense 30 ft.</senses>
-		<passive>14</passive>
-		<languages>-</languages>
-		<cr>8</cr>
-		<trait>
-			<name>Shapechanger</name>
-			<text>The dune mimic can use its action to polymorph into a Huge object or terrain feature (maximum area 25 x 25 feet) or back into its true, amorphous form. Since its coating of dust, sand, and gravel can't be hidden, it usually disguises itself as a terrain feature or eroded ruin. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
-		</trait>
-		<trait>
-			<name>Adhesive (Object or Terrain Form Only)</name>
-			<text>The dune mimic adheres to anything that touches it. A creature adhered to the dune mimic is also grappled by it (escape DC 15). Ability checks made to escape this grapple have disadvantage. The dune mimic can harden its outer surface, so only the creatures it chooses are affected by this trait.</text>
-		</trait>
-		<trait>
-			<name>False Appearance (Object or Terrain Form Only)</name>
-			<text>While the dune mimic remains motionless, it is indistinguishable from an ordinary object or terrain feature.</text>
-		</trait>
-		<trait>
-			<name>Grappler</name>
-			<text>The dune mimic has advantage on attack rolls against a creature grappled by it.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The dune mimic makes four pseudopod attacks.</text>
-		</action>
-		<action>
-			<name>Pseudopod</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage. If the dune mimic is in object or terrain form, the target is subjected to the mimic's Adhesive trait.</text>
-			<attack>Pseudopod|8|2d8+5</attack>
-		</action>
-		<action>
-			<name>Engulf</name>
-			<text>The dune mimic engulfs all creatures it has grappled. An engulfed creature can't breathe, is restrained, is no longer grappled, has total cover against attacks and other effects outside the dune mimic, and takes 18 (4d8) acid damage at the start of each of the dune mimic's turns. When the dune mimic moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a DC 15 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the dune mimic.</text>
-			<attack>Engulf||4d8</attack>
-		</action>
-	</monster>
 	<monster name="Dust Goblin">
 		<name>Dust Goblin</name>
 		<size>S</size>
@@ -14116,49 +14063,6 @@
 			<attack>Bites (1/2 hp)|5|2d6</attack>
 		</action>
 	</monster>
-	<monster name="Map Mimic">
-		<name>Map Mimic</name>
-		<size>T</size>
-		<type>aberration (shapechanger)</type>
-		<description>Source: Tome of Beasts</description>
-		<alignment>neutral</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>32 (5d8 + 10)</hp>
-		<speed>30 ft., fly 15 ft.</speed>
-		<str>10</str>
-		<dex>15</dex>
-		<con>14</con>
-		<int>13</int>
-		<wis>15</wis>
-		<cha>16</cha>
-		<immune>acid</immune>
-		<conditionImmune>prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>14</passive>
-		<languages>-</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Shapechanger</name>
-			<text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
-		</trait>
-		<trait>
-			<name>Constrict Face</name>
-			<text>When a map mimic touches a Medium or smaller creature or vice versa, it adheres to the creature, enveloping the creature's face and covering its eyes and ears and airways (escape DC 13). The target creature is immediately blinded and deafened, and it begins suffocating at the beginning of the mimic's next turn.</text>
-		</trait>
-		<trait>
-			<name>False Appearance (Object Form Only)</name>
-			<text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
-		</trait>
-		<trait>
-			<name>Mimic Page</name>
-			<text>The mimic can disguise itself as any tiny, flat object, a piece of leather, a plate, not only a map. In any form, a map mimic can make a map on its skin leading to its mother mimic.</text>
-		</trait>
-		<action>
-			<name>Pseudopod</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage. If the mimic is in object form, the target is subjected to its Constrict Face trait.</text>
-			<attack>Pseudopod|4|1d6+2</attack>
-		</action>
-	</monster>
 	<monster name="Mask Wight">
 		<name>Mask Wight</name>
 		<size>M</size>
@@ -14601,6 +14505,102 @@
 			<name>Handaxe</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 2 (1d4) poison damage.</text>
 			<attack>Handaxe|6|2d6+4+1d4</attack>
+		</action>
+	</monster>
+	<monster name="Mimic, Dune">
+		<name>Mimic, Dune</name>
+		<size>H</size>
+		<type>monstrosity (shapechanger)</type>
+		<description>Source: Tome of Beasts</description>
+		<alignment>neutral</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>168 (16d12 + 64)</hp>
+		<speed>10 ft.</speed>
+		<str>20</str>
+		<dex>8</dex>
+		<con>18</con>
+		<int>9</int>
+		<wis>13</wis>
+		<cha>10</cha>
+		<skill>Perception +4</skill>
+		<immune>acid</immune>
+		<conditionImmune>prone</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 30 ft.</senses>
+		<passive>14</passive>
+		<languages>-</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The dune mimic can use its action to polymorph into a Huge object or terrain feature (maximum area 25 x 25 feet) or back into its true, amorphous form. Since its coating of dust, sand, and gravel can't be hidden, it usually disguises itself as a terrain feature or eroded ruin. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<trait>
+			<name>Adhesive (Object or Terrain Form Only)</name>
+			<text>The dune mimic adheres to anything that touches it. A creature adhered to the dune mimic is also grappled by it (escape DC 15). Ability checks made to escape this grapple have disadvantage. The dune mimic can harden its outer surface, so only the creatures it chooses are affected by this trait.</text>
+		</trait>
+		<trait>
+			<name>False Appearance (Object or Terrain Form Only)</name>
+			<text>While the dune mimic remains motionless, it is indistinguishable from an ordinary object or terrain feature.</text>
+		</trait>
+		<trait>
+			<name>Grappler</name>
+			<text>The dune mimic has advantage on attack rolls against a creature grappled by it.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The dune mimic makes four pseudopod attacks.</text>
+		</action>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage. If the dune mimic is in object or terrain form, the target is subjected to the mimic's Adhesive trait.</text>
+			<attack>Pseudopod|8|2d8+5</attack>
+		</action>
+		<action>
+			<name>Engulf</name>
+			<text>The dune mimic engulfs all creatures it has grappled. An engulfed creature can't breathe, is restrained, is no longer grappled, has total cover against attacks and other effects outside the dune mimic, and takes 18 (4d8) acid damage at the start of each of the dune mimic's turns. When the dune mimic moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a DC 15 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the dune mimic.</text>
+			<attack>Engulf||4d8</attack>
+		</action>
+	</monster>
+	<monster name="Mimic, Map">
+		<name>Mimic, Map</name>
+		<size>T</size>
+		<type>aberration (shapechanger)</type>
+		<description>Source: Tome of Beasts</description>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>32 (5d8 + 10)</hp>
+		<speed>30 ft., fly 15 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>13</int>
+		<wis>15</wis>
+		<cha>16</cha>
+		<immune>acid</immune>
+		<conditionImmune>prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>-</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<trait>
+			<name>Constrict Face</name>
+			<text>When a map mimic touches a Medium or smaller creature or vice versa, it adheres to the creature, enveloping the creature's face and covering its eyes and ears and airways (escape DC 13). The target creature is immediately blinded and deafened, and it begins suffocating at the beginning of the mimic's next turn.</text>
+		</trait>
+		<trait>
+			<name>False Appearance (Object Form Only)</name>
+			<text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
+		</trait>
+		<trait>
+			<name>Mimic Page</name>
+			<text>The mimic can disguise itself as any tiny, flat object, a piece of leather, a plate, not only a map. In any form, a map mimic can make a map on its skin leading to its mother mimic.</text>
+		</trait>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage. If the mimic is in object form, the target is subjected to its Constrict Face trait.</text>
+			<attack>Pseudopod|4|1d6+2</attack>
 		</action>
 	</monster>
 	<monster name="Mindrot Thrall">

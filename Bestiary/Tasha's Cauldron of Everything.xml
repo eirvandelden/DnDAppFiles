@@ -590,49 +590,6 @@
             <text>The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</text>
         </reaction>
     </monster>
-    <monster name="Juvenile Mimic">
-        <name>Juvenile Mimic</name>
-        <size>T</size>
-        <type>monstrosity (shapechanger)</type>
-        <description>Source: Tasha's Cauldron of Everything</description>
-        <alignment>unaligned</alignment>
-        <ac>11</ac>
-        <hp>7 (2d4 + 2)</hp>
-        <speed>10 ft., climb 10 ft.</speed>
-        <str>1</str>
-        <dex>12</dex>
-        <con>13</con>
-        <int>10</int>
-        <wis>13</wis>
-        <cha>10</cha>
-        <save></save>
-        <skill>Stealth +3</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>acid</immune>
-        <conditionImmune>prone</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>11</passive>
-        <languages>Common,Undercommon,telepathy 120 ft.</languages>
-        <cr>0</cr>
-        <trait>
-            <name>False Appearance (Object Form Only)</name>
-            <text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
-        </trait>
-        <trait>
-            <name>Spider Climb</name>
-            <text>The mimic can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-        </trait>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 2 (1d4) acid damage.</text>
-            <attack>Bite|3|1d4</attack>
-        </action>
-        <action>
-            <name>Shape-Shift</name>
-            <text>The mimic polymorphs into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
-        </action>
-    </monster>
     <monster name="Mighty Servant of Leuk-o">
         <name>Mighty Servant of Leuk-o</name>
         <size>H</size>
@@ -688,7 +645,50 @@
             <attack>Crushing Leap||4d12</attack>
         </action>
     </monster>
-    	<monster name="Shadow">
+    	<monster name="Mimic, Juvenile">
+        <name>Mimic, Juvenile</name>
+        <size>T</size>
+        <type>monstrosity (shapechanger)</type>
+        <description>Source: Tasha's Cauldron of Everything</description>
+        <alignment>unaligned</alignment>
+        <ac>11</ac>
+        <hp>7 (2d4 + 2)</hp>
+        <speed>10 ft., climb 10 ft.</speed>
+        <str>1</str>
+        <dex>12</dex>
+        <con>13</con>
+        <int>10</int>
+        <wis>13</wis>
+        <cha>10</cha>
+        <save></save>
+        <skill>Stealth +3</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>acid</immune>
+        <conditionImmune>prone</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>11</passive>
+        <languages>Common,Undercommon,telepathy 120 ft.</languages>
+        <cr>0</cr>
+        <trait>
+            <name>False Appearance (Object Form Only)</name>
+            <text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
+        </trait>
+        <trait>
+            <name>Spider Climb</name>
+            <text>The mimic can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 2 (1d4) acid damage.</text>
+            <attack>Bite|3|1d4</attack>
+        </action>
+        <action>
+            <name>Shape-Shift</name>
+            <text>The mimic polymorphs into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+        </action>
+    </monster>
+    <monster name="Shadow">
 		<name>Shadow</name>
 		<size>M</size>
 		<type>fey</type>

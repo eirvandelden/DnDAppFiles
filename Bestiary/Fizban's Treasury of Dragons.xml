@@ -202,6 +202,113 @@
             <attack>Explosive Crystal||4d8</attack>
         </legendary>
     </monster>
+    <monster name="Amethyst Dragon, Greatwyrm">
+        <name>Amethyst Dragon, Greatwyrm</name>
+        <size>G</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>21 (natural armor)</ac>
+        <hp>507 (26d20 + 234)</hp>
+        <speed>60 ft., burrow 60 ft.,fly 120 ft. (hover),swim 60 ft.</speed>
+        <str>28</str>
+        <dex>14</dex>
+        <con>29</con>
+        <int>30</int>
+        <wis>24</wis>
+        <cha>25</cha>
+        <save>Dex +10,Con +17,Wis +15,Cha +15</save>
+        <skill>Arcana +26,History +18,Perception +15</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>force</immune>
+        <conditionImmune>charmed,frightened,poisoned,prone</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>25</passive>
+        <languages>Common,Draconic</languages>
+        <cr>26</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
+            <text>1/Day each: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
+        <trait>
+            <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
+            <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>Short</recharge>
+        </trait>
+        <trait>
+            <name>Legendary Resistance (4/Day)</name>
+            <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The greatwyrm doesn't require food or drink.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The greatwyrm makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.</text>
+            <attack>Bite|17|2d10+9+3d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time.</text>
+            <attack>Claw|17|2d8+9</attack>
+        </action>
+        <action>
+            <name>Breath Weapon (Recharge 5-6)</name>
+            <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a DC DC 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
+            <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
+        </action>
+        <action>
+            <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
+            <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a DC DC 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
+            <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
+            <attack>Mass Telekinesis||7d12</attack>
+            <recharge>SHORT</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The greatwyrm makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The greatwyrm uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Psychic Beam (Costs 3 Actions)</name>
+            <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Psychic Beam||5d10</attack>
+        </legendary>
+    </monster>
     <monster name="Amethyst Dragon, Wyrmling">
         <name>Amethyst Dragon, Wyrmling</name>
         <size>M</size>
@@ -334,113 +441,6 @@
             <attack>Singularity Breath||8d8</attack>
             <recharge>D5</recharge>
         </action>
-    </monster>
-    <monster name="Amethyst Dragon, Greatwyrm">
-        <name>Amethyst Dragon, Greatwyrm</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>21 (natural armor)</ac>
-        <hp>507 (26d20 + 234)</hp>
-        <speed>60 ft., burrow 60 ft.,fly 120 ft. (hover),swim 60 ft.</speed>
-        <str>28</str>
-        <dex>14</dex>
-        <con>29</con>
-        <int>30</int>
-        <wis>24</wis>
-        <cha>25</cha>
-        <save>Dex +10,Con +17,Wis +15,Cha +15</save>
-        <skill>Arcana +26,History +18,Perception +15</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>force</immune>
-        <conditionImmune>charmed,frightened,poisoned,prone</conditionImmune>
-        <senses>truesight 120 ft.</senses>
-        <passive>25</passive>
-        <languages>Common,Draconic</languages>
-        <cr>26</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
-            <text>1/Day each: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
-        </trait>
-        <trait>
-          <name>Dispel Magic</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Forcecage</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Plane Shift</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Reverse Gravity</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Time Stop</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
-        <trait>
-            <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
-            <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>Short</recharge>
-        </trait>
-        <trait>
-            <name>Legendary Resistance (4/Day)</name>
-            <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>4/Day</recharge>
-        </trait>
-        <trait>
-            <name>Unusual Nature</name>
-            <text>The greatwyrm doesn't require food or drink.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The greatwyrm makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.</text>
-            <attack>Bite|17|2d10+9+3d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time.</text>
-            <attack>Claw|17|2d8+9</attack>
-        </action>
-        <action>
-            <name>Breath Weapon (Recharge 5-6)</name>
-            <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a DC DC 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
-            <attack>Breath Weapon||11d12</attack>
-            <recharge>D5</recharge>
-        </action>
-        <action>
-            <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
-            <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a DC DC 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
-            <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
-            <attack>Mass Telekinesis||7d12</attack>
-            <recharge>SHORT</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The greatwyrm makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The greatwyrm uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Psychic Beam (Costs 3 Actions)</name>
-            <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
-            <attack>Psychic Beam||5d10</attack>
-        </legendary>
     </monster>
     <monster name="Animated Breath">
         <name>Animated Breath</name>
@@ -1210,112 +1210,6 @@
             <attack>Starlight Strike||11d6</attack>
         </legendary>
     </monster>
-    <monster name="Crystal Dragon, Wyrmling">
-        <name>Crystal Dragon, Wyrmling</name>
-        <size>M</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>14 (natural armor)</ac>
-        <hp>32 (5d8 + 10)</hp>
-        <speed>30 ft., burrow 15 ft.,climb 30 ft.,fly 60 ft.</speed>
-        <str>14</str>
-        <dex>12</dex>
-        <con>14</con>
-        <int>14</int>
-        <wis>13</wis>
-        <cha>15</cha>
-        <save>Dex +3,Con +4,Wis +3,Cha +4</save>
-        <skill>Perception +5,Stealth +5,Survival +3</skill>
-        <vulnerable></vulnerable>
-        <resist>cold,radiant</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 10 ft., darkvision 60 ft.</senses>
-        <passive>15</passive>
-        <languages>Draconic,telepathy 120 ft.</languages>
-        <cr>2</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:</text>
-            <text>At will: dancing lights, guidance</text>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Guidance</spells>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) radiant damage.</text>
-            <attack>Bite|4|1d10+2+1d4</attack>
-        </action>
-        <action>
-            <name>Scintillating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a burst of brilliant radiance in a 15-foot cone. Each creature in that area must make a DC DC 12 Constitution saving throw, taking 18 (4d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 5 temporary hit points by absorbing a portion of the radiant energy.</text>
-            <attack>Scintillating Breath||4d8</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
-    <monster name="Crystal Dragon, Young">
-        <name>Crystal Dragon, Young</name>
-        <size>L</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>chaotic neutral</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>95 (10d10 + 40)</hp>
-        <speed>40 ft., burrow 20 ft.,climb 40 ft.,fly 80 ft.</speed>
-        <str>17</str>
-        <dex>12</dex>
-        <con>18</con>
-        <int>16</int>
-        <wis>14</wis>
-        <cha>17</cha>
-        <save>Dex +4,Con +7,Wis +5,Cha +6</save>
-        <skill>Perception +8,Stealth +7,Survival +5</skill>
-        <vulnerable></vulnerable>
-        <resist>cold,radiant</resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
-        <passive>18</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>5</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 16):</text>
-            <text>At will: dancing lights, guidance</text>
-            <text>1/Day each: hypnotic pattern, lesser restoration</text>
-        </trait>
-        <trait>
-          <name>Hypnotic Pattern</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Lesser Restoration</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dancing Lights,Guidance,Hypnotic Pattern,Lesser Restoration</spells>
-        <action>
-            <name>Multiattack</name>
-            <text>The dragon makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage plus 4 (1d8) radiant damage.</text>
-            <attack>Bite|6|2d10+3+1d8</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-            <attack>Claw|6|1d6+3</attack>
-        </action>
-        <action>
-            <name>Scintillating Breath (Recharge 5-6)</name>
-            <text>The dragon exhales a burst of brilliant radiance in a 30-foot cone. Each creature in that area must make a DC DC 15 Constitution saving throw, taking 27 (6d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 10 temporary hit points by absorbing a portion of the radiant energy.</text>
-            <attack>Scintillating Breath||6d8</attack>
-            <recharge>D5</recharge>
-        </action>
-    </monster>
     <monster name="Crystal Dragon, Greatwyrm">
         <name>Crystal Dragon, Greatwyrm</name>
         <size>G</size>
@@ -1422,6 +1316,112 @@
             <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Psychic Beam||5d10</attack>
         </legendary>
+    </monster>
+    <monster name="Crystal Dragon, Wyrmling">
+        <name>Crystal Dragon, Wyrmling</name>
+        <size>M</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>14 (natural armor)</ac>
+        <hp>32 (5d8 + 10)</hp>
+        <speed>30 ft., burrow 15 ft.,climb 30 ft.,fly 60 ft.</speed>
+        <str>14</str>
+        <dex>12</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>13</wis>
+        <cha>15</cha>
+        <save>Dex +3,Con +4,Wis +3,Cha +4</save>
+        <skill>Perception +5,Stealth +5,Survival +3</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,radiant</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 10 ft., darkvision 60 ft.</senses>
+        <passive>15</passive>
+        <languages>Draconic,telepathy 120 ft.</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:</text>
+            <text>At will: dancing lights, guidance</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Guidance</spells>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) radiant damage.</text>
+            <attack>Bite|4|1d10+2+1d4</attack>
+        </action>
+        <action>
+            <name>Scintillating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a burst of brilliant radiance in a 15-foot cone. Each creature in that area must make a DC DC 12 Constitution saving throw, taking 18 (4d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 5 temporary hit points by absorbing a portion of the radiant energy.</text>
+            <attack>Scintillating Breath||4d8</attack>
+            <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster name="Crystal Dragon, Young">
+        <name>Crystal Dragon, Young</name>
+        <size>L</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>95 (10d10 + 40)</hp>
+        <speed>40 ft., burrow 20 ft.,climb 40 ft.,fly 80 ft.</speed>
+        <str>17</str>
+        <dex>12</dex>
+        <con>18</con>
+        <int>16</int>
+        <wis>14</wis>
+        <cha>17</cha>
+        <save>Dex +4,Con +7,Wis +5,Cha +6</save>
+        <skill>Perception +8,Stealth +7,Survival +5</skill>
+        <vulnerable></vulnerable>
+        <resist>cold,radiant</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 30 ft., darkvision 120 ft.</senses>
+        <passive>18</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC DC 16):</text>
+            <text>At will: dancing lights, guidance</text>
+            <text>1/Day each: hypnotic pattern, lesser restoration</text>
+        </trait>
+        <trait>
+          <name>Hypnotic Pattern</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Lesser Restoration</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dancing Lights,Guidance,Hypnotic Pattern,Lesser Restoration</spells>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage plus 4 (1d8) radiant damage.</text>
+            <attack>Bite|6|2d10+3+1d8</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+            <attack>Claw|6|1d6+3</attack>
+        </action>
+        <action>
+            <name>Scintillating Breath (Recharge 5-6)</name>
+            <text>The dragon exhales a burst of brilliant radiance in a 30-foot cone. Each creature in that area must make a DC DC 15 Constitution saving throw, taking 27 (6d8) radiant damage on a failed save, or half as much damage on a successful one. The dragon then gains 10 temporary hit points by absorbing a portion of the radiant energy.</text>
+            <attack>Scintillating Breath||6d8</attack>
+            <recharge>D5</recharge>
+        </action>
     </monster>
     <monster name="Deep Dragon, Adult">
         <name>Deep Dragon, Adult</name>
@@ -3305,6 +3305,113 @@
             <attack>Emerald Embers||12d6</attack>
         </legendary>
     </monster>
+    <monster name="Emerald Dragon, Greatwyrm">
+        <name>Emerald Dragon, Greatwyrm</name>
+        <size>G</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>21 (natural armor)</ac>
+        <hp>507 (26d20 + 234)</hp>
+        <speed>60 ft., burrow 60 ft.,fly 120 ft. (hover),swim 60 ft.</speed>
+        <str>28</str>
+        <dex>14</dex>
+        <con>29</con>
+        <int>30</int>
+        <wis>24</wis>
+        <cha>25</cha>
+        <save>Dex +10,Con +17,Wis +15,Cha +15</save>
+        <skill>Arcana +26,History +18,Perception +15</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>psychic</immune>
+        <conditionImmune>charmed,frightened,poisoned,prone</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>25</passive>
+        <languages>Common,Draconic</languages>
+        <cr>26</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
+            <text>1/Day each: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
+        <trait>
+            <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
+            <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>SHORT</recharge>
+        </trait>
+        <trait>
+            <name>Legendary Resistance (4/Day)</name>
+            <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The greatwyrm doesn't require food or drink.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The greatwyrm makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.</text>
+            <attack>Bite|17|2d10+9+3d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time.</text>
+            <attack>Claw|17|2d8+9</attack>
+        </action>
+        <action>
+            <name>Breath Weapon (Recharge 5-6)</name>
+            <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a DC DC 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
+            <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
+        </action>
+        <action>
+            <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
+            <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a DC DC 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
+            <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
+            <attack>Mass Telekinesis||7d12</attack>
+            <recharge>SHORT</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The greatwyrm makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The greatwyrm uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Psychic Beam (Costs 3 Actions)</name>
+            <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Psychic Beam||5d10</attack>
+        </legendary>
+    </monster>
     <monster name="Emerald Dragon, Wyrmling">
         <name>Emerald Dragon, Wyrmling</name>
         <size>M</size>
@@ -3424,113 +3531,6 @@
             <recharge>D5</recharge>
             <attack>Reduction||1d6</attack>
         </action>
-    </monster>
-    <monster name="Emerald Dragon, Greatwyrm">
-        <name>Emerald Dragon, Greatwyrm</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>21 (natural armor)</ac>
-        <hp>507 (26d20 + 234)</hp>
-        <speed>60 ft., burrow 60 ft.,fly 120 ft. (hover),swim 60 ft.</speed>
-        <str>28</str>
-        <dex>14</dex>
-        <con>29</con>
-        <int>30</int>
-        <wis>24</wis>
-        <cha>25</cha>
-        <save>Dex +10,Con +17,Wis +15,Cha +15</save>
-        <skill>Arcana +26,History +18,Perception +15</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>psychic</immune>
-        <conditionImmune>charmed,frightened,poisoned,prone</conditionImmune>
-        <senses>truesight 120 ft.</senses>
-        <passive>25</passive>
-        <languages>Common,Draconic</languages>
-        <cr>26</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
-            <text>1/Day each: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
-        </trait>
-        <trait>
-          <name>Dispel Magic</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Forcecage</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Plane Shift</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Reverse Gravity</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Time Stop</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
-        <trait>
-            <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
-            <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>SHORT</recharge>
-        </trait>
-        <trait>
-            <name>Legendary Resistance (4/Day)</name>
-            <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>4/Day</recharge>
-        </trait>
-        <trait>
-            <name>Unusual Nature</name>
-            <text>The greatwyrm doesn't require food or drink.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The greatwyrm makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.</text>
-            <attack>Bite|17|2d10+9+3d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time.</text>
-            <attack>Claw|17|2d8+9</attack>
-        </action>
-        <action>
-            <name>Breath Weapon (Recharge 5-6)</name>
-            <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a DC DC 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
-            <attack>Breath Weapon||11d12</attack>
-            <recharge>D5</recharge>
-        </action>
-        <action>
-            <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
-            <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a DC DC 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
-            <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
-            <attack>Mass Telekinesis||7d12</attack>
-            <recharge>SHORT</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The greatwyrm makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The greatwyrm uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Psychic Beam (Costs 3 Actions)</name>
-            <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
-            <attack>Psychic Beam||5d10</attack>
-        </legendary>
     </monster>
     <monster name="Eyedrake">
         <name>Eyedrake</name>
@@ -3888,60 +3888,6 @@
             <attack>Arcane Spear||1d8+8</attack>
         </legendary>
     </monster>
-    <monster name="Hoard Mimic">
-        <name>Hoard Mimic</name>
-        <size>H</size>
-        <type>monstrosity</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>14 (natural armor)</ac>
-        <hp>123 (13d12 + 39)</hp>
-        <speed>30 ft.</speed>
-        <str>21</str>
-        <dex>12</dex>
-        <con>17</con>
-        <int>10</int>
-        <wis>16</wis>
-        <cha>10</cha>
-        <save>Con +6,Wis +6</save>
-        <skill>Persuasion +3,Stealth +6</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune>prone</conditionImmune>
-        <senses>darkvision 60 ft.</senses>
-        <passive>13</passive>
-        <languages>Common,Draconic,telepathy 120 ft.</languages>
-        <cr>8</cr>
-        <trait>
-            <name>False Appearance (Hoard Form Only)</name>
-            <text>If the mimic is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the mimic move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the mimic is animate.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The mimic makes one Bite attack and two Pseudopod attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) acid damage.</text>
-            <attack>Bite|8|2d10+5+2d6</attack>
-        </action>
-        <action>
-            <name>Pseudopod</name>
-            <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage, and the mimic adheres to the target. A creature adhered to the mimic is also grappled by it (escape DC DC 16). Until this grapple ends, the target is restrained. Ability checks made to escape this grapple have disadvantage.</text>
-            <attack>Pseudopod|8|2d6+5</attack>
-        </action>
-        <action>
-            <name>Caustic Mist (Recharge 5-6)</name>
-            <text>The mimic sprays a fine mist of acid in a 30-foot cone. Each creature in that area must make a DC DC 14 Dexterity saving throw. On a failed save, the creature takes 27 (6d8) acid damage and is blinded until the end of its next turn. On a successful save, the creature takes half as much damage and isn't blinded.</text>
-            <attack>Caustic Mist||6d8</attack>
-            <recharge>D5</recharge>
-        </action>
-        <action>
-            <name>Shapechanger</name>
-            <text>The mimic transforms into a hoard or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
-        </action>
-    </monster>
     <monster name="Hoard Scarab">
         <name>Hoard Scarab</name>
         <size>T</size>
@@ -4185,6 +4131,60 @@
             <name>Calming Mist (Recharge 5-6)</name>
             <text>The warbler releases a calming gas in a 5-foot-radius sphere centered on itself. Each creature in that area must succeed on a DC DC 11 Charisma saving throw or become charmed by the warbler for 1 minute. While charmed in this way, the creature is incapacitated and has a speed of 0.</text>
             <recharge>D5</recharge>
+        </action>
+    </monster>
+    <monster name="Mimic, Hoard">
+        <name>Mimic, Hoard</name>
+        <size>H</size>
+        <type>monstrosity</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>14 (natural armor)</ac>
+        <hp>123 (13d12 + 39)</hp>
+        <speed>30 ft.</speed>
+        <str>21</str>
+        <dex>12</dex>
+        <con>17</con>
+        <int>10</int>
+        <wis>16</wis>
+        <cha>10</cha>
+        <save>Con +6,Wis +6</save>
+        <skill>Persuasion +3,Stealth +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune>prone</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>13</passive>
+        <languages>Common,Draconic,telepathy 120 ft.</languages>
+        <cr>8</cr>
+        <trait>
+            <name>False Appearance (Hoard Form Only)</name>
+            <text>If the mimic is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the mimic move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the mimic is animate.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The mimic makes one Bite attack and two Pseudopod attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) acid damage.</text>
+            <attack>Bite|8|2d10+5+2d6</attack>
+        </action>
+        <action>
+            <name>Pseudopod</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage, and the mimic adheres to the target. A creature adhered to the mimic is also grappled by it (escape DC DC 16). Until this grapple ends, the target is restrained. Ability checks made to escape this grapple have disadvantage.</text>
+            <attack>Pseudopod|8|2d6+5</attack>
+        </action>
+        <action>
+            <name>Caustic Mist (Recharge 5-6)</name>
+            <text>The mimic sprays a fine mist of acid in a 30-foot cone. Each creature in that area must make a DC DC 14 Dexterity saving throw. On a failed save, the creature takes 27 (6d8) acid damage and is blinded until the end of its next turn. On a successful save, the creature takes half as much damage and isn't blinded.</text>
+            <attack>Caustic Mist||6d8</attack>
+            <recharge>D5</recharge>
+        </action>
+        <action>
+            <name>Shapechanger</name>
+            <text>The mimic transforms into a hoard or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
         </action>
     </monster>
     <monster name="Moonstone Dragon, Adult">
@@ -4738,6 +4738,113 @@
             <attack>Telekinetic Fling||12d6</attack>
         </legendary>
     </monster>
+    <monster name="Sapphire Dragon, Greatwyrm">
+        <name>Sapphire Dragon, Greatwyrm</name>
+        <size>G</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>21 (natural armor)</ac>
+        <hp>507 (26d20 + 234)</hp>
+        <speed>60 ft., burrow 60 ft.,fly 120 ft. (hover),swim 60 ft.</speed>
+        <str>28</str>
+        <dex>14</dex>
+        <con>29</con>
+        <int>30</int>
+        <wis>24</wis>
+        <cha>25</cha>
+        <save>Dex +10,Con +17,Wis +15,Cha +15</save>
+        <skill>Arcana +26,History +18,Perception +15</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>thunder</immune>
+        <conditionImmune>charmed,frightened,poisoned,prone</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>25</passive>
+        <languages>Common,Draconic</languages>
+        <cr>26</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
+            <text>1/Day each: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
+        <trait>
+            <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
+            <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>SHORT</recharge>
+        </trait>
+        <trait>
+            <name>Legendary Resistance (4/Day)</name>
+            <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The greatwyrm doesn't require food or drink.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The greatwyrm makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.</text>
+            <attack>Bite|17|2d10+9+3d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time.</text>
+            <attack>Claw|17|2d8+9</attack>
+        </action>
+        <action>
+            <name>Breath Weapon (Recharge 5-6)</name>
+            <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a DC DC 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
+            <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
+        </action>
+        <action>
+            <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
+            <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a DC DC 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
+            <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
+            <attack>Mass Telekinesis||7d12</attack>
+            <recharge>SHORT</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The greatwyrm makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The greatwyrm uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Psychic Beam (Costs 3 Actions)</name>
+            <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Psychic Beam||5d10</attack>
+        </legendary>
+    </monster>
     <monster name="Sapphire Dragon, Wyrmling">
         <name>Sapphire Dragon, Wyrmling</name>
         <size>M</size>
@@ -4870,113 +4977,6 @@
             <attack>Debilitating Breath||6d10</attack>
             <recharge>D5</recharge>
         </action>
-    </monster>
-    <monster name="Sapphire Dragon, Greatwyrm">
-        <name>Sapphire Dragon, Greatwyrm</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>21 (natural armor)</ac>
-        <hp>507 (26d20 + 234)</hp>
-        <speed>60 ft., burrow 60 ft.,fly 120 ft. (hover),swim 60 ft.</speed>
-        <str>28</str>
-        <dex>14</dex>
-        <con>29</con>
-        <int>30</int>
-        <wis>24</wis>
-        <cha>25</cha>
-        <save>Dex +10,Con +17,Wis +15,Cha +15</save>
-        <skill>Arcana +26,History +18,Perception +15</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>thunder</immune>
-        <conditionImmune>charmed,frightened,poisoned,prone</conditionImmune>
-        <senses>truesight 120 ft.</senses>
-        <passive>25</passive>
-        <languages>Common,Draconic</languages>
-        <cr>26</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
-            <text>1/Day each: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
-        </trait>
-        <trait>
-          <name>Dispel Magic</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Forcecage</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Plane Shift</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Reverse Gravity</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Time Stop</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
-        <trait>
-            <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
-            <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>SHORT</recharge>
-        </trait>
-        <trait>
-            <name>Legendary Resistance (4/Day)</name>
-            <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>4/Day</recharge>
-        </trait>
-        <trait>
-            <name>Unusual Nature</name>
-            <text>The greatwyrm doesn't require food or drink.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The greatwyrm makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.</text>
-            <attack>Bite|17|2d10+9+3d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time.</text>
-            <attack>Claw|17|2d8+9</attack>
-        </action>
-        <action>
-            <name>Breath Weapon (Recharge 5-6)</name>
-            <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a DC DC 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
-            <attack>Breath Weapon||11d12</attack>
-            <recharge>D5</recharge>
-        </action>
-        <action>
-            <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
-            <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a DC DC 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
-            <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
-            <attack>Mass Telekinesis||7d12</attack>
-            <recharge>SHORT</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The greatwyrm makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The greatwyrm uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Psychic Beam (Costs 3 Actions)</name>
-            <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
-            <attack>Psychic Beam||5d10</attack>
-        </legendary>
     </monster>
     <monster name="Sea Serpent, Ancient">
         <name>Sea Serpent, Ancient</name>
@@ -5409,6 +5409,113 @@
             <attack>Essential Reduction||9d8</attack>
         </legendary>
     </monster>
+    <monster name="Topaz Dragon, Greatwyrm">
+        <name>Topaz Dragon, Greatwyrm</name>
+        <size>G</size>
+        <type>dragon (gem)</type>
+        <description>Source: Fizban's Treasury of Dragons</description>
+        <alignment>neutral</alignment>
+        <ac>21 (natural armor)</ac>
+        <hp>507 (26d20 + 234)</hp>
+        <speed>60 ft., burrow 60 ft.,fly 120 ft. (hover),swim 60 ft.</speed>
+        <str>28</str>
+        <dex>14</dex>
+        <con>29</con>
+        <int>30</int>
+        <wis>24</wis>
+        <cha>25</cha>
+        <save>Dex +10,Con +17,Wis +15,Cha +15</save>
+        <skill>Arcana +26,History +18,Perception +15</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune>necrotic</immune>
+        <conditionImmune>charmed,frightened,poisoned,prone</conditionImmune>
+        <senses>truesight 120 ft.</senses>
+        <passive>25</passive>
+        <languages>Common,Draconic</languages>
+        <cr>26</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
+            <text>1/Day each: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
+        </trait>
+        <trait>
+          <name>Dispel Magic</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Forcecage</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Plane Shift</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Reverse Gravity</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+          <name>Time Stop</name>
+          <recharge>1/Day</recharge>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
+        <trait>
+            <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
+            <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
+            <recharge>SHORT</recharge>
+        </trait>
+        <trait>
+            <name>Legendary Resistance (4/Day)</name>
+            <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
+            <recharge>4/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The greatwyrm doesn't require food or drink.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The greatwyrm makes one Bite attack and two Claw attacks.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.</text>
+            <attack>Bite|17|2d10+9+3d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time.</text>
+            <attack>Claw|17|2d8+9</attack>
+        </action>
+        <action>
+            <name>Breath Weapon (Recharge 5-6)</name>
+            <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a DC DC 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
+            <attack>Breath Weapon||11d12</attack>
+            <recharge>D5</recharge>
+        </action>
+        <action>
+            <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
+            <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a DC DC 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
+            <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
+            <attack>Mass Telekinesis||7d12</attack>
+            <recharge>SHORT</recharge>
+        </action>
+        <legendary>
+            <name>Claw</name>
+            <text>The greatwyrm makes one Claw attack.</text>
+        </legendary>
+        <legendary>
+            <name>Psionics (Costs 2 Actions)</name>
+            <text>The greatwyrm uses Psychic Step or Spellcasting.</text>
+        </legendary>
+        <legendary>
+            <name>Psychic Beam (Costs 3 Actions)</name>
+            <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Psychic Beam||5d10</attack>
+        </legendary>
+    </monster>
     <monster name="Topaz Dragon, Wyrmling">
         <name>Topaz Dragon, Wyrmling</name>
         <size>M</size>
@@ -5526,114 +5633,7 @@
             <recharge>D5</recharge>
         </action>
     </monster>
-<monster name="Topaz Dragon, Greatwyrm">
-        <name>Topaz Dragon, Greatwyrm</name>
-        <size>G</size>
-        <type>dragon (gem)</type>
-        <description>Source: Fizban's Treasury of Dragons</description>
-        <alignment>neutral</alignment>
-        <ac>21 (natural armor)</ac>
-        <hp>507 (26d20 + 234)</hp>
-        <speed>60 ft., burrow 60 ft.,fly 120 ft. (hover),swim 60 ft.</speed>
-        <str>28</str>
-        <dex>14</dex>
-        <con>29</con>
-        <int>30</int>
-        <wis>24</wis>
-        <cha>25</cha>
-        <save>Dex +10,Con +17,Wis +15,Cha +15</save>
-        <skill>Arcana +26,History +18,Perception +15</skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune>necrotic</immune>
-        <conditionImmune>charmed,frightened,poisoned,prone</conditionImmune>
-        <senses>truesight 120 ft.</senses>
-        <passive>25</passive>
-        <languages>Common,Draconic</languages>
-        <cr>26</cr>
-        <trait>
-            <name>Spellcasting (Psionics)</name>
-            <text>The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):</text>
-            <text>1/Day each: dispel magic, forcecage, plane shift, reverse gravity, time stop</text>
-        </trait>
-        <trait>
-          <name>Dispel Magic</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Forcecage</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Plane Shift</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Reverse Gravity</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <trait>
-          <name>Time Stop</name>
-          <recharge>1/Day</recharge>
-        </trait>
-        <spellAbility>Intelligence</spellAbility>
-        <spells>Dispel Magic,Forcecage,Plane Shift,Reverse Gravity,Time Stop</spells>
-        <trait>
-            <name>Gem Awakening (Recharges after a Short or Long Rest)</name>
-            <text>If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 400 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use its Mass Telekinesis action during the next hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Gem Awakening activates.</text>
-            <recharge>SHORT</recharge>
-        </trait>
-        <trait>
-            <name>Legendary Resistance (4/Day)</name>
-            <text>If the greatwyrm fails a saving throw, it can choose to succeed instead.</text>
-            <recharge>4/Day</recharge>
-        </trait>
-        <trait>
-            <name>Unusual Nature</name>
-            <text>The greatwyrm doesn't require food or drink.</text>
-        </trait>
-        <action>
-            <name>Multiattack</name>
-            <text>The greatwyrm makes one Bite attack and two Claw attacks.</text>
-        </action>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.</text>
-            <attack>Bite|17|2d10+9+3d10</attack>
-        </action>
-        <action>
-            <name>Claw</name>
-            <text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time.</text>
-            <attack>Claw|17|2d8+9</attack>
-        </action>
-        <action>
-            <name>Breath Weapon (Recharge 5-6)</name>
-            <text>The greatwyrm exhales crushing force in a 300-foot cone. Each creature in that area must make a DC DC 25 Dexterity saving throw. On a failed save, the creature takes 71 (11d12) force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone. On a success or failure, the creature's speed becomes 0 until the end of its next turn.</text>
-            <attack>Breath Weapon||11d12</attack>
-            <recharge>D5</recharge>
-        </action>
-        <action>
-            <name>Mass Telekinesis (Gem Awakening Only; Recharges after a Short or Long Rest)</name>
-            <text>The greatwyrm targets any number of creatures and objects it can see within 120 feet of it. No one target can weigh more than 4,000 pounds, and objects can't be targeted if they're being worn or carried. Each targeted creature must succeed on a DC DC 26 Strength saving throw or be restrained in the greatwyrm's telekinetic grip. At the end of a creature's turn, it can repeat the saving throw, ending the effect on itself on a success.</text>
-            <text>  At the end of the greatwyrm's turn, it can move each creature or object it has in its telekinetic grip up to 60 feet in any direction, but not beyond 120 feet of itself. In addition, it can choose any number of creatures restrained in this way and deal 45 (7d12) force damage to each of them.</text>
-            <attack>Mass Telekinesis||7d12</attack>
-            <recharge>SHORT</recharge>
-        </action>
-        <legendary>
-            <name>Claw</name>
-            <text>The greatwyrm makes one Claw attack.</text>
-        </legendary>
-        <legendary>
-            <name>Psionics (Costs 2 Actions)</name>
-            <text>The greatwyrm uses Psychic Step or Spellcasting.</text>
-        </legendary>
-        <legendary>
-            <name>Psychic Beam (Costs 3 Actions)</name>
-            <text>The greatwyrm emits a beam of psychic energy in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC DC 26 Intelligence saving throw, taking 27 (5d10) psychic damage on a failed save, or half as much damage on a successful one.</text>
-            <attack>Psychic Beam||5d10</attack>
-        </legendary>
-    </monster>
-    <monster name="White Dragon, Greatwyrm">
+<monster name="White Dragon, Greatwyrm">
         <name>White Dragon, Greatwyrm</name>
         <size>G</size>
         <type>dragon (chromatic)</type>

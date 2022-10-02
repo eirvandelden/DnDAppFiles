@@ -444,58 +444,6 @@
 			<attack>Longbow|3|1d8+1</attack>
 		</action>
 	</monster>
-	<monster name="Large Mimic">
-		<name>Large Mimic</name>
-		<size>L</size>
-		<type>monstrosity (shapechanger)</type>
-		<description>Source: Big Rick Energy</description>
-		<alignment>neutral</alignment>
-		<ac>12 (natural armor)</ac>
-		<hp>78 (12d8+24)</hp>
-		<speed>0 ft.</speed>
-		<str>17</str>
-		<dex>12</dex>
-		<con>15</con>
-		<int>5</int>
-		<wis>13</wis>
-		<cha>8</cha>
-		<skill>Stealth +5</skill>
-		<immune>acid</immune>
-		<conditionImmune>prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>11</passive>
-		<cr>3</cr>
-		<trait>
-			<name>Shapechanger</name>
-			<text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
-		</trait>
-		<trait>
-			<name>Adhesive (Object Form Only)</name>
-			<text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.</text>
-		</trait>
-		<trait>
-			<name>False Appearance (Object Form Only)</name>
-			<text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
-		</trait>
-		<trait>
-			<name>Grappler</name>
-			<text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The mimic makes three attacks: two with its pseudopods and one with its bite.</text>
-		</action>
-		<action>
-			<name>Pseudopod</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
-			<attack>Pseudopod|5|1d8+3</attack>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.</text>
-			<attack>Bite|5|1d8+3+1d8</attack>
-		</action>
-	</monster>
 	<monster name="Layla the Lizard">
 		<name>Layla the Lizard</name>
 		<size>M</size>
@@ -624,6 +572,58 @@
 			<name>Grappler</name>
 			<text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
 		</trait>
+		<action>
+			<name>Pseudopod</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
+			<attack>Pseudopod|5|1d8+3</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.</text>
+			<attack>Bite|5|1d8+3+1d8</attack>
+		</action>
+	</monster>
+	<monster name="Mimic, Large">
+		<name>Mimic, Large</name>
+		<size>L</size>
+		<type>monstrosity (shapechanger)</type>
+		<description>Source: Big Rick Energy</description>
+		<alignment>neutral</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>78 (12d8+24)</hp>
+		<speed>0 ft.</speed>
+		<str>17</str>
+		<dex>12</dex>
+		<con>15</con>
+		<int>5</int>
+		<wis>13</wis>
+		<cha>8</cha>
+		<skill>Stealth +5</skill>
+		<immune>acid</immune>
+		<conditionImmune>prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<cr>3</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<trait>
+			<name>Adhesive (Object Form Only)</name>
+			<text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.</text>
+		</trait>
+		<trait>
+			<name>False Appearance (Object Form Only)</name>
+			<text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</text>
+		</trait>
+		<trait>
+			<name>Grappler</name>
+			<text>The mimic has advantage on attack rolls against any creature grappled by it.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The mimic makes three attacks: two with its pseudopods and one with its bite.</text>
+		</action>
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</text>
