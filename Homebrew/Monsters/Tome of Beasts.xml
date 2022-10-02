@@ -5457,6 +5457,52 @@
 			<attack>Rounds||1d4</attack>
 		</action>
 	</monster>
+	<monster name="Death Butterfly Swarm, Greater">
+		<name>Death Butterfly Swarm, Greater</name>
+		<size>H</size>
+		<type>swarm of tiny beasts</type>
+		<description>Source: Tome of Beasts</description>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>84 (13d12)</hp>
+		<speed>5 ft., fly 40 ft. (hover)</speed>
+		<str>1</str>
+		<dex>16</dex>
+		<con>10</con>
+		<int>1</int>
+		<wis>15</wis>
+		<cha>12</cha>
+		<resist>bludgeoning, piercing, and slashing</resist>
+		<vulnerable>cold, fire</vulnerable>
+		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, petrified</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<cr>6</cr>
+		<trait>
+			<name>Potent Poison</name>
+			<text>The death butterfly swarm's poison affects corporeal undead who are otherwise immune to poison.</text>
+		</trait>
+		<trait>
+			<name>Swarm</name>
+			<text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit point.</text>
+		</trait>
+		<trait>
+			<name>Weight of Wings</name>
+			<text>A creature in a space occupied by the death butterfly swarm has its speed reduced by half, and must succeed on a DC 16 Dexterity saving throw or become blinded. Both effects end when the creature doesn't share a space with the swarm at the end of the creature's turn. If a creature succeeds on the saving throw, it is immune to the swarm's blindness (but not the speed reduction) for 24 hours.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The swarm makes a Bite attack against every target in its spaces.</text>
+		</action>
+		<action>
+			<name>Bites</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 0 ft., every target in the swarm's space. Hit: 24 (6d6+3) piercing damage, or 13 (3d6 + 3) piercing damage if the swarm has half of its hit points or fewer. The target also takes 17 (5d6) poison damage and becomes poisoned for 1d4 rounds; a successful DC 15 Constitution saving throw reduces poison damage by half and prevents the poisoned condition.</text>
+			<attack>Bites|6|6d6+3</attack>
+			<attack>Bites|3|3d6+1</attack>
+			<attack>Poison||5d6</attack>
+			<attack>Rounds||1d4</attack>
+		</action>
+	</monster>
 	<monster name="Deathcap Myconid">
 		<name>Deathcap Myconid</name>
 		<size>M</size>
@@ -10203,52 +10249,6 @@
 			<text>The gray thirster draws the moisture from a 20-foot radius area centered on itself. Nonmagical water and other liquids in this area turn to dust. Each creature that is neither undead nor a construct in the area takes 9 (2d8) necrotic damage, or half damage with a successful DC 13 Constitution saving throw. Plants, oozes, and creatures with the Amphibious, Water Breathing, or Water Form traits have disadvantage on this saving throw. Liquids carried by a creature that makes a successful saving throw are not destroyed.</text>
 			<recharge>1/Day</recharge>
 			<attack>Drought||2d8</attack>
-		</action>
-	</monster>
-	<monster name="Greater Death Butterfly Swarm">
-		<name>Greater Death Butterfly Swarm</name>
-		<size>H</size>
-		<type>swarm of tiny beasts</type>
-		<description>Source: Tome of Beasts</description>
-		<alignment>chaotic evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>84 (13d12)</hp>
-		<speed>5 ft., fly 40 ft. (hover)</speed>
-		<str>1</str>
-		<dex>16</dex>
-		<con>10</con>
-		<int>1</int>
-		<wis>15</wis>
-		<cha>12</cha>
-		<resist>bludgeoning, piercing, and slashing</resist>
-		<vulnerable>cold, fire</vulnerable>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, petrified</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<cr>6</cr>
-		<trait>
-			<name>Potent Poison</name>
-			<text>The death butterfly swarm's poison affects corporeal undead who are otherwise immune to poison.</text>
-		</trait>
-		<trait>
-			<name>Swarm</name>
-			<text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit point.</text>
-		</trait>
-		<trait>
-			<name>Weight of Wings</name>
-			<text>A creature in a space occupied by the death butterfly swarm has its speed reduced by half, and must succeed on a DC 16 Dexterity saving throw or become blinded. Both effects end when the creature doesn't share a space with the swarm at the end of the creature's turn. If a creature succeeds on the saving throw, it is immune to the swarm's blindness (but not the speed reduction) for 24 hours.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The swarm makes a Bite attack against every target in its spaces.</text>
-		</action>
-		<action>
-			<name>Bites</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 0 ft., every target in the swarm's space. Hit: 24 (6d6+3) piercing damage, or 13 (3d6 + 3) piercing damage if the swarm has half of its hit points or fewer. The target also takes 17 (5d6) poison damage and becomes poisoned for 1d4 rounds; a successful DC 15 Constitution saving throw reduces poison damage by half and prevents the poisoned condition.</text>
-			<attack>Bites|6|6d6+3</attack>
-			<attack>Bites|3|3d6+1</attack>
-			<attack>Poison||5d6</attack>
-			<attack>Rounds||1d4</attack>
 		</action>
 	</monster>
 	<monster name="Grim Jester">

@@ -1270,59 +1270,6 @@
 			<recharge>D6</recharge>
 		</action>
 	</monster>
-	<monster name="Greater Zombie">
-		<name>Greater Zombie</name>
-		<size>M</size>
-		<type>undead</type>
-		<description>Source: Dragon of Icespire Peak</description>
-		<alignment>neutral evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>97 (13d8+39)</hp>
-		<speed>30 ft.</speed>
-		<str>18</str>
-		<dex>10</dex>
-		<con>17</con>
-		<int>4</int>
-		<wis>6</wis>
-		<cha>6</cha>
-		<save>Wis + 1</save>
-		<skill></skill>
-		<resist>cold, necrotic</resist>
-		<vulnerable></vulnerable>
-		<immune>poison</immune>
-		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>8</passive>
-		<languages>understands the languages it knew in life but can't speak</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Source</name>
-			<text>Tales from the Yawning Portal, page 237</text>
-		</trait>
-		<trait>
-			<name>Undead Nature</name>
-			<text>A zombie doesn't require air, food, drink, or sleep.</text>
-		</trait>
-		<trait>
-			<name>Turn Resistance</name>
-			<text>The zombie has advantage on saving throws against any effect that turns undead.</text>
-		</trait>
-		<trait>
-			<name>Undead Fortitude</name>
-			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The zombie makes two melee attacks.</text>
-		</action>
-		<action>
-			<name>Empowered Slam</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage.</text>
-			<attack>Empowered Slam|7|1d6+4+2d6</attack>
-		</action>
-		<spells></spells>
-		<slots></slots>
-	</monster>
 	<monster name="Half-Blue Dragon Gladiator">
 		<name>Half-Blue Dragon Gladiator</name>
 		<size>M</size>
@@ -2629,5 +2576,58 @@
 			<attack>Club|7|4d4+4</attack>
 		</action>
 		<spells></spells>
+	</monster>
+	<monster name="Zombie, Greater">
+		<name>Zombie, Greater</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>97 (13d8+39)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>4</int>
+		<wis>6</wis>
+		<cha>6</cha>
+		<save>Wis + 1</save>
+		<skill></skill>
+		<resist>cold, necrotic</resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>understands the languages it knew in life but can't speak</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Source</name>
+			<text>Tales from the Yawning Portal, page 237</text>
+		</trait>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A zombie doesn't require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>The zombie has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The zombie makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Empowered Slam</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage.</text>
+			<attack>Empowered Slam|7|1d6+4+2d6</attack>
+		</action>
+		<spells></spells>
+		<slots></slots>
 	</monster>
 	</compendium>
