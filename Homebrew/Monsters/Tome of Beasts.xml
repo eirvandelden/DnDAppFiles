@@ -8790,40 +8790,6 @@
 			<attack>Bludgeoning Damage||1d8+5</attack>
 		</action>
 	</monster>
-	<monster name="Flame Dragon Wyrmling">
-		<name>Flame Dragon Wyrmling</name>
-		<size>M</size>
-		<type>dragon</type>
-		<description>Source: Tome of Beasts</description>
-		<alignment>chaotic evil</alignment>
-		<ac>17 (natural armor)</ac>
-		<hp>52 (8d8 + 16)</hp>
-		<speed>30 ft., climb 30 ft., fly 60 ft.</speed>
-		<str>12</str>
-		<dex>14</dex>
-		<con>15</con>
-		<int>13</int>
-		<wis>12</wis>
-		<cha>16</cha>
-		<save>Dex +4, Con +4, Wis +3, Cha +5</save>
-		<skill>Deception +5, Insight +3, Perception +5, Persuasion +5, Stealth +4</skill>
-		<immune>fire</immune>
-		<senses></senses>
-		<passive>15</passive>
-		<languages>Common, Draconic, Ignan</languages>
-		<cr>3</cr>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10+1) piercing damage plus 3 (1d6) fire damage.</text>
-			<attack>Bite|3|1d10+1+1d6</attack>
-		</action>
-		<action>
-			<name>Fire Breath (Recharge 5-6)</name>
-			<text>The dragon exhales fire in a 10-foot cone. Each creature in that area takes 24 (7d6) fire damage, or half damage with a successful DC 12 Dexterity saving throw.</text>
-			<recharge>D5</recharge>
-			<attack>Fire Breath||7d6</attack>
-		</action>
-	</monster>
 	<monster name="Flame Dragon, Adult">
 		<name>Flame Dragon, Adult</name>
 		<size>H</size>
@@ -9005,6 +8971,40 @@
 			<text>The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
 			<attack>Wing Attack||2d6+6</attack>
 		</legendary>
+	</monster>
+	<monster name="Flame Dragon, Wyrmling">
+		<name>Flame Dragon, Wyrmling</name>
+		<size>M</size>
+		<type>dragon</type>
+		<description>Source: Tome of Beasts</description>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>52 (8d8 + 16)</hp>
+		<speed>30 ft., climb 30 ft., fly 60 ft.</speed>
+		<str>12</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>13</int>
+		<wis>12</wis>
+		<cha>16</cha>
+		<save>Dex +4, Con +4, Wis +3, Cha +5</save>
+		<skill>Deception +5, Insight +3, Perception +5, Persuasion +5, Stealth +4</skill>
+		<immune>fire</immune>
+		<senses></senses>
+		<passive>15</passive>
+		<languages>Common, Draconic, Ignan</languages>
+		<cr>3</cr>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10+1) piercing damage plus 3 (1d6) fire damage.</text>
+			<attack>Bite|3|1d10+1+1d6</attack>
+		</action>
+		<action>
+			<name>Fire Breath (Recharge 5-6)</name>
+			<text>The dragon exhales fire in a 10-foot cone. Each creature in that area takes 24 (7d6) fire damage, or half damage with a successful DC 12 Dexterity saving throw.</text>
+			<recharge>D5</recharge>
+			<attack>Fire Breath||7d6</attack>
+		</action>
 	</monster>
 	<monster name="Flame Dragon, Young">
 		<name>Flame Dragon, Young</name>
