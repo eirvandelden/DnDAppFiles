@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
-	<item>
+<compendium version="5" HB="HB" source="TCS">
+	<item name="Palm Pistol">
 		<name>Palm Pistol</name>
 		<type>R</type>
 		<weight>1</weight>
@@ -23,9 +23,10 @@
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
 		<text/>
 		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
-		<text/>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Pistol">
 		<name>Pistol</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -46,9 +47,10 @@
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
 		<text/>
 		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
-		<text/>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Musket">
 		<name>Musket</name>
 		<type>R</type>
 		<weight>10</weight>
@@ -69,9 +71,10 @@
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
 		<text/>
 		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
-		<text/>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Pepperbox">
 		<name>Pepperbox</name>
 		<type>R</type>
 		<weight>5</weight>
@@ -92,9 +95,10 @@
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
 		<text/>
 		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
-		<text/>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Blunderbuss">
 		<name>Blunderbuss</name>
 		<type>R</type>
 		<weight>10</weight>
@@ -115,9 +119,10 @@
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
 		<text/>
 		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
-		<text/>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Bad News">
 		<name>Bad News</name>
 		<type>R</type>
 		<weight>25</weight>
@@ -138,9 +143,10 @@
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
 		<text/>
 		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
-		<text/>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Hand Mortar">
 		<name>Hand Mortar</name>
 		<type>R</type>
 		<weight>10</weight>
@@ -164,49 +170,63 @@
 		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
 		<text/>
 		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
-		<text/>
+		<roll>1d8</roll>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
 	<!--ammo-->
-	<item>
+	<item name="Palm Pistol Bullets">
 		<name>Palm Pistol Bullets</name>
 		<type>A</type>
 		<weight>0.000220462</weight>
 		<value/>
 		<text>These bullets are used in Palm Pistols</text>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Pistol Bullets">
 		<name>Pistol Bullets</name>
 		<type>A</type>
 		<weight>0.000440925</weight>
 		<value/>
 		<text>These bullets are used in Pistols or Pepperboxes</text>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Musket Bullets">
 		<name>Musket Bullets</name>
 		<type>A</type>
 		<weight>0.0005511557</weight>
 		<value/>
 		<text>These bullets are used in Muskets</text>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Blunderbuss Bullets">
 		<name>Blunderbuss Bullets</name>
 		<type>A</type>
 		<weight>0.00220462</weight>
 		<value/>
 		<text>These bullets are used in Blunderbusses</text>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Bad News Bullets">
 		<name>Bad News Bullets</name>
 		<type>A</type>
 		<weight>0.00440925</weight>
 		<value/>
 		<text>These bullets are used in Bad News</text>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
-	<item>
+	<item name="Hand Morter Bullets">
 		<name>Hand Morter Bullets</name>
 		<type>A</type>
 		<weight>0.0220462</weight>
 		<value/>
 		<text>These bullets are used in Hand Morters</text>
+		<text></text>
+		<text>Source: Gunslinger Items</text>
 	</item>
 </compendium>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="PSA">
 	<!--Plane Shift: Amonkhet-->
-	<background>
+	<background name="Initiate">
 		<name>Initiate</name>
 		<proficiency>Athletics, Intimidation</proficiency>
 		<trait>
@@ -14,14 +14,58 @@
 		</trait>
 		<trait>
 			<name>Equipment</name>
-			<text>A simple puzzle box, a scroll containing the basic teachings of the  ve gods, a gaming set, a set of common clothes, and a belt pouch containing 15 gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned.</text>
+			<text>A simple puzzle box, a scroll containing the basic teachings of the five gods, a gaming set, a set of common clothes, and a belt pouch containing 15 gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned.</text>
 		</trait>
 		<trait>
 			<name>Feature: Trials of the Five Gods</name>
 			<text>Your life is oriented around your participation in the five trials that will determine your worthiness in the afterlife. While you prepare for and undergo those trials, you have constant access to training. A comfortable place to live and regular meals are provided to you by servitor mummies (the anointed) under the supervision of viziers. You can enjoy these benefits only as long as you obey the societal norms of Naktamun—training for the trials (with or without your crop), obeying the orders of the gods, and following the instructions of their viziers. If you violate these norms, you risk being treated as a dissenter. See "Trials of the Five Gods" for more information about undertaking the trials and their rewards.</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I always have a joke on hand when the mood gets too serious.</text>
+            <text>2     I use sarcasm and insults to keep a distance between myself and my crop-mates, because I don't want to get attached to them.</text>
+            <text>3     I'll settle for nothing less than perfection—in myself, in my crop-mates, in everything.</text>
+            <text>4     I'm so focused on the glorious afterlife that nothing in this life can shake my calm resolve.</text>
+            <text>5     I enjoy using my skills to help those who lack those same skills.</text>
+            <text>6     I train hard so that I can play hard at the end of the day. I fully expect to play even harder in the glorious afterlife, but I'm not in a hurry to get there.</text>
+            <text>7     I'm perfectly happy letting others pick up the slack for me while I take it easy.</text>
+            <text>8     I'm constantly sizing up everyone around me, thinking about what kind of opponent they'll be in the final trial.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Solidarity. The thing that matters most of all is that we're there for each other. (Lawful)</text>
+            <text>2     Knowledge. The world is a puzzle—a mystery waiting to be solved. (Neutral)</text>
+            <text>3     Strength. All that matters to me is my own perfection. Let everyone else seek that perfection in their own way. (Any)</text>
+            <text>4     Ambition. I'm going to prove that I deserve only the best—of everything. (Evil)</text>
+            <text>5     Zeal. Anything worth doing is worth throwing my whole self into. (Any)</text>
+            <text>6     Redemption. I will train all the harder to make up for the doubt I entertained when I was younger. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     One of my crop-mates is my dearest friend, and I hope we will face each other in the final trial.</text>
+            <text>2     I am in love with a vizier.</text>
+            <text>3     I am particularly drawn to one of the five gods, and I want nothing more than to win that god's particular favor.</text>
+            <text>4     I am more devoted to Naktamun and its people than I am to any of the ideals of the gods.</text>
+            <text>5     My weapon was a gift from a beloved trainer who died in an accident.</text>
+            <text>6     I carry a memento of my time as an acolyte, and I treasure it above all other things.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I'm easily distracted by an attractive person, which could be the death of me in the trials.</text>
+            <text>2     I really wanted to be a vizier, and I'm angry at the god who didn't choose me.</text>
+            <text>3     Training for a lifetime to die in the end seems like a big waste of energy.</text>
+            <text>4     I'm not at all sure I'll be able to grant a glorified death to any of my crop-mates.</text>
+            <text>5     I have a lasting grudge against one of my crop-mates, and each of us wants to see the other fail.</text>
+            <text>6     I think I've figured out that this world is not what it seems. Something dark is going on here.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Plane Shift Amonkhet</text>
+        </trait>
+    </background>
+	<background name="Vizier">
 		<name>Vizier</name>
 		<proficiency>History, Religion</proficiency>
 		<trait>
@@ -38,11 +82,57 @@
 		</trait>
 		<trait>
 			<name>Feature: Voice of Authority</name>
-			<text>Your voice is the voice of your god, at least in theory. Your job might include training and instructing initiates, and they are required to obey you. In any circumstance, an initiate is expected to defer to your voice and obey your commands. If you abuse this authority, though, your god might personally punish you.
-		</text>
+			<text>Your voice is the voice of your god, at least in theory. Your job might include training and instructing initiates, and they are required to obey you. In any circumstance, an initiate is expected to defer to your voice and obey your commands. If you abuse this authority, though, your god might personally punish you.</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text></text>
+            <text>Personality Trait</text>
+            <text>d10    Personality Trait</text>
+            <text>1      Everything I do, I do gracefully and deliberately, and with complete confidence. (Oketra)</text>
+            <text>2      Nothing can shake my rock-hard focus. (Oketra)</text>
+            <text>3      When I am at peace, I am an oasis of perfect calm in the world. When I am roused to anger, I am an embodiment of terror. (Kefnet)</text>
+            <text>4      I enjoy teasing acolytes and initiates with juicy tidbits of knowledge wrapped up in fiendishly difficult puzzles. (Kefnet)</text>
+            <text>5      I have the utmost faith in myself and my abilities. (Rhonas)</text>
+            <text>6      I get restless when life in the city feels too tame, too safe. (Rhonas)</text>
+            <text>7      I enjoy solitude as an opportunity to plan my victory. (Bontu)</text>
+            <text>8      I use satire as a way to undermine the teachings of the other gods. (Bontu)</text>
+            <text>9      I love, fight, and feast with equal zeal. (Hazoret)</text>
+            <text>10     I think of those in my care as my family, in a way that most people have trouble understanding. (Hazoret)</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Solidarity. The worthy must respect the worthy. In the afterlife, all will be united in goal and action. (Oketra)</text>
+            <text>2     Knowledge. The worthy shall cultivate a nimble mind, so as to perceive the wonders beyond imagination that wait in the afterlife. (Kefnet)</text>
+            <text>3     Strength. The worthy shall hone a strong body that can withstand the boundless energies of the afterlife. (Rhonas)</text>
+            <text>4     Ambition. The worthy shall strive for greatness, for supremacy in life leads to supremacy in the afterlife. (Bontu)</text>
+            <text>5     Zeal. The worthy shall rush to the God-Pharaoh's side with relentless passion, rising to overcome every obstacle in their way. (Hazoret)</text>
+            <text>6     Naktamun. The life of the city is ordered according to the plan of the God-Pharaoh, and that order must be preserved at all costs.</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     My loyalty to my companions embodies the ideal of loyalty to my god. (Oketra)</text>
+            <text>2     The teachings of my god are more precious to me than any possession. (Kefnet)</text>
+            <text>3     I would do anything to defend the temple of my god from any harm or desecration. (Rhonas)</text>
+            <text>4     I am committed to the service of my god—because it's my sure ticket into the afterlife. (Bontu)</text>
+            <text>5     I love my god and never want my service to end. (Hazoret)</text>
+            <text>6     I have a close friend or lover who is also a vizier.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I am in love with an initiate, and I want to shield this person from death in the trials.</text>
+            <text>2     I secretly wish I had not been chosen as a vizier, so I could participate in the trials as an initiate.</text>
+            <text>3     I secretly question whether the gods care at all about us or what we do.</text>
+            <text>4     A vizier of another god seeks my death in retribution for a past insult.</text>
+            <text>5     I am terrified of what lies beyond the Gate to the Afterlife.</text>
+            <text>6     I secretly believe the God-Pharaoh's return will not bring blessing to this world.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Plane Shift Amonkhet</text>
+        </trait>
+    </background>
+	<background name="Dissenter(Initiate)">
 		<name>Dissenter(Initiate)</name>
 		<proficiency>Athletics, Intimidation</proficiency>
 		<trait>
@@ -55,15 +145,18 @@
 		</trait>
 		<trait>
 			<name>Equipment</name>
-			<text>A simple puzzle box, a scroll containing the basic teachings of the  ve gods, a gaming set, a set of common clothes, and a belt pouch containing 15 gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned.</text>
+			<text>A simple puzzle box, a scroll containing the basic teachings of the five gods, a gaming set, a set of common clothes, and a belt pouch containing 15 gp. If you have completed any trials before the start of the campaign, you also have any cartouches you have earned.</text>
 		</trait>
 		<trait>
 			<name>Feature: Shelter of Dissenters</name>
-			<text>If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You canfind a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you.
-		</text>
+			<text>If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You can find a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you.</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Source</name>
+            <text>Plane Shift Amonkhet</text>
+        </trait>
+    </background>
+	<background name="Dissenter(Vizier)">
 		<name>Dissenter(Vizier)</name>
 		<proficiency>History, Religion</proficiency>
 		<trait>
@@ -80,8 +173,11 @@
 		</trait>
 		<trait>
 			<name>Feature: Shelter of Dissenters</name>
-			<text>If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You canfind a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you.
-		</text>
+			<text>If they wish to have any hope of survival, whether hiding within the city or cast out into the desert, dissenters must help each other. You can find a place to hide, rest, or recuperate among other dissenters. They will help shield you from those who hunt you, possibly even risking their lives for you.</text>
 		</trait>
-	</background>
+        <trait>
+            <name>Source</name>
+            <text>Plane Shift Amonkhet</text>
+        </trait>
+    </background>
 </compendium>

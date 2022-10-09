@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" MF="MF">
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Bullets (Modern)" source="DMG">
 		<name>Bullets (Modern)</name>
 		<type>A</type>
 		<weight>0.1</weight>
@@ -8,7 +8,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Dynamite (Stick)" source="DMG">
 		<name>Dynamite (Stick)</name>
 		<type>G</type>
 		<weight>1</weight>
@@ -20,7 +20,7 @@
 		<text>Source: Dungeon Master's Guide, page 267</text>
 		<roll>3d6</roll>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Fragmentation Grenade" source="DMG">
 		<name>Fragmentation Grenade</name>
 		<type>G</type>
 		<weight>1</weight>
@@ -31,7 +31,7 @@
 		<text>Source: Dungeon Master's Guide, page 267</text>
 		<roll>5d6</roll>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Grenade Launcher" source="DMG">
 		<name>Grenade Launcher</name>
 		<type>G</type>
 		<weight>7</weight>
@@ -40,7 +40,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Smoke Grenade" source="DMG">
 		<name>Smoke Grenade</name>
 		<type>G</type>
 		<weight>2</weight>
@@ -50,57 +50,57 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Forced Entry Unit" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Forced Entry Unit</name>
 		<type>HA</type>
 		<weight>20</weight>
 		<ac>18</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit +1" source="DMG">
 		<name>Forced Entry Unit +1</name>
 		<type>HA</type>
 		<weight>20</weight>
 		<ac>18</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit +2" source="DMG">
 		<name>Forced Entry Unit +2</name>
 		<type>HA</type>
 		<weight>20</weight>
 		<ac>18</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit +3" source="DMG">
 		<name>Forced Entry Unit +3</name>
 		<type>HA</type>
 		<weight>20</weight>
 		<ac>18</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Acid Resistance" source="DMG">
 		<name>Forced Entry Unit of Acid Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -109,12 +109,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Cold Resistance" source="DMG">
 		<name>Forced Entry Unit of Cold Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -123,12 +123,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Fire Resistance" source="DMG">
 		<name>Forced Entry Unit of Fire Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -137,12 +137,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Force Resistance" source="DMG">
 		<name>Forced Entry Unit of Force Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -151,12 +151,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Lightning Resistance" source="DMG">
 		<name>Forced Entry Unit of Lightning Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -165,12 +165,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Necrotic Resistance" source="DMG">
 		<name>Forced Entry Unit of Necrotic Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -179,12 +179,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Poison Resistance" source="DMG">
 		<name>Forced Entry Unit of Poison Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -193,12 +193,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Psychic Resistance" source="DMG">
 		<name>Forced Entry Unit of Psychic Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -207,12 +207,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Radiant Resistance" source="DMG">
 		<name>Forced Entry Unit of Radiant Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -221,12 +221,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Forced Entry Unit of Thunder Resistance" source="DMG">
 		<name>Forced Entry Unit of Thunder Resistance</name>
 		<type>HA</type>
 		<weight>20</weight>
@@ -235,62 +235,62 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Land Warrior Armor" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Land Warrior Armor</name>
 		<type>HA</type>
 		<weight>10</weight>
 		<ac>17</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor +1" source="DMG">
 		<name>Land Warrior Armor +1</name>
 		<type>HA</type>
 		<weight>10</weight>
 		<ac>17</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor +2" source="DMG">
 		<name>Land Warrior Armor +2</name>
 		<type>HA</type>
 		<weight>10</weight>
 		<ac>17</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor +3" source="DMG">
 		<name>Land Warrior Armor +3</name>
 		<type>HA</type>
 		<weight>10</weight>
 		<ac>17</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Acid Resistance" source="DMG">
 		<name>Land Warrior Armor of Acid Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -299,12 +299,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Cold Resistance" source="DMG">
 		<name>Land Warrior Armor of Cold Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -313,12 +313,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Fire Resistance" source="DMG">
 		<name>Land Warrior Armor of Fire Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -327,12 +327,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Force Resistance" source="DMG">
 		<name>Land Warrior Armor of Force Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -341,12 +341,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Lightning Resistance" source="DMG">
 		<name>Land Warrior Armor of Lightning Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -355,12 +355,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Necrotic Resistance" source="DMG">
 		<name>Land Warrior Armor of Necrotic Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -369,12 +369,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Poison Resistance" source="DMG">
 		<name>Land Warrior Armor of Poison Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -383,12 +383,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Psychic Resistance" source="DMG">
 		<name>Land Warrior Armor of Psychic Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -397,12 +397,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Radiant Resistance" source="DMG">
 		<name>Land Warrior Armor of Radiant Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -411,12 +411,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Land Warrior Armor of Thunder Resistance" source="DMG">
 		<name>Land Warrior Armor of Thunder Resistance</name>
 		<type>HA</type>
 		<weight>10</weight>
@@ -425,98 +425,98 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Forced Entry Unit" source="DMG">
 		<name>Mariner's Forced Entry Unit</name>
 		<type>HA</type>
 		<weight>20</weight>
 		<ac>18</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor. It provides resistance to ballistic and slashing damage.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Land Warrior Armor" source="DMG">
 		<name>Mariner's Land Warrior Armor</name>
 		<type>HA</type>
 		<weight>10</weight>
 		<ac>17</ac>
 		<strength>13</strength>
 		<stealth>YES</stealth>
-		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>Land warrior armor is modern armor. It reduces damage from ballistic or slashing attacks by 5.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Special Response Vest" source="DMG">
 		<name>Mariner's Special Response Vest</name>
 		<type>HA</type>
 		<weight>15</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Special Response Vest" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Special Response Vest</name>
 		<type>HA</type>
 		<weight>15</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest +1" source="DMG">
 		<name>Special Response Vest +1</name>
 		<type>HA</type>
 		<weight>15</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest +2" source="DMG">
 		<name>Special Response Vest +2</name>
 		<type>HA</type>
 		<weight>15</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest +3" source="DMG">
 		<name>Special Response Vest +3</name>
 		<type>HA</type>
 		<weight>15</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Acid Resistance" source="DMG">
 		<name>Special Response Vest of Acid Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -525,12 +525,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Cold Resistance" source="DMG">
 		<name>Special Response Vest of Cold Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -539,12 +539,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Fire Resistance" source="DMG">
 		<name>Special Response Vest of Fire Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -553,12 +553,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Force Resistance" source="DMG">
 		<name>Special Response Vest of Force Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -567,12 +567,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Lightning Resistance" source="DMG">
 		<name>Special Response Vest of Lightning Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -581,12 +581,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Necrotic Resistance" source="DMG">
 		<name>Special Response Vest of Necrotic Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -595,12 +595,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Poison Resistance" source="DMG">
 		<name>Special Response Vest of Poison Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -609,12 +609,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Psychic Resistance" source="DMG">
 		<name>Special Response Vest of Psychic Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -623,12 +623,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Radiant Resistance" source="DMG">
 		<name>Special Response Vest of Radiant Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -637,12 +637,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Special Response Vest of Thunder Resistance" source="DMG">
 		<name>Special Response Vest of Thunder Resistance</name>
 		<type>HA</type>
 		<weight>15</weight>
@@ -651,12 +651,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A special response vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Heavy Coat" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Heavy Coat</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -666,7 +666,7 @@
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat +1" source="DMG">
 		<name>Heavy Coat +1</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -678,7 +678,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat +2" source="DMG">
 		<name>Heavy Coat +2</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -690,7 +690,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat +3" source="DMG">
 		<name>Heavy Coat +3</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -702,7 +702,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Acid Resistance" source="DMG">
 		<name>Heavy Coat of Acid Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -715,7 +715,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Cold Resistance" source="DMG">
 		<name>Heavy Coat of Cold Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -728,7 +728,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Fire Resistance" source="DMG">
 		<name>Heavy Coat of Fire Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -741,7 +741,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Force Resistance" source="DMG">
 		<name>Heavy Coat of Force Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -754,7 +754,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Lightning Resistance" source="DMG">
 		<name>Heavy Coat of Lightning Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -767,7 +767,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Necrotic Resistance" source="DMG">
 		<name>Heavy Coat of Necrotic Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -780,7 +780,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Poison Resistance" source="DMG">
 		<name>Heavy Coat of Poison Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -793,7 +793,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Psychic Resistance" source="DMG">
 		<name>Heavy Coat of Psychic Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -806,7 +806,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Radiant Resistance" source="DMG">
 		<name>Heavy Coat of Radiant Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -819,7 +819,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Heavy Coat of Thunder Resistance" source="DMG">
 		<name>Heavy Coat of Thunder Resistance</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -832,169 +832,169 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Kevlar-Lined Coat" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Kevlar-Lined Coat</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat +1" source="DMG">
 		<name>Kevlar-Lined Coat +1</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat +2" source="DMG">
 		<name>Kevlar-Lined Coat +2</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat +3" source="DMG">
 		<name>Kevlar-Lined Coat +3</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Acid Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Acid Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Cold Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Cold Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Fire Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Fire Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Force Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Force Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Lightning Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Lightning Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Necrotic Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Necrotic Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Poison Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Poison Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Psychic Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Psychic Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Radiant Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Radiant Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Kevlar-Lined Coat of Thunder Resistance" source="DMG">
 		<name>Kevlar-Lined Coat of Thunder Resistance</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Leather Jacket" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Leather Jacket</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1003,7 +1003,7 @@
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket +1" source="DMG">
 		<name>Leather Jacket +1</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1014,7 +1014,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket +2" source="DMG">
 		<name>Leather Jacket +2</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1025,7 +1025,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket +3" source="DMG">
 		<name>Leather Jacket +3</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1036,7 +1036,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Acid Resistance" source="DMG">
 		<name>Leather Jacket of Acid Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1048,7 +1048,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Cold Resistance" source="DMG">
 		<name>Leather Jacket of Cold Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1060,7 +1060,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Fire Resistance" source="DMG">
 		<name>Leather Jacket of Fire Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1072,7 +1072,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Force Resistance" source="DMG">
 		<name>Leather Jacket of Force Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1084,7 +1084,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Lightning Resistance" source="DMG">
 		<name>Leather Jacket of Lightning Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1096,7 +1096,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Necrotic Resistance" source="DMG">
 		<name>Leather Jacket of Necrotic Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1108,7 +1108,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Poison Resistance" source="DMG">
 		<name>Leather Jacket of Poison Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1120,7 +1120,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Psychic Resistance" source="DMG">
 		<name>Leather Jacket of Psychic Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1132,7 +1132,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Radiant Resistance" source="DMG">
 		<name>Leather Jacket of Radiant Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1144,7 +1144,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Leather Jacket of Thunder Resistance" source="DMG">
 		<name>Leather Jacket of Thunder Resistance</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1156,169 +1156,169 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Light Undercover Shirt" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Light Undercover Shirt</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt +1" source="DMG">
 		<name>Light Undercover Shirt +1</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt +2" source="DMG">
 		<name>Light Undercover Shirt +2</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt +3" source="DMG">
 		<name>Light Undercover Shirt +3</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Acid Resistance" source="DMG">
 		<name>Light Undercover Shirt of Acid Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Cold Resistance" source="DMG">
 		<name>Light Undercover Shirt of Cold Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Fire Resistance" source="DMG">
 		<name>Light Undercover Shirt of Fire Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Force Resistance" source="DMG">
 		<name>Light Undercover Shirt of Force Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Lightning Resistance" source="DMG">
 		<name>Light Undercover Shirt of Lightning Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Necrotic Resistance" source="DMG">
 		<name>Light Undercover Shirt of Necrotic Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Poison Resistance" source="DMG">
 		<name>Light Undercover Shirt of Poison Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Psychic Resistance" source="DMG">
 		<name>Light Undercover Shirt of Psychic Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Radiant Resistance" source="DMG">
 		<name>Light Undercover Shirt of Radiant Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light Undercover Shirt of Thunder Resistance" source="DMG">
 		<name>Light Undercover Shirt of Thunder Resistance</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Heavy Coat" source="DMG">
 		<name>Mariner's Heavy Coat</name>
 		<type>LA</type>
 		<weight>6</weight>
@@ -1329,17 +1329,17 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Kevlar-Lined Coat" source="DMG">
 		<name>Mariner's Kevlar-Lined Coat</name>
 		<type>LA</type>
 		<weight>8</weight>
 		<ac>12</ac>
-		<text>A Kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A Kevlar-lined coat is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Leather Jacket" source="DMG">
 		<name>Mariner's Leather Jacket</name>
 		<type>LA</type>
 		<weight>4</weight>
@@ -1349,595 +1349,595 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Light Undercover Shirt" source="DMG">
 		<name>Mariner's Light Undercover Shirt</name>
 		<type>LA</type>
 		<weight>2</weight>
 		<ac>11</ac>
-		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>A light undercover shirt is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Undercover Vest" source="DMG">
 		<name>Mariner's Undercover Vest</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Undercover Vest" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Undercover Vest</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest +1" source="DMG">
 		<name>Undercover Vest +1</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest +2" source="DMG">
 		<name>Undercover Vest +2</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest +3" source="DMG">
 		<name>Undercover Vest +3</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Acid Resistance" source="DMG">
 		<name>Undercover Vest of Acid Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Cold Resistance" source="DMG">
 		<name>Undercover Vest of Cold Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Fire Resistance" source="DMG">
 		<name>Undercover Vest of Fire Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Force Resistance" source="DMG">
 		<name>Undercover Vest of Force Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Lightning Resistance" source="DMG">
 		<name>Undercover Vest of Lightning Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Necrotic Resistance" source="DMG">
 		<name>Undercover Vest of Necrotic Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Poison Resistance" source="DMG">
 		<name>Undercover Vest of Poison Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Psychic Resistance" source="DMG">
 		<name>Undercover Vest of Psychic Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Radiant Resistance" source="DMG">
 		<name>Undercover Vest of Radiant Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Undercover Vest of Thunder Resistance" source="DMG">
 		<name>Undercover Vest of Thunder Resistance</name>
 		<type>LA</type>
 		<weight>3</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>An undercover vest is modern armor. It reduces damage from ballistic attacks by 2.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Concealable Vest" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Concealable Vest</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest +1" source="DMG">
 		<name>Concealable Vest +1</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest +2" source="DMG">
 		<name>Concealable Vest +2</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest +3" source="DMG">
 		<name>Concealable Vest +3</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Acid Resistance" source="DMG">
 		<name>Concealable Vest of Acid Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Cold Resistance" source="DMG">
 		<name>Concealable Vest of Cold Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Fire Resistance" source="DMG">
 		<name>Concealable Vest of Fire Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Force Resistance" source="DMG">
 		<name>Concealable Vest of Force Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Lightning Resistance" source="DMG">
 		<name>Concealable Vest of Lightning Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Necrotic Resistance" source="DMG">
 		<name>Concealable Vest of Necrotic Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Poison Resistance" source="DMG">
 		<name>Concealable Vest of Poison Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Psychic Resistance" source="DMG">
 		<name>Concealable Vest of Psychic Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Radiant Resistance" source="DMG">
 		<name>Concealable Vest of Radiant Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Concealable Vest of Thunder Resistance" source="DMG">
 		<name>Concealable Vest of Thunder Resistance</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Light-Duty Vest" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Light-Duty Vest</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest +1" source="DMG">
 		<name>Light-Duty Vest +1</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest +2" source="DMG">
 		<name>Light-Duty Vest +2</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest +3" source="DMG">
 		<name>Light-Duty Vest +3</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Acid Resistance" source="DMG">
 		<name>Light-Duty Vest of Acid Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Cold Resistance" source="DMG">
 		<name>Light-Duty Vest of Cold Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Fire Resistance" source="DMG">
 		<name>Light-Duty Vest of Fire Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Force Resistance" source="DMG">
 		<name>Light-Duty Vest of Force Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Lightning Resistance" source="DMG">
 		<name>Light-Duty Vest of Lightning Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Necrotic Resistance" source="DMG">
 		<name>Light-Duty Vest of Necrotic Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Poison Resistance" source="DMG">
 		<name>Light-Duty Vest of Poison Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Psychic Resistance" source="DMG">
 		<name>Light-Duty Vest of Psychic Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Radiant Resistance" source="DMG">
 		<name>Light-Duty Vest of Radiant Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Light-Duty Vest of Thunder Resistance" source="DMG">
 		<name>Light-Duty Vest of Thunder Resistance</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Concealable Vest" source="DMG">
 		<name>Mariner's Concealable Vest</name>
 		<type>MA</type>
 		<weight>4</weight>
 		<ac>13</ac>
-		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>A concealable vest is modern armor. It reduces damage from ballistic attacks by 3.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Light-Duty Vest" source="DMG">
 		<name>Mariner's Light-Duty Vest</name>
 		<type>MA</type>
 		<weight>8</weight>
 		<ac>14</ac>
-		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>A light-duty vest is modern armor. It reduces damage from ballistic attacks by 3. Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Mariner's Tactical Vest" source="DMG">
 		<name>Mariner's Tactical Vest</name>
 		<type>MA</type>
 		<weight>10</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
-	<item MF="MF" source="Behind the Screens: My New d20 Modern Campaign">
+	<item MF="MF" name="Tactical Vest" source="Behind the Screens: My New d20 Modern Campaign">
 		<name>Tactical Vest</name>
 		<type>MA</type>
 		<weight>10</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text/>
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest +1" source="DMG">
 		<name>Tactical Vest +1</name>
 		<type>MA</type>
 		<weight>10</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have a +1 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest +2" source="DMG">
 		<name>Tactical Vest +2</name>
 		<type>MA</type>
 		<weight>10</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have a +2 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest +3" source="DMG">
 		<name>Tactical Vest +3</name>
 		<type>MA</type>
 		<weight>10</weight>
 		<ac>15</ac>
 		<strength>10</strength>
 		<stealth>YES</stealth>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have a +3 bonus to AC while wearing this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Acid Resistance" source="DMG">
 		<name>Tactical Vest of Acid Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -1946,12 +1946,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to acid damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Cold Resistance" source="DMG">
 		<name>Tactical Vest of Cold Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -1960,12 +1960,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to cold damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Fire Resistance" source="DMG">
 		<name>Tactical Vest of Fire Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -1974,12 +1974,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to fire damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Force Resistance" source="DMG">
 		<name>Tactical Vest of Force Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -1988,12 +1988,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to force damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Lightning Resistance" source="DMG">
 		<name>Tactical Vest of Lightning Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -2002,12 +2002,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to lightning damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Necrotic Resistance" source="DMG">
 		<name>Tactical Vest of Necrotic Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -2016,12 +2016,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to necrotic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Poison Resistance" source="DMG">
 		<name>Tactical Vest of Poison Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -2030,12 +2030,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to poison damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Psychic Resistance" source="DMG">
 		<name>Tactical Vest of Psychic Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -2044,12 +2044,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to psychic damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Radiant Resistance" source="DMG">
 		<name>Tactical Vest of Radiant Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -2058,12 +2058,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to radiant damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Tactical Vest of Thunder Resistance" source="DMG">
 		<name>Tactical Vest of Thunder Resistance</name>
 		<type>MA</type>
 		<weight>10</weight>
@@ -2072,12 +2072,12 @@
 		<stealth>YES</stealth>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>A tactical vest is modern armor. It provides resistance to ballistic damage.</text>
 		<text>You have resistance to thunder damage while you wear this armor.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Pistol" source="DMG">
 		<name>Automatic Pistol</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2094,7 +2094,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Pistol +1" source="DMG">
 		<name>Automatic Pistol +1</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2114,7 +2114,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Pistol +2" source="DMG">
 		<name>Automatic Pistol +2</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2134,7 +2134,7 @@
 		<modifier category="bonus">ranged attacks +2</modifier>
 		<modifier category="bonus">ranged damage +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Pistol +3" source="DMG">
 		<name>Automatic Pistol +3</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2154,7 +2154,7 @@
 		<modifier category="bonus">ranged attacks +3</modifier>
 		<modifier category="bonus">ranged damage +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Pistol of Warning" source="DMG">
 		<name>Automatic Pistol of Warning</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2174,7 +2174,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Rifle" source="DMG">
 		<name>Automatic Rifle</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2195,7 +2195,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Rifle +1" source="DMG">
 		<name>Automatic Rifle +1</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2218,7 +2218,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Rifle +2" source="DMG">
 		<name>Automatic Rifle +2</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2241,7 +2241,7 @@
 		<modifier category="bonus">ranged attacks +2</modifier>
 		<modifier category="bonus">ranged damage +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Rifle +3" source="DMG">
 		<name>Automatic Rifle +3</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2264,7 +2264,7 @@
 		<modifier category="bonus">ranged attacks +3</modifier>
 		<modifier category="bonus">ranged damage +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Automatic Rifle of Warning" source="DMG">
 		<name>Automatic Rifle of Warning</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2288,7 +2288,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Hunting Rifle" source="DMG">
 		<name>Hunting Rifle</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2307,7 +2307,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Hunting Rifle +1" source="DMG">
 		<name>Hunting Rifle +1</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2329,7 +2329,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Hunting Rifle +2" source="DMG">
 		<name>Hunting Rifle +2</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2351,7 +2351,7 @@
 		<modifier category="bonus">ranged attacks +2</modifier>
 		<modifier category="bonus">ranged damage +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Hunting Rifle +3" source="DMG">
 		<name>Hunting Rifle +3</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2373,7 +2373,7 @@
 		<modifier category="bonus">ranged attacks +3</modifier>
 		<modifier category="bonus">ranged damage +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Hunting Rifle of Warning" source="DMG">
 		<name>Hunting Rifle of Warning</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2395,7 +2395,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Revolver" source="DMG">
 		<name>Revolver</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2412,7 +2412,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Revolver +1" source="DMG">
 		<name>Revolver +1</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2432,7 +2432,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Revolver +2" source="DMG">
 		<name>Revolver +2</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2452,7 +2452,7 @@
 		<modifier category="bonus">ranged attacks +2</modifier>
 		<modifier category="bonus">ranged damage +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Revolver +3" source="DMG">
 		<name>Revolver +3</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2472,7 +2472,7 @@
 		<modifier category="bonus">ranged attacks +3</modifier>
 		<modifier category="bonus">ranged damage +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Revolver of Warning" source="DMG">
 		<name>Revolver of Warning</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2492,7 +2492,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Shotgun" source="DMG">
 		<name>Shotgun</name>
 		<type>R</type>
 		<weight>7</weight>
@@ -2511,7 +2511,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Shotgun +1" source="DMG">
 		<name>Shotgun +1</name>
 		<type>R</type>
 		<weight>7</weight>
@@ -2533,7 +2533,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Shotgun +2" source="DMG">
 		<name>Shotgun +2</name>
 		<type>R</type>
 		<weight>7</weight>
@@ -2555,7 +2555,7 @@
 		<modifier category="bonus">ranged attacks +2</modifier>
 		<modifier category="bonus">ranged damage +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Shotgun +3" source="DMG">
 		<name>Shotgun +3</name>
 		<type>R</type>
 		<weight>7</weight>
@@ -2577,7 +2577,7 @@
 		<modifier category="bonus">ranged attacks +3</modifier>
 		<modifier category="bonus">ranged damage +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Shotgun of Warning" source="DMG">
 		<name>Shotgun of Warning</name>
 		<type>R</type>
 		<weight>7</weight>
@@ -2599,7 +2599,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Vicious Automatic Pistol" source="DMG">
 		<name>Vicious Automatic Pistol</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2617,7 +2617,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 209</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Vicious Automatic Rifle" source="DMG">
 		<name>Vicious Automatic Rifle</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2639,7 +2639,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 209</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Vicious Hunting Rifle" source="DMG">
 		<name>Vicious Hunting Rifle</name>
 		<type>R</type>
 		<weight>8</weight>
@@ -2659,7 +2659,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 209</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Vicious Revolver" source="DMG">
 		<name>Vicious Revolver</name>
 		<type>R</type>
 		<weight>3</weight>
@@ -2677,7 +2677,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 209</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Vicious Shotgun" source="DMG">
 		<name>Vicious Shotgun</name>
 		<type>R</type>
 		<weight>7</weight>
@@ -2697,7 +2697,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 209</text>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Bullets +1 (Modern)" source="DMG">
 		<name>Bullets +1 (Modern)</name>
 		<type>A</type>
 		<weight>0.1</weight>
@@ -2708,7 +2708,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Bullets +2 (Modern)" source="DMG">
 		<name>Bullets +2 (Modern)</name>
 		<type>A</type>
 		<weight>0.1</weight>
@@ -2719,7 +2719,7 @@
 		<modifier category="bonus">ranged attacks +2</modifier>
 		<modifier category="bonus">ranged damage +2</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Bullets +3 (Modern)" source="DMG">
 		<name>Bullets +3 (Modern)</name>
 		<type>A</type>
 		<weight>0.1</weight>
@@ -2730,7 +2730,7 @@
 		<modifier category="bonus">ranged attacks +3</modifier>
 		<modifier category="bonus">ranged damage +3</modifier>
 	</item>
-	<item MF="MF" source="DMG">
+	<item MF="MF" name="Bullets of Slaying (Modern)" source="DMG">
 		<name>Bullets of Slaying (Modern)</name>
 		<type>A</type>
 		<weight>0.1</weight>

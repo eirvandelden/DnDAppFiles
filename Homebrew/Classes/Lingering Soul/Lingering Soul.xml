@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="DMGd">
 	<baseclass name="Lingering Soul">
 		<name>Lingering Soul</name>
 		<hd>6</hd>
@@ -60,6 +60,10 @@
 				<text>• Should you fall to 0 hit points, you begin fading. You are considered unconscious, and make death saving throws as normal. Should you fail three death saving throws, your spirit withers away into the ether. Your soul is cast into the vaults of the underworld and cannot be recovered or resurrected outside of the use of a Wish spell.</text>
 				<text>• Should you ever be brought back to life via a spell or resurrection effect, you immediately lose all levels in Lingering Soul and return to life as your previous, living self. You gain back class levels in your original classes as they were upon death, plus one additional character level per level of Lingering Soul gained while playing as a spirit.</text>
 			</feature>
+			<feature>
+				<name>Source</name>
+				<text>Dungeon Master's Guild: Matthew Mercer</text>
+			</feature>
 			<!-- Archetype features -->
 		</autolevel>
 		<autolevel level="2">
@@ -106,7 +110,7 @@
 		<autolevel level="9">
 			<feature>
 				<name>Xenoglossia</name>
-				<text>Starling at 9th level, you can use an action while possessing a host to manipulate their speech and force them to say or yell a short phrase of twenty-five words or less. Any Charisma ability checks initiated this way use your Charisma score and skills in place of the host's.</text>
+				<text>Starting at 9th level, you can use an action while possessing a host to manipulate their speech and force them to say or yell a short phrase of twenty-five words or less. Any Charisma ability checks initiated this way use your Charisma score and skills in place of the host's.</text>
 				<text>	If the host begins casting a spell that uses verbal components, you can use your reaction to try to force them to fumble the incantation. The host must make a Constitution saving throw against your Lingering Soul DC. On a failure, the spell fails, the spell slot is expended, and the possession immediately ends.</text>
 			</feature>
 		</autolevel>

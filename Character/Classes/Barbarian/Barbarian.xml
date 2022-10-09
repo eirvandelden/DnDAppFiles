@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PHB">
 	<baseclass>
 		<name>Barbarian</name>
 		<hd>12</hd>
@@ -9,6 +9,7 @@
 		<weapons>simple weapons, martial weapons</weapons>
 		<tools>none</tools>
 		<wealth>2d4x10</wealth>
+    <!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -28,8 +29,6 @@
 				<text/>
 				<text>Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
 			</feature>
-		</autolevel>
-		<autolevel level="1">
 			<feature>
 				<name>Rage</name>
 				<text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.</text>
@@ -41,12 +40,16 @@
 				<text/>
 				<text>If you are able to cast spells, you can't cast them or concentrate on them while raging.</text>
 				<text>	Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</text>
-				<text>	Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again.  You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</text>
+				<text>	Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</text>
 			</feature>
 			<feature>
 				<name>Unarmored Defense</name>
 				<text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
 				<special>Unarmored Defense: Constitution</special>
+			</feature>
+			<feature>
+				<name>Source</name>
+				<text>Player's Handbook</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
@@ -177,5 +180,30 @@
 				<text>At 20th level, there is no limit to the number of times you may rage.</text>
 			</feature>
 		</autolevel>
+    <!-- Tasha's Variants -->
+        <autolevel level="3" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Primal Knowledge</name>
+                <text>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="7" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Instinctive Pounce</name>
+                <text>As part of the bonus action you take to enter your rage, you can move up to half your speed.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="10" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Primal Knowledge</name>
+                <text>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>

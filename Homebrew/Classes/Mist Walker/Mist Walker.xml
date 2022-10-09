@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="DMGd">
 	<baseclass name="Mist Walker">
 		<name>Mist Walker</name>
 		<hd>10</hd>
@@ -24,7 +24,7 @@
 				<text/>
 				<text>• (a) a rapier or (b) a shortsword</text>
 				<text>• (a) Shield or (b) a shortsword</text>
-				<text>• (a) an Explorers Pack or (b) a Dungeoneers Pack</text>
+				<text>• (a) an Explorer's Pack or (b) a Dungeoneer's Pack</text>
 				<text>• Leather Armor, two Daggers, and Poisoner's Kit</text>
 				<text/>
 				<text>Alternatively, you may start with 5d4 x 10 gp and purchase starting items of your choice.</text>
@@ -43,6 +43,10 @@
 				<name>Unarmored Defense</name>
 				<text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. You can use a shield and still gain this benefit.</text>
 				<special>Unarmored Defense: Intelligence</special>
+			</feature>
+			<feature>
+				<name>Source</name>
+				<text>Dungeon Master's Guild: Taking 20</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">

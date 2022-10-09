@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" UA="The Mystic Class">
+<compendium version="5" UA="The Mystic Class" source="UA:TMC">
 	<subclass baseclass="Mystic (UA)">
 		<name>Mystic (Nomad)</name>
 		<autolevel level="1">
@@ -13,28 +13,30 @@
 				<text/>
 				<text>Breadth of Knowledge</text>
 				<text>At 1st level, you gain the ability to extend your knowledge. When you finish a long rest, you gain two proficiencies of your choice: two tools, two skills, or one of each. You can replace one or both of these selections with languages. This benefit lasts until you finish a long rest.</text>
+				<text></text>
+				<text>Source: Unearthed Arcana: The Mystic Class</text>
 			</feature>
 		</autolevel>
 		<autolevel level="3">
 			<feature optional="YES">
-				<name>Order of the Nomad: Memory of One Thousand Steps</name>
+				<name>Nomad: Memory of One Thousand Steps</name>
 				<text>At 3rd level, you gain the ability to use psionics to recall your steps. As a reaction when you are hit by an attack, you can teleport to an unoccupied space that you occupied since the start of your last turn, and the attack misses you. Once you use this feature, you can't use it again until you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="6">
 			<feature optional="YES">
-				<name>Order of the Nomad: Superior Teleportation</name>
+				<name>Nomad: Superior Teleportation</name>
 				<text>At 6th level, you gain a superior talent for teleportation. When you use a psionic discipline to teleport any distance, you can increase that distance by up to 10 feet.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="14">
 			<feature optional="YES">
-				<name>Order of the Nomad: Effortless Journey</name>
+				<name>Nomad: Effortless Journey</name>
 				<text>Starting at 14th level, your mind can mystically move your body. Once on each of your turns, you can forfeit up to 30 feet of your movement to teleport the distance you forfeited. You must teleport to an unoccupied space you can see.</text>
 			</feature>
 		</autolevel>
 	</subclass>
-	<spell>
+	<spell name="Nomadic Arrow (Nomad)">
 		<name>Nomadic Arrow (Nomad)</name>
 		<level>1</level>
 		<time>Varies</time>
@@ -44,13 +46,12 @@
 		<text>You imbue a ranged weapon with a strange semblance of sentience, allowing it to unerringly find its mark.</text>
 		<text>Psychic Focus:</text>
 		<text>While you are focused on this discipline, any attack roll you make for a ranged weapon attack ignores disadvantage. If disadvantage would normally apply to the roll, that roll also can't benefit from advantage.</text>
-		<text>Speed Dart (1–7 psi):</text>
+		<text>Speed Dart (1-7 psi):</text>
 		<text>As a bonus action, you imbue one ranged weapon you hold with psionic power. The next attack you make with it that hits before the end of the current turn deals an extra 1d10 psychic damage per psi point spent.</text>
 		<text>Seeking Missile (2 psi):</text>
 		<text>As a reaction when you miss with a ranged weapon attack, you can repeat the attack roll against the same target.</text>
 		<text>Faithful Archer (5 psi Conc 1m):</text>
-		<text>As a bonus action, you imbue a ranged weapon with a limited sentience. Until your concentration ends, you can make an extra attack with the weapon at the start of each of your turns (no action required). If it is a thrown weapon, it returns to your grasp each time you make any attack with it.
-		</text>
+		<text>As a bonus action, you imbue a ranged weapon with a limited sentience. Until your concentration ends, you can make an extra attack with the weapon at the start of each of your turns (no action required). If it is a thrown weapon, it returns to your grasp each time you make any attack with it.</text>
 		<roll>1d10</roll>
 		<roll>2d10</roll>
 		<roll>3d10</roll>
@@ -59,7 +60,7 @@
 		<roll>6d10</roll>
 		<roll>7d10</roll>
 	</spell>
-	<spell>
+	<spell name="Nomadic Chameleon (Nomad)">
 		<name>Nomadic Chameleon (Nomad)</name>
 		<level>1</level>
 		<time>Varies</time>
@@ -77,7 +78,7 @@
 		<text>Enduring Invisibility (7 psi Conc 1m):</text>
 		<text>As a bonus action, you turn invisible and remain so until your concentration ends.</text>
 	</spell>
-	<spell>
+	<spell name="Nomadic Mind (Nomad)">
 		<name>Nomadic Mind (Nomad)</name>
 		<level>1</level>
 		<time>Varies</time>
@@ -87,7 +88,7 @@
 		<text>You dispatch part of your psyche into the noosphere, the collective vista of minds and knowledge possessed by living things.</text>
 		<text>Psychic Focus:</text>
 		<text>Whenever you focus on this discipline, you choose one skill or tool and have proficiency with it until your focus ends. Alternatively, you gain the ability to read and write one language of your choice until your focus ends.</text>
-		<text>Wandering Mind (2–6 psi Conc 10m):</text>
+		<text>Wandering Mind (2-6 psi Conc 10m):</text>
 		<text>You enter a deep contemplation. If you concentrate for this option's full duration, you then gain proficiency with up to three of the following skills (one skill for every 2 psi points spent): Animal Handling, Arcana, History, Medicine, Nature, Performance, Religion, and Survival. The benefit lasts for 1 hour, no concentration required.</text>
 		<text>Find Creature (2 psi Conc 1h):</text>
 		<text>You cast your mind about for information about a specific creature. If you concentrate for this option's full duration, you then gain a general understanding of the creature's current location. You learn the region, city, town, village, or district where it is, pinpointing an area between 1 and 3 miles on a side (DM's choice). If the creature is on another plane of existence, you instead learn which plane.</text>
@@ -100,7 +101,7 @@
 		<text>Phasing Eye (7 psi Conc 1h):</text>
 		<text>Wandering Eye above, except the eye can move through solid objects but can't end its movement in one. If it does so, the effect immediately ends.</text>
 	</spell>
-	<spell>
+	<spell name="Nomadic Step (Nomad)">
 		<name>Nomadic Step (Nomad)</name>
 		<level>1</level>
 		<time>Varies</time>
@@ -110,8 +111,8 @@
 		<text>You exert your mind on the area around you, twisting the intraplanar pathways you perceive to allow instantaneous travel.</text>
 		<text>Psychic Focus:</text>
 		<text>After you teleport on your turn while focused on this discipline, your walking speed increases by 10 feet until the end of the turn, as you are propelled by the magic of your teleportation. You can receive this increase only once per turn.</text>
-		<text>Step of a Dozen Paces (1–7 psi):</text>
-		<text> If you haven't moved yet on your turn, you take a bonus action to teleport up to 20 feet per psi point spent to an unoccupied space you can see, and your speed is reduced to 0 until the end of the turn.</text>
+		<text>Step of a Dozen Paces (1-7 psi):</text>
+		<text>If you haven't moved yet on your turn, you take a bonus action to teleport up to 20 feet per psi point spent to an unoccupied space you can see, and your speed is reduced to 0 until the end of the turn.</text>
 		<text>Nomadic Anchor (1 psi):</text>
 		<text>As an action, you create an invisible, intangible teleportation anchor in a 5-foot cube you can see within 120 feet of you. For the next 8 hours, whenever you use this psionic discipline to teleport, you can instead teleport to the anchor, even if you can't see it, but it must be within range of the teleportation ability.</text>
 		<text>Defensive Step (2 psi):</text>
@@ -127,7 +128,7 @@
 		<text>Nomad's Gate (7 psi Conc 1h):</text>
 		<text>As an action, you create a 5-foot cube of dim, gray light within 5 feet of you. You create an identical cube at any point of your choice within 1 mile that you have viewed within the past 24 hours. Until your concentration ends, anyone entering one of the cubes immediately teleports to the other one, appearing in an unoccupied space next to it. The teleportation fails if there is no space for the creature to appear in.</text>
 	</spell>
-	<spell>
+	<spell name="Third Eye (Nomad)">
 		<name>Third Eye (Nomad)</name>
 		<level>1</level>
 		<time>1 Bonus Action</time>

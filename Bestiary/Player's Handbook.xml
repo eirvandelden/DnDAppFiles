@@ -1,95 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<monster>
-		<name>Air Elemental</name>
-		<size>L</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral</alignment>
-		<ac>15</ac>
-		<hp>90 (12d10+24)</hp>
-		<speed>fly 90 ft. (hover)</speed>
-		<str>14</str>
-		<dex>20</dex>
-		<con>14</con>
-		<int>6</int>
-		<wis>10</wis>
-		<cha>6</cha>
-		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Auran</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Air Form</name>
-			<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The elemental makes two slam attacks.</text>
-		</action>
-		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
-			<attack>Slam|8|2d8+5</attack>
-		</action>
-		<action>
-			<name>Whirlwind (Recharge 4-6)</name>
-			<text>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
-			<text>If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.</text>
-		</action>
-	</monster>
-	<monster>
-		<name>Air Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Elemental Evil</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>117 (18d8+36)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>14</con>
-		<int>9</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Auran, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes three flail attacks.</text>
-		</action>
-		<action>
-			<name>Flail</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</text>
-			<attack>Flail|7|1d8+4</attack>
-		</action>
-		<action>
-			<name>Lightning Strike (Recharge 6)</name>
-			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
-			<attack>Lightning Strike|7|1d8+4+4d8</attack>
-		</action>
-	</monster>
-	<monster>
+<compendium version="5" source="PHB">
+	<monster name="Allosaurus">
 		<name>Allosaurus</name>
 		<size>L</size>
 		<type>beast</type>
 		<description>Source: Monster Manual</description>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>60 (6d10+18)</hp>
+		<hp>51 (6d10+18)</hp>
 		<speed>60 ft.</speed>
 		<str>19</str>
 		<dex>13</dex>
@@ -115,7 +33,7 @@
 			<attack>Claw|6|1d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ankylosaurus">
 		<name>Ankylosaurus</name>
 		<size>H</size>
 		<type>beast</type>
@@ -138,7 +56,7 @@
 			<attack>Tail|7|4d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ape">
 		<name>Ape</name>
 		<size>M</size>
 		<type>beast</type>
@@ -171,7 +89,7 @@
 			<attack>Rock|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Awakened Shrub">
 		<name>Awakened Shrub</name>
 		<size>S</size>
 		<type>plant</type>
@@ -201,7 +119,7 @@
 			<attack>Rake|1|1d4-1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Awakened Tree">
 		<name>Awakened Tree</name>
 		<size>H</size>
 		<type>plant</type>
@@ -231,7 +149,7 @@
 			<attack>Slam|6|3d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Axe Beak">
 		<name>Axe Beak</name>
 		<size>L</size>
 		<type>beast</type>
@@ -254,7 +172,7 @@
 			<attack>Beak|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Azer">
 		<name>Azer</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -292,9 +210,10 @@
 			<name>Warhammer</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
 			<attack>Warhammer|5|1d8+3+1d6</attack>
+			<attack>Warhammer (2H)|5|1d10+3+1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Baboon">
 		<name>Baboon</name>
 		<size>S</size>
 		<type>beast</type>
@@ -321,7 +240,7 @@
 			<attack>Bite|1|1d4-1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Badger">
 		<name>Badger</name>
 		<size>T</size>
 		<type>beast</type>
@@ -349,7 +268,7 @@
 			<attack>Bite|2|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Bat">
 		<name>Bat</name>
 		<size>T</size>
 		<type>beast</type>
@@ -381,7 +300,7 @@
 			<attack>Bite|0|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Black Bear">
 		<name>Black Bear</name>
 		<size>M</size>
 		<type>beast</type>
@@ -417,7 +336,7 @@
 			<attack>Claws|3|2d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Blink Dog">
 		<name>Blink Dog</name>
 		<size>M</size>
 		<type>fey</type>
@@ -448,9 +367,10 @@
 		<action>
 			<name>Teleport (Recharge 4-6)</name>
 			<text>The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack.</text>
+			<recharge>D4</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Blood Hawk">
 		<name>Blood Hawk</name>
 		<size>S</size>
 		<type>beast</type>
@@ -482,7 +402,7 @@
 			<attack>Beak|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Boar">
 		<name>Boar</name>
 		<size>M</size>
 		<type>beast</type>
@@ -507,6 +427,7 @@
 		<trait>
 			<name>Relentless (Recharges after a Short or Long Rest)</name>
 			<text>If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Tusk</name>
@@ -514,7 +435,7 @@
 			<attack>Tusk|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Brown Bear">
 		<name>Brown Bear</name>
 		<size>L</size>
 		<type>beast</type>
@@ -551,7 +472,7 @@
 			<attack>Claws|5|2d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Camel">
 		<name>Camel</name>
 		<size>L</size>
 		<type>beast</type>
@@ -574,7 +495,7 @@
 			<attack>Bite|5|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Cat">
 		<name>Cat</name>
 		<size>T</size>
 		<type>beast</type>
@@ -599,10 +520,10 @@
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
-			<attack>Claws||1</attack>
+			<attack>Claws|0|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Cave Bear">
 		<name>Cave Bear</name>
 		<size>L</size>
 		<type>beast</type>
@@ -640,7 +561,7 @@
 			<attack>Claws|7|2d6+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Constrictor Snake">
 		<name>Constrictor Snake</name>
 		<size>L</size>
 		<type>beast</type>
@@ -669,7 +590,7 @@
 			<attack>Constrict|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Couatl">
 		<name>Couatl</name>
 		<size>M</size>
 		<type>celestial</type>
@@ -694,10 +615,50 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:</text>
-			<text/>
+			<text></text>
 			<text>At will: detect evil and good, detect magic, detect thoughts</text>
 			<text>3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield</text>
 			<text>1/day each: dream, greater restoration, scrying</text>
+		</trait>
+		<trait>
+			<name>Bless</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Create Food and Water</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Cure Wounds</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Lesser Restoration</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Protection from Poison</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Sanctuary</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Shield</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Dream</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Greater Restoration</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Scrying</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Weapons</name>
@@ -724,7 +685,7 @@
 		</action>
 		<spells>Detect Evil and Good, Detect Magic, Detect Thoughts, Bless, Create Food and Water, Cure Wounds, Lesser Restoration, Protection from Poison, Sanctuary, Shield, Dream, Greater Restoration, Scrying</spells>
 	</monster>
-	<monster>
+	<monster name="Crab">
 		<name>Crab</name>
 		<size>T</size>
 		<type>beast</type>
@@ -750,10 +711,10 @@
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.</text>
-			<attack>Claw||1</attack>
+			<attack>Claw|0|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Crocodile">
 		<name>Crocodile</name>
 		<size>L</size>
 		<type>beast</type>
@@ -781,7 +742,7 @@
 			<attack>Bite|4|1d10+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Deer">
 		<name>Deer</name>
 		<size>M</size>
 		<type>beast</type>
@@ -804,7 +765,7 @@
 			<attack>Bite|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Dire Wolf">
 		<name>Dire Wolf</name>
 		<size>L</size>
 		<type>beast</type>
@@ -836,7 +797,7 @@
 			<attack>Bite|5|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Draft Horse">
 		<name>Draft Horse</name>
 		<size>L</size>
 		<type>beast</type>
@@ -859,7 +820,7 @@
 			<attack>Hooves|6|2d4+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Dryad">
 		<name>Dryad</name>
 		<size>M</size>
 		<type>fey</type>
@@ -882,10 +843,30 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:</text>
-			<text/>
+			<text></text>
 			<text>At will: druidcraft</text>
 			<text>3/day each: entangle, goodberry</text>
 			<text>1/day each: barkskin, pass without trace, shillelagh</text>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Goodberry</name>
+			<recharge>3/day</recharge>
+		</trait>
+		<trait>
+			<name>Barkskin</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Pass without Trace</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Shillelagh</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -901,8 +882,9 @@
 		</trait>
 		<action>
 			<name>Club</name>
-			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
+			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
 			<attack>Club|2|1d4</attack>
+			<attack>Shillelagh|2|1d8+4</attack>
 		</action>
 		<action>
 			<name>Fey Charm</name>
@@ -912,54 +894,7 @@
 		</action>
 		<spells>Druidcraft, Entangle, Goodberry, Barkskin, Pass without Trace, Shillelagh</spells>
 	</monster>
-	<monster>
-		<name>Dust Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>12</ac>
-		<hp>17 (5d6)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>5</str>
-		<dex>14</dex>
-		<con>10</con>
-		<int>9</int>
-		<wis>11</wis>
-		<cha>10</cha>
-		<skill>Perception +2, Stealth +4</skill>
-		<vulnerable>fire</vulnerable>
-		<immune>poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Auran, Terran</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it explodes in a burst of dust. Each creature within 5 ft. of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast sleep, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: sleep</text>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
-			<attack>Claws|4|1d4+2</attack>
-		</action>
-		<action>
-			<name>Blinding Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of blinding dust. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-		</action>
-		<spells>Sleep</spells>
-	</monster>
-	<monster>
+	<monster name="Eagle">
 		<name>Eagle</name>
 		<size>S</size>
 		<type>beast</type>
@@ -987,8 +922,229 @@
 			<attack>Talons|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
-		<name>Earth Elemental</name>
+	<monster name="Elemental Myrmidon, Air">
+		<name>Elemental Myrmidon, Air</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Elemental Evil</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Auran, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three flail attacks.</text>
+		</action>
+		<action>
+			<name>Flail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</text>
+			<attack>Flail|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Lightning Strike (Recharge 6)</name>
+			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
+			<attack>Lightning Strike|7|1d8+4+4d8</attack>
+			<recharge>D6</recharge>
+		</action>
+	</monster>
+	<monster name="Elemental Myrmidon, Earth">
+		<name>Elemental Myrmidon, Earth</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Elemental Evil</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>8</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Terran, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes two maul attacks.</text>
+		</action>
+		<action>
+			<name>Maul</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
+			<attack>Maul|7|2d6+4</attack>
+		</action>
+		<action>
+			<name>Thunderous Strike (Recharge 6)</name>
+			<text>The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
+			<recharge>D6</recharge>
+		</action>
+	</monster>
+	<monster name="Elemental Myrmidon, Fire">
+		<name>Elemental Myrmidon, Fire</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Elemental Evil</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8+36)</hp>
+		<speed>40 ft.</speed>
+		<str>13</str>
+		<dex>18</dex>
+		<con>15</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>fire, poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Ignan, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Illumination</name>
+			<text>The myrmidon sheds bright light in a 20-foot radius and dim light in a 40-foot radius.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Water Susceptibility</name>
+			<text>For every 5 feet the myrmidon moves in water, it takes 2 (1d4) cold damage.</text>
+			<attack>Cold Damage||1d4</attack>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three scimitar attacks.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
+			<attack>Scimitar|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Fiery Strikes (Recharge 6)</name>
+			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
+			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
+			<recharge>D6</recharge>
+		</action>
+	</monster>
+	<monster name="Elemental Myrmidon, Water">
+		<name>Elemental Myrmidon, Water</name>
+		<size>M</size>
+		<type>elemental</type>
+		<description>Source: Elemental Evil</description>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>127 (17d8+51)</hp>
+		<speed>40 ft., swim 40 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>8</int>
+		<wis>10</wis>
+		<cha>10</cha>
+		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan, one language of its creator's choice</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The myrmidon's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The myrmidon makes three trident attacks.</text>
+		</action>
+		<action>
+			<name>Trident</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Trident|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Freezing Strikes (Recharge 6)</name>
+			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
+			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
+			<recharge>D6</recharge>
+		</action>
+	</monster>
+	<monster name="Elemental, Air">
+		<name>Elemental, Air</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>15</ac>
+		<hp>90 (12d10+24)</hp>
+		<speed>fly 90 ft. (hover)</speed>
+		<str>14</str>
+		<dex>20</dex>
+		<con>14</con>
+		<int>6</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Auran</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Air Form</name>
+			<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elemental makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
+			<attack>Slam|8|2d8+5</attack>
+		</action>
+		<action>
+			<name>Whirlwind (Recharge 4-6)</name>
+			<text>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
+			<text>If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.</text>
+			<recharge>D4</recharge>
+			<attack>Bludgeoning Damage||3d8+2</attack>
+			<attack>Damage per 10 feet||1d6</attack>
+		</action>
+	</monster>
+	<monster name="Elemental, Earth">
+		<name>Elemental, Earth</name>
 		<size>L</size>
 		<type>elemental</type>
 		<description>Source: Monster Manual</description>
@@ -1028,48 +1184,100 @@
 			<attack>Slam|8|2d8+5</attack>
 		</action>
 	</monster>
-	<monster>
-		<name>Earth Elemental Myrmidon</name>
-		<size>M</size>
+	<monster name="Elemental, Fire">
+		<name>Elemental, Fire</name>
+		<size>L</size>
 		<type>elemental</type>
-		<description>Source: Elemental Evil</description>
+		<description>Source: Monster Manual</description>
 		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>30 ft.</speed>
-		<str>18</str>
-		<dex>10</dex>
-		<con>17</con>
-		<int>8</int>
+		<ac>13</ac>
+		<hp>102 (12d10+36)</hp>
+		<speed>50 ft.</speed>
+		<str>10</str>
+		<dex>17</dex>
+		<con>16</con>
+		<int>6</int>
 		<wis>10</wis>
-		<cha>10</cha>
+		<cha>7</cha>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
+		<immune>fire, poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
-		<languages>Terran, one language of its creator's choice</languages>
-		<cr>7</cr>
+		<languages>Ignan</languages>
+		<cr>5</cr>
 		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
+			<name>Fire Form</name>
+			<text>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 ft. of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</text>
+			<attack>Fire Damage||1d10</attack>
+		</trait>
+		<trait>
+			<name>Illumination</name>
+			<text>The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 ft..</text>
+		</trait>
+		<trait>
+			<name>Water Susceptibility</name>
+			<text>For every 5 ft. the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The myrmidon makes two maul attacks.</text>
+			<text>The elemental makes two touch attacks.</text>
 		</action>
 		<action>
-			<name>Maul</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
-			<attack>Maul|7|2d6+4</attack>
-		</action>
-		<action>
-			<name>Thunderous Strike (Recharge 6)</name>
-			<text>The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
-			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
+			<name>Touch</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
+			<attack>Touch|6|2d6+3</attack>
+			<attack>Fire Damage||1d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Elemental, Water">
+		<name>Elemental, Water</name>
+		<size>L</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>114 (12d10+48)</hp>
+		<speed>30 ft., swim 90 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>18</con>
+		<int>5</int>
+		<wis>10</wis>
+		<cha>8</cha>
+		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Water Form</name>
+			<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Freeze</name>
+			<text>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 ft. until the end of its next turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elemental makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</text>
+			<attack>Slam|7|2d8+4</attack>
+		</action>
+		<action>
+			<name>Whelm (Recharge 4-6)</name>
+			<text>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.</text>
+			<text>The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding.</text>
+			<recharge>D4</recharge>
+			<attack>Bludgeoning Damage||2d8+4</attack>
+		</action>
+	</monster>
+	<monster name="Elephant">
 		<name>Elephant</name>
 		<size>H</size>
 		<type>beast</type>
@@ -1101,7 +1309,7 @@
 			<attack>Stomp|8|3d10+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Elk">
 		<name>Elk</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1134,102 +1342,7 @@
 			<attack>Hooves|5|2d4+3</attack>
 		</action>
 	</monster>
-	<monster>
-		<name>Fire Elemental</name>
-		<size>L</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral</alignment>
-		<ac>13</ac>
-		<hp>102 (12d10+36)</hp>
-		<speed>50 ft.</speed>
-		<str>10</str>
-		<dex>17</dex>
-		<con>16</con>
-		<int>6</int>
-		<wis>10</wis>
-		<cha>7</cha>
-		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>fire, poison</immune>
-		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Ignan</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Fire Form</name>
-			<text>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 ft. of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</text>
-			<attack>Fire Form||5d10</attack>
-			<attack>Burn Damage||1d10</attack>
-		</trait>
-		<trait>
-			<name>Illumination</name>
-			<text>The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 ft..</text>
-		</trait>
-		<trait>
-			<name>Water Susceptibility</name>
-			<text>For every 5 ft. the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The elemental makes two touch attacks.</text>
-		</action>
-		<action>
-			<name>Touch</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
-			<attack>Touch|6|2d6+3</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Fire Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Elemental Evil</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>117 (18d8+36)</hp>
-		<speed>40 ft.</speed>
-		<str>13</str>
-		<dex>18</dex>
-		<con>15</con>
-		<int>9</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>fire, poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Ignan, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Illumination</name>
-			<text>The myrmidon sheds bright light in a 20-foot radius and dim light in a 40-foot radius.</text>
-		</trait>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<trait>
-			<name>Water Susceptibility</name>
-			<text>For every 5 feet the myrmidon moves in water, it takes 2 (1d4) cold damage.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes three scimitar attacks.</text>
-		</action>
-		<action>
-			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
-			<attack>Scimitar|7|1d6+4</attack>
-		</action>
-		<action>
-			<name>Fiery Strikes (Recharge 6)</name>
-			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
-			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
-		</action>
-	</monster>
-	<monster>
+	<monster name="Fire Snake">
 		<name>Fire Snake</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -1271,7 +1384,7 @@
 			<attack>Tail|3|1d4+1+1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Flying Snake">
 		<name>Flying Snake</name>
 		<size>T</size>
 		<type>beast</type>
@@ -1299,7 +1412,7 @@
 			<attack>Bite|6|1+3d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Frog">
 		<name>Frog</name>
 		<size>T</size>
 		<type>beast</type>
@@ -1327,7 +1440,7 @@
 			<text>The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Galeb Duhr">
 		<name>Galeb Duhr</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -1366,9 +1479,10 @@
 		<action>
 			<name>Animate Boulders (1/Day)</name>
 			<text>The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell).</text>
+			<recharge>1/Day</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Gargoyle">
 		<name>Gargoyle</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -1409,7 +1523,7 @@
 			<attack>Claws|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ghast">
 		<name>Ghast</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1449,7 +1563,7 @@
 			<attack>Claws|5|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Ghoul">
 		<name>Ghoul</name>
 		<size>M</size>
 		<type>undead</type>
@@ -1480,7 +1594,7 @@
 			<attack>Claws|4|2d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Badger">
 		<name>Giant Badger</name>
 		<size>M</size>
 		<type>beast</type>
@@ -1517,7 +1631,7 @@
 			<attack>Claws|3|2d4+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Bat">
 		<name>Giant Bat</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1549,14 +1663,14 @@
 			<attack>Bite|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Boar">
 		<name>Giant Boar</name>
 		<size>L</size>
 		<type>beast</type>
 		<description>Source: Monster Manual</description>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>42 (5d10+5)</hp>
+		<hp>42 (5d10+15)</hp>
 		<speed>40 ft.</speed>
 		<str>17</str>
 		<dex>10</dex>
@@ -1574,6 +1688,7 @@
 		<trait>
 			<name>Relentless (Recharges after a Short or Long Rest)</name>
 			<text>If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
+			<recharge>Short</recharge>
 		</trait>
 		<action>
 			<name>Tusk</name>
@@ -1581,7 +1696,7 @@
 			<attack>Tusk|5|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Centipede">
 		<name>Giant Centipede</name>
 		<size>S</size>
 		<type>beast</type>
@@ -1603,9 +1718,10 @@
 			<name>Bite</name>
 			<text>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Bite|4|1d4+2</attack>
+			<attack>Poison Damage||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Constrictor Snake">
 		<name>Giant Constrictor Snake</name>
 		<size>H</size>
 		<type>beast</type>
@@ -1635,7 +1751,7 @@
 			<attack>Constrict|6|2d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Crab">
 		<name>Giant Crab</name>
 		<size>M</size>
 		<type>beast</type>
@@ -1664,7 +1780,7 @@
 			<attack>Claw|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Crocodile">
 		<name>Giant Crocodile</name>
 		<size>H</size>
 		<type>beast</type>
@@ -1701,7 +1817,7 @@
 			<attack>Tail|8|2d8+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Eagle">
 		<name>Giant Eagle</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1739,7 +1855,7 @@
 			<attack>Talons|5|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Elk">
 		<name>Giant Elk</name>
 		<size>H</size>
 		<type>beast</type>
@@ -1774,7 +1890,7 @@
 			<attack>Hooves|6|4d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Fire Beetle">
 		<name>Giant Fire Beetle</name>
 		<size>S</size>
 		<type>beast</type>
@@ -1802,7 +1918,7 @@
 			<attack>Bite|1|1d6-1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Fly">
 		<name>Giant Fly</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1821,7 +1937,7 @@
 		<passive>10</passive>
 		<cr>0</cr>
 	</monster>
-	<monster>
+	<monster name="Giant Frog">
 		<name>Giant Frog</name>
 		<size>M</size>
 		<type>beast</type>
@@ -1856,9 +1972,10 @@
 		<action>
 			<name>Swallow</name>
 			<text>The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.</text>
+			<attack>Acid Damage||2d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Goat">
 		<name>Giant Goat</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1890,7 +2007,7 @@
 			<attack>Ram|5|2d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Hyena">
 		<name>Giant Hyena</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1918,7 +2035,7 @@
 			<attack>Bite|5|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Lizard">
 		<name>Giant Lizard</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1950,7 +2067,7 @@
 			<attack>Bite|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Octopus">
 		<name>Giant Octopus</name>
 		<size>L</size>
 		<type>beast</type>
@@ -1989,9 +2106,10 @@
 		<action>
 			<name>Ink Cloud (Recharges after a Short or Long Rest)</name>
 			<text>A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</text>
+			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Owl">
 		<name>Giant Owl</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2025,7 +2143,7 @@
 			<attack>Talons|3|2d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Poisonous Snake">
 		<name>Giant Poisonous Snake</name>
 		<size>M</size>
 		<type>beast</type>
@@ -2048,9 +2166,10 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Bite|6|1d4+4</attack>
+			<attack>Poison||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Rat">
 		<name>Giant Rat</name>
 		<size>S</size>
 		<type>beast</type>
@@ -2082,7 +2201,7 @@
 			<attack>Bite|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Rat (Diseased)">
 		<name>Giant Rat (Diseased)</name>
 		<size>S</size>
 		<type>beast</type>
@@ -2104,9 +2223,10 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
 			<attack>Bite|4|1d4+2</attack>
+			<attack>Hit Point Decrease||1d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Scorpion">
 		<name>Giant Scorpion</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2137,9 +2257,10 @@
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Sting|4|1d10+2</attack>
+			<attack>Poison Damage||4d10</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Sea Horse">
 		<name>Giant Sea Horse</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2171,7 +2292,7 @@
 			<attack>Ram|3|1d6+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Shark">
 		<name>Giant Shark</name>
 		<size>H</size>
 		<type>beast</type>
@@ -2204,7 +2325,7 @@
 			<attack>Bite|9|3d10+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Spider">
 		<name>Giant Spider</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2239,14 +2360,16 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Bite|5|1d8+3</attack>
+			<attack>Poison Damage||2d8</attack>
 		</action>
 		<action>
 			<name>Web (Recharge 5-6)</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</text>
-			<attack>Web|5|0</attack>
+			<attack>Web|5|</attack>
+			<recharge>D5</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Toad">
 		<name>Giant Toad</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2281,9 +2404,10 @@
 			<name>Swallow</name>
 			<text>The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.</text>
 			<text>If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.</text>
+			<attack>Acid Damage||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Vulture">
 		<name>Giant Vulture</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2325,7 +2449,7 @@
 			<attack>Talons|4|2d6+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Wasp">
 		<name>Giant Wasp</name>
 		<size>M</size>
 		<type>beast</type>
@@ -2346,9 +2470,10 @@
 			<name>Sting</name>
 			<text>Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Sting|4|1d6+2</attack>
+			<attack>Poison Damage||3d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Weasel">
 		<name>Giant Weasel</name>
 		<size>M</size>
 		<type>beast</type>
@@ -2377,7 +2502,7 @@
 			<attack>Bite|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Giant Wolf Spider">
 		<name>Giant Wolf Spider</name>
 		<size>M</size>
 		<type>beast</type>
@@ -2412,9 +2537,10 @@
 			<name>Bite</name>
 			<text>Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Bite|3|1d6+1</attack>
+			<attack>Poison Damage||2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Goat">
 		<name>Goat</name>
 		<size>M</size>
 		<type>beast</type>
@@ -2446,7 +2572,7 @@
 			<attack>Ram|3|1d4+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Green Hag">
 		<name>Green Hag</name>
 		<size>M</size>
 		<type>fey</type>
@@ -2473,7 +2599,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:</text>
-			<text/>
+			<text></text>
 			<text>At will: dancing lights, minor illusion, vicious mockery</text>
 		</trait>
 		<trait>
@@ -2494,7 +2620,7 @@
 			<text>4th level (3 slots): phantasmal killer, polymorph</text>
 			<text>5th level (2 slots): contact other plane, scrying</text>
 			<text>6th level (1 slot): eyebite</text>
-			<text/>
+			<text></text>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
 		</trait>
 		<trait>
@@ -2518,7 +2644,7 @@
 		</action>
 		<spells>Dancing Lights, Minor Illusion, Vicious Mockery, Identify, Ray of Sickness, Hold Person, Locate Object, Bestow Curse, Counterspell, Lightning Bolt, Phantasmal Killer, Polymorph, Contact Other Plane, Scrying, Eyebite</spells>
 	</monster>
-	<monster>
+	<monster name="Hawk">
 		<name>Hawk</name>
 		<size>T</size>
 		<type>beast</type>
@@ -2546,7 +2672,7 @@
 			<attack>Talons|5|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hunter Shark">
 		<name>Hunter Shark</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2579,7 +2705,7 @@
 			<attack>Bite|6|2d8+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Hyena">
 		<name>Hyena</name>
 		<size>M</size>
 		<type>beast</type>
@@ -2607,59 +2733,7 @@
 			<attack>Bite|2|1d6</attack>
 		</action>
 	</monster>
-	<monster>
-		<name>Ice Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>11</ac>
-		<hp>21 (6d6)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>7</str>
-		<dex>13</dex>
-		<con>10</con>
-		<int>9</int>
-		<wis>11</wis>
-		<cha>12</cha>
-		<skill>Perception +2, Stealth +3</skill>
-		<vulnerable>bludgeoning, fire</vulnerable>
-		<immune>cold, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Aquan, Auran</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Death Burst||1d8</attack>
-		</trait>
-		<trait>
-			<name>False Appearance</name>
-			<text>While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: fog cloud</text>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.</text>
-			<attack>Claws|3|1d4+1+1d4</attack>
-		</action>
-		<action>
-			<name>Frost Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one.</text>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-		</action>
-		<spells>Fog Cloud</spells>
-	</monster>
-	<monster>
+	<monster name="Imp">
 		<name>Imp</name>
 		<size>T</size>
 		<type>fiend (devil)</type>
@@ -2675,7 +2749,7 @@
 		<wis>12</wis>
 		<cha>14</cha>
 		<skill>Deception +4, Insight +3, Persuasion +4, Stealth +5</skill>
-		<resist>cold; bludgeoning, piercing, and slashing from nonmagical/nonsilver weapons</resist>
+		<resist>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 120 ft.</senses>
@@ -2698,13 +2772,14 @@
 			<name>Sting (Bite in Beast Form)</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Sting/Bite|5|1d4+3</attack>
+			<attack>Poison Damage||3d6</attack>
 		</action>
 		<action>
 			<name>Invisibility</name>
 			<text>The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Invisible Stalker">
 		<name>Invisible Stalker</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -2745,7 +2820,7 @@
 			<attack>Slam|6|2d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Jackal">
 		<name>Jackal</name>
 		<size>S</size>
 		<type>beast</type>
@@ -2777,7 +2852,7 @@
 			<attack>Bite|1|1d4-1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Killer Whale">
 		<name>Killer Whale</name>
 		<size>H</size>
 		<type>beast</type>
@@ -2814,7 +2889,7 @@
 			<attack>Bite|6|5d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lion">
 		<name>Lion</name>
 		<size>L</size>
 		<type>beast</type>
@@ -2859,7 +2934,7 @@
 			<attack>Claw|5|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Lizard">
 		<name>Lizard</name>
 		<size>T</size>
 		<type>beast</type>
@@ -2883,8 +2958,221 @@
 			<attack>Bite|0|1</attack>
 		</action>
 	</monster>
-	<monster>
-		<name>Magma Mephit</name>
+	<monster name="Magmin">
+		<name>Magmin</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>chaotic neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>9 (2d6+2)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>8</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>fire</immune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Ignan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 ft. of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren't being worn or carried in that area are ignited.</text>
+			<attack>Death Burst||2d6</attack>
+		</trait>
+		<trait>
+			<name>Ignited Illumination</name>
+			<text>As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds bright light in a 10-foot radius and dim light for an additional 10 ft.</text>
+		</trait>
+		<action>
+			<name>Touch</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.</text>
+			<attack>Touch|4|2d6</attack>
+			<attack>Fire Damage||1d6</attack>
+		</action>
+	</monster>
+	<monster name="Mammoth">
+		<name>Mammoth</name>
+		<size>H</size>
+		<type>beast</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>126 (11d12+55)</hp>
+		<speed>40 ft.</speed>
+		<str>24</str>
+		<dex>9</dex>
+		<con>21</con>
+		<int>3</int>
+		<wis>11</wis>
+		<cha>6</cha>
+		<passive>10</passive>
+		<cr>6</cr>
+		<trait>
+			<name>Trampling Charge</name>
+			<text>If the mammoth moves at least 20 ft. straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the mammoth can make one stomp attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Gore</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) piercing damage.</text>
+			<attack>Gore|10|4d8+7</attack>
+		</action>
+		<action>
+			<name>Stomp</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10 + 7) bludgeoning damage.</text>
+			<attack>Stomp|10|4d10+7</attack>
+		</action>
+	</monster>
+	<monster name="Mastiff">
+		<name>Mastiff</name>
+		<size>M</size>
+		<type>beast</type>
+		<description>Source: Monster Manual</description>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>5 (1d8+1)</hp>
+		<speed>40 ft.</speed>
+		<str>13</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<skill>Perception +3</skill>
+		<passive>13</passive>
+		<cr>1/8</cr>
+		<trait>
+			<name>Keen Hearing and Smell</name>
+			<text>The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<attack>Bite|3|1d6+1</attack>
+		</action>
+	</monster>
+	<monster name="Mephit, Dust">
+		<name>Mephit, Dust</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>12</ac>
+		<hp>17 (5d6)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>5</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Perception +2, Stealth +4</skill>
+		<vulnerable>fire</vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Auran, Terran</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a burst of dust. Each creature within 5 ft. of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast sleep, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: sleep</text>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claws|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Blinding Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of blinding dust. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D6</recharge>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
+			<recharge>1/Day</recharge>
+		</action>
+		<spells>Sleep</spells>
+	</monster>
+	<monster name="Mephit, Ice">
+		<name>Mephit, Ice</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>11</ac>
+		<hp>21 (6d6)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>7</str>
+		<dex>13</dex>
+		<con>10</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<skill>Perception +2, Stealth +3</skill>
+		<vulnerable>bludgeoning, fire</vulnerable>
+		<immune>cold, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Aquan, Auran</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Death Burst||1d8</attack>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: fog cloud</text>
+		</trait>
+		<trait>
+			<name>Fog Cloud</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.</text>
+			<attack>Claws|3|1d4+1+1d4</attack>
+		</action>
+		<action>
+			<name>Frost Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D6</recharge>
+			<attack>Cold Damage||2d4</attack>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
+		</action>
+		<spells>Fog Cloud</spells>
+	</monster>
+	<monster name="Mephit, Magma">
+		<name>Mephit, Magma</name>
 		<size>S</size>
 		<type>elemental</type>
 		<description>Source: Monster Manual</description>
@@ -2920,6 +3208,10 @@
 			<text>The mephit can innately cast heat metal (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.</text>
 			<text>1/day: heat metal</text>
 		</trait>
+		<trait>
+			<name>Heat Metal</name>
+			<recharge>1/day</recharge>
+		</trait>
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.</text>
@@ -2928,111 +3220,20 @@
 		<action>
 			<name>Fire Breath (Recharge 6)</name>
 			<text>The mephit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D6</recharge>
+			<attack>Fire Damage||2d6</attack>
 		</action>
 		<action>
 			<name>Variant: Summon Mephits (1/Day)</name>
 			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
 		</action>
 		<spells>Heat Metal</spells>
 	</monster>
-	<monster>
-		<name>Magmin</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>chaotic neutral</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>9 (2d6+2)</hp>
-		<speed>30 ft.</speed>
-		<str>7</str>
-		<dex>15</dex>
-		<con>12</con>
-		<int>8</int>
-		<wis>11</wis>
-		<cha>10</cha>
-		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>fire</immune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Ignan</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 ft. of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren't being worn or carried in that area are ignited.</text>
-			<attack>Death Burst||2d6</attack>
-		</trait>
-		<trait>
-			<name>Ignited Illumination</name>
-			<text>As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds bright light in a 10-foot radius and dim light for an additional 10 ft.</text>
-		</trait>
-		<action>
-			<name>Touch</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.</text>
-			<attack>Touch|4|2d6</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Mammoth</name>
-		<size>H</size>
-		<type>beast</type>
-		<description>Source: Monster Manual</description>
-		<alignment>unaligned</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>126 (11d12+55)</hp>
-		<speed>40 ft.</speed>
-		<str>24</str>
-		<dex>9</dex>
-		<con>21</con>
-		<int>3</int>
-		<wis>11</wis>
-		<cha>6</cha>
-		<passive>10</passive>
-		<cr>6</cr>
-		<trait>
-			<name>Trampling Charge</name>
-			<text>If the mammoth moves at least 20 ft. straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the mammoth can make one stomp attack against it as a bonus action.</text>
-		</trait>
-		<action>
-			<name>Gore</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) piercing damage.</text>
-			<attack>Gore|10|4d8+7</attack>
-		</action>
-		<action>
-			<name>Stomp</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10 + 7) bludgeoning damage.</text>
-			<attack>Stomp|10|4d10+7</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Mastiff</name>
-		<size>M</size>
-		<type>beast</type>
-		<description>Source: Monster Manual</description>
-		<alignment>unaligned</alignment>
-		<ac>12</ac>
-		<hp>5 (1d8+1)</hp>
-		<speed>40 ft.</speed>
-		<str>13</str>
-		<dex>14</dex>
-		<con>12</con>
-		<int>3</int>
-		<wis>12</wis>
-		<cha>7</cha>
-		<skill>Perception +3</skill>
-		<passive>13</passive>
-		<cr>1/8</cr>
-		<trait>
-			<name>Keen Hearing and Smell</name>
-			<text>The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
-			<attack>Bite|3|1d6+1</attack>
-		</action>
-	</monster>
-	<monster>
-		<name>Mud Mephit</name>
+	<monster name="Mephit, Mud">
+		<name>Mephit, Mud</name>
 		<size>S</size>
 		<type>elemental</type>
 		<description>Source: Monster Manual</description>
@@ -3069,13 +3270,126 @@
 		<action>
 			<name>Mud Breath (Recharge 6)</name>
 			<text>The mephit belches viscid mud onto one creature within 5 ft. of it. If the target is Medium or smaller, it must succeed on a DC 11 Dexterity saving throw or be restrained for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<recharge>D6</recharge>
 		</action>
 		<action>
 			<name>Variant: Summon Mephits (1/Day)</name>
 			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Mephit, Smoke">
+		<name>Mephit, Smoke</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>12</ac>
+		<hp>22 (5d6+5)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>6</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<skill>Perception +2, Stealth +4</skill>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Auran, Ignan</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it leaves behind a cloud of smoke that fills a 5-foot-radius sphere centered on its space. The sphere is heavily obscured. Wind disperses the cloud, which otherwise lasts for 1 minute.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast dancing lights, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: dancing lights</text>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claws|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Cinder Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded until the end of the mephit's next turn.</text>
+			<recharge>D6</recharge>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
+		</action>
+		<spells>Dancing Lights</spells>
+	</monster>
+	<monster name="Mephit, Steam">
+		<name>Mephit, Steam</name>
+		<size>S</size>
+		<type>elemental</type>
+		<description>Source: Monster Manual</description>
+		<alignment>neutral evil</alignment>
+		<ac>10</ac>
+		<hp>21 (6d6)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>5</str>
+		<dex>11</dex>
+		<con>10</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>12</cha>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Aquan, Ignan</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.</text>
+			<attack>Death Burst||1d8</attack>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: blur</text>
+		</trait>
+		<trait>
+			<name>Blur</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
+			<attack>Claws|2|1d4+1d4</attack>
+		</action>
+		<action>
+			<name>Steam Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<recharge>D6</recharge>
+			<attack>Fire Damage||1d8</attack>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+			<recharge>1/Day</recharge>
+			<attack>Chance||1d100</attack>
+			<attack>Mephits||1d4</attack>
+		</action>
+		<spells>Blur</spells>
+	</monster>
+	<monster name="Mule">
 		<name>Mule</name>
 		<size>M</size>
 		<type>beast</type>
@@ -3106,7 +3420,7 @@
 			<attack>Hooves|2|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Mummy">
 		<name>Mummy</name>
 		<size>M</size>
 		<type>undead</type>
@@ -3137,13 +3451,14 @@
 			<name>Rotting Fist</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.</text>
 			<attack>Rotting Fist|5|2d6+3+3d6</attack>
+			<attack>Hit Point Decrease||3d6</attack>
 		</action>
 		<action>
 			<name>Dreadful Glare</name>
 			<text>The mummy targets one creature it can see within 60 ft. of it. If the target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Octopus">
 		<name>Octopus</name>
 		<size>S</size>
 		<type>beast</type>
@@ -3182,9 +3497,10 @@
 		<action>
 			<name>Ink Cloud (Recharges after a Short or Long Rest)</name>
 			<text>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</text>
+			<recharge>Short</recharge>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Owl">
 		<name>Owl</name>
 		<size>T</size>
 		<type>beast</type>
@@ -3217,7 +3533,7 @@
 			<attack>Talons|3|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Panther">
 		<name>Panther</name>
 		<size>M</size>
 		<type>beast</type>
@@ -3254,7 +3570,7 @@
 			<attack>Claw|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pegasus">
 		<name>Pegasus</name>
 		<size>L</size>
 		<type>celestial</type>
@@ -3280,7 +3596,7 @@
 			<attack>Hooves|6|2d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pixie">
 		<name>Pixie</name>
 		<size>T</size>
 		<type>fey</type>
@@ -3306,9 +3622,49 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component:</text>
-			<text/>
+			<text></text>
 			<text>At will: druidcraft</text>
 			<text>1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep</text>
+		</trait>
+		<trait>
+			<name>Confusion</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dancing Lights</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Evil and Good</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Detect Thoughts</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Magic</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Fly</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Phantasmal Force</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Polymorph</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Sleep</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<action>
 			<name>Superior Invisibility</name>
@@ -3316,7 +3672,7 @@
 		</action>
 		<spells>Druidcraft, Confusion, Dancing Lights, Detect Evil and Good, Detect Thoughts, Dispel Magic, Entangle, Fly, Phantasmal Force, Polymorph, Sleep</spells>
 	</monster>
-	<monster>
+	<monster name="Plesiosaurus">
 		<name>Plesiosaurus</name>
 		<size>L</size>
 		<type>beast</type>
@@ -3344,7 +3700,7 @@
 			<attack>Bite|6|3d6+4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Poisonous Snake">
 		<name>Poisonous Snake</name>
 		<size>T</size>
 		<type>beast</type>
@@ -3366,9 +3722,10 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Bite|5|1</attack>
+			<attack>Poison Damage||2d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Polar Bear">
 		<name>Polar Bear</name>
 		<size>L</size>
 		<type>beast</type>
@@ -3405,7 +3762,7 @@
 			<attack>Claws|7|2d6+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pony">
 		<name>Pony</name>
 		<size>M</size>
 		<type>beast</type>
@@ -3428,7 +3785,7 @@
 			<attack>Hooves|4|2d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pseudodragon">
 		<name>Pseudodragon</name>
 		<size>T</size>
 		<type>dragon</type>
@@ -3475,7 +3832,7 @@
 			<attack>Sting|4|1d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Pteranodon">
 		<name>Pteranodon</name>
 		<size>M</size>
 		<type>beast</type>
@@ -3503,7 +3860,7 @@
 			<attack>Bite|3|2d4+1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Quasit">
 		<name>Quasit</name>
 		<size>T</size>
 		<type>fiend (demon)</type>
@@ -3542,17 +3899,19 @@
 			<name>Claw (Bite in Beast Form)</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Claw/Bite|4|1d4+3</attack>
+			<attack>Poison Damage||2d4</attack>
 		</action>
 		<action>
 			<name>Scare (1/day)</name>
 			<text>One creature of the quasit's choice within 20 ft. of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.</text>
+			<recharge>1/day</recharge>
 		</action>
 		<action>
 			<name>Invisibility</name>
 			<text>The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Quipper">
 		<name>Quipper</name>
 		<size>T</size>
 		<type>beast</type>
@@ -3584,7 +3943,7 @@
 			<attack>Bite|5|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rat">
 		<name>Rat</name>
 		<size>T</size>
 		<type>beast</type>
@@ -3612,7 +3971,7 @@
 			<attack>Bite|0|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Raven">
 		<name>Raven</name>
 		<size>T</size>
 		<type>beast</type>
@@ -3640,7 +3999,7 @@
 			<attack>Beak|4|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Reef Shark">
 		<name>Reef Shark</name>
 		<size>M</size>
 		<type>beast</type>
@@ -3673,7 +4032,7 @@
 			<attack>Bite|4|1d8+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Rhinoceros">
 		<name>Rhinoceros</name>
 		<size>L</size>
 		<type>beast</type>
@@ -3701,7 +4060,7 @@
 			<attack>Gore|7|2d8+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Riding Horse">
 		<name>Riding Horse</name>
 		<size>L</size>
 		<type>beast</type>
@@ -3724,7 +4083,7 @@
 			<attack>Hooves|5|2d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Saber-Toothed Tiger">
 		<name>Saber-Toothed Tiger</name>
 		<size>L</size>
 		<type>beast</type>
@@ -3761,7 +4120,7 @@
 			<attack>Claw|6|2d6+5</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Salamander">
 		<name>Salamander</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -3808,7 +4167,7 @@
 			<attack>Tail|7|2d6+4+2d6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Satyr">
 		<name>Satyr</name>
 		<size>M</size>
 		<type>fey</type>
@@ -3838,7 +4197,7 @@
 		</action>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1 d6 + 3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
 			<attack>Shortsword|5|1d6+3</attack>
 		</action>
 		<action>
@@ -3851,7 +4210,7 @@
 			<text>Gentle Lullaby. The creature falls asleep and is unconscious for 1 minute. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Scorpion">
 		<name>Scorpion</name>
 		<size>T</size>
 		<type>beast</type>
@@ -3873,9 +4232,10 @@
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Sting|2|1</attack>
+			<attack>Poison Damage||1d8</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sea Hag">
 		<name>Sea Hag</name>
 		<size>M</size>
 		<type>fey</type>
@@ -3917,7 +4277,7 @@
 			<text>4th level (3 slots): phantasmal killer, polymorph</text>
 			<text>5th level (2 slots): contact other plane, scrying</text>
 			<text>6th level (1 slot): eyebite</text>
-			<text/>
+			<text></text>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
 		</trait>
 		<trait>
@@ -3941,7 +4301,7 @@
 		</action>
 		<spells>Identify, Ray of Sickness, Hold Person, Locate Object, Bestow Curse, Counterspell, Lightning Bolt, Phantasmal Killer, Polymorph, Contact Other Plane, Scrying, Eyebite</spells>
 	</monster>
-	<monster>
+	<monster name="Sea Horse">
 		<name>Sea Horse</name>
 		<size>T</size>
 		<type>beast</type>
@@ -3963,7 +4323,7 @@
 			<text>The sea horse can breathe only underwater.</text>
 		</trait>
 	</monster>
-	<monster>
+	<monster name="Skeleton">
 		<name>Skeleton</name>
 		<size>M</size>
 		<type>undead</type>
@@ -3995,53 +4355,7 @@
 			<attack>Shortbow|4|1d6+2</attack>
 		</action>
 	</monster>
-	<monster>
-		<name>Smoke Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>12</ac>
-		<hp>22 (5d6+5)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>6</str>
-		<dex>14</dex>
-		<con>12</con>
-		<int>10</int>
-		<wis>10</wis>
-		<cha>11</cha>
-		<skill>Perception +2, Stealth +4</skill>
-		<immune>fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Auran, Ignan</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it leaves behind a cloud of smoke that fills a 5-foot-radius sphere centered on its space. The sphere is heavily obscured. Wind disperses the cloud, which otherwise lasts for 1 minute.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast dancing lights, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: dancing lights</text>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
-			<attack>Claws|4|1d4+2</attack>
-		</action>
-		<action>
-			<name>Cinder Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded until the end of the mephit's next turn.</text>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-		</action>
-		<spells>Dancing Lights</spells>
-	</monster>
-	<monster>
+	<monster name="Spider">
 		<name>Spider</name>
 		<size>T</size>
 		<type>beast</type>
@@ -4076,9 +4390,10 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.</text>
 			<attack>Bite|4|1</attack>
+			<attack>Poison Damage||1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Sprite">
 		<name>Sprite</name>
 		<size>T</size>
 		<type>fey</type>
@@ -4116,53 +4431,7 @@
 			<text>The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.</text>
 		</action>
 	</monster>
-	<monster>
-		<name>Steam Mephit</name>
-		<size>S</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral evil</alignment>
-		<ac>10</ac>
-		<hp>21 (6d6)</hp>
-		<speed>30 ft., fly 30 ft.</speed>
-		<str>5</str>
-		<dex>11</dex>
-		<con>10</con>
-		<int>11</int>
-		<wis>10</wis>
-		<cha>12</cha>
-		<immune>fire, poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Aquan, Ignan</languages>
-		<cr>1/4</cr>
-		<trait>
-			<name>Death Burst</name>
-			<text>When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.</text>
-			<attack>Death Burst||1d8</attack>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
-			<text>1/day: blur</text>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
-			<attack>Claws|2|1d4+1d4</attack>
-		</action>
-		<action>
-			<name>Steam Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.</text>
-		</action>
-		<action>
-			<name>Variant: Summon Mephits (1/Day)</name>
-			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
-		</action>
-		<spells>Blur</spells>
-	</monster>
-	<monster>
+	<monster name="Stirge">
 		<name>Stirge</name>
 		<size>T</size>
 		<type>beast</type>
@@ -4187,7 +4456,7 @@
 			<attack>Blood Drain|5|1d4+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Tiger">
 		<name>Tiger</name>
 		<size>L</size>
 		<type>beast</type>
@@ -4225,7 +4494,7 @@
 			<attack>Claw|5|1d8+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Triceratops">
 		<name>Triceratops</name>
 		<size>H</size>
 		<type>beast</type>
@@ -4257,7 +4526,7 @@
 			<attack>Stomp|9|3d10+6</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Unicorn">
 		<name>Unicorn</name>
 		<size>L</size>
 		<type>celestial</type>
@@ -4286,9 +4555,21 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components:</text>
-			<text/>
+			<text></text>
 			<text>At will: detect evil and good, druidcraft, pass without trace</text>
 			<text>1/day each: calm emotions, dispel evil and good, entangle</text>
+		</trait>
+		<trait>
+			<name>Calm Emotions</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Dispel Evil and Good</name>
+			<recharge>1/day</recharge>
+		</trait>
+		<trait>
+			<name>Entangle</name>
+			<recharge>1/day</recharge>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4315,10 +4596,13 @@
 		<action>
 			<name>Healing Touch (3/Day)</name>
 			<text>The unicorn touches another creature with its horn. The target magically regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.</text>
+			<recharge>3/Day</recharge>
+			<attack>Hit Points||2d8+2</attack>
 		</action>
 		<action>
 			<name>Teleport (1/Day)</name>
 			<text>The unicorn magically teleports itself and up to three willing creatures it can see within 5 ft. of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away.</text>
+			<recharge>1/Day</recharge>
 		</action>
 		<legendary>
 			<name>Hooves</name>
@@ -4331,10 +4615,11 @@
 		<legendary>
 			<name>Heal Self (Costs 3 Actions)</name>
 			<text>The unicorn magically regains 11 (2d8 + 2) hit points.</text>
+			<attack>Hit Points||2d8+2</attack>
 		</legendary>
 		<spells>Detect Evil and Good, Druidcraft, Pass without Trace, Calm Emotions, Dispel Evil and Good, Entangle</spells>
 	</monster>
-	<monster>
+	<monster name="Vulture">
 		<name>Vulture</name>
 		<size>M</size>
 		<type>beast</type>
@@ -4366,7 +4651,7 @@
 			<attack>Beak|2|1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Warhorse">
 		<name>Warhorse</name>
 		<size>L</size>
 		<type>beast</type>
@@ -4393,93 +4678,7 @@
 			<attack>Hooves|6|2d6+4</attack>
 		</action>
 	</monster>
-	<monster>
-		<name>Water Elemental</name>
-		<size>L</size>
-		<type>elemental</type>
-		<description>Source: Monster Manual</description>
-		<alignment>neutral</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>114 (12d10+48)</hp>
-		<speed>30 ft., swim 90 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>18</con>
-		<int>5</int>
-		<wis>10</wis>
-		<cha>8</cha>
-		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Aquan</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Water Form</name>
-			<text>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</text>
-		</trait>
-		<trait>
-			<name>Freeze</name>
-			<text>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 ft. until the end of its next turn.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The elemental makes two slam attacks.</text>
-		</action>
-		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</text>
-			<attack>Slam|7|2d8+4</attack>
-		</action>
-		<action>
-			<name>Whelm (Recharge 4-6)</name>
-			<text>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.</text>
-			<text>The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding.</text>
-		</action>
-	</monster>
-	<monster>
-		<name>Water Elemental Myrmidon</name>
-		<size>M</size>
-		<type>elemental</type>
-		<description>Source: Elemental Evil</description>
-		<alignment>neutral</alignment>
-		<ac>18 (plate)</ac>
-		<hp>127 (17d8+51)</hp>
-		<speed>40 ft., swim 40 ft.</speed>
-		<str>18</str>
-		<dex>14</dex>
-		<con>15</con>
-		<int>8</int>
-		<wis>10</wis>
-		<cha>10</cha>
-		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<immune>poison</immune>
-		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Aquan, one language of its creator's choice</languages>
-		<cr>7</cr>
-		<trait>
-			<name>Magic Weapons</name>
-			<text>The myrmidon's weapon attacks are magical.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The myrmidon makes three trident attacks.</text>
-		</action>
-		<action>
-			<name>Trident</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
-			<attack>Trident|7|1d6+4</attack>
-		</action>
-		<action>
-			<name>Freezing Strikes (Recharge 6)</name>
-			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
-			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
-		</action>
-	</monster>
-	<monster>
+	<monster name="Water Weird">
 		<name>Water Weird</name>
 		<size>L</size>
 		<type>elemental</type>
@@ -4515,7 +4714,7 @@
 			<attack>Constrict|5|3d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Weasel">
 		<name>Weasel</name>
 		<size>T</size>
 		<type>beast</type>
@@ -4543,7 +4742,7 @@
 			<attack>Bite|5|1</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Wolf">
 		<name>Wolf</name>
 		<size>M</size>
 		<type>beast</type>
@@ -4575,7 +4774,7 @@
 			<attack>Bite|4|2d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Xorn">
 		<name>Xorn</name>
 		<size>M</size>
 		<type>elemental</type>
@@ -4623,7 +4822,7 @@
 			<attack>Claw|6|1d6+3</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Zombie">
 		<name>Zombie</name>
 		<size>M</size>
 		<type>undead</type>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="AL">
 	<!-- These backgrounds are legal for Adventurers League play: -->
 	<!-- see http://dndadventurersleague.org/bonds-and-backgrounds-for-hillsfar/ -->
-	<background>
+	<background name="Cormanthor Refugee">
 		<name>Cormanthor Refugee</name>
 		<proficiency>Nature, Survival</proficiency>
 		<trait>
@@ -30,8 +30,48 @@
 			<text>The clerics of Elventree have vowed to care for the Cormanthor refugees. They will help you when they can, including providing you and your companions with free healing and care at temples, shrines, and other established presences in Elventree. They will also provide you (but only you) with a poor lifestyle.</text>
 			<text>	[Note: This feature is a variant of the Acolyte feature.]</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>d8    Personality Trait</text>
+            <text>1     I long for a home that never really existed, whether in the camps, Hillsfar, or Myth Drannor.</text>
+            <text>2     Though I am not an elf, I am a fervent, radical worshipper of the elven gods.</text>
+            <text>3     I live in the moment, knowing my life could be turned upside down any day.</text>
+            <text>4     I appreciate beauty in all of its forms.</text>
+            <text>5     I hate the dark elves and the Netherese for each driving the elves out of Cormanthyr in the past.</text>
+            <text>6     I am a forest bumpkin who grew up in a tent in the woods and is wholly ignorant of city life.</text>
+            <text>7     I was raised alongside children of many other races. I harbor no racial prejudices at all.</text>
+            <text>8     The elves have just the right word for so many things that cannot be expressed as well in other languages. I pepper my speech with elven words, phrases, and sayings.</text>
+            <text></text>
+            <text>d6    Ideal</text>
+            <text>1     Patient. The elves have taught me to think and plan for the long-term. (Lawful)</text>
+            <text>2     Rebellious. Governments and politicians drove my family to the camps. I subtly defy authority whenever I think I can get away with it. (Chaotic)</text>
+            <text>3     Self - Absorbed. I've had to look out for number one so long that it has become second nature. (Any)</text>
+            <text>4     Wanderlust. I want to see as much of the world beyond the camps as I can. (Any)</text>
+            <text>5     Generous. I give everything I can to help those in need, regardless of who they are. (Good)</text>
+            <text>6     To the Abyss with Them. The people of Hillsfar cast me out. I won't risk my hide to help them. (Evil)</text>
+            <text></text>
+            <text>d6    Bond</text>
+            <text>1     The elves took me in when I had nowhere else to go. In return, I do what I can to help elves in need.</text>
+            <text>2     I seek revenge against the people of Hillsfar for driving my family into the forest.</text>
+            <text>3     My family lost everything when they were driven from Hillsfar. I strive to rebuild that fortune.</text>
+            <text>4     The forest has provided me with food and shelter. In return, I protect forests and those who dwell within.</text>
+            <text>5     I am deeply, tragically in love with someone whose racial lifespan is far longer or shorter than mine.</text>
+            <text>6     Members of my extended family did not make it to the camps or have been kidnapped to fight in the Arena. I search for them tirelessly.</text>
+            <text></text>
+            <text>d6    Flaw</text>
+            <text>1     I am very uncomfortable indoors and underground.</text>
+            <text>2     I am haughty. I grew up among the elves and emulate them. Other races are crude in comparison.</text>
+            <text>3     Elf this, elf that. I am sick and tired of the elves.</text>
+            <text>4     I am a miser. Having lost everything once before, I clutch my possessions and wealth very tightly.</text>
+            <text>5     I am a moocher. I am so used to others providing for me that I have come to expect everyone to do it.</text>
+            <text>6     I believe the gods have cursed me, my family, and all of the Cormanthor refugees. We are all doomed, doomed I tell you!</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Adventurer's League: Rise of Demons</text>
+        </trait>
+    </background>
+	<background name="Gate Urchin">
 		<name>Gate Urchin</name>
 		<proficiency>Deception, Sleight of Hand</proficiency>
 		<trait>
@@ -55,8 +95,48 @@
 			<text>You made a number of friends among the Red Plumes and the Mage's Guild when you lived at the Hillsfar Gate. They remember you fondly and help you in little ways when they can. You can invoke their assistance in and around Hillsfar to obtain food, as well as simple equipment for temporary use. You can also invoke it to gain access to the low-security areas of their garrisons, halls, and encampments.</text>
 			<text>	[Note: This feature is a variant of the Soldier feature.]</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>d8    Personality Trait</text>
+            <text>1     I appreciate the simple things in life. a song, a warm meal, a sunny day. I don't need any more.</text>
+            <text>2     My problems are always caused by others. I'm never to blame.</text>
+            <text>3     I am afraid I could wind up back on the streets any day.</text>
+            <text>4     I get along with everyone.</text>
+            <text>5     I see people as marks for a con and have difficulty feeling true empathy for them.</text>
+            <text>6     I have a real flair for matchmaking. I can find anyone a spouse!</text>
+            <text>7     I think money is the true measure of appreciation and affection. Everything else is talk or an act.</text>
+            <text>8     I don't like having a lot of stuff, just a few simple things I need. I don't like being tied down and tend to leave things behind when I don't need them anymore.</text>
+            <text></text>
+            <text>d6    Ideal</text>
+            <text>1     Loyal. I never rat out any of my friends, even when the Red Plumes or the Rogues Guild ask. (Lawful)</text>
+            <text>2     Adventurous. I don't like doing the same thing every day. I crave variety. (Chaotic)</text>
+            <text>3     Strong. Only the strong survive. I respect those who are strong and powerful. (Any)</text>
+            <text>4     Witty. Brains are better than brawn. I rely on my wits and respect others who do the same. (Any)</text>
+            <text>5     Honest. Others can do what they want, but I won't lie or steal, even to feed my family. (Good)</text>
+            <text>6     Ungrateful. Those who give, only do it to make themselves feel better. I steal from them. (Evil)</text>
+            <text></text>
+            <text>d6    Bond</text>
+            <text>1     The Joydancers of Lliira gave me my instrument when I really needed food. I hate them for that.</text>
+            <text>2     Busking has taught me to love music above all else.</text>
+            <text>3     The Rogues Guild spared me when I did a job without cutting them in. I owe them a great debt.</text>
+            <text>4     I know people hate the Red Plumes, but some of them were really good to me. I help Red Plumes whenever I can, and I respect them. They're just doing what they have to do to get by in this world.</text>
+            <text>5     I will be wealthy some day. My descendants will live in comfort and style.</text>
+            <text>6     I know how hard life on the streets is. I do everything I can for those who have less than me.</text>
+            <text></text>
+            <text>d6    Flaw</text>
+            <text>1     Though I no longer live at the Gate, I am still always concerned about where I will get my next meal.</text>
+            <text>2     Years of thieving have become habit. I sometimes steal from strangers without thinking about it.</text>
+            <text>3     I am ashamed of my origins. I pretend I am higher-born and fear others will find out the truth.</text>
+            <text>4     I think people who grew up in houses are soft, spoiled, and ungrateful. I frequently tell them so.</text>
+            <text>5     I am still very uncomfortable wearing nice clothes, sleeping in a warm bed, and eating fine food.</text>
+            <text>6     I do not trust anyone who has not had a hard life.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Adventurer's League: Rise of Demons</text>
+        </trait>
+    </background>
+	<background name="Hillsfar Merchant">
 		<name>Hillsfar Merchant</name>
 		<proficiency>Insight, Persuasion</proficiency>
 		<trait>
@@ -85,8 +165,48 @@
 			<text>You and your family have trade contacts such as caravan masters, shopkeepers, sailors, artisans, and farmers throughout the Moonsea region and all along the Sword Coast. Once per game session, when adventuring in either of those areas, you can use those contacts to get information about the local area or to pass a message to someone in those areas, even across the great distance between the two areas.</text>
 			<text>	[Note: This feature is a variant of the Criminal Contact and Researcher feature.]</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>d8    Personality Trait</text>
+            <text>1     I fill my evenings with wine or mead and song.</text>
+            <text>2     I greatly admire gladiators and enjoy the Arena.</text>
+            <text>3     I take my wealth for granted. It seldom occurs to me that others aren't rich themselves.</text>
+            <text>4     I leave broken hearts all around the Moonsea and up and down the Sword Coast.</text>
+            <text>5     I work hard and seldom make time for fun.</text>
+            <text>6     I am a particularly devout and pray often.</text>
+            <text>7     The Red Plumes caught me once. I hate them.</text>
+            <text>8     I ask a lot of questions to get information about those with whom I am working and dealing.</text>
+            <text></text>
+            <text>d6    Ideal</text>
+            <text>1     Frugal. I spend my money very carefully. (Lawful)</text>
+            <text>2     Profligate. I tend to spend extravagantly. (Chaotic)</text>
+            <text>3     Honest. I deal with others above board. (Any)</text>
+            <text>4     Sharp. I seek to make the best deal possible. (Any)</text>
+            <text>5     Charitable. I give generously to others. (Good)</text>
+            <text>6     Greedy. I do not share my wealth with others. (Evil)</text>
+            <text></text>
+            <text>d6    Bond</text>
+            <text>1     I am fiercely loyal to those with whom I work.</text>
+            <text>2     I must uphold the good name of my family.</text>
+            <text>3     I will prove myself to my family as an adventurer.</text>
+            <text>4     Deals are sacrosanct. I never go back on my word.</text>
+            <text>5     I love making deals and negotiating agreements.</text>
+            <text>6     I guard my wealth jealously.</text>
+            <text></text>
+            <text>d6    Flaw</text>
+            <text>1     I am a braggart. I promote myself shamelessly.</text>
+            <text>2     I am vain. I always wear the latest fashions.</text>
+            <text>3     I am a glutton. I eat and drink to excess.</text>
+            <text>4     I am a snob. I want only the finest things in life.</text>
+            <text>5     I am lazy. I want others to take care of everything.</text>
+            <text>6     I am overconfident. I overestimate my abilities.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Adventurer's League: Rise of Demons</text>
+        </trait>
+    </background>
+	<background name="Hillsfar Smuggler">
 		<name>Hillsfar Smuggler</name>
 		<proficiency>Perception, Stealth</proficiency>
 		<trait>
@@ -114,8 +234,48 @@
 			<text>You can call on your contacts within the smuggling community to secure secret passage into or out of Hillsfar for yourself and your adventuring companions, no questions asked, and no Red Plume entanglements. Because you're calling in a favor, you can't be certain they will be able to help on your timetable or at all. Your Dungeon Master will determine whether you can be smuggled into or out of the city. In return for your passage, you and your companions may owe the Rouges Guild a favor and/or may have to pay bribes.</text>
 			<text>	[Note: This feature is a variant of the Sailor feature.]</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>d8    Personality Trait</text>
+            <text>1     When I'm not smuggling, I gamble.</text>
+            <text>2     I just love Halfling cooking and baking!</text>
+            <text>3     I party with dwarves whenever I can.</text>
+            <text>4     I'm a terrible singer, but I love to do it.</text>
+            <text>5     I was raised to honor Chauntea and still do.</text>
+            <text>6     The blood sports of the Arena sicken me.</text>
+            <text>7     I think non-humans are really interesting.</text>
+            <text>8     I exaggerate the tales of my exploits.</text>
+            <text></text>
+            <text>d6    Ideal</text>
+            <text>1     Fair. I think everyone deserves to be treated fairly. I don't play favorites. (Lawful)</text>
+            <text>2     Impulsive. Planning is often a waste of time. No plan survives contact with reality. It's easier to dive in and deal with the consequences. (Chaotic)</text>
+            <text>3     Curious. I want to learn as much as I can about the people and places I encounter. (Any)</text>
+            <text>4     Prepared. I think success depends on preparing as much as possible in advance. (Any)</text>
+            <text>5     Respectful. I think everyone deserves to be treated with respect and dignity, regardless of their race, creed, color, or origin. (Good)</text>
+            <text>6     Corrupt. I will break the law or act dishonestly if the money is right. (Evil)</text>
+            <text></text>
+            <text>d6    Bond</text>
+            <text>1     I am loyal to the Rogues Guild and would do anything for them.</text>
+            <text>2     I love the city of Hillsfar and my fellow Hillsfarians, despite the recent problems.</text>
+            <text>3     I admire the elves. I help them whenever I can.</text>
+            <text>4     A gnome helped me once. I pay the favor forward.</text>
+            <text>5     I enjoy tricking the Red Plumes at every opportunity.</text>
+            <text>6     I smuggled agricultural goods for non-human farmers. I try to help them when I can.</text>
+            <text></text>
+            <text>d6    Flaw</text>
+            <text>1     My hatred for the Red Plumes burns so brightly that I have difficulty suppressing It around them.</text>
+            <text>2     The Red Plumes caught me once before, and I was branded for my crime. If they catch me again, for any offense, the punishment will be dire.</text>
+            <text>3     I treat all Hillsfarians poorly. I am disgusted with their failure to revolt against the Great Law of Humanity.</text>
+            <text>4     I have difficulty trusting strangers. Anyone could be a spy for the authorities.</text>
+            <text>5     I am greedy. There Isn't much I won't do for money.</text>
+            <text>6     I'm an informant for the Red Plumes. They let me continue my activities, so long as I pass them information about illegal activity in Hillsfar.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Adventurer's League: Rise of Demons</text>
+        </trait>
+    </background>
+	<background name="Secret Identity">
 		<name>Secret Identity</name>
 		<proficiency>Deception, Stealth</proficiency>
 		<trait>
@@ -139,8 +299,48 @@
 			<text>You have created a secret identity that you use to conceal your true race and that offers a covering explanation for your presence in Hillsfar. In addition, you can forge documents, including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</text>
 			<text>	[Note: This feature is a variant of the Charlatan feature.]</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>d8    Personality Trait</text>
+            <text>1     Despite its problems, I love Hillsfar, it's the greatest city in the world. The only one for me.</text>
+            <text>2     I move from place to place, never staying anywhere long and leaving nothing behind.</text>
+            <text>3     I think flattery is the best way to direct attention away from me.</text>
+            <text>4     I don't make friends easily. They're a liability I cannot afford.</text>
+            <text>5     Risk and danger are exhilarate me. Pulling off schemes and deceptions is a rush.</text>
+            <text>6     The First Lord is right, humans are superior. I really admire them, despite the atrocities.</text>
+            <text>7     I avoid people of my own race, as well as things associated with my race, lest they give me away.</text>
+            <text>8     I live for the Arena. I admire gladiators and enjoy the thrill of blood on the sands!</text>
+            <text></text>
+            <text>d6    Ideal</text>
+            <text>1     Quisling. Supporting the rulers of the land and following the laws is the road to salvation. (Lawful)</text>
+            <text>2     Scoflaw. The laws and lawmakers are corrupt. I follow laws only when it suits me. (Chaotic)</text>
+            <text>3     Optimist. Everyone Is basically good. Though the government is misguided it will all be okay. (Any)</text>
+            <text>4     Secretive. I am in the habit of not talking about myself. My business is none of yours. (Any)</text>
+            <text>5     Heroic. I do everything I can to help non-humans, regardless of the personal cost to me. (Good)</text>
+            <text>6     Depraved. I have lost my moral compass. The ends justify most any means. (Evil)</text>
+            <text></text>
+            <text>d6    Bond</text>
+            <text>1     The humans of Hillsfar have inflicted terrible harm on me, my family, and my race. I will have revenge.</text>
+            <text>2     I am part of an underground network that smuggles non-humans into and out of the city.</text>
+            <text>3     I am a partisan. I commit minor acts of defiance against the First Lord and Red Plumes when I can.</text>
+            <text>4     I am a spy. I report on events in and around Hillsfar.</text>
+            <text>5     My secret identity is the only thing protecting me from the Arena. I will stop at nothing to maintain it.</text>
+            <text>6     I am madly in love with a human who does not know my true identity, and I fear rejection if I reveal it.</text>
+            <text></text>
+            <text>d6    Flaw</text>
+            <text>1     After years of denying who I am, I now despise myself and other members of my pathetic race.</text>
+            <text>2     Years of hiding have made me somewhat paranoid. I trust no one.</text>
+            <text>3     I've been lying so often and for so long that I can't help it anymore. I frequently lie for no reason at all.</text>
+            <text>4     I am ashamed. I failed to protect a member of my family who was seized and thrown into the Area.</text>
+            <text>5     I am struggling with maintaining my secret identity. I subconsciously want to get caught and therefore sometimes let my secret identity slip.</text>
+            <text>6     Years of successfully deceiving others have made me cocky. I think no one can see through my lies.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Adventurer's League: Rise of Demons</text>
+        </trait>
+    </background>
+	<background name="Shade Fanatic">
 		<name>Shade Fanatic</name>
 		<proficiency>Deception, Intimidation</proficiency>
 		<trait>
@@ -168,9 +368,49 @@
 			<text>You have a special way of communicating with others who feel the same way you do about the Shade. When you enter a village or larger city you can identify contact who will give you information on those that would hinder your goals and those would help you simply because of your desire to see the Shade Enclave return in all its glory.</text>
 			<text>	[Note: This feature is a variant of the Criminal feature.]</text>
 		</trait>
-	</background>
-	<background>
-		<name>Trade Sherrif</name>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>d8    Personality Trait</text>
+            <text>1     I am a bully; I try to hide it though.</text>
+            <text>2     I let my actions speak for themselves</text>
+            <text>3     I am important; I will not let anyone forget that.</text>
+            <text>4     You are either with me or against me.</text>
+            <text>5     I know it is only a time before I am betrayed by those I care for.</text>
+            <text>6     I never understand why people get so emotional.</text>
+            <text>7     They are out to get me. It is only my cunning that keeps me ahead of them</text>
+            <text>8     Everyone has a choice, the one I make is always right though.</text>
+            <text></text>
+            <text>d6    Ideal</text>
+            <text>1     Hope. I know even if I need do evil acts, history will be my redemption. (Chaos)</text>
+            <text>2     Dedicated. I can do anything I put my mind to (Lawful)</text>
+            <text>3     Exciting. I have found the truth of the Shadovar and want to share it with everyone. (Any)</text>
+            <text>4     Frugal. I horde my possessions knowing that someday I will be called upon to give everything I have to the cause (Any)</text>
+            <text>5     Eloquent. I use my words to sway others to my beliefs. (Any)</text>
+            <text>6     Compassionate. It is through love that others will join in our cause. (Good)</text>
+            <text></text>
+            <text>d6    Bond</text>
+            <text>1     They say the Shade broke the bonds of mortality; I want to find out how.</text>
+            <text>2     The whispers in my head remind me that there is power to be found in the shadows.</text>
+            <text>3     For the glory of Netheril, I will grow in power.</text>
+            <text>4     I once lived in Hillsfar, I was chased out before I was able to say farewell.</text>
+            <text>5     My true love was a killed by the Red Plumes; I plot to make them suffer.</text>
+            <text>6     I had a loved one die in the arena at Hillsfar; I am out to prove I am stronger than them!</text>
+            <text></text>
+            <text>d6    Flaw</text>
+            <text>1     I always over exaggerate my abilities.</text>
+            <text>2     I cannot bear to let those I care for out of my sight.</text>
+            <text>3     I am incapable of standing up for myself.</text>
+            <text>4     The group I am with has committed atrocities; I am always worried their actions will become public.</text>
+            <text>5     I always enjoy a good mug of ale... or five.</text>
+            <text>6     I know what I do is wrong, but am afraid to speak up about it.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Adventurer's League: Rise of Demons</text>
+        </trait>
+    </background>
+	<background name="Trade Sheriff">
+		<name>Trade Sheriff</name>
 		<proficiency>Investigation, Persuasion</proficiency>
 		<trait>
 			<name>Skill Proficiencies</name>
@@ -186,7 +426,7 @@
 		</trait>
 		<trait>
 			<name>Equipment</name>
-			<text>A thieves kit, a gray cloak, Sherrif's insignia (badge), a set of fine clothes, and 17 gp</text>
+			<text>A thieves kit, a gray cloak, Sheriff's insignia (badge), a set of fine clothes, and 17 gp</text>
 		</trait>
 		<trait>
 			<name>Starting Lifestyle</name>
@@ -197,5 +437,44 @@
 			<text>You are part of a small force outside of Hillsfar You have a special way of communicating with others and they seem to be at ease around you. You can invoke your rank to allow you access to a crime scene or to requisition equipment or horses on a temporary basis. When you enter a town or village around Hillsfar you can identify a contact who will give you information on the local rumors and would help you simply because of your desire to get answers and information for anyone wanting to disrupt trade.</text>
 			<text>	[Note: This feature is a variant of the Soldier feature.]</text>
 		</trait>
-	</background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>d8    Personality Trait</text>
+            <text>1     I am always polite and respectful</text>
+            <text>2     I let my actions speak for themselves</text>
+            <text>3     I am haunted by my past having seen the murder of a close friend or family member and it is the one case I always needed to solve but have not been able to.</text>
+            <text>4     I am quick to judge and slow to vindicate</text>
+            <text>5     I can be very persuasive and am able to ask quest ions where others might not be able to.</text>
+            <text>6     I have a quirky personality that seems to take others off their guard.</text>
+            <text>7     My sense of humor is considered by most to be awkward.</text>
+            <text>8     Everyone has a choice, and they can always make the right choice, mine!</text>
+            <text></text>
+            <text>d6    Ideal</text>
+            <text>1     Hope. my job is to speak for the victim (Good)</text>
+            <text>2     Dedicated. Once I start an investigation, until told to do so, I do not quit, not matter where it leads. (Lawful)</text>
+            <text>3     Nation. My city, nation, or people are all that matter. (Any)</text>
+            <text>4     Mercenary. When I do investigations, I expect answers immediately. (Any)</text>
+            <text>5     Eloquent. I use my words to sway others to give me answers. (Good)</text>
+            <text>6     Might. It is through threats and force that I get my answers. (Lawful)</text>
+            <text></text>
+            <text>d6    Bond</text>
+            <text>1     To this day an unsolved case will always leave me haunted and bother me.</text>
+            <text>2     Through the might of my personality I will solve an investigation or puzzle.</text>
+            <text>3     It is my right to believe what I will, just try and stop me.</text>
+            <text>4     I need to prove my worth to my fellow Sheriffs</text>
+            <text>5     Someone I cared for died under suspicious circumstances. I will find out what happened to them and bring their killer to justice.</text>
+            <text>6     I speak for those that cannot speak for themselves.</text>
+            <text></text>
+            <text>d6    Flaw</text>
+            <text>1     I always over exaggerate my abilities.</text>
+            <text>2     I cannot bear to let those I care for out of my sight.</text>
+            <text>3     I took a bribe to tank an investigation and I would do anything to keep it secret.</text>
+            <text>4     I have little respect for those that are of "low" intelligence/race.</text>
+            <text>5     I always enjoy a good mug of ale... or five to cover up my past.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Adventurer's League: Rise of Demons</text>
+        </trait>
+    </background>
 </compendium>

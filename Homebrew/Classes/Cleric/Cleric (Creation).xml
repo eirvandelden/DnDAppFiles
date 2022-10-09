@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Creation)</name>
 		<autolevel level="1">
@@ -9,47 +9,46 @@
 				<text/>
 				<text>Creation Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
 				<text/>
-				<text>1st - create or destroy water, identify</text>
-				<text/>
-				<text>3rd - magic weapon, shatter</text>
-				<text/>
-				<text>5th - glyph of warding, tiny hut</text>
-				<text/>
-				<text>7th - fabricate, stone shape</text>
-				<text/>
-				<text>9th - creation, wall of stone</text>
+				<text>Level    Spells</text>
+				<text>1st      create or destroy water, identify</text>
+				<text>3rd      magic weapon, shatter</text>
+				<text>5th      glyph of warding, leomund's tiny hut</text>
+				<text>7th      fabricate, stone shape</text>
+				<text>9th      creation, wall of stone</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
-				<name>Creation Domain: Disciple of Creation</name>
+				<name>Creation: Disciple of Creation</name>
 				<text>When you choose this domain at 1st level, you gain proficiency with all kinds of artisans' tools. Your proficiency bonus is doubled for any ability check you make that uses artisans' tools.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Creation Domain: Gift of Making</name>
+				<name>Creation: Gift of Making</name>
 				<text>Also when you choose this domain at 1st level, you gain the thaumaturgy cantrip if you do not already know it, and can use it to create a nonmagical trinket or tool that can fit into your hand. The object created lasts until the end of your next turn.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
 			<feature optional="YES">
-				<name>Creation Domain Channel Divinity: Divine Fabrication</name>
+				<name>Creation Channel Divinity: Divine Fabrication</name>
 				<text>Starting at 2nd level, you can use your Channel Divinity to create objects using the powers of the divine forges.</text>
-				<text>	You can spend 1 minute presenting your holy symbol and describe a nonmagical inanimate object that can fit entirely within a cube that is 10 feet on each side. The object appears on the ground in an unoccupied space you choose within 30 feet of you; if there is not enough room for the object to be created in such a space, you cannot use your Channel Divinity in this way.  e object you describe must be one that you have seen before, and must have a value of less than 3,000 gp. The object is visibly crude, though perfectly functional, obviously magical (covered in a shimmering sheen visible even in dim light), and lacks any kind of  ne detail or ornamentation. The object disappears after 1 hour, or if you use this feature again, or if you are ever more than 30 feet away from the object.</text>
+				<text>	You can spend 1 minute presenting your holy symbol and describe a nonmagical inanimate object that can fit entirely within a cube that is 10 feet on each side. The object appears on the ground in an unoccupied space you choose within 30 feet of you; if there is not enough room for the object to be created in such a space, you cannot use your Channel Divinity in this way. The object you describe must be one that you have seen before, and must have a value of less than 3,000 gp. The object is visibly crude, though perfectly functional, obviously magical (covered in a shimmering sheen visible even in dim light), and lacks any kind of fine detail or ornamentation. The object disappears after 1 hour, or if you use this feature again, or if you are ever more than 30 feet away from the object.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="6">
 			<feature optional="YES">
-				<name>Creation Domain: Simple Enchantment</name>
+				<name>Creation: Simple Enchantment</name>
 				<text>Beginning at 6th level, when you cast the magic weapon spell, it does not require concentration to maintain its effect. If you cast magic weapon and then cast it again before the spell ends, the first casting of the spell ends immediately.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="8">
 			<feature optional="YES">
-				<name>Creation Domain: Divine Strike</name>
+				<name>Creation: Divine Strike</name>
 				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 bludgeoning damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="17">
 			<feature optional="YES">
-				<name>Creation Domain: Supreme Fabrication</name>
+				<name>Creation: Supreme Fabrication</name>
 				<text>Starting at 17th level, when you use your Divine Fabrication feature, the object you create must fit entirely within a cube that is 50 feet on each side.</text>
 			</feature>
 		</autolevel>
@@ -60,7 +59,7 @@
 		<index name="Magic Weapon"/>
 		<index name="Shatter"/>
 		<index name="Glyph of Warding"/>
-		<index name="Tiny Hut"/>
+		<index name="Leomund's Tiny Hut"/>
 		<index name="Fabricate"/>
 		<index name="Stone Shape"/>
 		<index name="Creation"/>

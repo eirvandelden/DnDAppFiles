@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="BotR">
 	<subclass baseclass="Paladin">
 		<name>Paladin (Battle)</name>
 		<autolevel level="3">
@@ -14,46 +14,45 @@
 				<text>	Comrades Before Oneself: A soldier alone is merely a soldier; many soldiers together are a force to be reckoned with. You are nothing without your comrades in arms; you must put the wellbeing and safety of your battle companions before your own, and when an ally falls, it is your duty to pick them up and carry them to safety if need be.</text>
 				<text>	Never Forget the Mission: Do not let anger, revenge, or despair come between you and your goal. Every battle is fought for a reason, and there is an objective to be won that must be remembered always. In every facet of life, remember your mission, and place it before your own desires.</text>
 				<text>	Defeat is Not an Option: Never surrender when the fight can still be won. Never abandon your position unless commanded to do so by a superior o cer. Never do anything to endanger the chance for your force to emerge from battle victorious. Fight to the last, but remember that the war is more important than the battle.</text>
+				<text></text>
+				<text>Source: Book of the Righteous</text>
 			</feature>
 			<feature optional="YES">
-				<name>Oath of the Battle: Oath Spells</name>
+				<name>Battle: Oath Spells</name>
 				<text>You gain oath spells at the paladin levels listed.</text>
 				<text/>
-				<text>3rd - healing word, shield</text>
-				<text/>
-				<text>5th - flame blade, spiritual weapon</text>
-				<text/>
-				<text>9th - beacon of hope, spirit guardians</text>
-				<text/>
-				<text>13th - guardian of faith, stoneskin</text>
-				<text/>
-				<text>17th - greater restoration, mass cure wounds</text>
+				<text>Level    Spells</text>
+				<text>3rd      healing word, shield</text>
+				<text>5th      flame blade, spiritual weapon</text>
+				<text>9th      beacon of hope, spirit guardians</text>
+				<text>13th     guardian of faith, stoneskin</text>
+				<text>17th     greater restoration, mass cure wounds</text>
 			</feature>
 			<feature optional="YES">
-				<name>Oath of the Battle Channel Divinity: Sacred Armor</name>
+				<name>Battle Channel Divinity: Sacred Armor</name>
 				<text>As an action, you can imbue heavy armor that you are wearing with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to your AC (with a minimum bonus of +1). If you fall unconscious or are no longer wearing the armor, the effect ends.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Oath of the Battle Channel Divinity: Sacred Shield</name>
+				<name>Battle Channel Divinity: Sacred Shield</name>
 				<text>As an action, you can imbue a shield that you are holding with positive energy, using your Channel Divinity. For 1 minute, any ranged attack made against a creature that you are friendly to that is within 30 feet of you targets you instead. If you fall unconscious or are no longer holding the shield, the effect ends.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="7">
 			<feature optional="YES">
-				<name>Oath of the Battle: Aura of Battle</name>
+				<name>Battle: Aura of Battle</name>
 				<text>Beginning at 7th level, the very spirit of battle flows outward from you, causing you to become a supernatural locus point in combat that keeps your allies ever-wary of incoming attacks. Enemies cannot gain advantage on attack rolls against you and creatures within 10 feet of you while you are conscious.</text>
 				<text>	At 18th level, the range of this aura increases to 30 feet.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="15">
 			<feature optional="YES">
-				<name>Oath of the Battle: Blessed of Battle</name>
+				<name>Battle: Blessed of Battle</name>
 				<text>Starting at 15th level, you are always under the effects of a divine favor spell.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="20">
 			<feature optional="YES">
-				<name>Oath of the Battle: Avatar of Battle</name>
+				<name>Battle: Avatar of Battle</name>
 				<text>At 20th level, as an action, you can channel the spirit of battle and cleave through hordes of opposing enemies as a scythe clearing wheat. For 1 minute, when you hit an enemy with a weapon attack, if that enemy has fewer than 30 hit points, your attack automatically reduces that enemy to 0 hit points. Additionally, for the duration, when you take the Attack action on your turn, after you have finished making your attacks you can use your bonus action to make a weapon attack against an enemy you have not attacked this turn.</text>
 				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>

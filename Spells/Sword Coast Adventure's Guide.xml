@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="SCAG">
 	<!--Spell Attack rolls assume PROF added to roll, not applicable for Ranged while engaged in Melee range-->
 	<!--replaced ":" as intro to list with ".", and as in-line text with " - "-->
-	<spell>
+	<spell name="Booming Blade">
 		<name>Booming Blade</name>
 		<level>0</level>
 		<school>EV</school>
@@ -17,8 +17,10 @@
 		<roll>2d8</roll>
 		<roll>3d8</roll>
 		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Sword Coast Adventure's Guide</text>
 	</spell>
-	<spell>
+	<spell name="Green-Flame Blade">
 		<name>Green-Flame Blade</name>
 		<level>0</level>
 		<school>EV</school>
@@ -30,10 +32,15 @@
 		<text>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.</text>
 		<text>	This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.</text>
 		<roll>1d8</roll>
+		<roll>1d8+SPELL</roll>
 		<roll>2d8</roll>
+		<roll>2d8+SPELL</roll>
 		<roll>3d8</roll>
+		<roll>3d8+SPELL</roll>
+		<text></text>
+		<text>Source: Sword Coast Adventure's Guide</text>
 	</spell>
-	<spell>
+	<spell name="Lightning Lure">
 		<name>Lightning Lure</name>
 		<level>0</level>
 		<school>EV</school>
@@ -48,8 +55,10 @@
 		<roll>2d8</roll>
 		<roll>3d8</roll>
 		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Sword Coast Adventure's Guide</text>
 	</spell>
-	<spell>
+	<spell name="Sword Burst">
 		<name>Sword Burst</name>
 		<level>0</level>
 		<school>C</school>
@@ -64,5 +73,7 @@
 		<roll>2d6</roll>
 		<roll>3d6</roll>
 		<roll>4d6</roll>
+		<text></text>
+		<text>Source: Sword Coast Adventure's Guide</text>
 	</spell>
 </compendium>

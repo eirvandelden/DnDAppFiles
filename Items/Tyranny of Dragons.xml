@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
 	<!--Hoard of the Dragon Queen/Rise of Tiamat-->
-	<item>
+	<item name="Draakhorn" source="RoT">
 		<name>Draakhorn</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -15,7 +15,7 @@
 		<text>Source: The Rise of Tiamat, page 93</text>
 		<roll>6d8</roll>
 	</item>
-	<item>
+	<item name="Dragontooth Dagger" source="RoT">
 		<name>Dragontooth Dagger</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -40,8 +40,9 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 		<roll>1d6</roll>
+		<roll>2d6</roll>
 	</item>
-	<item>
+	<item name="Green Dragon Mask" source="RoT">
 		<name>Green Dragon Mask</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -63,9 +64,9 @@
 		<text/>
 		<text>Water Breathing: You can breathe underwater.</text>
 		<text/>
-		<text>Source: Rise of Tiamat Online Supplement, page 4</text>
+		<text>Source: The Rise of Tiamat Online Supplement, page 4</text>
 	</item>
-	<item>
+	<item name="Hazirawn" source="HotDQ">
 		<name>Hazirawn</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -94,7 +95,7 @@
 		<roll>2d6</roll>
 		<roll>1d4</roll>
 	</item>
-	<item>
+	<item name="Insignia of Claws" source="HotDQ">
 		<name>Insignia of Claws</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -105,7 +106,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Lost Crown of Besilmer" source="PotA">
 		<name>Lost Crown of Besilmer</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -119,7 +120,7 @@
 		<text>Source: Princes of the Apocalypse, page 223</text>
 		<roll>1d3</roll>
 	</item>
-	<item>
+	<item name="Mask of the Dragon Queen" source="RoT">
 		<name>Mask of the Dragon Queen</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -130,7 +131,7 @@
 		<text/>
 		<text>Source: The Rise of Tiamat, page 94</text>
 	</item>
-	<item>
+	<item name="Red Dragon Mask" source="RoT">
 		<name>Red Dragon Mask</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -151,10 +152,11 @@
 		<text>Legendary Resistance: (1/Day) If you fail a saving throw, you can choose to succeed instead.</text>
 		<text/>
 		<text>Dragon Fire: If you deal fire damage to a creature or flammable object, it starts burning. At the start of each of its turns, a creature burning in this way takes 1d6 fire damage. A creature that can reach the burning target can use an action to extinguish the fire.</text>
+		<roll>1d6</roll>
 		<text/>
-		<text>Source: Rise of Tiamat Online Supplement, page 4</text>
+		<text>Source: The Rise of Tiamat Online Supplement, page 4</text>
 	</item>
-	<item>
+	<item name="Weird Tank" source="PotA">
 		<name>Weird Tank</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -167,7 +169,7 @@
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 223</text>
 	</item>
-	<item>
+	<item name="White Dragon Mask" source="RoT">
 		<name>White Dragon Mask</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -188,10 +190,11 @@
 		<text>Legendary Resistance: (1/Day) If you fail a saving throw, you can choose to succeed instead.</text>
 		<text/>
 		<text>Winter's Fury: While your current hit points are equal to or less than half your hit point maximum, you deal an extra 1d8 cold damage with your melee attacks.</text>
+		<roll>1d8</roll>
 		<text/>
-		<text>Source: Rise of Tiamat Online Supplement, page 4</text>
+		<text>Source: The Rise of Tiamat Online Supplement, page 4</text>
 	</item>
-	<item>
+	<item name="Wingwear" source="PotA">
 		<name>Wingwear</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -202,7 +205,7 @@
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 223</text>
 	</item>
-	<item>
+	<item name="Wand of Winter" source="HotDQ">
 		<name>Wand of Winter</name>
 		<type>WD</type>
 		<magic>1</magic>
@@ -210,6 +213,9 @@
 		<text/>
 		<text>This wand looks and feels like an icicle. You must be attuned to the want to use it.</text>
 		<text>The wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: ray of frost (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), sleet storm (3 charges; spell save DC 15), or ice storm (4 charges; spell save DC 15). No components are required. The wand regains 1d6 + 1 expended charges each day at dawn. If you expend the wand's last charge, roll a d20. On a 20, the wand melts away, forever destroyed.</text>
+		<roll>1d6+1</roll>
+		<roll>1d20+5</roll>
+		<roll>1d20</roll>
 		<text/>
 		<text>Source: Hoard of the Dragon Queen, page 94</text>
 	</item>

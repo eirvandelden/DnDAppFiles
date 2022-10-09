@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- above must come first for an xml file-->
-<!-- root element, auto_indent attribute will cause <text> nodes to display indented -->
+<!-- root element, auto_indent attribute will cause <text>nodes to display indented -->
 <compendium version="5" auto_indent="YES">
 
 <!-- Common complex elements: -->
@@ -21,10 +21,10 @@
 	<name></name>
 	<hd></hd>
 	<proficiency></proficiency>
-	<spellAbility></spellAbility> <!-- (Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) -->
+	<spellAbility></spellAbility><!-- (Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) -->
 	<modifier></modifier>
 	<autolevel level="1">
-		<slots optional="YES">0,1,2,3,4,5,6,7,8,9</slots> <!-- # of each spell slot available at this level-->
+		<slots optional="YES">0,1,2,3,4,5,6,7,8,9</slots><!-- # of each spell slot available at this level-->
 		<feature optional="NO">
 			<name>Proficiencies</name>
 			<proficiency></proficiency>
@@ -120,14 +120,14 @@
 <feat>
 	<name></name>
 	<prerequisite></prerequisite>
-	<special></special> <!-- special hard-coded bonuses that impact AC, Attack, and Check calculations, eg Fighting Style: (Archery|Defense|Dueling), Jack of all Trades, Unarmored Defense: (Ability)-->
+	<special></special><!-- special hard-coded bonuses that impact AC, Attack, and Check calculations, eg Fighting Style: (Archery|Defense|Dueling), Jack of all Trades, Unarmored Defense: (Ability)-->
 	<text></text>
 	<modifier></modifier>
 </feat>
 <!--Item template-->
-<item>
+<item name="">
 	<name></name>
-	<type></type> <!-- (LA|MA|HA|S|M|R|A|RD|ST|WD|RG|P|SC|W|G|$) -->
+	<type></type><!-- (LA|MA|HA|S|M|R|A|RD|ST|WD|RG|P|SC|W|G|$) -->
 	<magic></magic>
 	<weight></weight>
 	<ac></ac>
@@ -135,20 +135,20 @@
 	<stealth></stealth>
 	<dmg1></dmg1>
 	<dmg2></dmg2>
-	<dmgType></dmgType> <!-- (B|P|S) -->
-	<property></property> <!-- (A,F,H,L,LD,R,S,T,2H,V) -->
-	<range></range> <!-- (##/##) -->
-	<modifier category="bonus"></modifier> <!-- "(bonus|ability score|ability modifier|saving throw|skill)" ((melee attacks|) [+/-]##) -->
+	<dmgType></dmgType><!-- (B|P|S) -->
+	<property></property><!-- (A,F,H,L,LD,R,S,T,2H,V) -->
+	<range></range><!-- (##/##) -->
+	<modifier category="bonus"></modifier><!-- "(bonus|ability score|ability modifier|saving throw|skill)" ((melee attacks|) [+/-]##) -->
 	<roll></roll>
 	<text></text>
 </item>
 <!--Monster template-->
-<monster>
+<monster name="">
 	<name></name>
-	<size></size> <!-- (T|S|M|LH|G) -->
+	<size></size><!-- (T|S|M|LH|G) -->
 	<type></type>
 	<alignment></alignment>
-	<ac></ac> <!-- (## (ABC)) -->
+	<ac></ac><!-- (## (ABC)) -->
 	<hp></hp>
 	<speed></speed>
 	<str></str><dex></dex><con></con><int></int><wis></wis><cha></cha>
@@ -169,7 +169,7 @@
 	<action>
 		<name></name>
 		<text></text>
-		<attack>||</attack> <!-- (ABC|##|D20) -->
+		<attack>||</attack><!-- (ABC|##|D20) -->
 	</action>
 	<reaction>
 		<name></name>
@@ -184,12 +184,12 @@
 	<spells></spells>
 </monster>
 <!--Race template-->
-<race>
+<race name="">
 	<name></name>
 	<size></size>
 	<speed></speed>
 	<proficiency></proficiency>
-	<ability></ability> <!-- ability score increases, translates to a Modifier. ((Str|Dex|Con|Int|Wis|Cha) ##) -->
+	<ability></ability><!-- ability score increases, translates to a Modifier. ((Str|Dex|Con|Int|Wis|Cha) ##) -->
 	<trait>
 		<name></name>
 		<text></text>
@@ -199,27 +199,27 @@
 	<modifier></modifier>
 </race>
 <!--Spell template-->
-<spell>
+<spell name="">
 	<name></name>
 	<level></level>
-	<school></school> <!-- (A|C|D|EN|EV|I|N|T) -->
-	<ritual /> <!--if yes ritual, use <ritual>YES</ritual>-->
+	<school></school><!-- (A|C|D|EN|EV|I|N|T) -->
+	<ritual /><!--if yes ritual, use <ritual>YES</ritual>-->
 	<time></time>
 	<range></range>
 	<components></components>
 	<duration></duration>
 	<classes></classes>
 	<text></text>
-	<text /> <!--this is a line break in the text block, format only works for Spells-->
+	<text /><!--this is a line break in the text block, format only works for Spells-->
 	<text></text>
-	<roll>xdx+SPELL</roll> <!--add Spellcasting Ability-->
-	<roll>xdx+STR</roll> <!--add STR MOD-->
-	<roll>xdx+DEX</roll> <!--add DEX MOD-->
-	<roll>xdx+CON</roll> <!--add CON MOD-->
-	<roll>xdx+INT</roll> <!--add INT MOD-->
-	<roll>xdx+WIS</roll> <!--add WIS MOD-->
-	<roll>xdx+CHA</roll> <!--add CHA MOD-->
-	<roll>xdx+PROF</roll> <!--add PROF-->
+	<roll>xdx+SPELL</roll><!--add Spellcasting Ability-->
+	<roll>xdx+STR</roll><!--add STR MOD-->
+	<roll>xdx+DEX</roll><!--add DEX MOD-->
+	<roll>xdx+CON</roll><!--add CON MOD-->
+	<roll>xdx+INT</roll><!--add INT MOD-->
+	<roll>xdx+WIS</roll><!--add WIS MOD-->
+	<roll>xdx+CHA</roll><!--add CHA MOD-->
+	<roll>xdx+PROF</roll><!--add PROF-->
 </spell>
 
 
@@ -229,7 +229,7 @@
 	</spellList>
 
 	<subclass baseclass="<class_name>">
-		<!-- same content as <class> -->
+		<!-- same content as <class>-->
 	</subclass>
 
 	<any UA="<source_name>" MF="" HB="<attribution>" IL="">
@@ -239,18 +239,17 @@
 		<!-- attribute PS is also simple-filtering but intended for adding entries to Spell lists that are not strictly spells-->
 	</spell>
 </compendium>
-
 <!-- This is the data format used in cloudCompendium.xml backups, especially the default content-->
 <data>
-	<version>22</version> <!-- circa July 2017 -->
+	<version>22</version><!-- circa July 2017 -->
 
-	<!-- RegExp <spell><source>1</source><name>([^<]*)</name>(?:<level>\d</level>)?<school>\d</school>(?:<ritual>1</ritual>)?<time>[^<]*</time><range>[^<]*</range><components>[^<]*</components><duration>[^<]*</duration><text>[^<]*</text> -->
+	<!-- RegExp <spell><source>1</source><name>([^<]*)</name>(?:<level>\d</level>)?<school>\d</school>(?:<ritual>1</ritual>)?<time>[^<]*</time><range>[^<]*</range><components>[^<]*</components><duration>[^<]*</duration><text>[^<]*</text>-->
 	<spell>
-		<source>1</source> <!-- '1' seems to 'default content, show license' -->
+		<source>1</source><!-- '1' seems to 'default content, show license' -->
 		<name>Color Spray</name>
-		<level>1</level> <!-- omitted on cantrips (0) -->
-		<school>6</school> <!-- 1: 2: 3: 4: 5: 6:Illusion 7:-->
-		<ritual>1</ritual> <!-- omitted if false (0) -->
+		<level>1</level><!-- omitted on cantrips (0) -->
+		<school>6</school><!-- 1: 2: 3: 4: 5: 6:Illusion 7:-->
+		<ritual>1</ritual><!-- omitted if false (0) -->
 		<time>1 action</time>
 		<range>Self (15 foot cone)</range>
 		<components>V, S, M (a pinch of powder or sand that is colored red, yellow, and blue)</components>
@@ -262,7 +261,7 @@
 		<sclass>Wizard</sclass>
 	</spell>
 
-	<!-- RegExp <item>(?:<(source|name|detail|text|type|weight|magic|ac|strength|stealth|damage1H|damage2H|damageType|weaponProperty|weaponRange|weaponLongRange)>[^<]*</\1>)+</item> -->
+	<!-- RegExp <item>(?:<(source|name|detail|text|type|weight|magic|ac|strength|stealth|damage1H|damage2H|damageType|weaponProperty|weaponRange|weaponLongRange)>[^<]*</\1>)+</item>-->
 	<item>
 		<source>1</source>
 		<name>Piton</name>
@@ -272,7 +271,7 @@
 	<item>
 		<source>1</source>
 		<name>Hammer of Thunderbolts</name>
-		<detail>legendary</detail> <!-- subtitle, eg restrictions -->
+		<detail>legendary</detail><!-- subtitle, eg restrictions -->
 		<text>...</text>
 		<type>5</type>
 		<weight>10</weight>
@@ -282,7 +281,7 @@
 		<weaponProperty>260</weaponProperty>
 	</item>
 
-	<!-- RegExp <race>(?:<(source|name|size|speed|feat|mod)>(?![<]/\1>)[\d\D]*?</\1>)+</race> -->
+	<!-- RegExp <race>(?:<(source|name|size|speed|feat|mod)>(?![<]/\1>)[\d\D]*?</\1>)+</race>-->
 	<race>
 		<source>1</source>
 		<name>Rock Gnome</name>
@@ -317,7 +316,7 @@
 		</spell>
 	</race>
 
-	<!-- RegExp <class>(?:<(source|id|name|hd|spellAbility|slots|slotsCurrent|proficiency|autolevel)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</class> -->
+	<!-- RegExp <class>(?:<(source|id|name|hd|spellAbility|slots|slotsCurrent|proficiency|autolevel)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</class>-->
 	<class>
 		<source>1</source>
 		<id>2611</id>
@@ -329,12 +328,12 @@
 		<proficiency>4</proficiency>
 		<proficiency>5</proficiency>
 
-		<!-- <autolevel>(?:<(level|slots|feat)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</autolevel> -->
+		<!-- <autolevel>(?:<(level|slots|feat)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</autolevel>-->
 		<autolevel>
 			<level>2</level>
 			<slots>3,2,0,0,0,0,0,0,0,0,</slots>
 
-			<!-- <feat>(?:<(optional|name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat> -->
+			<!-- <feat>(?:<(optional|name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat>-->
 			<feat>
 				<optional>1</optional>
 				<name>Life Domain: Bonus Proficiency</name>
@@ -346,12 +345,12 @@
 		<numClassSkills>2</numClassSkills>
 	</class>
 
-	<!-- <background>(?:<(source|name|feat|proficiency)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</background> -->
+	<!-- <background>(?:<(source|name|feat|proficiency)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</background>-->
 	<background>
 		<source>1</source>
 		<name>Acolyte</name>
 
-		<!-- <feat>(?:<(name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat> -->
+		<!-- <feat>(?:<(name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat>-->
 		<feat>
 			<name>Languages</name>
 			<text>Two of your choice</text>
@@ -365,7 +364,7 @@
 		<proficiency>106</proficiency>
 	</background>
 
-	<!-- <feat>(?:<(source|name|prereq|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat> -->
+	<!-- <feat>(?:<(source|name|prereq|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat>-->
 	<feat>
 		<source>1</source>
 		<name>Grappler</name>
@@ -375,11 +374,11 @@
 • You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.</text>
 	</feat>
 
-	<!-- <monster>(?:<(src|name|size|type|alignment|ac|armor|hpMax|hpCurrent|speed|abilities|savingThrow|skill|vulnerable|resist|immune|conditionImmune|senses|passive|languages|cr|trait|action|reaction|legendary)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</monster> -->
-	<!-- <monster>(?:<(src|name|size|type|alignment|ac|armor|hpMax|hpCurrent|speed|abilities|savingThrow|skill|vulnerable|resist|immune|conditionImmune|senses|passive|languages|cr)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+((?:<(trait|action|reaction|legendary)>.*</\3>\n?\t?)*)</monster> -->
-	<!-- => <monster>$2</monster> -->
+	<!-- <monster>(?:<(src|name|size|type|alignment|ac|armor|hpMax|hpCurrent|speed|abilities|savingThrow|skill|vulnerable|resist|immune|conditionImmune|senses|passive|languages|cr|trait|action|reaction|legendary)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</monster>-->
+	<!-- <monster>(?:<(src|name|size|type|alignment|ac|armor|hpMax|hpCurrent|speed|abilities|savingThrow|skill|vulnerable|resist|immune|conditionImmune|senses|passive|languages|cr)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+((?:<(trait|action|reaction|legendary)>.*</\3>\n?\t?)*)</monster>-->
+	<!-- =><monster>$2</monster>-->
 	<!-- (?:<(name|text|attack)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+-->
-	<!-- <monster>(?:<trait>(?:<(name|text|attack)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</trait>\n?\t?)*(?:<action>(?:<(name|text|attack)>(?![<]/\2>)[\d\D]*?</\2>\n?\t?)+</action>\n?\t?)*</monster> -->
+	<!-- <monster>(?:<trait>(?:<(name|text|attack)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</trait>\n?\t?)*(?:<action>(?:<(name|text|attack)>(?![<]/\2>)[\d\D]*?</\2>\n?\t?)+</action>\n?\t?)*</monster>-->
 	<!--((?:<reaction>(?:<(name|text|attack)>(?![<]/\4>)[\d\D]*?</\4>\n?\t?)+</reaction>\n?\t?)*)((?:<legendary>(?:<(name|text|attack)>(?![<]/\5>)[\d\D]*?</\5>\n?\t?)+</legendary>\n?\t?)*)-->
 	<monster>
 		<src>1</src>
@@ -391,18 +390,18 @@
 		<hpCurrent>1</hpCurrent>
 		<speed>30 ft., fly 30 ft.</speed>
 		<abilities>5,11,10,11,10,12,</abilities>
-		<immune>fire, poison</immune> <!-- serialization has literal \n\t -->
+		<immune>fire, poison</immune><!-- serialization has literal \n\t -->
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<languages>Aquan, Ignan</languages>
 		<cr>-1</cr>
 
-		<!-- <trait>(?:<(name|text|attack)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</trait> -->
+		<!-- <trait>(?:<(name|text|attack)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</trait>-->
 		<trait>
 			<name>Death Burst</name>
 			<text>When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.</text>
 
-			<!-- <trait>(?:<(name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+<attack>(?:<(name|damage)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)</attack></trait> -->
+			<!-- <trait>(?:<(name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+<attack>(?:<(name|damage)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)</attack></trait>-->
 			<attack>
 				<name>Death Burst</name>
 				<damage>1d8</damage>
@@ -446,7 +445,7 @@
 		<item></item>
 		<container>
 			<name>Storage</name>
-			<item>
+			<item name="Copper (cp)">
 				<name>Copper (cp)</name>
 				<text>bar</text>
 				<type>15</type>

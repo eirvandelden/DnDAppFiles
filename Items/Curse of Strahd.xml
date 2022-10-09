@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="CoS">
 	<!--Curse of Strahd-->
-	<item>
+	<item name="Tome of Strahd">
 		<name>Tome of Strahd</name>
 		<type>G</type>
 		<magic>1</magic>
@@ -10,7 +10,7 @@
 		<text/>
 		<text>Source: Curse of Strahd, page 221</text>
 	</item>
-	<item>
+	<item name="Blood Spear">
 		<name>Blood Spear</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -24,10 +24,11 @@
 		<text/>
 		<text>Kavan was a ruthless chieftain whose tribe lived in the Balinok Mountains centuries before the arrival of Strahd von Zarovich. Although he was very much alive, Kavan had some traits in common with vampires: he slept during the day and hunted at night, he drank the blood of his prey, and he lived underground. In battle, he wielded a spear stained with blood. His was the first blood spear, a weapon that drains life from those it kills and transfers that life to its wielder, imbuing that individual with the stamina to keep fighting.</text>
 		<text>	When you hit with a melee attack using this magic spear and reduce the target to 0 hit points, you gain 2d6 temporary hit points.</text>
+		<roll>2d6</roll>
 		<text/>
 		<text>Source: Curse of Strahd, page 221</text>
 	</item>
-	<item>
+	<item name="Saint Markovia's Thighbone">
 		<name>Saint Markovia's Thighbone</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -43,13 +44,14 @@
 		<text>	The essence of Markovia's saintliness passed partly into her bones as the rest of her body decomposed. Her remaining thighbone is imbued with power that inflicts grievous injury on the undead.</text>
 		<text/>
 		<text>Mace of Disruption: When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6 radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes frightened of you until the end of your next turn.</text>
+		<roll>2d6</roll>
 		<text>	While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.</text>
 		<text/>
 		<text>Source: Curse of Strahd, page 222</text>
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Holy Symbol of Ravenkind">
 		<name>Holy Symbol of Ravenkind</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -68,7 +70,7 @@
 		<text>Source: Curse of Strahd, page 222</text>
 		<roll>1d6+4</roll>
 	</item>
-	<item>
+	<item name="Icon of Ravenloft">
 		<name>Icon of Ravenloft</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -88,7 +90,7 @@
 		<text>Source: Curse of Strahd, page 222</text>
 		<roll>3d8+3</roll>
 	</item>
-	<item>
+	<item name="Gulthias Staff">
 		<name>Gulthias Staff</name>
 		<type>ST</type>
 		<magic>1</magic>
@@ -109,7 +111,7 @@
 		<text>Source: Curse of Strahd, page 221</text>
 		<roll>1d6+4</roll>
 	</item>
-	<item>
+	<item name="Sunsword">
 		<name>Sunsword</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -130,6 +132,7 @@
 		<text/>
 		<text>Sun blade: This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the sun blade.</text>
 		<text>	You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra 1d8 radiant damage.</text>
+		<roll>1d8</roll>
 		<text>	The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</text>
 		<text/>
 		<text>Source: Curse of Strahd, page 223</text>

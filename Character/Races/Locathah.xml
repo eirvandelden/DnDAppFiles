@@ -8,7 +8,8 @@
 		<proficiency>Athletics, Perception</proficiency>
 		<trait>
 			<name>Natural Armor</name>
-			<text>You have tough, scaly skin. When you aren’t wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.</text>
+			<text>You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</text>
+			<modifier category="bonus">unarmored ac +2</modifier>
 		</trait>
 		<trait>
 			<name>Observant &amp; Athletic</name>
@@ -29,6 +30,10 @@
 		<trait>
 			<name>Languages</name>
 			<text>You can speak, read, and write Aquan and Common.</text>
+		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Locathah Rising</text>
 		</trait>
 	</race>
 </compendium>

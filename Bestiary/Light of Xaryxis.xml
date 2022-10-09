@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" source="LoX">
+    <monster name="Aarakocra Spelljammer">
+        <name>Aarakocra Spelljammer</name>
+        <size>M</size>
+        <type>humanoid (aarakocra)</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>40 (9d8)</hp>
+        <speed>50 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +6, Wis +4</save>
+        <skill>Arcana +6, History +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>6</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The aarakocra is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The aarakocra has the following wizard spells prepared:</text>
+            <text>Cantrips (at will): fire bolt, light, mage hand, prestidigitation</text>
+            <text>1st Level (4 slots): detect magic, mage armor, magic missile, shield</text>
+            <text>2nd Level (3 slots): misty step, suggestion</text>
+            <text>3rd Level (3 slots): counterspell, fireball, fly</text>
+            <text>4th Level (3 slots): greater invisibility, ice storm</text>
+            <text>5th Level (1 slots): cone of cold</text>
+            <attack>Spell Attack|6|</attack>
+        </trait>
+        <slots>4,3,3,3,1</slots>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Fire Bolt,Light,Mage Hand,Prestidigitation,Detect Magic,Mage Armor,Magic Missile,Shield,Misty Step,Suggestion,Counterspell,Fireball,Fly,Greater Invisibility,Ice Storm,Cone of Cold</spells>
+        <action>
+            <name>Dagger</name>
+            <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+            <attack>Dagger|5|1d4+2</attack>
+        </action>
+    </monster>
+    <monster name="Agony">
+        <name>Agony</name>
+        <size>M</size>
+        <type>undead</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>any alignment</alignment>
+        <ac>11</ac>
+        <hp>45 (10d8)</hp>
+        <speed>0 ft., fly 40 ft. (hover)</speed>
+        <str>7</str>
+        <dex>13</dex>
+        <con>10</con>
+        <int>10</int>
+        <wis>12</wis>
+        <cha>17</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+        <immune>cold,necrotic,poison</immune>
+        <conditionImmune>charmed,exhaustion,frightened,grappled,paralyzed,petrified,poisoned,prone,restrained</conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>11</passive>
+        <languages>any languages it knew in life</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Ethereal Sight</name>
+            <text>Agony can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.</text>
+        </trait>
+        <trait>
+            <name>Incorporeal Movement</name>
+            <text>Agony can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+            <attack>Damage||1d10</attack>
+        </trait>
+        <action>
+            <name>Withering Touch</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage.</text>
+            <attack>Withering Touch|5|4d6+3</attack>
+        </action>
+        <action>
+            <name>Etherealness</name>
+            <text>Agony enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</text>
+        </action>
+        <action>
+            <name>Horrifying Visage</name>
+            <text>Each non-undead creature within 60 feet of Agony that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 * 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a  greater restoration spell, but only within 24 hours of it occurring.</text>
+            <attack>Horrifying Visage||1d4</attack>
+            <attack>Years||1d4*10</attack>
+        </action>
+        <action>
+            <name>Possession (Recharge 6)</name>
+            <text>One humanoid that Agony can see within 5 feet of it must succeed on a DC 13 Charisma saving throw or be possessed by Agony; Agony then disappears, and the target is incapacitated and loses control of its body. Agony now controls the body but doesn't deprive the target of awareness. Agony can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.</text>
+            <text>	The possession lasts until the body drops to 0 hit points, Agony ends it as a bonus action, or Agony is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, Agony reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.</text>
+            <recharge>D6</recharge>
+        </action>
+    </monster>
+    <monster name="Astral Blight">
+        <name>Astral Blight</name>
+        <size>M</size>
+        <type>plant</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>unaligned</alignment>
+        <ac>12 (natural armor)</ac>
+        <hp>26 (4d8 + 8)</hp>
+        <speed>10 ft.</speed>
+        <str>16</str>
+        <dex>8</dex>
+        <con>14</con>
+        <int>6</int>
+        <wis>10</wis>
+        <cha>3</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist>cold, radiant</resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>blindsight 60 ft. (blind beyond this radius)</senses>
+        <passive>10</passive>
+        <languages>—</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Illumination</name>
+            <text>While it has at least 1 hit point, the astral blight sheds dim light in a 10-foot radius.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>The blight doesn't require air or sleep.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The blight makes two Heat-Draining Vine attacks.</text>
+        </action>
+        <action>
+            <name>Heat-Draining Vine</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) radiant damage, and if the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target takes 3 (1d6) cold damage at the start of each of its turns. The blight has two vines, each of which can grapple one creature.</text>
+            <attack>Heat-Draining Vine|5|1d6+3</attack>
+            <attack>Extra||1d6</attack>
+        </action>
+    </monster>
+    <monster name="Big Momma">
+        <name>Big Momma</name>
+        <size>H</size>
+        <type>monstrosity</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>unaligned</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>157 (15d12 + 60)</hp>
+        <speed>0 ft., fly 40 ft.</speed>
+        <str>22</str>
+        <dex>16</dex>
+        <con>19</con>
+        <int>4</int>
+        <wis>13</wis>
+        <cha>5</cha>
+        <save></save>
+        <skill>Perception +5, Stealth +11</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>15</passive>
+        <languages>—</languages>
+        <cr>11</cr>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>Big Momma doesn't require air.</text>
+        </trait>
+        <action>
+            <name>Swallowing Bite</name>
+            <text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 45 (6d12 + 6) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 16 Dexterity saving throw or be swallowed by Big Momma. Big Momma can have one creature swallowed at a time.</text>
+            <text>	A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside Big Momma, and takes 11 (2d10) acid damage at the start of each of Big Momma's turns from the digestive juices in Big Momma's gullet.</text>
+            <text>	If Big Momma takes 25 damage or more on a single turn from a creature inside her, Big Momma must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 10 feet of Big Momma. If Big Momma dies, a swallowed creature is no longer restrained by her and can escape from the corpse by using 10 feet of movement, exiting prone.</text>
+            <attack>Swallowing Bite|10|6d12+6</attack>
+            <attack>Acid Damage||2d10</attack>
+        </action>
+        <action>
+            <name>Bonus Action: Ray of Fear (Recharge 4-6)</name>
+            <text>Big Momma's eye emits an invisible, magical ray that targets one creature Big Momma can see within 60 feet of itself. The target must succeed on a DC 16 Wisdom saving throw or be frightened of Big Momma until the start of Big Momma's next turn.</text>
+            <recharge>D4</recharge>
+        </action>
+    </monster>
+    <monster name="Commodore Krux">
+        <name>Commodore Krux</name>
+        <size>M</size>
+        <type>humanoid (giff)</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>any alignment</alignment>
+        <ac>12</ac>
+        <hp>75 (10d8 + 30)</hp>
+        <speed>30 ft., swim 30 ft.</speed>
+        <str>18</str>
+        <dex>14</dex>
+        <con>17</con>
+        <int>11</int>
+        <wis>12</wis>
+        <cha>12</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Firearms Knowledge</name>
+            <text>Krux's mastery of his weapons enables him to ignore the loading property of any firearm.</text>
+        </trait>
+        <trait>
+            <name>Steady as She Goes</name>
+            <text>On the deck of a ship, Krux has advantage on ability checks and saving throws made against effects that would knock him prone or shove him overboard.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Krux makes two Longsword or Musket attacks.</text>
+        </action>
+        <action>
+            <name>Longsword</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
+            <attack>Longsword|6|1d8+4</attack>
+            <attack>Longsword (2H)|6|1d10+4</attack>
+        </action>
+        <action>
+            <name>Musket</name>
+            <text>Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit: 8 (1d12 + 2) piercing damage.</text>
+            <attack>Musket|4|1d12+2</attack>
+        </action>
+        <action>
+            <name>Force Grenade</name>
+            <text>Krux throws a grenade up to 60 feet, and the grenade explodes in a 20-foot-radius sphere. Each creature in that area must make a DC 15 Dexterity saving throw, taking 17 (5d6) force damage on a failed save, or half as much damage on a successful one. After Krux throws the grenade, roll a d6; on a roll of 4 or lower, Krux has no more grenades to throw.</text>
+            <attack>Force Grenade||5d6</attack>
+            <attack>Grenade Check||1d6</attack>
+        </action>
+    </monster>
+    <monster name="Elaina Sartell">
+        <name>Elaina Sartell</name>
+        <size>M</size>
+        <type>humanoid (human)</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>chaotic good</alignment>
+        <ac>15 (studded leather armor)</ac>
+        <hp>65 (10d8 + 20)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>14</con>
+        <int>14</int>
+        <wis>11</wis>
+        <cha>14</cha>
+        <save>Str +4, Dex +5, Wis +2</save>
+        <skill>Athletics +4, Deception +4</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>10</passive>
+        <languages>any two languages</languages>
+        <cr>2</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>Elaina makes three melee attacks: two with her scimitar and one with her dagger. Or Elaina makes two ranged attacks with her daggers.</text>
+        </action>
+        <action>
+            <name>Scimitar</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+            <attack>Scimitar|5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Dagger</name>
+            <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+            <attack>Dagger|5|1d4+3</attack>
+        </action>
+        <reaction>
+            <name>Parry</name>
+            <text>Elaina adds 2 to her AC against one melee attack that would hit her. To do so, Elaina must see the attacker and be wielding a melee weapon.</text>
+        </reaction>
+    </monster>
+    <monster name="Fel Ardra">
+        <name>Fel Ardra</name>
+        <size>M</size>
+        <type>humanoid (tiefling)</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>13 (leather armor)</ac>
+        <hp>33 (6d8 + 6)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>13</wis>
+        <cha>14</cha>
+        <save></save>
+        <skill>Deception +4, Persuasion +4, Religion +2</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any one language (usually Common)</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Fel is a 4th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). Fel has the following cleric spells prepared:</text>
+            <text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
+            <text>1st Level (4 slots): command, inflict wounds, shield of faith</text>
+            <text>2nd Level (3 slots): hold person, spiritual weapon</text>
+        </trait>
+        <slots>4,3</slots>
+        <spellAbility>Wisdom</spellAbility>
+        <spells>Light,Sacred Flame,Thaumaturgy,Command,Inflict Wounds,Shield of Faith,Hold Person,Spiritual Weapon</spells>
+        <trait>
+            <name>Dark Devotion</name>
+            <text>Fel has advantage on saving throws against being charmed or frightened.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Fel makes two melee attacks.</text>
+        </action>
+        <action>
+            <name>Dagger</name>
+            <text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.</text>
+            <attack>Dagger|4|1d4+2</attack>
+        </action>
+    </monster>
+    <monster name="Flapjack">
+        <name>Flapjack</name>
+        <size>S</size>
+        <type>aberration</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>lawful good</alignment>
+        <ac>12</ac>
+        <hp>7 (2d6)</hp>
+        <speed>5 ft., fly 30 ft.</speed>
+        <str>6</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>14</int>
+        <wis>14</wis>
+        <cha>11</cha>
+        <save></save>
+        <skill>Arcana +4, History +4, Religion +4</skill>
+        <vulnerable>psychic</vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>12</passive>
+        <languages>understands Undercommon but can't speak,telepathy 60 ft.</languages>
+        <cr>1/8</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Flapjack casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 12):</text>
+            <text>At will: mage hand, minor illusion</text>
+            <text>1/Day each: magic missile, unseen servant</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Mage Hand,Minor Illusion,Magic Missile,Unseen Servant</spells>
+        <trait>
+            <name>Magic Missile</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Unseen Servant</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Advanced Telepathy</name>
+            <text>Flapjack can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of telepathy.</text>
+        </trait>
+        <trait>
+            <name>Prone Deficiency</name>
+            <text>If Flapjack is knocked prone, roll a die. On an odd result, Flapjack lands upside-down and is incapacitated. At the end of each of its turns, Flapjack can make a DC 10 Dexterity saving throw, righting itself and ending the incapacitated condition if it succeeds.</text>
+        </trait>
+        <trait>
+            <name>Telepathic Shroud</name>
+            <text>Flapjack is immune to any effect that would sense its emotions or read its thoughts, as well as all divination spells.</text>
+        </trait>
+        <action>
+            <name>Tendrils</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 2 (1d4) acid damage. At the end of each of its turns, the target must make a DC 10 Constitution saving throw, taking 2 (1d4) acid damage on a failure or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage.</text>
+            <attack>Tendrils|4|1d4+2+1d4</attack>
+            <attack>Acid Damage||1d4</attack>
+        </action>
+        <action>
+            <name>Stench Spray (1/Day)</name>
+            <text>Each creature in a 15-foot cone originating from Flapjack must succeed on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for 1d4 hours. The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned while with in 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar.</text>
+            <attack>Hours||1d4</attack>
+            <recharge>1/Day</recharge>
+        </action>
+    </monster>
+    <monster name="Grimzod Gargenhale">
+        <name>Grimzod Gargenhale</name>
+        <size>M</size>
+        <type>undead</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>85 (10d8 + 40)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>16</dex>
+        <con>18</con>
+        <int>12</int>
+        <wis>13</wis>
+        <cha>16</cha>
+        <save>Con +7, Wis +4, Cha +6</save>
+        <skill></skill>
+        <vulnerable>radiant</vulnerable>
+        <resist></resist>
+        <immune>cold,necrotic,poison</immune>
+        <conditionImmune>charmed,exhaustion,poisoned</conditionImmune>
+        <senses>darkvision 120 ft.</senses>
+        <passive>11</passive>
+        <languages>the languages it knew in life</languages>
+        <cr>6</cr>
+        <trait>
+            <name>Explode</name>
+            <text>When Grimzod is reduced to 0 hit points, he explodes in a cloud of ash. Any creature within 5 feet of him must succeed on a DC 15 Constitution saving throw or take 16 (3d10) necrotic damage.</text>
+            <attack>Necrotic Damage||3d1000</attack>
+        </trait>
+        <trait>
+            <name>Spider Climb</name>
+            <text>Grimzod can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>Grimzod doesn't require air or drink.</text>
+        </trait>
+        <action>
+            <name>Energy Drain</name>
+            <text>Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 22 (4d10) necrotic damage. A Humanoid reduced to 0 hit points by this attack dies and instantly transforms into a free-willed shadow or vampirate (captain's choice) under the DM's control.</text>
+            <attack>Energy Drain|6|4d10</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow</name>
+            <text>Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 19 (3d10 + 3) piercing damage.</text>
+            <attack>Heavy Crossbow|6|3d10+3</attack>
+        </action>
+        <action>
+            <name>Ship Invisibility (Recharges after a Short or Long Rest)</name>
+            <text>A ship upon which Grimzod stands, along with all creatures and objects aboard it, becomes invisible to creatures not aboard the ship. Grimzod must concentrate on this magical effect to maintain it (as if concentrating on a spell), and it lasts for up to 1 hour. The effect ends if Grimzod leaves the ship.</text>
+            <recharge>Short</recharge>
+        </action>
+        <reaction>
+            <name>Uncanny Dodge</name>
+            <text>Grimzod halves the damage that it takes from an attack that hits him. Grimzod must be able to see the attacker.</text>
+        </reaction>
+    </monster>
+    <monster name="Hastain">
+        <name>Hastain</name>
+        <size>M</size>
+        <type>celestial</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>chaotic evil</alignment>
+        <ac>19 (glory)</ac>
+        <hp>82 (15d8 + 15)</hp>
+        <speed>30 ft., swim 30 ft.</speed>
+        <str>18</str>
+        <dex>15</dex>
+        <con>12</con>
+        <int>19</int>
+        <wis>16</wis>
+        <cha>24</cha>
+        <save>Dex +5, Con +4, Wis +6, Cha +10</save>
+        <skill>Arcana +7, History +7, Performance +10, Persuasion +10</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>13</passive>
+        <languages>Celestial,Common,Deep Speech,Draconic</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>Hastain casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18):</text>
+            <text>At will: light, mage hand, prestidigitation</text>
+            <text>2/Day each: dimension door, phantasmal force</text>
+            <text>1/Day each: mass suggestion, sending</text>
+        </trait>
+        <spellAbility>Charisma</spellAbility>
+        <spells>Light,Mage Hand,Prestidigitation,Dimension Door,Phantasmal Force,Mass Suggestion,Sending</spells>
+        <trait>
+            <name>Dimension Door</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Phantasmal Force</name>
+            <recharge>2/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mass Suggestion</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Sending</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Glory</name>
+            <text>Hastain's Armor Class includes its Charisma modifier.</text>
+        </trait>
+        <trait>
+            <name>Hold Breath</name>
+            <text>Hastain can hold its breath for 1 hour.</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Hastain wears a talarith.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Hastain makes two Trident attacks.</text>
+        </action>
+        <action>
+            <name>Trident</name>
+            <text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) force damage if Hastain is wearing its talarith.</text>
+            <attack>Trident|7|1d6+4</attack>
+            <attack>Trident (2H)|7|1d8+4</attack>
+            <attack>Talarith||1d6</attack>
+        </action>
+        <action>
+            <name>Chromatic Bolt</name>
+            <text>Ranged Spell Attack: +10 to hit, range 90 ft., one target. Hit: 22 (5d8) damage of a type chosen by Hastain from the following list: cold, fire, lightning, or radiant.</text>
+            <attack>Chromatic Bolt|10|5d8</attack>
+        </action>
+        <action>
+            <name>Summon Golem (Recharges after a Short or Long Rest)</name>
+            <text>Using its talarith, Hastain summons a golem-like duplicate of itself. The duplicate obeys Hastain's commands and uses Hastain's statistics, except it is an unaligned Construct that doesn't have a talarith of its own. The duplicate takes its turn immediately after Hastain. It vanishes after 1 hour or when it is reduced to 0 hit points.</text>
+            <recharge>Short</recharge>
+        </action>
+    </monster>
+    <monster name="Prince Xeleth">
+        <name>Prince Xeleth</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>chaotic evil</alignment>
+        <ac>16 (elven chain)</ac>
+        <hp>103 (23d8)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>10</con>
+        <int>21</int>
+        <wis>18</wis>
+        <cha>18</cha>
+        <save>Int +8, Wis +7, Cha +7</save>
+        <skill>Arcana +8, Deception +7, Insight +7, Persuasion +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>14</passive>
+        <languages>Celestial,Common,Draconic,Elvish</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Xeleth casts one of the following spells, using Intelligence as the spellcasting ability:</text>
+            <text>1/Day each: fly, mislead, sending</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Fly,Mislead,Sending</spells>
+        <trait>
+            <name>Fly</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mislead</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Sending</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Fey Ancestry</name>
+            <text>Xeleth has advantage on saving throws he makes to avoid or end the charmed condition on himself, and magic can't put him to sleep.</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Xeleth wears a suit of elven chain.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>Xeleth doesn't require sleep.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Xeleth makes two Scimitar attacks and uses Radiant Beam (if available).</text>
+        </action>
+        <action>
+            <name>Scimitar</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 10 (3d6) radiant damage.</text>
+            <attack>Scimitar|5|1d6+2+3d6</attack>
+        </action>
+        <action>
+            <name>Radiant Beam (3/Day)</name>
+            <text>A magical beam of radiance flashes out from Xeleth's hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a DC 16 Constitution saving throw, taking 18 (4d8) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Radiant Beam||4d8</attack>
+            <recharge>3/Day</recharge>
+        </action>
+        <action>
+            <name>Bonus Action: Starlight Step (3/Day)</name>
+            <text>Xeleth magically teleports up to 30 feet, along with anything he is wearing or carrying, to an unoccupied space he can see.</text>
+            <recharge>3/Day</recharge>
+        </action>
+        <action>
+            <name>Bonus Action: Summon Solar Dragon (1/Day)</name>
+            <text>Xeleth has a 50 percent chance of magically summoning a young solar dragon. A summoned dragon appears in an unoccupied space that the summoner can see, acts on its own initiative count, and is an ally of its summoner. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+            <attack>Chance||1d100</attack>
+            <recharge>1/Day</recharge>
+        </action>
+    </monster>
+    <monster name="Princess Xedalli">
+        <name>Princess Xedalli</name>
+        <size>M</size>
+        <type>humanoid (wizard)</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>chaotic neutral</alignment>
+        <ac>16 (elven chain)</ac>
+        <hp>103 (23d8)</hp>
+        <speed>30 ft.</speed>
+        <str>11</str>
+        <dex>14</dex>
+        <con>10</con>
+        <int>21</int>
+        <wis>18</wis>
+        <cha>18</cha>
+        <save>Int +8, Wis +7, Cha +7</save>
+        <skill>Arcana +8, Deception +7, Insight +7, Persuasion +7</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses>darkvision 60 ft.</senses>
+        <passive>14</passive>
+        <languages>Celestial,Common,Draconic,Elvish</languages>
+        <cr>8</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Xedalli casts one of the following spells, using Intelligence as the spellcasting ability:</text>
+            <text>1/Day each: fly, mislead, sending</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Fly,Mislead,Sending</spells>
+        <trait>
+            <name>Fly</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mislead</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Sending</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Fey Ancestry</name>
+            <text>Xedalli has advantage on saving throws she makes to avoid or end the charmed condition on herself, and magic can't put her to sleep.</text>
+        </trait>
+        <trait>
+            <name>Special Equipment</name>
+            <text>Xedalli wears a suit of elven chain.</text>
+        </trait>
+        <trait>
+            <name>Unusual Nature</name>
+            <text>Xedalli doesn't require sleep.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Xedalli makes two Scimitar attacks and uses Radiant Beam (if available).</text>
+        </action>
+        <action>
+            <name>Scimitar</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 10 (3d6) radiant damage.</text>
+            <attack>Scimitar|5|1d6+2+3d6</attack>
+        </action>
+        <action>
+            <name>Radiant Beam (3/Day)</name>
+            <text>A magical beam of radiance flashes out from Xedalli's hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a DC 16 Constitution saving throw, taking 18 (4d8) radiant damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Radiant Beam||4d8</attack>
+            <recharge>3/Day</recharge>
+        </action>
+        <action>
+            <name>Bonus Action: Starlight Step (3/Day)</name>
+            <text>Xedalli magically teleports up to 30 feet, along with anything she is wearing or carrying, to an unoccupied space she can see.</text>
+            <recharge>3/Day</recharge>
+        </action>
+        <action>
+            <name>Bonus Action: Summon Solar Dragon (1/Day)</name>
+            <text>Xedalli has a 50 percent chance of magically summoning a young solar dragon. A summoned dragon appears in an unoccupied space that the summoner can see, acts on its own initiative count, and is an ally of its summoner. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+            <attack>Chance||1d100</attack>
+            <recharge>1/Day</recharge>
+        </action>
+    </monster>
+    <monster name="Topolah">
+        <name>Topolah</name>
+        <size>M</size>
+        <type>humanoid (any race)</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>chaotic good</alignment>
+        <ac>12</ac>
+        <hp>40 (9d8)</hp>
+        <speed>30 ft.</speed>
+        <str>9</str>
+        <dex>14</dex>
+        <con>11</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <save>Int +6, Wis +4</save>
+        <skill>Arcana +6, History +6</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>any four languages</languages>
+        <cr>6</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Topolah is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Topolah has the following wizard spells prepared:</text>
+            <text>Cantrips (at will): fire bolt, light, mage hand, prestidigitation</text>
+            <text>1st Level (4 slots): detect magic, mage armor, magic missile, shield</text>
+            <text>2nd Level (3 slots): misty step, suggestion</text>
+            <text>3rd Level (3 slots): counterspell, fireball, fly</text>
+            <text>4th Level (3 slots): greater invisibility, ice storm</text>
+            <text>5th Level (1 slots): cone of cold</text>
+            <attack>Spell Attack|6|</attack>
+        </trait>
+        <slots>4,3,3,3,1</slots>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Fire Bolt,Light,Mage Hand,Prestidigitation,Detect Magic,Mage Armor,Magic Missile,Shield,Misty Step,Suggestion,Counterspell,Fireball,Fly,Greater Invisibility,Ice Storm,Cone of Cold</spells>
+        <action>
+            <name>Dagger</name>
+            <text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+            <attack>Dagger|5|1d4+2</attack>
+        </action>
+    </monster>
+    <monster name="Vocath">
+        <name>Vocath</name>
+        <size>L</size>
+        <type>giant</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>lawful neutral</alignment>
+        <ac>13 (mage armor)</ac>
+        <hp>75 (10d10 + 20)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>10</dex>
+        <con>15</con>
+        <int>18</int>
+        <wis>16</wis>
+        <cha>15</cha>
+        <save>Int +7, Wis +6, Cha +5</save>
+        <skill>Insight +9, Perception +6, Persuasion +5</skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>16</passive>
+        <languages>Common,Giant,telepathy 60 ft. (see also Mercane telepathy)</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Spellcasting (Psionics)</name>
+            <text>Vocath casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15):</text>
+            <text>At will: detect magic, light</text>
+            <text>1/Day each: dimension door, invisibility, mage armor (self only)</text>
+        </trait>
+        <spellAbility>Intelligence</spellAbility>
+        <spells>Detect Magic,Light,Dimension Door,Invisibility,Mage Armor</spells>
+        <trait>
+            <name>Dimension Door</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Invisibility</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mage Armor (Self Only)</name>
+            <recharge>1/Day</recharge>
+        </trait>
+        <trait>
+            <name>Mercane Telepathy</name>
+            <text>Vocath can communicate telepathically with any other mercane he knows, regardless of the distance between them.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Vocath makes three Psi-Imbued Blade attacks.</text>
+        </action>
+        <action>
+            <name>Psi-Imbued Blade</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage, and if the target is a creature, it must succeed on a DC 15 Wisdom saving throw or be frightened of Vocath until the end of the target's next turn.</text>
+            <attack>Psi-Imbued Blade|6|2d6+3</attack>
+        </action>
+    </monster>
+    <monster name="Warwyck Blastimoff">
+        <name>Warwyck Blastimoff</name>
+        <size>M</size>
+        <type>humanoid</type>
+        <description>Source: Light of Xaryxis</description>
+        <alignment>lawful good</alignment>
+        <ac>12</ac>
+        <hp>75 (10d8 + 30)</hp>
+        <speed>30 ft., swim 30 ft.</speed>
+        <str>18</str>
+        <dex>14</dex>
+        <con>17</con>
+        <int>11</int>
+        <wis>12</wis>
+        <cha>12</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>Common</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Firearms Knowledge</name>
+            <text>Warwyck's mastery of his weapons enables him to ignore the loading property of any firearm.</text>
+        </trait>
+        <trait>
+            <name>Steady as She Goes</name>
+            <text>On the deck of a ship, Warwyck has advantage on ability checks and saving throws made against effects that would knock him prone or shove him overboard.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Warwyck makes two Longsword or Musket attacks.</text>
+        </action>
+        <action>
+            <name>Longsword</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</text>
+            <attack>Longsword|6|1d8+4</attack>
+            <attack>Longsword (2H)|6|1d10+4</attack>
+        </action>
+        <action>
+            <name>Musket</name>
+            <text>Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit: 8 (1d12 + 2) piercing damage.</text>
+            <attack>Musket|4|1d12+2</attack>
+        </action>
+        <action>
+            <name>Force Grenade</name>
+            <text>Warwyck throws a grenade up to 60 feet, and the grenade explodes in a 20-foot-radius sphere. Each creature in that area must make a DC 15 Dexterity saving throw, taking 17 (5d6) force damage on a failed save, or half as much damage on a successful one. After Warwyck throws the grenade, roll a d6; on a roll of 4 or lower, Warwyck has no more grenades to throw.</text>
+            <attack>Force Grenade||5d6</attack>
+            <attack>Grenade Check||1d6</attack>
+        </action>
+    </monster>
+</compendium>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<item>
+<compendium version="5" source="PHB">
+	<item name="Copper (cp)">
 		<name>Copper (cp)</name>
 		<type>$</type>
 		<magic/>
@@ -20,7 +20,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Electrum (ep)">
 		<name>Electrum (ep)</name>
 		<type>$</type>
 		<magic/>
@@ -40,7 +40,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Gold (gp)">
 		<name>Gold (gp)</name>
 		<type>$</type>
 		<magic/>
@@ -60,7 +60,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Platinum (pp)">
 		<name>Platinum (pp)</name>
 		<type>$</type>
 		<magic/>
@@ -80,7 +80,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Silver (sp)">
 		<name>Silver (sp)</name>
 		<type>$</type>
 		<magic/>
@@ -100,7 +100,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Arrows">
 		<name>Arrows</name>
 		<type>A</type>
 		<magic/>
@@ -110,7 +110,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Arrows (20)">
 		<name>Arrows (20)</name>
 		<type>A</type>
 		<magic/>
@@ -120,7 +120,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Blowgun Needles">
 		<name>Blowgun Needles</name>
 		<type>A</type>
 		<magic/>
@@ -130,7 +130,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Blowgun Needles (50)">
 		<name>Blowgun Needles (50)</name>
 		<type>A</type>
 		<magic/>
@@ -140,7 +140,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Crossbow Bolts">
 		<name>Crossbow Bolts</name>
 		<type>A</type>
 		<magic/>
@@ -150,7 +150,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Crossbow Bolts (20)">
 		<name>Crossbow Bolts (20)</name>
 		<type>A</type>
 		<magic/>
@@ -160,7 +160,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Sling Bullets">
 		<name>Sling Bullets</name>
 		<type>A</type>
 		<magic/>
@@ -170,7 +170,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Sling Bullets (20)">
 		<name>Sling Bullets (20)</name>
 		<type>A</type>
 		<magic/>
@@ -180,7 +180,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Abacus">
 		<name>Abacus</name>
 		<type>G</type>
 		<magic/>
@@ -188,27 +188,29 @@
 		<weight>2</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Acid (vial)">
 		<name>Acid (vial)</name>
 		<type>G</type>
 		<magic/>
 		<value>25</value>
 		<weight>1</weight>
 		<text>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.</text>
+		<roll>2d6</roll>
 		<text/>
 		<text>Source: Player's Handbook, page 148</text>
 	</item>
-	<item>
+	<item name="Alchemist's Fire (flask)">
 		<name>Alchemist's Fire (flask)</name>
 		<type>G</type>
 		<magic/>
 		<value>50</value>
 		<weight>1</weight>
 		<text>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</text>
+		<roll>1d4</roll>
 		<text/>
 		<text>Source: Player's Handbook, page 148</text>
 	</item>
-	<item>
+	<item name="Alchemist's Supplies">
 		<name>Alchemist's Supplies</name>
 		<type>G</type>
 		<magic/>
@@ -218,7 +220,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Antitoxin">
 		<name>Antitoxin</name>
 		<type>G</type>
 		<magic/>
@@ -227,7 +229,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Backpack">
 		<name>Backpack</name>
 		<type>G</type>
 		<magic/>
@@ -237,7 +239,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Bagpipes">
 		<name>Bagpipes</name>
 		<type>G</type>
 		<magic/>
@@ -251,7 +253,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Ball Bearings">
 		<name>Ball Bearings</name>
 		<type>G</type>
 		<magic/>
@@ -261,7 +263,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Barrel">
 		<name>Barrel</name>
 		<type>G</type>
 		<magic/>
@@ -271,16 +273,17 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Basic Poison (vial)">
 		<name>Basic Poison (vial)</name>
 		<type>G</type>
 		<magic/>
 		<value>100</value>
 		<text>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</text>
+		<roll>1d4</roll>
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Basket">
 		<name>Basket</name>
 		<type>G</type>
 		<magic/>
@@ -290,7 +293,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Bedroll">
 		<name>Bedroll</name>
 		<type>G</type>
 		<magic/>
@@ -298,14 +301,14 @@
 		<weight>7</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Bell">
 		<name>Bell</name>
 		<type>G</type>
 		<magic/>
 		<value>1</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Blanket">
 		<name>Blanket</name>
 		<type>G</type>
 		<magic/>
@@ -313,7 +316,7 @@
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Block and Tackle">
 		<name>Block and Tackle</name>
 		<type>G</type>
 		<magic/>
@@ -323,7 +326,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Book">
 		<name>Book</name>
 		<type>G</type>
 		<magic/>
@@ -333,7 +336,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Brewer's Supplies">
 		<name>Brewer's Supplies</name>
 		<type>G</type>
 		<magic/>
@@ -343,7 +346,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Bucket">
 		<name>Bucket</name>
 		<type>G</type>
 		<magic/>
@@ -353,7 +356,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Bullseye Lantern">
 		<name>Bullseye Lantern</name>
 		<type>G</type>
 		<magic/>
@@ -363,7 +366,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Burglar's Pack">
 		<name>Burglar's Pack</name>
 		<type>G</type>
 		<magic/>
@@ -401,7 +404,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Calligrapher's Supplies">
 		<name>Calligrapher's Supplies</name>
 		<type>G</type>
 		<magic/>
@@ -411,7 +414,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Caltrops">
 		<name>Caltrops</name>
 		<type>G</type>
 		<magic/>
@@ -421,7 +424,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Caltrops (20)">
 		<name>Caltrops (20)</name>
 		<type>G</type>
 		<magic/>
@@ -431,7 +434,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Candle">
 		<name>Candle</name>
 		<type>G</type>
 		<magic/>
@@ -440,7 +443,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Carpenter's Tools">
 		<name>Carpenter's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -450,7 +453,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Cartographer's Tools">
 		<name>Cartographer's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -460,7 +463,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Chain (10 feet)">
 		<name>Chain (10 feet)</name>
 		<type>G</type>
 		<magic/>
@@ -470,14 +473,14 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Chalk (1 piece)">
 		<name>Chalk (1 piece)</name>
 		<type>G</type>
 		<magic/>
 		<value>0.01</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Chest">
 		<name>Chest</name>
 		<type>G</type>
 		<magic/>
@@ -487,7 +490,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Climber's Kit">
 		<name>Climber's Kit</name>
 		<type>G</type>
 		<magic/>
@@ -497,7 +500,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Cobbler's Tools">
 		<name>Cobbler's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -507,7 +510,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Common Clothes">
 		<name>Common Clothes</name>
 		<type>G</type>
 		<magic/>
@@ -515,7 +518,7 @@
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Component Pouch">
 		<name>Component Pouch</name>
 		<type>G</type>
 		<magic/>
@@ -525,7 +528,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Cook's Utensils">
 		<name>Cook's Utensils</name>
 		<type>G</type>
 		<magic/>
@@ -535,7 +538,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Costume Clothes">
 		<name>Costume Clothes</name>
 		<type>G</type>
 		<magic/>
@@ -543,7 +546,7 @@
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Crossbow Bolt Case">
 		<name>Crossbow Bolt Case</name>
 		<type>G</type>
 		<magic/>
@@ -553,7 +556,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Crowbar">
 		<name>Crowbar</name>
 		<type>G</type>
 		<magic/>
@@ -563,7 +566,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Crystal">
 		<name>Crystal</name>
 		<type>G</type>
 		<magic/>
@@ -573,7 +576,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Dice Set">
 		<name>Dice Set</name>
 		<type>G</type>
 		<magic/>
@@ -582,7 +585,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Diplomat's Pack">
 		<name>Diplomat's Pack</name>
 		<type>G</type>
 		<magic/>
@@ -614,7 +617,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Disguise Kit">
 		<name>Disguise Kit</name>
 		<type>G</type>
 		<magic/>
@@ -624,7 +627,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Dragonchess Set">
 		<name>Dragonchess Set</name>
 		<type>G</type>
 		<magic/>
@@ -634,7 +637,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Drum">
 		<name>Drum</name>
 		<type>G</type>
 		<magic/>
@@ -648,7 +651,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Dulcimer">
 		<name>Dulcimer</name>
 		<type>G</type>
 		<magic/>
@@ -662,7 +665,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Dungeoneer's Pack">
 		<name>Dungeoneer's Pack</name>
 		<type>G</type>
 		<magic/>
@@ -690,7 +693,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Entertainer's Pack">
 		<name>Entertainer's Pack</name>
 		<type>G</type>
 		<magic/>
@@ -714,7 +717,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Explorer's Pack">
 		<name>Explorer's Pack</name>
 		<type>G</type>
 		<magic/>
@@ -740,7 +743,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Fine Clothes">
 		<name>Fine Clothes</name>
 		<type>G</type>
 		<magic/>
@@ -748,7 +751,7 @@
 		<weight>6</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Fishing Tackle">
 		<name>Fishing Tackle</name>
 		<type>G</type>
 		<magic/>
@@ -758,7 +761,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Flask">
 		<name>Flask</name>
 		<type>G</type>
 		<magic/>
@@ -768,7 +771,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Flute">
 		<name>Flute</name>
 		<type>G</type>
 		<magic/>
@@ -782,7 +785,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Forgery Kit">
 		<name>Forgery Kit</name>
 		<type>G</type>
 		<magic/>
@@ -792,7 +795,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Glass Bottle">
 		<name>Glass Bottle</name>
 		<type>G</type>
 		<magic/>
@@ -802,7 +805,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Glassblower's Tools">
 		<name>Glassblower's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -812,7 +815,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Grappling Hook">
 		<name>Grappling Hook</name>
 		<type>G</type>
 		<magic/>
@@ -820,7 +823,7 @@
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Hammer">
 		<name>Hammer</name>
 		<type>G</type>
 		<magic/>
@@ -828,7 +831,7 @@
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Healer's Kit">
 		<name>Healer's Kit</name>
 		<type>G</type>
 		<magic/>
@@ -838,7 +841,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Hempen Rope (50 feet)">
 		<name>Hempen Rope (50 feet)</name>
 		<type>G</type>
 		<magic/>
@@ -848,7 +851,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Herbalism Kit">
 		<name>Herbalism Kit</name>
 		<type>G</type>
 		<magic/>
@@ -858,7 +861,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Holy Symbol (Amulet)">
 		<name>Holy Symbol (Amulet)</name>
 		<type>G</type>
 		<magic/>
@@ -870,7 +873,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Holy Symbol (Emblem)">
 		<name>Holy Symbol (Emblem)</name>
 		<type>G</type>
 		<magic/>
@@ -881,7 +884,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Holy Symbol (Reliquary)">
 		<name>Holy Symbol (Reliquary)</name>
 		<type>G</type>
 		<magic/>
@@ -893,17 +896,18 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Holy Water (flask)">
 		<name>Holy Water (flask)</name>
 		<type>G</type>
 		<magic/>
 		<value>25</value>
 		<weight>1</weight>
 		<text>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.\n\tA cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</text>
+		<roll>2d6</roll>
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Hooded Lantern">
 		<name>Hooded Lantern</name>
 		<type>G</type>
 		<magic/>
@@ -913,7 +917,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Horn">
 		<name>Horn</name>
 		<type>G</type>
 		<magic/>
@@ -927,7 +931,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Hourglass">
 		<name>Hourglass</name>
 		<type>G</type>
 		<magic/>
@@ -935,31 +939,32 @@
 		<weight>1</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Hunting Trap">
 		<name>Hunting Trap</name>
 		<type>G</type>
 		<magic/>
 		<value>5</value>
 		<weight>25</weight>
 		<text>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</text>
+		<roll>1d4</roll>
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Ink (1 ounce bottle)">
 		<name>Ink (1 ounce bottle)</name>
 		<value>10</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Ink Pen">
 		<name>Ink Pen</name>
 		<value>0.02</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Iron Pot">
 		<name>Iron Pot</name>
 		<type>G</type>
 		<magic/>
@@ -969,7 +974,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Iron Spikes">
 		<name>Iron Spikes</name>
 		<type>G</type>
 		<magic/>
@@ -977,7 +982,7 @@
 		<weight>0.5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Iron Spikes (10)">
 		<name>Iron Spikes (10)</name>
 		<type>G</type>
 		<magic/>
@@ -985,7 +990,7 @@
 		<weight>5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Jeweler's Tools">
 		<name>Jeweler's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -995,7 +1000,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Jug">
 		<name>Jug</name>
 		<type>G</type>
 		<magic/>
@@ -1005,7 +1010,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Ladder (10-foot)">
 		<name>Ladder (10-foot)</name>
 		<type>G</type>
 		<magic/>
@@ -1013,7 +1018,7 @@
 		<weight>25</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Lamp">
 		<name>Lamp</name>
 		<type>G</type>
 		<magic/>
@@ -1023,7 +1028,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Leatherworker's Tools">
 		<name>Leatherworker's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1033,7 +1038,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Lock">
 		<name>Lock</name>
 		<type>G</type>
 		<magic/>
@@ -1043,7 +1048,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Lute">
 		<name>Lute</name>
 		<type>G</type>
 		<magic/>
@@ -1057,7 +1062,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Lyre">
 		<name>Lyre</name>
 		<type>G</type>
 		<magic/>
@@ -1071,7 +1076,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Magnifying Glass">
 		<name>Magnifying Glass</name>
 		<type>G</type>
 		<magic/>
@@ -1080,7 +1085,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Manacles">
 		<name>Manacles</name>
 		<type>G</type>
 		<magic/>
@@ -1090,7 +1095,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Map or Scroll Case">
 		<name>Map or Scroll Case</name>
 		<type>G</type>
 		<magic/>
@@ -1100,7 +1105,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Mason's Tools">
 		<name>Mason's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1110,7 +1115,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Merchant's Scale">
 		<name>Merchant's Scale</name>
 		<type>G</type>
 		<magic/>
@@ -1120,7 +1125,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Mess Kit">
 		<name>Mess Kit</name>
 		<type>G</type>
 		<magic/>
@@ -1130,7 +1135,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Miner's Pick">
 		<name>Miner's Pick</name>
 		<type>G</type>
 		<magic/>
@@ -1138,7 +1143,7 @@
 		<weight>10</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Navigator's Tools">
 		<name>Navigator's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1148,7 +1153,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Oil (flask)">
 		<name>Oil (flask)</name>
 		<type>G</type>
 		<magic/>
@@ -1158,7 +1163,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Orb">
 		<name>Orb</name>
 		<type>G</type>
 		<magic/>
@@ -1168,7 +1173,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Painter's Supplies">
 		<name>Painter's Supplies</name>
 		<type>G</type>
 		<magic/>
@@ -1178,7 +1183,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Pan Flute">
 		<name>Pan Flute</name>
 		<type>G</type>
 		<magic/>
@@ -1192,28 +1197,28 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Paper (one sheet)">
 		<name>Paper (one sheet)</name>
 		<type>G</type>
 		<magic/>
 		<value>0.2</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Parchment (one sheet)">
 		<name>Parchment (one sheet)</name>
 		<type>G</type>
 		<magic/>
 		<value>0.1</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Perfume (vial)">
 		<name>Perfume (vial)</name>
 		<type>G</type>
 		<magic/>
 		<value>5</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Pitcher">
 		<name>Pitcher</name>
 		<type>G</type>
 		<magic/>
@@ -1223,7 +1228,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Piton">
 		<name>Piton</name>
 		<type>G</type>
 		<magic/>
@@ -1231,7 +1236,7 @@
 		<weight>0.25</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Playing Card Set">
 		<name>Playing Card Set</name>
 		<type>G</type>
 		<magic/>
@@ -1240,7 +1245,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Poisoner's Kit">
 		<name>Poisoner's Kit</name>
 		<type>G</type>
 		<magic/>
@@ -1250,7 +1255,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Pole (10-foot)">
 		<name>Pole (10-foot)</name>
 		<type>G</type>
 		<magic/>
@@ -1258,7 +1263,7 @@
 		<weight>7</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Portable Ram">
 		<name>Portable Ram</name>
 		<type>G</type>
 		<magic/>
@@ -1268,7 +1273,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Potter's Tools">
 		<name>Potter's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1278,7 +1283,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Pouch">
 		<name>Pouch</name>
 		<type>G</type>
 		<magic/>
@@ -1288,7 +1293,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Priest's Pack">
 		<name>Priest's Pack</name>
 		<type>G</type>
 		<magic/>
@@ -1318,7 +1323,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Quiver">
 		<name>Quiver</name>
 		<type>G</type>
 		<magic/>
@@ -1328,7 +1333,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Rations (1 day)">
 		<name>Rations (1 day)</name>
 		<type>G</type>
 		<magic/>
@@ -1338,7 +1343,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Robes">
 		<name>Robes</name>
 		<type>G</type>
 		<magic/>
@@ -1346,7 +1351,7 @@
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Rod">
 		<name>Rod</name>
 		<type>G</type>
 		<magic/>
@@ -1356,7 +1361,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Sack">
 		<name>Sack</name>
 		<type>G</type>
 		<magic/>
@@ -1366,7 +1371,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Scholar's Pack">
 		<name>Scholar's Pack</name>
 		<type>G</type>
 		<magic/>
@@ -1390,14 +1395,14 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Sealing Wax">
 		<name>Sealing Wax</name>
 		<value>0.5</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Shawm">
 		<name>Shawm</name>
 		<type>G</type>
 		<magic/>
@@ -1411,7 +1416,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Shovel">
 		<name>Shovel</name>
 		<type>G</type>
 		<magic/>
@@ -1419,21 +1424,21 @@
 		<weight>5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Signal Whistle">
 		<name>Signal Whistle</name>
 		<value>0.05</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Signet Ring">
 		<name>Signet Ring</name>
 		<value>5</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Silk Rope (50 feet)">
 		<name>Silk Rope (50 feet)</name>
 		<type>G</type>
 		<magic/>
@@ -1443,7 +1448,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Sledge Hammer">
 		<name>Sledge Hammer</name>
 		<value>2</value>
 		<type>G</type>
@@ -1451,7 +1456,7 @@
 		<weight>10</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Smith's Tools">
 		<name>Smith's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1461,14 +1466,14 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Soap">
 		<name>Soap</name>
 		<type>G</type>
 		<magic/>
 		<value>0.02</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Spellbook">
 		<name>Spellbook</name>
 		<type>G</type>
 		<magic/>
@@ -1478,7 +1483,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Sprig of Mistletoe">
 		<name>Sprig of Mistletoe</name>
 		<type>G</type>
 		<magic/>
@@ -1487,7 +1492,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Spyglass">
 		<name>Spyglass</name>
 		<type>G</type>
 		<magic/>
@@ -1497,7 +1502,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Staff">
 		<name>Staff</name>
 		<type>G</type>
 		<magic/>
@@ -1507,7 +1512,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Steel Mirror">
 		<name>Steel Mirror</name>
 		<type>G</type>
 		<magic/>
@@ -1515,7 +1520,7 @@
 		<weight>0.5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Tankard">
 		<name>Tankard</name>
 		<type>G</type>
 		<magic/>
@@ -1524,7 +1529,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Thieves' Tools">
 		<name>Thieves' Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1534,7 +1539,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Three-Dragon Ante Set">
 		<name>Three-Dragon Ante Set</name>
 		<type>G</type>
 		<magic/>
@@ -1543,7 +1548,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Tinderbox">
 		<name>Tinderbox</name>
 		<type>G</type>
 		<magic/>
@@ -1553,7 +1558,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Tinker's Tools">
 		<name>Tinker's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1563,7 +1568,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Torch">
 		<name>Torch</name>
 		<type>G</type>
 		<magic/>
@@ -1573,7 +1578,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Totem">
 		<name>Totem</name>
 		<type>G</type>
 		<magic/>
@@ -1582,7 +1587,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Traveler's Clothes">
 		<name>Traveler's Clothes</name>
 		<type>G</type>
 		<magic/>
@@ -1590,7 +1595,7 @@
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Two-Person Tent">
 		<name>Two-Person Tent</name>
 		<type>G</type>
 		<magic/>
@@ -1600,7 +1605,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Vial">
 		<name>Vial</name>
 		<type>G</type>
 		<magic/>
@@ -1609,7 +1614,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Viol">
 		<name>Viol</name>
 		<type>G</type>
 		<magic/>
@@ -1623,7 +1628,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Wand">
 		<name>Wand</name>
 		<type>G</type>
 		<magic/>
@@ -1633,7 +1638,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Waterskin">
 		<name>Waterskin</name>
 		<type>G</type>
 		<magic/>
@@ -1643,7 +1648,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Weaver's Tools">
 		<name>Weaver's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1653,7 +1658,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Whetstone">
 		<name>Whetstone</name>
 		<type>G</type>
 		<magic/>
@@ -1661,7 +1666,7 @@
 		<weight>1</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Woodcarver's Tools">
 		<name>Woodcarver's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1671,7 +1676,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Wooden Staff">
 		<name>Wooden Staff</name>
 		<type>G</type>
 		<magic/>
@@ -1681,7 +1686,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Yew Wand">
 		<name>Yew Wand</name>
 		<type>G</type>
 		<magic/>
@@ -1691,7 +1696,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Chain Mail">
 		<name>Chain Mail</name>
 		<type>HA</type>
 		<magic/>
@@ -1704,7 +1709,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Plate Armor">
 		<name>Plate Armor</name>
 		<type>HA</type>
 		<magic/>
@@ -1717,7 +1722,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Ring Mail">
 		<name>Ring Mail</name>
 		<type>HA</type>
 		<magic/>
@@ -1729,7 +1734,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Splint Armor">
 		<name>Splint Armor</name>
 		<type>HA</type>
 		<magic/>
@@ -1742,7 +1747,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Leather Armor">
 		<name>Leather Armor</name>
 		<type>LA</type>
 		<magic/>
@@ -1753,7 +1758,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Padded Armor">
 		<name>Padded Armor</name>
 		<type>LA</type>
 		<magic/>
@@ -1765,7 +1770,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Studded Leather Armor">
 		<name>Studded Leather Armor</name>
 		<type>LA</type>
 		<magic/>
@@ -1776,7 +1781,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Battleaxe">
 		<name>Battleaxe</name>
 		<type>M</type>
 		<magic/>
@@ -1790,7 +1795,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Club">
 		<name>Club</name>
 		<type>M</type>
 		<magic/>
@@ -1803,7 +1808,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Dagger">
 		<name>Dagger</name>
 		<type>M</type>
 		<magic/>
@@ -1823,7 +1828,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Flail">
 		<name>Flail</name>
 		<type>M</type>
 		<magic/>
@@ -1833,7 +1838,7 @@
 		<dmgType>B</dmgType>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Glaive">
 		<name>Glaive</name>
 		<type>M</type>
 		<magic/>
@@ -1850,7 +1855,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Greataxe">
 		<name>Greataxe</name>
 		<type>M</type>
 		<magic/>
@@ -1865,7 +1870,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Greatclub">
 		<name>Greatclub</name>
 		<type>M</type>
 		<magic/>
@@ -1878,7 +1883,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Greatsword">
 		<name>Greatsword</name>
 		<type>M</type>
 		<magic/>
@@ -1893,7 +1898,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Halberd">
 		<name>Halberd</name>
 		<type>M</type>
 		<magic/>
@@ -1908,7 +1913,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Handaxe">
 		<name>Handaxe</name>
 		<type>M</type>
 		<magic/>
@@ -1926,7 +1931,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Javelin">
 		<name>Javelin</name>
 		<type>M</type>
 		<magic/>
@@ -1942,7 +1947,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Lance">
 		<name>Lance</name>
 		<type>M</type>
 		<magic/>
@@ -1957,7 +1962,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Light Hammer">
 		<name>Light Hammer</name>
 		<type>M</type>
 		<magic/>
@@ -1975,7 +1980,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Longsword">
 		<name>Longsword</name>
 		<type>M</type>
 		<magic/>
@@ -1989,7 +1994,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Mace">
 		<name>Mace</name>
 		<type>M</type>
 		<magic/>
@@ -1999,7 +2004,7 @@
 		<dmgType>B</dmgType>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Maul">
 		<name>Maul</name>
 		<type>M</type>
 		<magic/>
@@ -2014,7 +2019,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Morningstar">
 		<name>Morningstar</name>
 		<type>M</type>
 		<magic/>
@@ -2024,7 +2029,7 @@
 		<dmgType>P</dmgType>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Pike">
 		<name>Pike</name>
 		<type>M</type>
 		<magic/>
@@ -2041,7 +2046,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Quarterstaff">
 		<name>Quarterstaff</name>
 		<type>M</type>
 		<magic/>
@@ -2055,7 +2060,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Rapier">
 		<name>Rapier</name>
 		<type>M</type>
 		<magic/>
@@ -2068,7 +2073,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Scimitar">
 		<name>Scimitar</name>
 		<type>M</type>
 		<magic/>
@@ -2083,7 +2088,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Shortsword">
 		<name>Shortsword</name>
 		<type>M</type>
 		<magic/>
@@ -2098,7 +2103,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Sickle">
 		<name>Sickle</name>
 		<type>M</type>
 		<magic/>
@@ -2111,7 +2116,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Spear">
 		<name>Spear</name>
 		<type>M</type>
 		<magic/>
@@ -2130,7 +2135,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Trident">
 		<name>Trident</name>
 		<type>M</type>
 		<magic/>
@@ -2149,7 +2154,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="War Pick">
 		<name>War Pick</name>
 		<type>M</type>
 		<magic/>
@@ -2159,7 +2164,7 @@
 		<dmgType>P</dmgType>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Warhammer">
 		<name>Warhammer</name>
 		<type>M</type>
 		<magic/>
@@ -2173,7 +2178,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Whip">
 		<name>Whip</name>
 		<type>M</type>
 		<magic/>
@@ -2188,7 +2193,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Breastplate">
 		<name>Breastplate</name>
 		<type>MA</type>
 		<magic/>
@@ -2199,7 +2204,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Chain Shirt">
 		<name>Chain Shirt</name>
 		<type>MA</type>
 		<magic/>
@@ -2210,7 +2215,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Half Plate">
 		<name>Half Plate</name>
 		<type>MA</type>
 		<magic/>
@@ -2222,7 +2227,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Hide Armor">
 		<name>Hide Armor</name>
 		<type>MA</type>
 		<magic/>
@@ -2233,7 +2238,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Scale Mail">
 		<name>Scale Mail</name>
 		<type>MA</type>
 		<magic/>
@@ -2245,7 +2250,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Blowgun">
 		<name>Blowgun</name>
 		<type>R</type>
 		<magic/>
@@ -2265,7 +2270,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Dart">
 		<name>Dart</name>
 		<type>R</type>
 		<magic/>
@@ -2283,7 +2288,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Hand Crossbow">
 		<name>Hand Crossbow</name>
 		<type>R</type>
 		<magic/>
@@ -2305,7 +2310,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Heavy Crossbow">
 		<name>Heavy Crossbow</name>
 		<type>R</type>
 		<magic/>
@@ -2329,7 +2334,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Light Crossbow">
 		<name>Light Crossbow</name>
 		<type>R</type>
 		<magic/>
@@ -2351,7 +2356,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Longbow">
 		<name>Longbow</name>
 		<type>R</type>
 		<magic/>
@@ -2373,7 +2378,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Net">
 		<name>Net</name>
 		<type>R</type>
 		<magic/>
@@ -2389,7 +2394,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Shortbow">
 		<name>Shortbow</name>
 		<type>R</type>
 		<magic/>
@@ -2409,7 +2414,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Sling">
 		<name>Sling</name>
 		<type>R</type>
 		<magic/>
@@ -2426,7 +2431,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Shield">
 		<name>Shield</name>
 		<type>S</type>
 		<magic/>
@@ -2437,7 +2442,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Assassin's Blood (Ingested)">
 		<name>Assassin's Blood (Ingested)</name>
 		<type>G</type>
 		<magic/>
@@ -2448,7 +2453,7 @@
 		<text>Source: Dungeon Master's Guide, page 258</text>
 		<roll>1d12</roll>
 	</item>
-	<item>
+	<item name="Burnt Othur Fumes (Inhaled)">
 		<name>Burnt Othur Fumes (Inhaled)</name>
 		<type>G</type>
 		<magic/>
@@ -2460,7 +2465,7 @@
 		<roll>3d6</roll>
 		<roll>1d6</roll>
 	</item>
-	<item>
+	<item name="Carrion Crawler Mucus (Contact)">
 		<name>Carrion Crawler Mucus (Contact)</name>
 		<type>G</type>
 		<magic/>
@@ -2470,7 +2475,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 258</text>
 	</item>
-	<item>
+	<item name="Drow Poison (Injury)">
 		<name>Drow Poison (Injury)</name>
 		<type>G</type>
 		<magic/>
@@ -2480,7 +2485,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 258</text>
 	</item>
-	<item>
+	<item name="Essence of Ether (Inhaled)">
 		<name>Essence of Ether (Inhaled)</name>
 		<type>G</type>
 		<magic/>
@@ -2490,7 +2495,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 258</text>
 	</item>
-	<item>
+	<item name="Malice (Inhaled)">
 		<name>Malice (Inhaled)</name>
 		<type>G</type>
 		<magic/>
@@ -2500,7 +2505,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 258</text>
 	</item>
-	<item>
+	<item name="Midnight Tears (Ingested)">
 		<name>Midnight Tears (Ingested)</name>
 		<type>G</type>
 		<magic/>
@@ -2511,7 +2516,7 @@
 		<text>Source: Dungeon Master's Guide, page 258</text>
 		<roll>9d6</roll>
 	</item>
-	<item>
+	<item name="Oil of Taggit (Contact)">
 		<name>Oil of Taggit (Contact)</name>
 		<type>G</type>
 		<magic/>
@@ -2521,7 +2526,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 258</text>
 	</item>
-	<item>
+	<item name="Pale Tincture (Ingested)">
 		<name>Pale Tincture (Ingested)</name>
 		<type>G</type>
 		<magic/>
@@ -2532,7 +2537,7 @@
 		<text>Source: Dungeon Master's Guide, page 258</text>
 		<roll>1d6</roll>
 	</item>
-	<item>
+	<item name="Purple Worm Poison (Injury)">
 		<name>Purple Worm Poison (Injury)</name>
 		<type>G</type>
 		<magic/>
@@ -2543,7 +2548,7 @@
 		<text>Source: Dungeon Master's Guide, page 258</text>
 		<roll>12d6</roll>
 	</item>
-	<item>
+	<item name="Serpent Venom (Injury)">
 		<name>Serpent Venom (Injury)</name>
 		<type>G</type>
 		<magic/>
@@ -2554,7 +2559,7 @@
 		<text>Source: Dungeon Master's Guide, page 258</text>
 		<roll>3d6</roll>
 	</item>
-	<item>
+	<item name="Torpor (Ingested)">
 		<name>Torpor (Ingested)</name>
 		<type>G</type>
 		<magic/>
@@ -2565,7 +2570,7 @@
 		<text>Source: Dungeon Master's Guide, page 258</text>
 		<roll>4d6</roll>
 	</item>
-	<item>
+	<item name="Truth Serum (Ingested)">
 		<name>Truth Serum (Ingested)</name>
 		<type>G</type>
 		<magic/>
@@ -2575,7 +2580,7 @@
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 258</text>
 	</item>
-	<item>
+	<item name="Wyvern Poison (Injury)">
 		<name>Wyvern Poison (Injury)</name>
 		<type>G</type>
 		<magic/>
@@ -2586,7 +2591,7 @@
 		<text>Source: Dungeon Master's Guide, page 258</text>
 		<roll>7d6</roll>
 	</item>
-	<item>
+	<item name="Trinket">
 		<name>Trinket</name>
 		<type>G</type>
 		<magic/>
@@ -2696,117 +2701,11 @@
 		<text>98. A glass jar containing lard with a label that reads, "Griffon Grease".</text>
 		<text>99. A wooden box with a ceramic bottom that holds a living worm with a head on each end of it's body.</text>
 		<text>100. A metal urn containing the ashes of a hero.</text>
+		<roll>1d100</roll>
 		<text/>
 		<text>Source: Player's Handbook, pages 159-161</text>
-		<text/>
-		<text/>
-		<text>Elemental Evil Trinkets:</text>
-		<text/>
-		<text>01. A compass that always points to Mulmaster.</text>
-		<text>02. A paper fan that won't produce a breeze no matter how hard it's waved.</text>
-		<text>03. A petrified potato that resembles someone important to you.</text>
-		<text>04. A glass cup that can only be filled half way no matter how much liquid is pored into it.</text>
-		<text>05. A mirror that only shows the back of your head.</text>
-		<text>06. A small glass bird that when set down near water dips its head in as if to get a drink.</text>
-		<text>07. A lady's coin purse containing two sharp fangs.</text>
-		<text>08. A small sea conch with the words "From the beginning" painted on the lip.</text>
-		<text>09. A frost-covered silver locket that's frozen shut.</text>
-		<text>10. A seal which imprints a mysterious, unknown coat of arms into hard rock.</text>
-		<text>11. A small wooden doll that when held brings back fond memories.</text>
-		<text>12. A small handmirror which only reflects inanimate objects.</text>
-		<text>13. A glass eyeball that looks about of its own accordance, and can roll around.</text>
-		<text>14. A glass orb that replicates yesterday's weather inside itself.</text>
-		<text>15. A drinking cup, that randomly fills with fresh or salt water. Refilling once emptied.</text>
-		<text>16. A deep blue piece of flint, that when struck with steel produces not a spark but a drop of water.</text>
-		<text>17. A conch shell which is always damp and constantly drips saltwater.</text>
-		<text>18. A charred, half-melted pewter clasp that glows as if smoldering but releases no heat.</text>
-		<text>19. A clockwork finch that flaps its wings in the presence of a breeze.</text>
-		<text>20. A unbreakable sealed jar of glowing water that hums when shaken.</text>
-		<text>21. A small, finely polished geode whose crystals slowly fade between every color of the spectrum.</text>
-		<text>22. A rough stone eye pulled from a petrified creature.</text>
-		<text>23. A stone smoking pipe that never needs lighting.</text>
-		<text>24. A small whistle, that when blown, whispers a name of a person or place unknown to you, instead of the whistle sound.</text>
-		<text>25. A fist sized rock that "beats" like a heart.</text>
-		<text>26. A pair of bronze scissors in the shape of a pair of leaping dolphins.</text>
-		<text>27. A bronze oil lamp which is rumored to have once held a genie.</text>
-		<text>28. A single gauntlet inscribed with a fire motif and an unfamiliar name in Primordial.</text>
-		<text>29. A one-eyed little fish inside a spherical vial, much bigger than the vial's neck. He has a cunning look.</text>
-		<text>30. The tiny skull of a rabbit that whispers scathing insults when nobody is looking.</text>
-		<text>31. A rag doll in the likeness of an owlbear.</text>
-		<text>32. The desiccated body of a small eight-legged black lizard.</text>
-		<text>33. A small toy boat made with a walnut shell, toothpick, and piece of cloth.</text>
-		<text>34. A small pocket mirror that slowly fogs over while held.</text>
-		<text>35. Wind chimes that glow when the wind blows.</text>
-		<text>36. A small, clay square with an unknown rune etched into one side.</text>
-		<text>37. A tea kettle that heats itself when filled with water.</text>
-		<text>38. An old scratched monocle which shows an underwater landscape whenever someone looks through it.</text>
-		<text>39. A rose carved from coral.</text>
-		<text>40. A set of dice with elemental symbols and primordial runes instead of pips or numbers.</text>
-		<text>41. A amulet filled with liquid that churns, freezes, or boils to match it's wearer's mood.</text>
-		<text>42. A small silver bell that makes a sound like quiet, distant thunder when it's struck.</text>
-		<text>43. A small vial of black sand that glows slightly in the moonlight.</text>
-		<text>44. A small whale tooth with etched with an image of waves crashing upon a beach.</text>
-		<text>45. An hourglass in which the sands pour upward instead of downward.</text>
-		<text>46. A glass pendant with a hole in the center that a mild breeze always blows out of.</text>
-		<text>47. A soft feather that falls like a stone when dropped.</text>
-		<text>48. A large transparent gem that, when gripped tightly, whispers in Terran.</text>
-		<text>49. A small crystal snowglobe that, when shaken, seems to form silhouettes of dancing forms.</text>
-		<text>50. Half of a palm-sized geode that pulses dimly with purple light.</text>
-		<text>51. A book filled with writing that only appears when the book is held underwater.</text>
-		<text>52. A sealed envelope made of red leather that you haven't been able to open. It smells of campfire.</text>
-		<text>53. A locket of hair that is rumored to have come from a famed fire genasi.</text>
-		<text>54. Flint and steel that, when used to start a fire, creates a random colored flame.</text>
-		<text>55. A blank piece of wet parchment that never seems to dry.</text>
-		<text>56. A small puzzle box made of brass, that is slightly warm to the touch.</text>
-		<text>57. A cloudy chunk of glass that is said to hold a spark of breath from a blue dragon.</text>
-		<text>58. A crude chalice made of coal.</text>
-		<text>59. A miniature brass horn, silent when played, but fills the air with the scent of warm and exotic spices.</text>
-		<text>60. An eye-sized blue pearl that floats in salt water.</text>
-		<text>61. A tuning fork made from a dark metal which glows with a pale, white light during thunderstorms.</text>
-		<text>62. A small vial that is always filled with the smell of autumn wind.</text>
-		<text>63. A clear marble that slowly rolls toward the nearest source of running water.</text>
-		<text>64. A small collapsible silver cup that perspires constantly when opened.</text>
-		<text>65. An hourglass that tells time with falling mist instead of sand.</text>
-		<text>66. An ornate razor, which only cuts in freezing cold temperature.</text>
-		<text>67. A shark tooth covered in tiny etched words from a lost language.</text>
-		<text>68. A large brass coin with no markings or images on it.</text>
-		<text>69. A small wooden box filled with a strange red clay.</text>
-		<text>70. A necklace with a small, rusted iron anchor.</text>
-		<text>71. A small brass flute adorned with silver wire that is always faintly sounding.</text>
-		<text>72. A red and black Aarakocra feather.</text>
-		<text>73. A palm-sized stone with a hole in it, through which can be heard a constantly whispering wind.</text>
-		<text>74. A small conch shell covered in black crystal.</text>
-		<text>75. A small music box made of brass. It features a pair of tiny automatons that resemble Azer working at a forge.</text>
-		<text>76. A glass jar containing the preserved corpse of an unfamiliar aquatic creature.</text>
-		<text>77. A piece of petrified wood carved into the shape of a seashell.</text>
-		<text>78. A wooden puzzle cube covered in elemental symbols.</text>
-		<text>79. A small stone cube that acts as a magnet when placed against another stone.</text>
-		<text>80. A ring made of a white metal. On the inside is a name etched in Auran.</text>
-		<text>81. A bracelet made of silvered fish hooks.</text>
-		<text>82. A journal filled with poetry hand-written in Primordial.</text>
-		<text>83. A yellow gemstone that glows dimly when a storm is nearby.</text>
-		<text>84. A charred chisel with an unfamiliar symbol stamped into its base.</text>
-		<text>85. A canteen filled with a foul smelling orange mud.</text>
-		<text>86. A faceless doll made of driftwood.</text>
-		<text>87. A heavy iron key bearing the name of a ship long lost to the sea.</text>
-		<text>88. A small jewelry box made from the shell of a turtle.</text>
-		<text>89. A chess piece fashioned to look like fire myrmidon.</text>
-		<text>90. A spinning top with an image of one of the four elements on each side.</text>
-		<text>91. A single hoop earring made of a porous red stone.</text>
-		<text>92. An arrowhead carved from seasalt</text>
-		<text>93. A small comb made of blue coral.</text>
-		<text>94. Seven small beads of sandstone on a string, all different colors.</text>
-		<text>95. A romance chapbook written in Undercommon titled "Just one Layer of Grey".</text>
-		<text>96. A tiny, broken clockwork Harpy.</text>
-		<text>97. An ivory whale statuette.</text>
-		<text>98. A fist-sized cog, covered in barnacles.</text>
-		<text>99. An eyepatch made of obsidian and a black leather cord.</text>
-		<text>100. A glass bottle with a tiny ship of unfamiliar design inside.</text>
-		<text/>
-		<text>Source: Elemental Evil PDF supplement</text>
-		<roll>1d100</roll>
 	</item>
-	<item>
+	<item name="Spiked Armor">
 		<name>Spiked Armor</name>
 		<type>MA</type>
 		<magic/>
@@ -2820,7 +2719,7 @@
 		<text/>
 		<text>Source: Sword Coast Adventurer's Guide, page 121</text>
 	</item>
-	<item>
+	<item name="Monster Hunter's Pack">
 		<name>Monster Hunter's Pack</name>
 		<type>G</type>
 		<magic/>

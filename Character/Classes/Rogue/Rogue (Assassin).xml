@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PHB">
 	<subclass baseclass="Rogue">
 		<name>Rogue (Assassin)</name>
 		<autolevel level="3">
@@ -16,6 +16,10 @@
 			<feature optional="YES">
 				<name>Assassin: Bonus Proficiencies</name>
 				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</text>
+			</feature>
+			<feature>
+				<name>Source</name>
+				<text>Player's Handbook</text>
 			</feature>
 		</autolevel>
 		<autolevel level="9">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<background>
+<compendium version="5" source="GoS">
+	<background name="Fisher">
 		<name>Fisher</name>
 		<proficiency>History. Survival</proficiency>
 		<trait>
@@ -32,8 +32,52 @@
 			<text>7   Dive into the Abyss. You found yourself in an underwater cave leading to the Abyss, and your luck has been sour ever since.</text>
 			<text>8   Love Story. You fell in love with a creature of pure water, but your brief romance ended tragically.</text>
 		</trait>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I am unmoved by the wrath of nature.</text>
+            <text>2     My friends are my crew; we sink or float together.</text>
+            <text>3     I need long stretches of quiet to clear my head.</text>
+            <text>4     Rich folk don't know the satisfaction of hard work.</text>
+            <text>5     I laugh heartily, feel deeply, and fear nothing.</text>
+            <text>6     I work hard; nature offers no handouts.</text>
+            <text>7     I dislike bargaining; state your price and mean it.</text>
+            <text>8     Luck favors me, and I take risks others might not.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Camaraderie. Good people make even the longest voyage bearable. (Good)</text>
+            <text>2     Luck. Our luck depends on respecting its rules—now throw this salt over your shoulder. (Lawful)</text>
+            <text>3     Daring. The richest bounty goes to those who risk everything. (Chaotic)</text>
+            <text>4     Plunder. Take all that you can and leave nothing for the scavengers. (Evil)</text>
+            <text>5     Balance. Do not fish the same spot twice in a row; suppress your greed, and nature will reward you. (Neutral)</text>
+            <text>6     Hard Work. No wave can move a soul hard at work. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I lost something important in the deep sea, and I intend to find it.</text>
+            <text>2     Someone else's greed destroyed my livelihood, and I will be compensated.</text>
+            <text>3     I will fish the many famous waters of this land.</text>
+            <text>4     The gods saved me during a terrible storm, and I will honor their gift.</text>
+            <text>5     My destiny awaits me at the bottom of a particular pond in the Feywild.</text>
+            <text>6     I must repay my village's debt.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I am judgmental, especially of those I deem homebodies or otherwise lazy.</text>
+            <text>2     I become depressed and anxious if I'm away from the sea too long.</text>
+            <text>3     I have lived a hard life and find it difficult to empathize with others.</text>
+            <text>4     I am inclined to tell long-winded stories at inopportune times.</text>
+            <text>5     I work hard, but I play harder.</text>
+            <text>6     I am obsessed with catching an elusive aquatic beast, often to the detriment of other pursuits.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Ghosts of Saltmarsh</text>
+        </trait>
 	</background>
-	<background>
+	<background name="Marine">
 		<name>Marine</name>
 		<proficiency>Athletics, Survival</proficiency>
 		<trait>
@@ -63,8 +107,52 @@
 			<text>5    Stowaway. For days, you hid in the bilge of an enemy ship, surviving on brackish water and foolhardy rats. At the right moment, you crept up to the deck and took over the ship on your own.</text>
 			<text>6    Leave None Behind. You carried an injured marine for miles to avoid capture and death.</text>
 		</trait>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I speak rarely but mean every word I say.</text>
+            <text>2     I laugh loudly and see the humor in stressful situations.</text>
+            <text>3     I prefer to solve problems without violence, but I finish fights decisively.</text>
+            <text>4     I enjoy being out in nature; poor weather never sours my mood.</text>
+            <text>5     I am dependable.</text>
+            <text>6     I am always working on some project or other.</text>
+            <text>7     I become cantankerous and quiet in the rain.</text>
+            <text>8     When the sea is within my sight, my mood is jovial and optimistic.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Teamwork. Success depends on cooperation and communication. (Good)</text>
+            <text>2     Code. The marines' code provides a solution for every problem, and following it is imperative. (Lawful)</text>
+            <text>3     Embracing. Life is messy. Throwing yourself into the worst of it is necessary to get the job done. (Chaotic)</text>
+            <text>4     Might. The strong train so that they might rule those who are weak. (Evil)</text>
+            <text>5     Bravery. To act when others quake in fear—this is the essence of the warrior. (Any)</text>
+            <text>6     Perseverance. No injury or obstacle can turn me from my goal. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I face danger and evil to offset an unredeemable act in my past.</text>
+            <text>2     I. Will. Finish. The. Job.</text>
+            <text>3     I must set an example of hope for those who have given up.</text>
+            <text>4     I'm searching for a fellow marine captured by an elusive enemy.</text>
+            <text>5     Fear leads to tyranny, and both must be eradicated.</text>
+            <text>6     My commander betrayed my unit, and I will have revenge.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I grow combative and unpredictable when I drink.</text>
+            <text>2     I find civilian life difficult and struggle to say the right thing in social situations.</text>
+            <text>3     My intensity can drive others away.</text>
+            <text>4     I hold grudges and have difficulty forgiving others.</text>
+            <text>5     I become irrational when innocent people are hurt.</text>
+            <text>6     I sometimes stay up all night listening to the ghosts of my fallen enemies.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Ghosts of Saltmarsh</text>
+        </trait>
 	</background>
-	<background>
+	<background name="Shipwright">
 		<name>Shipwright</name>
 		<proficiency>History, Perception</proficiency>
 		<trait>
@@ -98,8 +186,52 @@
 			<text>5    Low Places. You have contacts in the smuggling outfits along the coast; you occasionally repair the criminals' ships in exchange for coin and favors .</text>
 			<text>6    Mysteries of the Deep. You experienced an encounter with a possibly divine being while sailing alone. Work with your DM to determine the secret about the deep waters of the sea that this entity revealed to you.</text>
 		</trait>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I love talking and being heard more than I like to listen.</text>
+            <text>2     I'm extremely fond of puzzles.</text>
+            <text>3     I thrive under pressure.</text>
+            <text>4     I love sketching and designing objects, especially boats.</text>
+            <text>5     I'm not afraid of hard work—in fact, I prefer it.</text>
+            <text>6     A pipe, an ale, and the smell of the sea: paradise.</text>
+            <text>7     I have an endless supply of cautionary tales related to the sea.</text>
+            <text>8     I don't mind getting my hands dirty.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Crew. If everyone on deck pitches in, we'll never sink. (Good)</text>
+            <text>2     Careful Lines. A ship must be balanced according to the laws of the universe. (Lawful)</text>
+            <text>3     Invention. Make what you need out of whatever is at hand. (Chaotic)</text>
+            <text>4     Perfection. To measure a being and find it lacking is the greatest disappointment. (Evil)</text>
+            <text>5     Reflection. Muddied water always clears in time. (Any)</text>
+            <text>6     Hope. The horizon at sea holds the greatest promise. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I must visit all the oceans of the world and behold the ships that sail there.</text>
+            <text>2     Much of the treasure I claim will be used to enrich my community.</text>
+            <text>3     I must find a kind of wood rumored to possess magical qualities.</text>
+            <text>4     I repair broken things to redeem what's broken in myself.</text>
+            <text>5     I will craft a boat capable of sailing through the most dangerous of storms.</text>
+            <text>6     A kraken destroyed my masterpiece; its teeth shall adorn my hearth.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I don't know when to throw something away. You never know when it might be useful again.</text>
+            <text>2     I get frustrated to the point of distraction by shoddy craftsmanship.</text>
+            <text>3     Though I am an excellent crafter, my work tends to look as though it belongs on a ship.</text>
+            <text>4     I am so obsessed with sketching my ideas for elaborate inventions that I sometimes forget little thing like eating and sleeping.</text>
+            <text>5     I'm judgmental of those who are not skilled with tools of some kind.</text>
+            <text>6     I sometimes take things that don't belong to me, especially if they are very well made.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Ghosts of Saltmarsh</text>
+        </trait>
 	</background>
-	<background>
+	<background name="Smuggler">
 		<name>Smuggler</name>
 		<proficiency>Athletics, Deception</proficiency>
 		<trait>
@@ -134,5 +266,49 @@
 			<text>5    Cold-Hearted. You agreed to transport a family escaping a war. The baby began to cry at a checkpoint, and you gave the guards all your gold to let you pass. The family never found out about this gesture.</text>
 			<text>6    Playing Both Sides. You once smuggled crates of crossbow bolts and bundles of arrows, each destined for an opposing side in a regional war, at the same time. The buyers arrived within moments of each other but did not discover your trickery.</text>
 		</trait>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I love being on the water but hate fishing.</text>
+            <text>2     I think of everything in terms of monetary value.</text>
+            <text>3     I never stop smiling.</text>
+            <text>4     Nothing rattles me; I have a lie for every occasion.</text>
+            <text>5     I love gold but won't cheat a friend.</text>
+            <text>6     I enjoy doing things others believe to be impossible.</text>
+            <text>7     I become wistful when I see the sun rise over the ocean.</text>
+            <text>8     I am no common criminal; I am a mastermind.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Wealth Heaps of coins in a secure vault is all I dream of. (Any)</text>
+            <text>2     Smuggler's Code I uphold the unwritten rules of the smugglers, who do not cheat one another or directly harm innocents. (Lawful)</text>
+            <text>3     All for a Coin I'll do nearly anything if it means I turn a profit. (Evil)</text>
+            <text>4     Peace and Prosperity I smuggle only to achieve a greater goal that benefits my community. (Good)</text>
+            <text>5     People For all my many lies, I place a high value on friendship. (Any)</text>
+            <text>6     Daring I am most happy when risking everything. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     My vessel was stolen from me, and I burn with the desire to recover it.</text>
+            <text>2     I intend to become the leader of the network of smugglers that I belong to.</text>
+            <text>3     I owe a debt that cannot be repaid in gold.</text>
+            <text>4     After one last job, I will retire from the business.</text>
+            <text>5     I was tricked by a fellow smuggler who stole something precious from me. I will find that thief.</text>
+            <text>6     I give most of my profits to a charitable cause, and I don't like to brag about it.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     Lying is reflexive, and I sometimes engage in it without realizing.</text>
+            <text>2     I tend to assess my relationships in terms of profit and loss.</text>
+            <text>3     I believe everyone has a price and am cynical toward those who present themselves as virtuous.</text>
+            <text>4     I struggle to trust the words of others.</text>
+            <text>5     Few people know the real me.</text>
+            <text>6     Though I act charming, I feel nothing for others and don't know what friendship is.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Ghosts of Saltmarsh</text>
+        </trait>
 	</background>
 </compendium>

@@ -127,7 +127,7 @@ class XMLCombiner(object):
             for name in [index.get('name') for index in spells]:
                 if name in items['spell']:
                     class_element = items['spell'][name].find('classes')
-                    class_list = [foo.strip() for foo in class_element.text.split(',')]
+                    class_list = [foo.strip() for foo in class_element.text.split(',')] if class_element.text else []
                     if class_name not in class_list:
                         class_list.append(class_name)
                         class_element.text = ', '.join(class_list)
@@ -136,7 +136,7 @@ class XMLCombiner(object):
         for ref_class, borrow_classes in items['borrowSpells'].items():
             for name in items['spell']:
                 class_element = items['spell'][name].find('classes')
-                class_list = [foo.strip() for foo in class_element.text.split(',')]
+                class_list = [foo.strip() for foo in class_element.text.split(',')] if class_element.text else []
                 if ref_class in class_list:
                     for borrow_class in [b.strip() for b in borrow_classes.get('class').split(',')]:
                         if borrow_class not in class_list:

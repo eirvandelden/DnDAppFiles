@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PHB">
 	<baseclass>
 		<name>Druid</name>
 		<hd>8</hd>
@@ -9,6 +9,7 @@
 		<weapons>clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</weapons>
 		<tools>herbalism kit</tools>
 		<wealth>2d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="1">
 			<slots>2,2,0,0,0,0,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>4,4,3,3,3,3,2,2,1,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -89,8 +91,6 @@
 				<text/>
 				<text>Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
 			</feature>
-		</autolevel>
-		<autolevel level="1">
 			<feature>
 				<name>Druidic</name>
 				<text>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</text>
@@ -118,6 +118,10 @@
 				<text/>
 				<text>Spellcasting Focus</text>
 				<text>You can use a druidic focus (found in chapter 5) as a spellcasting focus for your druid spells</text>
+			</feature>
+			<feature>
+				<name>Source</name>
+				<text>Player's Handbook</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
@@ -182,7 +186,7 @@
 				<text>	Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.</text>
 			</feature>
 		</autolevel>
-		<!--Unearthed Arcana-->
+	<!--Unearthed Arcana-->
 		<autolevel level="2" UA="Druid">
 			<feature optional="YES">
 				<name>Optional Rule: Wild Shape Forms</name>
@@ -206,5 +210,55 @@
 				<text>This optional rule is from Unearthed Arcana: Druid Circles and Wild Shape, and as such may not be used in your game. Consult your DM about this rule.</text>
 			</feature>
 		</autolevel>
+    <!--Tasha's Variants-->
+        <autolevel level="2" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Wild Companion</name>
+                <text>You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.</text>
+                <text>When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="4" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="8" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="12" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="16" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
+        <autolevel level="19" source="TCE">
+            <feature optional="YES">
+                <name>Variant Feature: Cantrip Versatility</name>
+                <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</text>
+                <text></text>
+                <text>Source: Tasha's Cauldron of Everything</text>
+            </feature>
+        </autolevel>
 	</baseclass>
 </compendium>

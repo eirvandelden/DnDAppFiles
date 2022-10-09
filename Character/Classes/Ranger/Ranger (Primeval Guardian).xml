@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" UA="Ranger &amp; Rogue">
+<compendium version="5" UA="Ranger &amp; Rogue" source="UA:RaR">
 	<subclass baseclass="Ranger">
 		<name>Ranger (Primeval Guardian)</name>
 		<autolevel level="3">
@@ -7,16 +7,19 @@
 				<name>Ranger Conclave: Primeval Guardian (UA)</name>
 				<text>Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes.</text>
 				<text>	These rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.</text>
+				<text></text>
+				<text>Source: Unearthed Arcana: Ranger and Rogue</text>
 			</feature>
 			<feature optional="YES">
 				<name>Primeval Guardian: Guardian Magic</name>
 				<text>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.</text>
 				<text/>
-				<text>3rd-entangle</text>
-				<text>5th-enhance ability</text>
-				<text>9th-conjure animals</text>
-				<text>13th-giant insect</text>
-				<text>17th-insect plague</text>
+				<text>Ranger Level    Spells</text>
+				<text>3rd             entangle</text>
+				<text>5th             enhance ability</text>
+				<text>9th             conjure animals</text>
+				<text>13th            giant insect</text>
+				<text>17th            insect plague</text>
 			</feature>
 			<feature optional="YES">
 				<name>Primeval Guardian: Guardian Soul</name>

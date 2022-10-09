@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="DoIP">
 	<!--Dragon of Icespire Peak-->
-	<item>
+	<item name="Bonecounter">
 		<name>Bonecounter</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -14,8 +14,10 @@
 		<text>	Whenever this weapon is used to destroy an undead creature, a single silver piece appears in the wielder's pocket.</text>
 		<modifier category="bonus">melee attacks +2</modifier>
 		<modifier category="bonus">melee damage +2</modifier>
+		<text></text>
+		<text>Source: Dragon of Icespire Peak</text>
 	</item>
-	<item>
+	<item name="Gnomengarde Grenade">
 		<name>Gnomengarde Grenade</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -30,10 +32,11 @@
 		<text>	The wielder rolls on the chart for the wand of wonder three times, rerolling any duplicate results. Any effects that specify a target affect all creatures in range of the grenade when it explodes. Any effects that would affect the wielder of the wand instead affect the closest creature to the grenade when it goes off.</text>
 		<text>	The grenade explodes immediately if a creature places it in an extradimensional space or teleports while in possession of it. The effects of the explosion will be felt at both the origin and terminus of the teleportation, but only affecting all creatures within 30 feet of either location.</text>
 		<roll>8d6</roll>
-		<roll>8d6</roll>
 		<roll>1d100</roll>
+		<text></text>
+		<text>Source: Dragon of Icespire Peak</text>
 	</item>
-	<item>
+	<item name="Ruinstone">
 		<name>Ruinstone</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -48,5 +51,7 @@
 		<text></text>
 		<text>If a creature bound its soul to the ruinstone in the "Thalivar's Beacon" quest, the artifact explodes when used and the creature who is bound to it disintegrates, disappearing from reality and can only be brought back with a wish spell, or similar magic.</text>
 		<roll>1d20</roll>
+		<text></text>
+		<text>Source: Dragon of Icespire Peak</text>
 	</item>
 </compendium>

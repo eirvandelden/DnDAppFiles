@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<!--Tortle Package-->
-	<monster>
+<compendium version="5" source="TTP">
+	<monster name="Decapus">
 		<name>Decapus</name>
 		<size>L</size>
 		<type>monstrosity</type>
@@ -37,7 +36,7 @@
 			<attack>Tentacles(ground)|4|5d4+2</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Geonid">
 		<name>Geonid</name>
 		<size>S</size>
 		<type>elemental</type>
@@ -71,7 +70,7 @@
 			<text>The geonid touches a stone object or surface and knows what types of creatures have been within 10 feet of that stone in the past 24 hours. The geonid can also determine the number of creatures of each type, but not their identities.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Topi">
 		<name>Topi</name>
 		<size>S</size>
 		<type>undead</type>
@@ -107,7 +106,7 @@
 			<attack>Venomous Claws|4|1d4+2+1d4</attack>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Tortle">
 		<name>Tortle</name>
 		<size>M</size>
 		<type>humanoid (tortle)</type>
@@ -151,7 +150,7 @@
 			<text>The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, and the only action it can take is a bonus action to emerge.</text>
 		</action>
 	</monster>
-	<monster>
+	<monster name="Tortle Druid">
 		<name>Tortle Druid</name>
 		<size>M</size>
 		<type>humanoid (tortle)</type>
@@ -177,9 +176,11 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The tortle is a 4th-level spellcaster that uses Wisdom as its spellcasting ability (spell save DC 12; +4 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text></text>
 			<text>Cantrips (at will): druidcraft, guidance, produce flame</text>
 			<text>1st Level (4 slots): animal friendship, cure wounds, speak with animals, thunderwave</text>
 			<text>2nd Level (3 slots): darkvision, hold person</text>
+			<attack>Spell Attack|4|</attack>
 		</trait>
 		<spells>Druidcraft, Guidance, Produce Flame, Animal Friendship, Cure Wounds, Speak with Animals, Thunderwave, Darkvision, Hold Person</spells>
 		<slots>4,3,0,0,0,0,0,0,0</slots>

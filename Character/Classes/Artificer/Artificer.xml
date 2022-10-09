@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="ERLW">
 	<baseclass>
 		<name>Artificer</name>
 		<hd>8</hd>
@@ -9,6 +9,7 @@
 		<weapons>simple weapons</weapons>
 		<tools>Thieves' tools, tinker's tools, one type of artisan's tools of your choice</tools>
 		<wealth>5d4x10</wealth>
+	<!-- Spells -->
 		<spellAbility>Intelligence</spellAbility>
 		<autolevel level="1">
 			<slots>2,2,0,0,0,0</slots>
@@ -70,6 +71,7 @@
 		<autolevel level="20">
 			<slots>4,4,3,3,3,2</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -90,8 +92,6 @@
 				<text>• Thieves' tools and dungeoneer's pack</text>
 				<text/>
 			</feature>
-		</autolevel>
-		<autolevel level="1">
 			<feature>
 				<name>Magical Tinkering</name>
 				<text>At 1st level, you learn how to invest a spark of magic into mundane objects. To use this ability, you must have tinker's tools or other artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:</text>
@@ -196,7 +196,7 @@
 				<text>Replicable Items (6th-Level Artificer)</text>
 				<text>Magic Item                            Attunement</text>
 				<text>Boots of elvenkind                    No</text>
-				<text>Cloak of e/venkind                    Yes</text>
+				<text>Cloak of elvenkind                    Yes</text>
 				<text>Cloak of the manta ray                No</text>
 				<text>Eyes of charming                      Yes</text>
 				<text>Gloves of thievery                    No</text>
@@ -206,7 +206,7 @@
 				<text>Wand sheath (detailed in chapter 5)   Yes</text>
 				<text/>
 				<text>Replicable Items (10th-Level Artifice</text>
-				<text>Magic Item                                    Attunement</text>
+				<text>Magic Item                                  Attunement</text>
 				<text>Boots of striding and springing             Yes</text>
 				<text>Boots of the winterlands                    Yes</text>
 				<text>Bracers of archery                          Yes</text>
@@ -220,7 +220,7 @@
 				<text>Headband of intellect                       Yes</text>
 				<text>Helm of telepathy                           Yes</text>
 				<text>Medallion of thoughts                       Yes</text>
-				<text>Peria pt of wound closure                   Yes</text>
+				<text>Periapt of wound closure                    Yes</text>
 				<text>Pipes of the sewers                         Yes</text>
 				<text>Quiver of Ehlonna                           No</text>
 				<text>Ring of jumping                             Yes</text>
@@ -352,7 +352,7 @@
 				<text>Replicable Items (6th-Level Artificer)</text>
 				<text>Magic Item                            Attunement</text>
 				<text>Boots of elvenkind                    No</text>
-				<text>Cloak of e/venkind                    Yes</text>
+				<text>Cloak of elvenkind                    Yes</text>
 				<text>Cloak of the manta ray                No</text>
 				<text>Eyes of charming                      Yes</text>
 				<text>Gloves of thievery                    No</text>
@@ -362,7 +362,7 @@
 				<text>Wand sheath (detailed in chapter 5)   Yes</text>
 				<text/>
 				<text>Replicable Items (10th-Level Artifice</text>
-				<text>Magic Item                                    Attunement</text>
+				<text>Magic Item                                  Attunement</text>
 				<text>Boots of striding and springing             Yes</text>
 				<text>Boots of the winterlands                    Yes</text>
 				<text>Bracers of archery                          Yes</text>
@@ -376,7 +376,7 @@
 				<text>Headband of intellect                       Yes</text>
 				<text>Helm of telepathy                           Yes</text>
 				<text>Medallion of thoughts                       Yes</text>
-				<text>Peria pt of wound closure                   Yes</text>
+				<text>Periapt of wound closure                    Yes</text>
 				<text>Pipes of the sewers                         Yes</text>
 				<text>Quiver of Ehlonna                           No</text>
 				<text>Ring of jumping                             Yes</text>
@@ -573,7 +573,7 @@
 		<index name="Wall of Stone" />
 	</spellList>
 
-	<monster>
+	<monster name="Homunculus Servant">
 		<name>Homunculus Servant</name>
 		<size>T</size>
 		<type>construct</type>
@@ -610,11 +610,11 @@
 		</action>
 		<reaction>
 			<name>Channel Magic</name>
-			<text> The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</text>
+			<text>The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</text>
 		</reaction>
 	</monster>
 
-	<!-- Artificer Infusions -->
+<!-- Artificer Infusions -->
 	<spell PS="PS">
 		<classes>Artificer Infusion</classes>
 		<level>1</level>
@@ -708,7 +708,7 @@
 		<text>Replicable Items (6th-Level Artificer)</text>
 		<text>Magic Item                            Attunement</text>
 		<text>Boots of elvenkind                    No</text>
-		<text>Cloak of e/venkind                    Yes</text>
+		<text>Cloak of elvenkind                    Yes</text>
 		<text>Cloak of the manta ray                No</text>
 		<text>Eyes of charming                      Yes</text>
 		<text>Gloves of thievery                    No</text>
@@ -718,7 +718,7 @@
 		<text>Wand sheath (detailed in chapter 5)   Yes</text>
 		<text />
 		<text>Replicable Items (10th-Level Artifice</text>
-		<text>Magic Item                                    Attunement</text>
+		<text>Magic Item                                  Attunement</text>
 		<text>Boots of striding and springing             Yes</text>
 		<text>Boots of the winterlands                    Yes</text>
 		<text>Bracers of archery                          Yes</text>
@@ -732,7 +732,7 @@
 		<text>Headband of intellect                       Yes</text>
 		<text>Helm of telepathy                           Yes</text>
 		<text>Medallion of thoughts                       Yes</text>
-		<text>Peria pt of wound closure                   Yes</text>
+		<text>Periapt of wound closure                    Yes</text>
 		<text>Pipes of the sewers                         Yes</text>
 		<text>Quiver of Ehlonna                           No</text>
 		<text>Ring of jumping                             Yes</text>

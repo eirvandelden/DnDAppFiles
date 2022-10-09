@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PHB">
 	<subclass baseclass="Monk">
 		<name>Monk (Four Elements)</name>
 		<autolevel level="3">
@@ -8,9 +8,11 @@
 				<text>You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.</text>
 				<text/>
 				<text>Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.</text>
+				<text></text>
+				<text>Source: Player's Handbook</text>
 			</feature>
 			<feature optional="YES">
-				<name>Way of the Four Elements: Disciple of the Elements</name>
+				<name>Four Elements: Disciple of the Elements</name>
 				<text>You learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.</text>
 				<text/>
 				<text>You know the Elemental Attunement discipline and one other elemental discipline of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.</text>
@@ -26,7 +28,7 @@
 		</autolevel>
 		<autolevel level="6">
 			<feature optional="YES">
-				<name>Way of the Four Elements: Extra Elemental Discipline</name>
+				<name>Four Elements: Extra Elemental Discipline</name>
 				<text>You learn one additional elemental discipline of your choice. You should know 2 elemental disciplines, as well as Elemental Attunement.</text>
 				<text/>
 				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
@@ -34,7 +36,7 @@
 		</autolevel>
 		<autolevel level="11">
 			<feature optional="YES">
-				<name>Way of the Four Elements: Extra Elemental Discipline</name>
+				<name>Four Elements: Extra Elemental Discipline</name>
 				<text>You learn one additional elemental discipline of your choice. You should know 3 elemental disciplines, as well as Elemental Attunement.</text>
 				<text/>
 				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
@@ -42,7 +44,7 @@
 		</autolevel>
 		<autolevel level="17">
 			<feature optional="YES">
-				<name>Way of the Four Elements: Extra Elemental Discipline</name>
+				<name>Four Elements: Extra Elemental Discipline</name>
 				<text>You learn one additional elemental discipline of your choice. You should know 4 elemental disciplines, as well as Elemental Attunement.</text>
 				<text/>
 				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
@@ -50,7 +52,7 @@
 		</autolevel>
 	</subclass>
 	<!--Elemental Monk Spells-->
-	<spell>
+	<spell name="Breath of Winter (17th level required)">
 		<name>Breath of Winter (17th level required)</name>
 		<level>4</level>
 		<school>EV</school>
@@ -65,7 +67,7 @@
 		<text/>
 		<text>At Higher Levels. When you cast this spell using a spell slot of a higher level, the damage increases by 1d8 for each slot level.</text>
 	</spell>
-	<spell>
+	<spell name="Clench of the North Wind (6th level required)">
 		<name>Clench of the North Wind (6th level required)</name>
 		<level>2</level>
 		<school>EV</school>
@@ -78,7 +80,7 @@
 		<text/>
 		<text>At Higher Levels. When you cast this spell using a higher spell slot, you can target an additional humanoid for each slot of a higher level. The humanoids must be within 30 feet of each other when you target them.</text>
 	</spell>
-	<spell>
+	<spell name="Elemental Attunement">
 		<name>Elemental Attunement</name>
 		<level>1</level>
 		<school>EV</school>
@@ -96,7 +98,7 @@
 		<text/>
 		<text>• Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you designate for 1 minute.</text>
 	</spell>
-	<spell>
+	<spell name="Eternal Mountain Defense (11th level required)">
 		<name>Eternal Mountain Defense (11th level required)</name>
 		<level>3</level>
 		<school>A</school>
@@ -107,7 +109,7 @@
 		<classes>Monk (Way of the Four Elements)</classes>
 		<text>This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.</text>
 	</spell>
-	<spell>
+	<spell name="Fangs of the Fire Snake">
 		<name>Fangs of the Fire Snake</name>
 		<level>1</level>
 		<school>EV</school>
@@ -118,7 +120,7 @@
 		<classes>Monk (Way of the Four Elements)</classes>
 		<text>When you use the Attack action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra 1d1O fire damage.</text>
 	</spell>
-	<spell>
+	<spell name="Fist of Four Thunders">
 		<name>Fist of Four Thunders</name>
 		<level>1</level>
 		<school>EV</school>
@@ -129,7 +131,7 @@
 		<classes>Monk (Way of the Four Elements)</classes>
 		<text>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</text>
 	</spell>
-	<spell>
+	<spell name="Fist of Unbroken Air">
 		<name>Fist of Unbroken Air</name>
 		<level>1</level>
 		<school>EV</school>
@@ -140,7 +142,7 @@
 		<classes>Monk (Way of the Four Elements)</classes>
 		<text>You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d1O bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it prone. On a successful save, the creature takes half as much damage, and you don't push it or knock it prone.</text>
 	</spell>
-	<spell>
+	<spell name="Flames of the Phoenix (11th level required)">
 		<name>Flames of the Phoenix (11th level required)</name>
 		<level>3</level>
 		<school>EV</school>
@@ -151,7 +153,7 @@
 		<classes>Monk (Way of the Four Elements)</classes>
 		<text>A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.</text>
 	</spell>
-	<spell>
+	<spell name="Gong of the Summit (6th level required)">
 		<name>Gong of the Summit (6th level required)</name>
 		<level>2</level>
 		<school>EV</school>
@@ -164,7 +166,7 @@
 		<text/>
 		<text>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area. At Higher Levels. When you cast this spell using a spell slot of or higher, the damage increases by 1d8 for each slot level.</text>
 	</spell>
-	<spell>
+	<spell name="Mist Stance (11th level required)">
 		<name>Mist Stance (11th level required)</name>
 		<level>3</level>
 		<school>T</school>
@@ -179,7 +181,7 @@
 		<text/>
 		<text>While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.</text>
 	</spell>
-	<spell>
+	<spell name="Ride the Wind (11th level required)">
 		<name>Ride the Wind (11th level required)</name>
 		<level>3</level>
 		<school>T</school>
@@ -190,7 +192,7 @@
 		<classes>Monk (Way of the Four Elements)</classes>
 		<text>You gain a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</text>
 	</spell>
-	<spell>
+	<spell name="River of Hungry Flame (17th level required)">
 		<name>River of Hungry Flame (17th level required)</name>
 		<level>4</level>
 		<school>EV</school>
@@ -207,7 +209,7 @@
 		<text/>
 		<text>At Higher Levels, when you cast this spell, the damage increases by 1d8 for each slot increased.</text>
 	</spell>
-	<spell>
+	<spell name="Rush of the Gale Spirits">
 		<name>Rush of the Gale Spirits</name>
 		<level>1</level>
 		<school>EV</school>
@@ -224,7 +226,7 @@
 		<text/>
 		<text>As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.</text>
 	</spell>
-	<spell>
+	<spell name="Shape the Flowing River">
 		<name>Shape the Flowing River</name>
 		<level>1</level>
 		<school>EV</school>
@@ -235,7 +237,7 @@
 		<classes>Monk (Way of the Four Elements)</classes>
 		<text>As an action, you can spend 1 ki point to choose an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can change water to ice within the area and vice versa, and you can reshape ice in the area in any manner you choose. You can raise or lower the ice's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 30-foot square, you can create a pillar up to 15 feet high, raise or lower the square's elevation by up to 15 feet, dig a trench up to 15 feet deep, and so on. You can't shape the ice to trap or injure a creature in the area.</text>
 	</spell>
-	<spell>
+	<spell name="Sweeping Cinder Strike">
 		<name>Sweeping Cinder Strike</name>
 		<level>1</level>
 		<school>EV</school>
@@ -250,7 +252,7 @@
 		<text/>
 		<text>When you cast this spell using a higher spell slot, the damage increases by 1d6 for each additional spell slot.</text>
 	</spell>
-	<spell>
+	<spell name="Water Whip">
 		<name>Water Whip</name>
 		<level>1</level>
 		<school>EV</school>
@@ -261,7 +263,7 @@
 		<classes>Monk (Way of the Four Elements)</classes>
 		<text>You can spend 2 ki points as an action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d1O bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it prone.</text>
 	</spell>
-	<spell>
+	<spell name="Wave of Rolling Earth (17th level required)">
 		<name>Wave of Rolling Earth (17th level required)</name>
 		<level>4</level>
 		<school>EV</school>

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="XGtE">
 	<subclass baseclass="Fighter">
 		<name>Fighter (Arcane Archer)</name>
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Martial Archetype: Arcane Archer</name>
 				<text>An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of their most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.</text>
+				<text></text>
+				<text>Source: Xanathar's Guide to Everything</text>
 			</feature>
 			<feature optional="YES">
 				<name>Arcane Archer: Arcane Archer's Lore</name>
-				<text>At 3rd level, you learn magical theory or some of the secrets of nature – typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the Prestidigitation or Druidcraft cantrip.</text>
+				<text>At 3rd level, you learn magical theory or some of the secrets of nature - typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the Prestidigitation or Druidcraft cantrip.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Arcane Archer: Arcane Shot</name>
@@ -87,7 +89,7 @@
 			</feature>
 		</autolevel>
 	</subclass>
-	<spell PS="PS">
+	<spell PS="PS" name="Banishing Arrow">
 		<name>Banishing Arrow</name>
 		<level>1</level>
 		<school>A</school>
@@ -103,7 +105,7 @@
 		<text>	After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.</text>
 		<roll>2d6</roll>
 	</spell>
-	<spell PS="PS">
+	<spell PS="PS" name="Beguiling Arrow">
 		<name>Beguiling Arrow</name>
 		<level>1</level>
 		<school>EN</school>
@@ -120,7 +122,7 @@
 		<roll>2d6</roll>
 		<roll>4d6</roll>
 	</spell>
-	<spell PS="PS">
+	<spell PS="PS" name="Bursting Arrow">
 		<name>Bursting Arrow</name>
 		<level>1</level>
 		<school>EV</school>
@@ -136,7 +138,7 @@
 		<roll>2d6</roll>
 		<roll>4d6</roll>
 	</spell>
-	<spell PS="PS">
+	<spell PS="PS" name="Enfeebling Arrow">
 		<name>Enfeebling Arrow</name>
 		<level>1</level>
 		<school>N</school>
@@ -152,7 +154,7 @@
 		<roll>2d6</roll>
 		<roll>4d6</roll>
 	</spell>
-	<spell PS="PS">
+	<spell PS="PS" name="Grasping Arrow">
 		<name>Grasping Arrow</name>
 		<level>1</level>
 		<school>C</school>
@@ -169,7 +171,7 @@
 		<roll>2d6</roll>
 		<roll>4d6</roll>
 	</spell>
-	<spell PS="PS">
+	<spell PS="PS" name="Piercing Arrow">
 		<name>Piercing Arrow</name>
 		<level>1</level>
 		<school>T</school>
@@ -188,7 +190,7 @@
 		<roll>1d6</roll>
 		<roll>2d6</roll>
 	</spell>
-	<spell PS="PS">
+	<spell PS="PS" name="Seeking Arrow">
 		<name>Seeking Arrow</name>
 		<level>1</level>
 		<school>D</school>
@@ -208,7 +210,7 @@
 		<roll>1d6</roll>
 		<roll>2d6</roll>
 	</spell>
-	<spell PS="PS">
+	<spell PS="PS" name="Shadow Arrow">
 		<name>Shadow Arrow</name>
 		<level>1</level>
 		<school>I</school>

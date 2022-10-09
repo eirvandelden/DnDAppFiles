@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="AI">
 	<!--Acquisitions Incorporated-->
-	<item>
+	<item name="Cartographer's Map Case">
 		<name>Cartographer's Map Case</name>
 		<type>W</type>
 		<rarity>common</rarity>
@@ -19,23 +19,25 @@
 		<text>6     A cave filled with screaming bioluminescent worms</text>
 		<text>7     The most haunted forest for ten miles in any direction</text>
 		<text>8     A huge pile of rocks with no other rocks within sight</text>
+		<roll>1d8</roll>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Chronolometer">
 		<name>Chronolometer</name>
 		<type>W</type>
 		<rarity>very rare</rarity>
 		<text>Rarity: very rare</text>
 		<text>Requires Attunement</text>
 		<text>While attuned to this device, you have a +1 bonus to Intelligence saving throws. The first time you attune to the chronolometer, you choose one language you don't know. You subsequently know that language while attuned to the device.</text>
-		<text>Time Bandit. At the start of your turn, roll a d6 (no action required). On a 1–3, you slow down time, gaining an additional action on your turn and doubling your speed until the end of the turn. On a 4–6, you go forward in time to warn yourself of what is to come. The next time you fail a saving throw, attack roll, or ability check, you can reroll the check and take either result. Once you use this feature of the chronolometer, it cannot be used again until the next dawn.</text>
+		<text>Time Bandit. At the start of your turn, roll a d6 (no action required). On a 1-3, you slow down time, gaining an additional action on your turn and doubling your speed until the end of the turn. On a 4-6, you go forward in time to warn yourself of what is to come. The next time you fail a saving throw, attack roll, or ability check, you can reroll the check and take either result. Once you use this feature of the chronolometer, it cannot be used again until the next dawn.</text>
 		<text>Fate Swap. As a reaction when a creature you can see within 30 feet of you takes damage, that creature gains an additional action if it is the creature's turn, or can take an action immediately even though it isn't the creature's turn. Once you use this feature of the chronolometer, it cannot be used again until the next dawn.</text>
 		<text>Part of a Whole. While this component is not installed in the Orrery of the Wanderer, its magic might function sporadically or with unpredictable side effects, as determined by the DM.</text>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
+		<modifier category="saving throw">intelligence +1</modifier>
 	</item>
-	<item>
+	<item name="Coin of Decisionry">
 		<name>Coin of Decisionry</name>
 		<type>W</type>
 		<rarity>varies</rarity>
@@ -47,12 +49,13 @@
 		<text>2     Brand Appeal</text>
 		<text>3     Indeterminate</text>
 		<text>4     Ruinous</text>
+		<roll>1d4</roll>
 		<text>The coin has absolutely no divination abilities, and its results when you use it are random. But nobody else knows that. When a creature within 10 feet of you flips the coin (after having had its powerful prognostication powers dutifully explained), you can exert your will to control its operation as a bonus action, choosing the result that appears after it lands as a means of gently coercing the user toward a specific course of action. The creature flipping the coin can detect your manipulation with a successful DC 13 Wisdom (Insight) check.</text>
 		<text>Better Odds. When you reach rank 3, your coin of decisionry gains a measure of actual divination power and becomes an uncommon magic item. In addition to its normal function, you can use an action to flip the coin of decisionry twice while pondering a specific plan or objective, noting both random results. If you succeed on a DC 15 Intelligence (Arcana) check, you learn which of the two results is more applicable to the course of action. This property of the coin can't be used again until the next dawn.</text>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Dimensional Loop">
 		<name>Dimensional Loop</name>
 		<type>W</type>
 		<rarity>very rare</rarity>
@@ -64,8 +67,9 @@
 		<text>Part of a Whole. While this component is not installed in the Orrery of the Wanderer, its magic might function sporadically or with unpredictable side effects, as determined by the DM.</text>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
+        <modifier category="saving throw">strength +1</modifier>
 	</item>
-	<item>
+	<item name="Documancy Satchel">
 		<name>Documancy Satchel</name>
 		<type>W</type>
 		<rarity>varies</rarity>
@@ -76,7 +80,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Elder Cartographer's Glossography">
 		<name>Elder Cartographer's Glossography</name>
 		<type>W</type>
 		<rarity>uncommon</rarity>
@@ -85,7 +89,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Failed Experiment Wand">
 		<name>Failed Experiment Wand</name>
 		<type>WD</type>
 		<weight>1</weight>
@@ -95,10 +99,11 @@
 		<text>This wand has 2 charges. While holding it, you can use an action to expend 1 or more of its charges to cast either a green-flamed fireball or a blue lightning bolt at random from it (save DC 15).</text>
 		<text>For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</text>
 		<text>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</text>
+		<roll>1d6+1</roll>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Far Gear">
 		<name>Far Gear</name>
 		<type>W</type>
 		<rarity>very rare</rarity>
@@ -110,8 +115,9 @@
 		<text>Part of a Whole. While this component is not installed in the Orrery of the Wanderer, its magic might function sporadically or with unpredictable side effects, as determined by the DM.</text>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
+        <modifier category="saving throw">charisma +1</modifier>
 	</item>
-	<item>
+	<item name="Living Loot Satchel">
 		<name>Living Loot Satchel</name>
 		<type>W</type>
 		<rarity>varies</rarity>
@@ -139,7 +145,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Obviator's Lenses">
 		<name>Obviator's Lenses</name>
 		<type>W</type>
 		<rarity>varies</rarity>
@@ -149,7 +155,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Occultant Abacus">
 		<name>Occultant Abacus</name>
 		<type>W</type>
 		<rarity>varies</rarity>
@@ -173,7 +179,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Orrery of the Wanderer">
 		<name>Orrery of the Wanderer</name>
 		<type>W</type>
 		<rarity>artifact</rarity>
@@ -189,12 +195,14 @@
 		<text>The random properties of the orrery might function only when all its components are installed, or might function sporadically if any components are missing.</text>
 		<text>The Sum of Its Parts. Each of the six components that powers the Orrery of the Wanderer is a powerful magic relic in its own right:Creatures can attune to the orrery's components individually. If attuned to an individual component, a creature must hold the component to make use of its features. A creature can also attune to the orrery and all the components installed in it. Attuning to an installed component doesn't count against the number of magic items you can normally attune to.While a component is not installed in the orrery, its magic might function sporadically or with unpredictable side effects, as determined by the DM.</text>
 		<text>Future Echoes. With or without its components, the orrery lets you catch momentary glimpses of the future that warn you of danger. As long as the orrery is within 30 feet of you, you gain a +1 bonus to AC.</text>
+		<modifier category="bonus">ac +1</modifier>
 		<text>Into the Void. With or without its components, the attuned orrery infuses your spirit with the tumultuous energy of the planes. Over time, your alignment changes to chaotic neutral, and you are compelled to engage with and explore the most dangerous planar realms.</text>
 		<text>Master of Travel. While all six components of the Orrery of the Wanderer are installed, the artifact has 7 charges. While touching the orrery, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 17): contact other plane (3 charges), demiplane (6 charges), gate (7 charges), plane shift (5 charges), or teleportation circle (3 charges). The orrery regains 1d4 + 4 expended charges daily at dawn.</text>
+		<roll>1d4+4</roll>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Piercer">
 		<name>Piercer</name>
 		<type>M</type>
 		<weight>2</weight>
@@ -207,8 +215,10 @@
 		<text>A character attuned to the sword regains the maximum possible number of hit points from expended Hit Dice. However, the attuned character must eat twice as much food each day (a minimum of 2 pounds) to avoid exhaustion (see "The Environment" in chapter 8 of the Player's Handbook.)</text>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
+		<modifier category="bonus">melee attacks +1</modifier>
+        <modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Portfolio Keeper">
 		<name>Portfolio Keeper</name>
 		<type>W</type>
 		<rarity>varies</rarity>
@@ -220,7 +230,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Rotor of Return">
 		<name>Rotor of Return</name>
 		<type>W</type>
 		<rarity>very rare</rarity>
@@ -232,9 +242,10 @@
 		<text>Part of a Whole. While this component is not installed in the Orrery of the Wanderer, its magic might function sporadically or with unpredictable side effects, as determined by the DM.</text>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
+        <modifier category="saving throw">constitution +1</modifier>
 	</item>
-	<item>
-		<name>Sending Stone</name>
+	<item name="Sending Stone, secretarian">
+		<name>Sending Stone, secretarian</name>
 		<type>W</type>
 		<rarity>uncommon</rarity>
 		<text>Rarity: uncommon</text>
@@ -256,7 +267,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Spyglass of Clairvoyance">
 		<name>Spyglass of Clairvoyance</name>
 		<type>W</type>
 		<rarity>common</rarity>
@@ -265,7 +276,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Timepiece of Travel">
 		<name>Timepiece of Travel</name>
 		<type>W</type>
 		<rarity>very rare</rarity>
@@ -277,8 +288,9 @@
 		<text>Part of a Whole. While this component is not installed in the Orrery of the Wanderer, its magic might function sporadically or with unpredictable side effects, as determined by the DM.</text>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
+        <modifier category="saving throw">dexterity +1</modifier>
 	</item>
-	<item>
+	<item name="Travel Alchemical Kit">
 		<name>Travel Alchemical Kit</name>
 		<type>W</type>
 		<rarity>uncommon</rarity>
@@ -288,8 +300,8 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
-		<name>Trinket</name>
+	<item name="Acquisitions Incorporated Trinket">
+		<name>Acquisitions Incorporated Trinket</name>
 		<type>G</type>
 		<magic>1</magic>
 		<magic>1</magic>
@@ -397,10 +409,11 @@
 		<text>98      A small flask of liquid from the Lake of Radiant Mists</text>
 		<text>99      An ice cube that never melts</text>
 		<text>00      An expertly carved sword hilt with the blade snapped cleanly off</text>
+		<roll>1d100</roll>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Voting Kit">
 		<name>Voting Kit</name>
 		<type>W</type>
 		<rarity>common</rarity>
@@ -410,7 +423,7 @@
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
 	</item>
-	<item>
+	<item name="Wheel of Stars">
 		<name>Wheel of Stars</name>
 		<type>W</type>
 		<rarity>very rare</rarity>
@@ -422,8 +435,9 @@
 		<text>Part of a Whole. While this component is not installed in the Orrery of the Wanderer, its magic might function sporadically or with unpredictable side effects, as determined by the DM.</text>
 		<text/>
 		<text>Source: Acquisitions Incorporated</text>
+        <modifier category="saving throw">wisdom +1</modifier>
 	</item>
-	<item>
+	<item name="Whisper Jar">
 		<name>Whisper Jar</name>
 		<type>W</type>
 		<rarity>varies</rarity>

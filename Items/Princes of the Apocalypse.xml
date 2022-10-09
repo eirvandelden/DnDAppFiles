@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PotA">
 	<!--Princes of the Apocalypse-->
-	<item>
+	<item name="Drown">
 		<name>Drown</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -33,7 +33,7 @@
 		<modifier category="bonus">weapon damage +1</modifier>
 		<roll>1d8</roll>
 	</item>
-	<item>
+	<item name="Ironfang">
 		<name>Ironfang</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -60,7 +60,7 @@
 		<roll>1d8</roll>
 		<roll>1d3</roll>
 	</item>
-	<item>
+	<item name="Orcsplitter">
 		<name>Orcsplitter</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -87,7 +87,7 @@
 		<modifier category="bonus">melee attacks +2</modifier>
 		<modifier category="bonus">melee damage +2</modifier>
 	</item>
-	<item>
+	<item name="Tinderstrike">
 		<name>Tinderstrike</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -99,6 +99,7 @@
 		<text>Requires Attunement</text>
 		<text/>
 		<text>A flint dagger, Tinderstrike is uncommonly sharp, and sparks cascade off its edge whenever it strikes something solid. Its handle is always warm to the touch, and the blade smolders for 1d4 minutes after it is used to deal damage. It contains a spark of Imix, Prince of Evil Fire.</text>
+		<roll>1d4</roll>
 		<text>You gain a +2 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the target takes an extra 2d6 fire damage.</text>
 		<text>Fire Mastery: You gain the following benefits while you hold Tinderstrike:</text>
 		<text>• You can speak Ignan fluently.</text>
@@ -120,7 +121,7 @@
 		<modifier category="bonus">weapon damage +2</modifier>
 		<roll>2d6</roll>
 	</item>
-	<item>
+	<item name="Windvane">
 		<name>Windvane</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -152,7 +153,7 @@
 		<modifier category="bonus">weapon damage +2</modifier>
 		<roll>1d6</roll>
 	</item>
-	<item>
+	<item name="Bottled Breath">
 		<name>Bottled Breath</name>
 		<type>P</type>
 		<magic>1</magic>
@@ -162,7 +163,7 @@
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 222</text>
 	</item>
-	<item>
+	<item name="Seeker Dart">
 		<name>Seeker Dart</name>
 		<type>R</type>
 		<magic>1</magic>
@@ -174,6 +175,7 @@
 		<text>This small dart is decorated with designs like windy spirals that span the length of its shaft.</text>
 		<text>When you whisper the word "seek" and hurl this dart, it seeks out a target of your choice within 120 feet of you. You must have seen the target before, but you don't need to see it now. If the target isn't within range or if there is no clear path to it, the dart falls to the ground, its magic spent and wasted. Otherwise, elemental winds guide the dart instantly through the air to the target. The dart can pass though openings as narrow as 1 inch wide and can change direction to fly around corners.</text>
 		<text>When the dart reaches its target, the target must succeed on a DC 16 Dexterity saving throw or take 1d4 piercing damage and 3d4 lightning damage. The dart's magic is then spent, and it becomes an ordinary dart.</text>
+		<roll>1d4</roll>
 		<text/>
 		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
 		<text/>
@@ -184,7 +186,7 @@
 		<text>Source: Princes of the Apocalypse, page 223</text>
 		<roll>3d4</roll>
 	</item>
-	<item>
+	<item name="Storm Boomerang">
 		<name>Storm Boomerang</name>
 		<type>R</type>
 		<magic>1</magic>
@@ -192,6 +194,7 @@
 		<dmgType>B</dmgType>
 		<range>60/120</range>
 		<text>This boomerang is a ranged weapon carved from griffon bone and etched with the symbol of elemental air. When thrown, it has a range of 60/120 feet, and any creature that is proficient with the javelin is also proficient with this weapon. On a hit, the boomerang deals 1d4 bludgeoning damage and 3d4 thunder damage, and the target must succeed on a DC 10 Constitution saving throw or be stunned until the end of its next turn. On a miss, the boomerang returns to the thrower's hand.</text>
+		<roll>1d4</roll>
 		<text>Once the boomerang deals thunder damage to a target, the weapon loses its ability to deal thunder damage and its ability to stun a target. These properties return after the boomerang spends at least 1 hour inside an elemental air node.</text>
 		<text/>
 		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range</text>
@@ -199,7 +202,7 @@
 		<text>Source: Princes of the Apocalypse, page 223</text>
 		<roll>3d4</roll>
 	</item>
-	<item>
+	<item name="Spider Staff">
 		<name>Spider Staff</name>
 		<type>ST</type>
 		<magic>1</magic>
@@ -211,6 +214,7 @@
 		<text>Requires Attunement</text>
 		<text/>
 		<text>The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals 1d6 extra poison damage on a hit when used to make a weapon attack.</text>
+		<roll>1d6</roll>
 		<text>The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: spider climb (1 charge) or web (2 charges, spell save DC 15). No components are required.</text>
 		<text>The staff regains 1d6 + 4 expended charges each day at dusk. If you expend the staff's last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed.</text>
 		<text/>
@@ -219,7 +223,7 @@
 		<text>Source: Lost Mines of Phandelver, page 53</text>
 		<roll>1d6+4</roll>
 	</item>
-	<item>
+	<item name="Staff of Defense">
 		<name>Staff of Defense</name>
 		<type>ST</type>
 		<magic>1</magic>
@@ -241,7 +245,7 @@
 		<modifier category="bonus">ac +1</modifier>
 		<roll>1d6+4</roll>
 	</item>
-	<item>
+	<item name="Balloon Pack">
 		<name>Balloon Pack</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -251,7 +255,7 @@
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 222</text>
 	</item>
-	<item>
+	<item name="Black Dragon Mask">
 		<name>Black Dragon Mask</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -275,7 +279,7 @@
 		<text/>
 		<text>Source: Hoard of the Dragon Queen, page 94</text>
 	</item>
-	<item>
+	<item name="Blue Dragon Mask">
 		<name>Blue Dragon Mask</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -297,66 +301,185 @@
 		<text/>
 		<text>Lingering Shock: If you deal lightning damage to a creature, it can't take reactions until its next turn.</text>
 		<text/>
-		<text>Source: Rise of Tiamat Online Supplement, page 4</text>
+		<text>Source: The Rise of Tiamat Online Supplement, page 4</text>
 	</item>
-	<item>
+	<item name="Claws of the Umber Hulk">
 		<name>Claws of the Umber Hulk</name>
 		<type>W</type>
 		<magic>1</magic>
 		<text>These heavy gauntlets of brown iron are forged in the shape an umber hulk's claws, and they fit the wearer's hands and forearms all the way up to the elbow. While wearing both claws, you gain a burrowing speed of 20 feet, and you can tunnel through solid rock at a rate of 1 foot per round.</text>
 		<text>You can use a claw as a melee weapon while wearing it. You have proficiency with it, and it deals 1d8 slashing damage on a hit (your Strength modifier applies to the attack and damage rolls, as normal)</text>
+		<roll>1d8</roll>
 		<text>While wearing the claws, you can't manipulate objects or cast spells with somatic components</text>
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 222</text>
 	</item>
-	<item>
+	<item name="Devastation Orb of Air">
 		<name>Devastation Orb of Air</name>
 		<type>W</type>
 		<magic>1</magic>
 		<text>A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a devastation orb of air. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.</text>
 		<text>A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates 1d100 hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as identify and divination can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.</text>
+		<roll>1d100</roll>
 		<text>A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a devastation orb of air and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes 1d6 rounds later, unless it is returned to the container.</text>
+		<roll>1d6</roll>
 		<text>Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.</text>
 		<text>Air Orb: When this orb detonates, it creates a powerful windstorm that lasts for 1 hour. Whenever a creature ends its turn exposed to the wind, the creature must succeed on a DC 18 Constitution saving throw or take 1d4 bludgeoning damage, as the wind and debris batter it. The wind is strong enough to uproot weak trees and destroy light structures after at least 10 minutes of exposure. Otherwise, the rules for strong wind apply, as detailed in chapter 5 of the Dungeon Master's Guide.</text>
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 222</text>
 		<roll>1d4</roll>
 	</item>
-	<item>
+	<item name="Devastation Orb of Earth">
 		<name>Devastation Orb of Earth</name>
 		<type>W</type>
 		<magic>1</magic>
 		<text>A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a devastation orb of air. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.</text>
 		<text>A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates 1d100 hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as identify and divination can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.</text>
+		<roll>1d100</roll>
 		<text>A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a devastation orb of air and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes 1d6 rounds later, unless it is returned to the container.</text>
+		<roll>1d6</roll>
 		<text>Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.</text>
 		<text>Earth Orb: When this orb detonates, it subjects the area to the effects of the earthquake spell for 1 minute (spell save DC 18). For the purpose of the spell's effects, the spell is cast on the turn that the orb explodes.</text>
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 222</text>
 	</item>
-	<item>
+	<item name="Devastation Orb of Fire">
 		<name>Devastation Orb of Fire</name>
 		<type>W</type>
 		<magic>1</magic>
 		<text>A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a devastation orb of air. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.</text>
 		<text>A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates 1d100 hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as identify and divination can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.</text>
+		<roll>1d100</roll>
 		<text>A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a devastation orb of air and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes 1d6 rounds later, unless it is returned to the container.</text>
+		<roll>1d6</roll>
 		<text>Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.</text>
 		<text>Fire Orb: When this orb detonates, it creates a dry heat wave that lasts for 24 hours. Within the area of effect, the rules for extreme heat apply, as detailed in chapter 5 of the Dungeon Master's Guide. At the end of each hour, there is a ten percent chance that the heat wave starts a wildfire in a random location within the area of effect. The wildfire covers a 10-foot-square area initially but expands to fill another 10-foot square each round until the fire is extinguished or burns itself out. A creature that comes within 10 feet of a wildfire for the first time on a turn or starts its turn there takes 3d6 fire damage.</text>
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 222</text>
 		<roll>3d6</roll>
 	</item>
-	<item>
+	<item name="Devastation Orb of Water">
 		<name>Devastation Orb of Water</name>
 		<type>W</type>
 		<magic>1</magic>
 		<text>A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a devastation orb of air. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.</text>
 		<text>A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates 1d100 hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as identify and divination can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.</text>
+		<roll>1d100</roll>
 		<text>A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a devastation orb of air and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes 1d6 rounds later, unless it is returned to the container.</text>
+		<roll>1d6</roll>
 		<text>Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.</text>
 		<text>Water Orb: When this orb detonates, it creates a torrential rainstorm that lasts for 24 hours. Within the area of effect, the rules for heavy precipitation apply, as detailed in chapter 5 of the Dungeon Master's Guide. If there is a substantial body of water in the area, it floods after 2d10 hours of heavy rain, rising 10 feet above its banks and inundating the surrounding area. The flood advances at a rate of 100 feet per round, moving away from the body of water where it began until it reaches the edge of the area of effect: at that point, the water flows downhill (and possibly recedes back to its origin). Light structures collapse and wash away. Any Large or smaller creature caught in the flood's path is swept away. The flooding destroys crops and might trigger mudslides, depending on the terrain.</text>
+		<roll>2d10</roll>
 		<text/>
 		<text>Source: Princes of the Apocalypse, page 222</text>
+	</item>
+	<item name="Elemental Evil Trinket">
+		<name>Elemental Evil Trinket</name>
+		<type>G</type>
+		<magic/>
+		<weight>0</weight>
+		<text>01. A compass that always points to Mulmaster.</text>
+		<text>02. A paper fan that won't produce a breeze no matter how hard it's waved.</text>
+		<text>03. A petrified potato that resembles someone important to you.</text>
+		<text>04. A glass cup that can only be filled half way no matter how much liquid is pored into it.</text>
+		<text>05. A mirror that only shows the back of your head.</text>
+		<text>06. A small glass bird that when set down near water dips its head in as if to get a drink.</text>
+		<text>07. A lady's coin purse containing two sharp fangs.</text>
+		<text>08. A small sea conch with the words "From the beginning" painted on the lip.</text>
+		<text>09. A frost-covered silver locket that's frozen shut.</text>
+		<text>10. A seal which imprints a mysterious, unknown coat of arms into hard rock.</text>
+		<text>11. A small wooden doll that when held brings back fond memories.</text>
+		<text>12. A small handmirror which only reflects inanimate objects.</text>
+		<text>13. A glass eyeball that looks about of its own accordance, and can roll around.</text>
+		<text>14. A glass orb that replicates yesterday's weather inside itself.</text>
+		<text>15. A drinking cup, that randomly fills with fresh or salt water. Refilling once emptied.</text>
+		<text>16. A deep blue piece of flint, that when struck with steel produces not a spark but a drop of water.</text>
+		<text>17. A conch shell which is always damp and constantly drips saltwater.</text>
+		<text>18. A charred, half-melted pewter clasp that glows as if smoldering but releases no heat.</text>
+		<text>19. A clockwork finch that flaps its wings in the presence of a breeze.</text>
+		<text>20. A unbreakable sealed jar of glowing water that hums when shaken.</text>
+		<text>21. A small, finely polished geode whose crystals slowly fade between every color of the spectrum.</text>
+		<text>22. A rough stone eye pulled from a petrified creature.</text>
+		<text>23. A stone smoking pipe that never needs lighting.</text>
+		<text>24. A small whistle, that when blown, whispers a name of a person or place unknown to you, instead of the whistle sound.</text>
+		<text>25. A fist sized rock that "beats" like a heart.</text>
+		<text>26. A pair of bronze scissors in the shape of a pair of leaping dolphins.</text>
+		<text>27. A bronze oil lamp which is rumored to have once held a genie.</text>
+		<text>28. A single gauntlet inscribed with a fire motif and an unfamiliar name in Primordial.</text>
+		<text>29. A one-eyed little fish inside a spherical vial, much bigger than the vial's neck. He has a cunning look.</text>
+		<text>30. The tiny skull of a rabbit that whispers scathing insults when nobody is looking.</text>
+		<text>31. A rag doll in the likeness of an owlbear.</text>
+		<text>32. The desiccated body of a small eight-legged black lizard.</text>
+		<text>33. A small toy boat made with a walnut shell, toothpick, and piece of cloth.</text>
+		<text>34. A small pocket mirror that slowly fogs over while held.</text>
+		<text>35. Wind chimes that glow when the wind blows.</text>
+		<text>36. A small, clay square with an unknown rune etched into one side.</text>
+		<text>37. A tea kettle that heats itself when filled with water.</text>
+		<text>38. An old scratched monocle which shows an underwater landscape whenever someone looks through it.</text>
+		<text>39. A rose carved from coral.</text>
+		<text>40. A set of dice with elemental symbols and primordial runes instead of pips or numbers.</text>
+		<text>41. A amulet filled with liquid that churns, freezes, or boils to match it's wearer's mood.</text>
+		<text>42. A small silver bell that makes a sound like quiet, distant thunder when it's struck.</text>
+		<text>43. A small vial of black sand that glows slightly in the moonlight.</text>
+		<text>44. A small whale tooth with etched with an image of waves crashing upon a beach.</text>
+		<text>45. An hourglass in which the sands pour upward instead of downward.</text>
+		<text>46. A glass pendant with a hole in the center that a mild breeze always blows out of.</text>
+		<text>47. A soft feather that falls like a stone when dropped.</text>
+		<text>48. A large transparent gem that, when gripped tightly, whispers in Terran.</text>
+		<text>49. A small crystal snowglobe that, when shaken, seems to form silhouettes of dancing forms.</text>
+		<text>50. Half of a palm-sized geode that pulses dimly with purple light.</text>
+		<text>51. A book filled with writing that only appears when the book is held underwater.</text>
+		<text>52. A sealed envelope made of red leather that you haven't been able to open. It smells of campfire.</text>
+		<text>53. A locket of hair that is rumored to have come from a famed fire genasi.</text>
+		<text>54. Flint and steel that, when used to start a fire, creates a random colored flame.</text>
+		<text>55. A blank piece of wet parchment that never seems to dry.</text>
+		<text>56. A small puzzle box made of brass, that is slightly warm to the touch.</text>
+		<text>57. A cloudy chunk of glass that is said to hold a spark of breath from a blue dragon.</text>
+		<text>58. A crude chalice made of coal.</text>
+		<text>59. A miniature brass horn, silent when played, but fills the air with the scent of warm and exotic spices.</text>
+		<text>60. An eye-sized blue pearl that floats in salt water.</text>
+		<text>61. A tuning fork made from a dark metal which glows with a pale, white light during thunderstorms.</text>
+		<text>62. A small vial that is always filled with the smell of autumn wind.</text>
+		<text>63. A clear marble that slowly rolls toward the nearest source of running water.</text>
+		<text>64. A small collapsible silver cup that perspires constantly when opened.</text>
+		<text>65. An hourglass that tells time with falling mist instead of sand.</text>
+		<text>66. An ornate razor, which only cuts in freezing cold temperature.</text>
+		<text>67. A shark tooth covered in tiny etched words from a lost language.</text>
+		<text>68. A large brass coin with no markings or images on it.</text>
+		<text>69. A small wooden box filled with a strange red clay.</text>
+		<text>70. A necklace with a small, rusted iron anchor.</text>
+		<text>71. A small brass flute adorned with silver wire that is always faintly sounding.</text>
+		<text>72. A red and black Aarakocra feather.</text>
+		<text>73. A palm-sized stone with a hole in it, through which can be heard a constantly whispering wind.</text>
+		<text>74. A small conch shell covered in black crystal.</text>
+		<text>75. A small music box made of brass. It features a pair of tiny automatons that resemble Azer working at a forge.</text>
+		<text>76. A glass jar containing the preserved corpse of an unfamiliar aquatic creature.</text>
+		<text>77. A piece of petrified wood carved into the shape of a seashell.</text>
+		<text>78. A wooden puzzle cube covered in elemental symbols.</text>
+		<text>79. A small stone cube that acts as a magnet when placed against another stone.</text>
+		<text>80. A ring made of a white metal. On the inside is a name etched in Auran.</text>
+		<text>81. A bracelet made of silvered fish hooks.</text>
+		<text>82. A journal filled with poetry hand-written in Primordial.</text>
+		<text>83. A yellow gemstone that glows dimly when a storm is nearby.</text>
+		<text>84. A charred chisel with an unfamiliar symbol stamped into its base.</text>
+		<text>85. A canteen filled with a foul smelling orange mud.</text>
+		<text>86. A faceless doll made of driftwood.</text>
+		<text>87. A heavy iron key bearing the name of a ship long lost to the sea.</text>
+		<text>88. A small jewelry box made from the shell of a turtle.</text>
+		<text>89. A chess piece fashioned to look like fire myrmidon.</text>
+		<text>90. A spinning top with an image of one of the four elements on each side.</text>
+		<text>91. A single hoop earring made of a porous red stone.</text>
+		<text>92. An arrowhead carved from seasalt</text>
+		<text>93. A small comb made of blue coral.</text>
+		<text>94. Seven small beads of sandstone on a string, all different colors.</text>
+		<text>95. A romance chapbook written in Undercommon titled "Just one Layer of Grey".</text>
+		<text>96. A tiny, broken clockwork Harpy.</text>
+		<text>97. An ivory whale statuette.</text>
+		<text>98. A fist-sized cog, covered in barnacles.</text>
+		<text>99. An eyepatch made of obsidian and a black leather cord.</text>
+		<text>100. A glass bottle with a tiny ship of unfamiliar design inside.</text>
+		<roll>1d100</roll>
+		<text/>
+		<text>Source: Elemental Evil PDF supplement</text>
 	</item>
 </compendium>

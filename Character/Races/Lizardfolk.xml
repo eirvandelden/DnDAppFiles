@@ -29,6 +29,7 @@
 		<trait>
 			<name>Natural Armor</name>
 			<text>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</text>
+			<modifier category="bonus">unarmored ac +3</modifier>
 		</trait>
 		<trait>
 			<name>Hungry Jaws</name>
@@ -37,6 +38,17 @@
 		<trait>
 			<name>Languages</name>
 			<text>You can speak, read, and write Common and Draconic.</text>
+		</trait>
+		<trait>
+			<name>Height and Weight</name>
+			<text>Base Height: 4'9"</text>
+			<text>Base Weight: 120 lbs</text>
+			<text>Height Modifier: 2d10</text>
+			<text>Weight Modifier: x2d6</text>
+		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Volo's Guide to Monsters</text>
 		</trait>
 	</race>
 </compendium>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="XGtE">
 	<!--Spell Attack rolls assume PROF added to roll, not applicable for Ranged while engaged in Melee range-->
 	<!--replaced ":" as intro to list with ".", and as in-line text with " - "-->
-	<spell>
+	<spell name="Abi-Dalzim's Horrid Wilting">
 		<name>Abi-Dalzim's Horrid Wilting</name>
 		<level>8</level>
 		<school>N</school>
@@ -14,10 +14,11 @@
 		<text>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</text>
 		<text/>
 		<text>Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.</text>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>12d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Absorb Elements">
 		<name>Absorb Elements</name>
 		<level>1</level>
 		<school>A</school>
@@ -30,10 +31,19 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Aganazzar's Scorcher">
 		<name>Aganazzar's Scorcher</name>
 		<level>2</level>
 		<school>EV</school>
@@ -46,10 +56,18 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Beast Bond">
 		<name>Beast Bond</name>
 		<level>1</level>
 		<school>D</school>
@@ -60,9 +78,10 @@
 		<classes>Druid, Ranger</classes>
 		<text>You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast's Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Bones of the Earth">
 		<name>Bones of the Earth</name>
 		<level>6</level>
 		<school>T</school>
@@ -79,9 +98,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>6d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Catapult">
 		<name>Catapult</name>
 		<level>1</level>
 		<school>T</school>
@@ -94,10 +115,19 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<roll>11d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Catnap">
 		<name>Catnap</name>
 		<level>3</level>
 		<school>EN</school>
@@ -110,9 +140,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Cause Fear">
 		<name>Cause Fear</name>
 		<level>1</level>
 		<school>N</school>
@@ -125,9 +156,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Ceremony">
 		<name>Ceremony</name>
 		<level>1</level>
 		<school>A</school>
@@ -151,9 +183,10 @@
 		<text/>
 		<text>Wedding. You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Chaos Bolt">
 		<name>Chaos Bolt</name>
 		<level>1</level>
 		<school>EV</school>
@@ -164,22 +197,34 @@
 		<classes>Sorcerer</classes>
 		<text>You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.</text>
 		<text/>
-		<text>1: Acid</text>
-		<text>2: Cold</text>
-		<text>3: Fire</text>
-		<text>4: Force</text>
-		<text>5: Lightning</text>
-		<text>6: Poison</text>
-		<text>7: Psychic</text>
-		<text>8: Thunder</text>
+		<text>d8   Type</text>
+		<text>1    Acid</text>
+		<text>2    Cold</text>
+		<text>3    Fire</text>
+		<text>4    Force</text>
+		<text>5    Lightning</text>
+		<text>6    Poison</text>
+		<text>7    Psychic</text>
+		<text>8    Thunder</text>
 		<text/>
 		<text>If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>1d8</roll>
+		<roll>2d8+1d6</roll>
+		<roll>2d8+2d6</roll>
+		<roll>2d8+3d6</roll>
+		<roll>2d8+4d6</roll>
+		<roll>2d8+5d6</roll>
+		<roll>2d8+6d6</roll>
+		<roll>2d8+7d6</roll>
+		<roll>2d8+8d6</roll>
+		<roll>2d8+9d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Charm Monster">
 		<name>Charm Monster</name>
 		<level>4</level>
 		<school>EN</school>
@@ -192,9 +237,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Control Flames">
 		<name>Control Flames</name>
 		<level>0</level>
 		<school>T</school>
@@ -215,9 +261,10 @@
 		<text/>
 		<text>If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Control Winds">
 		<name>Control Winds</name>
 		<level>5</level>
 		<school>T</school>
@@ -234,9 +281,10 @@
 		<text/>
 		<text>Updraft: You cause a sustained updraft within the cube, rising upward from the cube's bottom side. Creatures that end a fall within the cube take only half damage from the fall. When a creature in the cube makes a vertical jump, the creature can jump up to 10 feet higher than normal.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Create Bonfire">
 		<name>Create Bonfire</name>
 		<level>0</level>
 		<school>C</school>
@@ -251,13 +299,14 @@
 		<text/>
 		<text>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
 		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Create Homunculus">
 		<name>Create Homunculus</name>
 		<level>6</level>
 		<school>T</school>
@@ -272,9 +321,11 @@
 		<text/>
 		<text>You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>2d4</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Crown of Stars">
 		<name>Crown of Stars</name>
 		<level>7</level>
 		<school>EV</school>
@@ -289,10 +340,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d12</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Danse Macabre">
 		<name>Danse Macabre</name>
 		<level>5</level>
 		<school>N</school>
@@ -309,9 +361,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Dawn">
 		<name>Dawn</name>
 		<level>5</level>
 		<school>EV</school>
@@ -326,10 +379,11 @@
 		<text/>
 		<text>If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d10</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Dragon's Breath">
 		<name>Dragon's Breath</name>
 		<level>2</level>
 		<school>T</school>
@@ -342,10 +396,18 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Druid Grove">
 		<name>Druid Grove</name>
 		<level>6</level>
 		<school>A</school>
@@ -376,9 +438,10 @@
 		<text/>
 		<text>To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of spike growth is harmless.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Dust Devil">
 		<name>Dust Devil</name>
 		<level>2</level>
 		<school>C</school>
@@ -395,10 +458,18 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Earth Tremor">
 		<name>Earth Tremor</name>
 		<level>1</level>
 		<school>EV</school>
@@ -411,10 +482,19 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Earthbind">
 		<name>Earthbind</name>
 		<level>2</level>
 		<school>T</school>
@@ -425,9 +505,10 @@
 		<classes>Druid, Sorcerer, Warlock, Wizard</classes>
 		<text>Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Elemental Bane">
 		<name>Elemental Bane</name>
 		<level>4</level>
 		<school>T</school>
@@ -440,10 +521,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>2d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Enemies Abound">
 		<name>Enemies Abound</name>
 		<level>3</level>
 		<school>EN</school>
@@ -456,9 +538,10 @@
 		<text/>
 		<text>Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Enervation">
 		<name>Enervation</name>
 		<level>5</level>
 		<school>N</school>
@@ -473,10 +556,15 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Erupting Earth">
 		<name>Erupting Earth</name>
 		<level>3</level>
 		<school>T</school>
@@ -489,10 +577,17 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>3d12</roll>
+		<roll>4d12</roll>
+		<roll>5d12</roll>
+		<roll>6d12</roll>
+		<roll>7d12</roll>
+		<roll>8d12</roll>
+		<roll>9d12</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Far Step">
 		<name>Far Step</name>
 		<level>5</level>
 		<school>C</school>
@@ -503,9 +598,10 @@
 		<classes>Sorcerer, Warlock, Wizard</classes>
 		<text>You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Find Greater Steed">
 		<name>Find Greater Steed</name>
 		<level>4</level>
 		<school>C</school>
@@ -524,9 +620,10 @@
 		<text/>
 		<text>Whenever the mount disappears, it leaves behind any objects it was wearing or carrying.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Flame Arrows">
 		<name>Flame Arrows</name>
 		<level>3</level>
 		<school>T</school>
@@ -539,10 +636,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Frostbite">
 		<name>Frostbite</name>
 		<level>0</level>
 		<school>EV</school>
@@ -555,13 +653,14 @@
 		<text/>
 		<text>The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d6</roll>
 		<roll>2d6</roll>
 		<roll>3d6</roll>
 		<roll>4d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Guardian of Nature">
 		<name>Guardian of Nature</name>
 		<level>4</level>
 		<school>T</school>
@@ -592,9 +691,11 @@
 		<text/>
 		<text>• While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>1d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Gust">
 		<name>Gust</name>
 		<level>0</level>
 		<school>T</school>
@@ -611,9 +712,10 @@
 		<text/>
 		<text>• You create a harmless sensory affect using air, such as causing leaves to rustle, wind to slam shutters shut, or your clothing to ripple in a breeze.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Healing Spirit">
 		<name>Healing Spirit</name>
 		<level>2</level>
 		<school>C</school>
@@ -624,16 +726,24 @@
 		<classes>Druid, Ranger</classes>
 		<text>You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).</text>
 		<text/>
-		<text>Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore ld6 hit points to that creature (no action required). The spirit can't heal constructs or undead.</text>
+		<text>Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can't heal constructs or undead.</text>
 		<text/>
 		<text>As a bonus action on your turn, you can move the Spirit up to 30 feet to a space you can see.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 for each slot level above 2nd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Holy Weapon">
 		<name>Holy Weapon</name>
 		<level>5</level>
 		<school>EV</school>
@@ -646,11 +756,12 @@
 		<text/>
 		<text>As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of you must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn't blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>2d8</roll>
 		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Ice Knife">
 		<name>Ice Knife</name>
 		<level>1</level>
 		<school>C</school>
@@ -663,12 +774,20 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d10</roll>
 		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Illusory Dragon">
 		<name>Illusory Dragon</name>
 		<level>8</level>
 		<school>I</school>
@@ -685,10 +804,11 @@
 		<text/>
 		<text>The illusion is tangible because of the shadow stuff used to create it, but attacks miss it automatically. It succeeds on all saving throws, and it is immune to all damage and conditions. A creature that uses an action to examine the dragon can determine that it is an illusion by succeeding on an Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through it and has advantage on saving throws against its breath.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>7d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Immolation">
 		<name>Immolation</name>
 		<level>5</level>
 		<school>EV</school>
@@ -701,11 +821,12 @@
 		<text/>
 		<text>If damage from this spell kills a target, the target is turned to ash.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>8d6</roll>
 		<roll>4d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Infernal Calling">
 		<name>Infernal Calling</name>
 		<level>5</level>
 		<school>C</school>
@@ -726,9 +847,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>3d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Infestation">
 		<name>Infestation</name>
 		<level>0</level>
 		<school>C</school>
@@ -741,9 +864,14 @@
 		<text/>
 		<text>The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Investiture of Flame">
 		<name>Investiture of Flame</name>
 		<level>6</level>
 		<school>T</school>
@@ -760,10 +888,12 @@
 		<text/>
 		<text>• You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d10</roll>
+		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Investiture of Ice">
 		<name>Investiture of Ice</name>
 		<level>6</level>
 		<school>T</school>
@@ -782,9 +912,11 @@
 		<text/>
 		<text>• You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>4d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Investiture of Stone">
 		<name>Investiture of Stone</name>
 		<level>6</level>
 		<school>T</school>
@@ -801,9 +933,10 @@
 		<text/>
 		<text>• You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Investiture of Wind">
 		<name>Investiture of Wind</name>
 		<level>6</level>
 		<school>T</school>
@@ -820,10 +953,11 @@
 		<text/>
 		<text>• You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>2d10</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Invulnerability">
 		<name>Invulnerability</name>
 		<level>9</level>
 		<school>A</school>
@@ -834,9 +968,10 @@
 		<classes>Wizard</classes>
 		<text>You are immune to all damage until the spell ends.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Life Transference">
 		<name>Life Transference</name>
 		<level>3</level>
 		<school>N</school>
@@ -849,10 +984,17 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Maddening Darkness">
 		<name>Maddening Darkness</name>
 		<level>8</level>
 		<school>EV</school>
@@ -865,10 +1007,11 @@
 		<text/>
 		<text>Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>8d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Maelstrom">
 		<name>Maelstrom</name>
 		<level>5</level>
 		<school>EV</school>
@@ -879,10 +1022,11 @@
 		<classes>Druid</classes>
 		<text>A mass of 5-foot-deep water appears and swirls in a 30-foot radius centered on a point you can see within range. The point must be on ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take 6d6 bludgeoning damage and be pulled 10 feet toward the center.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>6d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Magic Stone">
 		<name>Magic Stone</name>
 		<level>0</level>
 		<school>T</school>
@@ -895,11 +1039,11 @@
 		<text/>
 		<text>If you cast this spell again, the spell ends early on any pebbles still affected by it.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d6+SPELL</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Mass Polymorph">
 		<name>Mass Polymorph</name>
 		<level>9</level>
 		<school>T</school>
@@ -918,9 +1062,10 @@
 		<text/>
 		<text>The target's gear melds into the new form. The target can't activate, use, wield, or otherwise benefit from any of its equipment.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Maximilian's Earthen Grasp">
 		<name>Maximilian's Earthen Grasp</name>
 		<level>2</level>
 		<school>T</school>
@@ -937,10 +1082,11 @@
 		<text/>
 		<text>As an action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a restrained target if you do either.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>2d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Melf's Minute Meteors">
 		<name>Melf's Minute Meteors</name>
 		<level>3</level>
 		<school>EV</school>
@@ -953,25 +1099,27 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>2d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Mental Prison">
 		<name>Mental Prison</name>
 		<level>6</level>
 		<school>I</school>
-		<time>1 actoin</time>
+		<time>1 action</time>
 		<range>60 feet</range>
 		<components>S</components>
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Sorcerer, Warlock, Wizard</classes>
 		<text>You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can't see or hear anything beyond it and is restrained for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes 10d10 psychic damage, and the spell ends.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>5d10</roll>
 		<roll>10d10</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Mighty Fortress">
 		<name>Mighty Fortress</name>
 		<level>8</level>
 		<school>C</school>
@@ -994,9 +1142,10 @@
 		<text/>
 		<text>Casting this spell on the same spot once every 7 days for a year makes the fortress permanent.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Mind Spike">
 		<name>Mind Spike</name>
 		<level>2</level>
 		<school>D</school>
@@ -1009,10 +1158,18 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Mold Earth">
 		<name>Mold Earth</name>
 		<level>0</level>
 		<school>T</school>
@@ -1031,9 +1188,10 @@
 		<text/>
 		<text>If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Negative Energy Flood">
 		<name>Negative Energy Flood</name>
 		<level>5</level>
 		<school>N</school>
@@ -1046,10 +1204,11 @@
 		<text/>
 		<text>If you target an undead with this spell, the target doesn't make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>5d12</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Power Word Pain">
 		<name>Power Word Pain</name>
 		<level>7</level>
 		<school>EN</school>
@@ -1064,9 +1223,10 @@
 		<text/>
 		<text>A target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Primal Savagery">
 		<name>Primal Savagery</name>
 		<level>0</level>
 		<school>T</school>
@@ -1075,14 +1235,18 @@
 		<components>S</components>
 		<duration>Instantaneous</duration>
 		<classes>Druid</classes>
-		<text>You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes ld10 acid damage. After you make the attack, your teeth or fingernails return to normal.</text>
+		<text>You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 acid damage. After you make the attack, your teeth or fingernails return to normal.</text>
 		<text/>
 		<text>The spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Primordial Ward">
 		<name>Primordial Ward</name>
 		<level>6</level>
 		<school>A</school>
@@ -1095,9 +1259,10 @@
 		<text/>
 		<text>When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Psychic Scream">
 		<name>Psychic Scream</name>
 		<level>9</level>
 		<school>EN</school>
@@ -1113,9 +1278,10 @@
 		<text>A stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends.</text>
 		<text/>
 		<roll>14d6</roll>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Pyrotechnics">
 		<name>Pyrotechnics</name>
 		<level>2</level>
 		<school>T</school>
@@ -1130,9 +1296,10 @@
 		<text/>
 		<text>Smoke: Thick black smoke spreads out from the target in a 20-foot radius, moving around corners. The area of the smoke is heavily obscured. The smoke persists for 1 minute or until a strong wind disperses it.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Scatter">
 		<name>Scatter</name>
 		<level>6</level>
 		<school>C</school>
@@ -1143,9 +1310,10 @@
 		<classes>Sorcerer, Warlock, Wizard</classes>
 		<text>The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Wisdom saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you. That space must be on the ground or on a floor.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Shadow Blade">
 		<name>Shadow Blade</name>
 		<level>2</level>
 		<school>I</school>
@@ -1160,13 +1328,14 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to 3d8. When you cast it using a 5th- or 6th-level spell slot, the damage increases to 4d8. When you cast it using a spell slot of 7th level or higher, the damage increases to 5d8.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
 		<roll>4d8</roll>
 		<roll>5d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Shadow of Moil">
 		<name>Shadow of Moil</name>
 		<level>4</level>
 		<school>N</school>
@@ -1179,10 +1348,11 @@
 		<text/>
 		<text>Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it 2d8 necrotic damage.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>2d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Shape Water">
 		<name>Shape Water</name>
 		<level>0</level>
 		<school>T</school>
@@ -1203,9 +1373,10 @@
 		<text/>
 		<text>If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Sickening Radiance">
 		<name>Sickening Radiance</name>
 		<level>4</level>
 		<school>EV</school>
@@ -1218,10 +1389,11 @@
 		<text/>
 		<text>When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take 4d10 radiant damage, and it suffers one level of exhaustion and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being invisible. The light and any levels of exhaustion caused by this spell go away when the spell ends.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d10</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Skill Empowerment">
 		<name>Skill Empowerment</name>
 		<level>5</level>
 		<school>T</school>
@@ -1234,9 +1406,10 @@
 		<text/>
 		<text>You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Skywrite">
 		<name>Skywrite</name>
 		<level>2</level>
 		<school>T</school>
@@ -1248,9 +1421,10 @@
 		<classes>Bard, Druid, Wizard</classes>
 		<text>You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Snare">
 		<name>Snare</name>
 		<level>1</level>
 		<school>A</school>
@@ -1269,9 +1443,10 @@
 		<text/>
 		<text>After the trap is triggered, the spell ends when no creature is restrained by it.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Snilloc's Snowball Swarm">
 		<name>Snilloc's Snowball Swarm</name>
 		<level>2</level>
 		<school>EV</school>
@@ -1284,10 +1459,18 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Soul Cage">
 		<name>Soul Cage</name>
 		<level>6</level>
 		<school>N</school>
@@ -1308,10 +1491,11 @@
 		<text/>
 		<text>A creature that can see the sensor (such as one using see invisibility or truesight) sees a translucent image of the tormented humanoid whose soul you caged.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>2d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Steel Wind Strike">
 		<name>Steel Wind Strike</name>
 		<level>5</level>
 		<school>C</school>
@@ -1324,10 +1508,11 @@
 		<text/>
 		<text>You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>6d10</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Storm Sphere">
 		<name>Storm Sphere</name>
 		<level>4</level>
 		<school>EV</school>
@@ -1344,12 +1529,18 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the damage increases for each of its effects by 1d6 for each slot level above 4th</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
-		<roll>1d20+SPELL+PROF</roll>
 		<roll>2d6</roll>
+		<roll>3d6</roll>
 		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Summon Greater Demon">
 		<name>Summon Greater Demon</name>
 		<level>4</level>
 		<school>C</school>
@@ -1368,9 +1559,11 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>1d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Summon Lesser Demons">
 		<name>Summon Lesser Demons</name>
 		<level>3</level>
 		<school>C</school>
@@ -1397,9 +1590,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Synaptic Static">
 		<name>Synaptic Static</name>
 		<level>5</level>
 		<school>EN</school>
@@ -1412,10 +1606,11 @@
 		<text/>
 		<text>After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>8d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Temple of the Gods">
 		<name>Temple of the Gods</name>
 		<level>7</level>
 		<school>C</school>
@@ -1440,9 +1635,10 @@
 		<text/>
 		<text>Casting this spell on the same spot every day for a year makes this effect permanent.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Tenser's Transformation">
 		<name>Tenser's Transformation</name>
 		<level>6</level>
 		<school>T</school>
@@ -1467,9 +1663,11 @@
 		<text/>
 		<text>Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<roll>2d12</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Thunderclap">
 		<name>Thunderclap</name>
 		<level>0</level>
 		<school>EV</school>
@@ -1482,13 +1680,14 @@
 		<text/>
 		<text>The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d6</roll>
 		<roll>2d6</roll>
 		<roll>3d6</roll>
 		<roll>4d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Thunder Step">
 		<name>Thunder Step</name>
 		<level>3</level>
 		<school>C</school>
@@ -1497,16 +1696,23 @@
 		<components>V</components>
 		<duration>Instantaneous</duration>
 		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds. and each creature within 10 feet of the space you left must make a Constitution saving throw, taking 3dl0 thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.</text>
+		<text>You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds. and each creature within 10 feet of the space you left must make a Constitution saving throw, taking 3d10 thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.</text>
 		<text/>
 		<text>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also teleport one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind.</text>
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>8d10</roll>
+		<roll>9d10</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Tidal Wave">
 		<name>Tidal Wave</name>
 		<level>3</level>
 		<school>C</school>
@@ -1517,10 +1723,11 @@
 		<classes>Druid, Wizard</classes>
 		<text>You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water then spreads out across the ground in all directions, extinguishing unprotected flames within 30 feet of it, and then it vanishes.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Tiny Servant">
 		<name>Tiny Servant</name>
 		<level>3</level>
 		<school>T</school>
@@ -1537,9 +1744,10 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Toll the Dead">
 		<name>Toll the Dead</name>
 		<level>0</level>
 		<school>N</school>
@@ -1550,13 +1758,20 @@
 		<classes>Cleric, Warlock, Wizard</classes>
 		<text>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 1d8 necrotic damage. If the target is missing any of its hit points, it instead takes 1d12 necrotic damage.</text>
 		<text/>
-		<text>The spell's damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4dl2).</text>
+		<text>The spell's damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d8</roll>
 		<roll>1d12</roll>
+		<roll>2d8</roll>
+		<roll>2d12</roll>
+		<roll>3d8</roll>
+		<roll>3d12</roll>
+		<roll>4d8</roll>
+		<roll>4d12</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Transmute Rock">
 		<name>Transmute Rock</name>
 		<level>5</level>
 		<school>T</school>
@@ -1575,10 +1790,11 @@
 		<text/>
 		<text>Transmute Mud to Rock: Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes restrained by the rock. A restrained creature, or another creature within reach, can use an action to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and it is immune to poison and psychic damage.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Vitriolic Sphere">
 		<name>Vitriolic Sphere</name>
 		<level>4</level>
 		<school>EV</school>
@@ -1591,11 +1807,17 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
-		<roll>10d4</roll>
 		<roll>5d4</roll>
+		<roll>10d4</roll>
+		<roll>12d4</roll>
+		<roll>14d4</roll>
+		<roll>16d4</roll>
+		<roll>18d4</roll>
+		<roll>20d4</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Wall of Light">
 		<name>Wall of Light</name>
 		<level>5</level>
 		<school>EV</school>
@@ -1614,10 +1836,15 @@
 		<text/>
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Wall of Sand">
 		<name>Wall of Sand</name>
 		<level>3</level>
 		<school>EV</school>
@@ -1628,9 +1855,10 @@
 		<classes>Wizard</classes>
 		<text>You conjure up a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is blinded while in the wall's space and must spend 3 feet of movement for every 1 foot it moves there.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Wall of Water">
 		<name>Wall of Water</name>
 		<level>3</level>
 		<school>EV</school>
@@ -1643,9 +1871,10 @@
 		<text/>
 		<text>Any ranged weapon attack that enters the wall's space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall's water doesn't fill it.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Warding Wind">
 		<name>Warding Wind</name>
 		<level>2</level>
 		<school>EV</school>
@@ -1668,9 +1897,10 @@
 		<text/>
 		<text>• The attack rolls of ranged weapon attacks have disadvantage if the attacks pass in or out of the wind.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Watery Sphere">
 		<name>Watery Sphere</name>
 		<level>4</level>
 		<school>C</school>
@@ -1689,9 +1919,10 @@
 		<text/>
 		<text>When the spell ends, the sphere falls to the ground and extinguishes all normal flames within 30 feet of it. Any creature restrained by the sphere is knocked prone in the space where it falls. The water then vanishes.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Whirlwind">
 		<name>Whirlwind</name>
 		<level>7</level>
 		<school>EV</school>
@@ -1706,12 +1937,13 @@
 		<text/>
 		<text>A restrained creature can use an action to make a Strength or Dexterity check against your spell save DC. If successful, the creature is no longer restrained by the whirlwind and is hurled 3d6 x 10 feet away from it in a random direction.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>10d6</roll>
 		<roll>3d6*10</roll>
 		<roll>1d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Word of Radiance">
 		<name>Word of Radiance</name>
 		<level>0</level>
 		<school>EV</school>
@@ -1720,17 +1952,18 @@
 		<components>V, M (a holy symbol)</components>
 		<duration>Instantaneous</duration>
 		<classes>Cleric</classes>
-		<text>You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take ld6 radiant damage.</text>
+		<text>You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage.</text>
 		<text/>
 		<text>The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d6</roll>
 		<roll>2d6</roll>
 		<roll>3d6</roll>
 		<roll>4d6</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Wrath of Nature">
 		<name>Wrath of Nature</name>
 		<level>5</level>
 		<school>EV</school>
@@ -1749,10 +1982,12 @@
 		<text/>
 		<text>Rocks. As a bonus action on your turn, you can cause a loose rock in the cube to launch at a creature you can see in the cube. Make a ranged spell attack against the target. On a hit, the target takes 3d8 nonmagical bludgeoning damage, and it must succeed on a Strength saving throw or fall prone.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>4d6</roll>
+		<roll>3d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
-	<spell>
+	<spell name="Zephyr Strike">
 		<name>Zephyr Strike</name>
 		<level>1</level>
 		<school>T</school>
@@ -1765,7 +2000,8 @@
 		<text/>
 		<text>Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.</text>
 		<text/>
-		<text>This spell can be found in Xanathar's Guide to Everything</text>
 		<roll>1d8</roll>
+		<text></text>
+		<text>Source: Xanathar's Guide to Everything</text>
 	</spell>
 </compendium>

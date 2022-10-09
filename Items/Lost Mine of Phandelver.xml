@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="LMoP">
 	<!--Lost Mine of Phandelver-->
-	<item>
+	<item name="Boots of Striding and Springing">
 		<name>Boots of Striding and Springing</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -13,7 +13,7 @@
 		<text />
 		<text>Source: Dungeon Master's Guide, page 156</text>
 	</item>
-	<item>
+	<item name="Gauntlets of Ogre Power">
 		<name>Gauntlets of Ogre Power</name>
 		<type>W</type>
 		<magic>1</magic>
@@ -25,7 +25,7 @@
 		<text />
 		<text>Source: Dungeon Master's Guide, page 171</text>
 	</item>
-	<item>
+	<item name="Potion of Flying">
 		<name>Potion of Flying</name>
 		<type>P</type>
 		<magic>1</magic>
@@ -33,8 +33,10 @@
 		<rarity>Very Rare</rarity>
 		<text>Rarity: Very Rare</text>
 		<text>When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it.</text>
+		<text></text>
+		<text>Source: Dungeon Master's Guide</text>
 	</item>
-	<item>
+	<item name="Potion of Healing">
 		<name>Potion of Healing</name>
 		<type>P</type>
 		<magic>1</magic>
@@ -43,8 +45,10 @@
 		<text>Rarity: Common</text>
 		<text>You regain 2d4 + 2 hit points when you drink this potion.	The potion's red liquid glimmers when agitated.</text>
 		<roll>2d4+2</roll>
+		<text></text>
+		<text>Source: Dungeon Master's Guide</text>
 	</item>
-	<item>
+	<item name="Potion of Invisibility">
 		<name>Potion of Invisibility</name>
 		<type>P</type>
 		<magic>1</magic>
@@ -55,7 +59,7 @@
 		<text />
 		<text>Source: Dungeon Master's Guide, page 188</text>
 	</item>
-	<item>
+	<item name="Potion of Vitality">
 		<name>Potion of Vitality</name>
 		<type>P</type>
 		<magic>1</magic>
@@ -66,7 +70,7 @@
 		<text />
 		<text>Source: Dungeon Master's Guide, page 188</text>
 	</item>
-	<item>
+	<item name="Ring of Protection">
 		<name>Ring of Protection</name>
 		<type>RG</type>
 		<magic>1</magic>
@@ -77,8 +81,10 @@
 		<text>You gain a +1 bonus to AC and saving throws while wearing this ring.</text>
 		<modifier category="bonus">ac +1</modifier>
 		<modifier category="bonus">saving throws +1</modifier>
+		<text></text>
+		<text>Source: Dungeon Master's Guide</text>
 	</item>
-	<item>
+	<item name="Spider Staff">
 		<name>Spider Staff</name>
 		<type>ST</type>
 		<magic>1</magic>
@@ -90,6 +96,7 @@
 		<text>Requires Attunement</text>
 		<text />
 		<text>The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals 1d6 extra poison damage on a hit when used to make a weapon attack.</text>
+		<roll>1d6</roll>
 		<text>The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: spider climb (1 charge) or web (2 charges, spell save DC 15). No components are required.</text>
 		<text>The staff regains 1d6 + 4 expended charges each day at dusk. If you expend the staff's last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed.</text>
 		<text />
@@ -98,7 +105,7 @@
 		<text>Source: Lost Mines of Phandelver, page 53</text>
 		<roll>1d6+4</roll>
 	</item>
-	<item>
+	<item name="Staff of Defense">
 		<name>Staff of Defense</name>
 		<type>ST</type>
 		<magic>1</magic>
@@ -120,7 +127,7 @@
 		<modifier category="bonus">ac +1</modifier>
 		<roll>1d6+4</roll>
 	</item>
-	<item>
+	<item name="Wand of Magic Missiles">
 		<name>Wand of Magic Missiles</name>
 		<type>WD</type>
 		<magic>1</magic>
@@ -138,10 +145,12 @@
 		<roll>(1d4+1)*7</roll>
 		<roll>(1d4+1)*8</roll>
 		<roll>(1d4+1)*9</roll>
+		<text></text>
+		<text>Source: Dungeon Master's Guide</text>
 	</item>
 
 	<!-- Spell Scroll, limited to 3rd level since adventure only goes to level 5-->
-	<item>
+	<item name="Spell Scroll (1st Level)">
 		<name>Spell Scroll (1st Level)</name>
 		<type>SC</type>
 		<magic>1</magic>
@@ -157,7 +166,7 @@
 		<roll>1d20+SPELL</roll>
 		<roll>1d20+5</roll>
 	</item>
-	<item>
+	<item name="Spell Scroll (2nd Level)">
 		<name>Spell Scroll (2nd Level)</name>
 		<type>SC</type>
 		<magic>1</magic>
@@ -173,7 +182,7 @@
 		<roll>1d20+SPELL</roll>
 		<roll>1d20+5</roll>
 	</item>
-	<item>
+	<item name="Spell Scroll (3rd Level)">
 		<name>Spell Scroll (3rd Level)</name>
 		<type>SC</type>
 		<magic>1</magic>
@@ -191,7 +200,7 @@
 	</item>
 
 	<!-- specific +1 items -->
-	<item>
+	<item name="Lightbringer">
 		<name>Lightbringer</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -207,7 +216,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Dragonguard">
 		<name>Dragonguard</name>
 		<type>MA</type>
 		<magic>1</magic>
@@ -223,7 +232,7 @@
 
 	<!-- +1 Armor and Weapons -->
 	<!-- This is more than is actually available, but the rulebook simply defines +1 variants -->
-	<item>
+	<item name="Battleaxe +1">
 		<name>Battleaxe +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -242,7 +251,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Breastplate +1">
 		<name>Breastplate +1</name>
 		<type>MA</type>
 		<magic>1</magic>
@@ -255,7 +264,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Chain Mail +1">
 		<name>Chain Mail +1</name>
 		<type>HA</type>
 		<magic>1</magic>
@@ -270,7 +279,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Chain Shirt +1">
 		<name>Chain Shirt +1</name>
 		<type>MA</type>
 		<magic>1</magic>
@@ -283,7 +292,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Club +1">
 		<name>Club +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -301,7 +310,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Dagger +1">
 		<name>Dagger +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -326,7 +335,7 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 	</item>
-	<item>
+	<item name="Greataxe +1">
 		<name>Greataxe +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -346,7 +355,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Greatclub +1">
 		<name>Greatclub +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -364,7 +373,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Greatsword +1">
 		<name>Greatsword +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -384,7 +393,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Hand Crossbow +1">
 		<name>Hand Crossbow +1</name>
 		<type>R</type>
 		<magic>1</magic>
@@ -410,7 +419,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item>
+	<item name="Handaxe +1">
 		<name>Handaxe +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -433,7 +442,7 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 	</item>
-	<item>
+	<item name="Heavy Crossbow +1">
 		<name>Heavy Crossbow +1</name>
 		<type>R</type>
 		<magic>1</magic>
@@ -461,7 +470,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item>
+	<item name="Hide Armor +1">
 		<name>Hide Armor +1</name>
 		<type>MA</type>
 		<magic>1</magic>
@@ -474,7 +483,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Javelin +1">
 		<name>Javelin +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -495,7 +504,7 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 	</item>
-	<item>
+	<item name="Leather Armor +1">
 		<name>Leather Armor +1</name>
 		<type>LA</type>
 		<magic>1</magic>
@@ -508,7 +517,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Light Crossbow +1">
 		<name>Light Crossbow +1</name>
 		<type>R</type>
 		<magic>1</magic>
@@ -534,7 +543,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item>
+	<item name="Light Hammer +1">
 		<name>Light Hammer +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -557,7 +566,7 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 	</item>
-	<item>
+	<item name="Longbow +1">
 		<name>Longbow +1</name>
 		<type>R</type>
 		<magic>1</magic>
@@ -583,7 +592,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item>
+	<item name="Longsword +1">
 		<name>Longsword +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -602,7 +611,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Mace +1">
 		<name>Mace +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -617,7 +626,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Maul +1">
 		<name>Maul +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -637,7 +646,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Morningstar +1">
 		<name>Morningstar +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -652,7 +661,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Quarterstaff +1">
 		<name>Quarterstaff +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -671,7 +680,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Rapier +1">
 		<name>Rapier +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -689,7 +698,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Ring Mail +1">
 		<name>Ring Mail +1</name>
 		<type>HA</type>
 		<magic>1</magic>
@@ -703,7 +712,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Scale Mail +1">
 		<name>Scale Mail +1</name>
 		<type>MA</type>
 		<magic>1</magic>
@@ -717,7 +726,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Scimitar +1">
 		<name>Scimitar +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -737,7 +746,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Shortbow +1">
 		<name>Shortbow +1</name>
 		<type>R</type>
 		<magic>1</magic>
@@ -761,7 +770,7 @@
 		<modifier category="bonus">ranged attacks +1</modifier>
 		<modifier category="bonus">ranged damage +1</modifier>
 	</item>
-	<item>
+	<item name="Shortsword +1">
 		<name>Shortsword +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -781,7 +790,7 @@
 		<modifier category="bonus">melee attacks +1</modifier>
 		<modifier category="bonus">melee damage +1</modifier>
 	</item>
-	<item>
+	<item name="Spear +1">
 		<name>Spear +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -805,7 +814,7 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 	</item>
-	<item>
+	<item name="Splint Armor +1">
 		<name>Splint Armor +1</name>
 		<type>HA</type>
 		<magic>1</magic>
@@ -820,7 +829,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Studded Leather Armor +1">
 		<name>Studded Leather Armor +1</name>
 		<type>LA</type>
 		<magic>1</magic>
@@ -833,7 +842,7 @@
 		<text>Source: Dungeon Master's Guide, page 152</text>
 		<modifier category="bonus">ac +1</modifier>
 	</item>
-	<item>
+	<item name="Trident +1">
 		<name>Trident +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -857,7 +866,7 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 	</item>
-	<item>
+	<item name="Warhammer +1">
 		<name>Warhammer +1</name>
 		<type>M</type>
 		<magic>1</magic>
@@ -878,7 +887,7 @@
 	</item>
 
 	<!-- Adventuring gear -->
-	<item>
+	<item name="Copper (cp)">
 		<name>Copper (cp)</name>
 		<type>$</type>
 		<magic/>
@@ -898,7 +907,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Electrum (ep)">
 		<name>Electrum (ep)</name>
 		<type>$</type>
 		<magic/>
@@ -918,7 +927,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Gold (gp)">
 		<name>Gold (gp)</name>
 		<type>$</type>
 		<magic/>
@@ -938,7 +947,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Platinum (pp)">
 		<name>Platinum (pp)</name>
 		<type>$</type>
 		<magic/>
@@ -958,7 +967,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Silver (sp)">
 		<name>Silver (sp)</name>
 		<type>$</type>
 		<magic/>
@@ -978,7 +987,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 143</text>
 	</item>
-	<item>
+	<item name="Arrows">
 		<name>Arrows</name>
 		<type>A</type>
 		<magic/>
@@ -988,7 +997,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Crossbow Bolts">
 		<name>Crossbow Bolts</name>
 		<type>A</type>
 		<magic/>
@@ -998,7 +1007,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Backpack">
 		<name>Backpack</name>
 		<type>G</type>
 		<magic/>
@@ -1008,7 +1017,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Bedroll">
 		<name>Bedroll</name>
 		<type>G</type>
 		<magic/>
@@ -1016,14 +1025,14 @@
 		<weight>7</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Bell">
 		<name>Bell</name>
 		<type>G</type>
 		<magic/>
 		<value>1</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Blanket">
 		<name>Blanket</name>
 		<type>G</type>
 		<magic/>
@@ -1031,7 +1040,7 @@
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Book">
 		<name>Book</name>
 		<type>G</type>
 		<magic/>
@@ -1041,7 +1050,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Candle">
 		<name>Candle</name>
 		<type>G</type>
 		<magic/>
@@ -1050,7 +1059,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Carpenter's Tools">
 		<name>Carpenter's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1060,7 +1069,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Chest">
 		<name>Chest</name>
 		<type>G</type>
 		<magic/>
@@ -1070,7 +1079,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Component Pouch">
 		<name>Component Pouch</name>
 		<type>G</type>
 		<magic/>
@@ -1080,7 +1089,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Crowbar">
 		<name>Crowbar</name>
 		<type>G</type>
 		<magic/>
@@ -1090,7 +1099,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Grappling Hook">
 		<name>Grappling Hook</name>
 		<type>G</type>
 		<magic/>
@@ -1098,7 +1107,7 @@
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Hammer">
 		<name>Hammer</name>
 		<type>G</type>
 		<magic/>
@@ -1106,7 +1115,7 @@
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Healer's Kit">
 		<name>Healer's Kit</name>
 		<type>G</type>
 		<magic/>
@@ -1116,7 +1125,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Hourglass">
 		<name>Hourglass</name>
 		<type>G</type>
 		<magic/>
@@ -1124,14 +1133,14 @@
 		<weight>1</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Ink Pen">
 		<name>Ink Pen</name>
 		<value>0.02</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Lock">
 		<name>Lock</name>
 		<type>G</type>
 		<magic/>
@@ -1141,7 +1150,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Mason's Tools">
 		<name>Mason's Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1151,7 +1160,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Mess Kit">
 		<name>Mess Kit</name>
 		<type>G</type>
 		<magic/>
@@ -1161,7 +1170,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Piton">
 		<name>Piton</name>
 		<type>G</type>
 		<magic/>
@@ -1169,7 +1178,7 @@
 		<weight>0.25</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Pouch">
 		<name>Pouch</name>
 		<type>G</type>
 		<magic/>
@@ -1179,7 +1188,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Robes">
 		<name>Robes</name>
 		<type>G</type>
 		<magic/>
@@ -1187,7 +1196,7 @@
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Sack">
 		<name>Sack</name>
 		<type>G</type>
 		<magic/>
@@ -1197,14 +1206,14 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Sealing Wax">
 		<name>Sealing Wax</name>
 		<value>0.5</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Shovel">
 		<name>Shovel</name>
 		<type>G</type>
 		<magic/>
@@ -1212,21 +1221,21 @@
 		<weight>5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Signal Whistle">
 		<name>Signal Whistle</name>
 		<value>0.05</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Signet Ring">
 		<name>Signet Ring</name>
 		<value>5</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Spellbook">
 		<name>Spellbook</name>
 		<type>G</type>
 		<magic/>
@@ -1236,7 +1245,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Thieves' Tools">
 		<name>Thieves' Tools</name>
 		<type>G</type>
 		<magic/>
@@ -1246,7 +1255,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Tinderbox">
 		<name>Tinderbox</name>
 		<type>G</type>
 		<magic/>
@@ -1256,7 +1265,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Torch">
 		<name>Torch</name>
 		<type>G</type>
 		<magic/>
@@ -1266,7 +1275,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Waterskin">
 		<name>Waterskin</name>
 		<type>G</type>
 		<magic/>
@@ -1276,7 +1285,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Whetstone">
 		<name>Whetstone</name>
 		<type>G</type>
 		<magic/>
@@ -1284,7 +1293,7 @@
 		<weight>1</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Chain Mail">
 		<name>Chain Mail</name>
 		<type>HA</type>
 		<magic/>
@@ -1297,7 +1306,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Ring Mail">
 		<name>Ring Mail</name>
 		<type>HA</type>
 		<magic/>
@@ -1309,7 +1318,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Splint Armor">
 		<name>Splint Armor</name>
 		<type>HA</type>
 		<magic/>
@@ -1322,7 +1331,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Leather Armor">
 		<name>Leather Armor</name>
 		<type>LA</type>
 		<magic/>
@@ -1333,7 +1342,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Battleaxe">
 		<name>Battleaxe</name>
 		<type>M</type>
 		<magic/>
@@ -1347,7 +1356,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Club">
 		<name>Club</name>
 		<type>M</type>
 		<magic/>
@@ -1360,7 +1369,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Dagger">
 		<name>Dagger</name>
 		<type>M</type>
 		<magic/>
@@ -1380,7 +1389,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Greataxe">
 		<name>Greataxe</name>
 		<type>M</type>
 		<magic/>
@@ -1395,7 +1404,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Greatclub">
 		<name>Greatclub</name>
 		<type>M</type>
 		<magic/>
@@ -1408,7 +1417,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Greatsword">
 		<name>Greatsword</name>
 		<type>M</type>
 		<magic/>
@@ -1423,7 +1432,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Handaxe">
 		<name>Handaxe</name>
 		<type>M</type>
 		<magic/>
@@ -1441,7 +1450,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Javelin">
 		<name>Javelin</name>
 		<type>M</type>
 		<magic/>
@@ -1457,7 +1466,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Light Hammer">
 		<name>Light Hammer</name>
 		<type>M</type>
 		<magic/>
@@ -1475,7 +1484,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Longsword">
 		<name>Longsword</name>
 		<type>M</type>
 		<magic/>
@@ -1489,7 +1498,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Mace">
 		<name>Mace</name>
 		<type>M</type>
 		<magic/>
@@ -1499,7 +1508,7 @@
 		<dmgType>B</dmgType>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Maul">
 		<name>Maul</name>
 		<type>M</type>
 		<magic/>
@@ -1514,7 +1523,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Morningstar">
 		<name>Morningstar</name>
 		<type>M</type>
 		<magic/>
@@ -1524,7 +1533,7 @@
 		<dmgType>P</dmgType>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Quarterstaff">
 		<name>Quarterstaff</name>
 		<type>M</type>
 		<magic/>
@@ -1538,7 +1547,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Rapier">
 		<name>Rapier</name>
 		<type>M</type>
 		<magic/>
@@ -1551,7 +1560,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Scimitar">
 		<name>Scimitar</name>
 		<type>M</type>
 		<magic/>
@@ -1566,7 +1575,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Shortsword">
 		<name>Shortsword</name>
 		<type>M</type>
 		<magic/>
@@ -1581,7 +1590,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Spear">
 		<name>Spear</name>
 		<type>M</type>
 		<magic/>
@@ -1600,7 +1609,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Trident">
 		<name>Trident</name>
 		<type>M</type>
 		<magic/>
@@ -1619,7 +1628,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Warhammer">
 		<name>Warhammer</name>
 		<type>M</type>
 		<magic/>
@@ -1633,7 +1642,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Breastplate">
 		<name>Breastplate</name>
 		<type>MA</type>
 		<magic/>
@@ -1644,7 +1653,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 145</text>
 	</item>
-	<item>
+	<item name="Chain Shirt">
 		<name>Chain Shirt</name>
 		<type>MA</type>
 		<magic/>
@@ -1655,7 +1664,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Hide Armor">
 		<name>Hide Armor</name>
 		<type>MA</type>
 		<magic/>
@@ -1666,7 +1675,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Scale Mail">
 		<name>Scale Mail</name>
 		<type>MA</type>
 		<magic/>
@@ -1678,7 +1687,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Shortbow">
 		<name>Shortbow</name>
 		<type>R</type>
 		<magic/>
@@ -1698,7 +1707,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Shield">
 		<name>Shield</name>
 		<type>S</type>
 		<magic/>
@@ -1709,7 +1718,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Map or Scroll Case">
 		<name>Map or Scroll Case</name>
 		<type>G</type>
 		<magic/>
@@ -1719,14 +1728,14 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Chalk (1 piece)">
 		<name>Chalk (1 piece)</name>
 		<type>G</type>
 		<magic/>
 		<value>0.01</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Common Clothes">
 		<name>Common Clothes</name>
 		<type>G</type>
 		<magic/>
@@ -1734,7 +1743,7 @@
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Fine Clothes">
 		<name>Fine Clothes</name>
 		<type>G</type>
 		<magic/>
@@ -1742,7 +1751,7 @@
 		<weight>6</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Hand Crossbow">
 		<name>Hand Crossbow</name>
 		<type>R</type>
 		<magic/>
@@ -1764,7 +1773,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Heavy Crossbow">
 		<name>Heavy Crossbow</name>
 		<type>R</type>
 		<magic/>
@@ -1788,7 +1797,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Light Crossbow">
 		<name>Light Crossbow</name>
 		<type>R</type>
 		<magic/>
@@ -1810,7 +1819,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Sledge Hammer">
 		<name>Sledge Hammer</name>
 		<value>2</value>
 		<type>G</type>
@@ -1818,7 +1827,7 @@
 		<weight>10</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Holy Symbol (Amulet)">
 		<name>Holy Symbol (Amulet)</name>
 		<type>G</type>
 		<magic/>
@@ -1830,7 +1839,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Holy Symbol (Emblem)">
 		<name>Holy Symbol (Emblem)</name>
 		<type>G</type>
 		<magic/>
@@ -1841,7 +1850,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Holy Symbol (Reliquary)">
 		<name>Holy Symbol (Reliquary)</name>
 		<type>G</type>
 		<magic/>
@@ -1853,14 +1862,14 @@
 		<text/>
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
-	<item>
+	<item name="Ink (1 ounce bottle)">
 		<name>Ink (1 ounce bottle)</name>
 		<value>10</value>
 		<type>G</type>
 		<magic/>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Bullseye Lantern">
 		<name>Bullseye Lantern</name>
 		<type>G</type>
 		<magic/>
@@ -1870,7 +1879,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Hooded Lantern">
 		<name>Hooded Lantern</name>
 		<type>G</type>
 		<magic/>
@@ -1880,7 +1889,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Longbow">
 		<name>Longbow</name>
 		<type>R</type>
 		<magic/>
@@ -1902,7 +1911,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 149</text>
 	</item>
-	<item>
+	<item name="Steel Mirror">
 		<name>Steel Mirror</name>
 		<type>G</type>
 		<magic/>
@@ -1910,7 +1919,7 @@
 		<weight>0.5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Oil (flask)">
 		<name>Oil (flask)</name>
 		<type>G</type>
 		<magic/>
@@ -1920,28 +1929,28 @@
 		<text/>
 		<text>Source: Player's Handbook, page 152</text>
 	</item>
-	<item>
+	<item name="Paper (one sheet)">
 		<name>Paper (one sheet)</name>
 		<type>G</type>
 		<magic/>
 		<value>0.2</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Parchment (one sheet)">
 		<name>Parchment (one sheet)</name>
 		<type>G</type>
 		<magic/>
 		<value>0.1</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Perfume (vial)">
 		<name>Perfume (vial)</name>
 		<type>G</type>
 		<magic/>
 		<value>5</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Miner's Pick">
 		<name>Miner's Pick</name>
 		<type>G</type>
 		<magic/>
@@ -1949,7 +1958,7 @@
 		<weight>10</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Playing Card Set">
 		<name>Playing Card Set</name>
 		<type>G</type>
 		<magic/>
@@ -1958,7 +1967,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 154</text>
 	</item>
-	<item>
+	<item name="Iron Pot">
 		<name>Iron Pot</name>
 		<type>G</type>
 		<magic/>
@@ -1968,7 +1977,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Rations (1 day)">
 		<name>Rations (1 day)</name>
 		<type>G</type>
 		<magic/>
@@ -1978,7 +1987,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Hempen Rope (50 feet)">
 		<name>Hempen Rope (50 feet)</name>
 		<type>G</type>
 		<magic/>
@@ -1988,7 +1997,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Silk Rope (50 feet)">
 		<name>Silk Rope (50 feet)</name>
 		<type>G</type>
 		<magic/>
@@ -1998,7 +2007,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Iron Spikes">
 		<name>Iron Spikes</name>
 		<type>G</type>
 		<magic/>
@@ -2006,7 +2015,7 @@
 		<weight>0.5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
-	<item>
+	<item name="Studded Leather Armor">
 		<name>Studded Leather Armor</name>
 		<type>LA</type>
 		<magic/>
@@ -2017,7 +2026,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 144</text>
 	</item>
-	<item>
+	<item name="Two-Person Tent">
 		<name>Two-Person Tent</name>
 		<type>G</type>
 		<magic/>
@@ -2027,7 +2036,7 @@
 		<text/>
 		<text>Source: Player's Handbook, page 153</text>
 	</item>
-	<item>
+	<item name="Warhammer">
 		<name>Warhammer</name>
 		<type>M</type>
 		<magic/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<compendium version="5">
-	<background>
+<compendium version="5" source="AI">
+	<background name="Celebrity Adventurer's Scion">
 		<name>Celebrity Adventurer's Scion</name>
 		<proficiency>Perception, Performance</proficiency>
 		<trait>
@@ -24,7 +24,8 @@
 			<text>You know and have met any number of powerful people across the land—and some of them might even remember you. You might be able to wrangle minor assistance from a major figure in the campaign, at the DM's discretion. Additionally, the common folk treat you with deference, and your heritage and the stories you tell might be good for a free meal or a place to sleep.</text>
 		</trait>
 		<trait>
-			<name>Personality Trait</name>
+			<name>Suggested Characteristics</name>
+			<text>Personality Trait</text>
 			<text>d8    Personality Trait</text>
 			<text>1     I will never get out of my famous parent's shadow, and no one else will ever understand this burden.</text>
 			<text>2     I've seen enough of the adventuring life to have realistic expectations and empathy for my peers.</text>
@@ -34,9 +35,8 @@
 			<text>6     No one can fake a smile, a handshake, or an interested nod like I can.</text>
 			<text>7     I've been part of the adventuring life since I was old enough to walk. Let me explain a few things to you.</text>
 			<text>8     No risk is too great for the rewards of defeating my enemies... and taking their stuff.</text>
-		</trait>
-		<trait>
-			<name>Ideal</name>
+			<text></text>
+			<text>Ideal</text>
 			<text>d6    Ideal</text>
 			<text>1     Power. The only way to get ahead in this world is to attain power and hold onto it with all your might. (Evil)</text>
 			<text>2     Peace. Those who can find or make peace in the chaotic world around them have everything. (Lawful)</text>
@@ -44,9 +44,8 @@
 			<text>4     Training. Hard work, sacrifice, and training lead to success—and eventually to perfection. (Any)</text>
 			<text>5     Anonymity. I want to be successful. And alone. With lots of guards and wards between me and everyone else in the world. (Any)</text>
 			<text>6     Wisdom. Material wealth is an illusion. Wisdom is the real treasure. (Good)</text>
-		</trait>
-		<trait>
-			<name>Bond</name>
+			<text></text>
+			<text>Bond</text>
 			<text>d6    Bond</text>
 			<text>1     While my parent was out adventuring, a servant raised me, and I care about that person more than anyone.</text>
 			<text>2     I consider every member of my parent's former adventuring party to be family.</text>
@@ -54,9 +53,8 @@
 			<text>4     My parent once brought a cursed magic item home. It is my obsession.</text>
 			<text>5     My childhood home holds all my best memories, and its upkeep is my primary concern.</text>
 			<text>6     Growing up, I had an imaginary friend I could always count on. That friend is still with me.</text>
-		</trait>
-		<trait>
-			<name>Flaw</name>
+			<text></text>
+			<text>Flaw</text>
 			<text>d6    Flaw</text>
 			<text>1     You don't know what I'm going through. You never can.</text>
 			<text>2     You. Fetch my cloak. And maybe rub my feet for a while.</text>
@@ -65,8 +63,12 @@
 			<text>5     My best days are behind me. Ahead lies only toil, pain, and death.</text>
 			<text>6     You have to look out for yourself. No one else will.</text>
 		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Acquisitions Incorporated</text>
+		</trait>
 	</background>
-	<background>
+	<background name="Failed Merchant">
 		<name>Failed Merchant</name>
 		<proficiency>Investigation, Persuasion</proficiency>
 		<trait>
@@ -90,7 +92,8 @@
 			<text>From your time as a merchant, you retain connections with wholesalers, suppliers, and other merchants and entrepreneurs. You can call upon these connections when looking for items or information.</text>
 		</trait>
 		<trait>
-			<name>Personality Trait</name>
+			<name>Suggested Characteristics</name>
+			<text>Personality Trait</text>
 			<text>d8    Personality Trait</text>
 			<text>1     I didn't have the cutthroat attitude necessary to succeed. I won't make that mistake again.</text>
 			<text>2     Even my competitors said I was affable and talented. Those traits should serve me well.</text>
@@ -100,9 +103,8 @@
 			<text>6     When I get an idea, I am single-minded in its execution—even if it's a terrible idea.</text>
 			<text>7     If I can be everyone's friend, I'll always have support.</text>
 			<text>8     My heart wasn't in being a merchant, so I failed. I'm not all that keen on adventuring either, but I need the money.</text>
-		</trait>
-		<trait>
-			<name>Ideal</name>
+			<text></text>
+			<text>Ideal</text>
 			<text>d6    Ideal</text>
 			<text>1     Survival. Where there's life, there's hope. If I remain alive and flexible, I can succeed. (Any)</text>
 			<text>2     Generosity. People helped me when I was down. Now that I'm back on my feet, I'll pay it forward. (Good)</text>
@@ -110,9 +112,8 @@
 			<text>4     Wealth. With enough coin, I can buy comfort, power, knowledge, and even eternal life. Nothing will stand between me and money. (Evil)</text>
 			<text>5     Stability. The mercantile trade was too chaotic for me. I need a nice stable profession, like adventuring. (Lawful)</text>
 			<text>6     Redemption. Too many people consider me a failure. So I need to prove them wrong. (Any)</text>
-		</trait>
-		<trait>
-			<name>Bond</name>
+			<text></text>
+			<text>Bond</text>
 			<text>d6    Bond</text>
 			<text>1     My family means everything to me. I failed them before, and I must not do so again.</text>
 			<text>2     My church provides a connection to my god, so I must ensure that it is protected and funded.</text>
@@ -120,9 +121,8 @@
 			<text>4     If I take care of my possessions, they'll take care of me. People come and go, but a weapon or a wand is something you can always rely on.</text>
 			<text>5     Although my business failed, the people of my community were kind to me. I'll do everything in my power to protect them.</text>
 			<text>6     I owe a dangerous person a lot of money. As long as they're happy, they let my debt rest unpaid.</text>
-		</trait>
-		<trait>
-			<name>Flaw</name>
+			<text></text>
+			<text>Flaw</text>
 			<text>d6    Flaw</text>
 			<text>1     Why spend gold here when you can buy the same thing for copper in the next town?</text>
 			<text>2     I must have the best of everything. Like, right now.</text>
@@ -131,8 +131,12 @@
 			<text>5     I find that most people are trustworthy. Hey, where's my belt pouch?</text>
 			<text>6     Nothing gets between me and danger except my fellow adventurers. So I'll be sure to put them there.</text>
 		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Acquisitions Incorporated</text>
+		</trait>
 	</background>
-	<background>
+	<background name="Gambler">
 		<name>Gambler</name>
 		<proficiency>Deception, Insight</proficiency>
 		<trait>
@@ -156,7 +160,8 @@
 			<text>Odds and probability are your bread and butter. During downtime activities that involve games of chance or figuring odds on the best plan, you can get a solid sense of which choice is likely the best one and which opportunities seem too good to be true, at the DM's determination.</text>
 		</trait>
 		<trait>
-			<name>Personality Trait</name>
+			<name>Suggested Characteristics</name>
+			<text>Personality Trait</text>
 			<text>d8    Personality Trait</text>
 			<text>1     I plan for every contingency. Leave nothing to chance!</text>
 			<text>2     Every copper wants to be a silver. Each bet is an opportunity.</text>
@@ -166,9 +171,8 @@
 			<text>6     I can't be sure who I've swindled, cheated, or defeated, so I keep a low profile in public.</text>
 			<text>7     The perfect bet is out there somewhere. I just have to keep my eyes open.</text>
 			<text>8     I have beaten my addiction, but all it takes is one weak moment and I'll be back at the card table.</text>
-		</trait>
-		<trait>
-			<name>Ideal</name>
+			<text></text>
+			<text>Ideal</text>
 			<text>d6    Ideal</text>
 			<text>1     Knowledge. Knowledge is power, and knowing which horse to back is the key to success. (Any)</text>
 			<text>2     Fate. Whatever happens is fated, regardless of any planning or striving. (Lawful)</text>
@@ -176,9 +180,8 @@
 			<text>4     Survival. You can't win if you're dead. Live to fight another day—when the odds might be more in your favor. (Any)</text>
 			<text>5     Reliability. When I was in need, I was able to rely on others. Now I want to be the one others rely on. (Good)</text>
 			<text>6     Victory. Winning is the real measure of a person. In the end, the only thing that matters is the scoreboard. (Evil)</text>
-		</trait>
-		<trait>
-			<name>Bond</name>
+			<text></text>
+			<text>Bond</text>
 			<text>d6    Bond</text>
 			<text>1     One person in particular owes me a lot of money, and I need to keep them alive if I want to be repaid.</text>
 			<text>2     I'm loyal to the friend or family member who taught me how to gamble.</text>
@@ -186,9 +189,8 @@
 			<text>4     A patron once fronted me money in exchange for a percentage of my winnings. I owe them a debt of gratitude. And a lot of cash.</text>
 			<text>5     A criminal syndicate I once played for isn't happy I left the game, and its enforcers are looking for me.</text>
 			<text>6     Urchins once helped me find marks for my games. Now I'm driven to help them escape the streets.</text>
-		</trait>
-		<trait>
-			<name>Flaw</name>
+			<text></text>
+			<text>Flaw</text>
 			<text>d6    Flaw</text>
 			<text>1     I don't know when to quit. Especially when everyone else is telling me to.</text>
 			<text>2     I save my sympathy for my friends, and I have no friends.</text>
@@ -197,8 +199,12 @@
 			<text>5     I was once a terribly flawed person, like you. Let me tell you how you can save yourself.</text>
 			<text>6     I'm a great gambler. I'm just bad at math and logic.</text>
 		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Acquisitions Incorporated</text>
+		</trait>
 	</background>
-	<background>
+	<background name="Plaintiff">
 		<name>Plaintiff</name>
 		<proficiency>Medicine, Persuasion</proficiency>
 		<trait>
@@ -222,7 +228,8 @@
 			<text>Your experience with your local legal system has given you a firm knowledge of the ins and outs of that system. Even when the law is not on your side, you can use complex terms like ex injuria jus non oritur and cogitationis poenam nemo patitur to frighten people into thinking you know what you're talking about. With common folks who don't know any better, you might be able to intimidate or deceive to get favors or special treatment.</text>
 		</trait>
 		<trait>
-			<name>Personality Trait</name>
+			<name>Suggested Characteristics</name>
+			<text>Personality Trait</text>
 			<text>d8    Personality Trait</text>
 			<text>1     I can't believe I have a chance to join Acquisitions Incorporated! The fun I'm going to have!</text>
 			<text>2     I've been wronged my entire life, and the world owes me.</text>
@@ -232,9 +239,8 @@
 			<text>6     My superiors are smarter and wiser than I am. I do what I'm told.</text>
 			<text>7     Never pass up the opportunity to make an easy bit of coin. That's my motto.</text>
 			<text>8     I'm beginning to feel like the gods are not on my side.</text>
-		</trait>
-		<trait>
-			<name>Ideal</name>
+			<text></text>
+			<text>Ideal</text>
 			<text>d6    Ideal</text>
 			<text>1     Justice. Those who break the law need to answer for their crimes. (Lawful)</text>
 			<text>2     Freedom. People must have the freedom to do what they want and pursue their dreams. (Chaotic)</text>
@@ -242,9 +248,8 @@
 			<text>4     Chaos. You're out of order! And you're out of order! This whole realm is out of order! (Chaotic)</text>
 			<text>5     Humility. I'm just a small part of a larger whole. So is everyone else. (Neutral)</text>
 			<text>6     Responsibility. We all have our roles to play. I'll hold up my end of the bargain. (Any)</text>
-		</trait>
-		<trait>
-			<name>Bond</name>
+			<text></text>
+			<text>Bond</text>
 			<text>d6    Bond</text>
 			<text>1     Others hurt in the same accident that hurt me are my new family. I'll make sure they're taken care of.</text>
 			<text>2     The rulers of this place were kind to me, and they have my lifelong devotion.</text>
@@ -252,9 +257,8 @@
 			<text>4     The only bond that matters is the one holding my money pouch to my belt.</text>
 			<text>5     The other new hires at Acquisitions Incorporated are my allies. We have each other's backs.</text>
 			<text>6     My legal counsel is my best friend. I owe all my forthcoming opportunities to their hard work.</text>
-		</trait>
-		<trait>
-			<name>Flaw</name>
+			<text></text>
+			<text>Flaw</text>
 			<text>d6    Flaw</text>
 			<text>1     The person who gains the most reward for the least effort wins.</text>
 			<text>2     Three magic beans for just one cow? What a deal!</text>
@@ -263,8 +267,12 @@
 			<text>5     Until my songs are sung in every tavern in this realm, I won't be satisfied.</text>
 			<text>6     If people find me unpleasant, that's their problem.</text>
 		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Acquisitions Incorporated</text>
+		</trait>
 	</background>
-	<background>
+	<background name="Rival Intern">
 		<name>Rival Intern</name>
 		<proficiency>History, Investigation</proficiency>
 		<trait>
@@ -288,7 +296,9 @@
 			<text>You have connections to your previous employer or other groups you dealt with during your previous employment. You can communicate with your contacts, gaining information at the DM's discretion.</text>
 		</trait>
 		<trait>
-			<name>Personality Trait</name>
+			<name>Suggested Characteristics</name>
+			<text></text>
+			<text>Personality Trait</text>
 			<text>d8    Personality Trait</text>
 			<text>1     My previous employer didn't respect me, and now I'll do whatever I can to gain respect.</text>
 			<text>2     The job is important, but the relationships I forge with my coworkers are even more so.</text>
@@ -298,9 +308,8 @@
 			<text>6     This company is so much better than my previous one. It will always be the best until they stop paying me.</text>
 			<text>7     I know this dagger belongs to the company, but I'm sure they won't miss it. Or this flask. Or this armor.</text>
 			<text>8     It's only a matter of time before I'll be upper management. I just have to kiss up to my superiors and kick down those beneath me.</text>
-		</trait>
-		<trait>
-			<name>Ideal</name>
+			<text></text>
+			<text>Ideal</text>
 			<text>d6    Ideal</text>
 			<text>1     Advancement. Money and power can be gained more easily within an organization. I plan to gain as much as possible. (Evil)</text>
 			<text>2     Structure. Life goes much more smoothly when you follow the rules and work within a system. (Lawful)</text>
@@ -308,9 +317,8 @@
 			<text>4     Justice. I can't stand people being treated unjustly. I do whatever it takes to stop injustice and those who flout the law. (Lawful)</text>
 			<text>5     Pleasure. What's the use of working hard and making money if you can't enjoy the finer things in life? (Any)</text>
 			<text>6     Power. Money is fine, but real power means never having to say you're sorry. (Evil)</text>
-		</trait>
-		<trait>
-			<name>Bond</name>
+			<text></text>
+			<text>Bond</text>
 			<text>d6    Bond</text>
 			<text>1     I have a family member in need. I consider them in everything I do.</text>
 			<text>2     My peers keep me grounded.</text>
@@ -318,9 +326,8 @@
 			<text>4     A childhood mentor put me on my current path. If I succeed, I want to repay that mentor in some way.</text>
 			<text>5     I value an oath of loyalty I took to a group of friends over everything else in my life.</text>
 			<text>6     Although I don't get along well with people, my pet means the world to me.</text>
-		</trait>
-		<trait>
-			<name>Flaw</name>
+			<text></text>
+			<text>Flaw</text>
 			<text>d6    Flaw</text>
 			<text>1     I know what's best. Trust me.</text>
 			<text>2     Flaw? I have no flaws. I'm perfect.</text>
@@ -328,6 +335,10 @@
 			<text>4     If anything goes wrong, it must be someone else's fault. Let me explain that in detail.</text>
 			<text>5     There's right and there's wrong, and there's no gray area in between.</text>
 			<text>6     Our superiors might not like what you're doing. I'm going to have to put that in my report.</text>
+		</trait>
+		<trait>
+			<name>Source</name>
+			<text>Acquisitions Incorporated</text>
 		</trait>
 	</background>
 </compendium>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="XGtE">
 	<subclass baseclass="Rogue">
 		<name>Rogue (Scout)</name>
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Roguish Archetype: Scout</name>
-				<text>You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter – these are just a few of the roles that Scouts assume as they range the world.</text>
+				<text>You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter - these are just a few of the roles that Scouts assume as they range the world.</text>
+				<text></text>
+				<text>Source: Xanathar's Guide to Everything</text>
 			</feature>
 			<feature optional="YES">
 				<name>Scout: Skirmisher</name>
@@ -15,8 +17,8 @@
 				<name>Scout: Survivalist</name>
 				<text>When you choose this archetype at 3rd level, you gain proficiency in the Nature and Survival skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.</text>
 				<proficiency>Nature, Survival</proficiency>
-				<modifier category="skills">Nature +PROF +PROF</modifier>
-				<modifier category="skills">Survival +PROF +PROF</modifier>
+				<modifier category="skills">Nature +PROF</modifier>
+				<modifier category="skills">Survival +PROF</modifier>
 			</feature>
 		</autolevel>
 		<autolevel level="9">

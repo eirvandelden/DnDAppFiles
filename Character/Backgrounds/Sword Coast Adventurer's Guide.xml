@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<background>
+<compendium version="5" source="SCAG">
+	<background name="City Watch">
 		<name>City Watch</name>
 		<proficiency>Athletics, Insight</proficiency>
 		<trait>
@@ -21,8 +21,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 145</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I'm always polite and respectful.</text>
+            <text>2     I'm haunted by memories of war. I can't get the images of violence out of my mind.</text>
+            <text>3     I've lost too many friends, and I'm slow to make new ones.</text>
+            <text>4     I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.</text>
+            <text>5     I can stare down a hell hound without flinching.</text>
+            <text>6     I enjoy being strong and like breaking things.</text>
+            <text>7     I have a crude sense of humor.</text>
+            <text>8     I face problems head-on. A simple, direct solution is the best path to success.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Greater Good. Our lot is to lay down our lives in defense of others. (Good)</text>
+            <text>2     Responsibility. I do what I must and obey just authority. (Lawful)</text>
+            <text>3     Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)</text>
+            <text>4     Might. In life as in war, the stronger force wins. (Evil)</text>
+            <text>5     Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)</text>
+            <text>6     Nation. My city, nation, or people are all that matter. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I would still lay down my life for the people I served with.</text>
+            <text>2     Someone saved my life on the battlefield. To this day, I will never leave a friend behind.</text>
+            <text>3     My honor is my life.</text>
+            <text>4     I'll never forget the crushing defeat my company suffered or the enemies who dealt it.</text>
+            <text>5     Those who fight beside me are those worth dying for.</text>
+            <text>6     I fight for those who cannot fight for themselves.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     The monstrous enemy we faced in battle still leaves me quivering with fear.</text>
+            <text>2     I have little respect for anyone who is not a proven warrior.</text>
+            <text>3     I made a terrible mistake in battle that cost many lives—and I would do anything to keep that mistake secret.</text>
+            <text>4     My hatred of my enemies is blinding and unreasoning.</text>
+            <text>5     I obey the law, even if the law causes misery.</text>
+            <text>6     I'd rather eat my armor than admit when I'm wrong.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Clan Crafter">
 		<name>Clan Crafter</name>
 		<proficiency>History, Insight</proficiency>
 		<trait>
@@ -47,8 +91,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 145</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I believe that anything worth doing is worth doing right. I can't help it—I'm a perfectionist.</text>
+            <text>2     I'm a snob who looks down on those who can't appreciate fine art.</text>
+            <text>3     I always want to know how things work and what makes people tick.</text>
+            <text>4     I'm full of witty aphorisms and have a proverb for every occasion.</text>
+            <text>5     I'm rude to people who lack my commitment to hard work and fair play.</text>
+            <text>6     I like to talk at length about my profession.</text>
+            <text>7     I don't part with my money easily and will haggle tirelessly to get the best deal possible.</text>
+            <text>8     I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)</text>
+            <text>2     Generosity. My talents were given to me so that I could use them to benefit the world. (Good)</text>
+            <text>3     Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)</text>
+            <text>4     Greed. I'm only in it for the money. (Evil)</text>
+            <text>5     People. I'm committed to the people I care about, not to ideals. (Neutral)</text>
+            <text>6     Aspiration. I work hard to be the best there is at my craft. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     The workshop where I learned my trade is the most important place in the world to me.</text>
+            <text>2     I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.</text>
+            <text>3     I owe my guild a great debt for forging me into the person I am today.</text>
+            <text>4     I pursue wealth to secure someone's love.</text>
+            <text>5     One day I will return to my guild and prove that I am the greatest artisan of them all.</text>
+            <text>6     I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I'll do anything to get my hands on something rare or priceless.</text>
+            <text>2     I'm quick to assume that someone is trying to cheat me.</text>
+            <text>3     No one must ever learn that I once stole money from guild coffers.</text>
+            <text>4     I'm never satisfied with what I have—I always want more.</text>
+            <text>5     I would kill to acquire a noble title.</text>
+            <text>6     I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Cloistered Scholar">
 		<name>Cloistered Scholar</name>
 		<proficiency>History</proficiency>
 		<trait>
@@ -71,8 +159,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 146</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I use polysyllabic words that convey the impression of great erudition.</text>
+            <text>2     I've read every book in the world's greatest libraries—or I like to boast that I have.</text>
+            <text>3     I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.</text>
+            <text>4     There's nothing I like more than a good mystery.</text>
+            <text>5     I'm willing to listen to every side of an argument before I make my own judgment.</text>
+            <text>6     I... speak... slowly... when talking... to idiots,... which... almost... everyone... is... compared... to me.</text>
+            <text>7     I am horribly, horribly awkward in social situations.</text>
+            <text>8     I'm convinced that people are always trying to steal my secrets.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Knowledge. The path to power and self-improvement is through knowledge. (Neutral)</text>
+            <text>2     Beauty. What is beautiful points us beyond itself toward what is true. (Good)</text>
+            <text>3     Logic. Emotions must not cloud our logical thinking. (Lawful)</text>
+            <text>4     No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)</text>
+            <text>5     Power. Knowledge is the path to power and domination. (Evil)</text>
+            <text>6     Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     It is my duty to protect my students.</text>
+            <text>2     I have an ancient text that holds terrible secrets that must not fall into the wrong hands.</text>
+            <text>3     I work to preserve a library, university, scriptorium, or monastery.</text>
+            <text>4     My life's work is a series of tomes related to a specific field of lore.</text>
+            <text>5     I've been searching my whole life for the answer to a certain question.</text>
+            <text>6     I sold my soul for knowledge. I hope to do great deeds and win it back.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I am easily distracted by the promise of information.</text>
+            <text>2     Most people scream and run when they see a demon. I stop and take notes on its anatomy.</text>
+            <text>3     Unlocking an ancient mystery is worth the price of a civilization.</text>
+            <text>4     I overlook obvious solutions in favor of complicated ones.</text>
+            <text>5     I speak without really thinking through my words, invariably insulting others.</text>
+            <text>6     I can't keep a secret to save my life, or anyone else's.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Courtier">
 		<name>Courtier</name>
 		<proficiency>Insight, Persuasion</proficiency>
 		<trait>
@@ -93,8 +225,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 146</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I believe that anything worth doing is worth doing right. I can't help it—I'm a perfectionist.</text>
+            <text>2     I'm a snob who looks down on those who can't appreciate fine art.</text>
+            <text>3     I always want to know how things work and what makes people tick.</text>
+            <text>4     I'm full of witty aphorisms and have a proverb for every occasion.</text>
+            <text>5     I'm rude to people who lack my commitment to hard work and fair play.</text>
+            <text>6     I like to talk at length about my profession.</text>
+            <text>7     I don't part with my money easily and will haggle tirelessly to get the best deal possible.</text>
+            <text>8     I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)</text>
+            <text>2     Generosity. My talents were given to me so that I could use them to benefit the world. (Good)</text>
+            <text>3     Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)</text>
+            <text>4     Greed. I'm only in it for the money. (Evil)</text>
+            <text>5     People. I'm committed to the people I care about, not to ideals. (Neutral)</text>
+            <text>6     Aspiration. I work hard to be the best there is at my craft. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     The workshop where I learned my trade is the most important place in the world to me.</text>
+            <text>2     I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.</text>
+            <text>3     I owe my guild a great debt for forging me into the person I am today.</text>
+            <text>4     I pursue wealth to secure someone's love.</text>
+            <text>5     One day I will return to my guild and prove that I am the greatest artisan of them all.</text>
+            <text>6     I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I'll do anything to get my hands on something rare or priceless.</text>
+            <text>2     I'm quick to assume that someone is trying to cheat me.</text>
+            <text>3     No one must ever learn that I once stole money from guild coffers.</text>
+            <text>4     I'm never satisfied with what I have—I always want more.</text>
+            <text>5     I would kill to acquire a noble title.</text>
+            <text>6     I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Faction Agent">
 		<name>Faction Agent</name>
 		<proficiency>Insight</proficiency>
 		<trait>
@@ -115,8 +291,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 147</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.</text>
+            <text>2     I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.</text>
+            <text>3     I see omens in every event and action. The gods try to speak to us, we just need to listen.</text>
+            <text>4     Nothing can shake my optimistic attitude.</text>
+            <text>5     I quote (or misquote) sacred texts and proverbs in almost every situation.</text>
+            <text>6     I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.</text>
+            <text>7     I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.</text>
+            <text>8     I've spent so long in the temple that I have little practical experience dealing with people in the outside world.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)</text>
+            <text>2     Charity. I always try to help those in need, no matter what the personal cost. (Good)</text>
+            <text>3     Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)</text>
+            <text>4     Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)</text>
+            <text>5     Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)</text>
+            <text>6     Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I would die to recover an ancient relic of my faith that was lost long ago.</text>
+            <text>2     I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.</text>
+            <text>3     I owe my life to the priest who took me in when my parents died.</text>
+            <text>4     Everything I do is for the common people.</text>
+            <text>5     I will do anything to protect the temple where I served.</text>
+            <text>6     I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I judge others harshly, and myself even more severely.</text>
+            <text>2     I put too much trust in those who wield power within my temple's hierarchy.</text>
+            <text>3     My piety sometimes leads me to blindly trust those that profess faith in my god.</text>
+            <text>4     I am inflexible in my thinking.</text>
+            <text>5     I am suspicious of strangers and expect the worst of them.</text>
+            <text>6     Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Far Traveler">
 		<name>Far Traveler</name>
 		<proficiency>Insight, Perception</proficiency>
 		<trait>
@@ -142,8 +362,50 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 148</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d6    Personality Trait</text>
+            <text>1     I have different assumptions from those around me concerning personal space, blithely invading others' space in innocence, or reacting to ignorant invasion of my own.</text>
+            <text>2     I have my own ideas about what is and is not food, and I find the eating habits of those around me fascinating, confusing, or revolting.</text>
+            <text>3     I have a strong code of honor or sense of propriety that others don't comprehend.</text>
+            <text>4     I express affection or contempt in ways that are unfamiliar to others.</text>
+            <text>5     I honor my deities through practices that are foreign to this land.</text>
+            <text>6     I begin or end my day with small traditional rituals that are unfamiliar to those around me.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Open. I have much to learn from the kindly folk I meet along my way. (Good)</text>
+            <text>2     Reserved. As someone new to these strange lands, I am cautious and respectful in my dealings. (Lawful)</text>
+            <text>3     Adventure. I'm far from home, and everything is strange and wonderful! (Chaotic)</text>
+            <text>4     Cunning. Though I may not know their ways, neither do they know mine, which can be to my advantage. (Evil)</text>
+            <text>5     Inquisitive. Everything is new, but I have a thirst to learn. (Neutral)</text>
+            <text>6     Suspicious. I must be careful, for I have no way of telling friend from foe here. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     So long as I have this token from my homeland, I can face any adversity in this strange land.</text>
+            <text>2     The gods of my people are a comfort to me so far away from home.</text>
+            <text>3     I hold no greater cause than my service to my people.</text>
+            <text>4     My freedom is my most precious possession. I'll never let anyone take it from me again.</text>
+            <text>5     I'm fascinated by the beauty and wonder of this new land.</text>
+            <text>6     Though I had no choice, I lament having to leave my loved one(s) behind. I hope to see them again one day.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I am secretly (or not so secretly) convinced of the superiority of my own culture over that of this foreign land.</text>
+            <text>2     I pretend not to understand the local language in order to avoid interactions I would rather not have.</text>
+            <text>3     I have a weakness for the new intoxicants and other pleasures of this land.</text>
+            <text>4     I don't take kindly to some of the actions and motivations of the people of this land, because these folks are different from me.</text>
+            <text>5     I consider the adherents of other gods to be deluded innocents at best, or ignorant fools at worst.</text>
+            <text>6     I have a weakness for the exotic beauty of the people of these lands.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Inheritor">
 		<name>Inheritor</name>
 		<proficiency>Survival</proficiency>
 		<trait>
@@ -179,9 +441,53 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 150</text>
 		</trait>
-	</background>
-	<background>
-		<name>Investigator</name>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I judge people by their actions, not their words.</text>
+            <text>2     If someone is in trouble, I'm always ready to lend help.</text>
+            <text>3     When I set my mind to something, I follow through no matter what gets in my way.</text>
+            <text>4     I have a strong sense of fair play and always try to find the most equitable solution to arguments.</text>
+            <text>5     I'm confident in my own abilities and do what I can to instill confidence in others.</text>
+            <text>6     Thinking is for other people. I prefer action.</text>
+            <text>7     I misuse long words in an attempt to sound smarter.</text>
+            <text>8     I get bored easily. When am I going to get on with my destiny?</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Respect. People deserve to be treated with dignity and respect. (Good)</text>
+            <text>2     Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)</text>
+            <text>3     Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)</text>
+            <text>4     Might. If I become strong, I can take what I want—what I deserve. (Evil)</text>
+            <text>5     Sincerity. There's no good in pretending to be something I'm not. (Neutral)</text>
+            <text>6     Destiny. Nothing and no one can steer me away from my higher calling. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I have a family, but I have no idea where they are. One day, I hope to see them again.</text>
+            <text>2     I worked the land, I love the land, and I will protect the land.</text>
+            <text>3     A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.</text>
+            <text>4     My tools are symbols of my past life, and I carry them so that I will never forget my roots.</text>
+            <text>5     I protect those who cannot protect themselves.</text>
+            <text>6     I wish my childhood sweetheart had come with me to pursue my destiny.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     The tyrant who rules my land will stop at nothing to see me killed.</text>
+            <text>2     I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.</text>
+            <text>3     The people who knew me when I was young know my shameful secret, so I can never go home again.</text>
+            <text>4     I have a weakness for the vices of the city, especially hard drink.</text>
+            <text>5     Secretly, I believe that things would be better if I were a tyrant lording over the land.</text>
+            <text>6     I have trouble trusting in my allies.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Investigator (Variant City Watch)">
+		<name>Investigator (Variant City Watch)</name>
 		<proficiency>Insight, Investigation</proficiency>
 		<trait>
 			<name>Skill Proficiencies</name>
@@ -201,8 +507,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 145</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I'm always polite and respectful.</text>
+            <text>2     I'm haunted by memories of war. I can't get the images of violence out of my mind.</text>
+            <text>3     I've lost too many friends, and I'm slow to make new ones.</text>
+            <text>4     I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.</text>
+            <text>5     I can stare down a hell hound without flinching.</text>
+            <text>6     I enjoy being strong and like breaking things.</text>
+            <text>7     I have a crude sense of humor.</text>
+            <text>8     I face problems head-on. A simple, direct solution is the best path to success.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Greater Good. Our lot is to lay down our lives in defense of others. (Good)</text>
+            <text>2     Responsibility. I do what I must and obey just authority. (Lawful)</text>
+            <text>3     Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)</text>
+            <text>4     Might. In life as in war, the stronger force wins. (Evil)</text>
+            <text>5     Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)</text>
+            <text>6     Nation. My city, nation, or people are all that matter. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I would still lay down my life for the people I served with.</text>
+            <text>2     Someone saved my life on the battlefield. To this day, I will never leave a friend behind.</text>
+            <text>3     My honor is my life.</text>
+            <text>4     I'll never forget the crushing defeat my company suffered or the enemies who dealt it.</text>
+            <text>5     Those who fight beside me are those worth dying for.</text>
+            <text>6     I fight for those who cannot fight for themselves.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     The monstrous enemy we faced in battle still leaves me quivering with fear.</text>
+            <text>2     I have little respect for anyone who is not a proven warrior.</text>
+            <text>3     I made a terrible mistake in battle that cost many lives—and I would do anything to keep that mistake secret.</text>
+            <text>4     My hatred of my enemies is blinding and unreasoning.</text>
+            <text>5     I obey the law, even if the law causes misery.</text>
+            <text>6     I'd rather eat my armor than admit when I'm wrong.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Knight of the Order">
 		<name>Knight of the Order</name>
 		<proficiency>Persuasion</proficiency>
 		<trait>
@@ -228,8 +578,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 151</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I judge people by their actions, not their words.</text>
+            <text>2     If someone is in trouble, I'm always ready to lend help.</text>
+            <text>3     When I set my mind to something, I follow through no matter what gets in my way.</text>
+            <text>4     I have a strong sense of fair play and always try to find the most equitable solution to arguments.</text>
+            <text>5     I'm confident in my own abilities and do what I can to instill confidence in others.</text>
+            <text>6     Thinking is for other people. I prefer action.</text>
+            <text>7     I misuse long words in an attempt to sound smarter.</text>
+            <text>8     I get bored easily. When am I going to get on with my destiny?</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Respect. People deserve to be treated with dignity and respect. (Good)</text>
+            <text>2     Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)</text>
+            <text>3     Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)</text>
+            <text>4     Might. If I become strong, I can take what I want—what I deserve. (Evil)</text>
+            <text>5     Sincerity. There's no good in pretending to be something I'm not. (Neutral)</text>
+            <text>6     Destiny. Nothing and no one can steer me away from my higher calling. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I have a family, but I have no idea where they are. One day, I hope to see them again.</text>
+            <text>2     I worked the land, I love the land, and I will protect the land.</text>
+            <text>3     A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.</text>
+            <text>4     My tools are symbols of my past life, and I carry them so that I will never forget my roots.</text>
+            <text>5     I protect those who cannot protect themselves.</text>
+            <text>6     I wish my childhood sweetheart had come with me to pursue my destiny.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     The tyrant who rules my land will stop at nothing to see me killed.</text>
+            <text>2     I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.</text>
+            <text>3     The people who knew me when I was young know my shameful secret, so I can never go home again.</text>
+            <text>4     I have a weakness for the vices of the city, especially hard drink.</text>
+            <text>5     Secretly, I believe that things would be better if I were a tyrant lording over the land.</text>
+            <text>6     I have trouble trusting in my allies.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Mercenary Veteran">
 		<name>Mercenary Veteran</name>
 		<proficiency>Athletics, Persuasion</proficiency>
 		<trait>
@@ -250,8 +644,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 152</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I'm always polite and respectful.</text>
+            <text>2     I'm haunted by memories of war. I can't get the images of violence out of my mind.</text>
+            <text>3     I've lost too many friends, and I'm slow to make new ones.</text>
+            <text>4     I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.</text>
+            <text>5     I can stare down a hell hound without flinching.</text>
+            <text>6     I enjoy being strong and like breaking things.</text>
+            <text>7     I have a crude sense of humor.</text>
+            <text>8     I face problems head-on. A simple, direct solution is the best path to success.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Greater Good. Our lot is to lay down our lives in defense of others. (Good)</text>
+            <text>2     Responsibility. I do what I must and obey just authority. (Lawful)</text>
+            <text>3     Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)</text>
+            <text>4     Might. In life as in war, the stronger force wins. (Evil)</text>
+            <text>5     Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)</text>
+            <text>6     Nation. My city, nation, or people are all that matter. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I would still lay down my life for the people I served with.</text>
+            <text>2     Someone saved my life on the battlefield. To this day, I will never leave a friend behind.</text>
+            <text>3     My honor is my life.</text>
+            <text>4     I'll never forget the crushing defeat my company suffered or the enemies who dealt it.</text>
+            <text>5     Those who fight beside me are those worth dying for.</text>
+            <text>6     I fight for those who cannot fight for themselves.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     The monstrous enemy we faced in battle still leaves me quivering with fear.</text>
+            <text>2     I have little respect for anyone who is not a proven warrior.</text>
+            <text>3     I made a terrible mistake in battle that cost many lives—and I would do anything to keep that mistake secret.</text>
+            <text>4     My hatred of my enemies is blinding and unreasoning.</text>
+            <text>5     I obey the law, even if the law causes misery.</text>
+            <text>6     I'd rather eat my armor than admit when I'm wrong.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Urban Bounty Hunter">
 		<name>Urban Bounty Hunter</name>
 		<trait>
 			<name>Skill Proficiencies</name>
@@ -271,8 +709,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 153</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     I always have a plan for when things go wrong.</text>
+            <text>2     I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.</text>
+            <text>3     The first thing I do in a new place is note the locations of everything valuable—or where such things could be hidden.</text>
+            <text>4     I would rather make a new friend than a new enemy.</text>
+            <text>5     I am incredibly slow to trust. Those who seem the fairest often have the most to hide.</text>
+            <text>6     I don't pay attention to the risks in a situation. Never tell me the odds.</text>
+            <text>7     The best way to get me to do something is to tell me I can't do it.</text>
+            <text>8     I blow up at the slightest insult.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Honor. I don't steal from others in the trade. (Lawful)</text>
+            <text>2     Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)</text>
+            <text>3     Charity. I steal from the wealthy so that I can help people in need. (Good)</text>
+            <text>4     Greed. I will do whatever it takes to become wealthy. (Evil)</text>
+            <text>5     People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)</text>
+            <text>6     Redemption. There's a spark of good in everyone. (Good)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I'm trying to pay off an old debt I owe to a generous benefactor.</text>
+            <text>2     My ill-gotten gains go to support my family.</text>
+            <text>3     Something important was taken from me, and I aim to steal it back.</text>
+            <text>4     I will become the greatest thief that ever lived.</text>
+            <text>5     I'm guilty of a terrible crime. I hope I can redeem myself for it.</text>
+            <text>6     Someone I loved died because of a mistake I made. That will never happen again.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     When I see something valuable, I can't think about anything but how to steal it.</text>
+            <text>2     When faced with a choice between money and my friends, I usually choose the money.</text>
+            <text>3     If there's a plan, I'll forget it. If I don't forget it, I'll ignore it.</text>
+            <text>4     I have a 'tell' that reveals when I'm lying.</text>
+            <text>5     I turn tail and run when things look bad.</text>
+            <text>6     An innocent person is in prison for a crime that I committed. I'm okay with that.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Uthgardt Tribe Member">
 		<name>Uthgardt Tribe Member</name>
 		<proficiency>Athletics, Survival</proficiency>
 		<trait>
@@ -298,8 +780,52 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 153</text>
 		</trait>
-	</background>
-	<background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1      I'm driven by a wanderlust that led me away from home.</text>
+            <text>2     I watch over my friends as if they were a litter of newborn pups.</text>
+            <text>3     I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to.</text>
+            <text>4     I have a lesson for every situation, drawn from observing nature.</text>
+            <text>5     I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.</text>
+            <text>6     I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.</text>
+            <text>7     I feel far more comfortable around animals than people.</text>
+            <text>8     I was, in fact, raised by wolves.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)</text>
+            <text>2     Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)</text>
+            <text>3     Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)</text>
+            <text>4     Might. The strongest are meant to rule. (Evil)</text>
+            <text>5     Nature. The natural world is more important than all the constructs of civilization. (Neutral)</text>
+            <text>6     Glory. I must earn glory in battle, for myself and my clan. (Any)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     My family, clan, or tribe is the most important thing in my life, even when they are far from me.</text>
+            <text>2     An injury to the unspoiled wilderness of my home is an injury to me.</text>
+            <text>3     I will bring terrible wrath down on the evildoers who destroyed my homeland.</text>
+            <text>4     I am the last of my tribe, and it is up to me to ensure their names enter legend.</text>
+            <text>5     I suffer awful visions of a coming disaster and will do anything to prevent it.</text>
+            <text>6     It is my duty to provide children to sustain my tribe.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I am too enamored of ale, wine, and other intoxicants.</text>
+            <text>2     There's no room for caution in a life lived to the fullest.</text>
+            <text>3     I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.</text>
+            <text>4     I am slow to trust members of other races, tribes, and societies.</text>
+            <text>5      Violence is my answer to almost any challenge.</text>
+            <text>6      Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
+	<background name="Waterdhavian Noble">
 		<name>Waterdhavian Noble</name>
 		<proficiency>History, Persuasion</proficiency>
 		<trait>
@@ -325,5 +851,49 @@
 			<text/>
 			<text>Source: Sword Coast Adventurer's Guide, page 154</text>
 		</trait>
-	</background>
+        <trait>
+            <name>Suggested Characteristics</name>
+            <text>Personality Trait</text>
+            <text>d8    Personality Trait</text>
+            <text>1     My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.</text>
+            <text>2     The common folk love me for my kindness and generosity.</text>
+            <text>3     No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.</text>
+            <text>4     I take great pains to always look my best and follow the latest fashions.</text>
+            <text>5     I don't like to get my hands dirty, and I won't be caught dead in unsuitable accommodations.</text>
+            <text>6     Despite my noble birth, I do not place myself above other folk. We all have the same blood.</text>
+            <text>7     My favor, once lost, is lost forever.</text>
+            <text>8     If you do me an injury, I will crush you, ruin your name, and salt your fields.</text>
+            <text></text>
+            <text>Ideal</text>
+            <text>d6    Ideal</text>
+            <text>1     Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity. (Good)</text>
+            <text>2     Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine. (Lawful)</text>
+            <text>3     Independence. I must prove that I can handle myself without coddling from my family. (Chaotic)</text>
+            <text>4     Power. If I can attain more power, no one will tell me what to do. (Evil)</text>
+            <text>5     Family. Blood runs thicker than water. (Any)</text>
+            <text>6     Noble Obligation. It is my duty to protect and care for the people beneath me. (Good)</text>
+            <text></text>
+            <text>Bond</text>
+            <text>d6    Bond</text>
+            <text>1     I will face any challenge to win the approval of my family.</text>
+            <text>2     My house's alliance with another noble family must be sustained at all costs.</text>
+            <text>3     Nothing is more important than the other members of my family.</text>
+            <text>4     I am in love with the heir of a family that my family despises.</text>
+            <text>5     My loyalty to my sovereign is unwavering.</text>
+            <text>6     The common folk must see me as a hero of the people.</text>
+            <text></text>
+            <text>Flaw</text>
+            <text>d6    Flaw</text>
+            <text>1     I secretly believe that everyone is beneath me.</text>
+            <text>2     I hide a truly scandalous secret that could ruin my family forever.</text>
+            <text>3     I too often hear veiled insults and threats in every word addressed to me, and I'm quick to anger.</text>
+            <text>4     I have an insatiable desire for carnal pleasures.</text>
+            <text>5     In fact, the world does revolve around me.</text>
+            <text>6     By my words and actions, I often bring shame to my family.</text>
+        </trait>
+        <trait>
+            <name>Source</name>
+            <text>Sword Coast Adventurer's Guide</text>
+        </trait>
+    </background>
 </compendium>

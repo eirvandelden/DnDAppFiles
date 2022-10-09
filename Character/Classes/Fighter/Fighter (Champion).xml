@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" source="PHB">
 	<subclass baseclass="Fighter">
 		<name>Fighter (Champion)</name>
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Martial Archetype: Champion</name>
 				<text>The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.</text>
+				<text></text>
+				<text>Source: Player's Handbook</text>
 			</feature>
 			<feature optional="YES">
 				<name>Champion: Improved Critical</name>
@@ -41,8 +43,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Fighting Style: Great Weapon Fighting</name>
-				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
-				</text>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Fighting Style: Protection</name>

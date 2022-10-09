@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" HB="HB">
+<compendium version="5" HB="HB" source="XLNtEE">
 	<subclass baseclass="Rogue">
 		<name>Rogue (Divine Herald)</name>
+	<!-- Spells -->
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="3">
 			<slots optional="YES">3,2,0,0,0</slots>
@@ -57,10 +58,13 @@
 		<autolevel level="20">
 			<slots optional="YES">4,4,3,3,1</slots>
 		</autolevel>
+	<!-- Base Items -->
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Roguish Archetype: Divine Herald</name>
 				<text>Your strict upbringing has made you an unwavering and swift agent of divine retribution. You don't simply exist to serve the priests of your order, you have a higher purpose and calling, to alleviate the world of false prophets and heretics.</text>
+				<text></text>
+				<text>Source: Xanathar's Lost Notes to Everything Else</text>
 			</feature>
 			<feature optional="YES">
 				<name>Divine Herald: Spellcasting</name>
@@ -81,7 +85,7 @@
 				<text>	Additionally, when you hit a creature with a weapon attack on your turn, you can instill doubt in your target, causing it to question its convictions. The target must make a successful Wisdom saving throw or suffer disadvantage on the next attack it makes within 1 minute. You can use this feature an amount of times equal to your Wisdom modifier (minimum of 1). You regain all uses after a long rest.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Dogma Votary</name>
+				<name>Divine Herald: Dogma Votary</name>
 				<text>At 3rd level, your studies have given you a wide knowledge of religion and its impact on life. Whenever you make an Intelligence (History or Religion) check to recall information about the gods or their worshipers, you are considered proficient in these skills and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</text>
 			</feature>
 		</autolevel>
