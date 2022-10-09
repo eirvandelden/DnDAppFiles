@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-  <monster>
+<compendium version="5" source="RotF">
+  <monster name="Aruk Thundercaller Thuunlakalaga">
     <name>Aruk Thundercaller Thuunlakalaga</name>
     <size>M</size>
     <type>humanoid (goliath)</type>
@@ -53,7 +53,7 @@
       <attack>Stone's Endurance||1d12+3</attack>
     </reaction>
   </monster>
-  <monster>
+  <monster name="Auril (First Form)">
     <name>Auril (First Form)</name>
     <size>M</size>
     <type>monstrosity</type>
@@ -138,7 +138,7 @@
       <text>Auril uses Touch of Frost.</text>
     </legendary>
   </monster>
-  <monster>
+  <monster name="Auril (Second Form)">
     <name>Auril (Second Form)</name>
     <size>L</size>
     <type>elemental</type>
@@ -226,7 +226,7 @@
       <attack>Splinter||3d8</attack>
     </legendary>
   </monster>
-  <monster>
+  <monster name="Auril (Third Form)">
     <name>Auril (Third Form)</name>
     <size>S</size>
     <type>elemental</type>
@@ -301,7 +301,7 @@
       <text>Auril's form flares with a blue light. Each creature that can see Auril and is within 10 feet of her must succeed on a DC 17 Wisdom saving throw or be blinded by Auril's magical gleam for 1 minute. The blinded creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
     </legendary>
   </monster>
-  <monster>
+  <monster name="Avarice">
     <name>Avarice</name>
     <size>M</size>
     <type>humanoid (tiefling)</type>
@@ -363,7 +363,7 @@
       <attack>Banishing Rebuke||1d10</attack>
     </reaction>
   </monster>
-  <monster>
+  <monster name="Awakened White Moose">
     <name>Awakened White Moose</name>
     <size>L</size>
     <type>beast</type>
@@ -412,7 +412,7 @@
       <attack>Hooves|6|2d4+4</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Battlehammer Dwarf">
     <name>Battlehammer Dwarf</name>
     <size>M</size>
     <type>humanoid (dwarf)</type>
@@ -460,7 +460,7 @@
       <attack>Light Crossbow|4|1d8+2</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Bjornhild Solvigsdottir">
     <name>Bjornhild Solvigsdottir</name>
     <size>M</size>
     <type>humanoid (human)</type>
@@ -507,7 +507,7 @@
       <attack>Auril's Blessing||2d10</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Brain in a Jar">
     <name>Brain in a Jar</name>
     <size>S</size>
     <type>undead</type>
@@ -564,7 +564,7 @@
       <attack>Mind Blast||3d8+4</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Chardalyn Berserker">
     <name>Chardalyn Berserker</name>
     <size>M</size>
     <type>fiend</type>
@@ -612,7 +612,7 @@
       <attack>Chardalyn Javelin|5|1d6+3</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Chardalyn Dragon">
     <name>Chardalyn Dragon</name>
     <size>H</size>
     <type>construct</type>
@@ -682,7 +682,7 @@
       <attack>Radiant Breath||7d8</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Chimeric Baboon">
     <name>Chimeric Baboon</name>
     <size>S</size>
     <type>beast</type>
@@ -717,7 +717,7 @@
       <attack>Bite|1|1d4-1+1d6</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Chimeric Cat">
     <name>Chimeric Cat</name>
     <size>T</size>
     <type>beast</type>
@@ -752,7 +752,7 @@
       <attack>Claws|0|1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Chimeric Fox">
     <name>Chimeric Fox</name>
     <size>T</size>
     <type>beast</type>
@@ -791,7 +791,7 @@
       <attack>Bite|5|1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Chimeric Hare">
     <name>Chimeric Hare</name>
     <size>T</size>
     <type>beast</type>
@@ -821,7 +821,7 @@
       <text>The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns.</text>
     </trait>
   </monster>
-  <monster>
+  <monster name="Chimeric Rat">
     <name>Chimeric Rat</name>
     <size>T</size>
     <type>beast</type>
@@ -860,7 +860,7 @@
       <attack>Bite|0|1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Chimeric Weasel">
     <name>Chimeric Weasel</name>
     <size>T</size>
     <type>beast</type>
@@ -899,7 +899,7 @@
       <attack>Bite|5|1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Chwinga">
 		<name>Chwinga</name>
 		<size>T</size>
 		<type>elemental</type>
@@ -914,12 +914,12 @@
 		<int>14</int>
 		<wis>16</wis>
 		<cha>16</cha>
-		<save/>
+		<save></save>
 		<skill>Acrobatics +7, Perception +7, Stealth +7</skill>
-		<resist/>
-		<vulnerable/>
-		<immune/>
-		<conditionImmune/>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<senses>blindsight 60 ft.</senses>
 		<passive>17</passive>
 		<languages>—</languages>
@@ -949,7 +949,7 @@
 			<text>The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while Inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed.</text>
 		</action>
 	</monster>
-  <monster>
+  <monster name="Coldlight Walker">
     <name>Coldlight Walker</name>
     <size>M</size>
     <type>undead</type>
@@ -1001,7 +1001,7 @@
       <attack>Cold Ray|3|4d10+3</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Demos Magen">
     <name>Demos Magen</name>
     <size>M</size>
     <type>construct</type>
@@ -1053,7 +1053,7 @@
       <attack>Light Crossbow|4|1d8+2</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Dzaan">
     <name>Dzaan</name>
     <size>M</size>
     <type>humanoid (human)</type>
@@ -1107,7 +1107,7 @@
       <attack>Magic Missile||1d4+1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Dzaan's Simulacrum">
     <name>Dzaan's Simulacrum</name>
     <size>M</size>
     <type>construct</type>
@@ -1158,7 +1158,7 @@
       <attack>Magic Missile||1d4+1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="F'yorl">
     <name>F'yorl</name>
     <size>M</size>
     <type>aberration</type>
@@ -1188,7 +1188,7 @@
       <text>F'yorl has advantage on saving throws against spells and other magical effects.</text>
     </trait>
   </monster>
-  <monster>
+  <monster name="Fox">
     <name>Fox</name>
     <size>T</size>
     <type>beast</type>
@@ -1223,7 +1223,7 @@
       <attack>Bite|5|1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Frost Druid">
     <name>Frost Druid</name>
     <size>M</size>
     <type>humanoid (human)</type>
@@ -1280,7 +1280,7 @@
       <text>The druid magically polymorphs into a beast form—fox, mountain goat, owl, or wolf—or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block.</text>
     </action>
   </monster>
-  <monster>
+  <monster name="Frost Giant Skeleton">
     <name>Frost Giant Skeleton</name>
     <size>H</size>
     <type>undead</type>
@@ -1324,7 +1324,7 @@
       <attack>Freezing Stare||10d6</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Galvan Magen">
     <name>Galvan Magen</name>
     <size>M</size>
     <type>construct</type>
@@ -1376,7 +1376,7 @@
       <attack>Static Discharge||4d10</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Giant Walrus">
     <name>Giant Walrus</name>
     <size>H</size>
     <type>beast</type>
@@ -1420,7 +1420,7 @@
       <attack>Tusks|8|3d6+6</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Gnoll Vampire">
     <name>Gnoll Vampire</name>
     <size>M</size>
     <type>undead (shapechanger)</type>
@@ -1498,7 +1498,7 @@
       <text>The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a DC 15 Constitution saving throw against this magic or be poisoned for 24 hours. A creature whose saving throw is successful is immune to this vampire's Sickening Gaze for 24 hours.</text>
     </action>
   </monster>
-  <monster>
+  <monster name="Gnome Ceremorph">
     <name>Gnome Ceremorph</name>
     <size>S</size>
     <type>aberration</type>
@@ -1556,7 +1556,7 @@
       <attack>Mind Blast||4d8+4</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Gnome Squidling">
     <name>Gnome Squidling</name>
     <size>S</size>
     <type>aberration</type>
@@ -1608,7 +1608,7 @@
       <attack>Mind Tickle||1d4</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Goliath Warrior">
     <name>Goliath Warrior</name>
     <size>M</size>
     <type>humanoid (goliath)</type>
@@ -1661,7 +1661,7 @@
       <attack>Stone's Endurance||1d12+3</attack>
     </reaction>
   </monster>
-  <monster>
+  <monster name="Goliath Werebear">
     <name>Goliath Werebear</name>
     <size>M</size>
     <type>humanoid (goliath,shapechanger)</type>
@@ -1727,7 +1727,7 @@
       <attack>Stone's Endurance||1d12+4</attack>
     </reaction>
   </monster>
-  <monster>
+  <monster name="Grandolpha Muzgardt">
     <name>Grandolpha Muzgardt</name>
     <size>M</size>
     <type>humanoid (dwarf)</type>
@@ -1774,7 +1774,139 @@
       <attack>Poison Spray||2d12</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Griffon (Tiny), Young">
+    <name>Griffon (Tiny), Young</name>
+    <size>T</size>
+    <type>monstrosity</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>12</ac>
+    <hp>5 (1d4 + 3)</hp>
+    <speed>30 ft., fly 40 ft.</speed>
+    <str>2</str>
+    <dex>15</dex>
+    <con>16</con>
+    <int>2</int>
+    <wis>13</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>perception +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>15</passive>
+    <languages>—</languages>
+    <cr>0</cr>
+    <trait>
+      <name>Keen Sight</name>
+      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
+    </action>
+    <action>
+      <name>Beak</name>
+      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+      <attack>Beak|0|1</attack>
+    </action>
+    <action>
+      <name>Claws</name>
+      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+      <attack>Beak|0|1</attack>
+    </action>
+  </monster>
+<monster name="Griffon, Young (Medium)">
+    <name>Griffon, Young (Medium)</name>
+    <size>M</size>
+    <type>monstrosity</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>12</ac>
+    <hp>32 (5d6 + 15)</hp>
+    <speed>30 ft., fly 80 ft.</speed>
+    <str>12</str>
+    <dex>15</dex>
+    <con>16</con>
+    <int>2</int>
+    <wis>13</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>perception +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>15</passive>
+    <languages>—</languages>
+    <cr>1</cr>
+    <trait>
+      <name>Keen Sight</name>
+      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
+    </action>
+    <action>
+      <name>Beak</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+      <attack>Beak|3|1d6+1</attack>
+    </action>
+    <action>
+      <name>Claws</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.</text>
+      <attack>Claws|3|2d4+1</attack>
+    </action>
+  </monster>
+  <monster name="Griffon, Young (Small)">
+    <name>Griffon, Young (Small)</name>
+    <size>S</size>
+    <type>monstrosity</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>12</ac>
+    <hp>13 (2d6 + 6)</hp>
+    <speed>30 ft., fly 80 ft.</speed>
+    <str>8</str>
+    <dex>15</dex>
+    <con>16</con>
+    <int>2</int>
+    <wis>13</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>perception +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>15</passive>
+    <languages>—</languages>
+    <cr>1/4</cr>
+    <trait>
+      <name>Keen Sight</name>
+      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
+    </action>
+    <action>
+      <name>Beak</name>
+      <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</text>
+      <attack>Beak|1|1d4</attack>
+    </action>
+    <action>
+      <name>Claws</name>
+      <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage.</text>
+      <attack>Claws|1|1d4</attack>
+    </action>
+  </monster>
+  <monster name="Gunvald Halraggson">
     <name>Gunvald Halraggson</name>
     <size>M</size>
     <type>humanoid (human)</type>
@@ -1830,7 +1962,7 @@
       <attack>Menacing Blows||1d12</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Hare">
     <name>Hare</name>
     <size>T</size>
     <type>beast</type>
@@ -1860,7 +1992,7 @@
       <text>The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns.</text>
     </trait>
   </monster>
-  <monster>
+  <monster name="Headless Iron Golem">
     <name>Headless Iron Golem</name>
     <size>L</size>
     <type>construct</type>
@@ -1920,7 +2052,7 @@
       <attack>Sword|13|3d10+7</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Hengar Aesnvaard">
     <name>Hengar Aesnvaard</name>
     <size>M</size>
     <type>humanoid (human)</type>
@@ -1973,7 +2105,7 @@
       <text>Hengar adds 3 to his AC against one melee attack that would hit him. To do so, Hengar must see the attacker and be wielding a melee weapon.</text>
     </reaction>
   </monster>
-  <monster>
+  <monster name="Hypnos Magen">
     <name>Hypnos Magen</name>
     <size>M</size>
     <type>construct</type>
@@ -2020,7 +2152,7 @@
       <text>The magen casts the suggestion spell (save 12), requiring no material components. The target must be a creature that the magen can communicate with telepathically. If it succeeds on its saving throw, the target is immune to this magen's suggestion spell for the next 24 hours. The magen's spellcasting ability is Intelligence.</text>
     </action>
   </monster>
-  <monster>
+  <monster name="Ice Piercer">
     <name>Ice Piercer</name>
     <size>M</size>
     <type>monstrosity</type>
@@ -2059,7 +2191,7 @@
       <attack>Drop|3|3d6+3d6</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Ice Troll">
     <name>Ice Troll</name>
     <size>L</size>
     <type>giant</type>
@@ -2111,7 +2243,7 @@
       <attack>Claw|7|2d6+4+2d8</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Icewind Kobold">
     <name>Icewind Kobold</name>
     <size>S</size>
     <type>humanoid (kobold)</type>
@@ -2155,7 +2287,7 @@
       <attack>Javelin|0|1d6-2</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Icewind Kobold Zombie">
     <name>Icewind Kobold Zombie</name>
     <size>S</size>
     <type>undead</type>
@@ -2194,7 +2326,7 @@
       <attack>Javelin|1|1d6-1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Isarr Kronenstrom">
     <name>Isarr Kronenstrom</name>
     <size>M</size>
     <type>humanoid (human)</type>
@@ -2247,7 +2379,7 @@
       <attack>Heavy Crossbow|6|1d10+3</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Jarund Elkhardt">
     <name>Jarund Elkhardt</name>
     <size>M</size>
     <type>humanoid (human)</type>
@@ -2297,7 +2429,7 @@
       <attack>Javelin|7|2d6+4</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Kadroth">
     <name>Kadroth</name>
     <size>M</size>
     <type>humanoid (tiefling)</type>
@@ -2346,7 +2478,7 @@
       <attack>Dagger|4|1d4+2</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Kingsport">
     <name>Kingsport</name>
     <size>M</size>
     <type>beast</type>
@@ -2381,7 +2513,7 @@
       <attack>Beak|3|1d4+1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Knight of the Black Sword">
     <name>Knight of the Black Sword</name>
     <size>M</size>
     <type>humanoid (any race)</type>
@@ -2434,7 +2566,7 @@
       <attack>Dagger|4|1d4+2</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Knucklehead Trout">
     <name>Knucklehead Trout</name>
     <size>S</size>
     <type>beast</type>
@@ -2474,7 +2606,7 @@
       <attack>Tail|4|1d4+2</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Kobold Vampire Spawn">
     <name>Kobold Vampire Spawn</name>
     <size>S</size>
     <type>undead</type>
@@ -2525,7 +2657,7 @@
       <attack>Bite|6|1d4+4+2d4</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Living Bigby's Hand">
     <name>Living Bigby's Hand</name>
     <size>L</size>
     <type>construct</type>
@@ -2569,7 +2701,7 @@
       <attack>Grasping Hand||2d6+8</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Living Blade of Disaster">
     <name>Living Blade of Disaster</name>
     <size>S</size>
     <type>construct</type>
@@ -2617,7 +2749,7 @@
       <text>The living spell makes a melee attack against a creature that starts its turn within 5 feet of the living spell.</text>
     </reaction>
   </monster>
-  <monster>
+  <monster name="Living Demiplane">
     <name>Living Demiplane</name>
     <size>M</size>
     <type>construct</type>
@@ -2663,7 +2795,7 @@
       <text>The living spell doesn't require air, food, drink, or sleep.</text>
     </trait>
   </monster>
-  <monster>
+  <monster name="Lonelywood Banshee">
     <name>Lonelywood Banshee</name>
     <size>M</size>
     <type>undead</type>
@@ -2711,713 +2843,8 @@
       <attack>Wail||3d6</attack>
     </action>
   </monster>
-  <monster>
-    <name>Mjenir</name>
-    <size>M</size>
-    <type>humanoid (human)</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>neutral</alignment>
-    <ac>11</ac>
-    <hp>27 (5d8 + 5)</hp>
-    <speed>30 ft.</speed>
-    <str>10</str>
-    <dex>12</dex>
-    <con>13</con>
-    <int>12</int>
-    <wis>15</wis>
-    <cha>11</cha>
-    <save></save>
-    <skill>medicine +4,nature +3,perception +4,survival +4</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses></senses>
-    <passive>14</passive>
-    <languages>Druidic plus any two languages</languages>
-    <cr>2</cr>
-    <trait>
-      <name>Spellcasting</name>
-      <text>Mjenir is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save 12, +4 to hit with spell attacks). He has the following druid spells prepared:</text>
-      <text>Cantrips (at will): druidcraft, produce flame, shillelagh</text>
-      <text>1st Level (4 slots): entangle, longstrider, speak with animals, thunderwave</text>
-      <text>2nd Level (3 slots): animal messenger, barkskin</text>
-    </trait>
-    <slots>4,3</slots>
-    <spellAbility>Wisdom</spellAbility>
-    <spells>Druidcraft,Produce Flame,Shillelagh,Entangle,Longstrider,Speak with Animals,Thunderwave,Animal Messenger,Barkskin</spells>
-    <action>
-      <name>Quarterstaff</name>
-      <text>Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.</text>
-      <attack>Quarterstaff|2|1d6</attack>
-      <attack>Quarterstaff (2 hand)|2|1d8</attack>
-      <attack>Shillelagh|4|1d8+2</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Mountain Goat</name>
-    <size>M</size>
-    <type>beast</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>11</ac>
-    <hp>13 (2d8 + 4)</hp>
-    <speed>40 ft., climb 30 ft.</speed>
-    <str>14</str>
-    <dex>12</dex>
-    <con>14</con>
-    <int>2</int>
-    <wis>10</wis>
-    <cha>5</cha>
-    <save></save>
-    <skill></skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses></senses>
-    <passive>10</passive>
-    <languages>—</languages>
-    <cr>1/8</cr>
-    <trait>
-      <name>Charge</name>
-      <text>If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</text>
-    </trait>
-    <trait>
-      <name>Sure-Footed</name>
-      <text>The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
-    </trait>
-    <action>
-      <name>Ram</name>
-      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</text>
-      <attack>Ram|4|1d6+2</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Nass Lantomir's Ghost</name>
-    <size>M</size>
-    <type>undead</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>neutral evil</alignment>
-    <ac>11</ac>
-    <hp>45 (10d8)</hp>
-    <speed>0 ft., fly 40 ft.</speed>
-    <str>7</str>
-    <dex>13</dex>
-    <con>10</con>
-    <int>17</int>
-    <wis>12</wis>
-    <cha>17</cha>
-    <save></save>
-    <skill></skill>
-    <vulnerable></vulnerable>
-    <resist>acid,fire,lightning,thunder;bludgeoning, piercing, slashing from nonmagical attacks</resist>
-    <immune>cold,necrotic,poison</immune>
-    <conditionImmune>charmed,exhaustion,frightened,grappled,paralyzed,petrified,poisoned,prone,restrained</conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>11</passive>
-    <languages>Abyssal,Common,Draconic,Orc</languages>
-    <cr>6</cr>
-    <trait>
-      <name>Spellcasting</name>
-      <text>The ghost is a 6th-level spellcaster. Its spellcasting ability is Intelligence (spell save 14). The ghost has the following wizard spells prepared:</text>
-      <text>Cantrips (at will): mage hand, message, prestidigitation, ray of frost</text>
-      <text>1st Level (4 slots): detect magic, thunderwave</text>
-      <text>2nd Level (3 slots): </text>
-      <text>3rd Level (3 slots): counterspell</text>
-    </trait>
-    <slots>4,3,3</slots>
-    <spellAbility>Intelligence</spellAbility>
-    <spells>Mage Hand,Message,Prestidigitation,Ray of Frost,Detect Magic,Thunderwave,Counterspell</spells>
-    <trait>
-      <name>Ethereal Sight</name>
-      <text>The ghost can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.</text>
-    </trait>
-    <trait>
-      <name>Incorporeal Movement</name>
-      <text>The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
-    </trait>
-    <action>
-      <name>Withering Touch</name>
-      <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage.</text>
-      <attack>Withering Touch|6|4d6+3</attack>
-    </action>
-    <action>
-      <name>Etherealness</name>
-      <text>The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</text>
-    </action>
-    <action>
-      <name>Horrifying Visage</name>
-      <text>Each non-undead creature within 60 feet of the ghost that can see it must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 * 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If the target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed by a greater restoration spell, but only if it is cast within 24 hours.</text>
-      <attack>Horrifying Visage||1d4</attack>
-    </action>
-    <action>
-      <name>Possession (Recharge 6)</name>
-      <text>One humanoid that the ghost can see within 5 feet of it must succeed on a DC 14 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.</text>
-    </action>
-  </monster>
-  <monster>
-    <name>Prisoner 237</name>
-    <size>M</size>
-    <type>humanoid (human)</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>lawful evil</alignment>
-    <ac>11</ac>
-    <hp>32 (5d8 + 10)</hp>
-    <speed>30 ft. (10 ft. while shackled)</speed>
-    <str>9</str>
-    <dex>13</dex>
-    <con>14</con>
-    <int>17</int>
-    <wis>10</wis>
-    <cha>15</cha>
-    <save></save>
-    <skill>arcana +5,deception +4,persuasion +4</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses></senses>
-    <passive>10</passive>
-    <languages>Common,Draconic,Infernal,Orc</languages>
-    <cr>1</cr>
-    <trait>
-      <name>Spellcasting</name>
-      <text>Prisoner 237 is a 5th-level spellcaster. His spellcasting ability is Intelligence (spell save 13; +5 to hit with spell attacks). He has the following wizard spells prepared:</text>
-      <text>Cantrips (at will): light, message, prestidigitation, shocking grasp (see "Actions" below)</text>
-      <text>1st Level (4 slots): mage armor, shield, sleep</text>
-      <text>2nd Level (3 slots): arcane lock, detect thoughts, suggestion</text>
-      <text>3rd Level (2 slots): counterspell, lightning bolt</text>
-    </trait>
-    <slots>4,3,2</slots>
-    <spellAbility>Intelligence</spellAbility>
-    <spells>Light,Message,Prestidigitation,Shocking Grasp,Mage Armor,Shield,Sleep,Arcane Lock,Detect Thoughts,Suggestion,Counterspell,Lightning Bolt</spells>
-    <action>
-      <name>Shocking Grasp (Cantrip)</name>
-      <text>Melee Spell Attack: +5 to hit (with advantage on the attack if the target is wearing armor made of metal), reach 5 ft., one creature. Hit: 9 (2d8) lightning damage, and the target can't take reactions until the start of its next turn.</text>
-      <attack>Shocking Grasp|5|2d8</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Reghed Chieftain</name>
-    <size>M</size>
-    <type>humanoid (any race)</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>any alignment</alignment>
-    <ac>16 (hide armor,shield)</ac>
-    <hp>112 (15d8 + 45)</hp>
-    <speed>30 ft.</speed>
-    <str>18</str>
-    <dex>15</dex>
-    <con>16</con>
-    <int>10</int>
-    <wis>12</wis>
-    <cha>15</cha>
-    <save>str +7,dex +5,con +6</save>
-    <skill>athletics +10,intimidation +5,survival +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses></senses>
-    <passive>11</passive>
-    <languages>Common</languages>
-    <cr>5</cr>
-    <trait>
-      <name>Brave</name>
-      <text>The chieftain has advantage on saving throws against being frightened.</text>
-    </trait>
-    <trait>
-      <name>Brute</name>
-      <text>A melee weapon deals one extra die of its damage when the chieftain hits with it (included in the attack).</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The chieftain makes three melee attacks or two ranged attacks.</text>
-    </action>
-    <action>
-      <name>Spear</name>
-      <text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.</text>
-      <attack>Spear|7|2d6+4</attack>
-      <attack>Spear (2 hand)|7|2d8+4</attack>
-    </action>
-    <action>
-      <name>Shield Bash</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
-      <attack>Shield Bash|7|2d4+4</attack>
-    </action>
-    <reaction>
-      <name>Parry</name>
-      <text>The chieftain adds 3 to its AC against one melee attack that would hit it. To do so, the chieftain must see the attacker and be wielding a melee weapon.</text>
-    </reaction>
-  </monster>
-  <monster>
-    <name>Reghed Great Warrior</name>
-    <size>M</size>
-    <type>humanoid (any race)</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>any alignment</alignment>
-    <ac>16 (hide armor,shield)</ac>
-    <hp>112 (15d8 + 45)</hp>
-    <speed>30 ft.</speed>
-    <str>18</str>
-    <dex>15</dex>
-    <con>16</con>
-    <int>10</int>
-    <wis>12</wis>
-    <cha>15</cha>
-    <save>str +7,dex +5,con +6</save>
-    <skill>athletics +10,intimidation +5,survival +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses></senses>
-    <passive>11</passive>
-    <languages>Common</languages>
-    <cr>5</cr>
-    <trait>
-      <name>Brave</name>
-      <text>The great warrior has advantage on saving throws against being frightened.</text>
-    </trait>
-    <trait>
-      <name>Brute</name>
-      <text>A melee weapon deals one extra die of its damage when the great warrior hits with it (included in the attack).</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The great warrior makes three melee attacks or two ranged attacks.</text>
-    </action>
-    <action>
-      <name>Spear</name>
-      <text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.</text>
-      <attack>Spear|7|2d6+4</attack>
-      <attack>Spear (2 hand)|7|2d8+4</attack>
-    </action>
-    <action>
-      <name>Shield Bash</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
-      <attack>Shield Bash|7|2d4+4</attack>
-    </action>
-    <reaction>
-      <name>Parry</name>
-      <text>The great warrior adds 3 to its AC against one melee attack that would hit it. To do so, the great warrior must see the attacker and be wielding a melee weapon.</text>
-    </reaction>
-  </monster>
-  <monster>
-    <name>Reghed Shaman</name>
-    <size>M</size>
-    <type>humanoid (any race)</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>any alignment</alignment>
-    <ac>11</ac>
-    <hp>27 (5d8 + 5)</hp>
-    <speed>30 ft.</speed>
-    <str>10</str>
-    <dex>12</dex>
-    <con>13</con>
-    <int>12</int>
-    <wis>15</wis>
-    <cha>11</cha>
-    <save></save>
-    <skill>medicine +4,nature +3,perception +4,survival +4</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses></senses>
-    <passive>14</passive>
-    <languages>Common,Druidic</languages>
-    <cr>2</cr>
-    <trait>
-      <name>Spellcasting</name>
-      <text>The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save 12, +4 to hit with spell attacks). It has the following druid spells prepared:</text>
-      <text>Cantrips (at will): druidcraft, produce flame, shillelagh</text>
-      <text>1st Level (4 slots): entangle, longstrider, speak with animals, thunderwave</text>
-      <text>2nd Level (3 slots): animal messenger, barkskin</text>
-    </trait>
-    <slots>4,3</slots>
-    <spellAbility>Wisdom</spellAbility>
-    <spells>Druidcraft,Produce Flame,Shillelagh,Entangle,Longstrider,Speak with Animals,Thunderwave,Animal Messenger,Barkskin</spells>
-    <action>
-      <name>Quarterstaff</name>
-      <text>Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.</text>
-      <attack>Quarterstaff|2|1d6</attack>
-      <attack>Quarterstaff|2|1d8</attack>
-      <attack>Shillelagh|4|1d8+2</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Reghed Warrior</name>
-    <size>M</size>
-    <type>humanoid (any race)</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>any alignment</alignment>
-    <ac>12 (hide armor)</ac>
-    <hp>11 (2d8 + 2)</hp>
-    <speed>30 ft.</speed>
-    <str>13</str>
-    <dex>11</dex>
-    <con>12</con>
-    <int>8</int>
-    <wis>11</wis>
-    <cha>8</cha>
-    <save></save>
-    <skill>survival +4</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses></senses>
-    <passive>10</passive>
-    <languages>Common</languages>
-    <cr>1/8</cr>
-    <trait>
-      <name>Pack Tactics</name>
-      <text>The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
-    </trait>
-    <action>
-      <name>Spear</name>
-      <text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
-      <attack>Spear|3|1d6+1</attack>
-      <attack>Spear (2 hand)|3|1d8+1</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Reindeer</name>
-    <size>L</size>
-    <type>beast</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>10</ac>
-    <hp>13 (2d10 + 2)</hp>
-    <speed>50 ft.</speed>
-    <str>16</str>
-    <dex>10</dex>
-    <con>12</con>
-    <int>2</int>
-    <wis>10</wis>
-    <cha>6</cha>
-    <save></save>
-    <skill></skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses></senses>
-    <passive>10</passive>
-    <languages>—</languages>
-    <cr>1/4</cr>
-    <trait>
-      <name>Charge</name>
-      <text>If the reindeer moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
-    </trait>
-    <action>
-      <name>Ram</name>
-      <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
-      <attack>Ram|5|1d6+3</attack>
-    </action>
-    <action>
-      <name>Hooves</name>
-      <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
-      <attack>Hooves|5|2d4+3</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Seal</name>
-    <size>M</size>
-    <type>beast</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>11</ac>
-    <hp>9 (2d8)</hp>
-    <speed>20 ft., swim 40 ft.</speed>
-    <str>10</str>
-    <dex>12</dex>
-    <con>11</con>
-    <int>3</int>
-    <wis>12</wis>
-    <cha>5</cha>
-    <save></save>
-    <skill></skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>11</passive>
-    <languages>—</languages>
-    <cr>0</cr>
-    <trait>
-      <name>Hold Breath</name>
-      <text>The seal can hold its breath for 15 minutes.</text>
-    </trait>
-    <trait>
-      <name>Keen Smell</name>
-      <text>The seal has advantage on Wisdom (Perception) checks that rely on smell.</text>
-    </trait>
-    <action>
-      <name>Bite</name>
-      <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
-	  <attack>Bite|2|1</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Sephek Kaltro</name>
-    <size>M</size>
-    <type>undead</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>neutral evil</alignment>
-    <ac>12</ac>
-    <hp>75 (10d8 + 30)</hp>
-    <speed>30 ft.</speed>
-    <str>16</str>
-    <dex>14</dex>
-    <con>16</con>
-    <int>11</int>
-    <wis>16</wis>
-    <cha>18</cha>
-    <save></save>
-    <skill>perception +5,survival +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune>cold</immune>
-    <conditionImmune>charmed,frightened</conditionImmune>
-    <senses></senses>
-    <passive>15</passive>
-    <languages>Common</languages>
-    <cr>3</cr>
-    <trait>
-      <name>Innate Spellcasting</name>
-      <text>Sephek can innately cast misty step up to three times per day, requiring no components. His innate spellcasting ability is Charisma.</text>
-    </trait>
-    <spellAbility>Charisma</spellAbility>
-    <spells>Misty Step</spells>
-    <trait>
-      <name>Cold Regeneration</name>
-      <text>If the temperature around him is 0 degrees Fahrenheit or lower, Sephek regains 5 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of Sephek's next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>Sephek attacks twice with a weapon.</text>
-    </action>
-    <action>
-      <name>Ice Longsword</name>
-      <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if Sephek uses the weapon with two hands, plus 5 (2d4) cold damage.</text>
-      <attack>Ice Longsword|5|1d8+3+2d4</attack>
-      <attack>Ice Longsword (2 hand)|5|1d10+3+2d4</attack>
-    </action>
-    <action>
-      <name>Ice Dagger</name>
-      <text>Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) cold damage.</text>
-      <attack>Ice Dagger|5|1d4+3+2d4</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Snow Golem</name>
-    <size>M</size>
-    <type>construct</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>8</ac>
-    <hp>39 (6d8 + 12)</hp>
-    <speed>10 ft.</speed>
-    <str>15</str>
-    <dex>6</dex>
-    <con>14</con>
-    <int>1</int>
-    <wis>6</wis>
-    <cha>1</cha>
-    <save></save>
-    <skill></skill>
-    <vulnerable>fire</vulnerable>
-    <resist></resist>
-    <immune>cold,poison,bludgeoning, piercing, slashing from nonmagical attacks</immune>
-    <conditionImmune>charmed,exhaustion,frightened,paralyzed,petrified,poisoned</conditionImmune>
-    <senses>blindsight 60 ft. (blind beyond this radius)</senses>
-    <passive>8</passive>
-    <languages>—</languages>
-    <cr>3</cr>
-    <trait>
-      <name>Cold Absorption</name>
-      <text>Whenever the golem is subjected to cold damage, it takes no damage and instead regains a number of hit points equal to the cold damage dealt.</text>
-    </trait>
-    <trait>
-      <name>Immutable Form</name>
-      <text>The golem is immune to any spell or effect that would alter its form.</text>
-    </trait>
-    <trait>
-      <name>Melt</name>
-      <text>While in an area of extreme heat, the golem loses 1d6 hit points at the start of each of its turns.</text>
-    </trait>
-    <trait>
-      <name>Unusual Nature</name>
-      <text>The golem doesn't require air, food, drink, or sleep.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The golem makes three melee attacks.</text>
-    </action>
-    <action>
-      <name>Slam</name>
-      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 7 (2d6) cold damage.</text>
-      <attack>Slam|4|1d6+2+2d6</attack>
-    </action>
-    <action>
-      <name>Snowball</name>
-      <text>Ranged Weapon Attack: +0 to hit, range 60 ft., one target. Hit: 9 (2d6 + 2) cold damage.</text>
-      <attack>Snowball|0|2d6+2</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Snowy Owlbear</name>
-    <size>L</size>
-    <type>monstrosity</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>13 (natural armor)</ac>
-    <hp>59 (7d10 + 21)</hp>
-    <speed>40 ft., swim 30 ft.</speed>
-    <str>20</str>
-    <dex>12</dex>
-    <con>17</con>
-    <int>3</int>
-    <wis>12</wis>
-    <cha>7</cha>
-    <save></save>
-    <skill>perception +3</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>13</passive>
-    <languages>—</languages>
-    <cr>3</cr>
-    <trait>
-      <name>Keen Sight and Smell</name>
-      <text>The snowy owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The snowy owlbear makes two attacks: one with its beak and one with its claws.</text>
-    </action>
-    <action>
-      <name>Beak</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage.</text>
-      <attack>Beak|7|1d10+5</attack>
-    </action>
-    <action>
-      <name>Claws</name>
-      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</text>
-      <attack>Claws|7|2d8+5</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Spellix Romwod</name>
-    <size>S</size>
-    <type>humanoid (gnome)</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>chaotic neutral</alignment>
-    <ac>14 (hide armor)</ac>
-    <hp>33 (6d6 + 12)</hp>
-    <speed>25 ft.</speed>
-    <str>6</str>
-    <dex>15</dex>
-    <con>14</con>
-    <int>15</int>
-    <wis>9</wis>
-    <cha>16</cha>
-    <save></save>
-    <skill>arcana +4,deception +5,history +4</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>9</passive>
-    <languages>Common,Draconic,Elvish,Gnomish,Goblin</languages>
-    <cr>1/2</cr>
-    <trait>
-      <name>Innate Spellcasting</name>
-      <text>Spellix's spellcasting ability is Charisma (spell save 13, +5 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
-      <text>At will: fire bolt, mage hand, shocking grasp</text>
-      <text>3/Day: silent image</text>
-      <text>1/Day each: chromatic orb, crown of madness, shield</text>
-    </trait>
-    <spellAbility>Charisma</spellAbility>
-    <spells>Fire Bolt,Mage Hand,Shocking Grasp,Silent Image,Chromatic Orb,Crown of Madness,Shield</spells>
-    <trait>
-      <name>Gnome Cunning</name>
-      <text>Spellix has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</text>
-    </trait>
-    <action>
-      <name>Shocking Grasp (Cantrip)</name>
-      <text>Melee Spell Attack: +5 to hit (with advantage on the attack roll if the target is wearing armor made of metal), reach 5 ft., one creature. Hit: 4 (1d8) lightning damage, and the target can't take reactions until the start of its next turn.</text>
-      <attack>Shocking Grasp|5|1d8</attack>
-    </action>
-    <action>
-      <name>Fire Bolt (Cantrip)</name>
-      <text>Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 5 (1d10) fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</text>
-      <attack>Fire Bolt|5|1d10</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Sperm Whale</name>
-    <size>G</size>
-    <type>beast</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>13 (natural armor)</ac>
-    <hp>189 (14d20 + 42)</hp>
-    <speed>0 ft., swim 60 ft.</speed>
-    <str>26</str>
-    <dex>8</dex>
-    <con>17</con>
-    <int>3</int>
-    <wis>12</wis>
-    <cha>5</cha>
-    <save></save>
-    <skill></skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>blindsight 120 ft.</senses>
-    <passive>11</passive>
-    <languages>—</languages>
-    <cr>8</cr>
-    <trait>
-      <name>Echolocation</name>
-      <text>The whale can't use its blindsight while deafened.</text>
-    </trait>
-    <trait>
-      <name>Hold Breath</name>
-      <text>The whale can hold its breath for 90 minutes.</text>
-    </trait>
-    <trait>
-      <name>Keen Hearing</name>
-      <text>The whale has advantage on Wisdom (Perception) checks that rely on hearing.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The whale makes two attacks: one with its bite and one with its tail.</text>
-    </action>
-    <action>
-      <name>Bite</name>
-      <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 21 (3d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 14 Dexterity saving throw or be swallowed by the whale. A swallowed creature has total cover against attacks and other effects outside the whale, and it takes 3 (1d6) acid damage at the start of each of the whale's turns. If the whale takes 30 damage or more on a single turn from a creature inside it, the whale must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the whale. If the whale dies, a swallowed creature can escape from the corpse by using 20 feet of movement, exiting prone.</text>
-      <attack>Bite|11|3d8+8</attack>
-	  <attack>Acid||1d6</attack>
-    </action>
-    <action>
-      <name>Tail</name>
-      <text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 18 (3d6 + 8) bludgeoning damage, or 37 (6d6 + 16) bludgeoning damage if the target is an object.</text>
-      <attack>Tail|11|3d6+8</attack>
-      <attack>Tail (object)|11|6d6+16</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Spitting Mimic</name>
+  <monster name="Mimic, Spitting">
+    <name>Mimic, Spitting</name>
     <size>L</size>
     <type>monstrosity (shapechanger)</type>
     <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
@@ -3481,7 +2908,712 @@
       <attack>Spit Acid||9d6+1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Mjenir">
+    <name>Mjenir</name>
+    <size>M</size>
+    <type>humanoid (human)</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>neutral</alignment>
+    <ac>11</ac>
+    <hp>27 (5d8 + 5)</hp>
+    <speed>30 ft.</speed>
+    <str>10</str>
+    <dex>12</dex>
+    <con>13</con>
+    <int>12</int>
+    <wis>15</wis>
+    <cha>11</cha>
+    <save></save>
+    <skill>medicine +4,nature +3,perception +4,survival +4</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <passive>14</passive>
+    <languages>Druidic plus any two languages</languages>
+    <cr>2</cr>
+    <trait>
+      <name>Spellcasting</name>
+      <text>Mjenir is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save 12, +4 to hit with spell attacks). He has the following druid spells prepared:</text>
+      <text>Cantrips (at will): druidcraft, produce flame, shillelagh</text>
+      <text>1st Level (4 slots): entangle, longstrider, speak with animals, thunderwave</text>
+      <text>2nd Level (3 slots): animal messenger, barkskin</text>
+    </trait>
+    <slots>4,3</slots>
+    <spellAbility>Wisdom</spellAbility>
+    <spells>Druidcraft,Produce Flame,Shillelagh,Entangle,Longstrider,Speak with Animals,Thunderwave,Animal Messenger,Barkskin</spells>
+    <action>
+      <name>Quarterstaff</name>
+      <text>Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.</text>
+      <attack>Quarterstaff|2|1d6</attack>
+      <attack>Quarterstaff (2 hand)|2|1d8</attack>
+      <attack>Shillelagh|4|1d8+2</attack>
+    </action>
+  </monster>
+  <monster name="Mountain Goat">
+    <name>Mountain Goat</name>
+    <size>M</size>
+    <type>beast</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>11</ac>
+    <hp>13 (2d8 + 4)</hp>
+    <speed>40 ft., climb 30 ft.</speed>
+    <str>14</str>
+    <dex>12</dex>
+    <con>14</con>
+    <int>2</int>
+    <wis>10</wis>
+    <cha>5</cha>
+    <save></save>
+    <skill></skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <passive>10</passive>
+    <languages>—</languages>
+    <cr>1/8</cr>
+    <trait>
+      <name>Charge</name>
+      <text>If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</text>
+    </trait>
+    <trait>
+      <name>Sure-Footed</name>
+      <text>The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+    </trait>
+    <action>
+      <name>Ram</name>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</text>
+      <attack>Ram|4|1d6+2</attack>
+    </action>
+  </monster>
+  <monster name="Nass Lantomir's Ghost">
+    <name>Nass Lantomir's Ghost</name>
+    <size>M</size>
+    <type>undead</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>neutral evil</alignment>
+    <ac>11</ac>
+    <hp>45 (10d8)</hp>
+    <speed>0 ft., fly 40 ft.</speed>
+    <str>7</str>
+    <dex>13</dex>
+    <con>10</con>
+    <int>17</int>
+    <wis>12</wis>
+    <cha>17</cha>
+    <save></save>
+    <skill></skill>
+    <vulnerable></vulnerable>
+    <resist>acid,fire,lightning,thunder;bludgeoning, piercing, slashing from nonmagical attacks</resist>
+    <immune>cold,necrotic,poison</immune>
+    <conditionImmune>charmed,exhaustion,frightened,grappled,paralyzed,petrified,poisoned,prone,restrained</conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>11</passive>
+    <languages>Abyssal,Common,Draconic,Orc</languages>
+    <cr>6</cr>
+    <trait>
+      <name>Spellcasting</name>
+      <text>The ghost is a 6th-level spellcaster. Its spellcasting ability is Intelligence (spell save 14). The ghost has the following wizard spells prepared:</text>
+      <text>Cantrips (at will): mage hand, message, prestidigitation, ray of frost</text>
+      <text>1st Level (4 slots): detect magic, thunderwave</text>
+      <text>2nd Level (3 slots): </text>
+      <text>3rd Level (3 slots): counterspell</text>
+    </trait>
+    <slots>4,3,3</slots>
+    <spellAbility>Intelligence</spellAbility>
+    <spells>Mage Hand,Message,Prestidigitation,Ray of Frost,Detect Magic,Thunderwave,Counterspell</spells>
+    <trait>
+      <name>Ethereal Sight</name>
+      <text>The ghost can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.</text>
+    </trait>
+    <trait>
+      <name>Incorporeal Movement</name>
+      <text>The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+    </trait>
+    <action>
+      <name>Withering Touch</name>
+      <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage.</text>
+      <attack>Withering Touch|6|4d6+3</attack>
+    </action>
+    <action>
+      <name>Etherealness</name>
+      <text>The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</text>
+    </action>
+    <action>
+      <name>Horrifying Visage</name>
+      <text>Each non-undead creature within 60 feet of the ghost that can see it must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 * 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If the target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed by a greater restoration spell, but only if it is cast within 24 hours.</text>
+      <attack>Horrifying Visage||1d4</attack>
+    </action>
+    <action>
+      <name>Possession (Recharge 6)</name>
+      <text>One humanoid that the ghost can see within 5 feet of it must succeed on a DC 14 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.</text>
+    </action>
+  </monster>
+  <monster name="Prisoner 237">
+    <name>Prisoner 237</name>
+    <size>M</size>
+    <type>humanoid (human)</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>lawful evil</alignment>
+    <ac>11</ac>
+    <hp>32 (5d8 + 10)</hp>
+    <speed>30 ft. (10 ft. while shackled)</speed>
+    <str>9</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>17</int>
+    <wis>10</wis>
+    <cha>15</cha>
+    <save></save>
+    <skill>arcana +5,deception +4,persuasion +4</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <passive>10</passive>
+    <languages>Common,Draconic,Infernal,Orc</languages>
+    <cr>1</cr>
+    <trait>
+      <name>Spellcasting</name>
+      <text>Prisoner 237 is a 5th-level spellcaster. His spellcasting ability is Intelligence (spell save 13; +5 to hit with spell attacks). He has the following wizard spells prepared:</text>
+      <text>Cantrips (at will): light, message, prestidigitation, shocking grasp (see "Actions" below)</text>
+      <text>1st Level (4 slots): mage armor, shield, sleep</text>
+      <text>2nd Level (3 slots): arcane lock, detect thoughts, suggestion</text>
+      <text>3rd Level (2 slots): counterspell, lightning bolt</text>
+    </trait>
+    <slots>4,3,2</slots>
+    <spellAbility>Intelligence</spellAbility>
+    <spells>Light,Message,Prestidigitation,Shocking Grasp,Mage Armor,Shield,Sleep,Arcane Lock,Detect Thoughts,Suggestion,Counterspell,Lightning Bolt</spells>
+    <action>
+      <name>Shocking Grasp (Cantrip)</name>
+      <text>Melee Spell Attack: +5 to hit (with advantage on the attack if the target is wearing armor made of metal), reach 5 ft., one creature. Hit: 9 (2d8) lightning damage, and the target can't take reactions until the start of its next turn.</text>
+      <attack>Shocking Grasp|5|2d8</attack>
+    </action>
+  </monster>
+  <monster name="Reghed Chieftain">
+    <name>Reghed Chieftain</name>
+    <size>M</size>
+    <type>humanoid (any race)</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>any alignment</alignment>
+    <ac>16 (hide armor,shield)</ac>
+    <hp>112 (15d8 + 45)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>15</dex>
+    <con>16</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>15</cha>
+    <save>str +7,dex +5,con +6</save>
+    <skill>athletics +10,intimidation +5,survival +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <passive>11</passive>
+    <languages>Common</languages>
+    <cr>5</cr>
+    <trait>
+      <name>Brave</name>
+      <text>The chieftain has advantage on saving throws against being frightened.</text>
+    </trait>
+    <trait>
+      <name>Brute</name>
+      <text>A melee weapon deals one extra die of its damage when the chieftain hits with it (included in the attack).</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The chieftain makes three melee attacks or two ranged attacks.</text>
+    </action>
+    <action>
+      <name>Spear</name>
+      <text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.</text>
+      <attack>Spear|7|2d6+4</attack>
+      <attack>Spear (2 hand)|7|2d8+4</attack>
+    </action>
+    <action>
+      <name>Shield Bash</name>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
+      <attack>Shield Bash|7|2d4+4</attack>
+    </action>
+    <reaction>
+      <name>Parry</name>
+      <text>The chieftain adds 3 to its AC against one melee attack that would hit it. To do so, the chieftain must see the attacker and be wielding a melee weapon.</text>
+    </reaction>
+  </monster>
+  <monster name="Reghed Great Warrior">
+    <name>Reghed Great Warrior</name>
+    <size>M</size>
+    <type>humanoid (any race)</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>any alignment</alignment>
+    <ac>16 (hide armor,shield)</ac>
+    <hp>112 (15d8 + 45)</hp>
+    <speed>30 ft.</speed>
+    <str>18</str>
+    <dex>15</dex>
+    <con>16</con>
+    <int>10</int>
+    <wis>12</wis>
+    <cha>15</cha>
+    <save>str +7,dex +5,con +6</save>
+    <skill>athletics +10,intimidation +5,survival +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <passive>11</passive>
+    <languages>Common</languages>
+    <cr>5</cr>
+    <trait>
+      <name>Brave</name>
+      <text>The great warrior has advantage on saving throws against being frightened.</text>
+    </trait>
+    <trait>
+      <name>Brute</name>
+      <text>A melee weapon deals one extra die of its damage when the great warrior hits with it (included in the attack).</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The great warrior makes three melee attacks or two ranged attacks.</text>
+    </action>
+    <action>
+      <name>Spear</name>
+      <text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.</text>
+      <attack>Spear|7|2d6+4</attack>
+      <attack>Spear (2 hand)|7|2d8+4</attack>
+    </action>
+    <action>
+      <name>Shield Bash</name>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
+      <attack>Shield Bash|7|2d4+4</attack>
+    </action>
+    <reaction>
+      <name>Parry</name>
+      <text>The great warrior adds 3 to its AC against one melee attack that would hit it. To do so, the great warrior must see the attacker and be wielding a melee weapon.</text>
+    </reaction>
+  </monster>
+  <monster name="Reghed Shaman">
+    <name>Reghed Shaman</name>
+    <size>M</size>
+    <type>humanoid (any race)</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>any alignment</alignment>
+    <ac>11</ac>
+    <hp>27 (5d8 + 5)</hp>
+    <speed>30 ft.</speed>
+    <str>10</str>
+    <dex>12</dex>
+    <con>13</con>
+    <int>12</int>
+    <wis>15</wis>
+    <cha>11</cha>
+    <save></save>
+    <skill>medicine +4,nature +3,perception +4,survival +4</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <passive>14</passive>
+    <languages>Common,Druidic</languages>
+    <cr>2</cr>
+    <trait>
+      <name>Spellcasting</name>
+      <text>The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save 12, +4 to hit with spell attacks). It has the following druid spells prepared:</text>
+      <text>Cantrips (at will): druidcraft, produce flame, shillelagh</text>
+      <text>1st Level (4 slots): entangle, longstrider, speak with animals, thunderwave</text>
+      <text>2nd Level (3 slots): animal messenger, barkskin</text>
+    </trait>
+    <slots>4,3</slots>
+    <spellAbility>Wisdom</spellAbility>
+    <spells>Druidcraft,Produce Flame,Shillelagh,Entangle,Longstrider,Speak with Animals,Thunderwave,Animal Messenger,Barkskin</spells>
+    <action>
+      <name>Quarterstaff</name>
+      <text>Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.</text>
+      <attack>Quarterstaff|2|1d6</attack>
+      <attack>Quarterstaff|2|1d8</attack>
+      <attack>Shillelagh|4|1d8+2</attack>
+    </action>
+  </monster>
+  <monster name="Reghed Warrior">
+    <name>Reghed Warrior</name>
+    <size>M</size>
+    <type>humanoid (any race)</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>any alignment</alignment>
+    <ac>12 (hide armor)</ac>
+    <hp>11 (2d8 + 2)</hp>
+    <speed>30 ft.</speed>
+    <str>13</str>
+    <dex>11</dex>
+    <con>12</con>
+    <int>8</int>
+    <wis>11</wis>
+    <cha>8</cha>
+    <save></save>
+    <skill>survival +4</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <passive>10</passive>
+    <languages>Common</languages>
+    <cr>1/8</cr>
+    <trait>
+      <name>Pack Tactics</name>
+      <text>The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+    </trait>
+    <action>
+      <name>Spear</name>
+      <text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
+      <attack>Spear|3|1d6+1</attack>
+      <attack>Spear (2 hand)|3|1d8+1</attack>
+    </action>
+  </monster>
+  <monster name="Reindeer">
+    <name>Reindeer</name>
+    <size>L</size>
+    <type>beast</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>10</ac>
+    <hp>13 (2d10 + 2)</hp>
+    <speed>50 ft.</speed>
+    <str>16</str>
+    <dex>10</dex>
+    <con>12</con>
+    <int>2</int>
+    <wis>10</wis>
+    <cha>6</cha>
+    <save></save>
+    <skill></skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <passive>10</passive>
+    <languages>—</languages>
+    <cr>1/4</cr>
+    <trait>
+      <name>Charge</name>
+      <text>If the reindeer moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+    </trait>
+    <action>
+      <name>Ram</name>
+      <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+      <attack>Ram|5|1d6+3</attack>
+    </action>
+    <action>
+      <name>Hooves</name>
+      <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+      <attack>Hooves|5|2d4+3</attack>
+    </action>
+  </monster>
+  <monster name="Seal">
+    <name>Seal</name>
+    <size>M</size>
+    <type>beast</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>11</ac>
+    <hp>9 (2d8)</hp>
+    <speed>20 ft., swim 40 ft.</speed>
+    <str>10</str>
+    <dex>12</dex>
+    <con>11</con>
+    <int>3</int>
+    <wis>12</wis>
+    <cha>5</cha>
+    <save></save>
+    <skill></skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>11</passive>
+    <languages>—</languages>
+    <cr>0</cr>
+    <trait>
+      <name>Hold Breath</name>
+      <text>The seal can hold its breath for 15 minutes.</text>
+    </trait>
+    <trait>
+      <name>Keen Smell</name>
+      <text>The seal has advantage on Wisdom (Perception) checks that rely on smell.</text>
+    </trait>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+	  <attack>Bite|2|1</attack>
+    </action>
+  </monster>
+  <monster name="Sephek Kaltro">
+    <name>Sephek Kaltro</name>
+    <size>M</size>
+    <type>undead</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>neutral evil</alignment>
+    <ac>12</ac>
+    <hp>75 (10d8 + 30)</hp>
+    <speed>30 ft.</speed>
+    <str>16</str>
+    <dex>14</dex>
+    <con>16</con>
+    <int>11</int>
+    <wis>16</wis>
+    <cha>18</cha>
+    <save></save>
+    <skill>perception +5,survival +5</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune>cold</immune>
+    <conditionImmune>charmed,frightened</conditionImmune>
+    <senses></senses>
+    <passive>15</passive>
+    <languages>Common</languages>
+    <cr>3</cr>
+    <trait>
+      <name>Innate Spellcasting</name>
+      <text>Sephek can innately cast misty step up to three times per day, requiring no components. His innate spellcasting ability is Charisma.</text>
+    </trait>
+    <spellAbility>Charisma</spellAbility>
+    <spells>Misty Step</spells>
+    <trait>
+      <name>Cold Regeneration</name>
+      <text>If the temperature around him is 0 degrees Fahrenheit or lower, Sephek regains 5 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of Sephek's next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>Sephek attacks twice with a weapon.</text>
+    </action>
+    <action>
+      <name>Ice Longsword</name>
+      <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if Sephek uses the weapon with two hands, plus 5 (2d4) cold damage.</text>
+      <attack>Ice Longsword|5|1d8+3+2d4</attack>
+      <attack>Ice Longsword (2 hand)|5|1d10+3+2d4</attack>
+    </action>
+    <action>
+      <name>Ice Dagger</name>
+      <text>Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) cold damage.</text>
+      <attack>Ice Dagger|5|1d4+3+2d4</attack>
+    </action>
+  </monster>
+  <monster name="Snow Golem">
+    <name>Snow Golem</name>
+    <size>M</size>
+    <type>construct</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>8</ac>
+    <hp>39 (6d8 + 12)</hp>
+    <speed>10 ft.</speed>
+    <str>15</str>
+    <dex>6</dex>
+    <con>14</con>
+    <int>1</int>
+    <wis>6</wis>
+    <cha>1</cha>
+    <save></save>
+    <skill></skill>
+    <vulnerable>fire</vulnerable>
+    <resist></resist>
+    <immune>cold,poison,bludgeoning, piercing, slashing from nonmagical attacks</immune>
+    <conditionImmune>charmed,exhaustion,frightened,paralyzed,petrified,poisoned</conditionImmune>
+    <senses>blindsight 60 ft. (blind beyond this radius)</senses>
+    <passive>8</passive>
+    <languages>—</languages>
+    <cr>3</cr>
+    <trait>
+      <name>Cold Absorption</name>
+      <text>Whenever the golem is subjected to cold damage, it takes no damage and instead regains a number of hit points equal to the cold damage dealt.</text>
+    </trait>
+    <trait>
+      <name>Immutable Form</name>
+      <text>The golem is immune to any spell or effect that would alter its form.</text>
+    </trait>
+    <trait>
+      <name>Melt</name>
+      <text>While in an area of extreme heat, the golem loses 1d6 hit points at the start of each of its turns.</text>
+    </trait>
+    <trait>
+      <name>Unusual Nature</name>
+      <text>The golem doesn't require air, food, drink, or sleep.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The golem makes three melee attacks.</text>
+    </action>
+    <action>
+      <name>Slam</name>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 7 (2d6) cold damage.</text>
+      <attack>Slam|4|1d6+2+2d6</attack>
+    </action>
+    <action>
+      <name>Snowball</name>
+      <text>Ranged Weapon Attack: +0 to hit, range 60 ft., one target. Hit: 9 (2d6 + 2) cold damage.</text>
+      <attack>Snowball|0|2d6+2</attack>
+    </action>
+  </monster>
+  <monster name="Snowy Owlbear">
+    <name>Snowy Owlbear</name>
+    <size>L</size>
+    <type>monstrosity</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>13 (natural armor)</ac>
+    <hp>59 (7d10 + 21)</hp>
+    <speed>40 ft., swim 30 ft.</speed>
+    <str>20</str>
+    <dex>12</dex>
+    <con>17</con>
+    <int>3</int>
+    <wis>12</wis>
+    <cha>7</cha>
+    <save></save>
+    <skill>perception +3</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>13</passive>
+    <languages>—</languages>
+    <cr>3</cr>
+    <trait>
+      <name>Keen Sight and Smell</name>
+      <text>The snowy owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The snowy owlbear makes two attacks: one with its beak and one with its claws.</text>
+    </action>
+    <action>
+      <name>Beak</name>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage.</text>
+      <attack>Beak|7|1d10+5</attack>
+    </action>
+    <action>
+      <name>Claws</name>
+      <text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</text>
+      <attack>Claws|7|2d8+5</attack>
+    </action>
+  </monster>
+  <monster name="Spellix Romwod">
+    <name>Spellix Romwod</name>
+    <size>S</size>
+    <type>humanoid (gnome)</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>chaotic neutral</alignment>
+    <ac>14 (hide armor)</ac>
+    <hp>33 (6d6 + 12)</hp>
+    <speed>25 ft.</speed>
+    <str>6</str>
+    <dex>15</dex>
+    <con>14</con>
+    <int>15</int>
+    <wis>9</wis>
+    <cha>16</cha>
+    <save></save>
+    <skill>arcana +4,deception +5,history +4</skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>darkvision 60 ft.</senses>
+    <passive>9</passive>
+    <languages>Common,Draconic,Elvish,Gnomish,Goblin</languages>
+    <cr>1/2</cr>
+    <trait>
+      <name>Innate Spellcasting</name>
+      <text>Spellix's spellcasting ability is Charisma (spell save 13, +5 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
+      <text>At will: fire bolt, mage hand, shocking grasp</text>
+      <text>3/Day: silent image</text>
+      <text>1/Day each: chromatic orb, crown of madness, shield</text>
+    </trait>
+    <spellAbility>Charisma</spellAbility>
+    <spells>Fire Bolt,Mage Hand,Shocking Grasp,Silent Image,Chromatic Orb,Crown of Madness,Shield</spells>
+    <trait>
+      <name>Gnome Cunning</name>
+      <text>Spellix has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</text>
+    </trait>
+    <action>
+      <name>Shocking Grasp (Cantrip)</name>
+      <text>Melee Spell Attack: +5 to hit (with advantage on the attack roll if the target is wearing armor made of metal), reach 5 ft., one creature. Hit: 4 (1d8) lightning damage, and the target can't take reactions until the start of its next turn.</text>
+      <attack>Shocking Grasp|5|1d8</attack>
+    </action>
+    <action>
+      <name>Fire Bolt (Cantrip)</name>
+      <text>Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 5 (1d10) fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</text>
+      <attack>Fire Bolt|5|1d10</attack>
+    </action>
+  </monster>
+  <monster name="Sperm Whale">
+    <name>Sperm Whale</name>
+    <size>G</size>
+    <type>beast</type>
+    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
+    <alignment>unaligned</alignment>
+    <ac>13 (natural armor)</ac>
+    <hp>189 (14d20 + 42)</hp>
+    <speed>0 ft., swim 60 ft.</speed>
+    <str>26</str>
+    <dex>8</dex>
+    <con>17</con>
+    <int>3</int>
+    <wis>12</wis>
+    <cha>5</cha>
+    <save></save>
+    <skill></skill>
+    <vulnerable></vulnerable>
+    <resist></resist>
+    <immune></immune>
+    <conditionImmune></conditionImmune>
+    <senses>blindsight 120 ft.</senses>
+    <passive>11</passive>
+    <languages>—</languages>
+    <cr>8</cr>
+    <trait>
+      <name>Echolocation</name>
+      <text>The whale can't use its blindsight while deafened.</text>
+    </trait>
+    <trait>
+      <name>Hold Breath</name>
+      <text>The whale can hold its breath for 90 minutes.</text>
+    </trait>
+    <trait>
+      <name>Keen Hearing</name>
+      <text>The whale has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+    </trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The whale makes two attacks: one with its bite and one with its tail.</text>
+    </action>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 21 (3d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 14 Dexterity saving throw or be swallowed by the whale. A swallowed creature has total cover against attacks and other effects outside the whale, and it takes 3 (1d6) acid damage at the start of each of the whale's turns. If the whale takes 30 damage or more on a single turn from a creature inside it, the whale must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the whale. If the whale dies, a swallowed creature can escape from the corpse by using 20 feet of movement, exiting prone.</text>
+      <attack>Bite|11|3d8+8</attack>
+	  <attack>Acid||1d6</attack>
+    </action>
+    <action>
+      <name>Tail</name>
+      <text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 18 (3d6 + 8) bludgeoning damage, or 37 (6d6 + 16) bludgeoning damage if the target is an object.</text>
+      <attack>Tail|11|3d6+8</attack>
+      <attack>Tail (object)|11|6d6+16</attack>
+    </action>
+  </monster>
+  <monster name="Telepathic Pentacle">
     <name>Telepathic Pentacle</name>
     <size>H</size>
     <type>monstrosity</type>
@@ -3534,7 +3666,7 @@
       <attack>Bite|8|1d10+5</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Tomb Tapper">
     <name>Tomb Tapper</name>
     <size>H</size>
     <type>construct</type>
@@ -3595,7 +3727,7 @@
       <attack>Sledgehammer|10|6d6+6</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Tribal Warrior Spore Servants">
     <name>Tribal Warrior Spore Servants</name>
     <size>M</size>
     <type>plant</type>
@@ -3627,7 +3759,7 @@
       <attack>Spear (2 hand)|3|1d8+1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Vellynne Harpell">
     <name>Vellynne Harpell</name>
     <size>M</size>
     <type>humanoid (human)</type>
@@ -3686,7 +3818,7 @@
       <attack>Recharge||1d6+1</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Verbeeg Longstrider">
     <name>Verbeeg Longstrider</name>
     <size>L</size>
     <type>giant</type>
@@ -3738,7 +3870,7 @@
       <attack>Sling|5|3d4+2</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Verbeeg Marauder">
     <name>Verbeeg Marauder</name>
     <size>L</size>
     <type>giant</type>
@@ -3778,7 +3910,7 @@
       <attack>Spear (2 hand)|6|3d8+4</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Walrus">
     <name>Walrus</name>
     <size>L</size>
     <type>beast</type>
@@ -3813,7 +3945,7 @@
       <attack>Tusks|4|2d4+2</attack>
     </action>
   </monster>
-  <monster>
+  <monster name="Xardorok Sunblight">
     <name>Xardorok Sunblight</name>
     <size>M</size>
     <type>humanoid (dwarf)</type>
@@ -3883,7 +4015,7 @@
       <attack>Hellish Rebuke||3d10</attack>
     </reaction>
   </monster>
-  <monster>
+  <monster name="Yeti Tyke">
     <name>Yeti Tyke</name>
     <size>S</size>
     <type>monstrosity</type>
@@ -3922,136 +4054,4 @@
       <attack>Claw|2|1d4+1d4</attack>
     </action>
   </monster>
-  <monster>
-    <name>Young Griffon (Medium)</name>
-    <size>M</size>
-    <type>monstrosity</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>12</ac>
-    <hp>32 (5d6 + 15)</hp>
-    <speed>30 ft., fly 80 ft.</speed>
-    <str>12</str>
-    <dex>15</dex>
-    <con>16</con>
-    <int>2</int>
-    <wis>13</wis>
-    <cha>8</cha>
-    <save></save>
-    <skill>perception +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>15</passive>
-    <languages>—</languages>
-    <cr>1</cr>
-    <trait>
-      <name>Keen Sight</name>
-      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
-    </action>
-    <action>
-      <name>Beak</name>
-      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
-      <attack>Beak|3|1d6+1</attack>
-    </action>
-    <action>
-      <name>Claws</name>
-      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.</text>
-      <attack>Claws|3|2d4+1</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Young Griffon (Small)</name>
-    <size>S</size>
-    <type>monstrosity</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>12</ac>
-    <hp>13 (2d6 + 6)</hp>
-    <speed>30 ft., fly 80 ft.</speed>
-    <str>8</str>
-    <dex>15</dex>
-    <con>16</con>
-    <int>2</int>
-    <wis>13</wis>
-    <cha>8</cha>
-    <save></save>
-    <skill>perception +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>15</passive>
-    <languages>—</languages>
-    <cr>1/4</cr>
-    <trait>
-      <name>Keen Sight</name>
-      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
-    </action>
-    <action>
-      <name>Beak</name>
-      <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</text>
-      <attack>Beak|1|1d4</attack>
-    </action>
-    <action>
-      <name>Claws</name>
-      <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage.</text>
-      <attack>Claws|1|1d4</attack>
-    </action>
-  </monster>
-  <monster>
-    <name>Young Griffon (Tiny)</name>
-    <size>T</size>
-    <type>monstrosity</type>
-    <description>Source: Icewind Dale: Rime of the Frostmaiden</description>
-    <alignment>unaligned</alignment>
-    <ac>12</ac>
-    <hp>5 (1d4 + 3)</hp>
-    <speed>30 ft., fly 40 ft.</speed>
-    <str>2</str>
-    <dex>15</dex>
-    <con>16</con>
-    <int>2</int>
-    <wis>13</wis>
-    <cha>8</cha>
-    <save></save>
-    <skill>perception +5</skill>
-    <vulnerable></vulnerable>
-    <resist></resist>
-    <immune></immune>
-    <conditionImmune></conditionImmune>
-    <senses>darkvision 60 ft.</senses>
-    <passive>15</passive>
-    <languages>—</languages>
-    <cr>0</cr>
-    <trait>
-      <name>Keen Sight</name>
-      <text>The griffon has advantage on Wisdom (Perception) checks that rely on sight.</text>
-    </trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The griffon makes two attacks: one with its beak and one with its claws.</text>
-    </action>
-    <action>
-      <name>Beak</name>
-      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
-      <attack>Beak|0|1</attack>
-    </action>
-    <action>
-      <name>Claws</name>
-      <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
-      <attack>Beak|0|1</attack>
-    </action>
-  </monster>
-</compendium>
+  </compendium>

@@ -1761,6 +1761,41 @@
             <attack>Dagger of the Poisoned Mind|7|1d4+4+3d6</attack>
         </action>
     </monster>
+    <monster name="Horizonback Tortoise, Young">
+        <name>Horizonback Tortoise, Young</name>
+        <size>H</size>
+        <type>beast</type>
+        <description>Source: Critical Role: Call of the Netherdeep</description>
+        <alignment>unaligned</alignment>
+        <ac>15 (natural armor)</ac>
+        <hp>68 (8d12 + 16)</hp>
+        <speed>30 ft.</speed>
+        <str>19</str>
+        <dex>11</dex>
+        <con>15</con>
+        <int>2</int>
+        <wis>12</wis>
+        <cha>5</cha>
+        <save></save>
+        <skill></skill>
+        <vulnerable></vulnerable>
+        <resist></resist>
+        <immune></immune>
+        <conditionImmune></conditionImmune>
+        <senses></senses>
+        <passive>11</passive>
+        <languages>understands Goblin but can't speak</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Amphibious</name>
+            <text>The young horizonback tortoise can breathe air and water.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+            <attack>Bite|7|4d6+4</attack>
+        </action>
+    </monster>
     <monster name="Insight Acuere">
         <name>Insight Acuere</name>
         <size>M</size>
@@ -3757,41 +3792,6 @@
             <name>Bonus Action: Telekinetic Toss (Recharge 5-6)</name>
             <text>Scribble targets one Medium or smaller creature or an object weighing 300 pounds or less that isn't being worn or carried. The target, which must be within 30 feet of Scribble and visible to it, is magically pushed up to 20 feet horizontally in a direction of Scribble's choice. If the target is a creature, it can make a DC 13 Strength saving throw to resist the effect and is not pushed on a successful save.</text>
             <recharge>D5</recharge>
-        </action>
-    </monster>
-    <monster name="Young Horizonback Tortoise">
-        <name>Young Horizonback Tortoise</name>
-        <size>H</size>
-        <type>beast</type>
-        <description>Source: Critical Role: Call of the Netherdeep</description>
-        <alignment>unaligned</alignment>
-        <ac>15 (natural armor)</ac>
-        <hp>68 (8d12 + 16)</hp>
-        <speed>30 ft.</speed>
-        <str>19</str>
-        <dex>11</dex>
-        <con>15</con>
-        <int>2</int>
-        <wis>12</wis>
-        <cha>5</cha>
-        <save></save>
-        <skill></skill>
-        <vulnerable></vulnerable>
-        <resist></resist>
-        <immune></immune>
-        <conditionImmune></conditionImmune>
-        <senses></senses>
-        <passive>11</passive>
-        <languages>understands Goblin but can't speak</languages>
-        <cr>3</cr>
-        <trait>
-            <name>Amphibious</name>
-            <text>The young horizonback tortoise can breathe air and water.</text>
-        </trait>
-        <action>
-            <name>Bite</name>
-            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
-            <attack>Bite|7|4d6+4</attack>
         </action>
     </monster>
 </compendium>
